@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00082__L1_scan",
+ "doc_id": "syn00082",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": "2025-07-10",
+  "seller_name": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE |",
+  "seller_gstin": "29QWGFG7417Y4ZG",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "277809.84",
+  "cgst_amount": "277809.84",
+  "sgst_amount": "277809.84",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "277809.84",
+  "grand_total": "297817.00",
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE |\nChauhan Overseas LLP INV-0242 2025-07-10\nSUPPLIER. ADDRESS SUPPLIER. GSTIN STATE / CODE |\nUnit No. 356, Okhla Phase I, Bengaluru, Karnataka - 580392 | 290LXCC4416D1ZE Karnataka / 29\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nGupta & Sons 29QWGFG7417Y4ZG 29 - Karnataka\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\nPlot No. 68, Sector 63, Mysuru, Karnataka - 572298 NO 15 Days\niS] ocenwsinny [aswel an [wae | vere | venevatn [Et [one aneum same\nOffice |\n1 | Workstation 9403 2|}NOS|16095.79| 32191.58] 18 | 2897.24 2897.24 |\nTable |\nMS Fabricated |\n2 7308 | 126.370|KGS 117,57) 14857.32| 18 113371611337 ic\nStructure\nCotton Round\n3 : 6109 586] PCS 393.79/230760.94| 5 |5769.02/5769.02\nNeck T-Shirt\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\n277809.84 10003.42 10003.42 0.32\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\nX 297817.00 \u2014 Rupees Two Lakh Ninety Seven Thousand Eight Hundred and Seventeen Only |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7508,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 962,
+  "gstins_found": 1
+ }
+}

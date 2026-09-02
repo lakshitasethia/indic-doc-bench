@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00061__L2_photo",
+ "doc_id": "syn00061",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-A-7910",
+  "invoice_date": "2025-10-05",
+  "seller_name": "Mahajan Infratech Pvt. Ltd.",
+  "seller_gstin": "08FARCM3781J9ZF",
+  "seller_address": "Unit No. 148, Naraina Vihar Udaipur \u00b7 Rajasthan 332978",
+  "buyer_name": "Mehra Traders",
+  "buyer_gstin": "08KYIFM8088I8ZT",
+  "buyer_address": "Plot No. 324, Kalbadevi Road, Udaipur, Rajasthan - 321007",
+  "place_of_supply": "Rajasthan (08)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 8,
+    "unit": "NOS",
+    "unit_price": 17395.1,
+    "discount": null,
+    "taxable_value": 139160.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 65564.93,
+    "discount": null,
+    "taxable_value": 64253.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 6.859,
+    "unit": "KGS",
+    "unit_price": 131.97,
+    "discount": null,
+    "taxable_value": 905.18,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 12.851,
+    "unit": "KGS",
+    "unit_price": 301.99,
+    "discount": null,
+    "taxable_value": 3880.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 2,
+    "unit": "SET",
+    "unit_price": 774.74,
+    "discount": null,
+    "taxable_value": 1549.48,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.656,
+    "unit": "TON",
+    "unit_price": 50458.3,
+    "discount": null,
+    "taxable_value": 33100.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15883.93,
+    "discount": null,
+    "taxable_value": 15883.93,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 9999,
+    "unit": "NOS",
+    "unit_price": 22.27,
+    "discount": null,
+    "taxable_value": 222677.73,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 481412.26,
+  "cgst_amount": 43074.85,
+  "sgst_amount": 43074.85,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.04,
+  "grand_total": 567562,
+  "amount_in_words": "Rupees Five Lakh Sixty Seven Thousand Five Hundred and Sixty Two Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TAX-A-7910\",\n  \"invoice_date\": \"2025-10-05\",\n  \"seller_name\": \"Mahajan Infratech Pvt. Ltd.\",\n  \"seller_gstin\": \"08FARCM3781J9ZF\",\n  \"seller_address\": \"Unit No. 148, Naraina Vihar Udaipur \u00b7 Rajasthan 332978\",\n  \"buyer_name\": \"Mehra Traders\",\n  \"buyer_gstin\": \"08KYIFM8088I8ZT\",\n  \"buyer_address\": \"Plot No. 324, Kalbadevi Road, Udaipur, Rajasthan - 321007\",\n  \"place_of_supply\": \"Rajasthan (08)\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 8,\n      \"unit\": \"NOS\",\n      \"unit_price\": 17395.1,\n      \"discount\": null,\n      \"taxable_value\": 139160.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 65564.93,\n      \"discount\": null,\n      \"taxable_value\": 64253.63,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 6.859,\n      \"unit\": \"KGS\",\n      \"unit_price\": 131.97,\n      \"discount\": null,\n      \"taxable_value\": 905.18,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 12.851,\n      \"unit\": \"KGS\",\n      \"unit_price\": 301.99,\n      \"discount\": null,\n      \"taxable_value\": 3880.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 2,\n      \"unit\": \"SET\",\n      \"unit_price\": 774.74,\n      \"discount\": null,\n      \"taxable_value\": 1549.48,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 0.656,\n      \"unit\": \"TON\",\n      \"unit_price\": 50458.3,\n      \"discount\": null,\n      \"taxable_value\": 33100.64,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 15883.93,\n      \"discount\": null,\n      \"taxable_value\": 15883.93,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 9999,\n      \"unit\": \"NOS\",\n      \"unit_price\": 22.27,\n      \"discount\": null,\n      \"taxable_value\": 222677.73,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 481412.26,\n  \"cgst_amount\": 43074.85,\n  \"sgst_amount\": 43074.85,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.04,\n  \"grand_total\": 567562,\n  \"amount_in_words\": \"Rupees Five Lakh Sixty Seven Thousand Five Hundred and Sixty Two Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3024,
+ "output_tokens": 1046,
+ "cached_input_tokens": 0,
+ "latency_s": 13.576,
+ "cost_usd": 0.000749632,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00017__L1_scan",
+ "doc_id": "syn00017",
+ "level": "L1_scan",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL8162",
+  "invoice_date": "2026-01-03",
+  "seller_name": "Chauhan Overseas",
+  "seller_gstin": "06PXFCC0489R9Z5",
+  "seller_address": "Gala No. 365, Industrial Estate Panipat 126620 Haryana",
+  "buyer_name": "Ganguly Engineering Works Pvt. Ltd.",
+  "buyer_gstin": "06IKZPG0194U3ZT",
+  "buyer_address": "Khasra No. 250, Focal Point Gurugram 126806 Haryana",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 127,
+    "unit": "NOS",
+    "unit_price": 36.29,
+    "discount": null,
+    "taxable_value": 4608.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 299.633,
+    "unit": "KGS",
+    "unit_price": 85.84,
+    "discount": null,
+    "taxable_value": 25720.5,
+    "tax_rate": 5
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.282,
+    "unit": "TON",
+    "unit_price": 48700.91,
+    "discount": null,
+    "taxable_value": 13733.66,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 44062.99,
+  "cgst_amount": 2293.83,
+  "sgst_amount": 2293.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.35,
+  "grand_total": 48651,
+  "amount_in_words": "Rupees Forty Eight Thousand Six Hundred and Fifty One Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"DL8162\",\n  \"invoice_date\": \"2026-01-03\",\n  \"seller_name\": \"Chauhan Overseas\",\n  \"seller_gstin\": \"06PXFCC0489R9Z5\",\n  \"seller_address\": \"Gala No. 365, Industrial Estate Panipat 126620 Haryana\",\n  \"buyer_name\": \"Ganguly Engineering Works Pvt. Ltd.\",\n  \"buyer_gstin\": \"06IKZPG0194U3ZT\",\n  \"buyer_address\": \"Khasra No. 250, Focal Point Gurugram 126806 Haryana\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Corrugated Carton Box 5-Ply\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 127,\n      \"unit\": \"NOS\",\n      \"unit_price\": 36.29,\n      \"discount\": null,\n      \"taxable_value\": 4608.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Basmati Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 299.633,\n      \"unit\": \"KGS\",\n      \"unit_price\": 85.84,\n      \"discount\": null,\n      \"taxable_value\": 25720.5,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 0.282,\n      \"unit\": \"TON\",\n      \"unit_price\": 48700.91,\n      \"discount\": null,\n      \"taxable_value\": 13733.66,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 44062.99,\n  \"cgst_amount\": 2293.83,\n  \"sgst_amount\": 2293.83,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.35,\n  \"grand_total\": 48651,\n  \"amount_in_words\": \"Rupees Forty Eight Thousand Six Hundred and Fifty One Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3912,
+ "output_tokens": 585,
+ "cached_input_tokens": 0,
+ "latency_s": 14.7229,
+ "cost_usd": 0.000650208,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

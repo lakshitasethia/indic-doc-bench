@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00033__L1_scan",
+ "doc_id": "syn00033",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "9163",
+  "invoice_date": "2026-03-08",
+  "seller_name": "Naidu Solutions Limited",
+  "seller_gstin": "32TEHFN1591J6ZC",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "32VLMCM8269U9ZV",
+  "buyer_address": null,
+  "place_of_supply": "Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1289604.86",
+  "cgst_amount": "77038.66",
+  "sgst_amount": "77038.66",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.18",
+  "grand_total": "1443682.00",
+  "amount_in_words": null
+ },
+ "raw": "Naidu Solutions Limited\nKhasra No. 351, Ambattur Industrial Estate, Thiruvananthapuram, Kerala - 671104\nGSTIN: 32TEHFN1591J6ZC \u00ab State Code: 32\nTS ET a I TTT EET ES,\nTAX INVOICE\nBill To .\nMenon Infratech Invoice No. 9163\nDoor No. 53, Udyog Vihar Date 08-Mar-2026\nThiruvananthapuram, Kerala - 684601 Payment Terms Advance\nGSTIN: 32VLMCM8269U9ZV Reverse Charge Yes\nPlace of Supply: Kerala\njee] rartcuters | nsnvsac] oy | mate | Test | SST | ac\n1 Cotton Round Neck T-Shirt 6109 903 PCS) 258.89 233777.67 5%  11688.88\n2 Hard Bound Register 200 Pages 4820 100 NOS 111.03: 11103.00 18% 1998.54\n3 Corrugated Carton Box 5-Ply 4819 22 NOS 77.48 1704.56 18% 306.82\n4 Detergent Powder 1kg 3402 6 PCS 115.76 694.56 18% 125.02\n5 Instant Drink Premix 2106 187 PCS| 223.57] 41807.59| 18% | 7525.36\n6 OPC 53 Grade Cement 50kg 2503 3BAG 402.85 1184.38 28% 331.62\n7 Cotton Woven Fabric 44 inch 5208 a ee 110.93 63084.25 5% | 3154.22\n8 Glucose Biscuits 200g 1905 390 BOX =254.84 99387.60 18% 17889.76\n9 MS Hex Bolt with Nut M12 7318 | 510 NOS 37.85 | 19303.50| 18% |. 3474.64\n10 Refined Sugar S-30 1701 | 875.687 KGS 49.28 43153.86 5% 2157.70\n11 Synthetic Enamel Paint 4L 3208 3.035 LTR) 354.57 1076.12 18% 193.70\nPVC Insulated Copper Cable 771.780 \u2018\n12 2.5sqmm 8544 MTR 46.53 35910.92 18% 6463.96\n13 Basmati Rice (Broken 5%) 1006 oe 111.20 246739.79 5% 12336.98\n14 Radial Tyre 195/65 R15 4011 11 NOS 5724.72 62971.92 28% 17632.14\n15 Multifunction Laser Printer 8443 1NOS 16193.13 16193.13 18% 2914.76\n16 Foam Mattress 72x36 9404 4NOS | 7586.43 30345.72 18% 5462.22\n17 Assam CTC Tea Leaf 0902 ee 266.58 62991.79 5% 3149.58\n18 Leather Formal Shoes 6403 139 PRS) 2335.74 318174.50 18% | 57271.42\nTotal Taxable Value 1289604.86\nCGST 77038.66\nSGST 77038.66\nRound Off -0.18\nGrand Total % 1443682.00\nAmount in words: Rupees Fourteen Lakh Forty Three Thousand Six Hundred and Eighty Two Only\nBank: HDFC Bank, A/c 9889893771669129, IFSC KEWZ0250319, Thiruvananthapuram\nFor Naidu Solutions Limited\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.665,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1991,
+  "gstins_found": 2
+ }
+}

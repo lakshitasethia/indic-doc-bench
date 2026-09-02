@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00038__L3_harsh",
+ "doc_id": "syn00038",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "100-2135",
+  "invoice_date": "2026-04-04",
+  "seller_name": "CHAUHAN ELECTRICALS",
+  "seller_gstin": null,
+  "seller_address": "BILIMORA",
+  "buyer_name": "M/s. Pooja Electricals Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Bilimora, Gujarat",
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Electric Wire, Ordinary Set",
+    "hsn_sac": "10-083",
+    "quantity": 400.75,
+    "unit": "kg",
+    "unit_price": 73.61,
+    "discount": null,
+    "taxable_value": 7141.6,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 7141.6,
+  "cgst_amount": 642.74,
+  "sgst_amount": 642.74,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.08,
+  "grand_total": 8427,
+  "amount_in_words": "Rupees Eight Thousand Four Hundred and Twenty Seven Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"100-2135\",\n  \"invoice_date\": \"2026-04-04\",\n  \"seller_name\": \"CHAUHAN ELECTRICALS\",\n  \"seller_gstin\": null,\n  \"seller_address\": \"BILIMORA\",\n  \"buyer_name\": \"M/s. Pooja Electricals Limited\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Bilimora, Gujarat\",\n  \"place_of_supply\": \"Gujarat\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Electric Wire, Ordinary Set\",\n      \"hsn_sac\": \"10-083\",\n      \"quantity\": 400.75,\n      \"unit\": \"kg\",\n      \"unit_price\": 73.61,\n      \"discount\": null,\n      \"taxable_value\": 7141.60,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 7141.6,\n  \"cgst_amount\": 642.74,\n  \"sgst_amount\": 642.74,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.08,\n  \"grand_total\": 8427,\n  \"amount_in_words\": \"Rupees Eight Thousand Four Hundred and Twenty Seven Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1644,
+ "output_tokens": 328,
+ "cached_input_tokens": 0,
+ "latency_s": 6.3666,
+ "cost_usd": 0.000307424,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

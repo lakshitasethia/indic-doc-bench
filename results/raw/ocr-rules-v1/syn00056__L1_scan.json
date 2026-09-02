@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00056__L1_scan",
+ "doc_id": "syn00056",
+ "level": "L1_scan",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TI/25-26/6922",
+  "invoice_date": "2025-08-29",
+  "seller_name": "MEHRA ELECTRICALS PRIVATE",
+  "seller_gstin": "27EPNCS5392F4ZU",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "408.42",
+  "sgst_amount": "408.42",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "20.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "MEHRA ELECTRICALS PRIVATE\nLIMITED\nDoor No. 420, Ambattur Industrial Estate\nMumbai - 406591\nGSTIN: 27PLAPM382615Z2K\nState: Maharashtra (27)\nTAX INVOICE\n\nBill No: TI/25-26/6922\nDate: 29/08/2025\nPOS: Maharashtra\nCustomer: Sethi Textiles\nGSTIN: 27EPNCS5392F4ZU\n1. OPC 53 Grade Cement 50kg\n\nHSN 2523 TBAG x 416.76 2917.32\nTaxable PESILI SV\ncGst 408.42\nSGST 408.42\nRound Off \u2014On 20)\nTOTAL Rs .3734.00\nRupees \u2018Three Thousand. Seven Hundred and Thirty :\nFour Only\n\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3046,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 514,
+  "gstins_found": 1
+ }
+}

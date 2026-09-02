@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00043__L3_harsh",
+ "doc_id": "syn00043",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "51/27-04/2784",
+  "invoice_date": "2026-03-02",
+  "seller_name": "Barejia Overseas LLP",
+  "seller_gstin": "29UUPB2492GSE",
+  "seller_address": "Cata No. 408, Ring Road, Mangalore, Karnataka - 574119",
+  "buyer_name": "Agrawal Pharma",
+  "buyer_gstin": null,
+  "buyer_address": "Shop No. 144, MIG, Phase II, Bengaluru, Karnataka - 560094",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS New Bion with Nut M10",
+    "hsn_sac": "7318",
+    "quantity": 4470,
+    "unit": "NO'S",
+    "unit_price": 15.0,
+    "discount": 0,
+    "taxable_value": 67050.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 67050.0,
+  "cgst_amount": 6034.5,
+  "sgst_amount": 6034.5,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.5,
+  "grand_total": 79125.0,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"51/27-04/2784\",\n  \"invoice_date\": \"2026-03-02\",\n  \"seller_name\": \"Barejia Overseas LLP\",\n  \"seller_gstin\": \"29UUPB2492GSE\",\n  \"seller_address\": \"Cata No. 408, Ring Road, Mangalore, Karnataka - 574119\",\n  \"buyer_name\": \"Agrawal Pharma\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Shop No. 144, MIG, Phase II, Bengaluru, Karnataka - 560094\",\n  \"place_of_supply\": \"Karnataka\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS New Bion with Nut M10\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 4470,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 15.00,\n      \"discount\": 0,\n      \"taxable_value\": 67050.00,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 67050.00,\n  \"cgst_amount\": 6034.50,\n  \"sgst_amount\": 6034.50,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.50,\n  \"grand_total\": 79125.00,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1675,
+ "output_tokens": 380,
+ "cached_input_tokens": 0,
+ "latency_s": 8.852,
+ "cost_usd": 0.00033227999999999996,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

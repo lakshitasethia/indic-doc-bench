@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00000__L3_harsh",
+ "doc_id": "syn00000",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "cin mr mae oa pane",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "cin mr mae oa pane\na) intent wo Dene\n: peniree \u2122\n= scunnaet i :\nSe ces an\n: ee ~\nee rae ee <a te\neet mae etm | te a al Seams Ses\nOe : ee rel gute ma\n- \u2014\" es) a) aes peornyeg nel 7\nrs ae tat am aera ree\nrete jeeeene SON\nes uu \u2018| * nl ue yeas Se wit we\n~ oo mare o| me ional eh Se\ni ~ + \u00a9 Yim | mae tte ee, pet See\nae 3 + easeany settee\neer (eel SS\n* = sleet Ieee at a\nance ME eset] ae, Fan Oa\n: A Meee Te\n: ee\nparr\n\u2014 ene\nim ee eT ntact oe: |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4445,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 441,
+  "gstins_found": 0
+ }
+}

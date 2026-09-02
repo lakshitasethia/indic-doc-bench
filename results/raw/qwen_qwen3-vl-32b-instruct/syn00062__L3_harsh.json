@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00062__L3_harsh",
+ "doc_id": "syn00062",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/23-24/011",
+  "invoice_date": "2023-07-19",
+  "seller_name": "CHAUVAN & SONS PVT. LTD.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Rajat Mehta",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 1008, Sector 1, Noida, Uttar Pradesh - 201301",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Paracetamol 250 650mg Tablets",
+    "hsn_sac": null,
+    "quantity": 144,
+    "unit": "Box",
+    "unit_price": 185,
+    "discount": null,
+    "taxable_value": 26640,
+    "tax_rate": 18
+   },
+   {
+    "description": "Lactate Effervescent Showers",
+    "hsn_sac": null,
+    "quantity": 48,
+    "unit": "BAG",
+    "unit_price": 2750,
+    "discount": null,
+    "taxable_value": 132000,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 3-Ply",
+    "hsn_sac": null,
+    "quantity": 14,
+    "unit": "Pcs",
+    "unit_price": 325,
+    "discount": null,
+    "taxable_value": 4550,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "BOX",
+    "unit_price": 82450,
+    "discount": null,
+    "taxable_value": 82450,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 245640,
+  "cgst_amount": 22107.6,
+  "sgst_amount": 22107.6,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 289855.2,
+  "amount_in_words": "Rupees Two Lakh Eighty Nine Thousand Eight Hundred and Fifty Five Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/23-24/011\",\n  \"invoice_date\": \"2023-07-19\",\n  \"seller_name\": \"CHAUVAN & SONS PVT. LTD.\",\n  \"seller_gstin\": null,\n  \"seller_address\": null,\n  \"buyer_name\": \"Rajat Mehta\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Plot No. 1008, Sector 1, Noida, Uttar Pradesh - 201301\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Paracetamol 250 650mg Tablets\",\n      \"hsn_sac\": null,\n      \"quantity\": 144,\n      \"unit\": \"Box\",\n      \"unit_price\": 185,\n      \"discount\": null,\n      \"taxable_value\": 26640,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Lactate Effervescent Showers\",\n      \"hsn_sac\": null,\n      \"quantity\": 48,\n      \"unit\": \"BAG\",\n      \"unit_price\": 2750,\n      \"discount\": null,\n      \"taxable_value\": 132000,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Carton Box 3-Ply\",\n      \"hsn_sac\": null,\n      \"quantity\": 14,\n      \"unit\": \"Pcs\",\n      \"unit_price\": 325,\n      \"discount\": null,\n      \"taxable_value\": 4550,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": null,\n      \"quantity\": 1,\n      \"unit\": \"BOX\",\n      \"unit_price\": 82450,\n      \"discount\": null,\n      \"taxable_value\": 82450,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 245640,\n  \"cgst_amount\": 22107.6,\n  \"sgst_amount\": 22107.6,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": null,\n  \"grand_total\": 289855.2,\n  \"amount_in_words\": \"Rupees Two Lakh Eighty Nine Thousand Eight Hundred and Fifty Five Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1732,
+ "output_tokens": 597,
+ "cached_input_tokens": 0,
+ "latency_s": 7.1628,
+ "cost_usd": 0.00042847999999999996,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00007__L2_photo",
+ "doc_id": "syn00007",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-5606",
+  "invoice_date": "2025-07-27",
+  "seller_name": "Iyer Logistics Pvt. Ltd.",
+  "seller_gstin": "33KPKCI8345J2Z2",
+  "seller_address": "Shop No. 112, SIDCO Complex, Salem Tamil Nadu - 615990",
+  "buyer_name": "Rao Marketing LLP",
+  "buyer_gstin": "33LRRFR7481N3ZZ",
+  "buyer_address": "Khasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 438.955,
+    "unit": "KGS",
+    "unit_price": 98.62,
+    "discount": null,
+    "taxable_value": 43289.74,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 73,
+    "unit": "PCS",
+    "unit_price": 255.78,
+    "discount": null,
+    "taxable_value": 18671.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15065.81,
+    "discount": null,
+    "taxable_value": 15065.81,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 11,
+    "unit": "PCS",
+    "unit_price": 61.65,
+    "discount": null,
+    "taxable_value": 678.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 130.992,
+    "unit": "KGS",
+    "unit_price": 97.37,
+    "discount": null,
+    "taxable_value": 12754.69,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 17.03,
+    "unit": "KGS",
+    "unit_price": 44.04,
+    "discount": null,
+    "taxable_value": 750.0,
+    "tax_rate": 5
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 461,
+    "unit": "SET",
+    "unit_price": 256.4,
+    "discount": null,
+    "taxable_value": 118200.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 269.773,
+    "unit": "KGS",
+    "unit_price": 180.59,
+    "discount": null,
+    "taxable_value": 47743.94,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 257154.67,
+  "cgst_amount": 22266.11,
+  "sgst_amount": 22266.11,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.11,
+  "grand_total": 301687.0,
+  "amount_in_words": "Rupees Three Lakh One Thousand Six Hundred and Eighty Seven Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-B-5606\",\n  \"invoice_date\": \"2025-07-27\",\n  \"seller_name\": \"Iyer Logistics Pvt. Ltd.\",\n  \"seller_gstin\": \"33KPKCI8345J2Z2\",\n  \"seller_address\": \"Shop No. 112, SIDCO Complex, Salem Tamil Nadu - 615990\",\n  \"buyer_name\": \"Rao Marketing LLP\",\n  \"buyer_gstin\": \"33LRRFR7481N3ZZ\",\n  \"buyer_address\": \"Khasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125\",\n  \"place_of_supply\": \"Tamil Nadu\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 438.955,\n      \"unit\": \"KGS\",\n      \"unit_price\": 98.62,\n      \"discount\": null,\n      \"taxable_value\": 43289.74,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 73,\n      \"unit\": \"PCS\",\n      \"unit_price\": 255.78,\n      \"discount\": null,\n      \"taxable_value\": 18671.94,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 15065.81,\n      \"discount\": null,\n      \"taxable_value\": 15065.81,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Toilet Soap 100g\",\n      \"hsn_sac\": \"3401\",\n      \"quantity\": 11,\n      \"unit\": \"PCS\",\n      \"unit_price\": 61.65,\n      \"discount\": null,\n      \"taxable_value\": 678.15,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Basmati Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 130.992,\n      \"unit\": \"KGS\",\n      \"unit_price\": 97.37,\n      \"discount\": null,\n      \"taxable_value\": 12754.69,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Refined Sugar S-30\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 17.03,\n      \"unit\": \"KGS\",\n      \"unit_price\": 44.04,\n      \"discount\": null,\n      \"taxable_value\": 750.0,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 461,\n      \"unit\": \"SET\",\n      \"unit_price\": 256.4,\n      \"discount\": null,\n      \"taxable_value\": 118200.4,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 269.773,\n      \"unit\": \"KGS\",\n      \"unit_price\": 180.59,\n      \"discount\": null,\n      \"taxable_value\": 47743.94,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 257154.67,\n  \"cgst_amount\": 22266.11,\n  \"sgst_amount\": 22266.11,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.11,\n  \"grand_total\": 301687.0,\n  \"amount_in_words\": \"Rupees Three Lakh One Thousand Six Hundred and Eighty Seven Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2908,
+ "output_tokens": 1026,
+ "cached_input_tokens": 0,
+ "latency_s": 42.9826,
+ "cost_usd": 0.0007292479999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

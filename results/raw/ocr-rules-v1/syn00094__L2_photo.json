@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00094__L2_photo",
+ "doc_id": "syn00094",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": "2025-09-06",
+  "seller_name": "Te",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "349253.00",
+  "amount_in_words": null
+ },
+ "raw": "Te\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\n2025-09-06\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n- 841\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\n10- Bihar |\nUnit No. 98, Kalbadevi Road, Muzaffarpur, Bihar - 828298 NO 45 Days |\n0 So\n| igs Biscuits | 1995 249.74| 70426.68 6338.40|6338.40|\n2 | rer Ce ice 0902 | 198.584 415.04|82420.30 2060.51| 2060.51\n3 | sale Drink \u2014_| 2106 206.97| 11797.29 a8 1061.76| 1061.76\n: mix\n: Basmati Rice |\n4 | galanin 1006] 32.717 83.26| 2669.54 | s | 66.74 66.74\nSynthetic Enamel\n5 | ae 3208 119.486 560.64| 66988.63 6028.98] 6028.98\nLaptop Computer | 5471 1 67482.40|64108.28| 18 |5769.75|5769.75\n_| \u00a9 lis 1668\nTMT Steel Bar\nem. |7214| 9-122 58054.75| 6941.03 a8 | 624.69} 624.69\n305351.75 21950.83 21950.83 -0.41\nTOTAL INVOICE VALUE (IN FIGURES: AND WORDS) |\n- | 349253.00 \u2014 Rupees Three Lakh Forty Nine Thousand Two Hundred and Fifty Three Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5481,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 887,
+  "gstins_found": 0
+ }
+}

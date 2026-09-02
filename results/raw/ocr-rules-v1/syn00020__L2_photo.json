@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00020__L2_photo",
+ "doc_id": "syn00020",
+ "level": "L2_photo",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "NAIDU DISTRIBUTORS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "20.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "NAIDU DISTRIBUTORS\nBail wor dwv-i539\nDate: 17/0872\nStim: OSeMPs4s91:329\nian 999299 dinos x 3707195 aaanvhe\nWs 996511 tznce x 2i0s8. 78 372705..36\nPeripherals\nWee 996723 iiniog x 3170.80 1207800\nina 998399 ze x doane. 0 toner -\u00ab\nBe Information Techoology Consulting service\nWan 996719 30s x 37144.44 titoa.32\nTaxable \u2018992347.53\n10st 33017086\n, Round off 20:33\nTOTAL Rs.1122518.00\nBipsta Eleven Lath twenty two Tovar Five\nMundred and Eighteen only\nGoede Se e5ld wili not be taken back\nEEE\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2616,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 487,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00046__L3_harsh",
+ "doc_id": "syn00046",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "& ae eee s TAR INWOICE .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "& ae eee s TAR INWOICE .\n\nfal \u2014\u2014 ae Aeslgcx! 401.12! yn61id-08] in| 14 7b0.77 16780. 7\nFy <\u2014-- bite Eee \u201c<qulecs! szb69| oxines| ye|: 30087) eo.87!\n3 er oeen |?! \u201cApes 2843.19) 25402.19/38)\" 2288.99) 2200 99)\nes nme (ee i - gwors| 9812.96, 0507.06) im) 140834) sane 30\na id > gman Seana} cme) - 443,92) or\u00e9n.er) un) 2767193) 2707.09\n: teat Amos iazeed.s9) aree0.se! 18) fey7us) r4z7:05\nee mas [7 \u201c2 126.55 257100 40/16 20490.77| 23499.77\n\noon 18527 | HINGE tPRIOs) 34052.00|t4| pisaen) did00\n\naa B hood ines \u201cAS72R) \u2018Sesenel ie) stin.es) p00 b4\n\n& \u201ceit] alc 7285 Bt! \u00a34571 68! 28) 2040.05). 2040.04\n\n25 Byte \u2018ag Mera) eeen2ei ss! assis) assis\n\na \u2018ag & 95) 28 | 48452 44) anes 25),\n\n- ois es ata ere?) ) ow) ie\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4164,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 710,
+  "gstins_found": 0
+ }
+}

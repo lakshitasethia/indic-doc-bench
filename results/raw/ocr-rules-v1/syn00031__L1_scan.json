@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00031__L1_scan",
+ "doc_id": "syn00031",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "0694",
+  "invoice_date": null,
+  "seller_name": "ax diss / TAX INVOICE",
+  "seller_gstin": "36JSYPT6737U7ZK",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "100.00",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "331629.00",
+  "amount_in_words": null
+ },
+ "raw": "ax diss / TAX INVOICE\nTrivedi Industries Pvt. Ltd. :\n: ae. / Invoice No. 0694\nShop No. 417, Udyog Vihar, Hyderabad |\nTelangana - 502107 fetes) Diels YARN ACA:\nsitva\u00e9tan\u00e9ea / GSTIN: 36JSYPT6737U7ZK ars et / TENS Cash\nxa / Buyer: Kulkarni Solutions LLP\nKhasra No. 355, Peenya 2nd Stage, Faridabad, Haryana - 131538\nGSTIN: O6GEBPK1834L6ZA | sngffen / Place of Supply: Haryana\nfl me | |e ee\nter GST% IGST\nDescription Qty Rate Taxable\nToilet Soap 100g 3401| 988pcs| 49.98] 49380.24 8888.44\nSynthetic Enamel Paint 4L 3208 | 4.701 LTR| 673.66| 3008.54 541.54\nHard Bound Register 200 Pages 4820 | 2270NoS| 111.92] 228652.56 41157.46\ngaa ara / Taxable 281041.34\nIGST 50587.44\ngaufa / Grand Total 331629.00\netsal # / In words: Rupees Three Lakh Thirty One Thousand Six Hundred and Twenty Nine Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6796,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 788,
+  "gstins_found": 1
+ }
+}

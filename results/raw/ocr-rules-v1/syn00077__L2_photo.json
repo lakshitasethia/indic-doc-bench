@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00077__L2_photo",
+ "doc_id": "syn00077",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "FROM BILLED TC",
+  "seller_gstin": "29ROZPT7406R6ZT",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "07CBPCS2522R5ZH",
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "244668.84",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "44040.39",
+  "cess_amount": null,
+  "round_off": "0.23",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FROM BILLED TC\nTrivedi Steel & Alloys LLP Shetty & Sons Pyt. Ltd. $1/25-26/1310\nDoor No. 62, Ring Road Unit No. 232, MG Road\nBengaluru 572538 New Delhi 110481\nKarnataka Dethi 149 June 2025\nGSTIN 3STIN\n29ROZPT7406R6ZT 07CBPCS2522R5ZH Deni\nDESCRIPTION HSN\nPVC Insulated Copper Cable 2.5sqmm 9544 4001.016 MTR 60.52 18 242141.49\nStainless Steel Cutlery Set 8215 5 SET 505.47 18\u00b0 2527.35\nSubtotal 244668.84\nIGST 44040.39\nRounding -0.23\n12 alot ae\n: Total %288709.00\nRupees Two Lakh Eighty Eight Thousand Seven Hundred and Nine Only\nBank of Baroda 27096415883 FLJS0959407\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2908,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 567,
+  "gstins_found": 2
+ }
+}

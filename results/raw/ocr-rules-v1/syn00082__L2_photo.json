@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00082__L2_photo",
+ "doc_id": "syn00082",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "NE EEE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "297817.00",
+  "cgst_amount": "297817.00",
+  "sgst_amount": "297817.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "297817.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "NE EEE\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\n[io] evcintonerson [wonsnc] a [vee | untmnse | reavate | fh [cee Anns anon\nOffice\n1 | Workstation 9403 2}NOS/16095.79} 32191.58| 18 |2897.24| 2897.24\nTable\nMS Fabricated\n7308 | 126.370 117.57} 14857.32 18, 1337.16) 1337.16\nCotton Round\nNeck T-Shirt 6109 | sa6|ecs| 393.79 | 230760.94 | 5769.02/5769.02\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\n= 297817.00 \u2014 Rupees: Two Lakh Ninety Seven Thousand Eight Hundred and Seventeen Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4194,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 628,
+  "gstins_found": 0
+ }
+}

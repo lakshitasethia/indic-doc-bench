@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00053__L2_photo",
+ "doc_id": "syn00053",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-08-28",
+  "seller_name": "INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "209181.39",
+  "cgst_amount": "18914.20",
+  "sgst_amount": "18914.20",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.21",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "INVOICE\nThived Steel & Alloys Pvt. Ltd, Kutkered Distibutors 2008-26/4270\nDoor No. 127,'MIDC Phase ! Plot No. 207, SIDCO Complex\nrep ldo hed Beton 28 August 2025\n19G\u00a5DPTs29908z4 Ue ah West Bengal\nOffice Workstation Table 9403 1NOS \u2014 17973.43\u00b0 18% 17973.43\nTMT Steel Bar Fe-500 12mm 7214 0.100 TON 51679.55 18% 5167.96\nHard Bound Register 200 Pages 4820 14.NOS 114.70 18% 1605.80\nInstant Drink Premix 2106 55 PCS 210:85 18%  11596.75\nOPC 53 Grade Cement 50kg 2523 5 BAG 351.52 289 1757.60\nStainless Stee! Cutlery Set 8215 152 SET 393.53 18 59816.56\nSmartphone 6GB/128GB 8517 1NOS 32855:34 18 32855.34\nLaptop Computer i5 16GB 8471 1NOS  68361.71 18 68361.71\nMS Hex Bolt with Nut M12 7318 592 NOS 16.97 18 10046.24\nSubtotal 209181.39\nCGST 18914.20\nSGST 18914.20\nRounding 0.21\nTotal %247010.00\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.386,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 790,
+  "gstins_found": 0
+ }
+}

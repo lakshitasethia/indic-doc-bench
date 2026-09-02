@@ -1,0 +1,42 @@
+{# Narrow thermal/POS roll: no table borders, wrapped descriptions, extreme
+   aspect ratio. Retail counters issue these as GST invoices constantly. #}
+<style>{{ base_css }}
+@page { size: 80mm 400mm; margin: 3mm; }
+body { font-family: "Courier New", monospace; font-size: 8pt; width: 74mm; }
+.c2 { text-align:center; }
+.sep { border-top:1px dashed #000; margin:3px 0; }
+.row { display:flex; justify-content:space-between; }
+td { border:none; padding:0; font-size:7.5pt; }
+</style>
+<div class="c2"><b style="font-size:11pt">{{ r.seller_name|upper }}</b><br>
+  {{ sa.line1 }}<br>{{ sa.city }} - {{ sa.pincode }}<br>
+  GSTIN: {{ r.seller_gstin }}<br>State: {{ sa.state }} ({{ sa.state_code }})</div>
+<div class="sep"></div>
+<div class="c2"><b>TAX INVOICE</b></div>
+<div class="sep"></div>
+<div class="row"><span>Bill No:</span><span><b>{{ r.invoice_number }}</b></span></div>
+<div class="row"><span>Date:</span><span>{{ d.dmy_slash }}</span></div>
+<div class="row"><span>POS:</span><span>{{ ba.state }}</span></div>
+<div>Customer: {{ r.buyer_name }}</div>
+<div>GSTIN: {{ r.buyer_gstin or 'URP' }}</div>
+<div class="sep"></div>
+<table>
+{% for it in items %}
+  <tr><td colspan="2">{{ loop.index }}. {{ it.description }}</td></tr>
+  <tr><td style="padding-left:8px">HSN {{ it.hsn_sac }} &nbsp; {{ it.quantity }}{{ it.unit }} x {{ it.unit_price }}</td>
+      <td class="r">{{ it.taxable_value }}</td></tr>
+  {% if it.discount %}<tr><td style="padding-left:8px">Less Disc</td><td class="r">-{{ it.discount }}</td></tr>{% endif %}
+{% endfor %}
+</table>
+<div class="sep"></div>
+<div class="row"><span>Taxable</span><span>{{ r.total_taxable_value }}</span></div>
+{% if interstate %}<div class="row"><span>IGST</span><span>{{ r.igst_amount }}</span></div>
+{% else %}<div class="row"><span>CGST</span><span>{{ r.cgst_amount }}</span></div>
+<div class="row"><span>SGST</span><span>{{ r.sgst_amount }}</span></div>{% endif %}
+<div class="row"><span>Round Off</span><span>{{ r.round_off }}</span></div>
+<div class="sep"></div>
+<div class="row" style="font-size:10pt"><b>TOTAL</b><b>Rs.{{ r.grand_total }}</b></div>
+<div class="sep"></div>
+<div style="font-size:7pt">{{ r.amount_in_words }}</div>
+<div class="sep"></div>
+<div class="c2" style="font-size:7pt">Goods once sold will not be taken back<br>*** THANK YOU ***</div>

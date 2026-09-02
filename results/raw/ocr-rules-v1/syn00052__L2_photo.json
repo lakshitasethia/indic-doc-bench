@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00052__L2_photo",
+ "doc_id": "syn00052",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL2278",
+  "invoice_date": "2025-05-15",
+  "seller_name": "Kulkarni Traders Pvt. Ltd. [ORIGAL FOR RECIPIENT",
+  "seller_gstin": "19UCPPK4251R7Z1",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "14028.04",
+  "cess_amount": null,
+  "round_off": "70.47",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Kulkarni Traders Pvt. Ltd. [ORIGAL FOR RECIPIENT\nGala No. 140, Ambattur Industrial Estate, Siliguri, West Bengal - 725148 Invoice No DL2278\n'GSTIN 19UCPPK4251R7Z1 State Code 19 : Invoice Date 15-05-2025\nTerms 15 Days\ncee e eee eee eee eee\nBilled To Shipped To\nGupta Engineering Works Pvt. Ltd. Gupta Engineering Works Pvt. Ltd.\nPlot No. 362, Ring Road, Amritsar, Punjab - 141982 Plot No. 362, Ring Road, Amritsar\nGSTIN Unregistered Place of Supply Punjab (03) Reverse Charge: No |\n] Description of Goods / Services [nse [ay vom Rate [bse [tenable ost [est [ine Tota\n| 1 | Leather Formal Shoes [6403 | sg PRS | 2167.61] | 19508.49| 18 | 3511.53 23020.02\nCotton Woven Fabric 44 inch 5208 762.633). MTR 186.41; | ~~ 142162.42| 5 | 7108.12 149270.54\nToilet Soap 100g 3401 | seta] Pcs | .. 3064] | 18935.52| 18 | 3408.39 22343.91\nHSN Sui\nee ee ee ee\n19508.49| 18% 3611.53 IGST 14028.04\n5208 142162.42| 5% 7108.12 Round Off 70.47\n3401 18935.52| 18% 3408.39 Total 194634.00\nAmount in words: Rupees One Lakh Ninety Four Thousand Six Hundred and Thirty Four Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5863,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1054,
+  "gstins_found": 1
+ }
+}

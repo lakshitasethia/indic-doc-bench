@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00059__L0_clean",
+ "doc_id": "syn00059",
+ "level": "L0_clean",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TI/25-26/8202",
+  "invoice_date": "2025-06-13",
+  "seller_name": "Document Type TAX INVOICE Invoice No TI/25-26/8202",
+  "seller_gstin": "08ICGCJ0734R9ZJ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "1.00",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No TI/25-26/8202\nSupplier Kulkarni Distributors LLP Invoice Date \u2014\u00a7 13-06-2025\nSupplier GSTIN =33WDWCK754515Z0 Terms 45 Days\neuygaligr Unit No. 466, Peenya 2nd Stage, Salem, Tamil Nadu - 604323\nAddress\nRecipient Joshi Traders Limited po 08ICGCJ0734R9ZJ\nRecipient Door No. 418, Ambattur Industrial Estate, Jodhpur, Rajasthan - | Place of Rajasthan\nAddress 333093 Supply !\nReverse Charge No Currency INR\n: Item . . . .\nLine Description HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate IGST_Amt Line_Total\nMultifunction\n1 Laser 8443 1 NOS 27259.75 545.20 26714.55 18, 4808.62 31523.17\nPrinter\nMS Hex Bolt\n2 with Nut 7318 2600 NOS 24.77 0.00 64402.00 18, 11592.36 75994.36\nM12\nCotton\nWoven\n3 Fabric 44 5208 12.618 MTR 107.76 0.00 1359.72 5 67.99 1427.71\ninch\nLaptop\n4 (Computer i5 8471 1 NOS 83765.11 8376.51 75388.60 18 13569.95 88958.55\n16GB\nFoam\n5 Mattress 9404 1 NOS 4513.59 0.00 4513.59 18 812.45 5326.04\n72x36\nTotal_Taxable_Value 172378.46\nTotal_IGST 30851.37\nRound_Off 0.17\nGrand_Total 203230.00\nRupees Two Lakh Three\nAmount_In_Words \u2014 Thousand Two Hundred\nand Thirty Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6327,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1120,
+  "gstins_found": 1
+ }
+}

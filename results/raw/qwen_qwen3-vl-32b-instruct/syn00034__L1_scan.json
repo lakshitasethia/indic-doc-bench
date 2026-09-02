@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00034__L1_scan",
+ "doc_id": "syn00034",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/5984",
+  "invoice_date": "2025-11-28",
+  "seller_name": "Ahuwalia Logistics",
+  "seller_gstin": "32HYTCA0401A1ZZ",
+  "seller_address": "Gala No. 217, GIDC Estate, Kochi, Kerala - 677378",
+  "buyer_name": "Fernandes Industries Limited",
+  "buyer_gstin": "32APFFF5479N8ZX",
+  "buyer_address": "Khasra No. 264, Okhla Phase I, Kochi, Kerala - 693193",
+  "place_of_supply": "32 - Kerala",
+  "reverse_charge": true,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 78486.61,
+    "discount": null,
+    "taxable_value": 78486.61,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 78486.61,
+  "cgst_amount": 7063.79,
+  "sgst_amount": 7063.79,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.19,
+  "grand_total": 92614,
+  "amount_in_words": "Rupees Ninety Two Thousand Six Hundred and Fourteen Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/5984\",\n  \"invoice_date\": \"2025-11-28\",\n  \"seller_name\": \"Ahuwalia Logistics\",\n  \"seller_gstin\": \"32HYTCA0401A1ZZ\",\n  \"seller_address\": \"Gala No. 217, GIDC Estate, Kochi, Kerala - 677378\",\n  \"buyer_name\": \"Fernandes Industries Limited\",\n  \"buyer_gstin\": \"32APFFF5479N8ZX\",\n  \"buyer_address\": \"Khasra No. 264, Okhla Phase I, Kochi, Kerala - 693193\",\n  \"place_of_supply\": \"32 - Kerala\",\n  \"reverse_charge\": true,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Other Professional and Technical Services\",\n      \"hsn_sac\": \"998399\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 78486.61,\n      \"discount\": null,\n      \"taxable_value\": 78486.61,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 78486.61,\n  \"cgst_amount\": 7063.79,\n  \"sgst_amount\": 7063.79,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.19,\n  \"grand_total\": 92614,\n  \"amount_in_words\": \"Rupees Ninety Two Thousand Six Hundred and Fourteen Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3948,
+ "output_tokens": 400,
+ "cached_input_tokens": 0,
+ "latency_s": 17.8731,
+ "cost_usd": 0.0005769919999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

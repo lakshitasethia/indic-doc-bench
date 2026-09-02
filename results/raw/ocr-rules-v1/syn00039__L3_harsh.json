@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00039__L3_harsh",
+ "doc_id": "syn00039",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "iivonen Fine S000 47.90 wen aves 5 BE T iontolll",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "iivonen Fine S000 47.90 wen aves 5 BE T iontolll\naes 4 fers coe ere RMSE eR RELI.\nMS mex Bom ERENT Ps YR PRO Ses\n\nSold sen 1838.80\ny Maes Be cing tah 28 NOOO OO A 5 aon Z\n\n\u00abNe ced - 0n02 20.2778) - $029) | a ie penser SE\n\nsitet | gsc eee 472 ME |\n\n4 vasomg 9008 SPOR, - oom) | see eae\n\n\"yee fe t00, 7214 SACO TORR a hes Sows:\n\ncee agen i a te \u2014 ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3258,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 348,
+  "gstins_found": 0
+ }
+}

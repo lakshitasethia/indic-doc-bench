@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00071__L1_scan",
+ "doc_id": "syn00071",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-3027",
+  "invoice_date": "2026-03-15",
+  "seller_name": "Document Type TAX INVOICE Invoice No INV-3027",
+  "seller_gstin": "24BYEPK4627Q9ZR",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "24RXVFS0903B2Z0",
+  "buyer_address": null,
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No INV-3027\nSupplier Kulkarni Steel & Alloys Invoice Date 15-03-2026\nSupplier GSTIN 24BYEPK4627Q9ZR Terms Cash\nSupplier Address \u2014 Khasra No. 214, Kalbadevi Road, Ahmedabad, Gujarat - 370347\nRecipient Sharma Industries eral 24RXVFS0903B2Z0\nRecipient Address Gala No. 268, MG Road, Ahmedabad, Gujarat --396812 Place of Supply Gujarat\nReverse Charge No Currency INR\nLine aes HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\n1 ieee Soap | 3401 356 PCS 60.33 429.55 21047.93 18 1894.31, 1894.31 24836.55\nParacetamol\n2 (IP 650mg 3004 29 BOX 21.00 60.90 548.10 12 32.89 32.89 613.88\nTablets\nSmartphone\n3 6GB/128GB 8517 1, NOS) 24888.94 0.00 24888.94 18 2240.00 2240.00 29368.94\nLaptop\n4 Computer i5 8471 3 NOS) 81930.02 0.00 245790.06 18 22121.11, 22121.11  290032.28\n16GB\nCotton\nBove) 5208 2.969 MTR \u2014-201.72 0.00 598.91 5 14.97 14.97, 628.85\nFabric 44 : ; : ; \u2018 ; \u2018\ninch\nMS Hex Bolt\n6 | with Nut 7318 413|NOS 23.20 0.00 9581.60 18 862.34 862.34 11306.28\nM12\nCotton\n7 | Round Neck 6109 233 PCS 219.69 0.00 51187.77 5 1279.69 1279.69) 53747.15\nT-Shirt\nStainless\n8 Steel 8215 19 SET 764.86 0.00 14532.34 18 1307.91 1307.91) 17148.16\nCutlery Set\nTotal_Taxable_Value 368175.65\nTotal_CGST 29753.22\nTotal_SGST 29753.22\nRound_Off -0.09\nGrand_Total 427682.00\nRupees Four Lakh Twenty\nAmount_In_Words \u2014 Seven Thousand Six Hundred\nand Eighty Two Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8998,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1407,
+  "gstins_found": 2
+ }
+}

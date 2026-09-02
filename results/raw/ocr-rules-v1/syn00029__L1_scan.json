@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00029__L1_scan",
+ "doc_id": "syn00029",
+ "level": "L1_scan",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Reddy",
+  "invoice_date": null,
+  "seller_name": "FROM BILLED TO INVOICE #",
+  "seller_gstin": "07LSSPR7919D4ZR",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1642.60",
+  "cgst_amount": null,
+  "sgst_amount": "147.83",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.26",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FROM BILLED TO INVOICE #\nReddy Technologies Bhatt Infratech 0881\nUnit No. 134, Focal Point Unit No. 379, Udyog Vihar one\nNew Delhi 110134 Delhi 110563\nDelhi Delhi a0\nGSTIN GSTIN PLACE OF SUPPLY\n07LSSPR7919D4ZR 070ZVPB4125J3ZR Delhi\nDESCRIPTION HSN QTY RATE GST AMOUNT\nmn a MOU\nHDPE Packing Bags 3923 5.292 KGS 177.48 18% 939.22\nGlucose Biscuits 200g 1905 2 BOX 351.69 18% 703.38\nSubtotal 1642.60\nCEST 147.83\nSGST 147.83\nRounding -0.26\nTotal 1938.00\nRupees One Thousand Nine Hundred and Thirty Eight Only\nState Bank of India - 34647623425741 - SGZU0446211\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5147,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 555,
+  "gstins_found": 1
+ }
+}

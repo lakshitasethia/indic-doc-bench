@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00037__L3_harsh",
+ "doc_id": "syn00037",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023/001",
+  "invoice_date": "2023-04-05",
+  "seller_name": "Joshi Infotech Pvt. Ltd.",
+  "seller_gstin": "27AAACJ8927P1ZG",
+  "seller_address": "Plot No. 123, Industrial Estate, Hyderabad, Telangana, 500001",
+  "buyer_name": "Bhagat Dass & Mittal LLP",
+  "buyer_gstin": "27AAAAJ8927P1ZG",
+  "buyer_address": "Plot No. 123, Industrial Estate, Hyderabad, Telangana, 500001",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 230,
+    "unit": "PCS",
+    "unit_price": 194.95,
+    "discount": null,
+    "taxable_value": 44838.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 20.567,
+    "unit": "SET",
+    "unit_price": 508.72,
+    "discount": null,
+    "taxable_value": 10436.46,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 55274.96,
+  "cgst_amount": 4974.75,
+  "sgst_amount": 4974.75,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.02,
+  "grand_total": 65249.68,
+  "amount_in_words": "Sixty Five Thousand Two Hundred Forty Nine Rupees and Sixty Eight Paise"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/2023/001\",\n  \"invoice_date\": \"2023-04-05\",\n  \"seller_name\": \"Joshi Infotech Pvt. Ltd.\",\n  \"seller_gstin\": \"27AAACJ8927P1ZG\",\n  \"seller_address\": \"Plot No. 123, Industrial Estate, Hyderabad, Telangana, 500001\",\n  \"buyer_name\": \"Bhagat Dass & Mittal LLP\",\n  \"buyer_gstin\": \"27AAAAJ8927P1ZG\",\n  \"buyer_address\": \"Plot No. 123, Industrial Estate, Hyderabad, Telangana, 500001\",\n  \"place_of_supply\": \"Telangana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 230,\n      \"unit\": \"PCS\",\n      \"unit_price\": 194.95,\n      \"discount\": null,\n      \"taxable_value\": 44838.5,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 20.567,\n      \"unit\": \"SET\",\n      \"unit_price\": 508.72,\n      \"discount\": null,\n      \"taxable_value\": 10436.46,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 55274.96,\n  \"cgst_amount\": 4974.75,\n  \"sgst_amount\": 4974.75,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.02,\n  \"grand_total\": 65249.68,\n  \"amount_in_words\": \"Sixty Five Thousand Two Hundred Forty Nine Rupees and Sixty Eight Paise\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1694,
+ "output_tokens": 497,
+ "cached_input_tokens": 0,
+ "latency_s": 12.2427,
+ "cost_usd": 0.000382928,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

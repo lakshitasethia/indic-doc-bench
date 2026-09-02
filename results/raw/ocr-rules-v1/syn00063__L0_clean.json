@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00063__L0_clean",
+ "doc_id": "syn00063",
+ "level": "L0_clean",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-08",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE te",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "573821.24",
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "677427.00",
+  "grand_total": "677427.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE te\nNor GENERATED matetatata\u00ae\n100000: 368889 2025-10-08 raaaad\n1 7 7 5-10-\n\u2019 ann nae\nKulkarni Pharma Pvt. Ltd. Iyer Industries LLP INV/25-26/9412\nGala No. 188, Peenya 2nd Stage, Rajkot, Gujarat Door No. 26, MG Road, Vadodara, Gujarat Document Date\n393426 394368 2025-10-08\nGSTIN GSTIN Place of Supply\n240SBCK7592G5ZV 24SIJLFI3523W6ZI 24 - Gujarat\nReverse Charge\nN\n[si | Item Description | HSN | Qty | ugc | UnitPrice | Discount | TaxableAmt |Rate| cGsTAmt | sGsTAmt | Total\nCotton\n1 | Woven 5208/62.250|MTR| 163.49 10177.25|5| 254.43) 254.43] 10686.11\nFabric 44 . . . . . ,\ninch\nSynthetic\n2 |Enamel 3208)|12.786| LTR 498.97 6379.83) 18 574.18 574.18} 7528.19\nPaint 4L\nOPC 53\n3 | Grade 2523 BAG| 452.96 3623.68|28| 507.32} 507.32) 4638.32\nCement , , , , ,\n50kg\nLaptop\n4 |Computer i5 |8471 1|NOS|62875.47 62875.47|/18| 5658.79) 5658.79| 74193.05\n16GB\nMultifunction\n8443 | 9\\Nos: 18833.36 oe 169500.24 15255.02/15255.02|200010.28\nRadial Tyre\n6 195/65 R15 4011 7100.69|1420.14 12781.24 28 1789.37| 1789.37) 16359.98\nMS Hex Bolt\n7 |with Nut 7318 199|NOS 27.46 5464.54/18 491.81 491.81 6448.16\nM12\nStainless\nSteel 8215 3} SET 452.72 1358.16/18 122.23 122.23 1602.62\nCutlery Set\nInstant\nDrink 2106 13} PCS 181.78 2363.14/18 212.68} 212.68) 2788.50\nPremix\nCorrugated\n10/Carton Box |4819} 6027/NOS 46.28 278929.56/ 18/25103.66|25103.66/329136.88\n5-Ply\nFoam\n11|Mattress 9404 1}NOS|10429.95 10429.95|18 938.70| 938.70} 12307.35\n72X36\nTMT Steel\n12|Bar Fe-500 |7214| 0.214|TON/51600.09/1104.24} 9938.18/18 894.44| 894.44) 11727.06\n12mm\nTotal Taxable Value 573821.24\nTotal CGST 51802.63\nTotal SGST 51802.63\nRound Off\nTotal Invoice Value 677427.00\nAmount in words: Rupees Six Lakh Seventy Seven Thousand Four Hundred and Twenty Seven Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.0751,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1747,
+  "gstins_found": 0
+ }
+}

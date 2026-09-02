@@ -1,0 +1,179 @@
+{
+ "variant_id": "syn00025__L3_harsh",
+ "doc_id": "syn00025",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1234567890",
+  "invoice_date": "2023-05-01",
+  "seller_name": "Chandan Sales Corporation",
+  "seller_gstin": "27AAACG1234F1ZP",
+  "seller_address": "Bharatpur, Rajasthan, India",
+  "buyer_name": "Shreevani Agencies Limited",
+  "buyer_gstin": "27AAACG1234F1ZP",
+  "buyer_address": "Plot No. 128, Chander Nagar, Udaipur, Rajasthan, 313001",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "56021",
+    "quantity": 1000,
+    "unit": "PCS",
+    "unit_price": 194.95,
+    "discount": 0,
+    "taxable_value": 194950,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "32021",
+    "quantity": 500,
+    "unit": "KGS",
+    "unit_price": 146.89,
+    "discount": 0,
+    "taxable_value": 73445,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "3206",
+    "quantity": 1000,
+    "unit": "LTR",
+    "unit_price": 475.75,
+    "discount": 0,
+    "taxable_value": 475750,
+    "tax_rate": 18
+   },
+   {
+    "description": "Bisected Plain Shrink Film",
+    "hsn_sac": "4819",
+    "quantity": 42,
+    "unit": "KGS",
+    "unit_price": 26.54,
+    "discount": 0,
+    "taxable_value": 1114.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "1606",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 81.52,
+    "discount": 0,
+    "taxable_value": 24456,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "5403",
+    "quantity": 17,
+    "unit": "PKG",
+    "unit_price": 1171.45,
+    "discount": 0,
+    "taxable_value": 19914.65,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 3D Grade Consum 500g",
+    "hsn_sac": "3718",
+    "quantity": 122,
+    "unit": "KGS",
+    "unit_price": 37.37,
+    "discount": 0,
+    "taxable_value": 4542.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "2502",
+    "quantity": 4,
+    "unit": "BAG",
+    "unit_price": 403.49,
+    "discount": 0,
+    "taxable_value": 1613.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Powder 200g",
+    "hsn_sac": "8108",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 406.29,
+    "discount": 0,
+    "taxable_value": 812.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "1905",
+    "quantity": 3,
+    "unit": "BOX",
+    "unit_price": 261.9,
+    "discount": 0,
+    "taxable_value": 785.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "9902",
+    "quantity": 425,
+    "unit": "A12",
+    "unit_price": 386.9,
+    "discount": 0,
+    "taxable_value": 164884.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "7306",
+    "quantity": 260,
+    "unit": "1.61",
+    "unit_price": 124.45,
+    "discount": 0,
+    "taxable_value": 44819.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Soap Bar 100g",
+    "hsn_sac": "3402",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 138.34,
+    "discount": 0,
+    "taxable_value": 553.36,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 217763.96,
+  "cgst_amount": 19598.76,
+  "sgst_amount": 19598.76,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.02,
+  "grand_total": 237363.0,
+  "amount_in_words": "Two Lakh Thirty Seven Thousand Three Hundred and Sixty Three Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"1234567890\",\n  \"invoice_date\": \"2023-05-01\",\n  \"seller_name\": \"Chandan Sales Corporation\",\n  \"seller_gstin\": \"27AAACG1234F1ZP\",\n  \"seller_address\": \"Bharatpur, Rajasthan, India\",\n  \"buyer_name\": \"Shreevani Agencies Limited\",\n  \"buyer_gstin\": \"27AAACG1234F1ZP\",\n  \"buyer_address\": \"Plot No. 128, Chander Nagar, Udaipur, Rajasthan, 313001\",\n  \"place_of_supply\": \"Rajasthan\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"56021\",\n      \"quantity\": 1000,\n      \"unit\": \"PCS\",\n      \"unit_price\": 194.95,\n      \"discount\": 0,\n      \"taxable_value\": 194950,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Synthetic Enamel Paint 4L\",\n      \"hsn_sac\": \"32021\",\n      \"quantity\": 500,\n      \"unit\": \"KGS\",\n      \"unit_price\": 146.89,\n      \"discount\": 0,\n      \"taxable_value\": 73445,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Carton Box 5-Ply\",\n      \"hsn_sac\": \"3206\",\n      \"quantity\": 1000,\n      \"unit\": \"LTR\",\n      \"unit_price\": 475.75,\n      \"discount\": 0,\n      \"taxable_value\": 475750,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Bisected Plain Shrink Film\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 42,\n      \"unit\": \"KGS\",\n      \"unit_price\": 26.54,\n      \"discount\": 0,\n      \"taxable_value\": 1114.68,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": \"1606\",\n      \"quantity\": 300,\n      \"unit\": \"PCS\",\n      \"unit_price\": 81.52,\n      \"discount\": 0,\n      \"taxable_value\": 24456,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"5403\",\n      \"quantity\": 17,\n      \"unit\": \"PKG\",\n      \"unit_price\": 1171.45,\n      \"discount\": 0,\n      \"taxable_value\": 19914.65,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"OPC 3D Grade Consum 500g\",\n      \"hsn_sac\": \"3718\",\n      \"quantity\": 122,\n      \"unit\": \"KGS\",\n      \"unit_price\": 37.37,\n      \"discount\": 0,\n      \"taxable_value\": 4542.06,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"2502\",\n      \"quantity\": 4,\n      \"unit\": \"BAG\",\n      \"unit_price\": 403.49,\n      \"discount\": 0,\n      \"taxable_value\": 1613.96,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Glucose Powder 200g\",\n      \"hsn_sac\": \"8108\",\n      \"quantity\": 2,\n      \"unit\": \"PCS\",\n      \"unit_price\": 406.29,\n      \"discount\": 0,\n      \"taxable_value\": 812.58,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 3,\n      \"unit\": \"BOX\",\n      \"unit_price\": 261.90,\n      \"discount\": 0,\n      \"taxable_value\": 785.70,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"9902\",\n      \"quantity\": 425,\n      \"unit\": \"A12\",\n      \"unit_price\": 386.90,\n      \"discount\": 0,\n      \"taxable_value\": 164884.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": \"7306\",\n      \"quantity\": 260,\n      \"unit\": \"1.61\",\n      \"unit_price\": 124.45,\n      \"discount\": 0,\n      \"taxable_value\": 44819.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Soap Bar 100g\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 4,\n      \"unit\": \"PCS\",\n      \"unit_price\": 138.34,\n      \"discount\": 0,\n      \"taxable_value\": 553.36,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 217763.96,\n  \"cgst_amount\": 19598.76,\n  \"sgst_amount\": 19598.76,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.02,\n  \"grand_total\": 237363.00,\n  \"amount_in_words\": \"Two Lakh Thirty Seven Thousand Three Hundred and Sixty Three Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1928,
+ "output_tokens": 1462,
+ "cached_input_tokens": 0,
+ "latency_s": 42.691,
+ "cost_usd": 0.0008087039999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

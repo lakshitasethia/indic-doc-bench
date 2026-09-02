@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00001__L2_photo",
+ "doc_id": "syn00001",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-A-6006",
+  "invoice_date": "2025-05-31",
+  "seller_name": "Reddy Overseas",
+  "seller_gstin": "36MOZFR6014P5Z1",
+  "seller_address": "Shop No. 33, Peenya 2nd Stage, Warangal - Telangana 500511",
+  "buyer_name": "Joshi Trading Co.",
+  "buyer_gstin": "10DTUFJ8283M6ZD",
+  "buyer_address": "Shop No. 123, Ambattur Industrial Estate, Muzaffarpur, Bihar - 837777",
+  "place_of_supply": "Bihar (10)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 12.919,
+    "unit": "KGS",
+    "unit_price": 413.01,
+    "discount": null,
+    "taxable_value": 5335.68,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 5335.68,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 266.78,
+  "cess_amount": null,
+  "round_off": -0.46,
+  "grand_total": 5602,
+  "amount_in_words": "Rupees Five Thousand Six Hundred and Two Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-A-6006\",\n  \"invoice_date\": \"2025-05-31\",\n  \"seller_name\": \"Reddy Overseas\",\n  \"seller_gstin\": \"36MOZFR6014P5Z1\",\n  \"seller_address\": \"Shop No. 33, Peenya 2nd Stage, Warangal - Telangana 500511\",\n  \"buyer_name\": \"Joshi Trading Co.\",\n  \"buyer_gstin\": \"10DTUFJ8283M6ZD\",\n  \"buyer_address\": \"Shop No. 123, Ambattur Industrial Estate, Muzaffarpur, Bihar - 837777\",\n  \"place_of_supply\": \"Bihar (10)\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 12.919,\n      \"unit\": \"KGS\",\n      \"unit_price\": 413.01,\n      \"discount\": null,\n      \"taxable_value\": 5335.68,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 5335.68,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 266.78,\n  \"cess_amount\": null,\n  \"round_off\": -0.46,\n  \"grand_total\": 5602,\n  \"amount_in_words\": \"Rupees Five Thousand Six Hundred and Two Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2559,
+ "output_tokens": 390,
+ "cached_input_tokens": 0,
+ "latency_s": 13.2734,
+ "cost_usd": 0.00042837599999999995,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

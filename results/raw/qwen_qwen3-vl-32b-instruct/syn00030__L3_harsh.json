@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00030__L3_harsh",
+ "doc_id": "syn00030",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1234567890",
+  "invoice_date": "2023-05-15",
+  "seller_name": "Shetty Infotech Pvt Ltd",
+  "seller_gstin": "29AAAAA1234A1Z5",
+  "seller_address": "Plot No. 123, Sector 1, City, State - 123456",
+  "buyer_name": "ABC Traders",
+  "buyer_gstin": "29BBBBB5678C2Z7",
+  "buyer_address": "Shop No. 456, Main Road, Town, State - 234567",
+  "place_of_supply": "State - 234567",
+  "reverse_charge": null,
+  "irn": "IRN12345678901234567890123456789012345678901234567890123456789012",
+  "line_items": [
+   {
+    "description": "Custom Woven Fabric 40 inch",
+    "hsn_sac": "5407",
+    "quantity": 120,
+    "unit": "MTR",
+    "unit_price": 152.5,
+    "discount": 0,
+    "taxable_value": 18300,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 18300,
+  "cgst_amount": 1647,
+  "sgst_amount": 1647,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0,
+  "grand_total": 21594,
+  "amount_in_words": "Twenty One Thousand Five Hundred Ninety Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"1234567890\",\n  \"invoice_date\": \"2023-05-15\",\n  \"seller_name\": \"Shetty Infotech Pvt Ltd\",\n  \"seller_gstin\": \"29AAAAA1234A1Z5\",\n  \"seller_address\": \"Plot No. 123, Sector 1, City, State - 123456\",\n  \"buyer_name\": \"ABC Traders\",\n  \"buyer_gstin\": \"29BBBBB5678C2Z7\",\n  \"buyer_address\": \"Shop No. 456, Main Road, Town, State - 234567\",\n  \"place_of_supply\": \"State - 234567\",\n  \"reverse_charge\": null,\n  \"irn\": \"IRN12345678901234567890123456789012345678901234567890123456789012\",\n  \"line_items\": [\n    {\n      \"description\": \"Custom Woven Fabric 40 inch\",\n      \"hsn_sac\": \"5407\",\n      \"quantity\": 120,\n      \"unit\": \"MTR\",\n      \"unit_price\": 152.5,\n      \"discount\": 0,\n      \"taxable_value\": 18300,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 18300,\n  \"cgst_amount\": 1647,\n  \"sgst_amount\": 1647,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0,\n  \"grand_total\": 21594,\n  \"amount_in_words\": \"Twenty One Thousand Five Hundred Ninety Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1590,
+ "output_tokens": 441,
+ "cached_input_tokens": 0,
+ "latency_s": 10.8503,
+ "cost_usd": 0.00034881599999999995,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

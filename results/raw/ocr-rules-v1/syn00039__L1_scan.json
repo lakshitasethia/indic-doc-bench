@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00039__L1_scan",
+ "doc_id": "syn00039",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-12-14",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE meee |",
+  "seller_gstin": "24ZYAFG3659B8ZM",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "149088.04",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "1.00",
+  "cess_amount": null,
+  "round_off": "0.13",
+  "grand_total": "159433.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE meee |\naren act roc: ern ee eee) re een ee\nAck No. / Ack Date oa |\n10000079498841 / 2025-12-14 saan a al\nSupplier Recipient Document No. |\nGupta Marketing LLP Rao Logistics Private Limited SI/25-26/9633 |\nPlot No. 317, Udyog Vihar, Vadodara, Gala No. 25, Focal Point, Patna, Bihar Document Date\nGujarat.378706 825258 2025-12-14 |\nGSTIN GSTIN Place of Supply |\n24ZYAFG3659B8ZM 10JPRCRO981X3Z8 10 - Bihar\neal Charge |\n[si[ Hem Description [ HSW [Qty | UQC | Unit Price | Discount | Taxable Amt [Rate] IGSTAmt | Total\nCotton\n1}Woven Fabric |5208/} 47.398|MTR 172-52 8177.10| 5 | 408.86! 8585.96\n44 inch\nMS Hex Bolt\npie Nut M12 7318 24.64) 9437.12 1698.68/11135.80\nBasmati Rice\nBae 5%) 1006 361.254] KGS 96.01/693.68 3090.32) 5 | 1699.52/35689.84\na|Assam CTC | 09921263.272|kGs| 319.23 84044.32| 5 |4202.22/88246.54\nTea Leaf\nPVC\nInsulated\n5 Copper Cable 8544/150.373/MTR 47.28 7109.64] 18|1279.74| 8389.38\n2.5sqmm\nParacetamol\nIP 650mg 3004 23|BOX 60.32 1387.36/12| 166.48} 1553.84\nTablets\nTMT Steel\n7|Bar Fe-500 7214 0.100} TON /49421.76 4942.18/18| 889.59} 5831.77\n12mm\nTotal Taxable Value 149088.04\nTotal IGST 10345.09\nRound Off -0.13\nTotal Invoice Value 159433.00\nAmount in words: Rupees One Lakh Fifty Nine Thousand Four Hundred and Thirty Three Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.0739,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1275,
+  "gstins_found": 1
+ }
+}

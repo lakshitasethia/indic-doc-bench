@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00035__L0_clean",
+ "doc_id": "syn00035",
+ "level": "L0_clean",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-06-08",
+  "seller_name": "Document Type TAX INVOICE Invoice No $1/25-26/8992",
+  "seller_gstin": "03TJPCM9711Z1Z8",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No $1/25-26/8992\n\nSupplier Verma Distributors LLP Invoice Date 08-06-2025\n\nSupplier GSTIN O03GUNCV2316Q3ZL Terms 30 Days\n\nSupplier Address = Khasra No. 378, Okhla Phase I, Jalandhar, Punjab - 142539\n\nRecipient Menon Marketing Limited Recipient GSTIN 03TJPCM9711Z1Z8\n\nRecipient Address Door No. 234, GIDC Estate, Ludhiana, Punjab - 140360 Place of Supply Punjab\n\nReverse Charge No Currency INR\n\nLine een HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nBasmati\n\n1 (Broken 1006 26.809 KGS 106.41 0.00 2852.75 5 71.32 71.32 2995.39\n\n5%)\n\nTotal_Taxable_Value 2852.75\n\nTotal_CGST 71.32\n\nTotal_SGST 71.32\n\nRound_Off -0.39\n\nGrand_Total 2995.00\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3922,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 710,
+  "gstins_found": 1
+ }
+}

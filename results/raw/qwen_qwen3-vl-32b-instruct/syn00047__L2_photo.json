@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00047__L2_photo",
+ "doc_id": "syn00047",
+ "level": "L2_photo",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-7321",
+  "invoice_date": "2025-10-21",
+  "seller_name": "Agarwal Solutions LLP",
+  "seller_gstin": "19UNRPA1683Y8Z1",
+  "seller_address": "Plot No. 296, Chandni Chowk, Siliguri, West Bengal - 704524",
+  "buyer_name": "Naidu Marketing LLP",
+  "buyer_gstin": "19QBZPN0082D3ZU",
+  "buyer_address": "Plot No. 187, GIDC Estate, Kolkata, West Bengal - 734819",
+  "place_of_supply": "West Bengal",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 5633.51,
+    "discount": 0.0,
+    "taxable_value": 11267.02,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 11267.02,
+  "cgst_amount": 1014.03,
+  "sgst_amount": 1014.03,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.08,
+  "grand_total": 13295.0,
+  "amount_in_words": "Rupees Thirteen Thousand Two Hundred and Ninety Five Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-7321\",\n  \"invoice_date\": \"2025-10-21\",\n  \"seller_name\": \"Agarwal Solutions LLP\",\n  \"seller_gstin\": \"19UNRPA1683Y8Z1\",\n  \"seller_address\": \"Plot No. 296, Chandni Chowk, Siliguri, West Bengal - 704524\",\n  \"buyer_name\": \"Naidu Marketing LLP\",\n  \"buyer_gstin\": \"19QBZPN0082D3ZU\",\n  \"buyer_address\": \"Plot No. 187, GIDC Estate, Kolkata, West Bengal - 734819\",\n  \"place_of_supply\": \"West Bengal\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 5633.51,\n      \"discount\": 0.0,\n      \"taxable_value\": 11267.02,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 11267.02,\n  \"cgst_amount\": 1014.03,\n  \"sgst_amount\": 1014.03,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.08,\n  \"grand_total\": 13295.0,\n  \"amount_in_words\": \"Rupees Thirteen Thousand Two Hundred and Ninety Five Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2286,
+ "output_tokens": 397,
+ "cached_input_tokens": 0,
+ "latency_s": 5.5705,
+ "cost_usd": 0.00040289599999999997,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

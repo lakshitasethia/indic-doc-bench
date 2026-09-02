@@ -1,0 +1,209 @@
+{
+ "variant_id": "syn00074__L0_clean",
+ "doc_id": "syn00074",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "GJ1446",
+  "invoice_date": "2025-05-13",
+  "seller_name": "KAUR INFRATECH PRIVATE LIMITED",
+  "seller_gstin": "27QLWFK9143P9ZW",
+  "seller_address": "Khasra No. 117, Udyog Vihar, Mumbai - 425985 (Maharashtra)",
+  "buyer_name": "Reddy Distributors Pvt. Ltd.",
+  "buyer_gstin": "03WUHFR9632H4ZA",
+  "buyer_address": "Door No. 211, Naraina Vihar Amritsar - 153302",
+  "place_of_supply": "03-Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 83235.78,
+    "discount": null,
+    "taxable_value": 79073.99,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 44,
+    "unit": "NOS",
+    "unit_price": 65.11,
+    "discount": null,
+    "taxable_value": 2864.84,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 276,
+    "unit": "BOX",
+    "unit_price": 424.93,
+    "discount": null,
+    "taxable_value": 117280.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 31,
+    "unit": "PCS",
+    "unit_price": 160.27,
+    "discount": null,
+    "taxable_value": 4869.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 9452.87,
+    "discount": null,
+    "taxable_value": 9452.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 6337.57,
+    "discount": null,
+    "taxable_value": 25350.28,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 13891.18,
+    "discount": null,
+    "taxable_value": 13891.18,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 4.02,
+    "unit": "KGS",
+    "unit_price": 182.87,
+    "discount": null,
+    "taxable_value": 735.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 20,
+    "unit": "PCS",
+    "unit_price": 345.79,
+    "discount": null,
+    "taxable_value": 6915.8,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 236,
+    "unit": "NOS",
+    "unit_price": 35.18,
+    "discount": null,
+    "taxable_value": 8302.48,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5566.68,
+    "discount": null,
+    "taxable_value": 5566.68,
+    "tax_rate": 28
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 188,
+    "unit": "SET",
+    "unit_price": 561.63,
+    "discount": null,
+    "taxable_value": 105586.44,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 3,
+    "unit": "BAG",
+    "unit_price": 379.39,
+    "discount": null,
+    "taxable_value": 1138.17,
+    "tax_rate": 28
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": null,
+    "quantity": 121.095,
+    "unit": "KGS",
+    "unit_price": 252.74,
+    "discount": null,
+    "taxable_value": 30605.55,
+    "tax_rate": null
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": null,
+    "quantity": 2657,
+    "unit": "NOS",
+    "unit_price": 66.2,
+    "discount": null,
+    "taxable_value": 175893.4,
+    "tax_rate": null
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": null,
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 26431.47,
+    "discount": null,
+    "taxable_value": 51805.68,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 639332.18,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 110872.51,
+  "cess_amount": null,
+  "round_off": 0.31,
+  "grand_total": 750205,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"GJ1446\",\n  \"invoice_date\": \"2025-05-13\",\n  \"seller_name\": \"KAUR INFRATECH PRIVATE LIMITED\",\n  \"seller_gstin\": \"27QLWFK9143P9ZW\",\n  \"seller_address\": \"Khasra No. 117, Udyog Vihar, Mumbai - 425985 (Maharashtra)\",\n  \"buyer_name\": \"Reddy Distributors Pvt. Ltd.\",\n  \"buyer_gstin\": \"03WUHFR9632H4ZA\",\n  \"buyer_address\": \"Door No. 211, Naraina Vihar Amritsar - 153302\",\n  \"place_of_supply\": \"03-Punjab\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 83235.78,\n      \"discount\": null,\n      \"taxable_value\": 79073.99,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Carton Box 5-Ply\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 44,\n      \"unit\": \"NOS\",\n      \"unit_price\": 65.11,\n      \"discount\": null,\n      \"taxable_value\": 2864.84,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 276,\n      \"unit\": \"BOX\",\n      \"unit_price\": 424.93,\n      \"discount\": null,\n      \"taxable_value\": 117280.68,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 31,\n      \"unit\": \"PCS\",\n      \"unit_price\": 160.27,\n      \"discount\": null,\n      \"taxable_value\": 4869.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 9452.87,\n      \"discount\": null,\n      \"taxable_value\": 9452.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 4,\n      \"unit\": \"NOS\",\n      \"unit_price\": 6337.57,\n      \"discount\": null,\n      \"taxable_value\": 25350.28,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 13891.18,\n      \"discount\": null,\n      \"taxable_value\": 13891.18,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 4.02,\n      \"unit\": \"KGS\",\n      \"unit_price\": 182.87,\n      \"discount\": null,\n      \"taxable_value\": 735.14,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 20,\n      \"unit\": \"PCS\",\n      \"unit_price\": 345.79,\n      \"discount\": null,\n      \"taxable_value\": 6915.8,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 236,\n      \"unit\": \"NOS\",\n      \"unit_price\": 35.18,\n      \"discount\": null,\n      \"taxable_value\": 8302.48,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 5566.68,\n      \"discount\": null,\n      \"taxable_value\": 5566.68,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 188,\n      \"unit\": \"SET\",\n      \"unit_price\": 561.63,\n      \"discount\": null,\n      \"taxable_value\": 105586.44,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 3,\n      \"unit\": \"BAG\",\n      \"unit_price\": 379.39,\n      \"discount\": null,\n      \"taxable_value\": 1138.17,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": null,\n      \"quantity\": 121.095,\n      \"unit\": \"KGS\",\n      \"unit_price\": 252.74,\n      \"discount\": null,\n      \"taxable_value\": 30605.55,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": null,\n      \"quantity\": 2657,\n      \"unit\": \"NOS\",\n      \"unit_price\": 66.2,\n      \"discount\": null,\n      \"taxable_value\": 175893.4,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": null,\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 26431.47,\n      \"discount\": null,\n      \"taxable_value\": 51805.68,\n      \"tax_rate\": null\n    }\n  ],\n  \"total_taxable_value\": 639332.18,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 110872.51,\n  \"cess_amount\": null,\n  \"round_off\": 0.31,\n  \"grand_total\": 750205,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3948,
+ "output_tokens": 1724,
+ "cached_input_tokens": 0,
+ "latency_s": 45.8629,
+ "cost_usd": 0.0011277759999999998,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

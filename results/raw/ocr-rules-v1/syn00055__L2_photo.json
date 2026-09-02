@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00055__L2_photo",
+ "doc_id": "syn00055",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "MH2226",
+  "invoice_date": "2026-03-13",
+  "seller_name": "Shetty Marketing : : te. / Invoice No. MH2226",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Shetty Marketing : : te. / Invoice No. MH2226\nvias ae sh Estate, Panipat com / Date 13/03/2026\npatil GSTIN: O6LFBPS5010M9ZY senet/ LenS \u2014\u2014\non / Buyer: Bhatt Logistics\nUnit No. 231, MG Road, Faridabad, Haryana - 121402\nGSTIN: URP | arte / Place of Supply: Haryana\n\u2018firaror waa\nee |\n=| comida eo] eros] salen | sass] SS\na pincers [ros] res] vosro| w|i] WS\neres Sty Stns 1 set] seas [nese RSA\ncers te |S nos|_ aza[ saa] | | Woes\nH Teatornesaheer rst ers] roves] erco|_wnso] = |\" seal Sid\nloz wonton Tae [ta] \u00abnos| eras] ewer] | saa IY\nfence] zo\nrss (| es] ol |\nLL a SO\ntne] a]\nFafeasnai mice Groen so) [o0e| warns] nao aon] | sezs6] _S5059\n-s[oeterent onder nkg [oa] zoe cs|_taro[rosroaso| 18 | sora] eT\n2.5sqmm MTR < :\nsieges Ja] oc] |_|]\nPages 4 \u201c\nra[ Radar irevosesine [aon 10s] weoaca]_osonaa| 28] mona] nsn\u00e9s\nfmocn/Tarale | asa\nar i\nscsr__\u2014\u2014\u00abd\u2014 toa\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.9107,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 851,
+  "gstins_found": 0
+ }
+}

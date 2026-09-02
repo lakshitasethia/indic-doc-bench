@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00093__L1_scan",
+ "doc_id": "syn00093",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "SI/25-26/6760",
+  "invoice_date": "2025-11-03",
+  "seller_name": "Bhatt Polymers",
+  "seller_gstin": "27VKCCB1279G5ZI",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "408475.05",
+  "cgst_amount": "14036.70",
+  "sgst_amount": "14036.70",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.45",
+  "grand_total": "436548.00",
+  "amount_in_words": null
+ },
+ "raw": "Bhatt Polymers\nPlot No. 16, Udyog Vihar, Nagpur, Maharashtra - 424167\nGSTIN: 27VKCCB1279G5ZI \u00ab State Code: 27:\nEE\nTAX INVOICE\nBill To\nNaidu Industries Invoice No. SI/25-26/6760\nGala No. 168, MG Road Date 03-Nov-2025\nNagpur, Maharashtra - 441743 Payment Terms Advance\nGSTIN: 27YLWPNo559S1Z8 Reverse Charge No\nPlace of Supply: Maharashtra\na ce | OG ATL | its) | Tareble Vales [cor | Tex Amount\n1 Paracetamol IP 650mg Tablets 3004 30 BOX 56.40 1692.00 12% 203.04\n2 Cotton Round Neck T-Shirt 6109 3 PCS 369.56 997.81 5% 49.90\n3 HDPE Packing Bags 3923 7-044 KGS 159.03 1120.21 18% 201.64\n4 Corrugated Carton Box 5-Ply 4819 785 NOS 70.68 55483.80 | 18% 9987.08\n5 Hard Bound Register 200 Pages 4820 17NOS 78.14 1328.38 18% 239.10\n6 Basmati Rice (Broken 5%) 1006 3779.480 KGS 90.52 342118.53 5% 17105.92\n7 Refined Sugar S-30 1701 134.199 KGS 42.73  -+5734.32 5% 286.72\nTotal Taxable Value 408475.05\nCGST 14036.70\nSGST 14036.70\nRound Off -0.45\n\u2014\u2014\u2014\u2014\nGrand Total ~ 436548.00\nAmount in words: Rupees Four Lakh Thirty Six Thousand Five Hundred and Forty Eight Only\nBank: Kotak Mahindra Bank, A/c 6729178995541851, IFSC KZN E0515680, Nagpur\nFor Bhatt Polymers\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.0503,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1167,
+  "gstins_found": 1
+ }
+}

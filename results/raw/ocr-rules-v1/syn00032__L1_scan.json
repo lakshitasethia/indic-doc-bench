@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00032__L1_scan",
+ "doc_id": "syn00032",
+ "level": "L1_scan",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "MH1515",
+  "invoice_date": "2025-05-26",
+  "seller_name": "FERNANDES OVERSEAS",
+  "seller_gstin": "27PUUFF6066G3ZB",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "14373.00",
+  "sgst_amount": "14373283.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.08",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FERNANDES OVERSEAS\nShop No. 140, MIDC Phase II\nThane - 413103\nGSTIN: 27PUUFF6066G3ZB\nState: Maharashtra (27)\nTAX INVOICE\n\nBill No: MH1515\nDate: 26/05/2025\nPOS: Maharashtra\nCustomer: Nair & Sons\nGSTIN: 27PBIFN651603Z6\n1. Office Workstation Table\n\nHSN 9403 1NOS x 18234.94 18234.94\n2. Detergent Powder 1kg\n\nHSN 3402 947PCS x 148.74 140856.78\n3. MS Fabricated Structure\n\nHSN 7308 5.408KGS x 120.20 617.54\n\nLess Disc =32.250\nTaxable 159709.26\nCGST 14373 .83\nSGST 14373283\nRound Off 0.08\nTOTAL Rs .188457.00\nRupees One Lakh Eighty Eight Thousand Four\nHundred and Fifty Seven Only\n\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.341,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 633,
+  "gstins_found": 1
+ }
+}

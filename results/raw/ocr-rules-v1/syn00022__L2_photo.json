@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00022__L2_photo",
+ "doc_id": "syn00022",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": "2025-07-21",
+  "seller_name": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "170325.23",
+  "cgst_amount": "170325.23",
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "170325.23",
+  "grand_total": "178841.00",
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE\nTrivedi Sales Corporation 7999 2025-07-21\n\u2018SUPPLIER ADDRESS. SUPPLIER GSTIN STATE / CODE\nUnit No. 338, MG Road, Indore, Madhya Pradesh - 462727 23ZFLPT072103ZF Madhya Pradesh / 23\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nMenon Electricals LLP 233XXPM5529B7ZW 23 - Madhya Pradesh\nRECIPIENT ADORESS REVERSE CHARGE PAYMENT TERMS\nDoor No: 309, Udyog Vihar, Indore, Madhya Pradesh - NO 15 Days\n473766\neee Ee\nRefi -\n. ned Sugar S- | 4791] 58.544 38.85| 2274.43 | 5 | 56.86| 56.86\nCotton. Woven\n2 \\ Fabric 44 inch 5208 |894.311|MTR 163.53|146246.68 3656.17| 3656.17\nAssam CTC Tea\n3 Leaf 0902 | 86.013 KGS | 266.84 21804.12 545.10 545.10\nTOTAL TAXABLE VALUE TOTAL CGST ROUND OFF\n170325.23 4258.13 -0.49\nTOTAL INVOICE VALUE (IN FIGURES AND worRDS)\n*% 178841.00 \u2014 Rupees One Lakh Seventy Eight Thousand Eight Hundred and Forty One Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.423,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 874,
+  "gstins_found": 0
+ }
+}

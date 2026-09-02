@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00031__L2_photo",
+ "doc_id": "syn00031",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0694",
+  "invoice_date": "2026-01-02",
+  "seller_name": "Trivedi Industries Pvt. Ltd.",
+  "seller_gstin": "36JSYPT6737U7ZK",
+  "seller_address": "Shop No. 417, Udyog Vihar, Hyderabad Telangana - 502107",
+  "buyer_name": "Kulkarni Solutions LLP",
+  "buyer_gstin": "06GEBPK1834L6ZA",
+  "buyer_address": "Khasra No. 355, Peenya 2nd Stage, Faridabad, Haryana - 131538",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 988,
+    "unit": "PCS",
+    "unit_price": 49.98,
+    "discount": null,
+    "taxable_value": 49380.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 4.701,
+    "unit": "LTR",
+    "unit_price": 673.66,
+    "discount": null,
+    "taxable_value": 3008.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 2270,
+    "unit": "NOS",
+    "unit_price": 111.92,
+    "discount": null,
+    "taxable_value": 228652.56,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 281041.34,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 50587.44,
+  "cess_amount": null,
+  "round_off": 0.22,
+  "grand_total": 331629.0,
+  "amount_in_words": "Rupees Three Lakh Thirty One Thousand Six Hundred and Twenty Nine Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"0694\",\n  \"invoice_date\": \"2026-01-02\",\n  \"seller_name\": \"Trivedi Industries Pvt. Ltd.\",\n  \"seller_gstin\": \"36JSYPT6737U7ZK\",\n  \"seller_address\": \"Shop No. 417, Udyog Vihar, Hyderabad Telangana - 502107\",\n  \"buyer_name\": \"Kulkarni Solutions LLP\",\n  \"buyer_gstin\": \"06GEBPK1834L6ZA\",\n  \"buyer_address\": \"Khasra No. 355, Peenya 2nd Stage, Faridabad, Haryana - 131538\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Toilet Soap 100g\",\n      \"hsn_sac\": \"3401\",\n      \"quantity\": 988,\n      \"unit\": \"PCS\",\n      \"unit_price\": 49.98,\n      \"discount\": null,\n      \"taxable_value\": 49380.24,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Synthetic Enamel Paint 4L\",\n      \"hsn_sac\": \"3208\",\n      \"quantity\": 4.701,\n      \"unit\": \"LTR\",\n      \"unit_price\": 673.66,\n      \"discount\": null,\n      \"taxable_value\": 3008.54,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 2270,\n      \"unit\": \"NOS\",\n      \"unit_price\": 111.92,\n      \"discount\": null,\n      \"taxable_value\": 228652.56,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 281041.34,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 50587.44,\n  \"cess_amount\": null,\n  \"round_off\": 0.22,\n  \"grand_total\": 331629.0,\n  \"amount_in_words\": \"Rupees Three Lakh Thirty One Thousand Six Hundred and Twenty Nine Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2568,
+ "output_tokens": 584,
+ "cached_input_tokens": 0,
+ "latency_s": 11.3716,
+ "cost_usd": 0.000510016,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

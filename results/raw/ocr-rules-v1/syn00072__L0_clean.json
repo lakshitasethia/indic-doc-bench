@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00072__L0_clean",
+ "doc_id": "syn00072",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV/25-26/4946",
+  "invoice_date": "2025-06-26",
+  "seller_name": "Sethi Distributors Invoice No. INV/25-26/4946",
+  "seller_gstin": "23FHFCR3792M5ZB",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.35",
+  "grand_total": "1287039.00",
+  "amount_in_words": null
+ },
+ "raw": "Sethi Distributors Invoice No. INV/25-26/4946\nGala No. 204, SIDCO Complex Dated 26-Jun-2025\nCuttack, Odisha - 760225 Mode/Terms of Payment 15 Days\nState Name : Odisha, Code : 21\nBuyer (Bill to) Destination: Jabalpur\nReddy Agencies Pvt. Ltd.\nGala No. 324, Industrial Estate\nJabalpur, Madhya Pradesh - 462617\nGSTIN/UIN: 23FHFCR3792M5ZB\nPlace of Supply : Madhya Pradesh\n%\n1 |Rental Services of Commercial 997212 1] NOS} 105092.29] 105092.29} 18% | 18916.61\nProperty\n2 |Other Professional and Technical | 998399 14|NOS| 13175.98} 184463.72] 18% | 33203.47\nServices\n3 | Information Technology Consulting | 998313 1] NOS} 175972.46| 172453.01] 18% | 31041.54\nServices\nLess: Discount 3519.45\n4 |Commercial Training and Coaching | 999293 1}NOS] 24319.42| 24319.42] 18% 4377.50\nServices\nRoad Transport Services of Goods | 996511 34114.90| 3414.90 1705.75\nRepair Services of Computers and | 998721 55|}NOS|] 3615.91} 198875.05| 18% | 35797.51\nPeripherals\n7 |Repair Services of Computers and | 998721 49|NOS|} 5162.42] 252958.58| 18% | 45532.54\nPeripherals\nInformation Technology Consulting | 998313 1] NOS} 122192.76] 122192.76| 18% | 21994.70\nServices\n1094469.73] | 192569.62\nRound Off -0.35\nGrand Total % 1287039.00\nAmount Chargeable (in words): Rupees Twelve Lakh Eighty Seven Thousand Thirty Nine Only\nBank Name : ICICI Bank\nAlc No. : 44014157570818\nBranch & IFSC : Jabalpur & MNAP0514538 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8019,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1404,
+  "gstins_found": 1
+ }
+}

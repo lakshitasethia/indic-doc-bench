@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00080__L0_clean",
+ "doc_id": "syn00080",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/0309",
+  "invoice_date": "2025-11-05",
+  "seller_name": "PATEL MARKETING PVT. LTD.",
+  "seller_gstin": "21NQZPP3771S8Z5",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Odisha",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "3422.99",
+  "cess_amount": null,
+  "round_off": "0.30",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "PATEL MARKETING PVT. LTD.\nDoor No. 303, Ring Road\nBhubaneswar - 761803\nGSTIN: 21NQZPP3771S8Z5\nState: Odisha (21)\nTAX INVOICE\n\nBill No: 2025-26/0309\nDate: 05/11/2025\nPOS: Delhi\nCustomer: Banerjee Electricals LLP\nGSTIN: O7DYUPB6382X4ZxX\n1. Refined Sugar S-30\n\nHSN 1701 1513.910KGS x 38.80 58739.71\n2. MS Hex Bolt with Nut M12\n\nHSN 7318 90NOS x 30.00 2700.00\nTaxable 61439.71\nIGST 3422.99\nRound Off 0.30\nTOTAL Rs .64863.00\nRupees Sixty Four Thousand Eight Hundred and\nSixty Three Only\n\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2897,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 540,
+  "gstins_found": 1
+ }
+}

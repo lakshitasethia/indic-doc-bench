@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00024__L3_harsh",
+ "doc_id": "syn00024",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/4380",
+  "invoice_date": "2025-06-16",
+  "seller_name": "Sree Industries",
+  "seller_gstin": "UPFBC2734VZK7",
+  "seller_address": "Door No. 158, Bazar 2nd Stage, New Delhi, Delhi - 110027",
+  "buyer_name": "Shetty & Sons LLP",
+  "buyer_gstin": "RYYLQ9509PQXN",
+  "buyer_address": "Cable No. 57B, MG Road, Bangalore - 560001",
+  "place_of_supply": "Delhi",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Dental Chair Bearing",
+    "hsn_sac": "2168",
+    "quantity": 22,
+    "unit": "PCS",
+    "unit_price": 134.0,
+    "discount": null,
+    "taxable_value": 2948.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Tulip Nock 100g",
+    "hsn_sac": "1407",
+    "quantity": 167,
+    "unit": "PCS",
+    "unit_price": 22.0,
+    "discount": null,
+    "taxable_value": 3674.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "CBN 313 Grade 1 Insert 50g",
+    "hsn_sac": "7327",
+    "quantity": 43,
+    "unit": "BAG",
+    "unit_price": 903.5,
+    "discount": null,
+    "taxable_value": 38850.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "HSS Drill Bit 3mm 100g",
+    "hsn_sac": "1006",
+    "quantity": 200.5,
+    "unit": "KGS",
+    "unit_price": 98.0,
+    "discount": null,
+    "taxable_value": 19649.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Bakel Type 155/60 R13",
+    "hsn_sac": "4015",
+    "quantity": 1,
+    "unit": "SQM",
+    "unit_price": 9803.8,
+    "discount": null,
+    "taxable_value": 9803.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Motor 3HP 2800 RPM",
+    "hsn_sac": "8501",
+    "quantity": 1,
+    "unit": "NO/PC",
+    "unit_price": 25547.75,
+    "discount": null,
+    "taxable_value": 25547.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Maintenance Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NO/PC",
+    "unit_price": 25547.75,
+    "discount": null,
+    "taxable_value": 25547.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 215.871,
+    "unit": "KGS",
+    "unit_price": 327.68,
+    "discount": null,
+    "taxable_value": 70865.96,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 182841.0,
+  "cgst_amount": 16455.69,
+  "sgst_amount": 16455.69,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.0,
+  "grand_total": 215752.38,
+  "amount_in_words": "Rupees One Lakh Fifty Eight Thousand Eight Hundred Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/4380\",\n  \"invoice_date\": \"2025-06-16\",\n  \"seller_name\": \"Sree Industries\",\n  \"seller_gstin\": \"UPFBC2734VZK7\",\n  \"seller_address\": \"Door No. 158, Bazar 2nd Stage, New Delhi, Delhi - 110027\",\n  \"buyer_name\": \"Shetty & Sons LLP\",\n  \"buyer_gstin\": \"RYYLQ9509PQXN\",\n  \"buyer_address\": \"Cable No. 57B, MG Road, Bangalore - 560001\",\n  \"place_of_supply\": \"Delhi\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Dental Chair Bearing\",\n      \"hsn_sac\": \"2168\",\n      \"quantity\": 22,\n      \"unit\": \"PCS\",\n      \"unit_price\": 134.0,\n      \"discount\": null,\n      \"taxable_value\": 2948.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Tulip Nock 100g\",\n      \"hsn_sac\": \"1407\",\n      \"quantity\": 167,\n      \"unit\": \"PCS\",\n      \"unit_price\": 22.0,\n      \"discount\": null,\n      \"taxable_value\": 3674.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"CBN 313 Grade 1 Insert 50g\",\n      \"hsn_sac\": \"7327\",\n      \"quantity\": 43,\n      \"unit\": \"BAG\",\n      \"unit_price\": 903.5,\n      \"discount\": null,\n      \"taxable_value\": 38850.5,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HSS Drill Bit 3mm 100g\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 200.500,\n      \"unit\": \"KGS\",\n      \"unit_price\": 98.0,\n      \"discount\": null,\n      \"taxable_value\": 19649.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Bakel Type 155/60 R13\",\n      \"hsn_sac\": \"4015\",\n      \"quantity\": 1,\n      \"unit\": \"SQM\",\n      \"unit_price\": 9803.8,\n      \"discount\": null,\n      \"taxable_value\": 9803.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Motor 3HP 2800 RPM\",\n      \"hsn_sac\": \"8501\",\n      \"quantity\": 1,\n      \"unit\": \"NO/PC\",\n      \"unit_price\": 25547.75,\n      \"discount\": null,\n      \"taxable_value\": 25547.75,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Maintenance Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NO/PC\",\n      \"unit_price\": 25547.75,\n      \"discount\": null,\n      \"taxable_value\": 25547.75,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 215.871,\n      \"unit\": \"KGS\",\n      \"unit_price\": 327.68,\n      \"discount\": null,\n      \"taxable_value\": 70865.96,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 182841.0,\n  \"cgst_amount\": 16455.69,\n  \"sgst_amount\": 16455.69,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.0,\n  \"grand_total\": 215752.38,\n  \"amount_in_words\": \"Rupees One Lakh Fifty Eight Thousand Eight Hundred Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1716,
+ "output_tokens": 1038,
+ "cached_input_tokens": 0,
+ "latency_s": 20.0193,
+ "cost_usd": 0.0006102719999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

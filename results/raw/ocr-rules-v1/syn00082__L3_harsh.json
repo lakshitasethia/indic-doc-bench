@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00082__L3_harsh",
+ "doc_id": "syn00082",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "5 EMR Sty",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "5 EMR Sty\nDe Me eee BONS mS\nt /iorstatenn =| 94037 2 |My A608: P| 32494.50) 50 Laer be\n; - eC | ae: S Seeened at SEAR SESS F\naig ewant | ren ane a7elmce! 157-57 $0057.22) 08 11337-98] 490P- 16)\n; | jomenh Semmens Sead Moentinaet Seiten\ncatmon fend \u00ae i;\n> ineck tre (S009) sa lres) oen.z0ltaareaae! \u00a7 [pva.ea| sins oz).\n{e979 on ~ sanene Saw ay tne Menno gh eds ents ay\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2743,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 369,
+  "gstins_found": 0
+ }
+}

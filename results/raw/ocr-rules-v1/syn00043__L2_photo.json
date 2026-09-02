@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00043__L2_photo",
+ "doc_id": "syn00043",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-03-02",
+  "seller_name": "Banerjee Overseas LLP \u00e9",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "109829.00",
+  "amount_in_words": null
+ },
+ "raw": "Banerjee Overseas LLP \u00e9\nGala\u2019 No. 428, Ring Road, Mangaluru see / invoice NG.\nKarnataka -.574119 fare / Date 02/03/2026\nsiweeiontes / GSTIN: 29HJXPB2482G52) \u2018wes eet / Terms Advance\nnm / Buyer: Agarwal Pharma\nShop No. 144, MIDC Phase Ml, Bengaluru, Karnataka - 568246\nGSTIN: 29J10CA1596G52F | smyftenr / Place of Supply: Karnataka\nfirazoy\nDescription\n| 1 [Ms Hex Bolt with Nut mi2 7318 | 5475 Nos! 17.00] 93075.00 8376.75] 8376.75\nFre ary / Taxable 93075.00\nya ate / Grand Total 109829.00\nert 8 / In words: Rupees-One takh Nine Thousand Eight Hundred and Twenty Nine Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2825,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 572,
+  "gstins_found": 0
+ }
+}

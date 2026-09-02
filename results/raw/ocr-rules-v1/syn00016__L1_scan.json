@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00016__L1_scan",
+ "doc_id": "syn00016",
+ "level": "L1_scan",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-3124",
+  "invoice_date": "2025-06-11",
+  "seller_name": "Naidu Industries Pvt. Ltd. [ORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "19PNLCN7918L3ZF",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "9861.55",
+  "cess_amount": null,
+  "round_off": "0.04",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Naidu Industries Pvt. Ltd. [ORIGINAL FOR RECIPIENT _\n\nKhasra No. 424, Peenya 2nd Stage, Siliguri, West Bengal - 708600 Invoice No INV-3124\n\nGSTIN 19PNLCN7918L3ZF State Code 19 Invoice Date 11-06-2025\n\nTerms Cash\n\nBilled To Shipped To\n\nNaidu Sales Corporation Naidu Sales Corporation\n\nPlot No. 273, Naraina Vihar, Patna, Bihar - 848127 Plot No. 273, Naraina Vihar, Patna\n\nGSTIN 10MSIFN7964N9Z7_ Place of Supply Bihar (10) Reverse Charge: No\n\n[\u00a5#[ Description foods 7SevicesSSSCSC*~*~\u201c\u2018ditCSC*USN'SCS=*dS Gt | VOM [Rate+ Disc | _\u2014\u2018Toxable \u00ab| GST [GST | _Line Total\n\nOther Professional and Technical Services 998399 54786.41| | 54786.41 9861.55|  64647.96\n\nTaxable Amount 547864\n\nsn SS IGST 9861.55\n\u00e9 Round Off 0.04\n\n998399 54786.41 9861.55 Total 64648.00\n\nAmount in words: Rupees Sixty Four Thousand Six Hundred and Forty Eight Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6468,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 831,
+  "gstins_found": 1
+ }
+}

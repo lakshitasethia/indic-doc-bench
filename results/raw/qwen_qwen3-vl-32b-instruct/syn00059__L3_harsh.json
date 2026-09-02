@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00059__L3_harsh",
+ "doc_id": "syn00059",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1234-24/0002",
+  "invoice_date": "2024-03-13",
+  "seller_name": "Future Distributors LLP",
+  "seller_gstin": "23AABCF7475Q1ZS",
+  "seller_address": "Unit No. 466, Phiranga 2nd Stage, Patpura, Talo Nadi, - 804723",
+  "buyer_name": "JDS Traders Limited",
+  "buyer_gstin": "08CGCJ7734NRC1",
+  "buyer_address": "Door No. 418, Jawahar Industrial Estate, Jaipur, Rajasthan - 302001",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Lubricant Motor Oil 5W40",
+    "hsn_sac": "8442",
+    "quantity": 1.9025,
+    "unit": "NO'S",
+    "unit_price": 27705.71,
+    "discount": 845.39,
+    "taxable_value": 25714.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "White Steel Ball 3072",
+    "hsn_sac": "7318",
+    "quantity": 2500,
+    "unit": "NO'S",
+    "unit_price": 24.77,
+    "discount": 0.0,
+    "taxable_value": 64452.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Carbon Fibre 44 145",
+    "hsn_sac": "5308",
+    "quantity": 12.515,
+    "unit": "MT/M",
+    "unit_price": 107.78,
+    "discount": 0.0,
+    "taxable_value": 1355.72,
+    "tax_rate": 5
+   },
+   {
+    "description": "Carbon Fibre 44 8471 0010",
+    "hsn_sac": "5308",
+    "quantity": 1.4025,
+    "unit": "NO'S",
+    "unit_price": 52704.21,
+    "discount": 8376.61,
+    "taxable_value": 70000.44,
+    "tax_rate": 18
+   },
+   {
+    "description": "Ferrite 55.50",
+    "hsn_sac": "8504",
+    "quantity": 1,
+    "unit": "NO'S",
+    "unit_price": 4513.58,
+    "discount": 0.0,
+    "taxable_value": 4513.58,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 172216.4,
+  "cgst_amount": 15499.37,
+  "sgst_amount": 15499.37,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.19,
+  "grand_total": 282306.94,
+  "amount_in_words": "Rupees Two Lakh Twenty Three Thousand and Thirty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"1234-24/0002\",\n  \"invoice_date\": \"2024-03-13\",\n  \"seller_name\": \"Future Distributors LLP\",\n  \"seller_gstin\": \"23AABCF7475Q1ZS\",\n  \"seller_address\": \"Unit No. 466, Phiranga 2nd Stage, Patpura, Talo Nadi, - 804723\",\n  \"buyer_name\": \"JDS Traders Limited\",\n  \"buyer_gstin\": \"08CGCJ7734NRC1\",\n  \"buyer_address\": \"Door No. 418, Jawahar Industrial Estate, Jaipur, Rajasthan - 302001\",\n  \"place_of_supply\": \"Rajasthan\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Lubricant Motor Oil 5W40\",\n      \"hsn_sac\": \"8442\",\n      \"quantity\": 1.9025,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 27705.71,\n      \"discount\": 845.39,\n      \"taxable_value\": 25714.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"White Steel Ball 3072\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 2500,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 24.77,\n      \"discount\": 0.00,\n      \"taxable_value\": 64452.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Carbon Fibre 44 145\",\n      \"hsn_sac\": \"5308\",\n      \"quantity\": 12.515,\n      \"unit\": \"MT/M\",\n      \"unit_price\": 107.78,\n      \"discount\": 0.00,\n      \"taxable_value\": 1355.72,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Carbon Fibre 44 8471 0010\",\n      \"hsn_sac\": \"5308\",\n      \"quantity\": 1.4025,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 52704.21,\n      \"discount\": 8376.61,\n      \"taxable_value\": 70000.44,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Ferrite 55.50\",\n      \"hsn_sac\": \"8504\",\n      \"quantity\": 1,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 4513.58,\n      \"discount\": 0.00,\n      \"taxable_value\": 4513.58,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 172216.40,\n  \"cgst_amount\": 15499.37,\n  \"sgst_amount\": 15499.37,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.19,\n  \"grand_total\": 282306.94,\n  \"amount_in_words\": \"Rupees Two Lakh Twenty Three Thousand and Thirty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1768,
+ "output_tokens": 828,
+ "cached_input_tokens": 0,
+ "latency_s": 10.7001,
+ "cost_usd": 0.00052832,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

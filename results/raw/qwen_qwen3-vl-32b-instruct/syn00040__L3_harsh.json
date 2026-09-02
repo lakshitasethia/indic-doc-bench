@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00040__L3_harsh",
+ "doc_id": "syn00040",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/0001",
+  "invoice_date": "2024-03-05",
+  "seller_name": "Chauhan Engineering Works",
+  "seller_gstin": "GJ16JH000000000000",
+  "seller_address": "B-78, Nadiad Road, Panchmahal, Gujarat - 382001",
+  "buyer_name": "Chauhan Steel & Alloys",
+  "buyer_gstin": "GJ17N0000000000000",
+  "buyer_address": "Plot No. 365, GDC Estate, Udaipur, Rajasthan - 313218",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Galvanized Sheet 200g",
+    "hsn_sac": "1905",
+    "quantity": 3,
+    "unit": "NO/S",
+    "unit_price": 467.34,
+    "discount": null,
+    "taxable_value": 1402.02,
+    "tax_rate": 18
+   },
+   {
+    "description": "Galvanized Cable 10GB",
+    "hsn_sac": "8517",
+    "quantity": 71,
+    "unit": "NO/S",
+    "unit_price": 31085.74,
+    "discount": null,
+    "taxable_value": 2207033.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Green Panel 4L",
+    "hsn_sac": "3208",
+    "quantity": 3.687,
+    "unit": "LTR",
+    "unit_price": 300,
+    "discount": null,
+    "taxable_value": 1106.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hand Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 12,
+    "unit": "NO/S",
+    "unit_price": 112.73,
+    "discount": null,
+    "taxable_value": 1352.76,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 2221894.42,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 400021.0,
+  "cess_amount": null,
+  "round_off": -0.3,
+  "grand_total": 2621915.12,
+  "amount_in_words": "Two Lakh Sixty Two Thousand One Hundred Ninety Five Rupees and Twelve Paise Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/0001\",\n  \"invoice_date\": \"2024-03-05\",\n  \"seller_name\": \"Chauhan Engineering Works\",\n  \"seller_gstin\": \"GJ16JH000000000000\",\n  \"seller_address\": \"B-78, Nadiad Road, Panchmahal, Gujarat - 382001\",\n  \"buyer_name\": \"Chauhan Steel & Alloys\",\n  \"buyer_gstin\": \"GJ17N0000000000000\",\n  \"buyer_address\": \"Plot No. 365, GDC Estate, Udaipur, Rajasthan - 313218\",\n  \"place_of_supply\": \"Rajasthan\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Galvanized Sheet 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 3,\n      \"unit\": \"NO/S\",\n      \"unit_price\": 467.34,\n      \"discount\": null,\n      \"taxable_value\": 1402.02,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Galvanized Cable 10GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 71,\n      \"unit\": \"NO/S\",\n      \"unit_price\": 31085.74,\n      \"discount\": null,\n      \"taxable_value\": 2207033.54,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Synthetic Green Panel 4L\",\n      \"hsn_sac\": \"3208\",\n      \"quantity\": 3.687,\n      \"unit\": \"LTR\",\n      \"unit_price\": 300,\n      \"discount\": null,\n      \"taxable_value\": 1106.1,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hand Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 12,\n      \"unit\": \"NO/S\",\n      \"unit_price\": 112.73,\n      \"discount\": null,\n      \"taxable_value\": 1352.76,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 2221894.42,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 400021.00,\n  \"cess_amount\": null,\n  \"round_off\": -0.30,\n  \"grand_total\": 2621915.12,\n  \"amount_in_words\": \"Two Lakh Sixty Two Thousand One Hundred Ninety Five Rupees and Twelve Paise Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1752,
+ "output_tokens": 681,
+ "cached_input_tokens": 0,
+ "latency_s": 10.5377,
+ "cost_usd": 0.000465504,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

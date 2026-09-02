@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00069__L2_photo",
+ "doc_id": "syn00069",
+ "level": "L2_photo",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-5777",
+  "invoice_date": "2025-11-23",
+  "seller_name": "Chauhan Traders Private Limited",
+  "seller_gstin": "36FSFFC5208U3ZP",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "07VHEFA9870C2ZI",
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "16098.56",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "2550.71",
+  "cess_amount": null,
+  "round_off": "0.27",
+  "grand_total": "18649.00",
+  "amount_in_words": null
+ },
+ "raw": "Chauhan Traders Private Limited\nShop No. 288, GIDC Estate, Hyderabad, Telangana - 503082\nGSTIN: 36FSFFC5208U3ZP \u00ab+ State Code: 36\nSS\nTAX INVOICE\nBill To i\nAhhiwalia & Sons Limited Invoice No: INV-5777.\nKhasra No. 57, Focal Point Date 23-Nov-2025\nNew Delhi, Delhi - 110151 Payment Terms 45 Days\nGSTIN: 07VHEFA9870C2ZI Reverse Charge No\nPlace of Supply: Delhi\n1 Foam Mattress 72x36 9404 1NOS 10314.86\u00b0 10314.86 | 18% \u2014 a 1856.67 |\n2. Paracetamol IP 650mg Tablets 3004 130 BOX 44.49 5783.70 12% 1 694.04\nTotal Taxable Value 16098.56\nIGST 2550.71\nRound Off -0.27\nGrand Total % 18649.00\n\u2018Amount in words; Rupees Eighteen Thousand Six Hundred and Forty Nine Only\nBank: HDFC Bank, A/c 62763194804, IFSC VHIC0348933, New Delhi x\n: For Chauhan Traders Private Limited\nhein elas\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4483,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 769,
+  "gstins_found": 2
+ }
+}

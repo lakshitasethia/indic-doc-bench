@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00089__L2_photo",
+ "doc_id": "syn00089",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-31",
+  "seller_name": "EEE\u2019",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "660138.62",
+  "cgst_amount": "59719.13",
+  "sgst_amount": "59719.13",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.12",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "EEE\u2019\nINVOICE\nPina Teitins Pvt: Ltd. Joshi Polymers LLP 8336\nUnit No. 62, SIDCO Complex Shop No. 455, Okhla Phase 1\nspaig 142403 ace 150899 31 January 2026\nOSNRGPPS091G\u00e9z9 03LSUPJ16592225 Punjab\nOffice Workstation Table 9403 SNOS  15929.97 18% 79649.85\nStainless Stee! Cutlery Set 8215 731 SET 379.69 18% 277553.39\nToilet Soap 100g 3401 227 PCS 54.83 18% 12446.41\nSmartphone 6GB/128GB 8517 1NOS \u201d 18752.02 4 89 16876.82\nMS Fabricated Structure 7308 28.199 KGS 112.90 18% 3183.67\nParacetamol IP 650mg Tablets 3004 2656 BOX 46.37. 12% 1231 58.72\nMultifunction Laser Printer 8443 1NOS 14878.97 i9%, 14878.97\nRadial Tyre 195/65 R15 4011 5 NOS 7654.73 28% 38273.65\nOPC 53 Grade Cement 50kg 2523 132 BAG 447.43 28% 59060.76\nMS Hex Boit with Nut M12 7318 515 NOS 40.09 18% 20646.35\nRefined Sugar S-30 1701 176.204 KGS 43.94 5% 7742.40\nDetergent Powder 1kg 3402 12 PCS 91.45 18% 1097.40\nAssam CTC Tea Leaf 0902 15.885 KGS 350.66 5% 5570.23\nSubtotal 660138.62\nCGST 59719.13\nSGST 59719.13\nRounding 0.12\nTotal %779577.00\nHPC Bantams overy Nine Utanedrigg arene Seventy Seven On\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5679,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1066,
+  "gstins_found": 0
+ }
+}

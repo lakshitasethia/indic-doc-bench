@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00067__L3_harsh",
+ "doc_id": "syn00067",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "meer",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "meer\na vnc\ncaman San ero ice 1 mm\nsera ws, oe cometen REN = or ee\nsecameea - aETS By\ney mae Ses amen :\ner we cane a woos ;\nVeal Ns caked nf mee A eee ee\n= eee ol etc to am\ngral AT nn ee cnet rresona| | enee] OS\n5 fr ma tp 28 ary EL nes oak ee mar\nsje Sem , as ees) wert wosnae| | SEH war\ns tenmopod cone toa |S pal, meh eS a, 4\na [sone 8 : at os \u201cponanea| m2 \\on820) StS\nFtmamecien er eee jel \u2018yeas aves] ne s) wae eM\na tammes Boe OT I jan) 3 mae reeen) onan, ean\n\u00bb Ve inet Saunt Sr fe 808 Spent a aoa hoes eaomeet 2078S pe\nwi gfe oe aa a) 3 eee\nfalaaney Comes 8 8 = Re rs eee wan) eee\nA faroon and uch Tet ara) wml. at\ni are \u2014d\nfray Fe hee we jens. NON Fennel ismaane| | weet eT\nvente on BET co enpener ak Cees\nrites nro tiie eae <aait\u2019 semen] coomasa ve | 0282) SON\nFa tn : an) cnn Bok Re secs\nC ern ae ss aver, won, @ | Pees :\ngeome pote HH ea Ne wane are, eee\ne cae Seeaiee: : :\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7132,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 883,
+  "gstins_found": 0
+ }
+}

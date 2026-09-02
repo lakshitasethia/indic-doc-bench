@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00084__L3_harsh",
+ "doc_id": "syn00084",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "po . |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "po . |\nDect he tet Chae = mer ee ei\nHASTEN CRS GARATT PATI Ee i . ef\nPiney Rete: Ee # 7\n~ \u2014\u2014 (oennd Kerand baad Sool lim |\n\u2018Tears taney Se\u201d) Mai | ame]. Say winged la\neT La} eet \"Sia an \u00a7\n: \u2014 a\n[ee Cae cw Ss tpeee er Lah Ths Fue Fiemmaend Fight esiead ond Ties ae J\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014e : \u2014 il\nfasts escehe\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.269,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 295,
+  "gstins_found": 0
+ }
+}

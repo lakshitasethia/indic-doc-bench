@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00030__L0_clean",
+ "doc_id": "syn00030",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-B-8783",
+  "invoice_date": "2025-06-03",
+  "seller_name": "Shetty Infratech Pvt. Ltd.",
+  "seller_gstin": "06YAMPS3893N1Z3",
+  "seller_address": "Plot No. 245, Okhla Phase I, Gurugram, Haryana-133701",
+  "buyer_name": "Sethi Sales Corporation Pvt. Ltd.",
+  "buyer_gstin": null,
+  "buyer_address": "Khasra No. 30, MIDC Phase II, Panipat, Haryana-126511",
+  "place_of_supply": "06-Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 92.317,
+    "unit": "MTR",
+    "unit_price": 113.23,
+    "discount": null,
+    "taxable_value": 10453.05,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 10453.05,
+  "cgst_amount": 261.33,
+  "sgst_amount": 261.33,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.29,
+  "grand_total": 10976,
+  "amount_in_words": "Rupees Ten Thousand Nine Hundred and Seventy Six Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TAX-B-8783\",\n  \"invoice_date\": \"2025-06-03\",\n  \"seller_name\": \"Shetty Infratech Pvt. Ltd.\",\n  \"seller_gstin\": \"06YAMPS3893N1Z3\",\n  \"seller_address\": \"Plot No. 245, Okhla Phase I, Gurugram, Haryana-133701\",\n  \"buyer_name\": \"Sethi Sales Corporation Pvt. Ltd.\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Khasra No. 30, MIDC Phase II, Panipat, Haryana-126511\",\n  \"place_of_supply\": \"06-Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Cotton Woven Fabric 44 inch\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 92.317,\n      \"unit\": \"MTR\",\n      \"unit_price\": 113.23,\n      \"discount\": null,\n      \"taxable_value\": 10453.05,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 10453.05,\n  \"cgst_amount\": 261.33,\n  \"sgst_amount\": 261.33,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.29,\n  \"grand_total\": 10976,\n  \"amount_in_words\": \"Rupees Ten Thousand Nine Hundred and Seventy Six Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3828,
+ "output_tokens": 394,
+ "cached_input_tokens": 0,
+ "latency_s": 16.072,
+ "cost_usd": 0.0005620159999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

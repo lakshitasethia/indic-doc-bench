@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00018__L2_photo",
+ "doc_id": "syn00018",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "GJ2416",
+  "invoice_date": "2025-05-16",
+  "seller_name": "Iyer & Sons",
+  "seller_gstin": "32FBHC2798O5ZN",
+  "seller_address": "Shop No. 165, Peenya 2nd Stage, Kochi, Kerala-682420",
+  "buyer_name": "Banerjee Enterprises Private Limited",
+  "buyer_gstin": "32WMGCB2596H7Z8",
+  "buyer_address": "Door No. 431, MIDC Phase II, Thiruvananthapuram, Kerala-695031",
+  "place_of_supply": "32-Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 1971,
+    "unit": "NOS",
+    "unit_price": 32.45,
+    "discount": null,
+    "taxable_value": 63958.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 445,
+    "unit": "PCS",
+    "unit_price": 41.13,
+    "discount": null,
+    "taxable_value": 18302.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 11.848,
+    "unit": "KGS",
+    "unit_price": 73.28,
+    "discount": null,
+    "taxable_value": 868.22,
+    "tax_rate": 5
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 391,
+    "unit": "BOX",
+    "unit_price": 289.28,
+    "discount": null,
+    "taxable_value": 113108.48,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 8215.04,
+    "discount": null,
+    "taxable_value": 24645.12,
+    "tax_rate": 28
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 10819.47,
+    "discount": null,
+    "taxable_value": 21638.94,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 242522.56,
+  "cgst_amount": 23002.86,
+  "sgst_amount": 23002.86,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.28,
+  "grand_total": 288528.0,
+  "amount_in_words": "Rupees Two Lakh Eighty Eight Thousand Five Hundred and Twenty Eight Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"GJ2416\",\n  \"invoice_date\": \"2025-05-16\",\n  \"seller_name\": \"Iyer & Sons\",\n  \"seller_gstin\": \"32FBHC2798O5ZN\",\n  \"seller_address\": \"Shop No. 165, Peenya 2nd Stage, Kochi, Kerala-682420\",\n  \"buyer_name\": \"Banerjee Enterprises Private Limited\",\n  \"buyer_gstin\": \"32WMGCB2596H7Z8\",\n  \"buyer_address\": \"Door No. 431, MIDC Phase II, Thiruvananthapuram, Kerala-695031\",\n  \"place_of_supply\": \"32-Kerala\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 1971,\n      \"unit\": \"NOS\",\n      \"unit_price\": 32.45,\n      \"discount\": null,\n      \"taxable_value\": 63958.95,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Toilet Soap 100g\",\n      \"hsn_sac\": \"3401\",\n      \"quantity\": 445,\n      \"unit\": \"PCS\",\n      \"unit_price\": 41.13,\n      \"discount\": null,\n      \"taxable_value\": 18302.85,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Basmati Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 11.848,\n      \"unit\": \"KGS\",\n      \"unit_price\": 73.28,\n      \"discount\": null,\n      \"taxable_value\": 868.22,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 391,\n      \"unit\": \"BOX\",\n      \"unit_price\": 289.28,\n      \"discount\": null,\n      \"taxable_value\": 113108.48,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 3,\n      \"unit\": \"NOS\",\n      \"unit_price\": 8215.04,\n      \"discount\": null,\n      \"taxable_value\": 24645.12,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 10819.47,\n      \"discount\": null,\n      \"taxable_value\": 21638.94,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 242522.56,\n  \"cgst_amount\": 23002.86,\n  \"sgst_amount\": 23002.86,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.28,\n  \"grand_total\": 288528.00,\n  \"amount_in_words\": \"Rupees Two Lakh Eighty Eight Thousand Five Hundred and Twenty Eight Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2325,
+ "output_tokens": 869,
+ "cached_input_tokens": 0,
+ "latency_s": 22.0869,
+ "cost_usd": 0.0006033039999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

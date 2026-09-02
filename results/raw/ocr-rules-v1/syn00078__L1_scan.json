@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00078__L1_scan",
+ "doc_id": "syn00078",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-12-28",
+  "seller_name": "Chowdhury Solutions Limited Hap esipecns|",
+  "seller_gstin": "09FDZFC5070C5ZS",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chowdhury Solutions Limited Hap esipecns|\nPlot No. 277, GIDC Estate, Ghaziabad, Uttar Pradesh-260431 Dt 28/12/2025 |\nGSTIN: 09FDZFC5070C5ZS | State: Uttar Pradesh (09) RCMN |\nTo: Deshmukh Traders, Door No. 142, Okhla Phase |, Ghaziabad, Uttar Pradesh-242225 | GSTIN: O9VKFPDO960H8ZL | POS: 09-Uttar Pradesh\n\na a ei ee ee Amount\n\nrtfinstantDrink Premx [2106] al Pcs| 202.18] -| terr.44|1a| _14557| _145.57| _ 1908.68\n\"7 Radial Tyre 195/65 R15_| 4011 | 16| Nos | 7054.41] -| 112670.56] 26| 1580.86] _16801.88| _144474.32\n114488.00\n15047.45\n15947.45\n0.10\n146383.00\n\nRs. in words: Rupees One Lakh Forty Six Thousand Three Hundred and Eighty Three Only\nFor Chowdhury Solutions Limited\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4885,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 692,
+  "gstins_found": 1
+ }
+}

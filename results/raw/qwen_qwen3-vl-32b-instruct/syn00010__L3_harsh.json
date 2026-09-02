@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00010__L3_harsh",
+ "doc_id": "syn00010",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV: 28-36/4579",
+  "invoice_date": "2025-09-24",
+  "seller_name": "Sagar's Auto Cooperative LLP",
+  "seller_gstin": "22ABFPPB0164A1Z",
+  "seller_address": "Shop No. 205, Kanchan Nagar, Hyderabad, Telangana",
+  "buyer_name": "Ramesh Srinivasan",
+  "buyer_gstin": null,
+  "buyer_address": "Door No. 58, 1st Floor, KACV, Neredmet, Hyderabad - 500043",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": "1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF",
+  "line_items": [
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 2.32,
+    "unit": "LTR",
+    "unit_price": 675.52,
+    "discount": null,
+    "taxable_value": 105853.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cabinets Steel Battery Set",
+    "hsn_sac": "8215",
+    "quantity": 7,
+    "unit": "SET",
+    "unit_price": 439.1,
+    "discount": null,
+    "taxable_value": 3073.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Manufacturing UV Primer",
+    "hsn_sac": "8443",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 26879.15,
+    "discount": null,
+    "taxable_value": 26879.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Perforation Table",
+    "hsn_sac": "8483",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 14251.57,
+    "discount": null,
+    "taxable_value": 14251.57,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72\"x36\"",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7036.48,
+    "discount": null,
+    "taxable_value": 7036.48,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 157954.48,
+  "cgst_amount": 14215.9,
+  "sgst_amount": 14215.9,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.49,
+  "grand_total": 186375.89,
+  "amount_in_words": "Rupees One Lakh Eighty-Six Thousand Three Hundred and Seventy-Five Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV: 28-36/4579\",\n  \"invoice_date\": \"2025-09-24\",\n  \"seller_name\": \"Sagar's Auto Cooperative LLP\",\n  \"seller_gstin\": \"22ABFPPB0164A1Z\",\n  \"seller_address\": \"Shop No. 205, Kanchan Nagar, Hyderabad, Telangana\",\n  \"buyer_name\": \"Ramesh Srinivasan\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Door No. 58, 1st Floor, KACV, Neredmet, Hyderabad - 500043\",\n  \"place_of_supply\": \"Telangana\",\n  \"reverse_charge\": null,\n  \"irn\": \"1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF\",\n  \"line_items\": [\n    {\n      \"description\": \"Synthetic Enamel Paint 4L\",\n      \"hsn_sac\": \"3208\",\n      \"quantity\": 2.32,\n      \"unit\": \"LTR\",\n      \"unit_price\": 675.52,\n      \"discount\": null,\n      \"taxable_value\": 105853.58,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cabinets Steel Battery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 7,\n      \"unit\": \"SET\",\n      \"unit_price\": 439.10,\n      \"discount\": null,\n      \"taxable_value\": 3073.70,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Manufacturing UV Primer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 5,\n      \"unit\": \"NOS\",\n      \"unit_price\": 26879.15,\n      \"discount\": null,\n      \"taxable_value\": 26879.15,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Perforation Table\",\n      \"hsn_sac\": \"8483\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 14251.57,\n      \"discount\": null,\n      \"taxable_value\": 14251.57,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Foam Mattress 72\\\"x36\\\"\",\n      \"hsn_sac\": \"9404\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 7036.48,\n      \"discount\": null,\n      \"taxable_value\": 7036.48,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 157954.48,\n  \"cgst_amount\": 14215.90,\n  \"sgst_amount\": 14215.90,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.49,\n  \"grand_total\": 186375.89,\n  \"amount_in_words\": \"Rupees One Lakh Eighty-Six Thousand Three Hundred and Seventy-Five Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1728,
+ "output_tokens": 805,
+ "cached_input_tokens": 0,
+ "latency_s": 22.5821,
+ "cost_usd": 0.000514592,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

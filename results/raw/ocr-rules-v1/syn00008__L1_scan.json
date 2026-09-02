@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00008__L1_scan",
+ "doc_id": "syn00008",
+ "level": "L1_scan",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL2629",
+  "invoice_date": "2025-09-11",
+  "seller_name": "BHATT ENGINEERING WORKS LLP",
+  "seller_gstin": "07RMRCD1643Z2ZB",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "30579.61",
+  "sgst_amount": "30579.61",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.31",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "BHATT ENGINEERING WORKS LLP\nUnit No. 348, Naraina Vihar\nNew Delhi - 110045\nGSTIN: O7TKUPB1538E1ZR\nState: Delhi (07)\nTAX INVOICE\nBill No: DL2629\nDate: 11/09/2025\nBOS: Delhi\nCustomer: Deshmukh Infratech Private\nLimited\nGSTIN: 07RMRCD1643Z2ZB\n1. Glucose Biscuits 200g\nHSN. 1905 SS6BOX x 474.10 263599.60\n2. Corrugated Carton Box OEE Ly.\nHSN 4819 573NOS x 67.47 36727.29\nLess Disc ilies alo\n3. Instant Drink Premix\nHSN 2106 46PCS x 232.59 10699.14\n4. Detergent Powder lkg\nHSN 3402 14PCS x 142.07 1988.98\n5. Hard Bound Register 200 Pages\nHSN 4820 226NOS x 108.20 24453.20\n6. MS Fabricated Structure\nHSN 7308 17.325KGS x 133.06 2505726\nTaxable 339773 .47\nCGST 30579.61\nSGST 30579.61\nRound Off 0.31\nTOTAL Rs .400933.00\nRupees Four Lakh Nine Hundred and Thirty Three\nOnly\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4286,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 821,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00066__L3_harsh",
+ "doc_id": "syn00066",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "et oo Tn \u201ca =a Oe",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "et oo Tn \u201ca =a Oe\n\ntens ee a =a\nBryseeJ Ses gi Aor \u2014\u2014\u2014\n\neet en eS a Re me\n\nPee tae OT, Ee see\neee tne Le Skee Minn eae Se\nBee ty: yi eo Cs ee MRS wes \u201c\nbe et Rd ey SS he ayy, SN om\nEoin tae Uieeas Mr) SS\nBf! Penge PRO tNe ton aia OM. ame: OS om\nPrimate AM Ws ee rhe Wes ine it\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3572,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 277,
+  "gstins_found": 0
+ }
+}

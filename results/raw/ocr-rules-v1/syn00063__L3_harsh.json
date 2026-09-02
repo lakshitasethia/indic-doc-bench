@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00063__L3_harsh",
+ "doc_id": "syn00063",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "aimee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "aimee\ngare\nve ee Oo\na)\npane\nyoaet\nPied we ee janet \u201c \u201c\nposes \u2018\ncera\n\u2018suawan om mee oe onk* a\nae \u2018\nvor :\ni oO sce eee inn oe *\nTe. E :\net Soe\nsfeenee (He qa ven eens\" aa. wet, \u201c P\nsg aeaaeen o grien\n= . wee er)\n: ; ene ren sare\neo\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2477,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 230,
+  "gstins_found": 0
+ }
+}

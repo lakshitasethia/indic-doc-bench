@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00025__L2_photo",
+ "doc_id": "syn00025",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-18",
+  "seller_name": "TAX INVOICE Chauhan Sales Corporation",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "297963.96",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "29339.06",
+  "cess_amount": null,
+  "round_off": "0.02",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Chauhan Sales Corporation\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n18/01/2026 T9NNHPCOS2077Z9 Rajasthan (08) No\nBILL TO y Limited SHIP TO\nDeshmukh Agencies Deshmukh Agencies Limited\nKhasra No, 176, Chandni Chowk, Udaipur, Rajasthan - Khaera Ne: 1 7a Cae Chowk, Udaipur, Rajasthan -\n310722 310722\nGST NO.\n# Item & Description HSN/SAC Qty Rate Amount\n1 HDPE Packing Bags 3923 oe 148.89 27538.10\n\u201c ; 16.738\n2 Synthetic Enamel Paint 4L 3208 LTR 475.75 7963.10\n3 Corrugated Carton Box 5-Ply 4819 42NOS 48.54 2038.68\n4 Basmati Rice (Broken 5%) 1006 os 61.32  22644.49\n5 Leather Formal Shoes 6403 17PRS_- 1171.45 19914.65\n6 MS Hex Bolt with Nut M12 7318 ce 8728 4542.06\n7 OPC53 Grade Cement S0kg 2523 4BAG 403.49 1613.96\n8 Cotton Round Neck T-Shirt 6109 2PCS 406.29 812.58\n9 Glucose Biscuits 200g 1905 3 BOX 261.90 785.70\n423.412\n10 Assam CTC Tea Leaf 0902 KGS 388.90 164664.93\n11. MS Fabricated Structure 7308 ae 124.45 44819.55\n12 Detergent Powder 1kg 3402 4PCS 156.54 626.16\nSub Total 297963.96\nIGST 29339.06\nRounding -0.02\nTotal (INR) %327303.00\nRinses tee Lakh Twenty Seven Thousand Three Hundred and Three Only\nHDFC Bank - A) \u2018C 30619343344 111 - IFSC SLULO61. 4880 Auth sed atory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5666,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1203,
+  "gstins_found": 0
+ }
+}

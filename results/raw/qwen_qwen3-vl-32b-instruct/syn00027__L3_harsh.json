@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00027__L3_harsh",
+ "doc_id": "syn00027",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV20230415001",
+  "invoice_date": "2023-04-15",
+  "seller_name": "M/s. ABC Traders Pvt. Ltd.",
+  "seller_gstin": "27AABCM1234F1Z5",
+  "seller_address": "Plot No. 12, Sector 18, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "XYZ Enterprises",
+  "buyer_gstin": "27ABCD1234E5Z",
+  "buyer_address": "Unit 5, Industrial Estate, Ghaziabad, Uttar Pradesh - 201001",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": "IRN12345678901234567890123456789012345678901234567890123456789012",
+  "line_items": [
+   {
+    "description": "Tonic 500ml (Qty)",
+    "hsn_sac": "2401",
+    "quantity": 92,
+    "unit": "PCS",
+    "unit_price": 62.49,
+    "discount": 0,
+    "taxable_value": 2809.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol 500mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 3353,
+    "unit": "BOX",
+    "unit_price": 6.74,
+    "discount": 0,
+    "taxable_value": 189543.22,
+    "tax_rate": 12
+   },
+   {
+    "description": "Dextrolyte Powder 1kg",
+    "hsn_sac": "3002",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 117.75,
+    "discount": 0,
+    "taxable_value": 28260.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 215712.3,
+  "cgst_amount": 1907.81,
+  "sgst_amount": 1907.81,
+  "igst_amount": null,
+  "cess_amount": 0.0,
+  "round_off": 0.0,
+  "grand_total": 243528.0,
+  "amount_in_words": "Rupees Two Lakh Forty Three Thousand Five Hundred and Twenty Eight Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV20230415001\",\n  \"invoice_date\": \"2023-04-15\",\n  \"seller_name\": \"M/s. ABC Traders Pvt. Ltd.\",\n  \"seller_gstin\": \"27AABCM1234F1Z5\",\n  \"seller_address\": \"Plot No. 12, Sector 18, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"XYZ Enterprises\",\n  \"buyer_gstin\": \"27ABCD1234E5Z\",\n  \"buyer_address\": \"Unit 5, Industrial Estate, Ghaziabad, Uttar Pradesh - 201001\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": \"IRN12345678901234567890123456789012345678901234567890123456789012\",\n  \"line_items\": [\n    {\n      \"description\": \"Tonic 500ml (Qty)\",\n      \"hsn_sac\": \"2401\",\n      \"quantity\": 92,\n      \"unit\": \"PCS\",\n      \"unit_price\": 62.49,\n      \"discount\": 0,\n      \"taxable_value\": 2809.08,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Paracetamol 500mg Tablets\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 3353,\n      \"unit\": \"BOX\",\n      \"unit_price\": 6.74,\n      \"discount\": 0,\n      \"taxable_value\": 189543.22,\n      \"tax_rate\": 12\n    },\n    {\n      \"description\": \"Dextrolyte Powder 1kg\",\n      \"hsn_sac\": \"3002\",\n      \"quantity\": 240,\n      \"unit\": \"PCS\",\n      \"unit_price\": 117.75,\n      \"discount\": 0,\n      \"taxable_value\": 28260.00,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 215712.30,\n  \"cgst_amount\": 1907.81,\n  \"sgst_amount\": 1907.81,\n  \"igst_amount\": null,\n  \"cess_amount\": 0.0,\n  \"round_off\": 0.0,\n  \"grand_total\": 243528.0,\n  \"amount_in_words\": \"Rupees Two Lakh Forty Three Thousand Five Hundred and Twenty Eight Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1713,
+ "output_tokens": 653,
+ "cached_input_tokens": 0,
+ "latency_s": 33.1566,
+ "cost_usd": 0.00044979999999999993,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

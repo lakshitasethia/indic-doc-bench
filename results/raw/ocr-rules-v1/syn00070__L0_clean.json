@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00070__L0_clean",
+ "doc_id": "syn00070",
+ "level": "L0_clean",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\n\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\n\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\n\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\n\n800239\n\nFR [ cswmnersny [osvste] er | owe | voonce | emmevone [FS ccs amen | Sst amen\nParacetamol\n\n1 |IP 650mg 3004 241 |BOX 36.46 8347.52|12 500.85 500.85\nTablets\nPVC Insulated\n\n2 |Copper Cable | 8544 |639.562|MTR 40.58| 25953.43/18] 2335.81] 2335.81\n2.5sqmm\nFoam\n\n3 |Mattress 9404 2|NOS| 4279.92 8559.84 18 770.39 770.39\n72X36\nMS Hex Bolt\n\nja (MS, Nut M12 7318 6270|Nos 35.89 225030.30| 18 |20252.73 20252.73\nOffice\n\n5 |Workstation 9403 11}NOS/10691.79| 117609.69/| 18 | 10584.87/10584.87\nTable\nCotton Round\n\n6 [Cott T-Shirt 6109 1461] pcs| 212.15 309951.15] 5 | 7748.78| 7748.78\nRadial Tyre\nDetergent\n\n3 |Detera ikg 3402 128.31 15724.39) 18 1415.20] 1415.20\nLaptop\nComputer i5 8471 1}NOS|74197.20| 74197.20/18| 6677.75] 6677.75\n16GB\n\n10 Refined Sugar | 4794 536.221 | KGS 38.04 20397.85) 5 | 509.95] 509.95\nInstant Drink\nSmartphone\n\n12|Smarthons 8517 27982.40 27982.40| 18 2518.42| 2518.42\nMS Fabricated\n\n7308 11.789| KGS 116.54 1373.89] 18) 123.65 123.65\nTMT Steel Bar\n\nial TTS 12mm 7214 0.863] TON] 57085.32 49264.63| 18, 4433.82| 4433.82\n\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\n\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.9215,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1339,
+  "gstins_found": 0
+ }
+}

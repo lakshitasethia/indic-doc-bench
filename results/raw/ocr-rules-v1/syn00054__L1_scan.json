@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00054__L1_scan",
+ "doc_id": "syn00054",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-08-29",
+  "seller_name": "Reddy Solutions TOE",
+  "seller_gstin": "23GMXFR2628A5ZB",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Reddy Solutions TOE\nGala No. 168, Sector 63, Indore, Madhya Pradesh-456565 Dt: 29/08/2025 |\nGSTIN: 23GMXFR2628A5ZB | State: Madhya Pradesh (23) RCM:N |\nee\ni oy nee wee teas esr Amount\n1 |Monoblock Water Pump 1HP_\u2014 | 8413 | 4| NOS | 7245.15| -|_28980.60/18| 5216.51/ _34197.11\n\u20182 |Hard Bound Register 200 Pages | 4820| __102|NOS | 113.50| -|_11577.00| 18| 2083.86 13660.86\n3|HDPEPackingBags =| 9923 | 74.061| KGS | 176.78| -| 13092.50|18] 2356.65) 15449.15\n53650. 10\n9657.02\n0.12\n63307.00\nRs. in words: Rupees Sixty Three Thousand Three Hundred and Seven Only\nFor Reddy Solutions\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6021,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 591,
+  "gstins_found": 1
+ }
+}

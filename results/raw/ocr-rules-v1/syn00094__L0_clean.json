@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00094__L0_clean",
+ "doc_id": "syn00094",
+ "level": "L0_clean",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\n\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\n\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n\n- 841957\n\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\n\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\n\nFe ra\n\n500g Biscuits | 4995 249.74] 70426.68 6338.40| 6338.40\n\nassem CTC Tea | 9992 | 198.584 415.04|82420.30 2060.51| 2060.51\nInstant Drink\n\n3 | premix 2106 57/PCS| 206.97/11797.29| 18 |1061.76|1061.76\nBasmati Rice\n\n(Broken 5%) 1006| 32.717 83.26| 2669.54 66.74| 66.74\n\ntile Enamel | 3598 |119.486 560.64 | 66988.63 6028.98|6028.98\n\n6 eotop romputer 8471 67482.40|64108.28 5769.75|5769.75\nTMT Steel Bar\n\nFe-500 12mm 7214] 0.122 58054.75| 6941.03 624.69| 624.69\n\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\n\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5874,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 767,
+  "gstins_found": 0
+ }
+}

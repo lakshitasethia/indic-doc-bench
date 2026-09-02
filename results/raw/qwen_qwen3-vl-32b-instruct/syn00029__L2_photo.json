@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00029__L2_photo",
+ "doc_id": "syn00029",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0881",
+  "invoice_date": "2025-07-20",
+  "seller_name": "Reddy Technologies",
+  "seller_gstin": "07LSSPR7919D4ZR",
+  "seller_address": "Unit No. 134, Focal Point\nNew Delhi 110134\nDelhi",
+  "buyer_name": "Bhatt Infratech",
+  "buyer_gstin": "07OZVPB4125J3ZR",
+  "buyer_address": "Unit No. 379, Udyog Vihar\nDelhi 110563\nDelhi",
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 5.292,
+    "unit": "KGS",
+    "unit_price": 177.48,
+    "discount": null,
+    "taxable_value": 939.22,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 2,
+    "unit": "BOX",
+    "unit_price": 351.69,
+    "discount": null,
+    "taxable_value": 703.38,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1642.6,
+  "cgst_amount": 147.83,
+  "sgst_amount": 147.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.26,
+  "grand_total": 1938,
+  "amount_in_words": "Rupees One Thousand Nine Hundred and Thirty Eight Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"0881\",\n  \"invoice_date\": \"2025-07-20\",\n  \"seller_name\": \"Reddy Technologies\",\n  \"seller_gstin\": \"07LSSPR7919D4ZR\",\n  \"seller_address\": \"Unit No. 134, Focal Point\\nNew Delhi 110134\\nDelhi\",\n  \"buyer_name\": \"Bhatt Infratech\",\n  \"buyer_gstin\": \"07OZVPB4125J3ZR\",\n  \"buyer_address\": \"Unit No. 379, Udyog Vihar\\nDelhi 110563\\nDelhi\",\n  \"place_of_supply\": \"Delhi\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 5.292,\n      \"unit\": \"KGS\",\n      \"unit_price\": 177.48,\n      \"discount\": null,\n      \"taxable_value\": 939.22,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 2,\n      \"unit\": \"BOX\",\n      \"unit_price\": 351.69,\n      \"discount\": null,\n      \"taxable_value\": 703.38,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 1642.6,\n  \"cgst_amount\": 147.83,\n  \"sgst_amount\": 147.83,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.26,\n  \"grand_total\": 1938,\n  \"amount_in_words\": \"Rupees One Thousand Nine Hundred and Thirty Eight Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2538,
+ "output_tokens": 466,
+ "cached_input_tokens": 0,
+ "latency_s": 22.2404,
+ "cost_usd": 0.000457808,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00088__L0_clean",
+ "doc_id": "syn00088",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-1382",
+  "invoice_date": "2025-07-07",
+  "seller_name": "Fernandes Overseas Pvt. Ltd. L ORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "29RGPFF0216P8ZZ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "228.84",
+  "cess_amount": null,
+  "round_off": "18.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Fernandes Overseas Pvt. Ltd. L ORIGINAL FOR RECIPIENT _\n\nDoor No. 147, Sector 63, Hubballi, Karnataka - 575420 Invoice No INV-1382\n\nGSTIN 29RGPFF0216P8ZZ State Code 29 Invoice Date 07-07-2025\n\nTerms Advance\n\nBilled To Shipped To\n\nJoshi Steel & Alloys Joshi Steel & Alloys\n\nDoor No. 6, Okhla Phase I, Noida, Uttar Pradesh - 245722 Door No. 6, Okhla Phase I, Noida\n\nGSTIN O9MJBPJ7292X1ZP_ Place of Supply Uttar Pradesh (09) Reverse Charge: No\n\nSynthetic Enamel Paint 4L 3208 1.870 679.86, | 1271.34 228.84 1500.18\n\nTaxable Amount 1271.34\n\nee IGST 228.84\n9 Round Off 018\n\n3208 1271.34 228.84 Total 1500.00\n\nAmount in words: Rupees One Thousand Five Hundred Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4465,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 659,
+  "gstins_found": 1
+ }
+}

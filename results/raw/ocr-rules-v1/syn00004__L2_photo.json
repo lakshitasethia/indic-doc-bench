@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00004__L2_photo",
+ "doc_id": "syn00004",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Ahluwalia Trading Co. Limited [SRGRAL FORREST",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "3372.18",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.07",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Ahluwalia Trading Co. Limited [SRGRAL FORREST\ncare 447, hoprare Leoset taper het ~ 125180 In ns on DL4252\nTerms'45 Days\nBilled To Shipped To\nSethi Engineering Works Limited Sethi Engineering Works Limited\nDoor No. 418, Ambattur Industrial Estate, Gurugram, Haryana - 430902 Door No. 418, Ambattur Industrial Estate, Gurugram\nGSTIN O6LYXFS4077X2ZY Place of Supply Haryana (06) Reverse Charge: No\n[eT esetintin focus T\u00e9erviens NT Ow [vom fae | bee | twats osre | cast [eos] tine Teta\n| 1 | OPC 53 Grade Cement 50kg 2523 | 53| BAG |. 438.1t| |  23219.83| 28 | 3250.78| 3250.78} _29721.39\n2 | Hard Bound Register 200 Pages 4820 | 26| NOS | _ 51.88 1348,.88| 18 | 121.40] 121.40 1591.68\nHSN Summary Taxable Amount 24568.71\nea ie cst 3372.18\n2523 | 23219.83| 28% 6501.56 SGST 3372.18\nSa anaes BP orae ny Round Off -0.07\n4820 of 1348.88| 18% 242.80 | Total 31313.00\n\u2018Ainount in words: Rupees Thirty One Thousand Three Hundred and Thirteen Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4707,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 937,
+  "gstins_found": 0
+ }
+}

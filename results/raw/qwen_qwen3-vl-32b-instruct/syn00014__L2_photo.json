@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00014__L2_photo",
+ "doc_id": "syn00014",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/9244",
+  "invoice_date": "2025-07-06",
+  "seller_name": "AGARWAL TECHNOLOGIES",
+  "seller_gstin": "09HXPA4424J7ZH",
+  "seller_address": "Khasra No. 451, Ring Road, Agra - 217782 (Uttar Pradesh)",
+  "buyer_name": "M/s. Mehra Trading Co.",
+  "buyer_gstin": "03DIJPM202201Z9",
+  "buyer_address": "Khasra No. 454, Sector 63 Ludhiana - 150832",
+  "place_of_supply": "03-Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": null,
+    "quantity": 121,
+    "unit": "PCS",
+    "unit_price": 117.97,
+    "discount": null,
+    "taxable_value": 14274.37,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": null,
+    "quantity": 29,
+    "unit": "NOS",
+    "unit_price": 6276.69,
+    "discount": null,
+    "taxable_value": 182024.01,
+    "tax_rate": 28
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": null,
+    "quantity": 1427,
+    "unit": "PCS",
+    "unit_price": 263.1,
+    "discount": null,
+    "taxable_value": 375443.7,
+    "tax_rate": 5
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": null,
+    "quantity": 95.596,
+    "unit": "KGS",
+    "unit_price": 113.67,
+    "discount": null,
+    "taxable_value": 10866.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": null,
+    "quantity": 3,
+    "unit": "PRS",
+    "unit_price": 1388.39,
+    "discount": null,
+    "taxable_value": 4165.17,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 3884.49,
+    "discount": null,
+    "taxable_value": 3806.8,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 590580.45,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 75699.2,
+  "cess_amount": null,
+  "round_off": 0.35,
+  "grand_total": 666280,
+  "amount_in_words": "Rupees Six Lakh Sixty Six Thousand Two Hundred and Eighty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/9244\",\n  \"invoice_date\": \"2025-07-06\",\n  \"seller_name\": \"AGARWAL TECHNOLOGIES\",\n  \"seller_gstin\": \"09HXPA4424J7ZH\",\n  \"seller_address\": \"Khasra No. 451, Ring Road, Agra - 217782 (Uttar Pradesh)\",\n  \"buyer_name\": \"M/s. Mehra Trading Co.\",\n  \"buyer_gstin\": \"03DIJPM202201Z9\",\n  \"buyer_address\": \"Khasra No. 454, Sector 63 Ludhiana - 150832\",\n  \"place_of_supply\": \"03-Punjab\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": null,\n      \"quantity\": 121,\n      \"unit\": \"PCS\",\n      \"unit_price\": 117.97,\n      \"discount\": null,\n      \"taxable_value\": 14274.37,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": null,\n      \"quantity\": 29,\n      \"unit\": \"NOS\",\n      \"unit_price\": 6276.69,\n      \"discount\": null,\n      \"taxable_value\": 182024.01,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": null,\n      \"quantity\": 1427,\n      \"unit\": \"PCS\",\n      \"unit_price\": 263.1,\n      \"discount\": null,\n      \"taxable_value\": 375443.7,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": null,\n      \"quantity\": 95.596,\n      \"unit\": \"KGS\",\n      \"unit_price\": 113.67,\n      \"discount\": null,\n      \"taxable_value\": 10866.4,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": null,\n      \"quantity\": 3,\n      \"unit\": \"PRS\",\n      \"unit_price\": 1388.39,\n      \"discount\": null,\n      \"taxable_value\": 4165.17,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": null,\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 3884.49,\n      \"discount\": null,\n      \"taxable_value\": 3806.8,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 590580.45,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 75699.2,\n  \"cess_amount\": null,\n  \"round_off\": 0.35,\n  \"grand_total\": 666280,\n  \"amount_in_words\": \"Rupees Six Lakh Sixty Six Thousand Two Hundred and Eighty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2834,
+ "output_tokens": 830,
+ "cached_input_tokens": 0,
+ "latency_s": 44.7817,
+ "cost_usd": 0.000640016,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

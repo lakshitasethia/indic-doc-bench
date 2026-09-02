@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00007__L1_scan",
+ "doc_id": "syn00007",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "SALE-B-5606",
+  "invoice_date": null,
+  "seller_name": "eS eee dis a. / Invoice No. SALE-B-5606",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "eS eee dis a. / Invoice No. SALE-B-5606\nShop No. 112, SIDCO Complex, Salem\n\nTamil Nadu - 615990 eae lb ol\n\nxa / Buyer: Rao Marketing LLP\n\nKhasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125\n\n| owe me [ame [ee (] mm |e\n[Refined sugarsao [ror] reosoxcs| aos] rsoao| 5 | _1e7s| 1075\na[ADPE racking bags [2sea] 263773Kcs] 10059] arvaoe[ v0 | 420595] 23695\neisai / In words: Rupees Three Lakh One Thousand Six Hundred and Eighty Seven Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5964,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 443,
+  "gstins_found": 0
+ }
+}

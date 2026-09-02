@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00056__L1_scan",
+ "doc_id": "syn00056",
+ "level": "L1_scan",
+ "template_id": "t09",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/6922",
+  "invoice_date": "2025-08-29",
+  "seller_name": "MEHRA ELECTRICALS PRIVATE LIMITED",
+  "seller_gstin": "27PLAPM3826I5ZK",
+  "seller_address": "Door No. 420, Ambattur Industrial Estate Mumbai - 406591",
+  "buyer_name": "Sethi Textiles",
+  "buyer_gstin": "27EPNCS5392F4ZU",
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 7,
+    "unit": "BAG",
+    "unit_price": 416.76,
+    "discount": null,
+    "taxable_value": 2917.32,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 2917.32,
+  "cgst_amount": 408.42,
+  "sgst_amount": 408.42,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.16,
+  "grand_total": 3734,
+  "amount_in_words": "Rupees Three Thousand Seven Hundred and Thirty Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TI/25-26/6922\",\n  \"invoice_date\": \"2025-08-29\",\n  \"seller_name\": \"MEHRA ELECTRICALS PRIVATE LIMITED\",\n  \"seller_gstin\": \"27PLAPM3826I5ZK\",\n  \"seller_address\": \"Door No. 420, Ambattur Industrial Estate Mumbai - 406591\",\n  \"buyer_name\": \"Sethi Textiles\",\n  \"buyer_gstin\": \"27EPNCS5392F4ZU\",\n  \"buyer_address\": null,\n  \"place_of_supply\": \"Maharashtra\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 7,\n      \"unit\": \"BAG\",\n      \"unit_price\": 416.76,\n      \"discount\": null,\n      \"taxable_value\": 2917.32,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 2917.32,\n  \"cgst_amount\": 408.42,\n  \"sgst_amount\": 408.42,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.16,\n  \"grand_total\": 3734,\n  \"amount_in_words\": \"Rupees Three Thousand Seven Hundred and Thirty Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2128,
+ "output_tokens": 369,
+ "cached_input_tokens": 0,
+ "latency_s": 125.8996,
+ "cost_usd": 0.000374816,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

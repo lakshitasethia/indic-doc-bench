@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00061__L0_clean",
+ "doc_id": "syn00061",
+ "level": "L0_clean",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-05",
+  "seller_name": "TAX INVOICE Mahajan Infratech Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "481412.26",
+  "cgst_amount": "43074.85",
+  "sgst_amount": "43074.85",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.04",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Mahajan Infratech Pvt. Ltd.\nUnit No. 148, Naraina Vihar\nTAX-A-7910 Udaipur - Rajasthan 332978\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n05/10/2025 O8FARCM3781J9ZF Rajasthan (08) No\nBILL TO SHIP TO\nMehra Traders Mehra Traders\nPlot No. 324, Kalbadevi Road, Udaipur, Rajasthan - Plot No. 324, Kalbadevi Road, Udaipur, Rajasthan -\n321007 321007\nGST NO.\nO8KYIFM8088I8ZT\n# Item & Description HSN/SAC Qty Rate Amount\n1 Office Workstation Table 9403 8NOS 17395.10 139160.80\n2 Laptop Computer i5 16GB 8471 1NOS 65564.93 64253.63\n. 6.859\n3 HDPE Packing Bags 3923 KGS 131.97 905.18\n12.851\n4 Assam CTC Tea Leaf 0902 KGS 301.99 3880.87\n5 Stainless Steel Cutlery Set 8215 2 SET 774.74 1549.48\n6 TMT Steel Bar Fe-500 12mm 7214 OW 50458.30 3310.64\n7 Multifunction Laser Printer 8443 1NOS 15883.93 15883.93\n8 MS Hex Bolt with Nut M12 7318 Nog 22.27 222677.73\nSub Total 481412.26\nCGST 43074.85\nSGST 43074.85\nRounding 0.04\nTotal (INR) %567562.00\nIN WORDS\nRupees Five Lakh Sixty Seven Thousand Five Hundred and Sixty Two Only\nHDFC Bank - A/C 1328619309797114 - IFSC VYUT0925937 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6958,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1101,
+  "gstins_found": 0
+ }
+}

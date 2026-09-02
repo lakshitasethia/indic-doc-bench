@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00052__L1_scan",
+ "doc_id": "syn00052",
+ "level": "L1_scan",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL2278",
+  "invoice_date": "2025-05-15",
+  "seller_name": "Kulkarni Traders Pvt. Ltd. [ORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "19UCPPK4251R7Z1",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "14028.04",
+  "cess_amount": null,
+  "round_off": "0.47",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Kulkarni Traders Pvt. Ltd. [ORIGINAL FOR RECIPIENT _\n\nGala No. 140, Ambattur Industrial Estate, Siliguri, West Bengal - 725148 Invoice No DL2278\n\nGSTIN 19UCPPK4251R7Z1 State Code 19 Invoice Date 15-05-2025\n\nTerms 15 Days\n\nBilled To Shipped To\n\nGupta Engineering Works Pvt. Ltd. Gupta Engineering Works Pvt. Ltd.\n\nPlot No. 362, Ring Road, Amritsar, Punjab - 141982 Plot No. 362, Ring Road, Amritsar\n\nGSTIN Unregistered Place of Supply Punjab (03) Reverse Charge: No\n\nLeather Formal Shoes e403 | | PRS] Dorel | 19508.49 3511.53 23020.02\nCotton Woven Fabric 44 inch 5208 762.633 186.41| | \u2014 142162.42 7108.12 149270.54\nToilet Soap 100g 3401 30.64| | 18935.52 3408.39 22343.91\nEcc anti udaly ee\n6403 19508.49 3511.53 IGST 14028.04\n5208 142162.42 7108.12 Round Off \u201c0.47\n3401 18935.52 3408.39 Total 194634.00\nAmount in words: Rupees One Lakh Ninety Four Thousand Six Hundred and Thirty Four Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7287,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 891,
+  "gstins_found": 1
+ }
+}

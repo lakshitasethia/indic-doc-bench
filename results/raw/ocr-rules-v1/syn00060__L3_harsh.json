@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00060__L3_harsh",
+ "doc_id": "syn00060",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "peste eee |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "peste eee |\n\na ae lel le ele\ntannin ot 3S \u2014 seo nly nme _\u2014\u2014\u2014-\n\nvf naa Cmmay [OES] Va avin a) fT Semon]\n\nF Wamkond teen] dContuy Toorivs} i Pacey eigen] scence\u2019! tora Daksa\n\n{ = hata set Ot By\n\n} i eibiimenh ae Steet eae)\n\nSw wich Regn Towa Sse Py Then Yr ted a\n\ntinaniigsstssinies\n\nae : 5 nestor\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2752,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 296,
+  "gstins_found": 0
+ }
+}

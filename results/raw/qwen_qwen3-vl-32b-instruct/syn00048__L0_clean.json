@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00048__L0_clean",
+ "doc_id": "syn00048",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/3277",
+  "invoice_date": "2026-01-18",
+  "seller_name": "Kaur Polymers Pvt. Ltd.",
+  "seller_gstin": "08PAUCK1737V1ZW",
+  "seller_address": "Door No. 200, Kalbadevi Road Jodhpur, Rajasthan - 307148",
+  "buyer_name": "Sethi & Sons LLP",
+  "buyer_gstin": "33IWEC57120M3ZS",
+  "buyer_address": "Unit No. 63, MG Road Chennai, Tamil Nadu - 615114",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 8,
+    "unit": "NOS",
+    "unit_price": 8570.85,
+    "discount": null,
+    "taxable_value": 68566.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 61296.74,
+    "discount": null,
+    "taxable_value": 61296.74,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets Less: Discount 12194.28",
+    "hsn_sac": "3004",
+    "quantity": 5332,
+    "unit": "BOX",
+    "unit_price": 45.74,
+    "discount": null,
+    "taxable_value": 231691.4,
+    "tax_rate": 12
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 67,
+    "unit": "NOS",
+    "unit_price": 19.5,
+    "discount": null,
+    "taxable_value": 1306.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 7203.336,
+    "unit": "MTR",
+    "unit_price": 54.98,
+    "discount": null,
+    "taxable_value": 396039.41,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 758900.85,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 122700.66,
+  "cess_amount": null,
+  "round_off": 0.49,
+  "grand_total": 881602,
+  "amount_in_words": "Rupees Eight Lakh Eighty One Thousand Six Hundred and Two Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TI/25-26/3277\",\n  \"invoice_date\": \"2026-01-18\",\n  \"seller_name\": \"Kaur Polymers Pvt. Ltd.\",\n  \"seller_gstin\": \"08PAUCK1737V1ZW\",\n  \"seller_address\": \"Door No. 200, Kalbadevi Road Jodhpur, Rajasthan - 307148\",\n  \"buyer_name\": \"Sethi & Sons LLP\",\n  \"buyer_gstin\": \"33IWEC57120M3ZS\",\n  \"buyer_address\": \"Unit No. 63, MG Road Chennai, Tamil Nadu - 615114\",\n  \"place_of_supply\": \"Tamil Nadu\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 8,\n      \"unit\": \"NOS\",\n      \"unit_price\": 8570.85,\n      \"discount\": null,\n      \"taxable_value\": 68566.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 61296.74,\n      \"discount\": null,\n      \"taxable_value\": 61296.74,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Paracetamol IP 650mg Tablets Less: Discount 12194.28\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 5332,\n      \"unit\": \"BOX\",\n      \"unit_price\": 45.74,\n      \"discount\": null,\n      \"taxable_value\": 231691.4,\n      \"tax_rate\": 12\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 67,\n      \"unit\": \"NOS\",\n      \"unit_price\": 19.5,\n      \"discount\": null,\n      \"taxable_value\": 1306.5,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"PVC Insulated Copper Cable 2.5sqmm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 7203.336,\n      \"unit\": \"MTR\",\n      \"unit_price\": 54.98,\n      \"discount\": null,\n      \"taxable_value\": 396039.41,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 758900.85,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 122700.66,\n  \"cess_amount\": null,\n  \"round_off\": 0.49,\n  \"grand_total\": 881602,\n  \"amount_in_words\": \"Rupees Eight Lakh Eighty One Thousand Six Hundred and Two Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3912,
+ "output_tokens": 779,
+ "cached_input_tokens": 0,
+ "latency_s": 131.1426,
+ "cost_usd": 0.0007309119999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

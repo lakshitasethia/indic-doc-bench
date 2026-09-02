@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00006__L1_scan",
+ "doc_id": "syn00006",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Kaur Electricals Limited Eten",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Kaur Electricals Limited Eten\nGSTIN: 24876\u00a2KSEN5F223 [Sls Cus mee\ni i nn alc (oi a\n1|Smartphone 6GB/128GB___\u2014| 8517|_2|NOS| 18145.80| __-|_36291.60/18| 6532.49) _42824.09\n2|OPC 53 Grade Cement 50kg | 2523| 3| BAG) 408.15| _\u2014-|_\u20141224.45/28| 342.85] 1867.30\n|3| Stainless Stee! Cutlery Set___| 8215| 266| SET | 645.26] _\u2014-|_ 171639.16|18| 30895.05) 202534.21\n/4|MS Hex Bolt with NutM12____|7318| 4613|NOS| _29.99| __-|_ 138343.87/18| 24901.90) 163245.77\n5|Instant Drink Premix | 2406| 148|PCS| 115.07|___\u2014-|_\u201813578.26/18| 2444.09] _ 16022.35\n6|Leather Formal Shoes ___\u2014|[6403|\u20141/PRS| 908.38 \u2014-|\u2014\u00ab908.38/18| 163.51; _ 1071.89\n7| Office Workstation Table _\u2014|.9403|1|NOS| 17484.11| -|_17484.11/18| 3147.14 _20631.25\n8|Foam Mattress 72x36 | 9404] 1|NOS| 7865.25) 393.26] 7471.99/18| 1344.96 8816.95\n386941.82\n69771.99\n0.19\n456714.00\nRs. in words: Rupees Four Lakh Fifty Six Thousand Seven Hundred and Fourteen Only\nFor Kaur Electricals Limited\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7575,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 950,
+  "gstins_found": 0
+ }
+}

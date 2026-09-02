@@ -1,0 +1,229 @@
+{
+ "variant_id": "syn00051__L3_harsh",
+ "doc_id": "syn00051",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": null,
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 3170.335,
+    "unit": "MTR",
+    "unit_price": 87.69,
+    "discount": 305710.63,
+    "taxable_value": 7743.75,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 181.703,
+    "unit": "PCS",
+    "unit_price": 350.84,
+    "discount": 58401.65,
+    "taxable_value": 1413.29,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 11.703,
+    "unit": "PCS",
+    "unit_price": 34.75,
+    "discount": 723.93,
+    "taxable_value": 84.89,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 1208.1892,
+    "unit": "KGS",
+    "unit_price": 193.81,
+    "discount": 633843.04,
+    "taxable_value": 3627.33,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 1761.2527,
+    "unit": "KGS",
+    "unit_price": 156.78,
+    "discount": 113565.58,
+    "taxable_value": 2837.76,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 1405,
+    "unit": "PCS",
+    "unit_price": 302.14,
+    "discount": 4853.95,
+    "taxable_value": 3007.7,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 2114,
+    "unit": "PCS",
+    "unit_price": 6128.16,
+    "discount": 2894.5,
+    "taxable_value": 135.46,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 4483,
+    "unit": "PCS",
+    "unit_price": 6521.42,
+    "discount": 71737.82,
+    "taxable_value": 6456.4,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 2521,
+    "unit": "PCS",
+    "unit_price": 393.34,
+    "discount": 2957.73,
+    "taxable_value": 398.58,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 1462,
+    "unit": "PCS",
+    "unit_price": 125.8,
+    "discount": 4593.62,
+    "taxable_value": 593.34,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 14575,
+    "unit": "PCS",
+    "unit_price": 8593.29,
+    "discount": 32526.37,
+    "taxable_value": 7383.48,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 3523.1486,
+    "unit": "MTR",
+    "unit_price": 108.33,
+    "discount": 261561.11,
+    "taxable_value": 14545.5,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 8219,
+    "unit": "PCS",
+    "unit_price": 674.4,
+    "discount": 674.4,
+    "taxable_value": 455.7,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 7308.1627,
+    "unit": "MTR",
+    "unit_price": 848.928,
+    "discount": 175627.92,
+    "taxable_value": 15337.41,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 14035,
+    "unit": "PCS",
+    "unit_price": 34241.03,
+    "discount": 140491.09,
+    "taxable_value": 3081.7,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 2166,
+    "unit": "PCS",
+    "unit_price": 302.41,
+    "discount": 30202.46,
+    "taxable_value": 12895.72,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 6403,
+    "unit": "PCS",
+    "unit_price": 1527.96,
+    "discount": 172724.82,
+    "taxable_value": 196513.34,
+    "tax_rate": null
+   },
+   {
+    "description": "Surgical",
+    "hsn_sac": "9021",
+    "quantity": 4820,
+    "unit": "PCS",
+    "unit_price": 84.26,
+    "discount": 14273.27,
+    "taxable_value": 86081.21,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": null,\n  \"invoice_date\": null,\n  \"seller_name\": null,\n  \"seller_gstin\": null,\n  \"seller_address\": null,\n  \"buyer_name\": null,\n  \"buyer_gstin\": null,\n  \"buyer_address\": null,\n  \"place_of_supply\": null,\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 3170.335,\n      \"unit\": \"MTR\",\n      \"unit_price\": 87.69,\n      \"discount\": 305710.63,\n      \"taxable_value\": 7743.75,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 181.703,\n      \"unit\": \"PCS\",\n      \"unit_price\": 350.84,\n      \"discount\": 58401.65,\n      \"taxable_value\": 1413.29,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 11.703,\n      \"unit\": \"PCS\",\n      \"unit_price\": 34.75,\n      \"discount\": 723.93,\n      \"taxable_value\": 84.89,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 1208.1892,\n      \"unit\": \"KGS\",\n      \"unit_price\": 193.81,\n      \"discount\": 633843.04,\n      \"taxable_value\": 3627.33,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 1761.2527,\n      \"unit\": \"KGS\",\n      \"unit_price\": 156.78,\n      \"discount\": 113565.58,\n      \"taxable_value\": 2837.76,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 1405,\n      \"unit\": \"PCS\",\n      \"unit_price\": 302.14,\n      \"discount\": 4853.95,\n      \"taxable_value\": 3007.70,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 2114,\n      \"unit\": \"PCS\",\n      \"unit_price\": 6128.16,\n      \"discount\": 2894.50,\n      \"taxable_value\": 135.46,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 4483,\n      \"unit\": \"PCS\",\n      \"unit_price\": 6521.42,\n      \"discount\": 71737.82,\n      \"taxable_value\": 6456.40,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 2521,\n      \"unit\": \"PCS\",\n      \"unit_price\": 393.34,\n      \"discount\": 2957.73,\n      \"taxable_value\": 398.58,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 1462,\n      \"unit\": \"PCS\",\n      \"unit_price\": 125.80,\n      \"discount\": 4593.62,\n      \"taxable_value\": 593.34,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 14575,\n      \"unit\": \"PCS\",\n      \"unit_price\": 8593.29,\n      \"discount\": 32526.37,\n      \"taxable_value\": 7383.48,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 3523.1486,\n      \"unit\": \"MTR\",\n      \"unit_price\": 108.33,\n      \"discount\": 261561.11,\n      \"taxable_value\": 14545.50,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 8219,\n      \"unit\": \"PCS\",\n      \"unit_price\": 674.40,\n      \"discount\": 674.40,\n      \"taxable_value\": 455.70,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 7308.1627,\n      \"unit\": \"MTR\",\n      \"unit_price\": 848.928,\n      \"discount\": 175627.92,\n      \"taxable_value\": 15337.41,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 14035,\n      \"unit\": \"PCS\",\n      \"unit_price\": 34241.03,\n      \"discount\": 140491.09,\n      \"taxable_value\": 3081.70,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 2166,\n      \"unit\": \"PCS\",\n      \"unit_price\": 302.41,\n      \"discount\": 30202.46,\n      \"taxable_value\": 12895.72,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 6403,\n      \"unit\": \"PCS\",\n      \"unit_price\": 1527.96,\n      \"discount\": 172724.82,\n      \"taxable_value\": 196513.34,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Surgical\",\n      \"hsn_sac\": \"9021\",\n      \"quantity\": 4820,\n      \"unit\": \"PCS\",\n      \"unit_price\": 84.26,\n      \"discount\": 14273.27,\n      \"taxable_value\": 86081.21,\n      \"tax_rate\": null\n    }\n  ],\n  \"total_taxable_value\": null,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": null,\n  \"grand_total\": null,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2008,
+ "output_tokens": 1830,
+ "cached_input_tokens": 0,
+ "latency_s": 25.843,
+ "cost_usd": 0.000970112,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

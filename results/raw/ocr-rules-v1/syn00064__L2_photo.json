@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00064__L2_photo",
+ "doc_id": "syn00064",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL1399",
+  "invoice_date": "2025-10-09",
+  "seller_name": "Deshmukh Pharma ORIGINAL FOR RECIPIENT",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "4880.55",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Deshmukh Pharma ORIGINAL FOR RECIPIENT\n\u2018Unit No. 218, Naraina Vihar, Jalandhar, Punjab - 144073 Invoice No DL1399\nGSTIN O3VSUFDB574J3Z5 State Code 03 Invoice Date 09-10-2025\nTerms 45 Days\nBilled To Shipped To\nAhluwalia Solutions Ahluwalia Solutions\nGala No. 15, Sector 63, Jalandhar, Punjab - 156258 Gala No. 15,-Sector 63, Jalandhar\nGSTIN O3AYBPA8960D2ZV Place of Supply Punjab (03) Reverse Charge: No\nETN GN mT eats | e008 sost Line Total\n(1 [Refined Sugar S-30 1701 | __1553.530| KGS | 48.42| | 75221 92| 5. | 1880.55 1880.55|. | 78983.02\nSGST 4880.55\nTotal 78983.00\nAmount in words: Rupees Seventy Eight Thousand Nine Hundred and Eighty Three Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3618,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 652,
+  "gstins_found": 0
+ }
+}

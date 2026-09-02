@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00049__L2_photo",
+ "doc_id": "syn00049",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-03-23",
+  "seller_name": "Kulkarni Steel & Alloys",
+  "seller_gstin": "27QYFCK3190U7ZQ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "23462225.00",
+  "cgst_amount": "20700.01",
+  "sgst_amount": "20700.01",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.27",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Kulkarni Steel & Alloys\nTAX INVOICE\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n23/03/2026 27QYFCK3190U7ZQ Maharashtra (27) No\nBILL TO SHIP TO : }\nDoor No. 364, Chandni Chowk, Nagpur, Maharashtra - Door No. 364, Chandni Chowk,: Nagpur, Maharashtra -\n427244 427244\nGST NO.\n27PXKFSO801E1ZT\n1 HDPE Packing Bags 3923 ee 156.40 5594.43\n2. Multifunction Laser Printer 8443 4NOS 27120.48  27120.48.\n3 TMT Steel Bar Fe-500 12mm 7o14 87 4904082 9248.26\n4 MS Hex Bolt with Nut M12 7318 ee 18.88  23392.32\n5 Glucose Biscuits 200g 1905 258 387.28 199033.52\n8 Basmati Rice (Broken 5%) 100 | S887E 109.07 6399.79\n1.269\n7 Synthetic Enamel Paint 4L 3208 LTR 656.78 833.45\nSub Total 23462225\nCGST 20700.01\nSGST 20700.01\nRounding -0.27\nTotal (INR) %276022.00\nPupecs Two Lakh Seventy Six Thousand Twenty Two Only\nAxis Bank - A/C 62170067; : 9 IFSC TOLF0224209 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4467,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 870,
+  "gstins_found": 1
+ }
+}

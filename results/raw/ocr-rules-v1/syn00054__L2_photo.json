@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00054__L2_photo",
+ "doc_id": "syn00054",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Reddy Solutions Ree",
+  "seller_gstin": "32UQXFK4926N6Z0",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "9657.02",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Reddy Solutions Ree\nSth acs ue ten beet\nTo: Kulkami Distributors, Unit No. $2, GIDC Estate, Thruvananthapuram, Kerala-683242 | GSTIN 32UQXFK4926N6Z0 | POS: 32-Kerala\nee 1 Se BH Be\ntprecnnblock Water Pump HP = [e43 | 74, NOS | 7245.15) _-| 2898060) 18| 5216.51] 34197. 11\n|2 |Hard Bound Register 200 Pages \u2014|4820| 102] Nos |\" 113.50 -|_11577.00| 18 | 2083.86) 1360.86,\n[3|HOPE Packing Bags =| 3923 74.061| KGS | 176.781 ~~ 13092.50| 18 | 2356.65] 1544915.\nTaxable 53650.10.\nIGST 9657.02,\n[NET Sis yea 6307.00\nRs. words: Rupees Saty Three Thousand Three Hundred and Seven Oniy\nFor Reddy Solutions\n\u2018Aah. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.325,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 607,
+  "gstins_found": 1
+ }
+}

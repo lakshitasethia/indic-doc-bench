@@ -1,0 +1,39 @@
+{# Deliberately tiny type and tight rows so long invoices spill to page 2.
+   Multi-page documents are where output truncation shows up. #}
+<style>{{ base_css }}
+body { font-family: "Arial Narrow", Arial, sans-serif; font-size: 6.8pt; }
+.b1 { border:1px solid #000; padding:3px 5px; }
+td, th { border:.5px solid #777; padding:1px 3px; }
+th { background:#e8e8e8; font-size:6pt; }
+.hd { display:flex; justify-content:space-between; align-items:flex-start; }
+</style>
+<div class="b1 hd">
+  <div><span style="font-size:12pt;font-weight:bold">{{ r.seller_name }}</span><br>
+    {{ sa.line1 }}, {{ sa.city }}, {{ sa.state }}-{{ sa.pincode }}<br>
+    GSTIN: {{ r.seller_gstin }} | State: {{ sa.state }} ({{ sa.state_code }})</div>
+  <div style="text-align:right">TAX INVOICE<br>No: <b>{{ r.invoice_number }}</b><br>Dt: <b>{{ d.dmy_slash }}</b><br>
+    RCM: {{ 'Y' if r.reverse_charge else 'N' }}</div>
+</div>
+<div class="b1" style="border-top:none">
+  <b>To:</b> {{ r.buyer_name }}, {{ ba.line1 }}, {{ ba.city }}, {{ ba.state }}-{{ ba.pincode }} |
+  GSTIN: {{ r.buyer_gstin or 'URP' }} | POS: {{ ba.state_code }}-{{ ba.state }}
+</div>
+<table style="margin-top:3px">
+  <thead><tr><th>Sr</th><th>Particulars</th><th>HSN</th><th>Qty</th><th>U</th><th>Rate</th><th>Disc</th>
+    <th>Taxable</th><th>%</th>{% if interstate %}<th>IGST</th>{% else %}<th>CGST</th><th>SGST</th>{% endif %}<th>Amount</th></tr></thead>
+  <tbody>{% for it in items %}
+  <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td><td class="c">{{ it.hsn_sac }}</td>
+    <td class="r">{{ it.quantity }}</td><td class="c">{{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+    <td class="r">{{ it.discount or '-' }}</td><td class="r">{{ it.taxable_value }}</td><td class="c">{{ it.tax_rate }}</td>
+    {% if interstate %}<td class="r">{{ it._igst }}</td>{% else %}<td class="r">{{ it._cgst }}</td><td class="r">{{ it._sgst }}</td>{% endif %}
+    <td class="r">{{ it._line_total }}</td></tr>{% endfor %}</tbody>
+</table>
+<table style="width:38%;margin-left:auto;margin-top:3px">
+  <tr><td>Taxable</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+  {% if interstate %}<tr><td>IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+  {% else %}<tr><td>CGST</td><td class="r">{{ r.cgst_amount }}</td></tr><tr><td>SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+  <tr><td>R/O</td><td class="r">{{ r.round_off }}</td></tr>
+  <tr><td class="b">NET</td><td class="r b">{{ r.grand_total }}</td></tr>
+</table>
+<div style="margin-top:2px">Rs. in words: {{ r.amount_in_words }}</div>
+<div style="margin-top:10px;text-align:right">For {{ r.seller_name }}<br><br>Auth. Sign.</div>

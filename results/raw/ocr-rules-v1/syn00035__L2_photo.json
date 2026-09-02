@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00035__L2_photo",
+ "doc_id": "syn00035",
+ "level": "L2_photo",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-06-08",
+  "seller_name": "Document Type TAX INVOICE Invoice No $1/25-26/8992",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1.00",
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No $1/25-26/8992\nSupplier. Verma Distributors LLP Invoice Date 08-06-2025\nSupplier GSTIN O3GUNCV2316Q3ZL Terms 30 Days\nSupplier Address Khasra No. 378, Okhia Phase |, Jalandhar, Punjab - 142539\nRecipient Menon Marketing Limited Recipient GSTIN 03TJPCM971121Z8\nRecipient Address Door No. 234, GIDC Estate, Ludhiana, Punjab - 140360 Place of Supply Punjab\nReverse Charge No Currency INR\nLine Beeettons HSN_SAC ty vac Unit_Price Discount Taxable Value Tax Rate. CGST_Amt SGST_Amt Line Total\nBasmati\nRice\n1 (Broken 1006 26.809 KGS 106.41 0.00 2852.75 5 71.32 71.32 2995.39\n5%)\nTotal_Taxable_Vaiue 2852.75\nTotal_CGsT 71.32\nTotal_SGST 71.32\nRound_Off -0.39\nGrand_Total 2995.00\nRupees Two Thousand Nine\nAmount_In_ Words Hundred and Ninety Five Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3165,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 776,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00050__L0_clean",
+ "doc_id": "syn00050",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-05",
+  "seller_name": "IYER TRADING CO.",
+  "seller_gstin": "19CXICI9650J6ZG",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "371235.63",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "79755.25",
+  "cess_amount": null,
+  "round_off": "0.12",
+  "grand_total": "450991.00",
+  "amount_in_words": null
+ },
+ "raw": "IYER TRADING CO.\nDoor No. 90, MG Road, Delhi - 110893 (Delhi)\nGSTIN : O7JGUFI7367Y82ZX% State Code : 07\nTAX INVOICE\nM/s. Iyer Sales Corporation Pvt. Ltd. Bill No. : 2025-26/9808\nShop No. 363, Kalbadevi Road Date : 05.05.2025\nSiliguri - 707654 R.C.M. : NO\nGSTIN : 19CXICI9650J6ZG\nPlace of Supply : 19-West Bengal\n[sNo| \u2014\u2014\u2014\u2014si\u00e9Particulars = sis] Sty | ate ~\u2014 | Value (Rs.)\n| 1 [Hard Bound Register 200 Pages 187 NOS 88.04 16463.48\n1352\n2 |Corrugated Carton Box 5-Ply NOS 61.52 83175.04\n| 3 [Multifunction Laser Printer 28155.61 28155.61\n144.824\n4 |Pvc Insulated Copper Cable 2.5sqmm MTR 70.73 10243.40\n| 5 |OPC 53 Grade Cement 50kg 296 BAG 436.92| 129328.32\n0.347\nTMT Steel Bar Fe-500 12mm ton| 60682-48 21056.82\n} 7 |syntnetic Enamel Paint 4L are 426.10 82812.96\nTOTAL| 371235.63\nTaxable Value 371235.63\n| HSN | Taxable =| _Rate | = Tax amt = | Add: IGST 79755.25\n4820 16463.48 2963.43| Round Off 0.12\n4819 83175.04| 18% | 14971.51 [NET PAYABLE | PAYABLE Rs. 450991.00\n8443 28155.61 5068.01\n8544 10243.40 1843.81\n2523 129328 .32 36211.93\n7214 21056.82 3790.23\n3208 82812.96| 18% | 14906. 33\nRupees in words : Rupees Four Lakh Fifty Thousand Nine Hundred and Ninety One Only\nBank: Kotak Mahindra Bank, A/c 59510751759853, IFSC SXCY0433446\nReceiver's Signature For IYER TRADING CO.\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8834,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1300,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00006__L3_harsh",
+ "doc_id": "syn00006",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023-24/1001",
+  "invoice_date": "2023-09-15",
+  "seller_name": "Kan Electronics Limited",
+  "seller_gstin": "27AAACF1234A1Z5",
+  "seller_address": "Plot No. 12, Sector 18, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "XYZ Traders",
+  "buyer_gstin": "27ABCD1234A1Z5",
+  "buyer_address": "Shop No. 5, Main Road, Ghaziabad, Uttar Pradesh - 201001",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": "IRN12345678901234567890123456789012345678901234567890123456789012",
+  "line_items": [
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 14999.0,
+    "discount": 0,
+    "taxable_value": 14999.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "CPU 12th Gen Core i5 105g",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 49999.0,
+    "discount": 0,
+    "taxable_value": 49999.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Gaming Monitor 27 inch",
+    "hsn_sac": "8528",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 24999.0,
+    "discount": 0,
+    "taxable_value": 24999.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Wireless Mouse",
+    "hsn_sac": "8509",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 999.0,
+    "discount": 0,
+    "taxable_value": 999.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "USB Hub 4 Port",
+    "hsn_sac": "8536",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 799.0,
+    "discount": 0,
+    "taxable_value": 799.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Charger 65W",
+    "hsn_sac": "8504",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 1999.0,
+    "discount": 0,
+    "taxable_value": 1999.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Wireless Keyboard",
+    "hsn_sac": "8536",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 1499.0,
+    "discount": 0,
+    "taxable_value": 1499.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Power Bank 20000mAh",
+    "hsn_sac": "8507",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 1999.0,
+    "discount": 0,
+    "taxable_value": 1999.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 102292.0,
+  "cgst_amount": 9206.28,
+  "sgst_amount": 9206.28,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.0,
+  "grand_total": 120704.56,
+  "amount_in_words": "One Lakh Twenty Thousand Seven Hundred Fourteen Rupees and Fifty-Six Paise"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/2023-24/1001\",\n  \"invoice_date\": \"2023-09-15\",\n  \"seller_name\": \"Kan Electronics Limited\",\n  \"seller_gstin\": \"27AAACF1234A1Z5\",\n  \"seller_address\": \"Plot No. 12, Sector 18, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"XYZ Traders\",\n  \"buyer_gstin\": \"27ABCD1234A1Z5\",\n  \"buyer_address\": \"Shop No. 5, Main Road, Ghaziabad, Uttar Pradesh - 201001\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": \"IRN12345678901234567890123456789012345678901234567890123456789012\",\n  \"line_items\": [\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 14999.0,\n      \"discount\": 0,\n      \"taxable_value\": 14999.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"CPU 12th Gen Core i5 105g\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 49999.0,\n      \"discount\": 0,\n      \"taxable_value\": 49999.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Gaming Monitor 27 inch\",\n      \"hsn_sac\": \"8528\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 24999.0,\n      \"discount\": 0,\n      \"taxable_value\": 24999.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Wireless Mouse\",\n      \"hsn_sac\": \"8509\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 999.0,\n      \"discount\": 0,\n      \"taxable_value\": 999.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"USB Hub 4 Port\",\n      \"hsn_sac\": \"8536\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 799.0,\n      \"discount\": 0,\n      \"taxable_value\": 799.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Charger 65W\",\n      \"hsn_sac\": \"8504\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 1999.0,\n      \"discount\": 0,\n      \"taxable_value\": 1999.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Wireless Keyboard\",\n      \"hsn_sac\": \"8536\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 1499.0,\n      \"discount\": 0,\n      \"taxable_value\": 1499.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Power Bank 20000mAh\",\n      \"hsn_sac\": \"8507\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 1999.0,\n      \"discount\": 0,\n      \"taxable_value\": 1999.0,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 102292.0,\n  \"cgst_amount\": 9206.28,\n  \"sgst_amount\": 9206.28,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.0,\n  \"grand_total\": 120704.56,\n  \"amount_in_words\": \"One Lakh Twenty Thousand Seven Hundred Fourteen Rupees and Fifty-Six Paise\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1675,
+ "output_tokens": 1077,
+ "cached_input_tokens": 0,
+ "latency_s": 36.5643,
+ "cost_usd": 0.000622232,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

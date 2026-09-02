@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00027__L1_scan",
+ "doc_id": "syn00027",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Naidu",
+  "invoice_date": "2026-02-05",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE ee",
+  "seller_gstin": "24ZRXPN8501F6ZO",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "215712.00",
+  "cgst_amount": "401.00",
+  "sgst_amount": "401.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "243528.00",
+  "grand_total": "243528.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE ee\nIRN \u2018ne\n87ecf234749047facb02e586cdf662857ef2b849c764d154393ebfc6a64ef260 = ae ene\nAck No. / Ack Date ne\n10000079403813 / 2026-02-05 eee\nSupplier Recipient Document No.\nNaidu Pharma Kaur Trading Co. Pvt. Ltd. 3388\nShop No. 40, Focal Point, Ahmedabad, Door No. 416, Industrial Estate, Surat, Document Date\nGujarat 385664 Gujarat 362452 2026-02-05\nGSTIN GSTIN Place of Supply\n24ZRXPN8501F6ZO 24UELFK482501Z3 24 - Gujarat\noe Charge\n[Si ttem Description [ HSN | Qty | UQC | Unit Price [Discount] Taxable Amt [Rate] CGSTAmt | SGSTAmt | Total\naires poe |e401 42.49 Ea 3909.08 351.82| 351.82] 4612.72\nParacetamol\n2|IP 650mg 3004|3353|BOX| 54.74 183543.22) 12)11012.59/11012.59|205568.40\nTablets\nDetergent\nPowder ikg 3402 17.75 [a 28260.00 2543.40} 2543.40} 33346.80\nTotal Taxable Value 215712,30\nTotal CGST 13907.81\nTotal SGST 13907.81\nRound Off\nTotal Invoice Value 243528.00\nAmount in words: Rupees Two Lakh Forty Three Thousand Five Hundred and Twenty Eight Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7342,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 984,
+  "gstins_found": 1
+ }
+}

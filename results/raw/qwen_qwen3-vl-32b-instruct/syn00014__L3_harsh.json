@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00014__L3_harsh",
+ "doc_id": "syn00014",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "001-2026",
+  "invoice_date": "2026-03-05",
+  "seller_name": "AGARWAL TECHNOLOGIES",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Mittal Trading Co.",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Computer Monitor 19\"",
+    "hsn_sac": "8528.71",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 11475.87,
+    "discount": null,
+    "taxable_value": 11475.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Realtek Type - PC-02 Key",
+    "hsn_sac": "8528.61",
+    "quantity": 2,
+    "unit": "NO",
+    "unit_price": 9255.0,
+    "discount": null,
+    "taxable_value": 18510.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Wilson Brand Quick Charger",
+    "hsn_sac": "8517.60",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 2813.0,
+    "discount": null,
+    "taxable_value": 2813.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "HPB Laptop Sate",
+    "hsn_sac": "8528.70",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 113.87,
+    "discount": null,
+    "taxable_value": 113.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monitor Durable Glass",
+    "hsn_sac": "8528.71",
+    "quantity": 3,
+    "unit": "PC",
+    "unit_price": 1368.35,
+    "discount": null,
+    "taxable_value": 4105.05,
+    "tax_rate": 18
+   },
+   {
+    "description": "Dell USB Motor Pump 100",
+    "hsn_sac": "8517.60",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 3833.49,
+    "discount": null,
+    "taxable_value": 3833.49,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 40850.45,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 7353.08,
+  "cess_amount": null,
+  "round_off": 0.05,
+  "grand_total": 48203.5,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"001-2026\",\n  \"invoice_date\": \"2026-03-05\",\n  \"seller_name\": \"AGARWAL TECHNOLOGIES\",\n  \"seller_gstin\": null,\n  \"seller_address\": null,\n  \"buyer_name\": \"Mittal Trading Co.\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": null,\n  \"place_of_supply\": null,\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Computer Monitor 19\\\"\",\n      \"hsn_sac\": \"8528.71\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 11475.87,\n      \"discount\": null,\n      \"taxable_value\": 11475.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Realtek Type - PC-02 Key\",\n      \"hsn_sac\": \"8528.61\",\n      \"quantity\": 2,\n      \"unit\": \"NO\",\n      \"unit_price\": 9255.00,\n      \"discount\": null,\n      \"taxable_value\": 18510.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Wilson Brand Quick Charger\",\n      \"hsn_sac\": \"8517.60\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 2813.00,\n      \"discount\": null,\n      \"taxable_value\": 2813.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HPB Laptop Sate\",\n      \"hsn_sac\": \"8528.70\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 113.87,\n      \"discount\": null,\n      \"taxable_value\": 113.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Monitor Durable Glass\",\n      \"hsn_sac\": \"8528.71\",\n      \"quantity\": 3,\n      \"unit\": \"PC\",\n      \"unit_price\": 1368.35,\n      \"discount\": null,\n      \"taxable_value\": 4105.05,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Dell USB Motor Pump 100\",\n      \"hsn_sac\": \"8517.60\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 3833.49,\n      \"discount\": null,\n      \"taxable_value\": 3833.49,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 40850.45,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 7353.08,\n  \"cess_amount\": null,\n  \"round_off\": 0.05,\n  \"grand_total\": 48203.50,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1752,
+ "output_tokens": 750,
+ "cached_input_tokens": 0,
+ "latency_s": 17.8033,
+ "cost_usd": 0.000494208,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

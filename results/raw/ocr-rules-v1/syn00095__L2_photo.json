@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00095__L2_photo",
+ "doc_id": "syn00095",
+ "level": "L2_photo",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "3740",
+  "invoice_date": "2025-07-23",
+  "seller_name": "Document Type TAX INVOICE Invoice No 3740",
+  "seller_gstin": "29AKHFM2648D6ZJ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "29TXRCB2743Z3ZF",
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No 3740\nSupplier Mahajan Engineering Works Pyt. Ltd. Invoice Date 23-07-2025\nSupplier GSTIN. 29AKHFM2648D6ZJ Terms 30 Days\nSupplier Address Khasra No. 104, MG Road, Mysuru, Karnataka - 560462\nRecipient Banerjee Polymers Limited peal ae 29TXRCB2743Z3ZF\nRecipient Address Unit No. 386, Focal Point, Mysuru, Karnataka - 563942 Place of Supply Karnataka\nReverse Charge No Currency INR\n-Line eensaen HSN_SAC Qty UQC Unit Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nRoad\nTransport\n1 Services of 996511 18 NOS 12266.74 0.00 220801.32 5 5520.03 \u00a7520.03 231841.38\nGoods\nRental\nServices of. 10429.07 10429.07 136736.66\n2 Commercial 997212 1 NOS 115878.52 0.00 115878.52 18 0429.0) 04: 36\nProperty e\n\u201cTotal_Taxable_Value 336679.84\nTotal_CGST 15949.10\n\u2018Total_SGST \u00a9 15949.10\nRound_Off | -0.04\nGrand_Total | 368578.00\n= fey Rupees Three Lakh Sixty Eight\n\u201cAmount_In_Words Thousand Five Hundred and\nSeventy Eight Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4077,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 960,
+  "gstins_found": 2
+ }
+}

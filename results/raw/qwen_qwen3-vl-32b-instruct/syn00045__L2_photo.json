@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00045__L2_photo",
+ "doc_id": "syn00045",
+ "level": "L2_photo",
+ "template_id": "t10",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/5308",
+  "invoice_date": "2025-11-16",
+  "seller_name": "Sharma Technologies Limited",
+  "seller_gstin": "33XTTFS0906L9ZY",
+  "seller_address": "Unit No. 227, Ring Road, Madurai, Tamil Nadu - 628520",
+  "buyer_name": "Menon Agencies Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Unit No. 41, Chandni Chowk Coimbatore, Tamil Nadu - 628729",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 31,
+    "unit": "NOS",
+    "unit_price": 34.65,
+    "discount": null,
+    "taxable_value": 1074.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 306,
+    "unit": "PCS",
+    "unit_price": 142.08,
+    "discount": null,
+    "taxable_value": 43476.48,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 44550.63,
+  "cgst_amount": 4009.55,
+  "sgst_amount": 4009.55,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.27,
+  "grand_total": 52570,
+  "amount_in_words": "Rupees Fifty Two Thousand Five Hundred and Seventy Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/5308\",\n  \"invoice_date\": \"2025-11-16\",\n  \"seller_name\": \"Sharma Technologies Limited\",\n  \"seller_gstin\": \"33XTTFS0906L9ZY\",\n  \"seller_address\": \"Unit No. 227, Ring Road, Madurai, Tamil Nadu - 628520\",\n  \"buyer_name\": \"Menon Agencies Limited\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Unit No. 41, Chandni Chowk Coimbatore, Tamil Nadu - 628729\",\n  \"place_of_supply\": \"Tamil Nadu\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 31,\n      \"unit\": \"NOS\",\n      \"unit_price\": 34.65,\n      \"discount\": null,\n      \"taxable_value\": 1074.15,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 306,\n      \"unit\": \"PCS\",\n      \"unit_price\": 142.08,\n      \"discount\": null,\n      \"taxable_value\": 43476.48,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 44550.63,\n  \"cgst_amount\": 4009.55,\n  \"sgst_amount\": 4009.55,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.27,\n  \"grand_total\": 52570,\n  \"amount_in_words\": \"Rupees Fifty Two Thousand Five Hundred and Seventy Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2793,
+ "output_tokens": 469,
+ "cached_input_tokens": 0,
+ "latency_s": 7.2711,
+ "cost_usd": 0.000485576,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

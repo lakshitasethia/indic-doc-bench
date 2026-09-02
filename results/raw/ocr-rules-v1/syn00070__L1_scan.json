@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00070__L1_scan",
+ "doc_id": "syn00070",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE",
+  "seller_gstin": "10SVACA3053H9ZJ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "1010297.00",
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE\nPlot No. 447, Ring Road, Patna, Bihar - 829805 10SVACA3053H9ZJ Bihar / 10\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\n800239\nss ee ee\nParacetamol |\n1 |IP 650mg 3004 241|BOX 36.46 8347.52} 12 500.85 500.85\nTablets\nPVC Insulated\n2 |Copper Cable | 8544 639.562|MTR 40.58| 25953-43\\18| 2335.61) 2325.81\n2.5sqmm\nFoam\n3 |Mattress 9404 2|NOS| 4279.92 8559.84| 18 770.39 770.39\n72x36\nMS Hex Bolt |\nwith Nut M12 7318 6270 35.89] 225030.30 20252.73| 20252,72)\nOffice |\n5 |Workstation 9403 11|NOS| 10691.79| 117609.69| 18 |10584.87 10584.87,\nTable |\nCotton Round |\nales T-Shirt 6109 1461| PCS 212.15 309951.15] 5 | 7748.78| 7748.78\nRadial Tyre |\n195/65 R15 AQtL 7008.45 7008.45 981.18 981.18\nBide rlat 3402 129|pcs| 128.31] 15724.39|18| 1415.20 1415.20\nPowder 1kg |\nLaptop |\nComputer i5 8471 1|NOS|74197.20| 74197.20 18| 6677.75 5677 75)\n16GB |\nHo Rene S| szon 536.221|KGS 38.04 20397.85| 5 509.95| 509.95\nfe Drink | 5106 201.57; 1007.85 90.71; 90.71\nremix\nSmartphone\n6GB/128GB 8517 27982.40| 27982.40 2518.42| 2518.42\nMS Fabricated\n7308 | 11.789 116.54 1373.89 123.65 123.65\nTMT Steel Bar\nFe-500 12mm 7214 0,863| TON 57085.32| 49264.63 4433.82| 4433.82\n892408.59 58944.11 58944.11 0.19\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\n= 1010297.00 \u2014 Rupees Ten Lakh Ten Thousand Two Hundred and Ninety Seven Only |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3094,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1391,
+  "gstins_found": 1
+ }
+}

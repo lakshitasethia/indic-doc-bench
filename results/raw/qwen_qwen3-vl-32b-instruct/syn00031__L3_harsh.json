@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00031__L3_harsh",
+ "doc_id": "syn00031",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0494",
+  "invoice_date": "2026-01-05",
+  "seller_name": "Trivedi Industries Pvt. Ltd.",
+  "seller_gstin": "36AIFPT8707ZK",
+  "seller_address": "Shop No. 477, Udaya Vilas, Hyderabad Telangana - 500037",
+  "buyer_name": "Kalkani Solutions LLP",
+  "buyer_gstin": "26CJFV2334LGA",
+  "buyer_address": "Mehrauli No. 393, Paharganj 2nd Stage, Faridabad, Haryana - 121004",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Toller Saver 1000g",
+    "hsn_sac": "5802",
+    "quantity": 49.75,
+    "unit": "PCS",
+    "unit_price": 4800,
+    "discount": null,
+    "taxable_value": 49000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Rubber Paint, 4L",
+    "hsn_sac": "3205",
+    "quantity": 675.66,
+    "unit": "LTR",
+    "unit_price": 4700,
+    "discount": null,
+    "taxable_value": 30000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Board Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 175.0,
+    "unit": "NOS",
+    "unit_price": 175.0,
+    "discount": null,
+    "taxable_value": 25000.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 104000.0,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 18720.0,
+  "cess_amount": null,
+  "round_off": 0.23,
+  "grand_total": 122720.23,
+  "amount_in_words": "Rupees One Lakh Twenty Two Thousand Seven Hundred and Twenty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"0494\",\n  \"invoice_date\": \"2026-01-05\",\n  \"seller_name\": \"Trivedi Industries Pvt. Ltd.\",\n  \"seller_gstin\": \"36AIFPT8707ZK\",\n  \"seller_address\": \"Shop No. 477, Udaya Vilas, Hyderabad Telangana - 500037\",\n  \"buyer_name\": \"Kalkani Solutions LLP\",\n  \"buyer_gstin\": \"26CJFV2334LGA\",\n  \"buyer_address\": \"Mehrauli No. 393, Paharganj 2nd Stage, Faridabad, Haryana - 121004\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Toller Saver 1000g\",\n      \"hsn_sac\": \"5802\",\n      \"quantity\": 49.75,\n      \"unit\": \"PCS\",\n      \"unit_price\": 4800,\n      \"discount\": null,\n      \"taxable_value\": 49000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Synthetic Rubber Paint, 4L\",\n      \"hsn_sac\": \"3205\",\n      \"quantity\": 675.66,\n      \"unit\": \"LTR\",\n      \"unit_price\": 4700,\n      \"discount\": null,\n      \"taxable_value\": 30000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Board Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 175.0,\n      \"unit\": \"NOS\",\n      \"unit_price\": 175.0,\n      \"discount\": null,\n      \"taxable_value\": 25000.0,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 104000.0,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 18720.0,\n  \"cess_amount\": null,\n  \"round_off\": 0.23,\n  \"grand_total\": 122720.23,\n  \"amount_in_words\": \"Rupees One Lakh Twenty Two Thousand Seven Hundred and Twenty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1732,
+ "output_tokens": 580,
+ "cached_input_tokens": 0,
+ "latency_s": 10.1951,
+ "cost_usd": 0.000421408,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

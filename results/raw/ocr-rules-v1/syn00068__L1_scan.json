@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00068__L1_scan",
+ "doc_id": "syn00068",
+ "level": "L1_scan",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "9949",
+  "invoice_date": "2025-06-07",
+  "seller_name": "PILLAI ENGINEERING WORKS PVT.",
+  "seller_gstin": "27RWHFP1957P6Z0",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "216204.54",
+  "cess_amount": null,
+  "round_off": "27.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "PILLAI ENGINEERING WORKS PVT.\nLTD.\nShop No. 66, GIDC Estate\nNagpur - 405538\nGSTIN: 27RWHFP1957P6Z0\nState: Maharashtra (27)\nTAX INVOICE\nBill No: 9949\nDate: 07/06/2025\nPOS: Uttar Pradesh\nCustomer: Pillai Enterprises Limited\nGSTIN: O9RJICP6022B22N\n1. Corrugated Carton Box S=Ply\nHSN 4819 608NOS x 68.89 41885.12\n2. Hard Bound Register 200 Pages\nHSN 4820 28NOS x 118.80 3326.40\n3. Assam CTC Tea Leaf\nHSN 0902 6.523KGS x 291.31 1900.22\n4. Monoblock Water Pump 1HP\nHSN 8413 14NOS x 5063.16 70884.24\n5. Cotton Woven Fabric 44 inch\nHSN 5208 564.578MTR x 100.28 $0954.29\nLess Disc -5661.59\n6. Leather Formal Shoes\nHSN 6403 65PRS x 1765.67 114768.55\n7. Stainless Steel Cutlery Set\nHSN 8215 2SET x 372.89 745.78\n8. HDPE Packing Bags\nHSN 3923 90.253KGS x 119.88 10819.53\n9. Toilet Soap 100g\nHSN 3401 132PCS x 36.14 4770.48\n10. Paracetamol IP 650mg Tablets\nHSN 3004 63BOX x 64.63 4071.69\n11. Smartphone 6GB/128GB\nHSN 8517 INOS x 26573.41 26573.41\n12. Instant Drink Premix\nHSN 2106 2462PCS x 125.72 309522.64\n13. Laptop Computer i5 16GB\nHSN 8471 3NOS x 67148.65 201445.95\n14, Multifunction Laser Printer\nHSN 8443 6NOS x 25493.38 152960.28\n15. OPC 53 Grade Cement 50kg\nHSN 2523 15BAG x 399.34 5990.10\n16. Office Workstation Table\nHSN 9403 4NOS x 9244.88 3697952\n17. TMT Steel Bar Fe-500 12mm\nHSN 7214 1.023TON x 49435.53 45515 ...29\nLess Disc -5057.26\n18. Detergent Powder 1lkg\nHSN 3402 6PCS x 117.45 704.70\n19. Radial Tyre 195/65 R15\nHSN 4011 INOS x 6547.47 6547.47\n20. Glucose Biscuits 200g\nHSN 1905 183BOX x 373.30 68313.90\n21. MS Hex Bolt with Nut M12\nHSN 7318 85NOS x 12.60 1071.00\n22. PVC Insulated Copper Cable 2.5sqmm\nHSN 8544 37.623MTR x 38.03 1430.80\n23. Basmati Rice (Broken 5%)\nHSN 1006 5.380KGS x 139.84 152734\n24. Foam Mattress 72x36\nHSN 9404 SNOS x 11300.63 56503.15\n25. Cotton Round Neck T-Shirt\nHSN 6109 6PCS x 351.89 2111.34\n26. MS Fabricated Structure\nHSN 7308 113.987KGS x 128.18 14610.85\n27. Synthetic Enamel Paint 4L\nHSN 3208 0.996LTR x 612.60 610.15:\nTaxable 1235769.19\nIGST 216204.54\nRound Off O27,\nTOTAL Rs .1451974.00\nRupees Fourteen Lakh Fifty One Thousand Nine\nHundred and Seventy Four Only\nGoods once: sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.088,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2162,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00014__L0_clean",
+ "doc_id": "syn00014",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-06",
+  "seller_name": "AGARWAL TECHNOLOGIES",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "590580.45",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.35",
+  "grand_total": "666280.00",
+  "amount_in_words": null
+ },
+ "raw": "AGARWAL TECHNOLOGIES\nKhasra No. 451, Ring Road, Agra - 217782 (Uttar Pradesh)\nGSTIN : O9HKXPA4424J7ZH State Code : 09\nTAX INVOICE\nM/s. Mehra Trading Co. Bill No. : 2025-26/9244\nKhasra No. 454, Sector 63 Date : 06.07.2025\nLudhiana - 150832 R.C.M. : NO\nGSTIN : O3DIJPM2022012Z9\nPlace of Supply : 03-Punjab\nES\n| 1 [Detergent Powder 1kg 121 PCS 117.97 14274.37\n| 2 |Radial Tyre 195/65 R15 29 NoS| 6276.69] 182024.01\n| 3 [cotton Round Neck T-Shirt voce 263.10 375443.70\n| 5 [Leather Formal Shoes 1388.39 4165.17\n| 6 |Monoblock Water Pump 1HP 3884.49 3806.80\nTOTAL| 590580.45\nTaxable Value 590580.45\nTa [ swabs | mste [mame \u2014+dsAda: Ist 75699.20\n3402 14274.37| 18% | 2569.39] Round Off 0.35\n4011 182024.01| 28% | 50966.72 [NET PAYABLE | PAYABLE Rs. 666280.00\n6109 375443.70| 5% | 18772.19\n3923 10866.40| 18% | 1955.95\n6403 4165.17] 18% | 749.73\n8413 3806.80] 18% | 685.22\nRupees in words : Rupees Six Lakh Sixty Six Thousand Two Hundred and Eighty Only\nBank: ICICI Bank, A/c 4722664448763006, IFSC XBKA0156839\nReceiver's Signature For AGARWAL TECHNOLOGIES\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6963,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1071,
+  "gstins_found": 0
+ }
+}

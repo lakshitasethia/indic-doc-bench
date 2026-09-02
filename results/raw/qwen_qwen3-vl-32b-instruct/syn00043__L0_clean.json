@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00043__L0_clean",
+ "doc_id": "syn00043",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/2784",
+  "invoice_date": "2026-03-02",
+  "seller_name": "Banerjee Overseas LLP",
+  "seller_gstin": "29HJXPB2482G5ZJ",
+  "seller_address": "Gala No. 428, Ring Road, Mangaluru Karnataka - 574119",
+  "buyer_name": "Agarwal Pharma",
+  "buyer_gstin": "29JIOCA1596G5ZF",
+  "buyer_address": "Shop No. 144, MIDC Phase II, Bengaluru, Karnataka - 568246",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 5475,
+    "unit": "NOS",
+    "unit_price": 17,
+    "discount": null,
+    "taxable_value": 93075,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 93075,
+  "cgst_amount": 8376.75,
+  "sgst_amount": 8376.75,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.5,
+  "grand_total": 109829,
+  "amount_in_words": "Rupees One Lakh Nine Thousand Eight Hundred and Twenty Nine Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TI/25-26/2784\",\n  \"invoice_date\": \"2026-03-02\",\n  \"seller_name\": \"Banerjee Overseas LLP\",\n  \"seller_gstin\": \"29HJXPB2482G5ZJ\",\n  \"seller_address\": \"Gala No. 428, Ring Road, Mangaluru Karnataka - 574119\",\n  \"buyer_name\": \"Agarwal Pharma\",\n  \"buyer_gstin\": \"29JIOCA1596G5ZF\",\n  \"buyer_address\": \"Shop No. 144, MIDC Phase II, Bengaluru, Karnataka - 568246\",\n  \"place_of_supply\": \"Karnataka\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 5475,\n      \"unit\": \"NOS\",\n      \"unit_price\": 17,\n      \"discount\": null,\n      \"taxable_value\": 93075,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 93075,\n  \"cgst_amount\": 8376.75,\n  \"sgst_amount\": 8376.75,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.5,\n  \"grand_total\": 109829,\n  \"amount_in_words\": \"Rupees One Lakh Nine Thousand Eight Hundred and Twenty Nine Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3929,
+ "output_tokens": 390,
+ "cached_input_tokens": 0,
+ "latency_s": 126.9638,
+ "cost_usd": 0.000570856,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00034__L0_clean",
+ "doc_id": "syn00034",
+ "level": "L0_clean",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": "2025-11-28",
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": "32APFFF5479N8ZX",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "78486.61",
+  "cgst_amount": "78486.61",
+  "sgst_amount": "78486.61",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "78486.61",
+  "grand_total": "92614.00",
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\nAhluwalia Logistics 2025-26/5984 2025-11-28\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\nGala No. 217, GIDC Estate, Kochi, Kerala - 677378 32HYTCA0401A12ZZ Kerala / 32\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nFernandes Industries Limited 32APFFF5479N8ZX 32 - Kerala\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\nKhasra No. 264, Okhla Phase I, Kochi, Kerala - 693193 YES 45 Days\n[__sseron assy | newene [ar] wae | vor [tne vane | fh [see anu snr ane\nOther Professional\n1 |} and Technical 998399} 1|NOS| 78486.61 | 78486.61] 18 | 7063.79] 7063.79\nServices\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\n78486.61 7063.79 7063.79 -0.19\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\nX 92614.00 \u2014 Rupees Ninety Two Thousand Six Hundred and Fourteen Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4691,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 811,
+  "gstins_found": 1
+ }
+}

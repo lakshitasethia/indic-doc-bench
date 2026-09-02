@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00015__L3_harsh",
+ "doc_id": "syn00015",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "123456",
+  "invoice_date": "2023-09-15",
+  "seller_name": "ABC Solutions Pvt Ltd",
+  "seller_gstin": "27AAAAA1234A1Z5",
+  "seller_address": "Plot No. 1, Sector 10, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "XYZ Technologies LLP",
+  "buyer_gstin": "27BBBBB5678C2Z9",
+  "buyer_address": "Unit 101, Tower A, Cyber City, Gurgaon, Haryana - 122002",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": "IRN1234567890123456789012345678901234567890123456789012345678901234",
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998799",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 62660.8,
+    "discount": null,
+    "taxable_value": 62660.8,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 62660.8,
+  "cgst_amount": 5639.47,
+  "sgst_amount": 5639.47,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.26,
+  "grand_total": 73940.0,
+  "amount_in_words": "Seventy Three Thousand Nine Hundred and Forty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"123456\",\n  \"invoice_date\": \"2023-09-15\",\n  \"seller_name\": \"ABC Solutions Pvt Ltd\",\n  \"seller_gstin\": \"27AAAAA1234A1Z5\",\n  \"seller_address\": \"Plot No. 1, Sector 10, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"XYZ Technologies LLP\",\n  \"buyer_gstin\": \"27BBBBB5678C2Z9\",\n  \"buyer_address\": \"Unit 101, Tower A, Cyber City, Gurgaon, Haryana - 122002\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": \"IRN1234567890123456789012345678901234567890123456789012345678901234\",\n  \"line_items\": [\n    {\n      \"description\": \"Other Professional and Technical Services\",\n      \"hsn_sac\": \"998799\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 62660.80,\n      \"discount\": null,\n      \"taxable_value\": 62660.80,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 62660.80,\n  \"cgst_amount\": 5639.47,\n  \"sgst_amount\": 5639.47,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.26,\n  \"grand_total\": 73940.00,\n  \"amount_in_words\": \"Seventy Three Thousand Nine Hundred and Forty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1644,
+ "output_tokens": 456,
+ "cached_input_tokens": 0,
+ "latency_s": 14.1749,
+ "cost_usd": 0.00036067200000000003,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

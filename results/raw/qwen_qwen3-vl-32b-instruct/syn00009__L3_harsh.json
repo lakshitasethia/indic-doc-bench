@@ -1,0 +1,219 @@
+{
+ "variant_id": "syn00009__L3_harsh",
+ "doc_id": "syn00009",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "G2048",
+  "invoice_date": "2026-02-28",
+  "seller_name": "Reddy Polymers",
+  "seller_gstin": "36AAACR1957E1ZV",
+  "seller_address": "Plot No. 67, Panchavati Road, Near Industrial Complex, Kurnool - 518001, Andhra Pradesh",
+  "buyer_name": "Agarwal Polymers Private Limited",
+  "buyer_gstin": "29AAMPA9221P1ZB",
+  "buyer_address": "Plot No. 280, Industrial Estate, Mangalore, Karnataka - 575001",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Detergent Powder 2kg",
+    "hsn_sac": "3400",
+    "quantity": 945,
+    "unit": "PCS",
+    "unit_price": 40.27,
+    "discount": null,
+    "taxable_value": 22605.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 7.07,
+    "unit": "KGS",
+    "unit_price": 85.38,
+    "discount": null,
+    "taxable_value": 608.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 234,
+    "unit": "BOX",
+    "unit_price": 264.48,
+    "discount": null,
+    "taxable_value": 61875.72,
+    "tax_rate": 18
+   },
+   {
+    "description": "Window Steel Cables Set",
+    "hsn_sac": "8013",
+    "quantity": 12,
+    "unit": "SET",
+    "unit_price": 710.8,
+    "discount": null,
+    "taxable_value": 10662.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 Inch",
+    "hsn_sac": "5208",
+    "quantity": 39.645,
+    "unit": "MTK",
+    "unit_price": 170.7,
+    "discount": null,
+    "taxable_value": 6788.2,
+    "tax_rate": 5
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 9.0,
+    "unit": "TON",
+    "unit_price": 50742.86,
+    "discount": null,
+    "taxable_value": 57742.77,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 0.75sqmm",
+    "hsn_sac": "8544",
+    "quantity": 450,
+    "unit": "100/MTK",
+    "unit_price": 40.03,
+    "discount": null,
+    "taxable_value": 165204.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Cotton Box 5.5\"",
+    "hsn_sac": "4819",
+    "quantity": 349,
+    "unit": "NOS",
+    "unit_price": 35.13,
+    "discount": null,
+    "taxable_value": 12260.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 17980.33,
+    "discount": null,
+    "taxable_value": 17980.33,
+    "tax_rate": 18
+   },
+   {
+    "description": "CPU 32 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 5.7,
+    "unit": "BAG",
+    "unit_price": 420.5,
+    "discount": null,
+    "taxable_value": 2397.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer 15.6GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4980.38,
+    "discount": null,
+    "taxable_value": 4980.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 1000.8,
+    "discount": null,
+    "taxable_value": 1000.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Enamel Paint 4L",
+    "hsn_sac": "3209",
+    "quantity": 2.813,
+    "unit": "LTR",
+    "unit_price": 480.7,
+    "discount": null,
+    "taxable_value": 1351.55,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 6863.13,
+    "discount": null,
+    "taxable_value": 6863.13,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Parking Bays",
+    "hsn_sac": "3923",
+    "quantity": 253,
+    "unit": "sqft",
+    "unit_price": 144.58,
+    "discount": null,
+    "taxable_value": 33822.79,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Mattress 70x38",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 10033.39,
+    "discount": null,
+    "taxable_value": 10033.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB 128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 30777.78,
+    "discount": null,
+    "taxable_value": 30777.78,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 476985.55,
+  "cgst_amount": 115795.8,
+  "sgst_amount": 115795.8,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.35,
+  "grand_total": 844339.0,
+  "amount_in_words": "Rupees Eight Lakh Forty Four Thousand Three Hundred and Thirty Nine Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"G2048\",\n  \"invoice_date\": \"2026-02-28\",\n  \"seller_name\": \"Reddy Polymers\",\n  \"seller_gstin\": \"36AAACR1957E1ZV\",\n  \"seller_address\": \"Plot No. 67, Panchavati Road, Near Industrial Complex, Kurnool - 518001, Andhra Pradesh\",\n  \"buyer_name\": \"Agarwal Polymers Private Limited\",\n  \"buyer_gstin\": \"29AAMPA9221P1ZB\",\n  \"buyer_address\": \"Plot No. 280, Industrial Estate, Mangalore, Karnataka - 575001\",\n  \"place_of_supply\": \"Karnataka\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Detergent Powder 2kg\",\n      \"hsn_sac\": \"3400\",\n      \"quantity\": 945,\n      \"unit\": \"PCS\",\n      \"unit_price\": 40.27,\n      \"discount\": null,\n      \"taxable_value\": 22605.15,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 7.07,\n      \"unit\": \"KGS\",\n      \"unit_price\": 85.38,\n      \"discount\": null,\n      \"taxable_value\": 608.63,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 234,\n      \"unit\": \"BOX\",\n      \"unit_price\": 264.48,\n      \"discount\": null,\n      \"taxable_value\": 61875.72,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Window Steel Cables Set\",\n      \"hsn_sac\": \"8013\",\n      \"quantity\": 12,\n      \"unit\": \"SET\",\n      \"unit_price\": 710.80,\n      \"discount\": null,\n      \"taxable_value\": 10662.30,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Woven Fabric 44 Inch\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 39.645,\n      \"unit\": \"MTK\",\n      \"unit_price\": 170.70,\n      \"discount\": null,\n      \"taxable_value\": 6788.20,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 9.000,\n      \"unit\": \"TON\",\n      \"unit_price\": 50742.86,\n      \"discount\": null,\n      \"taxable_value\": 57742.77,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"PVC Insulated Copper Cable 0.75sqmm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 450,\n      \"unit\": \"100/MTK\",\n      \"unit_price\": 40.03,\n      \"discount\": null,\n      \"taxable_value\": 165204.10,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Cotton Box 5.5\\\"\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 349,\n      \"unit\": \"NOS\",\n      \"unit_price\": 35.13,\n      \"discount\": null,\n      \"taxable_value\": 12260.27,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 17980.33,\n      \"discount\": null,\n      \"taxable_value\": 17980.33,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"CPU 32 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 5.7,\n      \"unit\": \"BAG\",\n      \"unit_price\": 420.50,\n      \"discount\": null,\n      \"taxable_value\": 2397.15,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer 15.6GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 4980.38,\n      \"discount\": null,\n      \"taxable_value\": 4980.38,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 1000.80,\n      \"discount\": null,\n      \"taxable_value\": 1000.80,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Enamel Paint 4L\",\n      \"hsn_sac\": \"3209\",\n      \"quantity\": 2.813,\n      \"unit\": \"LTR\",\n      \"unit_price\": 480.70,\n      \"discount\": null,\n      \"taxable_value\": 1351.55,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 6863.13,\n      \"discount\": null,\n      \"taxable_value\": 6863.13,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Parking Bays\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 253,\n      \"unit\": \"sqft\",\n      \"unit_price\": 144.58,\n      \"discount\": null,\n      \"taxable_value\": 33822.79,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Toilet Mattress 70x38\",\n      \"hsn_sac\": \"9404\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 10033.39,\n      \"discount\": null,\n      \"taxable_value\": 10033.39,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB 128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 30777.78,\n      \"discount\": null,\n      \"taxable_value\": 30777.78,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 476985.55,\n  \"cgst_amount\": 115795.80,\n  \"sgst_amount\": 115795.80,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.35,\n  \"grand_total\": 844339.00,\n  \"amount_in_words\": \"Rupees Eight Lakh Forty Four Thousand Three Hundred and Thirty Nine Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1903,
+ "output_tokens": 1879,
+ "cached_input_tokens": 0,
+ "latency_s": 59.2644,
+ "cost_usd": 0.000979576,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

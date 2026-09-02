@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00030__L0_clean",
+ "doc_id": "syn00030",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-06-03",
+  "seller_name": "Plot No. 245, Okhla Phase I, Gurugram, Haryana-133701 Dt: 03/06/2025",
+  "seller_gstin": "06YAMPS3893N1Z3",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Plot No. 245, Okhla Phase I, Gurugram, Haryana-133701 Dt: 03/06/2025\nGSTIN: 06YAMPS3893N1Z3 | State: Haryana (06) RCM: N\nSe] Particulars | SN | ty | | Rate | Disc | Taxable | % | cast | scst_ | Amount\n1 |Cotton Woven Fabric 44 inch | 5208 | 92.317) MTR | 113.23) -| 10453.05|5| 261.33) 261.33/ 10975.71\n10453.05\n261.33\n261.33\n0.29\n10976.00\nRs. in words: Rupees Ten Thousand Nine Hundred and Seventy Six Only\nFor Shetty Infratech Pvt. Ltd.\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2551,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 451,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00079__L1_scan",
+ "doc_id": "syn00079",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/6976",
+  "invoice_date": "2025-11-15",
+  "seller_name": "Banerjee Agencies Limited",
+  "seller_gstin": "360MWPB7507Z8Z6",
+  "seller_address": "Shop No. 328, Okhla Phase I, Warangal Telangana - 504936",
+  "buyer_name": "Patel Electricals Private Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Khasra No. 429, Naraina Vihar, Hyderabad, Telangana - 500126",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 108406.25,
+    "discount": null,
+    "taxable_value": 108406.25,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 108406.25,
+  "cgst_amount": 9756.56,
+  "sgst_amount": 9756.56,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.37,
+  "grand_total": 127919,
+  "amount_in_words": "Rupees One Lakh Twenty Seven Thousand Nine Hundred and Nineteen Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/6976\",\n  \"invoice_date\": \"2025-11-15\",\n  \"seller_name\": \"Banerjee Agencies Limited\",\n  \"seller_gstin\": \"360MWPB7507Z8Z6\",\n  \"seller_address\": \"Shop No. 328, Okhla Phase I, Warangal Telangana - 504936\",\n  \"buyer_name\": \"Patel Electricals Private Limited\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Khasra No. 429, Naraina Vihar, Hyderabad, Telangana - 500126\",\n  \"place_of_supply\": \"Telangana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Information Technology Consulting Services\",\n      \"hsn_sac\": \"998313\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 108406.25,\n      \"discount\": null,\n      \"taxable_value\": 108406.25,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 108406.25,\n  \"cgst_amount\": 9756.56,\n  \"sgst_amount\": 9756.56,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.37,\n  \"grand_total\": 127919,\n  \"amount_in_words\": \"Rupees One Lakh Twenty Seven Thousand Nine Hundred and Nineteen Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3906,
+ "output_tokens": 399,
+ "cached_input_tokens": 0,
+ "latency_s": 8.6611,
+ "cost_usd": 0.0005722079999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

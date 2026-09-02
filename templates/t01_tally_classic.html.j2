@@ -1,0 +1,81 @@
+{# Tally ERP export look: dense monospace-ish serif, hard black rules, per-line
+   CGST/SGST columns, HSN in the item table, dd-Mon-yyyy dates. #}
+<style>{{ base_css }}
+body { font-family: "Times New Roman", Times, serif; font-size: 9.5pt; color: #000; }
+.box { border: 1.4px solid #000; }
+.hd { text-align: center; padding: 3px; font-size: 11pt; letter-spacing: .5px; }
+td, th { border: 1px solid #000; padding: 2.5px 4px; vertical-align: top; }
+th { font-weight: bold; text-align: center; font-size: 8.5pt; }
+.party td { border: none; padding: 1px 4px; }
+.nb td { border: none; }
+</style>
+<div class="box">
+  <div class="hd b">TAX INVOICE</div>
+  <table>
+    <tr>
+      <td style="width:52%">
+        <table class="party">
+          <tr><td class="b" style="font-size:11pt">{{ r.seller_name }}</td></tr>
+          <tr><td>{{ sa.line1 }}<br>{{ sa.city }}, {{ sa.state }} - {{ sa.pincode }}</td></tr>
+          <tr><td>GSTIN/UIN: <span class="b">{{ r.seller_gstin }}</span></td></tr>
+          <tr><td>State Name : {{ sa.state }}, Code : {{ sa.state_code }}</td></tr>
+        </table>
+      </td>
+      <td>
+        <table class="party">
+          <tr><td>Invoice No.</td><td class="b">{{ r.invoice_number }}</td></tr>
+          <tr><td>Dated</td><td class="b">{{ d.dmy_mon }}</td></tr>
+          <tr><td>Mode/Terms of Payment</td><td>{{ terms }}</td></tr>
+          <tr><td>Reverse Charge</td><td>{{ 'Yes' if r.reverse_charge else 'No' }}</td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr><td style="width:52%">
+      <div class="small">Buyer (Bill to)</div>
+      <div class="b">{{ r.buyer_name }}</div>
+      <div>{{ ba.line1 }}<br>{{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}</div>
+      <div>GSTIN/UIN: {{ r.buyer_gstin or 'Unregistered' }}</div>
+      <div>Place of Supply : {{ ba.state }}</div>
+    </td><td>
+      {% if r.irn %}<div class="small">IRN: <span style="word-break:break-all">{{ r.irn }}</span></div>{% endif %}
+      <div class="small">Destination: {{ ba.city }}</div>
+    </td></tr>
+  </table>
+  <table>
+    <tr>
+      <th style="width:4%">Sl</th><th>Description of Goods</th><th style="width:8%">HSN/SAC</th>
+      <th style="width:9%">Quantity</th><th style="width:5%">Unit</th><th style="width:10%">Rate</th>
+      <th style="width:11%">Amount</th>
+      {% if interstate %}<th style="width:6%">IGST %</th><th style="width:11%">IGST Amt</th>
+      {% else %}<th style="width:6%">CGST</th><th style="width:6%">SGST</th>{% endif %}
+    </tr>
+    {% for it in items %}
+    <tr>
+      <td class="c">{{ loop.index }}</td>
+      <td>{{ it.description }}{% if it.discount %}<br><span class="small">Less: Discount {{ it.discount }}</span>{% endif %}</td>
+      <td class="c">{{ it.hsn_sac }}</td>
+      <td class="r">{{ it.quantity }}</td>
+      <td class="c">{{ it.unit }}</td>
+      <td class="r">{{ it.unit_price }}</td>
+      <td class="r">{{ it.taxable_value }}</td>
+      {% if interstate %}<td class="c">{{ it.tax_rate }}%</td><td class="r">{{ it._igst }}</td>
+      {% else %}<td class="r">{{ it._cgst }}</td><td class="r">{{ it._sgst }}</td>{% endif %}
+    </tr>
+    {% endfor %}
+    <tr><td colspan="6" class="r b">Total</td><td class="r b">{{ r.total_taxable_value }}</td>
+      {% if interstate %}<td></td><td class="r b">{{ r.igst_amount }}</td>
+      {% else %}<td class="r b">{{ r.cgst_amount }}</td><td class="r b">{{ r.sgst_amount }}</td>{% endif %}</tr>
+  </table>
+  <table class="nb">
+    <tr><td class="r">Round Off</td><td class="r" style="width:14%">{{ r.round_off }}</td></tr>
+    <tr><td class="r b" style="font-size:11pt">Grand Total</td><td class="r b" style="font-size:11pt">&#8377; {{ r.grand_total }}</td></tr>
+  </table>
+  <table><tr><td>Amount Chargeable (in words): <span class="b">{{ r.amount_in_words }}</span></td></tr></table>
+  <table><tr>
+    <td class="small">Company's Bank Details<br>Bank Name : {{ bank.name }}<br>A/c No. : {{ bank.account }}<br>Branch &amp; IFSC : {{ bank.branch }} &amp; {{ bank.ifsc }}</td>
+    <td class="small r">for <span class="b">{{ r.seller_name }}</span><br><br><br>Authorised Signatory</td>
+  </tr></table>
+  <div class="c small" style="padding:3px">This is a Computer Generated Invoice</div>
+</div>

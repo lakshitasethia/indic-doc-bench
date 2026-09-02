@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00037__L2_photo",
+ "doc_id": "syn00037",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-02-10",
+  "seller_name": "EE Le",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "55165.90",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "4127.77",
+  "cess_amount": null,
+  "round_off": "4.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "EE Le\nJoshi Infratech Pvt. Ltd:\n6404 New Delhi - Dethi 110261\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n10/02/2026 O7KCKFJ1940D8Z1_ . Telangana (36) No\nMahajan Steel & Alloys LLP Mahajan Steel & Alloys LLP\nGala No. 133, Industrial Estate, Hyderabad, Telangana\u2018- Gala No. 133, Industrial Estate, Hyderabad, Telangana -\n501615 501615\nGST NO.\n# Item & Description HSN/SAC Qty Rate Amount\nSs EEE ee ee ee\n1 Cotton Round Neck T-Shirt 6109 pos 194.05 4461.50\n2 Stainless Steel Cutlery Set 8215 20 SET 526.72 10534.40\nSub Total 55165.90 \u00e9\n: : IGST : 4127.77 :\nRounding 4 0.33\n: rere eet\n: IN WORDS i : i :\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4503,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 609,
+  "gstins_found": 0
+ }
+}

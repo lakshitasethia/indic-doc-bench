@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00037__L1_scan",
+ "doc_id": "syn00037",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-02-10",
+  "seller_name": "TAX INVOICE Joshi Infratech Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "55165.90",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "4127.77",
+  "cess_amount": null,
+  "round_off": "0.33",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Joshi Infratech Pvt. Ltd.\nKhasra No. 237, Industrial Estate\n6404 New Delhi - Delhi 110261\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n10/02/2026 O7KCKFJ1940D8Z1 Telangana (36) No\nBILL TO SHIP TO\nMahajan Steel & Alloys LLP Mahajan Steel & Alloys LLP\nGala No. 133, Industrial Estate, Hyderabad, Telangana - Gala No. 133, Industrial Estate, Hyderabad, Telangana -\n501615 501615\nGST NO.\n# Item & Description HSN/SAC Qty Rate Amount\nSSS SS sssSssS$\u201d7$0 0 0805$9$3096SSSSS eee\n: 230\n1 Cotton Round Neck T-Shirt 6109 PCS 194.05  44631.50\n2 Stainless Steel Cutlery Set 8215 20 SET 526.72 10534546\nSub Total 55165.90\nIGST 4127.77\nRounding 0.33\neee\nTotal (INR) %59294.00\nIN WORDS\nRupees Fifty Nine Thousand Two Hundred and Ninety Four Only\nICICI Bank - A/C 89387922234 - IFSC EPYS0564090 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7486,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 819,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00001__L3_harsh",
+ "doc_id": "syn00001",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0002",
+  "invoice_date": "2023-01-01",
+  "seller_name": "Reddy Overseas",
+  "seller_gstin": null,
+  "seller_address": "Sri Ram Nagar, Hyderabad, Telangana, India",
+  "buyer_name": "Arun Trading Co.",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 123, Kothapet, Hyderabad, Telangana, India",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Avon CTC Tea Leaf",
+    "hsn_sac": "0002",
+    "quantity": 12.875,
+    "unit": "KGS",
+    "unit_price": 415.01,
+    "discount": null,
+    "taxable_value": 5336.88,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 5336.88,
+  "cgst_amount": 479.81,
+  "sgst_amount": 479.81,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.4,
+  "grand_total": 6300.0,
+  "amount_in_words": "Six Thousand Three Hundred Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"0002\",\n  \"invoice_date\": \"2023-01-01\",\n  \"seller_name\": \"Reddy Overseas\",\n  \"seller_gstin\": null,\n  \"seller_address\": \"Sri Ram Nagar, Hyderabad, Telangana, India\",\n  \"buyer_name\": \"Arun Trading Co.\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Plot No. 123, Kothapet, Hyderabad, Telangana, India\",\n  \"place_of_supply\": \"Telangana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Avon CTC Tea Leaf\",\n      \"hsn_sac\": \"0002\",\n      \"quantity\": 12.875,\n      \"unit\": \"KGS\",\n      \"unit_price\": 415.01,\n      \"discount\": null,\n      \"taxable_value\": 5336.88,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 5336.88,\n  \"cgst_amount\": 479.81,\n  \"sgst_amount\": 479.81,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.40,\n  \"grand_total\": 6300.00,\n  \"amount_in_words\": \"Six Thousand Three Hundred Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1728,
+ "output_tokens": 337,
+ "cached_input_tokens": 0,
+ "latency_s": 12.1197,
+ "cost_usd": 0.000319904,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

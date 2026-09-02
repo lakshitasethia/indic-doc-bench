@@ -1,0 +1,26 @@
+[project]
+name = "indic-doc-bench"
+version = "0.1.0"
+description = "A reproducible benchmark for structured extraction from Indian business documents"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lakshita Sethia" }]
+keywords = ["benchmark", "ocr", "vlm", "invoice", "document-extraction", "india", "gst"]
+requires-python = ">=3.10"
+dependencies = [
+  "jinja2", "pillow", "opencv-python-headless", "numpy", "scipy", "pandas",
+  "rapidfuzz", "python-dateutil", "playwright", "pymupdf", "matplotlib", "tqdm", "httpx",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+idb = "idb.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00049__L0_clean",
+ "doc_id": "syn00049",
+ "level": "L0_clean",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-03-23",
+  "seller_name": "TAX INVOICE Kulkarni Steel & Alloys",
+  "seller_gstin": "27QYFCK3190U7ZQ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "27PXKFS0801E1ZT",
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "234622.25",
+  "cgst_amount": "20700.01",
+  "sgst_amount": "20700.01",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.27",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Kulkarni Steel & Alloys\nGala No. 220, Ring Road\n2025-26/5888 Nashik - Maharashtra 427802\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n23/03/2026 27QYFCK3190U7ZQ Maharashtra (27) No\nBILL TO SHIP TO\nShetty Distributors Private Limited Shetty Distributors Private Limited\nDoor No. 364, Chandni Chowk, Nagpur, Maharashtra - Door No. 364, Chandni Chowk, Nagpur, Maharashtra -\n427244 427244\nGST NO.\n27PXKFS0801E1ZT\n# Item & Description HSN/SAC Qty Rate Amount\n1 HDPE Packing Bags 3923 Meas 156.40 5594.43\n2 Multifunction Laser Printer 8443 1NOS 27120.48 27120.48\n3 TMT Steel Bar Fe-500 12mm 7214 own 49040.82  32248.26\n. 1239\n4 MS Hex Bolt with Nut M12 7318 Nos 18.88 23392.32\ni, 359\n5 Glucose Biscuits 200g 1905 BOX 387.28 139033.52\n6 Basmati Rice (Broken 5%) 1006 (109.07 6399.79\n. . 1.269\n7 Synthetic Enamel Paint 4L 3208 [TR 656.78 833.45\nSub Total 234622.25\nCGST 20700.01\nSGST 20700.01\nRounding -0.27\nTotal (INR) %276022.00\nIN WORDS\nRupees Two Lakh Seventy Six Thousand Twenty Two Only\nAxis Bank - A/C 62170067552009 - IFSC TOLF0224209 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6907,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1075,
+  "gstins_found": 2
+ }
+}

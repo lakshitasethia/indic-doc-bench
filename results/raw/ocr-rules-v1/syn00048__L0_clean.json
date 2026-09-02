@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00048__L0_clean",
+ "doc_id": "syn00048",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TI/25-26/3277",
+  "invoice_date": "2026-01-18",
+  "seller_name": "Kaur Polymers Pvt. Ltd. Invoice No. TI/25-26/3277",
+  "seller_gstin": "33IWECS7120M3ZS",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.49",
+  "grand_total": "881602.00",
+  "amount_in_words": null
+ },
+ "raw": "Kaur Polymers Pvt. Ltd. Invoice No. TI/25-26/3277\nDoor No. 200, Kalbadevi Road Dated 18-Jan-2026\nJodhpur, Rajasthan - 307148 Mode/Terms of Payment Advance\nState Name : Rajasthan, Code : 08\nBuyer (Bill to) Destination: Chennai\nSethi & Sons LLP\nUnit No. 63, MG Road\nChennai, Tamil Nadu - 615114\nGSTIN/UIN: 33IWECS7120M3ZS\nPlace of Supply : Tamil Nadu\n%\nOffice Workstation Table 9403 | 8 | NOS|_ 8570.85| 68566.80 12342.02\nLaptop Computer iS 16GB 8471 61296.74| 61296.74 1033.41\nParacetamol IP 650mg Tablets 3004 5332 45.74 | 231691.40 27802.97\nLess: Discount 12194.28\nMS Hex Bolt with Nut M12 7318 19.50] 1306.50 235.17\n5 |PVC Insulated Copper Cable 8544 | 7203.336|MTR 54.98 | 396039.41| 18% | 71287.09\n2.5sqmm\nRound Off 0.49\nGrand Total F 881602.00\nAmount Chargeable (in words): Rupees Eight Lakh Eighty One Thousand Six Hundred and Two Only\nBank Name : State Bank of India\nA/c No. : 13833859528\nBranch & IFSC : Chennai & UPYD0720620 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5417,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 955,
+  "gstins_found": 1
+ }
+}

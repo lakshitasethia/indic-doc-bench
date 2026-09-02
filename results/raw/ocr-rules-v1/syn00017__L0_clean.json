@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00017__L0_clean",
+ "doc_id": "syn00017",
+ "level": "L0_clean",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Chauhan",
+  "invoice_date": null,
+  "seller_name": "FROM BILLED TO INVOICE #",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "44062.99",
+  "cgst_amount": "2293.83",
+  "sgst_amount": "2293.83",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.35",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FROM BILLED TO INVOICE #\nChauhan Overseas Ganguly Engineering Works Pvt. Ltd. DL8162\nGala No. 365, Industrial Estate Khasra No. 250, Focal Point ISSUED\nPanipat 126620 Gurugram 126806 03 J 2026\nHaryana Haryana anuary\nGSTIN GSTIN PLACE OF SUPPLY\nO6PXFCC0489R9Z5 O6IKZPG0194U3ZT Haryana\nDESCRIPTION HSN QTY RATE GST AMOUNT\nCorrugated Carton Box 5-Ply 4819 127 NOS 36.29 18% 4608.83\nBasmati Rice (Broken 5%) 1006 299.633 KGS 85.84 5% 25720.50\nTMT Steel Bar Fe-500 12mm 7214 0.282 TON 48700.91 18%  13733.66\nSubtotal 44062.99\nCGST 2293.83\nSGST 2293.83\nRounding 0.35\nTotal ~48651.00\nRupees Forty Eight Thousand Six Hundred and Fifty One Only\nHDFC Bank - 0171460969007960 - FHQR0889954\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4208,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 679,
+  "gstins_found": 0
+ }
+}

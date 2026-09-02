@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00019__L0_clean",
+ "doc_id": "syn00019",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "0304",
+  "invoice_date": "2025-11-24",
+  "seller_name": "Mehra Technologies Limited .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Mehra Technologies Limited .\n\nUnit No. 23, Chandni Chowk, Siliguri foes. / Invoice No. 0304\n\nWest Bengal - 736380 fate / Date 24/11/2025\n\nxa / Buyer: Mehra Distributors Private Limited\n\nShop No. 285, Ambattur Industrial Estate, Siliguri, West Bengal - 725433\nEe\nelorice workstation Tabie [40s] 1 nos 1659516 vess6n6| 10 [145065] wo3.08\ngreet # / In words: Rupees Four Lakh Sixty Two Thousand Forty Three Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3654,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 409,
+  "gstins_found": 0
+ }
+}

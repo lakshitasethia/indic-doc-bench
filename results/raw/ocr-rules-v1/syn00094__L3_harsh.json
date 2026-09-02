@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00094__L3_harsh",
+ "doc_id": "syn00094",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "4 + mani Poneman = la ao",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "4 + mani Poneman = la ao\na mlequ| (260.24) 7026.68) \u00bb* *\n\n. Se\nss maar CE \" 2 | ave see os aja, sienazo. sa) 5 |2080.51/2080-51\nz Le pene mais ben encats TS + ;\n\n7 em Tava | poasn?|aiysr 2038 |s00s-*4) 1081 76\n\nShor wal easel 8 | 74 \u201c4\nee\n\npease Seer | 3200) 119.006 gence eenen. no) 18 (0078.98 2038.99\n\ncd ave 9.12 ron 8 7s] 000-09, 39 | ees) 2s 07\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2783,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 351,
+  "gstins_found": 0
+ }
+}

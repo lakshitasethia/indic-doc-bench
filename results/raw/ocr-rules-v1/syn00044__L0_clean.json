@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00044__L0_clean",
+ "doc_id": "syn00044",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "GST/25-26/8196",
+  "invoice_date": "2026-03-24",
+  "seller_name": "NAIDU SALES CORPORATION PRIVATE",
+  "seller_gstin": "24KHBPN2122W4ZO",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "248269.73",
+  "cess_amount": null,
+  "round_off": "0.07",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "NAIDU SALES CORPORATION PRIVATE\nLIMITED\nGala No. 214, MG Road\nRajkot - 360439\nGSTIN: 24KHBPN2122W4ZO\nState: Gujarat (24)\nTAX INVOICE\nBill No: GST/25-26/8196\nDate: 24/03/2026\nPOS: Delhi\nCustomer: Sharma Traders\nGSTIN: O7YFFPS1440T32Z5\n1. OPC 53 Grade Cement 50kg\nHSN 2523 437BAG x 427.52 186826.24\n2. Cotton Woven Fabric 44 inch\nHSN 5208 20.378MTR x 86.51 1762.90\n3. Multifunction Laser Printer\nHSN 8443 INOS x 25277.73 25277.73\n4, Monoblock Water Pump 1HP\nHSN 8413 INOS x 3834.52 3834.52\n5. HDPE Packing Bags\nHSN 3923 281.119KGS x 121.01 34018.21\n6. Glucose Biscuits 200g\nHSN 1905 174BOX x 242.13 42130.62\n7. Toilet Soap 100g\nHSN 3401 6990PCS x 51.37 359076.30\n8. MS Hex Bolt with Nut M12\nHSN 7318 619NOS x 31.25 19343.75\n9. Assam CTC Tea Leaf\nHSN 0902 455.288KGS x 395.56 180093.72\n10. Smartphone 6GB/128GB\nHSN 8517 1NOS x 33783.89 33783.89\n11. Instant Drink Premix\nHSN 2106 1119PCS x 131.91 147607.29\n12. Stainless Steel Cutlery Set\nHSN 8215 403SET x 403.31 162533.93\n13. Leather Formal Shoes\nHSN 6403 229PRS x 912.79 209028.91\n14. Refined Sugar S-30\nHSN 1701 130.111KGS x 41.69 5424.33\nTaxable 1410742.34\nIGST 248269.73\nRound Off -0.07\nTOTAL Rs .1659012.00\nRupees Sixteen Lakh Fifty Nine Thousand Twelve\nOnly\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6133,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1269,
+  "gstins_found": 1
+ }
+}

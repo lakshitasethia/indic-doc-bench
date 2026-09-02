@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00087__L0_clean",
+ "doc_id": "syn00087",
+ "level": "L0_clean",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Iyer",
+  "invoice_date": "2025-11-03",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE ee a no",
+  "seller_gstin": "23DSHPI9578U1ZI",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "23CJUCC7904N3ZF",
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "94241.40",
+  "cgst_amount": "2392.13",
+  "sgst_amount": "2392.13",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.34",
+  "grand_total": "99026.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE ee a no\nIRN ee eee\nNOT GENERATED ee ee\nck No. ck Date En EH\nLae 8\nSupplier Recipient Document No.\nIyer Solutions Private Limited Chowdhury Marketing 0989\nKhasra No. 182, Focal Point, Indore, Gala No. 158, Industrial Estate, Indore, Document Date\nMadhya Pradesh 476451 Madhya Pradesh 480190 2025-11-03\nGSTIN GSTIN Place of Supply\n23DSHPI9578U1ZI 23CJUCC7904N3ZF 23 - Madhya Pradesh\nNs Charge\n| oatiion | \"2\" | et | ve | uno [oc] tx nt [ae] cesta | estan | Tu\nSynthetic\n1;/Enamel /|3208 1.034| LTR |537.01 555.27|18 49.97| 49.97 655.21\nPaint 4L\nRefined\n2|Sugar S- |1701|}1943.969|KGS| 47.07 91502.62| 5 |2287.57)|2287.57|'96077.76\n30\nCotton\nRound\n3 Neck T- 6109 7\\|PCS |311.93 2183.51)| 5 54.59| 54.59) 2292.69\nShirt\nTotal Taxable Value 94241.40\nTotal CGST 2392.13\nTotal SGST 2392.13\nRound Off 0.34\nTotal Invoice Value 99026.00\nAmount in words: Rupees Ninety Nine Thousand Twenty Six Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6283,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 911,
+  "gstins_found": 2
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00041__L3_harsh",
+ "doc_id": "syn00041",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "205-04/24",
+  "invoice_date": "2024-09-18",
+  "seller_name": "Digital Solutions Pvt. Ltd.",
+  "seller_gstin": "12APFPP7444P2Z3",
+  "seller_address": "Shop No. 202, 2nd Floor, Noida Sector 63, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "Pixel Polymers",
+  "buyer_gstin": "12APFPP7444P2Z3",
+  "buyer_address": "Shop No. 202, 2nd Floor, Noida Sector 63, Noida, Uttar Pradesh - 201301",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Hotel Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 15,
+    "unit": "NOS",
+    "unit_price": 112.48,
+    "discount": 18,
+    "taxable_value": 1687.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB+128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 30958.8,
+    "discount": 18,
+    "taxable_value": 30958.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 600mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 55,
+    "unit": "BOX",
+    "unit_price": 37.6,
+    "discount": 12,
+    "taxable_value": 1679,
+    "tax_rate": 12
+   }
+  ],
+  "total_taxable_value": 34325,
+  "cgst_amount": 3089.25,
+  "sgst_amount": 3089.25,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.44,
+  "grand_total": 39807.09,
+  "amount_in_words": "Thirty Nine Thousand Eight Hundred Seven and Paise Ninety"
+ },
+ "raw": "{\n  \"invoice_number\": \"205-04/24\",\n  \"invoice_date\": \"2024-09-18\",\n  \"seller_name\": \"Digital Solutions Pvt. Ltd.\",\n  \"seller_gstin\": \"12APFPP7444P2Z3\",\n  \"seller_address\": \"Shop No. 202, 2nd Floor, Noida Sector 63, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"Pixel Polymers\",\n  \"buyer_gstin\": \"12APFPP7444P2Z3\",\n  \"buyer_address\": \"Shop No. 202, 2nd Floor, Noida Sector 63, Noida, Uttar Pradesh - 201301\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Hotel Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 15,\n      \"unit\": \"NOS\",\n      \"unit_price\": 112.48,\n      \"discount\": 18,\n      \"taxable_value\": 1687.2,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB+128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 30958.8,\n      \"discount\": 18,\n      \"taxable_value\": 30958.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Paracetamol IP 600mg Tablets\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 55,\n      \"unit\": \"BOX\",\n      \"unit_price\": 37.6,\n      \"discount\": 12,\n      \"taxable_value\": 1679,\n      \"tax_rate\": 12\n    }\n  ],\n  \"total_taxable_value\": 34325,\n  \"cgst_amount\": 3089.25,\n  \"sgst_amount\": 3089.25,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.44,\n  \"grand_total\": 39807.09,\n  \"amount_in_words\": \"Thirty Nine Thousand Eight Hundred Seven and Paise Ninety\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1683,
+ "output_tokens": 597,
+ "cached_input_tokens": 0,
+ "latency_s": 8.798,
+ "cost_usd": 0.00042338399999999996,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00001__L1_scan",
+ "doc_id": "syn00001",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-31",
+  "seller_name": "TAX INVOICE SOAR",
+  "seller_gstin": "36MOZFR6014P5Z1",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "10DTUFJ8283M6ZD",
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "5335.68",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "266.78",
+  "cess_amount": null,
+  "round_off": "0.46",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE SOAR\nShop No. 33, Peenya 2nd Stage\nSALE-A-6006 Warangal - Telangana 500511\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n31/05/2025 36MOZFR6014P5Z1 Bihar (10) No\nBILL TO SHIP TO\nJoshi Trading Co. Joshi Trading Co.\nShop No. 123, Ambattur Industrial Estate, Muzaffarpur, Shop No. 123, Ambattur Industrial Estate, Muzaffarpur,\nBihar - 837777 Bihar - 837777\nGST NO.\n10DTUFJ8283M6ZD\n# Item & Description HSN/SAC Qty Rate Amount\nEe ee eee ee ee ee\n12.919\n1 Assam CTC Tea Leaf 0902 KGS 413.01 5335.68\nSub Total 5335.68\nIGST 266.78\nRounding -0.46\nTotal (INR) %5602.00\nIN WORDS\nRupees Five Thousand Six Hundred and Two Only\nICICI Bank - A/C 7537175070656991 - IFSC SGFP0243071 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6147,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 707,
+  "gstins_found": 2
+ }
+}

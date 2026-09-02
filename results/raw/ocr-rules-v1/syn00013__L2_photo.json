@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00013__L2_photo",
+ "doc_id": "syn00013",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": ": TA xX IN Vie) | Cc E Naidu Marketing Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "91208.85",
+  "cgst_amount": "11948.97",
+  "sgst_amount": "11948.97",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.21",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": ": TA xX IN Vie) | Cc E Naidu Marketing Pvt. Ltd.\nINVOICE DATE GST No. PLACE OF SUPPLY . REVERSE CHARGE\n0612025 SENVSFNO901KSZF Telangana (36) No\ni ! ont 10. SHIP hs Pha gies\nPlot No. 310, Udyog Vihar, Warangal, Telangana - 503937 Plot No. 310, Udyog Vine: Warangal, Telangana - 503937\n# ~ Item & Description HSWSAC Qty Rate Amount\n\"1 HDPE Packing Bags 3923 git 180.87 16405.27\n2 Radial Tyre 195/65 R15 4011 11NOS. 6319.54 6951494\n' 3 OPC 53 Grade Cement 50kg 2523 14 BAG 377.76 5288.64\nSub Total 91208.85\nae CGST 11948.97\nj : SGST 11948.97\nRounding 0.21\nTotal (INR) %115107.00\nIN WORDS.\nRupee\u00ae One Lakh teen Thousand Ong Hunted and Seven Only\nBank of Baroda\u2019- AIC 61628312586 . IFSC QvwT0662124 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3321,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 716,
+  "gstins_found": 0
+ }
+}

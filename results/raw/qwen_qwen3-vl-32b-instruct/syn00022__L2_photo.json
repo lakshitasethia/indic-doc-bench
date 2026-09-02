@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00022__L2_photo",
+ "doc_id": "syn00022",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "7999",
+  "invoice_date": "2025-07-21",
+  "seller_name": "Trivedi Sales Corporation",
+  "seller_gstin": "23ZFLPT072103ZF",
+  "seller_address": "Unit No. 338, MG Road, Indore, Madhya Pradesh - 462727",
+  "buyer_name": "Menon Electricals LLP",
+  "buyer_gstin": "23JXXPM5529B7ZW",
+  "buyer_address": "Door No: 309, Udyog Vihar, Indore, Madhya Pradesh - 473766",
+  "place_of_supply": "23 - Madhya Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 58.544,
+    "unit": "KGS",
+    "unit_price": 38.85,
+    "discount": null,
+    "taxable_value": 2274.43,
+    "tax_rate": 5
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 894.311,
+    "unit": "MTR",
+    "unit_price": 163.53,
+    "discount": null,
+    "taxable_value": 146246.68,
+    "tax_rate": 5
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 86.013,
+    "unit": "KGS",
+    "unit_price": 266.84,
+    "discount": null,
+    "taxable_value": 21804.12,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 170325.23,
+  "cgst_amount": 4258.13,
+  "sgst_amount": 4258.13,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.49,
+  "grand_total": 178841.0,
+  "amount_in_words": "Rupees One Lakh Seventy Eight Thousand Eight Hundred and Forty One Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"7999\",\n  \"invoice_date\": \"2025-07-21\",\n  \"seller_name\": \"Trivedi Sales Corporation\",\n  \"seller_gstin\": \"23ZFLPT072103ZF\",\n  \"seller_address\": \"Unit No. 338, MG Road, Indore, Madhya Pradesh - 462727\",\n  \"buyer_name\": \"Menon Electricals LLP\",\n  \"buyer_gstin\": \"23JXXPM5529B7ZW\",\n  \"buyer_address\": \"Door No: 309, Udyog Vihar, Indore, Madhya Pradesh - 473766\",\n  \"place_of_supply\": \"23 - Madhya Pradesh\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Refined Sugar S-30\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 58.544,\n      \"unit\": \"KGS\",\n      \"unit_price\": 38.85,\n      \"discount\": null,\n      \"taxable_value\": 2274.43,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Cotton Woven Fabric 44 inch\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 894.311,\n      \"unit\": \"MTR\",\n      \"unit_price\": 163.53,\n      \"discount\": null,\n      \"taxable_value\": 146246.68,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 86.013,\n      \"unit\": \"KGS\",\n      \"unit_price\": 266.84,\n      \"discount\": null,\n      \"taxable_value\": 21804.12,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 170325.23,\n  \"cgst_amount\": 4258.13,\n  \"sgst_amount\": 4258.13,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.49,\n  \"grand_total\": 178841.0,\n  \"amount_in_words\": \"Rupees One Lakh Seventy Eight Thousand Eight Hundred and Forty One Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2403,
+ "output_tokens": 590,
+ "cached_input_tokens": 0,
+ "latency_s": 12.1314,
+ "cost_usd": 0.000495352,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

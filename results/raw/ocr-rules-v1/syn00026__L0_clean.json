@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00026__L0_clean",
+ "doc_id": "syn00026",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-02-13",
+  "seller_name": "MENON POLYMERS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "316585.00",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.49",
+  "grand_total": "373571.00",
+  "amount_in_words": null
+ },
+ "raw": "MENON POLYMERS\nUnit No. 319, Okhla Phase I, Gurugram - 124816 (Haryana)\nGSTIN : O6VMBCM3002F4ZU State Code : 06\nTAX INVOICE\nM/s. Agarwal & Sons Private Limited Bill No. : INV/25-26/0526\nGala No. 234, Sector 63 Date : 13.02.2026\nPatna - 833740 R.C.M. : YES\nGSTIN : 10SDGFA6607A7ZI1\nPlace of Supply : 10-Bihar\nsol S\u201d*~=\u201c\u2018COC*\u2018*SRHOnSr\u00ae~~\u2122O~\u2122~*~\u201c\u2018\u201c*!SSCS~*dSCi\u2018\u00e9 |e\n| 1 [Glucose Biscuits 200g 186 BOX 223.71 41610.06\n| 2 [noes Packing Bags on 130.88 5017.15\n| 3 |Office Workstation Table 3 Nos| 10947.43 32842.29\n. ; 1168\n4 |Instant Drink Premix pcs 203.01 237115.68\nTOTAL 316585.18\nTaxable Value 316585. 18\nmw [temas [nate | Taxame | Add: TGST 56985. 33\n1905 41610.06| 18% | 7489.81| Round Off 0.49\n3923 5017.15] 18% | 903.09 [NET PAYABLE | PAYABLE Rs. 373571.00\n9403 32842.29 5911.61\n2106 237115.68 42680.82\nRupees in words : Rupees Three Lakh Seventy Three Thousand Five Hundred and Seventy One Only\nBank: HDFC Bank, A/c 13977675635, IFSC BYBS0743760\nReceiver's Signature For MENON POLYMERS\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6492,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1012,
+  "gstins_found": 0
+ }
+}

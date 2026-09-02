@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00048__L3_harsh",
+ "doc_id": "syn00048",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "13-25-26-1277",
+  "invoice_date": "2025-08-18",
+  "seller_name": "Kane Polymers Pvt. Ltd.",
+  "seller_gstin": "36AACKP3971LZ9",
+  "seller_address": "Door No. 206, B.R. Mehta Road, Andheri, Mumbai - 407140",
+  "buyer_name": "Anil & Sons LLP",
+  "buyer_gstin": "27AAHCA7120M1Z9",
+  "buyer_address": "Unit No. 63, Saki Road, Chennai, Tamil Nadu - 600114",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NO",
+    "unit_price": 6750.85,
+    "discount": 0,
+    "taxable_value": 13501.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer 21.96.00",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NO",
+    "unit_price": 61296.78,
+    "discount": 0,
+    "taxable_value": 61296.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "LED Monitor 19.60.00",
+    "hsn_sac": "9006",
+    "quantity": 5322,
+    "unit": "NO",
+    "unit_price": 49.76,
+    "discount": 0,
+    "taxable_value": 265031.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "USB Hub (100/20)",
+    "hsn_sac": "8537",
+    "quantity": 47,
+    "unit": "NO",
+    "unit_price": 89.5,
+    "discount": 0,
+    "taxable_value": 4206.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 47,
+    "unit": "NO",
+    "unit_price": 58.98,
+    "discount": 0,
+    "taxable_value": 2768.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5 sq.mm",
+    "hsn_sac": "8544",
+    "quantity": 7500.538,
+    "unit": "MTS",
+    "unit_price": 14.98,
+    "discount": 0,
+    "taxable_value": 112500.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 728901.44,
+  "cgst_amount": 65601.13,
+  "sgst_amount": 65601.13,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.56,
+  "grand_total": 859503.13,
+  "amount_in_words": "Rupees Eight Lakh Eighty One Thousand Six Hundred and Two Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"13-25-26-1277\",\n  \"invoice_date\": \"2025-08-18\",\n  \"seller_name\": \"Kane Polymers Pvt. Ltd.\",\n  \"seller_gstin\": \"36AACKP3971LZ9\",\n  \"seller_address\": \"Door No. 206, B.R. Mehta Road, Andheri, Mumbai - 407140\",\n  \"buyer_name\": \"Anil & Sons LLP\",\n  \"buyer_gstin\": \"27AAHCA7120M1Z9\",\n  \"buyer_address\": \"Unit No. 63, Saki Road, Chennai, Tamil Nadu - 600114\",\n  \"place_of_supply\": \"Tamil Nadu\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 2,\n      \"unit\": \"NO\",\n      \"unit_price\": 6750.85,\n      \"discount\": 0,\n      \"taxable_value\": 13501.70,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer 21.96.00\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NO\",\n      \"unit_price\": 61296.78,\n      \"discount\": 0,\n      \"taxable_value\": 61296.78,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"LED Monitor 19.60.00\",\n      \"hsn_sac\": \"9006\",\n      \"quantity\": 5322,\n      \"unit\": \"NO\",\n      \"unit_price\": 49.76,\n      \"discount\": 0,\n      \"taxable_value\": 265031.40,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"USB Hub (100/20)\",\n      \"hsn_sac\": \"8537\",\n      \"quantity\": 47,\n      \"unit\": \"NO\",\n      \"unit_price\": 89.50,\n      \"discount\": 0,\n      \"taxable_value\": 4206.50,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 47,\n      \"unit\": \"NO\",\n      \"unit_price\": 58.98,\n      \"discount\": 0,\n      \"taxable_value\": 2768.06,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"PVC Insulated Copper Cable 2.5 sq.mm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 7500.538,\n      \"unit\": \"MTS\",\n      \"unit_price\": 14.98,\n      \"discount\": 0,\n      \"taxable_value\": 112500.00,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 728901.44,\n  \"cgst_amount\": 65601.13,\n  \"sgst_amount\": 65601.13,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.56,\n  \"grand_total\": 859503.13,\n  \"amount_in_words\": \"Rupees Eight Lakh Eighty One Thousand Six Hundred and Two Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1788,
+ "output_tokens": 880,
+ "cached_input_tokens": 0,
+ "latency_s": 12.5655,
+ "cost_usd": 0.0005520319999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

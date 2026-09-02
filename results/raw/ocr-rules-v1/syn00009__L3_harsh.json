@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00009__L3_harsh",
+ "doc_id": "syn00009",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Ei :",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Ei :\nLecce Ante: teil OO\nSa eaeieet Tao\na\n% 5 FA a FAR tnvorce\nid\nPeerend Detjeen Pvivite Lamont Darema enets\nMin athe barhentig! ttete, toads eb swan\ni net Payment Terme 6 fine\nTIDE SANT neat \u201ca Reveew Cheng ~\n8 Isat mete tg ee: SGN gee ce EN ee\n\u00b0 MS Paes trainer ee ee ae\n\u201cfice nee wing Ce ee te\nCp Rented Corinne: Rey ag ET elie see a as\nSe Merc isk ct ATR oem fence * em\npA ted ieee sammy neg an TOK gorge th Somnay see wha\nEc wenn a mn\n[eects pe: sng ices aS eras\nPais cetaebemettinent tt to, Sea ee ee\na iecerusaseae SMS Ser ene omy samen\nSimei eee eee ihe amr, sey me eae |\n\u00a9 22 szevchinbescme sheet he MORNE Lae Et ak eee\n\u00a9. es cea repre ce epee iyinllen Ae\n<p Shorten paid ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5881,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 685,
+  "gstins_found": 0
+ }
+}

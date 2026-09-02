@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00027__L2_photo",
+ "doc_id": "syn00027",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Naidu",
+  "invoice_date": "2026-02-05",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE panes",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "215712.30",
+  "cgst_amount": "13907.81",
+  "sgst_amount": "13907.81",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.08",
+  "grand_total": "243528.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE panes\n$7ect234749047fecb02eSS6cd1662857\u00a2f20849\u00a2764d154393ebIc664e260 eee\nAck No. / Ack Date a |\n1000079403813 / 2026-02-05 Paes)\nPanama\"\nSuppiier Recipient Document No.\nNaidu Pharma Kaur Trading Co. Pvt. Ltd. 3388\nShop No. 40, Focal Point, Ahmedabad, Door No. 416, Industrial Estate, Surat, Document Date\nGujarat 385664 Gujarat 362452 2026-02-05\nGSTIN GSTIN Place of Supply\n24ZRXPNS5O1F6ZO 24UELFK482501Z3 24 - Gujarat\n\u00e9 rasa Charge\n[semen [van [a9 | vO [sat [eis] Teas amt_[nun]\u2014cestame | cstame [vot\n| F | | | | | ]\nples Soap |3401| 92|PCS| 42.49| \u2014-|._ 3909:08) 18| 351.82) 351.82) 4612.72\n[ |paracetamol| | Moy ae a oe ee\nalip 650mg |3004|3353|/BOx| 54.74 -|183543.22)12 |11012.59|11012.59|205568.40\nSieccae sha 3402| 240|PCS|117.75, _--| 28260.00| 18) 2543.40) 2543.40) 33346.80\nTotal Taxable Value_ [___215712.30|\n(Total CGST aa 13907.81|\nTotal SGST | 13907.81|\nRound Off | 0.08)\nTotal Invoice Value 243528.00\n\u2018Amount in words: Rupees Two Lakh Forty Three Thousand Five Hundred \u2018and Twenty Eight Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4908,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1031,
+  "gstins_found": 0
+ }
+}

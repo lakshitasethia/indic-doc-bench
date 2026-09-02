@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00091__L2_photo",
+ "doc_id": "syn00091",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "KA6546",
+  "invoice_date": null,
+  "seller_name": "i",
+  "seller_gstin": "32FEFFM3936C3ZA",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "i\nKaur Texte atawa. / Invoice No. KA6546\nShop No. 152, Ring Road, Patna\nBihar - 808522 \u2014\u2014 badd\n| saeaaonter / GSTIN: TOOLVCKO286A9ZL grates / Terms Gash\n\u00bbn / Buyer: Mehra Sales Corporation LLP\nShop No. 101, Peenya 2nd Stage, Kochi, Kerala - 694497\nGSTIN: 32FEFFM3936C3ZA | suffers / Place of Supply: Kerala\nee ee\nDescription Taxable\n[information Technology Consiting Sences [996513 |1 Nos] 475.36] 4175.36] 18 | avi\nert / In words: Rupees Fifty Four Thousand Four Hundred and Eighty Seven Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4541,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 494,
+  "gstins_found": 1
+ }
+}

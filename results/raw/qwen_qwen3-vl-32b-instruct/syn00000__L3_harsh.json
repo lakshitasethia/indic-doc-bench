@@ -1,0 +1,259 @@
+{
+ "variant_id": "syn00000__L3_harsh",
+ "doc_id": "syn00000",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-0794",
+  "invoice_date": "2025-09-13",
+  "seller_name": "Deekshith Industries Limited",
+  "seller_gstin": "36AACEV8068K1ZP",
+  "seller_address": "Plot No. 134, Chandra Ghosh Puram, Bangalore - 560086",
+  "buyer_name": "Dabhi Enterprises Limited",
+  "buyer_gstin": "24AAQCF8295HZZE",
+  "buyer_address": "Chann No. 456, Udyog Vihar, Gurugram, Haryana - 122001",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Mould Board Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 248,
+    "unit": "Nos",
+    "unit_price": 135.8,
+    "discount": 30335.2,
+    "taxable_value": 30693.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laminated Graphite College Note",
+    "hsn_sac": "4823",
+    "quantity": 4,
+    "unit": "BAG",
+    "unit_price": 600.0,
+    "discount": 2191.54,
+    "taxable_value": 361.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Graphite Sheets",
+    "hsn_sac": "4801",
+    "quantity": 34,
+    "unit": "PKTS",
+    "unit_price": 2200.5,
+    "discount": 36474.72,
+    "taxable_value": 2362.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Graphite Bond Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 270,
+    "unit": "PCS",
+    "unit_price": 316.2,
+    "discount": 67609.71,
+    "taxable_value": 14094.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Carbon Sheet 12",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 0,
+    "tax_rate": null
+   },
+   {
+    "description": "Stabilo Eraser Paint 4K",
+    "hsn_sac": "3208",
+    "quantity": 89.38,
+    "unit": "LTR",
+    "unit_price": 440.51,
+    "discount": 37659.45,
+    "taxable_value": 32788.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stabilo Pencil 2B/2H",
+    "hsn_sac": "4819",
+    "quantity": 269,
+    "unit": "NOS",
+    "unit_price": 75.69,
+    "discount": 16602.79,
+    "taxable_value": 1443.92,
+    "tax_rate": 18
+   },
+   {
+    "description": "Crayola Crayon Box 16-Ply",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 0,
+    "tax_rate": null
+   },
+   {
+    "description": "Coloring Book Fabric 14 Inch",
+    "hsn_sac": "7006",
+    "quantity": 455.112,
+    "unit": "MT/B",
+    "unit_price": 580.0,
+    "discount": 20020.59,
+    "taxable_value": 3013.47,
+    "tax_rate": 18
+   },
+   {
+    "description": "Colored Cloth Stretch",
+    "hsn_sac": "7008",
+    "quantity": 400.276,
+    "unit": "KGS",
+    "unit_price": 188.37,
+    "discount": 30289.68,
+    "taxable_value": 4967.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "TNP Chemical Structure",
+    "hsn_sac": "3208",
+    "quantity": 100,
+    "unit": "TONS",
+    "unit_price": 55106.85,
+    "discount": 0,
+    "taxable_value": 5510.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "TNP Chemical Box 12x12x12cm",
+    "hsn_sac": "7214",
+    "quantity": 457,
+    "unit": "SET",
+    "unit_price": 432.11,
+    "discount": 8742.7,
+    "taxable_value": 14723.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Numbered Notebook A4 80",
+    "hsn_sac": "4215",
+    "quantity": 147,
+    "unit": "NO",
+    "unit_price": 100.0,
+    "discount": 14878.54,
+    "taxable_value": 8617.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "Numbered Notebook A5 80",
+    "hsn_sac": "4511",
+    "quantity": 150,
+    "unit": "NO",
+    "unit_price": 35.55,
+    "discount": 2740.9,
+    "taxable_value": 3960.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Perforated SP Filing Tablets",
+    "hsn_sac": "7900",
+    "quantity": 42,
+    "unit": "PCS",
+    "unit_price": 30.0,
+    "discount": 854.13,
+    "taxable_value": 40.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Barbed Staple 5.20",
+    "hsn_sac": "1703",
+    "quantity": 18000,
+    "unit": "PCS",
+    "unit_price": 28.0,
+    "discount": 8632.9,
+    "taxable_value": 778.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Coiled Desk Pointer",
+    "hsn_sac": "7318",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 28.7,
+    "discount": 13757.46,
+    "taxable_value": 203.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Photocopy Paper 1kg",
+    "hsn_sac": "9407",
+    "quantity": 20,
+    "unit": "PCS",
+    "unit_price": 88.75,
+    "discount": 17300.9,
+    "taxable_value": 529.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Binder Clipper Cable",
+    "hsn_sac": "8204",
+    "quantity": 10.5,
+    "unit": "MT/B",
+    "unit_price": 92.75,
+    "discount": 0,
+    "taxable_value": 0,
+    "tax_rate": null
+   },
+   {
+    "description": "Spools",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 0,
+    "tax_rate": null
+   },
+   {
+    "description": "Laptop Computer 10 Years",
+    "hsn_sac": "8471",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 34575,
+    "discount": 69150.5,
+    "taxable_value": 15234.32,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 182104.61,
+  "cgst_amount": 16389.41,
+  "sgst_amount": 16389.41,
+  "igst_amount": null,
+  "cess_amount": 0,
+  "round_off": -0.17,
+  "grand_total": 214983.25,
+  "amount_in_words": "Rupees Eleven Lakh Thirty Three Thousand Six Hundred and Thirty Five"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-0794\",\n  \"invoice_date\": \"2025-09-13\",\n  \"seller_name\": \"Deekshith Industries Limited\",\n  \"seller_gstin\": \"36AACEV8068K1ZP\",\n  \"seller_address\": \"Plot No. 134, Chandra Ghosh Puram, Bangalore - 560086\",\n  \"buyer_name\": \"Dabhi Enterprises Limited\",\n  \"buyer_gstin\": \"24AAQCF8295HZZE\",\n  \"buyer_address\": \"Chann No. 456, Udyog Vihar, Gurugram, Haryana - 122001\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Mould Board Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 248,\n      \"unit\": \"Nos\",\n      \"unit_price\": 135.80,\n      \"discount\": 30335.20,\n      \"taxable_value\": 30693.78,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laminated Graphite College Note\",\n      \"hsn_sac\": \"4823\",\n      \"quantity\": 4,\n      \"unit\": \"BAG\",\n      \"unit_price\": 600.00,\n      \"discount\": 2191.54,\n      \"taxable_value\": 361.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Graphite Sheets\",\n      \"hsn_sac\": \"4801\",\n      \"quantity\": 34,\n      \"unit\": \"PKTS\",\n      \"unit_price\": 2200.50,\n      \"discount\": 36474.72,\n      \"taxable_value\": 2362.08,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Graphite Bond Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 270,\n      \"unit\": \"PCS\",\n      \"unit_price\": 316.20,\n      \"discount\": 67609.71,\n      \"taxable_value\": 14094.27,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Carbon Sheet 12\",\n      \"hsn_sac\": null,\n      \"quantity\": null,\n      \"unit\": null,\n      \"unit_price\": null,\n      \"discount\": null,\n      \"taxable_value\": 0,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Stabilo Eraser Paint 4K\",\n      \"hsn_sac\": \"3208\",\n      \"quantity\": 89.380,\n      \"unit\": \"LTR\",\n      \"unit_price\": 440.51,\n      \"discount\": 37659.45,\n      \"taxable_value\": 32788.14,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stabilo Pencil 2B/2H\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 269,\n      \"unit\": \"NOS\",\n      \"unit_price\": 75.69,\n      \"discount\": 16602.79,\n      \"taxable_value\": 1443.92,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Crayola Crayon Box 16-Ply\",\n      \"hsn_sac\": null,\n      \"quantity\": null,\n      \"unit\": null,\n      \"unit_price\": null,\n      \"discount\": null,\n      \"taxable_value\": 0,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Coloring Book Fabric 14 Inch\",\n      \"hsn_sac\": \"7006\",\n      \"quantity\": 455.112,\n      \"unit\": \"MT/B\",\n      \"unit_price\": 580.00,\n      \"discount\": 20020.59,\n      \"taxable_value\": 3013.47,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Colored Cloth Stretch\",\n      \"hsn_sac\": \"7008\",\n      \"quantity\": 400.276,\n      \"unit\": \"KGS\",\n      \"unit_price\": 188.37,\n      \"discount\": 30289.68,\n      \"taxable_value\": 4967.96,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TNP Chemical Structure\",\n      \"hsn_sac\": \"3208\",\n      \"quantity\": 100,\n      \"unit\": \"TONS\",\n      \"unit_price\": 55106.85,\n      \"discount\": 0,\n      \"taxable_value\": 5510.69,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TNP Chemical Box 12x12x12cm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 457,\n      \"unit\": \"SET\",\n      \"unit_price\": 432.11,\n      \"discount\": 8742.70,\n      \"taxable_value\": 14723.36,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Numbered Notebook A4 80\",\n      \"hsn_sac\": \"4215\",\n      \"quantity\": 147,\n      \"unit\": \"NO\",\n      \"unit_price\": 100.00,\n      \"discount\": 14878.54,\n      \"taxable_value\": 8617.24,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Numbered Notebook A5 80\",\n      \"hsn_sac\": \"4511\",\n      \"quantity\": 150,\n      \"unit\": \"NO\",\n      \"unit_price\": 35.55,\n      \"discount\": 2740.90,\n      \"taxable_value\": 3960.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Perforated SP Filing Tablets\",\n      \"hsn_sac\": \"7900\",\n      \"quantity\": 42,\n      \"unit\": \"PCS\",\n      \"unit_price\": 30.00,\n      \"discount\": 854.13,\n      \"taxable_value\": 40.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Barbed Staple 5.20\",\n      \"hsn_sac\": \"1703\",\n      \"quantity\": 18000,\n      \"unit\": \"PCS\",\n      \"unit_price\": 28.00,\n      \"discount\": 8632.90,\n      \"taxable_value\": 778.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Coiled Desk Pointer\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 100,\n      \"unit\": \"PCS\",\n      \"unit_price\": 28.70,\n      \"discount\": 13757.46,\n      \"taxable_value\": 203.70,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Photocopy Paper 1kg\",\n      \"hsn_sac\": \"9407\",\n      \"quantity\": 20,\n      \"unit\": \"PCS\",\n      \"unit_price\": 88.75,\n      \"discount\": 17300.90,\n      \"taxable_value\": 529.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"PVC Binder Clipper Cable\",\n      \"hsn_sac\": \"8204\",\n      \"quantity\": 10.50,\n      \"unit\": \"MT/B\",\n      \"unit_price\": 92.75,\n      \"discount\": 0,\n      \"taxable_value\": 0,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Spools\",\n      \"hsn_sac\": null,\n      \"quantity\": null,\n      \"unit\": null,\n      \"unit_price\": null,\n      \"discount\": null,\n      \"taxable_value\": 0,\n      \"tax_rate\": null\n    },\n    {\n      \"description\": \"Laptop Computer 10 Years\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 34575,\n      \"discount\": 69150.50,\n      \"taxable_value\": 15234.32,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 182104.61,\n  \"cgst_amount\": 16389.41,\n  \"sgst_amount\": 16389.41,\n  \"igst_amount\": null,\n  \"cess_amount\": 0,\n  \"round_off\": -0.17,\n  \"grand_total\": 214983.25,\n  \"amount_in_words\": \"Rupees Eleven Lakh Thirty Three Thousand Six Hundred and Thirty Five\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1953,
+ "output_tokens": 2245,
+ "cached_input_tokens": 0,
+ "latency_s": 63.1844,
+ "cost_usd": 0.0011370319999999998,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

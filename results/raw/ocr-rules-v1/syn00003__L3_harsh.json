@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00003__L3_harsh",
+ "doc_id": "syn00003",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "j-towene \u2014 Van IwOSEE a era |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "j-towene \u2014 Van IwOSEE a era |\n\n| me eres! \u00ab\n+ mo a hc ee ie ee\n1 eort station 02 NOS Seebae , oma fam 1m 4 ait\n2 Tp trane, OM\" NOS 2070629 \u00ab| 67h Fa: ani nea\nLcomouter S B67: 4m POSER . \u2014\u2014 8 ee\nos gee S160 S08 rcs) 202-58 MT FS\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2111,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 228,
+  "gstins_found": 0
+ }
+}

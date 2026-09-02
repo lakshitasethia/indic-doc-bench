@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00003__L2_photo",
+ "doc_id": "syn00003",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Nair",
+  "invoice_date": "2025-11-05",
+  "seller_name": "CC",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "446823.47",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "1.00",
+  "cess_amount": null,
+  "round_off": "518371.00",
+  "grand_total": "518371.00",
+  "amount_in_words": null
+ },
+ "raw": "CC\ne-Invoice \u2014 TAX INVOICE ee oe\nd7a72cad71120201771308327e085aa66885a088 1eSfdadfa63ef0acs3e7e11 eee ae :\nAck Ni Ack Date es nn |\n10000079213757 / 2025-11-05 eee ee\n\nnoe en\nSupplier Recipient Document No.\nNair Overseas Deshmukh Stee! & Alloys LLP N3196\nShop No. 206, Udyog Vihar, Cuttack, Unit No. 150, MIDC Phase II, Noida, Uttar pocument Date ;\nOdisha 754008 Pradesh 240750 2025-11-05\n21Z0LPNE515K2zz oswypcp1376P2z6 09 - Uttar Pradesh\nNope Charge\n[st] item Description | HSN a Unit Price [Discount] Taxable Amt [Rate] IGSTAmt |. Total |\nOffice | j\n1/ Workstation 9403 | 7 NOS| 9983.94 69887.58) 18 | 12579.76 82467.34,\nfe Table 2s ae ean \u2014\u2014 ;\nMultifunction |\n|? Laser Printer hese 1)NOS 26788.73 -| 26788.73) 18) 4821.97; 31610.70\n|. |Laptop | joassel |\n3|Computer i5 |8471 4)/NOS|70459.34 -|281837.36| 18 |50730.72/332568.08\n|. |16GB Pel | |\nLI Cotton Round |e oalazqlp |5 | 3415.49\n\\4 | Neck T-Shirt _ 6109/338) PCS; 202.10 -| 68309.80 3415.49) 71725.29 :\nTotal Taxable Value 446823.47\nTotal IGST 71547.94.\nRound Off\nTotal Invoice Value 518371.00\nAmount in words: Rupees Five Lakh Eighteen Thousand Three Hundred and Seventy One Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.57,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1140,
+  "gstins_found": 0
+ }
+}

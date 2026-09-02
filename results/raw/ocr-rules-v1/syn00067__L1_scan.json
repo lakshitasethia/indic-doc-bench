@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00067__L1_scan",
+ "doc_id": "syn00067",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Ahluwalia Sales Corporation :",
+  "seller_gstin": "36SPPCA6442B8Z8",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Ahluwalia Sales Corporation :\n\nTelangana - 507116 eis) Os g112)202>\nfvs\u00e9sn\u00e9es / GSTIN: 36SPPCA6442B8Z8 cet VC HUN\n\nxa / Buyer: Joshi & Sons Limited\n\nKhasra No. 260, Chandni Chowk, Warangal, Telangana - 504968\nEa\n[s[Toiet soap 00g =| sett] srovecs| asa) voreesa| 1 [isa1s20| 31620\nfa|siainess Stee cutlery set [aris] ser] 20590] raoree| ve | sz] oar\n[2 [a steel BarFes00 1mm | 7ae] 4384 ow e0200 90 [26970075] ve [zasaa [arse\nert / In words: Rupees Ten Lakh Seventy One Thousand Nine Hundred and Ninety One Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8355,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 511,
+  "gstins_found": 1
+ }
+}

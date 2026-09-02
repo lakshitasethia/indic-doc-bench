@@ -1,0 +1,62 @@
+{# Zoho/Vyapar-style: sans-serif, coloured header band, zebra rows, no per-line
+   tax columns (a summary table instead), dd/mm/yyyy dates, "GST No." wording. #}
+<style>{{ base_css }}
+body { font-family: Helvetica, Arial, sans-serif; font-size: 9pt; color: #22303f; }
+.band { background: {{ accent }}; color: #fff; padding: 14px 18px; display:flex; justify-content:space-between; }
+.band h1 { margin:0; font-size:20pt; font-weight:600; letter-spacing:1px; }
+.wrap { padding: 0 18px; }
+.meta { display:flex; gap:26px; margin:14px 0; }
+.meta div { font-size:8.5pt; }
+.lbl { color:#7a8794; text-transform:uppercase; font-size:7pt; letter-spacing:.6px; }
+.cards { display:flex; gap:14px; margin-bottom:12px; }
+.card { flex:1; border:1px solid #dde3e9; border-radius:5px; padding:9px 11px; }
+th { background:{{ accent }}12; color:#3c4a58; text-align:left; padding:6px 7px; border-bottom:1.5px solid {{ accent }}; font-size:8pt; }
+td { padding:5px 7px; border-bottom:1px solid #eef1f4; }
+tbody tr:nth-child(even) { background:#fafbfc; }
+.sum { width:46%; margin-left:auto; margin-top:10px; }
+.sum td { border:none; padding:3px 7px; }
+.sum .tot td { border-top:2px solid {{ accent }}; font-weight:700; font-size:11pt; padding-top:6px; }
+</style>
+<div class="band">
+  <div><h1>TAX INVOICE</h1><div style="font-size:8pt;opacity:.9">{{ r.invoice_number }}</div></div>
+  <div style="text-align:right"><div style="font-size:13pt;font-weight:600">{{ r.seller_name }}</div>
+    <div style="font-size:8pt;opacity:.9">{{ sa.line1 }}<br>{{ sa.city }} &middot; {{ sa.state }} {{ sa.pincode }}</div></div>
+</div>
+<div class="wrap">
+  <div class="meta">
+    <div><div class="lbl">Invoice Date</div>{{ d.dmy_slash }}</div>
+    <div><div class="lbl">GST No.</div>{{ r.seller_gstin }}</div>
+    <div><div class="lbl">Place of Supply</div>{{ ba.state }} ({{ ba.state_code }})</div>
+    <div><div class="lbl">Reverse Charge</div>{{ 'Yes' if r.reverse_charge else 'No' }}</div>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="lbl">Bill To</div><div style="font-weight:600">{{ r.buyer_name }}</div>
+      <div>{{ ba.line1 }}, {{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}</div>
+      <div class="lbl" style="margin-top:4px">GST No.</div><div>{{ r.buyer_gstin or '—' }}</div></div>
+    <div class="card"><div class="lbl">Ship To</div><div style="font-weight:600">{{ r.buyer_name }}</div>
+      <div>{{ ba.line1 }}, {{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}</div></div>
+  </div>
+  <table>
+    <thead><tr><th style="width:4%">#</th><th>Item &amp; Description</th><th style="width:9%">HSN/SAC</th>
+      <th style="width:11%" class="r">Qty</th><th style="width:12%" class="r">Rate</th><th style="width:14%" class="r">Amount</th></tr></thead>
+    <tbody>
+    {% for it in items %}
+      <tr><td>{{ loop.index }}</td><td>{{ it.description }}</td><td>{{ it.hsn_sac }}</td>
+      <td class="r">{{ it.quantity }} {{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+      <td class="r">{{ it.taxable_value }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <table class="sum">
+    <tr><td>Sub Total</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+    {% if interstate %}<tr><td>IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+    {% else %}<tr><td>CGST</td><td class="r">{{ r.cgst_amount }}</td></tr>
+    <tr><td>SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+    <tr><td>Rounding</td><td class="r">{{ r.round_off }}</td></tr>
+    <tr class="tot"><td>Total (INR)</td><td class="r">&#8377;{{ r.grand_total }}</td></tr>
+  </table>
+  <div style="margin-top:12px;font-size:8.5pt"><span class="lbl">In Words</span><br>{{ r.amount_in_words }}</div>
+  <div style="margin-top:16px;display:flex;justify-content:space-between;font-size:8pt;color:#7a8794">
+    <div>{{ bank.name }} &middot; A/C {{ bank.account }} &middot; IFSC {{ bank.ifsc }}</div>
+    <div>Authorised Signatory</div></div>
+</div>

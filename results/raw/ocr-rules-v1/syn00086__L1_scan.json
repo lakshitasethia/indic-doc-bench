@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00086__L1_scan",
+ "doc_id": "syn00086",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-04",
+  "seller_name": "BANERJEE SALES CORPORATION",
+  "seller_gstin": "27CKTFB0337G9ZL",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "8517.00",
+  "grand_total": "723836.00",
+  "amount_in_words": null
+ },
+ "raw": "BANERJEE SALES CORPORATION\nDoor No. 121, Udyog Vihar, Nashik - 426378 (Maharashtra)\nGSTIN : 27CKTFB0337G9ZL Sater Code. 1.207\nTAX INVOICE\nM/s. Menon Logistics Pvt. Ltd. Bill No. : INV-5812\nGala No. 417, Chandni Chowk Date : 04.10.2025\nMysuru - 565931 Ione 2 INO\nGSTIN : 29DTIFM2402E42\u00a2C\nPlace of Supply : 29-Karnataka\nMS os lo Value (Rs.)\n| 1 |Ms Hex Bolt with Nut M12 158 NOS a7 3 4568.89\nSmartphone 6GB/128GB 29779 65 89388 65)\n| 3 |ipes Packing Bags a! 179e7s 12767.10,\n| 4 [cotton Woven Fabric 44 inch ae Lay. 38 35301 ,93 |\n|\n| 5 |Laptop Computer i5 16GB 85937.04 81640.19]|\n| 6 |Foam Mattress 72x36 6597.74]  26390.96|\n| 7 |Basmats Rice (Broken 3) oe 7. LG 4914.52\nWe es\nSynthetic Enamel Paine 26 LTR S06 ,02 40296.90\n| 9 |asoan CLG Rene heat oe 397 28 5261 02\n1029\n10 |Cotton Round Neck = Sih ie te PCS B53, 1S BAT SOS , 88\n| 11 [Radial Tyre 195/65 R15 4951.84 4951.84\n12 |Rezined sugar 6-30 ae 42.34 1003.76\n| 13 [Detergent Powder 1kg 13195 ee ae\n| 14 |Glucose Biscuits 200g 353.49 1060.47)\n| 15 Office Workstation Table 11 Nos 7403.60 81442.57,\n| 16 | Paracetamol IP 650mg Tablets i7 Box 63.91 1086.47]\n| 17 Corrugated Carton Box 5-Ply 29 NOS S14 Gi one\nSa t2xa1e vais 64617166\nEEE acc: rost 77664.57\n7318 4568.89 822.40] Round Off Soe\n8517 85338 65 1e080- oc [NET PAYABLE | PAYABLE Rs. 723836.00\n3923 12767 10 2298.08\n5208 35301 90 1765.10\n8471 81640.19| 188 | 1AGoS oS\n9404 26390.96 4750, 37\n1006 4914.52 Das 72\n3208 40296.90 7253.44\n0902 526102 Doe oc\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.5524,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1464,
+  "gstins_found": 1
+ }
+}

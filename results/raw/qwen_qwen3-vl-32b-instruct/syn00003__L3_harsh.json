@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00003__L3_harsh",
+ "doc_id": "syn00003",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2105/PM/04/23",
+  "invoice_date": "2023-05-04",
+  "seller_name": "Bharat Telecom",
+  "seller_gstin": "29AABCB0078P1ZS",
+  "seller_address": "Bharat Telecom, 123 Main Street, Delhi, India",
+  "buyer_name": "Southeast Steel & Alloys LLP",
+  "buyer_gstin": "29AAACS0000R1ZQ",
+  "buyer_address": "Unit No. 101, Sector 67, Noida, Uttar Pradesh, India",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 7,
+    "unit": "NOS",
+    "unit_price": 9983.94,
+    "discount": null,
+    "taxable_value": 69887.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 26788.75,
+    "discount": null,
+    "taxable_value": 26788.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 70459.34,
+    "discount": null,
+    "taxable_value": 281837.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 338,
+    "unit": "PCS",
+    "unit_price": 202.1,
+    "discount": null,
+    "taxable_value": 68309.8,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 446823.49,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 73547.94,
+  "cess_amount": null,
+  "round_off": 0.82,
+  "grand_total": 518371.86,
+  "amount_in_words": "Rupees Five Lakh Eighty Three Thousand Three Hundred and Seventy One Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2105/PM/04/23\",\n  \"invoice_date\": \"2023-05-04\",\n  \"seller_name\": \"Bharat Telecom\",\n  \"seller_gstin\": \"29AABCB0078P1ZS\",\n  \"seller_address\": \"Bharat Telecom, 123 Main Street, Delhi, India\",\n  \"buyer_name\": \"Southeast Steel & Alloys LLP\",\n  \"buyer_gstin\": \"29AAACS0000R1ZQ\",\n  \"buyer_address\": \"Unit No. 101, Sector 67, Noida, Uttar Pradesh, India\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 7,\n      \"unit\": \"NOS\",\n      \"unit_price\": 9983.94,\n      \"discount\": null,\n      \"taxable_value\": 69887.58,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 26788.75,\n      \"discount\": null,\n      \"taxable_value\": 26788.75,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 4,\n      \"unit\": \"NOS\",\n      \"unit_price\": 70459.34,\n      \"discount\": null,\n      \"taxable_value\": 281837.36,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 338,\n      \"unit\": \"PCS\",\n      \"unit_price\": 202.10,\n      \"discount\": null,\n      \"taxable_value\": 68309.80,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 446823.49,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 73547.94,\n  \"cess_amount\": null,\n  \"round_off\": 0.82,\n  \"grand_total\": 518371.86,\n  \"amount_in_words\": \"Rupees Five Lakh Eighty Three Thousand Three Hundred and Seventy One Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1713,
+ "output_tokens": 655,
+ "cached_input_tokens": 0,
+ "latency_s": 20.8082,
+ "cost_usd": 0.00045063199999999996,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

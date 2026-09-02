@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00018__L3_harsh",
+ "doc_id": "syn00018",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "google/gemini-2.5-flash-lite",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023-24/001",
+  "invoice_date": "2023-07-27",
+  "seller_name": "Iyer & Sons",
+  "seller_gstin": "27ABCDE1234F1Z5",
+  "seller_address": "123, Main Street, Chennai - 600001",
+  "buyer_name": "ABC Traders",
+  "buyer_gstin": "29ABCDE1234F1Z5",
+  "buyer_address": "456, Cross Road, Bangalore - 560001",
+  "place_of_supply": "TAMIL NADU",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Hex Bolts with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 7500,
+    "unit": "NOS",
+    "unit_price": 2.45,
+    "discount": null,
+    "taxable_value": 18375,
+    "tax_rate": 18
+   },
+   {
+    "description": "Steel Door Stop",
+    "hsn_sac": "8302",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 41.12,
+    "discount": null,
+    "taxable_value": 12336,
+    "tax_rate": 18
+   },
+   {
+    "description": "Samrat Pipe (Brass-3/4)",
+    "hsn_sac": "7419",
+    "quantity": 1000,
+    "unit": "NOS",
+    "unit_price": 75.38,
+    "discount": null,
+    "taxable_value": 75380,
+    "tax_rate": 18
+   },
+   {
+    "description": "Copper Rods (250g)",
+    "hsn_sac": "7408",
+    "quantity": 400,
+    "unit": "NOS",
+    "unit_price": 209.29,
+    "discount": null,
+    "taxable_value": 83716,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rubber Tyre (Wheel-15)",
+    "hsn_sac": "4011",
+    "quantity": 400,
+    "unit": "NOS",
+    "unit_price": 41.04,
+    "discount": null,
+    "taxable_value": 16416,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 10947,
+    "discount": null,
+    "taxable_value": 21894,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 218117,
+  "cgst_amount": 19630.53,
+  "sgst_amount": 19630.53,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 257378.06,
+  "amount_in_words": "Two Lakh Fifty Seven Thousand Three Hundred Seventy Eight Rupees and Six Paise Only"
+ },
+ "raw": "```json\n{\n  \"invoice_number\": \"INV/2023-24/001\",\n  \"invoice_date\": \"2023-07-27\",\n  \"seller_name\": \"Iyer & Sons\",\n  \"seller_gstin\": \"27ABCDE1234F1Z5\",\n  \"seller_address\": \"123, Main Street, Chennai - 600001\",\n  \"buyer_name\": \"ABC Traders\",\n  \"buyer_gstin\": \"29ABCDE1234F1Z5\",\n  \"buyer_address\": \"456, Cross Road, Bangalore - 560001\",\n  \"place_of_supply\": \"TAMIL NADU\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Hex Bolts with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 7500,\n      \"unit\": \"NOS\",\n      \"unit_price\": 2.45,\n      \"discount\": null,\n      \"taxable_value\": 18375,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Steel Door Stop\",\n      \"hsn_sac\": \"8302\",\n      \"quantity\": 300,\n      \"unit\": \"PCS\",\n      \"unit_price\": 41.12,\n      \"discount\": null,\n      \"taxable_value\": 12336,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Samrat Pipe (Brass-3/4)\",\n      \"hsn_sac\": \"7419\",\n      \"quantity\": 1000,\n      \"unit\": \"NOS\",\n      \"unit_price\": 75.38,\n      \"discount\": null,\n      \"taxable_value\": 75380,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Copper Rods (250g)\",\n      \"hsn_sac\": \"7408\",\n      \"quantity\": 400,\n      \"unit\": \"NOS\",\n      \"unit_price\": 209.29,\n      \"discount\": null,\n      \"taxable_value\": 83716,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Rubber Tyre (Wheel-15)\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 400,\n      \"unit\": \"NOS\",\n      \"unit_price\": 41.04,\n      \"discount\": null,\n      \"taxable_value\": 16416,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 10947,\n      \"discount\": null,\n      \"taxable_value\": 21894,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 218117,\n  \"cgst_amount\": 19630.53,\n  \"sgst_amount\": 19630.53,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": null,\n  \"grand_total\": 257378.06,\n  \"amount_in_words\": \"Two Lakh Fifty Seven Thousand Three Hundred Seventy Eight Rupees and Six Paise Only\"\n}\n```",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3496,
+ "output_tokens": 920,
+ "cached_input_tokens": 0,
+ "latency_s": 4.6979,
+ "cost_usd": 0.0007176,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

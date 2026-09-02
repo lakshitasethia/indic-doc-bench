@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00013__L3_harsh",
+ "doc_id": "syn00013",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023/001",
+  "invoice_date": "2023-05-01",
+  "seller_name": "Naidu Marketing Pvt. Ltd.",
+  "seller_gstin": "29AAACN1234F1ZS",
+  "seller_address": "Plot No. 27, Sector 68, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "Chandru Pharma Limited",
+  "buyer_gstin": "29AACCP1234F1ZS",
+  "buyer_address": "Plot No. 275, Udyog Vihar, Gurgaon, Haryana - 122016",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 90.702,
+    "unit": "KGS",
+    "unit_price": 180.87,
+    "discount": null,
+    "taxable_value": 16405.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Plastic Tyre 195/65 R15",
+    "hsn_sac": "4211",
+    "quantity": 11.908,
+    "unit": "PCS",
+    "unit_price": 6379.04,
+    "discount": null,
+    "taxable_value": 68013.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "CPC 33 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 14.846,
+    "unit": "BAG",
+    "unit_price": 277.78,
+    "discount": null,
+    "taxable_value": 4208.04,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 91208.85,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 15448.97,
+  "cess_amount": null,
+  "round_off": 0.31,
+  "grand_total": 115157.08,
+  "amount_in_words": "One Lakh Fifteen Thousand One Hundred Fifty Seven and Paise Eight"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/2023/001\",\n  \"invoice_date\": \"2023-05-01\",\n  \"seller_name\": \"Naidu Marketing Pvt. Ltd.\",\n  \"seller_gstin\": \"29AAACN1234F1ZS\",\n  \"seller_address\": \"Plot No. 27, Sector 68, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"Chandru Pharma Limited\",\n  \"buyer_gstin\": \"29AACCP1234F1ZS\",\n  \"buyer_address\": \"Plot No. 275, Udyog Vihar, Gurgaon, Haryana - 122016\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 90.702,\n      \"unit\": \"KGS\",\n      \"unit_price\": 180.87,\n      \"discount\": null,\n      \"taxable_value\": 16405.27,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Plastic Tyre 195/65 R15\",\n      \"hsn_sac\": \"4211\",\n      \"quantity\": 11.908,\n      \"unit\": \"PCS\",\n      \"unit_price\": 6379.04,\n      \"discount\": null,\n      \"taxable_value\": 68013.94,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"CPC 33 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 14.846,\n      \"unit\": \"BAG\",\n      \"unit_price\": 277.78,\n      \"discount\": null,\n      \"taxable_value\": 4208.04,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 91208.85,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 15448.97,\n  \"cess_amount\": null,\n  \"round_off\": 0.31,\n  \"grand_total\": 115157.08,\n  \"amount_in_words\": \"One Lakh Fifteen Thousand One Hundred Fifty Seven and Paise Eight\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1768,
+ "output_tokens": 597,
+ "cached_input_tokens": 0,
+ "latency_s": 24.2213,
+ "cost_usd": 0.00043222399999999993,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

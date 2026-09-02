@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00074__L2_photo",
+ "doc_id": "syn00074",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2008-05-13",
+  "seller_name": "KAUR INFRATECH PRIVATE LIMITED",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "639332.18",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "KAUR INFRATECH PRIVATE LIMITED\nDoor Bo fil, mareina viner Date + 13.05.2008\nAmritsar - 153302 R.C.M. : NO\nGSTIN : O3WUHFR9632H4zZ~A\nPlace of Supply : 03-Punjab\nS| ee a\n+2 [eormotied Carton Sox SoPiy \"Tat we os oe\na ea Gein reel ee ee\nre ieesblook wecer Fomp. tay] ae oe\n[ 9 [cotton Round Neck T-Shirt |_20 pcs|\" 345.79] 6915.80]\nSr eae Se ech me Teele\n| 13 [ore 53 Grade Cement 50kg | 3 Bac] 379.39] 1138.17}\nB= Bound. Register 200 Pages 178893. 40]\n[ 16 [Multifunction Laser Printer | 2 wos] 6431.47] 51805.68|\nTaxable Value 639332.18\nPe ei 110872.51\nHaste [2064.04] on | sis a5]\n[isos | a17260- cel 6s | atria. sa]\nCE OO Ce |\njeeas | 25980.28[ 68 ase3 05]\nerp ete ee\nsie conprenfcan | pega\njest [502-40]. a16\u00a5 | \u2014Tasacas]\nEat RETO\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7028,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 733,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00058__L0_clean",
+ "doc_id": "syn00058",
+ "level": "L0_clean",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": "2025-07-31",
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "25613.74",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "25613.74",
+  "cess_amount": null,
+  "round_off": "25613.74",
+  "grand_total": "30224.00",
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\nChowdhury Electricals SI/25-26/9763 2025-07-31\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\nShop No. 342, Peenya 2nd Stage, Surat, Gujarat - 372966 243JZAFC2672T92Z7 Gujarat / 24\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nPatel Sales Corporation Private Limited 19O0PUPP6720R2Z9 19 - West Bengal\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\nKhasra No. 423, Industrial Estate, Siliguri, West Bengal - NO Advance\n715969\n| _ememnersny | snare [or] one | anton [mewn | fi [ssTano\nOther Professional and\n1 . ; 998399} 1|NOS|23749.34|23749.34/] 18 |4274.88\nTechnical Services\n2 |Repair Services of Computers | 498791| 1/Nos| 1864.40] 1864.40| 18 | 335.59\nand Peripherals\nTOTAL TAXABLE VALUE TOTAL IGST CESS ROUND OFF\n25613.74 4610.47 0.00 -0.21\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\nX 30224.00 \u2014 Rupees Thirty Thousand Two Hundred and Twenty Four Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5337,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 911,
+  "gstins_found": 0
+ }
+}

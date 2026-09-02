@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00029__L3_harsh",
+ "doc_id": "syn00029",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "680",
+  "invoice_date": "2024-04-05",
+  "seller_name": "Robby Technologies",
+  "seller_gstin": "33AAACR12345A",
+  "seller_address": "No. 123, ABC Street, City, State - 123456",
+  "buyer_name": "Swaraj Shyam",
+  "buyer_gstin": "33AAACR12345B",
+  "buyer_address": "No. 456, XYZ Road, City, State - 123456",
+  "place_of_supply": "State - 123456",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HOPE Paying Bags",
+    "hsn_sac": "3922",
+    "quantity": 5.0,
+    "unit": "PCS",
+    "unit_price": 177.48,
+    "discount": 0.0,
+    "taxable_value": 887.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Ozone Scrubs 200g",
+    "hsn_sac": "9405",
+    "quantity": 2.0,
+    "unit": "BOX",
+    "unit_price": 331.69,
+    "discount": 0.0,
+    "taxable_value": 663.38,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1550.78,
+  "cgst_amount": 139.57,
+  "sgst_amount": 139.57,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.26,
+  "grand_total": 1829.0,
+  "amount_in_words": "One Thousand Eight Hundred Twenty Nine Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"680\",\n  \"invoice_date\": \"2024-04-05\",\n  \"seller_name\": \"Robby Technologies\",\n  \"seller_gstin\": \"33AAACR12345A\",\n  \"seller_address\": \"No. 123, ABC Street, City, State - 123456\",\n  \"buyer_name\": \"Swaraj Shyam\",\n  \"buyer_gstin\": \"33AAACR12345B\",\n  \"buyer_address\": \"No. 456, XYZ Road, City, State - 123456\",\n  \"place_of_supply\": \"State - 123456\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"HOPE Paying Bags\",\n      \"hsn_sac\": \"3922\",\n      \"quantity\": 5.0,\n      \"unit\": \"PCS\",\n      \"unit_price\": 177.48,\n      \"discount\": 0.0,\n      \"taxable_value\": 887.4,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Ozone Scrubs 200g\",\n      \"hsn_sac\": \"9405\",\n      \"quantity\": 2.0,\n      \"unit\": \"BOX\",\n      \"unit_price\": 331.69,\n      \"discount\": 0.0,\n      \"taxable_value\": 663.38,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 1550.78,\n  \"cgst_amount\": 139.57,\n  \"sgst_amount\": 139.57,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.26,\n  \"grand_total\": 1829.0,\n  \"amount_in_words\": \"One Thousand Eight Hundred Twenty Nine Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1713,
+ "output_tokens": 465,
+ "cached_input_tokens": 0,
+ "latency_s": 15.3852,
+ "cost_usd": 0.00037159199999999996,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00070__L3_harsh",
+ "doc_id": "syn00070",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "seo Se me te SE Vreseocnemmine gE = :",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "seo Se me te SE Vreseocnemmine gE = :\nhs leases = | 2004) pesipox: fea, 8047 59,12 sob.05| | \"800-85\nTah saat acai lai sealnmn) shai. 2995240) 18) 329888) aaps.an!\nao : i hal alive, aro9a) asveaa}ie) 77098 ad\nTapegem eee, [a \u201capolncs| 38 ao) nase Jo} |20282.72 ens.\n\n5 wor viel ra wae ec Wd nme ose.)\nhese ja at Des SS ee Seen j\nhae yesilrcs} 21:15] 200051 al LASTS a pa ;\n6S Ee\n9 Eee | tape 0) ste ie wor) wr\nieee ee\n\nBese eel seal mol wenle| wn\nTas | spline oman) ine mae\nos ean ca aal ae a\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4032,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 493,
+  "gstins_found": 0
+ }
+}

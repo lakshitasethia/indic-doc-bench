@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00060__L2_photo",
+ "doc_id": "syn00060",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL7329",
+  "invoice_date": "2026-03-30",
+  "seller_name": "Verma Logistics Invoice No. DL7329",
+  "seller_gstin": "19LINCV1037ESZE",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.44",
+  "grand_total": "274458.00",
+  "amount_in_words": null
+ },
+ "raw": "Verma Logistics Invoice No. DL7329\nKhasra No. 437, Ring Road Dated 30-Mar-2026\nHowrah, West Bengal - 708717 Mode/Terms of Payment 30 Days\nGSTIN/UIN: 19LINCV1037ESZE Reverse Charge No\nState Name : West Bengal, Code : 19\nBuyer (Bill to) IRN: c40f lal aebe761938740065 7da8ce163763c1b654b21 Sedfd9 104533\nSethi Polymers A5c69e9\nKhasra No. 130, GIDC Estate Pascoe aap eae\nAhmedabad, Gujarat - 388881\nGSTIN/UIN: Unregistered\nPlace of Supply : Gujarat\nes ee\nInformation Technology Consulting | 998313 NOS | 166092.54 | 166092.54| 18% | 29896.66\nServices\nRoad Transport Servic\u00e9s of Goods |996511| __1|NOS| 2814.50] 28114.50 1405.73\n3 |Commercial Training and Coaching | 999293 NOS | 42328.03| 41481.47] 18% | 7466.66\nServices\nLess Discount 846.56 q\n23568851] | 38769.05\nRound Off 0.44\nGrand Total % 274458.00\nAmount Chargeable (in words): Rupees Two Lakh Seventy Four Thousand Four Hundred and Fifty\nEight Only\nBank Name : Bank of Baroda\nAlc No. : 09856766325:\nBranch & IFSC : Ahmedabad & LSWBO188414 Authorised Signatory\n\u2018This is a Computer Generated Invoice |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4905,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1055,
+  "gstins_found": 1
+ }
+}

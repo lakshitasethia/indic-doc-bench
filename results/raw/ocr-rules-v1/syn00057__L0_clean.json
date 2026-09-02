@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00057__L0_clean",
+ "doc_id": "syn00057",
+ "level": "L0_clean",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TAX-A-0225",
+  "invoice_date": "2026-01-30",
+  "seller_name": "Pillai Logistics Limited",
+  "seller_gstin": "29BTXCP1588V5ZI",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1.00",
+  "cgst_amount": "1825.07",
+  "sgst_amount": "1825.07",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.28",
+  "grand_total": "23929.00",
+  "amount_in_words": null
+ },
+ "raw": "Pillai Logistics Limited\nKhasra No. 17, Focal Point, Mysuru, Karnataka - 563544\nGSTIN: 29BTXCP1588V5ZI + State Code: 29\nTAX INVOICE\nBill To\nKaur Marketing Invoice No. TAX-A-0225\nDoor No. 311, Industrial Estate Date 30-Jan-2026\nMangaluru, Karnataka - 572684 Payment Terms 15 Days\nPlace of Supply: Karnataka\nsr] Particulars HSN/SAC]| Qty | Rate | Taxable Value | GST% | Tax Amount\n1 TMT Steel Bar Fe-500 12mm 7214 0.100 TON 55478.40 5270.45 18% 948.68\n2 Smartphone 6GB/128GB 8517 1NOS. 15798.03 15008.13 18% 2701.46\nTotal Taxable Value 20278.58\nCGST 1825.07\nSGST 1825.07\nRound Off 0.28\nGrand Total X 23929.00\nAmount in words: Rupees Twenty Three Thousand Nine Hundred and Twenty Nine Only\nBank: Bank of Baroda, A/c 20983243433554, IFSC TFBL0554253, Mangaluru\nFor Pillai Logistics Limited\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5186,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 807,
+  "gstins_found": 1
+ }
+}

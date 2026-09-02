@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00042__L0_clean",
+ "doc_id": "syn00042",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-01",
+  "seller_name": "Khasra No. 90, SIDCO Complex, Hyderabad, Telangana-502647 Dt: 01/07/2025",
+  "seller_gstin": "36PVCPG8072K3ZV",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Khasra No. 90, SIDCO Complex, Hyderabad, Telangana-502647 Dt: 01/07/2025\nGSTIN: 36PVCPG8072K3ZV | State: Telangana (36) RCM: N\nS| Particulars, | HSN | ty | | Rate =| isc | Taxable | % | cost | ses |__ Amount\n13056.34\n2| Office Workstation Table |9403/ 1|NOS| 12694.22) | 12604.22/18| 1142.48) 1142.48] 14979.18\n23758.92\n2138.30\n2138.30\n0.48\n28036.00\nRs. in words: Rupees Twenty Eight Thousand Thirty Six Only\nFor Gupta & Sons\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.263,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 438,
+  "gstins_found": 1
+ }
+}

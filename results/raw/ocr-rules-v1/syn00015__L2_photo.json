@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00015__L2_photo",
+ "doc_id": "syn00015",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-11-02",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE sana",
+  "seller_gstin": "07EBNCS1203B7ZK",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "62660.80",
+  "cgst_amount": "998399.00",
+  "sgst_amount": "998399.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "73940.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE sana\nIRN wm\nNOT GENERATED ee ee\nAck No. / Ack Date ps ee\n10000079308785 / 2025-11-02 eon ee eel\nfa se ee\nSupplier Recipient \u2018Document No. ;\nSethi Logistics Ahluwalia Marketing LLP DL4590\nDoor No. 111, Peenya 2nd Stage, New Shop No. 361, Okhla Phase I, New Delhi, Document Date\nDelhi, Delhi 110986 Deihi 110501 2025-11-02\nGSTIN GSTIN Place of Supply\n07EBNCS1203B7ZK O7OFIJFAS701V9Z0 07 - Dethi\n[Sil Hem Description | HSN [@ty| UQC | Unit Price [Discount] Taxable Amt [Rate] CGSTAmt | SGST Amt\nOther |\nProfessional | |\nliand 998399} 1;/NOS 62660.80) -|62660.80) 18 |5639.47|5639.47/|73939.74|\nTechnical | |\nServices ee\n[Total Taxable Value |___62660.80)\n[Total CGST_ See | 5639.47)\nffotalSGST. | | 5639.47]\npRound'Off ee es poe \u00a30.26\n[Total Invoice Value - | __73940.00)\nAmount in words: Rupees Seventy Three Thousand Nine Hundred and Forty Only es\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4314,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 871,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00007__L0_clean",
+ "doc_id": "syn00007",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "SALE-B-5606",
+  "invoice_date": "2025-07-27",
+  "seller_name": "lyer Logistics Pvt. Ltd. .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "lyer Logistics Pvt. Ltd. .\n\nShop No. 112, SIDCO Complex, Salem ase. / Invoice No. SALE-B-5606\nTamil Nadu - 615990 fate / Date 27/07/2025\n\nxa / Buyer: Rao Marketing LLP\n\nKhasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125\nEe\ne[Refned Sugars30 [roi] rrosoxes] e404] 7000) 5 | 75] _ 1875\na) noPe Packing Bags [2923] 2esrvaxes| eos] areasd) 13 | 429695] \u00ab29695\ngreet # / In words: Rupees Three Lakh One Thousand Six Hundred and Eighty Seven Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3905,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 450,
+  "gstins_found": 0
+ }
+}

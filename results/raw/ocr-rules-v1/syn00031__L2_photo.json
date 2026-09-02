@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00031__L2_photo",
+ "doc_id": "syn00031",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-02",
+  "seller_name": "Trivedi Industries Pvt. Ltd. ,",
+  "seller_gstin": "36JSYPT6737U7ZK",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Trivedi Industries Pvt. Ltd. ,\noe No. 417, Udyog Vihar, Hyderabad wa:/ invoice No. oe\nTelangana - 502107 fais / Date 02/01/2026\n\u201cqeaduntes | GSTIN: 36JSYPT6737U7ZK apr a / TEP Cash\nin / Buyer: Kulkarni Solutions LLP\nKhasra-No. 355, Peenya and Stage, Faridabad, Haryana - 131538\nGSTIN: O6GEBPK1834L6ZA | agftzer / Place of Supply: Haryana\nfrat a ware\nee el ee el\nae oe\na aeons {vea| snows] ven] wee] 3 Use\nie ee\n| art ee ee\nscam wore: nopees Tee aki Tit one Thousand sx Hundred an\u00e9 TWENTE CT\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3829,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 491,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "variant_id": "syn00066__L1_scan",
+ "doc_id": "syn00066",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": null,
+ "raw": "",
+ "schema_violation": "call_failed",
+ "error": "HTTP 402: {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 7140. To increase, visit https://openrouter.ai/settings/credits and u",
+ "refusal": false,
+ "finish_reason": null,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 42.6995,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": null
+}

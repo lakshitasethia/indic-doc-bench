@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00073__L0_clean",
+ "doc_id": "syn00073",
+ "level": "L0_clean",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-25",
+  "seller_name": "TAX | NVOIC E Ahluwalia Engineering Works",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "288158.60",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "49579.54",
+  "cess_amount": null,
+  "round_off": "0.14",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX | NVOIC E Ahluwalia Engineering Works\nShop No. 401, Kalbadevi Road\nTAX-C-2007 Udaipur - Rajasthan 338370\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n25/05/2025 O8TGYPA1015G3Z1 Madhya Pradesh (23) No\nBILL TO SHIP TO\nPillai Infratech LLP Pillai Infratech LLP\nDoor No. 76, MG Road, Bhopal, Madhya Pradesh - Door No. 76, MG Road, Bhopal, Madhya Pradesh -\n484050 484050\nGST NO.\n230UQCP6299J5Z0\n# Item & Description HSN/SAC Qty Rate Amount\n1 Toilet Soap 100g 3401 325 PCS 52.51 17065.75\n2 Paracetamol IP 650mg Tablets 3004 388 BOX 54.66 21208.08\n3 Basmati Rice (Broken 5%) oe = 408 109.99 \u00ab8151.25\n4 Office Workstation Table 9403 1NOS 11522.55 11522.55\n5 Foam Mattress 72x36 9404 1NOS 10159.38 10159.38\n6 PVC Insulated Copper Cable 2.5sqmm g544 90817) 78.38 185695.54\n7 OPC 53 Grade Cement 50kg 2523 1 BAG 453.90 431.20\n8 Glucose Biscuits 200g 1905 147 BOX 225.58  33160.26\n9 Stainless Steel Cutlery Set 8215 1 SET 764.59 764.59\nSub Total 288158.60\nIGST 49579.54\nRounding -0.14\nTotal (INR) %337738.00\nIN WORDS\nRupees Three Lakh Thirty Seven Thousand Seven Hundred and Thirty Eight Only\nKotak Mahindra Bank - A/C 1309760141057949 - IFSC STNP0293145 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7322,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1175,
+  "gstins_found": 0
+ }
+}

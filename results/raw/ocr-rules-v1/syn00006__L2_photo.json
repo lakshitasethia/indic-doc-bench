@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00006__L2_photo",
+ "doc_id": "syn00006",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Kaur Electricals Limited ear",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "6971.99",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Kaur Electricals Limited ear\nTo: Metea Distributors Pvt LUd., Shop No. 154, Sector 63, Bhopal, Machya Pradesh-470638 | GSTIN: URP | POS: (23-Madhya Pradesh\n1| Smartphone 6GB/128GB | 8517 | 2) NOS | 18145.80) =| 36291.60/ 18) 6532.49 | 42824.09\n|2| OPC 53 Grade Cement 50kg | 2523 | 3} BAG | 408.15) ee) -1224.45/28) 342.85) 1567.30\n3 Stainless Steel Cutlery Set | 6215 | 266) SET | 645.26) __|_-171639.16| 18 | 30895.05) 20259421\n(4/MS Hex Bott with NutMi2 | 7318/4613) NOS] 29.99] _-| 138343.87| 18) 24901.90] \"163245.7\n|5| Instant Drink Premix [2106 i 118} PCS | 115.07] | pars _13578.26 | 18 | 2444.09|-. 16022.35\n|6 | Leather Formal Shoes |6403/t/PRS| 908.38) =) 908.38/18) 163.51) 1071.89\n7 | Office Workstation Table [9403 | 1) NOS | 17484.11 | : ae 17484.11/ 18) 3147.14 20631.25\n8 |Foam Mattress 72x36 _| 9404 | 1] Nos | asl seal aa\n[Taxable = 386941.82\n|IGst 6971.99\nRIO 0.19\nINET 456714.00\nRs. in words: Rupees Four Lath Fity Six Thousand Seven Hundred and Fourteen Only\nFor Kaur Electricals Limited\n\u2018Auth. Sign,\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3756,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1023,
+  "gstins_found": 0
+ }
+}

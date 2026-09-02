@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00046__L2_photo",
+ "doc_id": "syn00046",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-06-15",
+  "seller_name": "Chauhan Logistics Private Limited 2025-06-15 |",
+  "seller_gstin": "36HSMCC6418V9Z8",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "1232456.00",
+  "amount_in_words": null
+ },
+ "raw": "Chauhan Logistics Private Limited 2025-06-15 |\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE |\nDoor No. 471, Peenya 2nd Stage, Hyderabad, Telangana - 36HSMCC6418V9Z8 Telangana / 36 |\n507712\nFernandes Engineering Works Pvt. Ltd. 36PIDCF8577US5ZE 36 - Telangana |\nRECIPIENT ADDRESS PAYMENT TERMS\nee Se ee [| a |\nGlucose\n1 Biscuits 200g 1905 401.12/186119.68 18 16750.77 S67 77)\nInstant Drink |\nee 2106 | 48|ecs| 129.83 6231.84] 18| 560.87] .560.87|\nPe encHOn a443 1 wos| 25433.19| 25433.19|18| 2288.99| 2288.99)\nLaser Printer < 3 i .\nMonoblock\nWater Pump | 8413 3 5512.36] 16537.08/18] 1488.34 ees\n1HP\nSynthetic |\nEnamel Paint | 3208 66.422/ LTR 462.92] 30748.07/18] 2767.33 2767.33)\n4L\nLaptop\nComputer i5 | 8471 1 82640.58| 82640.58/18| 7437.65] 7437.65)\n16GB |\nMS\n7 |Fabricated 7308 |2031.676/KGS| 126.55|257108.60] 18 | 23139.77 23139.77|\nStructure\n| Basmati Rice\nalfetat [ne] issts|cs| rea] szosse|s | ois] nas\nSmartphone\nSESS 8517 | 2|nos 17526.04| 35052.08 3154.69} 3154.69\nDetergent\n10 Deters tkq | 3402 | _36lecs| 157.08| 5654.88 508.94| - 508.94\nRadial Tyre\na pee 4011 | 2|nos| 7285:84| 14571.68 2040.04} 2040.04\nCotton\nWoven Fabric 57.897|MTR 107.16 6204.24 \u00a355.01 155.11\n44 inch\nEl OPC:53\nGrade 981|BAG; 371.36/346088.95| 28 |4845\nCement 50ke 2.45 |48452.45\nRefined\npete $-30 | 1702 | _25.623|kas| 48.67| 1247.07 | 31:18|, 31.18\nTOTAL INVOICE VALUE (IN FIGURES AND. WORDS)\n% 1232456.00 \u2014 Rupees Twelve Lakh Thirty Two Thousand Four Hundred and Fifty Six Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.84,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1467,
+  "gstins_found": 1
+ }
+}

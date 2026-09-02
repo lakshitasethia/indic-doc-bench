@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00028__L0_clean",
+ "doc_id": "syn00028",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2398",
+  "invoice_date": "2025-09-11",
+  "seller_name": "lyer Electricals Pvt. Ltd. LORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "36EXLFI2018A2ZG",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "33EBNFT0784C5ZY",
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.12",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "lyer Electricals Pvt. Ltd. LORIGINAL FOR RECIPIENT _\n\nUnit No. 167, Focal Point, Hyderabad, Telangana - 504823 Invoice No 2398\n\nGSTIN 36EXLFI2018A2ZG State Code 36 Invoice Date 11-09-2025\nTerms Advance\n\nBilled To Shipped To\n\nTrivedi Textiles Pvt. Ltd. Trivedi Textiles Pvt. Ltd.\n\nDoor No. 35, Sector 63, Madurai, Tamil Nadu - 631601 Door No. 35, Sector 63, Madurai\n\nGSTIN 33EBNFT0784C5ZY Place of Supply Tamil Nadu (33) Reverse Charge: No\n\nMS Hex Bolt with Nut M12 7318 | 1218 33.11; | ~~: 40327.98 7259.04|  47587.02\n\nRadial Tyre 195/65 R15 4011 5550.81; =| ~~ 38855.67 10879.59|  49735.26\n\nCotton Round Neck T-Shirt 6109 221.40| = \u2014*|_~\u2014\u00ab:127969.20 6398.46| 134367.66\n\n4 | PVC Insulated Copper Cable 2.5sqmm 8544 | 87.066 64.04) | 5575.71 1003.63 6579.34\n\nMultifunction Laser Printer 8443 20486.67| 2048.67}  18438.00 3318.84]  21756.84\n\nTaxable Amount 231166.56\n\nie}\n\n7318 40327.98 7259.04 GST 98859.56\n\n4011 38855.67 10879.59\n\n6109 127969.20 6398.46 Round Off -0.12\n\n8544 5575.71 1003.63 \u2014\n\n8443 18438.00 3318.84 Total 260026.00\n\nAmount in words: Rupees Two Lakh Sixty Thousand Twenty Six Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6064,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1098,
+  "gstins_found": 2
+ }
+}

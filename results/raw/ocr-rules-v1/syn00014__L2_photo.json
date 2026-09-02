@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00014__L2_photo",
+ "doc_id": "syn00014",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-06",
+  "seller_name": "ee ee AGARWAL TECHNOLOGIES : ;",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "590580.45",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "75699.20",
+  "cess_amount": null,
+  "round_off": "0.35",
+  "grand_total": "666280.00",
+  "amount_in_words": null
+ },
+ "raw": "ee ee AGARWAL TECHNOLOGIES : ;\n= i se Khasra No. 451, Ring Road,. Agra - 217782 (Uttar Pradesh)\ni GSTIN : O9HKXPA4424J7ZH State Code : 09\neS\nTAX INVOICE :\nM/s. Mehra Trading Co. Bill No. : 2025-26/9244\nKhasra No. 454, Sector 63 Date : 06.07.2025\nLudhiana - 150832 ~ R.C.M. : NO\nGSTIN : O3DIJPM20220129\nPlace of Supply : 03-Punjab\nota eer ate [vate ey]\n| 1 [Detergent Powder 1kg 121 PCS 117.97 14274.37\n| 2 [Radial Tyre 195/65 R15 29 Nos| 6276:69|. 182024.01\n| 2 [cotton Round Neck T-Shirt Be 263.10 375443.70\n| \u00ab |aoee Packing Bags ee 113.67 10866.40|\n| 5 |Leather Formal Shoes 3 PRS| 1388.39 4165.17]\n| 6 [Monoblock Water Pump 1HP i Nos] 3884.49 3806.80)\n[\u2014 aN sac sumary | Taxable Value 590580.45\n[mew [Taxable | Rate | taxant | Add: IGST 75699.20\n3402 14274.37| 18% | 2569.39] Round Off 0.35\n4011 182024.01 50966.72| |NET PAYABLE Rs. 666280.00\n6109 375443.70| 5% | 18772.19\n3923 10866: 40 1955.95\n6403 4165.17| 188 | 749.73\n8413 3806.80| 18% | 685.22\nRupees in words : Rupees Six Lakh Sixty Six Thousand Two Hundred and Eighty Only\nBank: ICICI Bank, A/c 4722664448763006, IFSC: XBKA0156839\nReceiver's Signature For AGARWAL TECHNOLOGIES\nAuthorised Signatory\naie Se al Seca lame ig a RS VOR I Brey SL Re red OR a\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6746,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1214,
+  "gstins_found": 0
+ }
+}

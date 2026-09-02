@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00051__L1_scan",
+ "doc_id": "syn00051",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Mahajan",
+  "invoice_date": "2025-06-16",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE oe",
+  "seller_gstin": "36JIVCM3858C1ZC",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "36YJSPN2146R1ZO",
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE oe\nmv peas arah\nNOT GENERATED ff /ff28\nAck No. / Ack Date ee a\n-06- a be\n10000079593869 / 2025-06-16 ine\nSupplier Recipient Document No.\nMahajan Steel & Alloys LLP Naidu Polymers GIJ0212\nShop No. 261, Industrial Estate, Warangal, Door No. 136, MG Road, Hyderabad, Telangana Document Date\nTelangana 506415 501175 2025-06-16\nGSTIN GSTIN Place of Supply\n36JIVCM3858C1ZC 36YJSPN2146R1ZO 36 - Telangana\noe Charge\nBasmati\n1 Re (Broken | 1006 3170335 Kos s769, boomin 5 7742.75| 7742.75|325195.53\n5%)\nCotton\n2 |Round Neck |6109 161|PCS 350.88 56491.68) 5 | 1412.29) 1412.29} 59316.26\nT-Shirt\nEe code sacs a 720.93 18 64.88] 64.88] 850.69\nCotton\nWoven\n4 Fabric 44 5208] 1892.422|MTR 190.81 361093.04|-5 | 9027.33] 9027.33|379147.70\ninch\nRefined\n5 1701) 2927.034/KGS 38.78 113510.38| 5 | 2837.76| 2837.76|119185.90\nSugar S-30\nGlucose\nBiscuits 1905 123|BOX 362.11} 4453.95} 40085.58/18| 3607.70) 3607.70} 47300.98\n200g\nTMT Steel\n7 |Bar Fe-500 |7214 0.118|TON|50796.61 5994.00/18 539.46 539.46 7072.92\n12mm\nOffice\nWorkstation |9403 11/NOS|} 6521.62 71737.82|}18| 6456.40} 6456.40! 84650.62\nTable\nOPC 53\nSclete 2523 7|BAG| 365.39 2557.73|28|. 358.08] 358.08] 3273.89\nCement : : : : :\n50kg\nDetergent\nalba 1kg 3402] 57/Pcs| 115.66[ 6592.62) 18 593.34 593.34 7779.30\nRadial Tyre\neae R15 401i] __8|Nos| 6503.29] 52026.32/ 28 7283.68) 7283.68| 66593.68\nHDPE\n12| Packing 3923/1466.580/KGS 110.23 161661.11/ 18 |14549,.50|)14549.50/190760.11\nBags\nStainless\n13] Steel 8215 1} SET 674.40 674.40|18 60.70 60.70 795.80\nCutlery Set\nMS\n14| Fabricated 7308] 1627.448/KGS 104.85 170637.92| 18 |15357.41|15357.41|/201352.74\nStructure\nSmartphone\ni ener oti 517|__1\\Nos| 34241.09, 3424109) 18 3081.70} 3081.70! 40404.49\nInstant\n16} Drink 2106 1806] PCS 202.41 365552.46| 18 |32899.72/32899.72|431351.90\nPremix\nLeather\n17| Formal 6403 136/PRS| 1627.56/22134.82|199213.34| 18/17929.20/17929.20|235071.74\nShoes\n18|}Hard Bound |4820 4593|NOS 84.36|19373.27)|368092.21) 18 |33128.30|33128.30/434348.81\nRegister 200\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.5361,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2004,
+  "gstins_found": 2
+ }
+}

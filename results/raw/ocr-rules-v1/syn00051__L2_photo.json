@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00051__L2_photo",
+ "doc_id": "syn00051",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-06-16",
+  "seller_name": "rane",
+  "seller_gstin": "36YJSPN2146R1Z0",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "rane\ne-Invoice ~ TAX INVOICE ne onne\nIRN nent tn ens\nNOT GENERATED wet\n{6000079893869 / 2025-06-16 pee end\nrecipient Grae ie\nTelangana 506415 sin eae supply\nSesivemassscizc 36YJSPN2146R1Z0 pelabnp san\nN\nTotal\nSi |_Ttem Description | _ MSN \u2014 a\nBasmati : 95.53\n1 |Rice (Broken | 1006 170.395 x68 man} 5 7742.75} 7742.75 325195.\n| |5%) |\nCotton\n2 |Round Neck cc] sles 350.88 = si01.65 5 1412.29| 1412.29 59316.26\n| T-Shirt #1\n\\Cotton\n\\4 ove 5208|1892.422|/MTR| 190.81 361093.04| 5 | 9027.33} 9027.33|379147.70\n|\u201d \\Fabric 44\n| inch\n=; Refined 1701 zorr.ose|xes| 3678 113510.38| 5. 2837.76| 2837.76 119185.90\n| > Sugar S-30\n| Glucose\n6 |Biscuits 1905 123|BOX son) 85395 oss. 18 3607.70} 3607.70 47300.98\n| \\200g SEE |\n|\u201d TMT Steel\n| 7 |Bar Fe-500. 7214 0,118| TON |50796.61 5994.00 7072.92\n| |12mm\n| Office\n8 |Workstation |9403 _ 11)NOS 71737.82|18| 6456.40 6456.40, 84650.62\nTable\nOPC 53\nGrade\n9 Cement 2523 7\\BAG 2557.73 358.08; 358.08| 3273.89\n50kg\nDetergent\nRadial Tyre\nSEES oul shes soy aoe nose] mn] oa\nHDPE\n12) Packing 3923) 1466.580 110.23 161661.11 14549.50|14549.50|190760.11\nBags\nStainless\n13) Steel 8215 1|SET| 674.40 674.40 60.70 795.80\nCutlery Set\nMS\n14\\Fabricated | 7308) 1627.448 104.85 170637.92 15357.41|15357.41|201352.74\nStructure. :\nSmartphone 8517 1 ;\n6GB/128GB 34241.09 34241.09 3081.70} 3081.70) 40404.49\u00b0 ne\nInstant ie\n16|Drink 2106 1806 202.41 32899.72|32899.72'431351.90\nPremix |\nLeather SIRT\n17 lied 6403 1627.56 18 |17929.20|17929.20|235071.74\n18}Hard Bound |4820 4593 NOS 84.36 | 19373.27|368092.21 : '\nRegister 200 18 |33128.30|33128:30 beeecced,\nBois\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8096,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1578,
+  "gstins_found": 1
+ }
+}

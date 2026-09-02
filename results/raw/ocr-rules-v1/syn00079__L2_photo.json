@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00079__L2_photo",
+ "doc_id": "syn00079",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "wis / TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "127919.00",
+  "amount_in_words": null
+ },
+ "raw": "wis / TAX INVOICE\nBanerjee Agencies Limited :\nwal . 2025-26/6976\nShop No. 328, Okhla Phase |, Warangal oar Sema Ne \u2018\nTelangana - 504936 agloes ae\nvitontes / GSTIN: 360MWPB75072876 \u2018wer ed / Terms #9 Days\na / Buyer: Patel Electricals Private Limited\nKhasra No. 429, Naraina Vihar, Hyderabad, Telangana - 500126\nGSTIN: URP | sages / Place of Supply: Telangana\n\u2018ferro aang\nDescription Taxable\nInformation Technology Consulting 1\n1 : 998313 108406.25|108406.25| 18 9756.56 | 9756.56\nServices NOS\ngante / Grand Total 127919.00\nerat / In words: Rupees One Lakh Twenty Seven Thousand Nine Hundred and Nineteen Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3179,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 608,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00066__L2_photo",
+ "doc_id": "syn00066",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "78450.53",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\na Rk Ne a |GET TORTS POSTS\n\n[se] Pariedars pe 16st a\n1 |Foam Mattress 72x36 19404)\" 4 /NOS|10694,211 ~| 10594.21/18) 1906.96). 12501.17\n_2 [OPC 53 Grade Cement 50kg 12523] 266|BAG) 400.83 | ian 2s aos\n|3 |Corrugated Carton Box 5-P 4819) 527|NOS| 28.17) 296.1] 14548.68/18) 2618.76) 17167.44\nPe fobeose Blut tg Treo6] \u2014~sfeox| \u201canne -| $3956.68 /18) 6040.20) 39606.88\nHart Bou Register 200 Pages 4820) \u2014Tas|nos| \u2014togce, ~| 7614.78 |18] 13790.66) 90405.44\n6 [Cotton Woven Fabric 44 inch |5208| 426.323|MTR| 188.76) =| 8085025 | 5 404261) 84892.76\n~~ 7 [Monoblock Water Pump 1HP \u20188413 1| NOS) 6200.08) 124.00 6076.08 18) 1093.69) 7169.77\nHe Rand Super s-30_ Troi rosaniikes| are 2471.44) 46967.30/ 5 | 2347.87) 49306.17\nPo jAssam CTC Tales! losoaltzsoo|kas| Tora 123,96! 2366.14]5 | 117.26] 2472.90\nJO{TMT Stee Ba Fe-600 12mm [72441 ~ 0.100 TON|48580.79|\"-|\" 4858.08) 18) 674.45 5732.53\n(12| Stainless Steel Cutery Set \\6215| 8 SET) 57653) 4612.24 i ea suze\n(13 Laptop Computer 5 16GB \\ea7i| 4 |NOs|77\u00a281.19/ 7781.19 18401861) ore0060,\nTaxable | 47060897\n: IGST 78450.53,\n\nRIO 0.50\n\n= NET 549060.00\n\nRs. werd: Rupees Five Lath Forty Ne Thousand Sty Oniy\n\nFor Menon Trading Co, Limited\n\nAuth. Sign,\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6104,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1207,
+  "gstins_found": 0
+ }
+}

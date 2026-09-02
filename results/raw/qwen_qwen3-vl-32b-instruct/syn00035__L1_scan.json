@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00035__L1_scan",
+ "doc_id": "syn00035",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/8992",
+  "invoice_date": "2025-06-08",
+  "seller_name": "Verma Distributors LLP",
+  "seller_gstin": "03GUNCV2316Q3ZL",
+  "seller_address": "Khasra No. 378, Okhla Phase I, Jalandhar, Punjab - 142539",
+  "buyer_name": "Menon Marketing Limited",
+  "buyer_gstin": "03TJPCM9711Z1Z8",
+  "buyer_address": "Door No. 234, GIDC Estate, Ludhiana, Punjab - 140360",
+  "place_of_supply": "Punjab",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 26.809,
+    "unit": "KGS",
+    "unit_price": 106.41,
+    "discount": 0.0,
+    "taxable_value": 2852.75,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 2852.75,
+  "cgst_amount": 71.32,
+  "sgst_amount": 71.32,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.39,
+  "grand_total": 2995.0,
+  "amount_in_words": "Rupees Two Thousand Nine Hundred and Ninety Five Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SI/25-26/8992\",\n  \"invoice_date\": \"2025-06-08\",\n  \"seller_name\": \"Verma Distributors LLP\",\n  \"seller_gstin\": \"03GUNCV2316Q3ZL\",\n  \"seller_address\": \"Khasra No. 378, Okhla Phase I, Jalandhar, Punjab - 142539\",\n  \"buyer_name\": \"Menon Marketing Limited\",\n  \"buyer_gstin\": \"03TJPCM9711Z1Z8\",\n  \"buyer_address\": \"Door No. 234, GIDC Estate, Ludhiana, Punjab - 140360\",\n  \"place_of_supply\": \"Punjab\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Basmati Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 26.809,\n      \"unit\": \"KGS\",\n      \"unit_price\": 106.41,\n      \"discount\": 0.0,\n      \"taxable_value\": 2852.75,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 2852.75,\n  \"cgst_amount\": 71.32,\n  \"sgst_amount\": 71.32,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.39,\n  \"grand_total\": 2995.0,\n  \"amount_in_words\": \"Rupees Two Thousand Nine Hundred and Ninety Five Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3944,
+ "output_tokens": 403,
+ "cached_input_tokens": 0,
+ "latency_s": 6.8435,
+ "cost_usd": 0.000577824,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

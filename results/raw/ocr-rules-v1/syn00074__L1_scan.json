@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00074__L1_scan",
+ "doc_id": "syn00074",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-13",
+  "seller_name": "KAUR INFRATECH PRIVATE LIMITED",
+  "seller_gstin": "27QLWFK9143P9ZW",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "639382.00",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "KAUR INFRATECH PRIVATE LIMITED\nKhasra No. 117, Udyog Vihar, Mumbai - 425985 (Maharashtra)\n\nGSTIN : 27QLWFK9143P9ZW State Code : 27\neee ee\nM/s. Reddy Distributors Pvt. Ltd. Bill No. : Gg1446\nDoor No. 211, Naraina Vihar Date : 13.05.2025\nAmritsar - 153302 RCM. \u00bb No\nGSTIN : O3WUHFR9632H4ZA\nPlace of Supply : 03-Pun7jab\n\na eae eee | Taxable Value 639382. 12\neT acc. tos: 110872. 51\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6517,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 379,
+  "gstins_found": 1
+ }
+}

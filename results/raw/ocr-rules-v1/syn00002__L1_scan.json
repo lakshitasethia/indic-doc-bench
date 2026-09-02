@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00002__L1_scan",
+ "doc_id": "syn00002",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-28",
+  "seller_name": "VERMA SALES CORPORATION PRIVATE LIMITED",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "139547.87",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "2518.62",
+  "cess_amount": null,
+  "round_off": "0.49",
+  "grand_total": "164666.00",
+  "amount_in_words": null
+ },
+ "raw": "VERMA SALES CORPORATION PRIVATE LIMITED\nUnit No. 325, Udyog Vihar, Ghaziabad - 220736 (Uttar Pradesh)\nGSTIN : O9ANUFV1023Z42Z3 State Code : 09\nTAX INVOICE\nM/s. Sethi Textiles Limited Bill No. : INV-8297\nKhasra: No. 479, Okhla Phase I Date : 28.01.2026\nJodhpur - 345995 Re C.M. -:. NO\nGSE) 3 (URE)\nPlace of Supply : 08-Rajasthan\nIE aL foe\n1 }Instant Drink Premix PCS TES Og/ 135897 .67\n| 2 |Glucose Biscuits 200g 10 BOX 365.02 3650.20\nTOTAL 139547 .87\nTaxable Value 139547.87\n[a [tenance [mete [terme (|Add: \u201cIGST 2518.62\n2106 135897.67 24461.58| Round Off -0.49\n1905 50.70) 155 | Bee oa [NET PAYABLE | PAYABLE Rs. 164666.00\nRupees in words : Rupees One Lakh Sixty Four Thousand Six Hundred and Sixty Six Only\nBank: Axis Bank, A/c 6016221366426460, IFSC JCQW0808950\nReceiver's Signature For VERMA SALES CORPORATION PRIVATE LIMITED\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6708,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 851,
+  "gstins_found": 0
+ }
+}

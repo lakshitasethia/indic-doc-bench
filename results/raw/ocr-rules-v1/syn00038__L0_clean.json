@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00038__L0_clean",
+ "doc_id": "syn00038",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-06-26",
+  "seller_name": "Khasra No. 445, Ambattur Industrial Estate, Hubballi - 574493 (Karnataka)",
+  "seller_gstin": "29GVSPC1366N6ZN",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "7141.60",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "1285.49",
+  "cess_amount": null,
+  "round_off": "0.09",
+  "grand_total": "8427.00",
+  "amount_in_words": null
+ },
+ "raw": "Khasra No. 445, Ambattur Industrial Estate, Hubballi - 574493 (Karnataka)\nGSTIN : 29GVSPC1366N6ZN State Code : 29\nTAX INVOICE\nM/s. Kaur Solutions Limited Bill No. : INV-2159\nPlot No. 392, Sector 63 Date : 26.06.2025\nLucknow - 234720 R.C.M. : NO\nGSTIN : O9LLPCK1924Z72Z5\nPlace of Supply : 09-Uttar Pradesh\n| 1 [Stainless Steel Cutlery Set 16 SET 446.35 7141.60\nTOTAL 7141.60\nTaxable Value 7141.60\n| us| Taxable | Rate | Tax amt =| Add: IGST 1285.49\n8215 7141.60 1285.49| Round Off -0.09\nNET PAYABLE Rs. 8427.00\nRupees in words : Rupees Eight Thousand Four Hundred and Twenty Seven Only\nBank: State Bank of India, A/c 75176347153029, IFSC VNIH0210490\nReceiver's Signature For CHAUHAN ELECTRICALS\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4806,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 715,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00005__L2_photo",
+ "doc_id": "syn00005",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-30",
+  "seller_name": "FROM BI TC",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "287859.51",
+  "cgst_amount": "25907.35",
+  "sgst_amount": "25907.35",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.21",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FROM BI TC\nNaidu Steel & Alloys Private Limited Agarwal Polymers LLP 2025-26/0963\nPlot No. 186, SIDCO Complex Shop No. 248, Sector 63\nJalandhar 143330 Ludhiana 142575\nPunjab Punjab 30 January 2026\nGSTIN aSTIN\nO3UOVFN4403U4z4 OSNVXCA995283ZU Punjab\nDESCRIPTION t N\nMonoblock Water Pump 1HP 8413 1 NOS 7043.25 18 7043.25\nOffice Workstation Table 9403 23 NOS 11746.31 18 270165.13\nToilet Soap 100g 3401 20 PCS 61.95 18 1239.00\nDetergent Powder 1kg 3402 51 PCS 157.78 18 8046.78\nLeather Formal Shoes 6403 1 PRS 1393.21 18 1365.35\nSubtotal 287859.51\nCGST 25907.35\nSGST 25907.35\nRounding -0.21\na a eee SLU LN\nTotal %339674.00\nRupees Three Lakh Thirty Nine Thousand Six Hundred and S vent r Only\nICICI Bank 4870007421448362 ANAS0955981\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3415,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 729,
+  "gstins_found": 0
+ }
+}

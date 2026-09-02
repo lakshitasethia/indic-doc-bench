@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00042__L1_scan",
+ "doc_id": "syn00042",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-C-3265",
+  "invoice_date": "2025-07-01",
+  "seller_name": "Gupta & Sons",
+  "seller_gstin": "36PVCPG8072K3ZV",
+  "seller_address": "Khasra No. 90, SIDCO Complex, Hyderabad, Telangana-502647",
+  "buyer_name": "Mahajan Engineering Works Pvt. Ltd.",
+  "buyer_gstin": "36UNJCM6473S6ZB",
+  "buyer_address": "Gala No. 230, MG Road, Hyderabad, Telangana-502637",
+  "place_of_supply": "36-Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 94.838,
+    "unit": "KGS",
+    "unit_price": 122.81,
+    "discount": 582.35,
+    "taxable_value": 11064.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 12694.22,
+    "discount": null,
+    "taxable_value": 12694.22,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 23758.92,
+  "cgst_amount": 2138.3,
+  "sgst_amount": 2138.3,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.48,
+  "grand_total": 28036,
+  "amount_in_words": "Rupees Twenty Eight Thousand Thirty Six Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TAX-C-3265\",\n  \"invoice_date\": \"2025-07-01\",\n  \"seller_name\": \"Gupta & Sons\",\n  \"seller_gstin\": \"36PVCPG8072K3ZV\",\n  \"seller_address\": \"Khasra No. 90, SIDCO Complex, Hyderabad, Telangana-502647\",\n  \"buyer_name\": \"Mahajan Engineering Works Pvt. Ltd.\",\n  \"buyer_gstin\": \"36UNJCM6473S6ZB\",\n  \"buyer_address\": \"Gala No. 230, MG Road, Hyderabad, Telangana-502637\",\n  \"place_of_supply\": \"36-Telangana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 94.838,\n      \"unit\": \"KGS\",\n      \"unit_price\": 122.81,\n      \"discount\": 582.35,\n      \"taxable_value\": 11064.7,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 12694.22,\n      \"discount\": null,\n      \"taxable_value\": 12694.22,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 23758.92,\n  \"cgst_amount\": 2138.3,\n  \"sgst_amount\": 2138.3,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.48,\n  \"grand_total\": 28036,\n  \"amount_in_words\": \"Rupees Twenty Eight Thousand Thirty Six Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3944,
+ "output_tokens": 485,
+ "cached_input_tokens": 0,
+ "latency_s": 7.8942,
+ "cost_usd": 0.0006119359999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

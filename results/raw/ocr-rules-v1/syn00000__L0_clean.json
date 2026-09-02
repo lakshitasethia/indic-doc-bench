@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00000__L0_clean",
+ "doc_id": "syn00000",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-6754",
+  "invoice_date": "2025-09-11",
+  "seller_name": "Deshmukh Industries Limited Invoice No. INV-6754",
+  "seller_gstin": "06QQFFR1922V2Z8",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.37",
+  "grand_total": "1133635.00",
+  "amount_in_words": null
+ },
+ "raw": "Deshmukh Industries Limited Invoice No. INV-6754\nPlot No. 134, Chandni Chowk Dated 11-Sep-2025\nPanipat, Haryana - 131180 Mode/Terms of Payment 30 Days\nState Name : Haryana, Code : 06\nBuyer (Bill to) Destination: Gurugram\nReddy Enterprises Limited\nKhasra No. 434, Udyog Vihar\nGurugram, Haryana - 133845\nGSTIN/UIN: 06QQFFR1922V2Z8\nPlace of Supply : Haryana\nHard Bound Register 200 Pages | 4820 | 2447 119.90| 293395.30| 26405.58 | 26405.58\nOPC 53 Grade Cement 50kg 2523 | 6 | BAG] 358.54] 2151.24] 301.17] 301.17\nLeather Formal Shoes 6403 1103.28] 26478.72| 2383.08] 2383.08\nCotton Round Neck T-Shirt 6109 316.58| 67969.73| 1699.24] 1699.24\nLess: Discount 3577.35\nSynthetic Enamel Paint 4L 3208 | 89.360 443.51| 37650.45| 3388.54| 3388.54\nLess: Discount 1981.60\nG Corrugated Carton Box 5-Ply 4819 71.49] 16043.79| 1443.94] 1443.94\nLess: Discount 327.42\nCotton Woven Fabric 44 inch 5208 | 855.112 140.96] 120536.59] 3013.41| 3013.41\n| 8 |MS Fabricated Structure 7308 | 400.476 108.37] 43399.58] 3905.96] 3905.96\n| 9 | TMT Steel Bar Fe-500 12mm 7214 | 0.312 55100.43| 17191.33] 1547.22] 1547.22\nStainless Steel Cutlery Set 8215 432.11] 57470.63| 5172.36] 5172.36\nSmartphone 6GB/128GB 8517 | 6 {| NOS | 14878.54] 89271.24] 8034.41| 8034.41\nParacetamol IP 650mg Tablets 3004 35.75| 1501.50] 90.09] 90.09\nRefined Sugar S-30 1701 | 50.093 39.01] 1954.13] 48.85] 48.85\nInstant Drink Premix 2106 156.78] 8622.90] 776.06] 776.06\nDetergent Powder 1kg 3402 120.55] 3375.40] 303.79] 303.79\n16 |PVC Insulated Copper Cable 8544 | 309.093|MTR| 82.14] 25388.90] 2285.00] 2285.00\n2.5sqmm\nLaptop Computer i5 16GB 8471 84591.75| 169183.50| 15226.52| 15226.52\nRound Off -0.37\nGrand Total & 1133635.00\nAmount Chargeable (in words): Rupees Eleven Lakh Thirty Three Thousand Six Hundred and Thirty\nFive Only\nBank Name : Axis Bank\nA/c No. : 81245440772\nBranch & IFSC : Gurugram & GDTO0999207 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.899,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1887,
+  "gstins_found": 1
+ }
+}

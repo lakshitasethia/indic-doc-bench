@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00013__L2_photo",
+ "doc_id": "syn00013",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-2829",
+  "invoice_date": "2025-11-06",
+  "seller_name": "Naidu Marketing Pvt. Ltd.",
+  "seller_gstin": "36NVSFN0901K5ZF",
+  "seller_address": "Gala No. 325, MG Road Warangal \u00b7 Telangana 507378",
+  "buyer_name": "Chowdhury Pharma Limited",
+  "buyer_gstin": "36DEBCC9724J7ZZ",
+  "buyer_address": "Plot No. 310, Udyog Vihar, Warangal, Telangana - 503937",
+  "place_of_supply": "Telangana (36)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 90.702,
+    "unit": "KGS",
+    "unit_price": 180.87,
+    "discount": null,
+    "taxable_value": 16405.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 11,
+    "unit": "NOS",
+    "unit_price": 6319.54,
+    "discount": null,
+    "taxable_value": 69514.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 14,
+    "unit": "BAG",
+    "unit_price": 377.76,
+    "discount": null,
+    "taxable_value": 5288.64,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 91208.85,
+  "cgst_amount": 11948.97,
+  "sgst_amount": 11948.97,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.21,
+  "grand_total": 115107,
+  "amount_in_words": "Rupees One Lakh Fifteen Thousand One Hundred and Seven Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-2829\",\n  \"invoice_date\": \"2025-11-06\",\n  \"seller_name\": \"Naidu Marketing Pvt. Ltd.\",\n  \"seller_gstin\": \"36NVSFN0901K5ZF\",\n  \"seller_address\": \"Gala No. 325, MG Road Warangal \u00b7 Telangana 507378\",\n  \"buyer_name\": \"Chowdhury Pharma Limited\",\n  \"buyer_gstin\": \"36DEBCC9724J7ZZ\",\n  \"buyer_address\": \"Plot No. 310, Udyog Vihar, Warangal, Telangana - 503937\",\n  \"place_of_supply\": \"Telangana (36)\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 90.702,\n      \"unit\": \"KGS\",\n      \"unit_price\": 180.87,\n      \"discount\": null,\n      \"taxable_value\": 16405.27,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 11,\n      \"unit\": \"NOS\",\n      \"unit_price\": 6319.54,\n      \"discount\": null,\n      \"taxable_value\": 69514.94,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 14,\n      \"unit\": \"BAG\",\n      \"unit_price\": 377.76,\n      \"discount\": null,\n      \"taxable_value\": 5288.64,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 91208.85,\n  \"cgst_amount\": 11948.97,\n  \"sgst_amount\": 11948.97,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.21,\n  \"grand_total\": 115107,\n  \"amount_in_words\": \"Rupees One Lakh Fifteen Thousand One Hundred and Seven Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2676,
+ "output_tokens": 594,
+ "cached_input_tokens": 0,
+ "latency_s": 15.1012,
+ "cost_usd": 0.0005254079999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

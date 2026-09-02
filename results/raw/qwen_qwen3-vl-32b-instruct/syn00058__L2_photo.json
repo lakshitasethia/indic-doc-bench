@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00058__L2_photo",
+ "doc_id": "syn00058",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/9763",
+  "invoice_date": "2025-07-31",
+  "seller_name": "Chowdhury Electricals",
+  "seller_gstin": "24JZ AFC2672T9Z7",
+  "seller_address": "Shop No. 342, Peenya 2nd Stage, Surat, Gujarat - 372966",
+  "buyer_name": "Patel Sales Corporation Private Limited",
+  "buyer_gstin": "190UPPP6720R2Z9",
+  "buyer_address": "Khasra No. 423, Industrial Estate, Siliguri, West Bengal - 715969",
+  "place_of_supply": "19 - West Bengal",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 23749.34,
+    "discount": null,
+    "taxable_value": 23749.34,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 1864.4,
+    "discount": null,
+    "taxable_value": 1864.4,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 25613.74,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 4610.47,
+  "cess_amount": 0,
+  "round_off": -0.21,
+  "grand_total": 30224,
+  "amount_in_words": "Rupees Thirty Thousand Two Hundred and Twenty Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SI/25-26/9763\",\n  \"invoice_date\": \"2025-07-31\",\n  \"seller_name\": \"Chowdhury Electricals\",\n  \"seller_gstin\": \"24JZ AFC2672T9Z7\",\n  \"seller_address\": \"Shop No. 342, Peenya 2nd Stage, Surat, Gujarat - 372966\",\n  \"buyer_name\": \"Patel Sales Corporation Private Limited\",\n  \"buyer_gstin\": \"190UPPP6720R2Z9\",\n  \"buyer_address\": \"Khasra No. 423, Industrial Estate, Siliguri, West Bengal - 715969\",\n  \"place_of_supply\": \"19 - West Bengal\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Other Professional and Technical Services\",\n      \"hsn_sac\": \"998399\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 23749.34,\n      \"discount\": null,\n      \"taxable_value\": 23749.34,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Repair Services of Computers and Peripherals\",\n      \"hsn_sac\": \"998721\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 1864.4,\n      \"discount\": null,\n      \"taxable_value\": 1864.4,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 25613.74,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 4610.47,\n  \"cess_amount\": 0,\n  \"round_off\": -0.21,\n  \"grand_total\": 30224,\n  \"amount_in_words\": \"Rupees Thirty Thousand Two Hundred and Twenty Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2242,
+ "output_tokens": 488,
+ "cached_input_tokens": 0,
+ "latency_s": 6.8356,
+ "cost_usd": 0.0004361759999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

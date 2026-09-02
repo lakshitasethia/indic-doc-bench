@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00021__L1_scan",
+ "doc_id": "syn00021",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-4170",
+  "invoice_date": "2025-11-22",
+  "seller_name": "Naidu Agencies Private Limited",
+  "seller_gstin": "06NDQFN3329G1ZM",
+  "seller_address": "Khasra No. 319, Kalbadevi Road, Panipat, Haryana - 122055",
+  "buyer_name": "Ahluwalia Pharma",
+  "buyer_gstin": "06VGBFA0724Z9ZW",
+  "buyer_address": "Shop No. 236, Industrial Estate Faridabad, Haryana - 136652",
+  "place_of_supply": "Haryana",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 8,
+    "unit": "NOS",
+    "unit_price": 8892.34,
+    "discount": null,
+    "taxable_value": 67581.78,
+    "tax_rate": 28
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 24,
+    "unit": "PRS",
+    "unit_price": 1282.2,
+    "discount": null,
+    "taxable_value": 30772.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 4,
+    "unit": "SET",
+    "unit_price": 459.63,
+    "discount": null,
+    "taxable_value": 1838.52,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 54.066,
+    "unit": "KGS",
+    "unit_price": 271.88,
+    "discount": null,
+    "taxable_value": 14699.46,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 114892.56,
+  "cgst_amount": 12763.96,
+  "sgst_amount": 12763.96,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.48,
+  "grand_total": 140420,
+  "amount_in_words": "Rupees One Lakh Forty Thousand Four Hundred and Twenty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-B-4170\",\n  \"invoice_date\": \"2025-11-22\",\n  \"seller_name\": \"Naidu Agencies Private Limited\",\n  \"seller_gstin\": \"06NDQFN3329G1ZM\",\n  \"seller_address\": \"Khasra No. 319, Kalbadevi Road, Panipat, Haryana - 122055\",\n  \"buyer_name\": \"Ahluwalia Pharma\",\n  \"buyer_gstin\": \"06VGBFA0724Z9ZW\",\n  \"buyer_address\": \"Shop No. 236, Industrial Estate Faridabad, Haryana - 136652\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 8,\n      \"unit\": \"NOS\",\n      \"unit_price\": 8892.34,\n      \"discount\": null,\n      \"taxable_value\": 67581.78,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 24,\n      \"unit\": \"PRS\",\n      \"unit_price\": 1282.2,\n      \"discount\": null,\n      \"taxable_value\": 30772.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 4,\n      \"unit\": \"SET\",\n      \"unit_price\": 459.63,\n      \"discount\": null,\n      \"taxable_value\": 1838.52,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 54.066,\n      \"unit\": \"KGS\",\n      \"unit_price\": 271.88,\n      \"discount\": null,\n      \"taxable_value\": 14699.46,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 114892.56,\n  \"cgst_amount\": 12763.96,\n  \"sgst_amount\": 12763.96,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.48,\n  \"grand_total\": 140420,\n  \"amount_in_words\": \"Rupees One Lakh Forty Thousand Four Hundred and Twenty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3919,
+ "output_tokens": 670,
+ "cached_input_tokens": 0,
+ "latency_s": 17.3274,
+ "cost_usd": 0.000686296,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

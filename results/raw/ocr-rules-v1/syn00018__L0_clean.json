@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00018__L0_clean",
+ "doc_id": "syn00018",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-16",
+  "seller_name": "Shop No. 165, Peenya 2nd Stage, Kochi, Kerala-682420 Dt: 16/05/2025",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Shop No. 165, Peenya 2nd Stage, Kochi, Kerala-682420 Dt: 16/05/2025\nGSTIN: 32FBHCI2798052N | State: Kerala (32) RCM: N\n\u2018e[\u2014\u2014sPaous\u2014\u2014SSSSS*YSCSN Sy] US| SCRate\u00ab(iso] Tanabe \u00ab| | cosT | \u2014\u2014SGST | Amoun\n1/MS Hex Bolt with NutM12_|7318| 1971|NOS| 32.45] -| 63958.95|18| 5756.31| 5756.31| _75471.57\n2\\ToiletSoap 100g | 3401) 4d5|PCS| \u201441.13| -| 18302.85/18| 1647.26] 1647.26| 21597.37\n3 [Basmati Rice (Broken 5%) | 1006 | 11.848|KGS| 73.28] -| 868.22, 5 | 21.71| \u201421.71| 911.64\n4 |Glucose Biscuits 200g | 1905} 391|BOX| _289.28| -| 113108.48/ 18 10179.76| 10179.76| 133468.00\n5 |Radial Tyre 195/65R15 | 4011|_\u2014\u20143|NOS|_ 8215.04| -| 24645.12/28/ 3450.32| 3450.32| 31545.76\n6 |Office Workstation Table | 9403} | NOS | 10819.47| -| 21638.94/18| 1947.50| 1947.50] 2533.94\n242522.56\n23002.86\n23002.86\n0.28\n288528.00\nRs. in words: Rupees Two Lakh Eighty Eight Thousand Five Hundred and Twenty Eight Only\nFor lyer & Sons\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4008,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 919,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00055__L1_scan",
+ "doc_id": "syn00055",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "MH2226",
+  "invoice_date": null,
+  "seller_name": "adie / TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "5.00",
+  "sgst_amount": "5.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "adie / TAX INVOICE\nhetty Marketi\nSe ee ; \u2018 ate a. / Invoice No. MH2226\nKhasra No. 201, Industrial Estate, Panipat a. aaa Ore\nHaryana - 127974 feaiw / Date /03/\nvacaciones | GSTIN: O6LFBPS5010M9ZY pram ent / TNMs CU ENS\nxa / Buyer: Bhatt Logistics\nUnit No. 231, MG Road, Faridabad, Haryana - 121402\nGSTIN: URP | srgffen / Place of Supply: Haryana\nee OE eee\nes GST% CGST SGST\nDescription Qty Rate Taxable\nCorrugated Carton Box 5-Ply |4819]  67NOS| 59.13] 3961.71 356551 S5ens\nInstant Drink Premix 2106 75PCS| 152.76| 11457.00 1031.13] 1031.13\nLaptop Computer i516GB _\u2014\u00ab*| 8471 1 NOS|72648.54| 72648.54| 18 | 6538.37| 6538.37\nStainless Steel Cutlery Set |8215|  1194SET| 280.99] 318726.96| 18 |28685.43|28685.43\nFoam Mattress 72x36 9404 1NoS| 7429.83] 7429.83 668.68| 668.68\n6 | MS Hex Bolt with Nut m12_-|7318| 3481NOS| 38.23] 133078.63 1977.08 | 11977.08\n| 7 | Smartphone 6GB/128GB 8517 5 Nos| 19149.01 95745.05| 18 | 8617.05| 8617.05\n| 8 |Cotton Round Neck T-Shirt | 6109 10 PCS} 181.68] 1816.80 45.42| 45.42\n[8] Office Workstation Table 9403 4NOS| 8618.93] 34475.72 3102.81| 3102.81\n329.708 |\n10| Assam CTC Tea Leaf 0902 vcg| 29-92) 98886.02| 5 | 247215) 2472.15\n5591.029\n11| Refined Sugar S-30 1701 vg} 20-81228169.89| 5 | $704.25) 5704.25\nToilet Soap 100g 3401|  234Pcs| 45.40] 10623.60 956.12| 956.12\n; 399.847\n13| MS Fabricated Structure 7308 vce} 127-96] 5164.42] 18 | 4604.80 4604.80\nBasmati Rice (Broken 5%) | |1006| 196.117 KGS| 112.70] 22102.39 Mp | e256\nDetergent Powder 1kg 3402| 1284PCs| 144.70|185794.80 16721.53| 16721.53\nHDPE Packing Bags 3923| 97.857 KGS| 136.21| 13329.10 1199.62| 1199.62\nPVC Insulated Copper Cable 728.697\n17 8544 86.15| 62777.25| 18 | 5649.95| 5649.95\n2.5sqmm MTR\nHard Bound Register 200\n18 4g20}  29NOS| 61.32} +1742.71| 18 | 156.84| 156.84\nPages\nRadial Tyre 195/65 R15 4011 1NoS| 8504.63] 8504.63 1190.65| 1190.65\nga arava / Taxable 1362435.05\nCGST 100230.99\nSCST 100230.99\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.6015,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1913,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00036__L2_photo",
+ "doc_id": "syn00036",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "SALE-B-2017",
+  "invoice_date": "2025-08-24",
+  "seller_name": "Pillai Infratech Limited Invoice No. SALE-B-2017",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "471096.00",
+  "grand_total": "471096.00",
+  "amount_in_words": null
+ },
+ "raw": "Pillai Infratech Limited Invoice No. SALE-B-2017\nPlot No. 290, Chandni Chowk Dated 24-Aug-2025\n\nWarangal, Telangana - 507729 Mode/Terms of Payment Cash\n\nGSTIN/UIN: 361ISPP33361SZG Reverse Charge No\n\nState Name : Telangana, Code : 36\n\nBuyer (Bill to) Destination: Mangaluru\n\nAhluwalia Marketing Limited\n\nUnit No. 269, Ambattur Industrial Estate\n\nMangaluru, Karnataka - 568287\n\nGSTIN/UIN: 29K CSFA6502Q2ZB\n\nPlace of Supply : Karnataka\n\nee el\n| 1 [Foam Mattress 72x36 | 9404, |. _6| NOS] 5677.73] 34066.38 6131.95\n| 2 [Laptop Computer iS 16GB 8471 |. 1] Nos| 88624.07] $8624.07 15952.33\nGlucose Biscuits 200g 1905 | _1] BOX] 453.60] \"453.60 81.65\n4 Smartphone 6GB/128GB 8517 |. 6[NOS| 23307.01 | 125857.85 22654.41\n\nLess: Discount 13984.21\nS| Refined Sugar $-30 1701 |4253.151 158508.55 7925.43\nLess: Discount 8342.56\n| 6 [Corrugated Carton Box 5-Ply 4819 58.14| 9186.12 1653.50\n416696.57| | $4399.27\nRound Off he\nGrand Total \u2014& 471096.00\n\nAmount Chargeable (in words): Rupees Four Lakh Seventy One Thousand Ninety Six Only\n\notpend uemenapaaan Cae for Pillai Infratech Limited\nA/e No. : 70935026072944\n\nBranch & IFSC : Mangaluru & PHXF0604733 Authorised Signatory\n\nThis is a Computer Generated Invoice\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5261,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1199,
+  "gstins_found": 0
+ }
+}

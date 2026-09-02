@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00032__L2_photo",
+ "doc_id": "syn00032",
+ "level": "L2_photo",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2028-05-26",
+  "seller_name": "FERNANDES OVERSEAS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FERNANDES OVERSEAS\nshop No. 140, MIDC Phase TE\n\u2018Thane = 413103\nGarin: 27PUURFEO6\u00e9G3zR\nState: Maharashtra (27)\nAx Hivorce: =\nBill Nor MHS:\npases 26/05/2028\nross Maharashtea\nius 9403-\" 308 x 10234.94 19234.94\n2. Detergent Powder Lkg\nusm 3402\u201d 947008 x 148.74 140856. 78\nisk 7308 5.408KGS 128.20 617,54\u00b0\nPv roenon lo ae\nTaxable is709.26\nSst 24373.83\ncst 2473.83\nTOTAL Re. 188457.00\nwapees One Lakh Eighty Eight thousand Four\nds once sald will tot be taken Baek\nsee Tana YOU\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.1962,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 471,
+  "gstins_found": 0
+ }
+}

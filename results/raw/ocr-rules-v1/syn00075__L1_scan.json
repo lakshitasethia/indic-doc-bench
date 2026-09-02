@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00075__L1_scan",
+ "doc_id": "syn00075",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Iyer",
+  "invoice_date": "2025-10-24",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "8863.35",
+  "cgst_amount": "1857.57",
+  "sgst_amount": "1857.57",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.23",
+  "grand_total": "10459.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE ee\nIRN Beene\n6e28b5f6e23ca3e82bfeec97da165b0d6bc077e1830dbca621\u00a24e5d9778F7807 ee\nAck No. / Ack Date ee\n10000079783925 / 2025-10-24 ee ne\nSupplier Recipient Document No.\nIyer Traders Chauhan Enterprises INV-7645\nUnit No. 164, MG Road, Faridabad, Shop No. 376, Naraina Vihar, Gurugram, Document Date\nHaryana 124585 Haryana 129930 2025-10-24\nGSTIN GSTIN Place of Supply\nO6MNGCI8610S2ZV URP 06 - Haryana\nReverse Charge\nN\n[si[ item Description | HSN | Qty | UQC | Unit Price [Discount] Taxable Amt [Rate] CGST Amt | SGST Amt | Total\nal erates Fora cas 1857.57 F 1857.57| 18|167.18|167.18| 2191.93\nHard Bound\n2|Register 200 4820| 32|NOS| 112.29 3593.28) 18 |323.40| 323.40|4240.08\nPages\nMS Hex Bolt\nwith Nut M12 7318 19.50 4 3412.50 307.13) 307.13|4026.76\nTotal Taxable Value 8863.35\nTotal CGST 797.71\nTotal SGST 79771\nRound Off 0.23\nTotal Invoice Value 10459.00\nAmount in words: Rupees Ten Thousand Four Hundred and Fifty Nine Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7742,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 951,
+  "gstins_found": 0
+ }
+}

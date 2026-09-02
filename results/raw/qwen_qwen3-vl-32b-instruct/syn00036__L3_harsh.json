@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00036__L3_harsh",
+ "doc_id": "syn00036",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-207",
+  "invoice_date": "2025-08-24",
+  "seller_name": "Fina Softtech Limited",
+  "seller_gstin": "36AAYPF9163K1ZS",
+  "seller_address": "Plot No. 256, Chander Nagar, Bangalore - Talaghattapura, 560029",
+  "buyer_name": "Adhikarla Marketing Limited",
+  "buyer_gstin": "36AAHCM9228L1ZG",
+  "buyer_address": "C/o. Mr. Srikant, Industrial Estate, Mangalore, Karnataka - 575007",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Tissue Machine Tp 1/6",
+    "hsn_sac": "4804",
+    "quantity": 6,
+    "unit": "NOB",
+    "unit_price": 8677.73,
+    "discount": null,
+    "taxable_value": 52066.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer 8\" 3M 3B",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOB",
+    "unit_price": 80624.97,
+    "discount": null,
+    "taxable_value": 80624.97,
+    "tax_rate": 18
+   },
+   {
+    "description": "Officeing Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 1,
+    "unit": "PC",
+    "unit_price": 473.4,
+    "discount": null,
+    "taxable_value": 473.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stenograph NCR (20x20)",
+    "hsn_sac": "8513",
+    "quantity": 6,
+    "unit": "NOB",
+    "unit_price": 21087.81,
+    "discount": null,
+    "taxable_value": 126526.86,
+    "tax_rate": 18
+   },
+   {
+    "description": "Jute Bags 15x20",
+    "hsn_sac": "3926",
+    "quantity": 1253.15,
+    "unit": "KGS",
+    "unit_price": 39.23,
+    "discount": null,
+    "taxable_value": 49158.88,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Dye 2kg",
+    "hsn_sac": "3703",
+    "quantity": 1,
+    "unit": "KG",
+    "unit_price": 2500.0,
+    "discount": null,
+    "taxable_value": 2500.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Computer Cartridge Box 5-Ply",
+    "hsn_sac": "8616",
+    "quantity": 150,
+    "unit": "NOB",
+    "unit_price": 58.54,
+    "discount": null,
+    "taxable_value": 8781.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 286942.5,
+  "cgst_amount": 25819.83,
+  "sgst_amount": 25819.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.3,
+  "grand_total": 341000.0,
+  "amount_in_words": "Rupees Four Lakh Seventy One Thousand Ninety Six Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-B-207\",\n  \"invoice_date\": \"2025-08-24\",\n  \"seller_name\": \"Fina Softtech Limited\",\n  \"seller_gstin\": \"36AAYPF9163K1ZS\",\n  \"seller_address\": \"Plot No. 256, Chander Nagar, Bangalore - Talaghattapura, 560029\",\n  \"buyer_name\": \"Adhikarla Marketing Limited\",\n  \"buyer_gstin\": \"36AAHCM9228L1ZG\",\n  \"buyer_address\": \"C/o. Mr. Srikant, Industrial Estate, Mangalore, Karnataka - 575007\",\n  \"place_of_supply\": \"Karnataka\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Tissue Machine Tp 1/6\",\n      \"hsn_sac\": \"4804\",\n      \"quantity\": 6,\n      \"unit\": \"NOB\",\n      \"unit_price\": 8677.73,\n      \"discount\": null,\n      \"taxable_value\": 52066.38,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer 8\\\" 3M 3B\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOB\",\n      \"unit_price\": 80624.97,\n      \"discount\": null,\n      \"taxable_value\": 80624.97,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Officeing Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 1,\n      \"unit\": \"PC\",\n      \"unit_price\": 473.40,\n      \"discount\": null,\n      \"taxable_value\": 473.40,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stenograph NCR (20x20)\",\n      \"hsn_sac\": \"8513\",\n      \"quantity\": 6,\n      \"unit\": \"NOB\",\n      \"unit_price\": 21087.81,\n      \"discount\": null,\n      \"taxable_value\": 126526.86,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Jute Bags 15x20\",\n      \"hsn_sac\": \"3926\",\n      \"quantity\": 1253.15,\n      \"unit\": \"KGS\",\n      \"unit_price\": 39.23,\n      \"discount\": null,\n      \"taxable_value\": 49158.88,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Dye 2kg\",\n      \"hsn_sac\": \"3703\",\n      \"quantity\": 1,\n      \"unit\": \"KG\",\n      \"unit_price\": 2500.00,\n      \"discount\": null,\n      \"taxable_value\": 2500.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Computer Cartridge Box 5-Ply\",\n      \"hsn_sac\": \"8616\",\n      \"quantity\": 150,\n      \"unit\": \"NOB\",\n      \"unit_price\": 58.54,\n      \"discount\": null,\n      \"taxable_value\": 8781.00,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 286942.50,\n  \"cgst_amount\": 25819.83,\n  \"sgst_amount\": 25819.83,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.30,\n  \"grand_total\": 341000.00,\n  \"amount_in_words\": \"Rupees Four Lakh Seventy One Thousand Ninety Six Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1716,
+ "output_tokens": 960,
+ "cached_input_tokens": 0,
+ "latency_s": 29.4604,
+ "cost_usd": 0.000577824,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

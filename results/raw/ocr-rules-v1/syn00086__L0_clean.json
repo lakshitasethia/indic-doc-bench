@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00086__L0_clean",
+ "doc_id": "syn00086",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-04",
+  "seller_name": "BANERJEE SALES CORPORATION",
+  "seller_gstin": "27CKTFB0337G9ZL",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "29DTJFM2402F4ZC",
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "646171.00",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "77664.57",
+  "cess_amount": null,
+  "round_off": "0.23",
+  "grand_total": "723836.00",
+  "amount_in_words": null
+ },
+ "raw": "BANERJEE SALES CORPORATION\nDoor No. 121, Udyog Vihar, Nashik - 426378 (Maharashtra)\nGSTIN : 27CKTFB0337G9ZL State Code : 27\nTAX INVOICE\nM/s. Menon Logistics Pvt. Ltd. Bill No. : INV-5812\nGala No. 417, Chandni Chowk Date : 04.10.2025\nMysuru - 565931 R.C.M. : NO\nGSTIN : 29DTJFM2402F4ZC\nPlace of Supply : 29-Karnataka\n[sNo| \u2014\u2014\u2014\u2014si\u00e9Particulars = sis] Sty | ate ~\u2014 | Value (Rs.)\n| 1 [Ms Hex Bolt with Nut M12 158 NOS 32.13 4568.89\nSmartphone 6GB/128GB 29779.55 89338.65\n) 4 [cotton Woven Fabric 44 inch anne 147.38 35301.93\n| 5 [Laptop Computer i5 16GB 85937.04 81640.19\n6 | Foam Mattress 72x36 6597.74 26390.96\n| 7 |pasmats Rice (Broken 5%) oo 87.16 4914.52\n} 8 |syntnetic Enamel Paint 4L ee 506.02 40296.90\nKGS\n1029\n10 |cotton Round Neck T-Shirt 253.19 247505.88\n11 [Radial Tyre 195/65 R15 4951.84 4951.84\n12 [Refined Sugar S-30 aaa 42.34 7603.76\n| 13 [Detergent Powder 1kg 131.95 1128.17\n| 14 |Glucose Biscuits 200g 353.49 1060.47\n| 15 |Office Workstation Table 11 Nos| 7403.87 81442.57\n| 16 |Paracetamol IP 650mg Tablets 63.91 1086.47\n| 17 [Corrugated Carton Box 5-Ply 29 NOS 31.46 912.34\nTOTAL| 646171.66\nTaxable Value 646171. 66\n| HSN | Taxable =| _Rate | = Tax amt = | Add: IGST 77664.57\n7318 4568.89 822.40| Round Off -0.23\n8517 89338.65 16080.96 NET PAYABLE Rs. 723836.00\n3923 12767.10 2298.08\n5208 35301.93 1765.10\n8471 81640.19| 18% | 14695.23\n9404 26390.96 4750.37\n1006 4914.52 245.73\n3208 40296.90 7253.44\n0902 5261.02] 5% | 263.05\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.9733,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1441,
+  "gstins_found": 2
+ }
+}

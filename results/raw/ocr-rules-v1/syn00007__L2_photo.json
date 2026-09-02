@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00007__L2_photo",
+ "doc_id": "syn00007",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-27",
+  "seller_name": "Shop No.-112, SIDCO Complex, Salem er * / Invoice No, Se",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Shop No.-112, SIDCO Complex, Salem er * / Invoice No, Se\nTamil Nadu - 615990 few / Date . 27/07/2025\nsixeaon\u00e9es / GSTIN: 33KPKC18345J222 \u2018pm eet / Terms 15 Days\na / Buyer: Rao Marketing LLP\nKhasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125\nGSTIN: 33LRRFR7481N3ZZ2 | smuffen / Place of Supply: Tamil Nadu\nta _:\nDescription Taxable\namt scree assualt cl ee\nmen |noe| ara eres ape a |\nemacs] sense os ae we ae\na ie\nSaran Sete |we| vas] var ase] = | aot as\n[exten so0 [| \"vas xs| el \u2014 reel} wt\neset cate [es] sees oa foes nes ,\nPS a :\nfewew/Toable | aarsuay\not\nsr\nfeeae/ Rondon Taal\nIT wore Rupees Three Lakh One Thousand six Hundred and Eighty Seven Gry a :\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6466,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 664,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00075__L3_harsh",
+ "doc_id": "syn00075",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "ttewhine \u2014 aa noone ; &",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "ttewhine \u2014 aa noone ; &\nom inmesensce ~ \u2014 \" : |\n[eS SiS eSReS\n\n~~~ lietaalt P 8S .me?.5y 4057.39) ay 1P-19 180 0 2095 49\n\ninegune nt \u201c00 Minos! tite dae, 218 ai ay 123.40 aba.cm:\ngry le MOS ae Srila Te\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.1801,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 202,
+  "gstins_found": 0
+ }
+}

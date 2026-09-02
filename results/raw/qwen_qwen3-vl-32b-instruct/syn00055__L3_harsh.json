@@ -1,0 +1,240 @@
+{
+ "variant_id": "syn00055__L3_harsh",
+ "doc_id": "syn00055",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "MN2526",
+  "invoice_date": "2024-03-12",
+  "seller_name": "Sherry Marketing",
+  "seller_gstin": "12AABCS9876F1ZP",
+  "seller_address": "Plot No. 201, Industrial Estate, Panipat, Haryana - 132103",
+  "buyer_name": "Bhat Logistics",
+  "buyer_gstin": "07AAACB9876F1ZP",
+  "buyer_address": "C-131, MC Road, Panchkula, Haryana - 134109",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Corrugated Carton Box 5 Ply",
+    "hsn_sac": "4817",
+    "quantity": 67,
+    "unit": "NOS",
+    "unit_price": 88.13,
+    "discount": 0,
+    "taxable_value": 5905.71,
+    "tax_rate": 18
+   },
+   {
+    "description": "Plastic Drink Pitcher",
+    "hsn_sac": "3926",
+    "quantity": 75,
+    "unit": "PCS",
+    "unit_price": 152.76,
+    "discount": 0,
+    "taxable_value": 11457.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer 15 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 72648.54,
+    "discount": 0,
+    "taxable_value": 72648.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Manners Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 1104,
+    "unit": "SET",
+    "unit_price": 285.99,
+    "discount": 0,
+    "taxable_value": 315726.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Highway 75x36",
+    "hsn_sac": "4004",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 1429.83,
+    "discount": 0,
+    "taxable_value": 1429.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Anti Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 3487,
+    "unit": "NOS",
+    "unit_price": 38.27,
+    "discount": 0,
+    "taxable_value": 133078.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "Screwdriver 6x80 120CB",
+    "hsn_sac": "8317",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 595.8,
+    "discount": 0,
+    "taxable_value": 2979.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cutlass Round Neck 1 Spine",
+    "hsn_sac": "4004",
+    "quantity": 25,
+    "unit": "PCS",
+    "unit_price": 181.68,
+    "discount": 0,
+    "taxable_value": 4542.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Wood Grain Table",
+    "hsn_sac": "9403",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 8818.92,
+    "discount": 0,
+    "taxable_value": 35275.72,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 329,
+    "unit": "KGS",
+    "unit_price": 293.82,
+    "discount": 0,
+    "taxable_value": 96688.82,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar 5 Mt",
+    "hsn_sac": "1501",
+    "quantity": 5595.029,
+    "unit": "KGS",
+    "unit_price": 40.89,
+    "discount": 0,
+    "taxable_value": 230199.89,
+    "tax_rate": 5
+   },
+   {
+    "description": "Tulsi Soap 100g",
+    "hsn_sac": "3406",
+    "quantity": 234,
+    "unit": "PCS",
+    "unit_price": 45.4,
+    "discount": 0,
+    "taxable_value": 10605.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 399.847,
+    "unit": "KGS",
+    "unit_price": 127.96,
+    "discount": 0,
+    "taxable_value": 51184.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Swatantra)",
+    "hsn_sac": "1006",
+    "quantity": 196.117,
+    "unit": "KGS",
+    "unit_price": 102.7,
+    "discount": 0,
+    "taxable_value": 20103.29,
+    "tax_rate": 5
+   },
+   {
+    "description": "Stone Light Powder 1kg",
+    "hsn_sac": "3803",
+    "quantity": 3284,
+    "unit": "PCS",
+    "unit_price": 164.7,
+    "discount": 0,
+    "taxable_value": 540706.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Welding Rods 10 Kgs",
+    "hsn_sac": "8103",
+    "quantity": 97.857,
+    "unit": "KGS",
+    "unit_price": 176.37,
+    "discount": 0,
+    "taxable_value": 17269.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 739.697,
+    "unit": "MTR",
+    "unit_price": 86.32,
+    "discount": 0,
+    "taxable_value": 63777.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 29,
+    "unit": "NOS",
+    "unit_price": 81.52,
+    "discount": 0,
+    "taxable_value": 1782.11,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4017",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 8504.63,
+    "discount": 0,
+    "taxable_value": 8504.63,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1585528.9,
+  "cgst_amount": 142697.6,
+  "sgst_amount": 142697.6,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.1,
+  "grand_total": 1870924.2,
+  "amount_in_words": "Rupees One Crore Eighty Seven Thousand Ninety Two Only",
+  "seller_state": "Haryana"
+ },
+ "raw": "{\n  \"invoice_number\": \"MN2526\",\n  \"invoice_date\": \"2024-03-12\",\n  \"seller_name\": \"Sherry Marketing\",\n  \"seller_gstin\": \"12AABCS9876F1ZP\",\n  \"seller_address\": \"Plot No. 201, Industrial Estate, Panipat, Haryana - 132103\",\n  \"buyer_name\": \"Bhat Logistics\",\n  \"buyer_gstin\": \"07AAACB9876F1ZP\",\n  \"buyer_address\": \"C-131, MC Road, Panchkula, Haryana - 134109\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Corrugated Carton Box 5 Ply\",\n      \"hsn_sac\": \"4817\",\n      \"quantity\": 67,\n      \"unit\": \"NOS\",\n      \"unit_price\": 88.13,\n      \"discount\": 0,\n      \"taxable_value\": 5905.71,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Plastic Drink Pitcher\",\n      \"hsn_sac\": \"3926\",\n      \"quantity\": 75,\n      \"unit\": \"PCS\",\n      \"unit_price\": 152.76,\n      \"discount\": 0,\n      \"taxable_value\": 11457.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer 15 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 72648.54,\n      \"discount\": 0,\n      \"taxable_value\": 72648.54,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Manners Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 1104,\n      \"unit\": \"SET\",\n      \"unit_price\": 285.99,\n      \"discount\": 0,\n      \"taxable_value\": 315726.96,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Foam Highway 75x36\",\n      \"hsn_sac\": \"4004\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 1429.83,\n      \"discount\": 0,\n      \"taxable_value\": 1429.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Anti Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 3487,\n      \"unit\": \"NOS\",\n      \"unit_price\": 38.27,\n      \"discount\": 0,\n      \"taxable_value\": 133078.49,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Screwdriver 6x80 120CB\",\n      \"hsn_sac\": \"8317\",\n      \"quantity\": 5,\n      \"unit\": \"NOS\",\n      \"unit_price\": 595.80,\n      \"discount\": 0,\n      \"taxable_value\": 2979.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cutlass Round Neck 1 Spine\",\n      \"hsn_sac\": \"4004\",\n      \"quantity\": 25,\n      \"unit\": \"PCS\",\n      \"unit_price\": 181.68,\n      \"discount\": 0,\n      \"taxable_value\": 4542.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Wood Grain Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 4,\n      \"unit\": \"NOS\",\n      \"unit_price\": 8818.92,\n      \"discount\": 0,\n      \"taxable_value\": 35275.72,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 329,\n      \"unit\": \"KGS\",\n      \"unit_price\": 293.82,\n      \"discount\": 0,\n      \"taxable_value\": 96688.82,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Refined Sugar 5 Mt\",\n      \"hsn_sac\": \"1501\",\n      \"quantity\": 5595.029,\n      \"unit\": \"KGS\",\n      \"unit_price\": 40.89,\n      \"discount\": 0,\n      \"taxable_value\": 230199.89,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Tulsi Soap 100g\",\n      \"hsn_sac\": \"3406\",\n      \"quantity\": 234,\n      \"unit\": \"PCS\",\n      \"unit_price\": 45.40,\n      \"discount\": 0,\n      \"taxable_value\": 10605.50,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 399.847,\n      \"unit\": \"KGS\",\n      \"unit_price\": 127.96,\n      \"discount\": 0,\n      \"taxable_value\": 51184.42,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Basmati Rice (Swatantra)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 196.117,\n      \"unit\": \"KGS\",\n      \"unit_price\": 102.70,\n      \"discount\": 0,\n      \"taxable_value\": 20103.29,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Stone Light Powder 1kg\",\n      \"hsn_sac\": \"3803\",\n      \"quantity\": 3284,\n      \"unit\": \"PCS\",\n      \"unit_price\": 164.70,\n      \"discount\": 0,\n      \"taxable_value\": 540706.80,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Welding Rods 10 Kgs\",\n      \"hsn_sac\": \"8103\",\n      \"quantity\": 97.857,\n      \"unit\": \"KGS\",\n      \"unit_price\": 176.37,\n      \"discount\": 0,\n      \"taxable_value\": 17269.10,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"PVC Insulated Copper Cable 2.5sqmm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 739.697,\n      \"unit\": \"MTR\",\n      \"unit_price\": 86.32,\n      \"discount\": 0,\n      \"taxable_value\": 63777.26,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 29,\n      \"unit\": \"NOS\",\n      \"unit_price\": 81.52,\n      \"discount\": 0,\n      \"taxable_value\": 1782.11,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4017\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 8504.63,\n      \"discount\": 0,\n      \"taxable_value\": 8504.63,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 1585528.90,\n  \"cgst_amount\": 142697.60,\n  \"sgst_amount\": 142697.60,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.10,\n  \"grand_total\": 1870924.20,\n  \"amount_in_words\": \"Rupees One Crore Eighty Seven Thousand Ninety Two Only\",\n  \"seller_state\": \"Haryana\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1988,
+ "output_tokens": 2084,
+ "cached_input_tokens": 0,
+ "latency_s": 204.2291,
+ "cost_usd": 0.0010736959999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

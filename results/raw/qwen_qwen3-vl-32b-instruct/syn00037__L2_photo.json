@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00037__L2_photo",
+ "doc_id": "syn00037",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "6404",
+  "invoice_date": "2026-02-10",
+  "seller_name": "Joshi Infratech Pvt. Ltd.",
+  "seller_gstin": "07KCKFJ1940D8Z1",
+  "seller_address": "Khasra No. 237, Industrial Estate, New Delhi - Delhi 110261",
+  "buyer_name": "Mahajan Steel & Alloys LLP",
+  "buyer_gstin": null,
+  "buyer_address": "Gala No. 133, Industrial Estate, Hyderabad, Telangana - 501615",
+  "place_of_supply": "Telangana (36)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 230,
+    "unit": "PCS",
+    "unit_price": 194.05,
+    "discount": null,
+    "taxable_value": 44631.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 20,
+    "unit": "SET",
+    "unit_price": 526.72,
+    "discount": null,
+    "taxable_value": 10534.4,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 55165.9,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 4127.77,
+  "cess_amount": null,
+  "round_off": 0.33,
+  "grand_total": 59294,
+  "amount_in_words": "Rupees Fifty Nine Thousand Two Hundred and Ninety Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"6404\",\n  \"invoice_date\": \"2026-02-10\",\n  \"seller_name\": \"Joshi Infratech Pvt. Ltd.\",\n  \"seller_gstin\": \"07KCKFJ1940D8Z1\",\n  \"seller_address\": \"Khasra No. 237, Industrial Estate, New Delhi - Delhi 110261\",\n  \"buyer_name\": \"Mahajan Steel & Alloys LLP\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Gala No. 133, Industrial Estate, Hyderabad, Telangana - 501615\",\n  \"place_of_supply\": \"Telangana (36)\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 230,\n      \"unit\": \"PCS\",\n      \"unit_price\": 194.05,\n      \"discount\": null,\n      \"taxable_value\": 44631.5,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 20,\n      \"unit\": \"SET\",\n      \"unit_price\": 526.72,\n      \"discount\": null,\n      \"taxable_value\": 10534.4,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 55165.9,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 4127.77,\n  \"cess_amount\": null,\n  \"round_off\": 0.33,\n  \"grand_total\": 59294,\n  \"amount_in_words\": \"Rupees Fifty Nine Thousand Two Hundred and Ninety Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2530,
+ "output_tokens": 463,
+ "cached_input_tokens": 0,
+ "latency_s": 11.4667,
+ "cost_usd": 0.000455728,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

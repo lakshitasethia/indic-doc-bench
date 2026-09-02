@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00064__L3_harsh",
+ "doc_id": "syn00064",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "75231.92",
+  "invoice_date": "2024-03-05",
+  "seller_name": "Deshmukh Pharma",
+  "seller_gstin": "27AABCD1234F1Z5",
+  "seller_address": "Plot No. 10, Sector 63, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "Abhishek Solvans",
+  "buyer_gstin": "27AAACD1234F1Z5",
+  "buyer_address": "Gate No. 10, Sector 63, Noida, Uttar Pradesh - 201301",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Refined Sugar 5 KG",
+    "hsn_sac": "1701",
+    "quantity": 1,
+    "unit": "KG",
+    "unit_price": 1353.63,
+    "discount": 80.43,
+    "taxable_value": 1273.2,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1273.2,
+  "cgst_amount": 114.588,
+  "sgst_amount": 114.588,
+  "igst_amount": null,
+  "cess_amount": 0.5,
+  "round_off": 0.5,
+  "grand_total": 1503.8,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"75231.92\",\n  \"invoice_date\": \"2024-03-05\",\n  \"seller_name\": \"Deshmukh Pharma\",\n  \"seller_gstin\": \"27AABCD1234F1Z5\",\n  \"seller_address\": \"Plot No. 10, Sector 63, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"Abhishek Solvans\",\n  \"buyer_gstin\": \"27AAACD1234F1Z5\",\n  \"buyer_address\": \"Gate No. 10, Sector 63, Noida, Uttar Pradesh - 201301\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Refined Sugar 5 KG\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 1,\n      \"unit\": \"KG\",\n      \"unit_price\": 1353.63,\n      \"discount\": 80.43,\n      \"taxable_value\": 1273.2,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 1273.2,\n  \"cgst_amount\": 114.588,\n  \"sgst_amount\": 114.588,\n  \"igst_amount\": null,\n  \"cess_amount\": 0.5,\n  \"round_off\": 0.5,\n  \"grand_total\": 1503.8,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1725,
+ "output_tokens": 388,
+ "cached_input_tokens": 0,
+ "latency_s": 6.2603,
+ "cost_usd": 0.000340808,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

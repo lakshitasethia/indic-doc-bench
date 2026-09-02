@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00076__L3_harsh",
+ "doc_id": "syn00076",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Pa Seon os lenin, Boe _ Seen Tog toes nore",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Pa Seon os lenin, Boe _ Seen Tog toes nore\ni : - cones freee a = we\nBika ent Sr eat one Seas S2 wt)\n\u00a3 Bevo scenery sai.) oe ae, oe oF BM al ety rae\nbq i d. Rene te 1 soe. )! Pi eae cael. & 1 eee asc\nposes Le ae ons, eM wan ee ane, noeee, See S\nBEN coipot at ant ee a ee ee ell las ae?\nCeci oe an eu eee we Es) gaan 4 eee ares woe\nES 7 erie te Omen \u2018ee rear wares, em cae e, ae. eo une\nSue as gave Fae 8 Mc pasar Ot yaaa ee 85 \u201cwn em\neae fat vat tom) a ee ae .\nir apn 1S tl sais a Te ie iit i, aw Me a\nine Leaner orme~t yan) Se +. se it ant, Se tee\nVy are bac : eel ier eat eee, ae 4\n5 Fea re me ee r ns) nw, = qunw \u00bb % 2 a ene\na awe ope 2% a eee, eS oad a \u201c tt\n< cemace vanes Pere. a) a ld me O38 ant .\nFi tera\u2014nene CORT a <= ee a at ygen te\u201d 8A pare\nVereen = amo.\u201c prea + we\nib came roe 8 i) ss be, ale ree - mt\npp sane wo pe tia 6 ane \u201c\na Common comme eee ov a Sone. 4\n\u201caes Hee > os et * wa oe we .\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8147,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 901,
+  "gstins_found": 0
+ }
+}

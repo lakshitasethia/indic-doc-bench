@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00086__L2_photo",
+ "doc_id": "syn00086",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-04",
+  "seller_name": "BANERJEE SALES CORPORATION",
+  "seller_gstin": "29DTIFM2402E4ZC",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "646171.66",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "77664.00",
+  "cess_amount": null,
+  "round_off": "0.23",
+  "grand_total": "723836.00",
+  "amount_in_words": null
+ },
+ "raw": "BANERJEE SALES CORPORATION\nBoor No. 121, udyog Vihar, Nashik - 426378 (Maharashtra)\nGSTIN = 2ICKTEBO337G92ZL State Code : 27\ni \u2018TAK_INVOICE\nM/s. Menon Logistics Pvt. Ltd. Bill No. : INV-5812\nGala No. 417, Chandni Chowk Date : 04.10.2025\nMysuru ~ 565931 R.C.M. :- NO\nGSTIN : 29DTIFM2402E4ZC\nPlace of Supply : 29-Karnataka\n| 1 [MS Hex Bolt with Nut, M12 Fase nos] 32-13] 4568.89\nSmartphone .6GB/128GB |_3 Nos| 29779.55| 89338.65\n| 2 nore Packing Bags Le 179.75 12767.10\n| 4 [cotton Woven Fabric 44 inch a 147.26] 39801-93\n| 5: [Laptop Computer i5 16GB | __1.nos| 85937.04 81640.19\n| 6 [Foam Mattress 72x36 [4 nos| _ 6597.74| 26390.96\n| 7 |[pasmats Rice. (Broken 5%) Ge er.a6| 4934.52\n| & [synthetic Enamel Paint 4L 73-635|- 506.02 40296.90\nacre\n: 1029\n10 | Cotton Round Neck T-Shirt PCS 247505.88\nTi [Radial Tyre 195/65 R15 [_1-nos| 4951.84 4951.84)\n79.\n| 12 [refines Sugar s-30 es a 42.34 7603.76\n[ 14 [Glucose Biscuits 200g [3 Box| 353-49] 1060.47\n| 15 jor\u00a3ice Workstation Table |_121 Nos| 7403.87 \u00a71442.57\nParacetamol IP 650mg Tablets [17 Box| 63.91 1086.47\n[ 17 [corrugated Carton Box 5-Ply P29 wos] 32-46 912.34\n646171.66\na Taxable Value 646171.66\nFete (oan ee Tax Ant Add: IGST 77664 .57\n[7318 | 4568.89 \u00a722.40| Round Off -0.23\n[e517 | g0338.65| 18% | 76080.96|. [NET PAYABLE Rs. 723836.00)\nsta | ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7973,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1304,
+  "gstins_found": 1
+ }
+}

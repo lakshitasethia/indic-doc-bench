@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00004__L0_clean",
+ "doc_id": "syn00004",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL4252",
+  "invoice_date": "2025-08-01",
+  "seller_name": "Ahluwalia Trading Co. Limited LORIGINAL FOR RECIPIENT _",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "3372.18",
+  "sgst_amount": "3372.18",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.07",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Ahluwalia Trading Co. Limited LORIGINAL FOR RECIPIENT _\n\nGala No. 447, Industrial Estate, Panipat, Haryana - 125180 Invoice No DL4252\n\nGSTIN O6WEHPA4330G6ZC State Code 06 Invoice Date 01-08-2025\n\nTerms 45 Days\n\nBilled To Shipped To\n\nSethi Engineering Works Limited Sethi Engineering Works Limited\n\nDoor No. 418, Ambattur Industrial Estate, Gurugram, Haryana - 130902 Door No. 418, Ambattur Industrial Estate, Gurugram\n\nGSTIN O6LYXFS4077X2ZY Place of Supply Haryana (06) Reverse Charge: No\n\nOPC 53 Grade Cement 50kg 2523 438.11 |  23219.83 3250.78| 3250.78]  29721.39\n\nHard Bound Register 200 Pages 4820 51.88; | 1348.88 121.40 121.40 1591.68\n\nTaxable Amount 24568.71\n\nee CGST 3372.18\n\n2523 23219.83 6501.56 SGST 3372.18\nRound Off -0.07\n\n4820 1348.88 242.80 Total SO 28 9843.00\n\nAmount in words: Rupees Thirty One Thousand Three Hundred and Thirteen Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4913,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 854,
+  "gstins_found": 0
+ }
+}

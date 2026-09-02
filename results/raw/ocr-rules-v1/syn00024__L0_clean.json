@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00024__L0_clean",
+ "doc_id": "syn00024",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/6184",
+  "invoice_date": "2025-07-16",
+  "seller_name": "Sethi Industries Invoice No. 2025-26/6184",
+  "seller_gstin": "07YLOPS2069W8ZX",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.43",
+  "grand_total": "158800.00",
+  "amount_in_words": null
+ },
+ "raw": "Sethi Industries Invoice No. 2025-26/6184\nDoor No. 138, Peenya 2nd Stage Dated 16-Jul-2025\nNew Delhi, Delhi - 110627 Mode/Terms of Payment 45 Days\nState Name : Delhi, Code : 07\nBuyer (Bill to) IRN: 97\u00a23327bbe2bbf605b6ece62a93ca433394744925bded0f0b4c6f590\nShetty & Sons LLP Destination: Delhi\nGala No. 330, MG Road\nDelhi, Delhi - 110975\nGSTIN/UIN: 07YLOPS2069W8ZX\nPlace of Supply : Delhi\nInstant Drink Premix 2106 154.50] 3399.00] 305.91] 305.91\nToilet Soap 100g 3401 52.50] 8557.50| 770.18] 770.18\nOPC 53 Grade Cement 50kg 2523 362.82| 15601.26|2184.18]2184.18\nBasmati Rice (Broken 5%) 1006 | 200.386 94.38] 18912.43| 472.81] 472.81\n5 [Radial Tyre 195/65 R15 4011 1]NOS| 5003.01] 4502.71] 630.38] 630.38\nLess: Discount 500.30\n| 6 | Multifunction Laser Printer 8443 21547.73| 21547.73 | 1939.30| 1939.30\nAssam CTC Tea Leaf 0902 | 215.471 325.64] 70165.98| 1754.15 | 1754.15\nRound Off -0.43\nGrand Total = 158800.00\nAmount Chargeable (in words): Rupees One Lakh Fifty Eight Thousand Eight Hundred Only\nBank Name : ICICI Bank\nA/c No. : 6695943 1503926\nBranch & IFSC : Delhi & OFEU0309251 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.57,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1105,
+  "gstins_found": 1
+ }
+}

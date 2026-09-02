@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00076__L2_photo",
+ "doc_id": "syn00076",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TAX-B-7465",
+  "invoice_date": "2025-11-30",
+  "seller_name": "Reddy Industries [ORIGINAL FOR RECIPIENT",
+  "seller_gstin": "03XRKCR9392M8ZU",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Reddy Industries [ORIGINAL FOR RECIPIENT\n__ Gala No. \u201891, MG Road, Ludhiana, Punjab - 156724 Invoice No TAX-B-7465\nGSTIN 03XRKCR9392M8ZU State Code 03 Invoice Date 30-11-2025\n\u00b0 Terms Cash\nBilled To Shipped To\nPatel Technologies LLP Patel Technologies LLP\nDoor No. 343, Ring Road, Ludhiana, Punjab - 151631 Door No. 343, Ring Road, Ludhiana\nGSTIN 03VIXPP1881 1274 Place of Supply Punjab (03) Reverse Charge: No\nGTN COOP ae a Seale | eal er Line Tota\noes] samines| eet Tes] 16 | 6512| 65.12]. 098.82\neen ton twos eines) 199.50] 28 | .267.93| 067.93] 7895.36\nreaps Hen \u2014\u2014 al arena a || Bao 14902.66\na esnesnes [Sg \u2014 cs se eat a 330991.02\noom [stom ue |_| ar 1268.63\noe ee ee 7878.32) 260626.83\nStainless Steel Culery Set eee See DL SET | eetao| \u2014200is|  svee.te| 8 | 908 499.93] 647602\neon Fabs snch 208] sesre[ MTR _ TE eroes.04| 6 | 0177.20| 9177.20| 365442.44\nSed Reger 20 Poges \u2014\u2014\u2014|4820|_45|.NOS| Se [9420.65] 18 | _ 947.06] 047.06| _11116.37\nis ene re \u2014 [scenes | 7950.25  104296.59\ngece gt gelaet \u201cua | moe 26.19| _26.19| 1099.95\n112 |MS Fabricated Structure Pars Arosa] Kes| ese] | #226007| 12 4225.78| 4225.78| 55404.63\n13 |MS Hex Bolt with Nut M12 Fate] 2320[nos|_4045| | 93844,00| 18 | 8445.96| 8445.96 110735.92\n| 14 | OPC 53 Grade Cement 50kg 418 165528.00 23173.92| 23173.92| 211875.84\n| 15 | Refined Sugar S-30 780.950|KGS| 46.43 | 73044.51| 5 | . 326.11| 326.14 13696.73.\nMonoblock Water Pump 1HP feta] 1|NOS| 4568.05) 4568.05| 18 | 411.12 411.12 5390.29\na Cd [| set0.05| 18 | 1408 90| 140490) 18488\nact erecsamolip song Tebets_\u2014_\u2014[3004| 688) BOF) | \u2014\u2014|-asteaa| 12 | 2685.17] 2685.17 | 50808 76.\na +13690.16| 18 | 10217.89| 10217.80) 139967.04\n[20 | Multifunction Laser Printer feaaz|__2|NOS| 23858.96 | 47717.92| 18 | 4294.61| 4294.61) 56307.14\nCorrugated Carton Box 5-Ply [4a19| __1350| NOS [a4.66[ | a012000| 10 | \u201csetts 5411.61| 70952.22\n[22 | Instant Drink Premix [2106| 75, PCS arrai] | teases 18 | 148604) 1466.84| _19231.93\nec a ares} | saneae 20) 6 | 8013.16] 6018.16] S98s5eF\nee tl eles] | aran-ra| 18] 39496] 30496] 499168\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.5346,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2046,
+  "gstins_found": 1
+ }
+}

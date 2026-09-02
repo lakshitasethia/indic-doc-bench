@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00025__L1_scan",
+ "doc_id": "syn00025",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-18",
+  "seller_name": "TAX INVOICE Chauhan Sales Corporation",
+  "seller_gstin": "19NNHPC0520T7Z9",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "297963.96",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "29339.06",
+  "cess_amount": null,
+  "round_off": "0.02",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Chauhan Sales Corporation\nPlot No. 1, Focal Point\n2025-26/8795 Howrah - West Bengal 735696\nINVOICE DATE GSTNO. PLACE OF SUPPLY REVERSE CHARGE\n18/01/2026 19NNHPC0520T7Z9 ~\u2014_\u2014Rajasthan (08) No\nBILL TO SHIP TO\nDeshmukh Agencies Limited Deshmukh Agencies Limited\nKhasra No. 176, Chandni Chowk, Udaipur, Rajasthan - Khasra No. 176, Chandni Chowk, Udaipur, Rajasthan -\n310722 310722\nGST NO.\n# Item & Description HSN/SAC Qty Rate Amount\n1 HDPE Packing Bags eo = \u00ab148.89 \u00a9 27598.10\n: i 16.738\n2 Synthetic Enamel Paint 4L 3208 TR 475.75 7963.10\n3 Corrugated Carton Box 5-Ply 4819 42 NOS 48.54 2038.68\n4 Basmati Rice (Broken 5%) 1006 aioe 61.32  22644.49\n5 Leather Formal Shoes 6403 17 PRS 117145 19914.65\n6 MSHex Bolt with Nut M12 7318 ame 2723 4542.06\n7 OPC 53 Grade Cement 50kg 2523 4 BAG 403.49 1613.96\n8 Cotton Round Neck T-Shirt 6109 ZECS 406.29 812.58\n9 Glucose Biscuits 200g 1905 3 BOX 261.90 785.70\n10 Assam CTC Tea Leaf ogo2 \u201c41S 388.90 164664.93\n11 MS Fabricated Structure 7308 S005 \u00ab124.45 44819.55\n12 Detergent Powder 1kg 3402 4PCS 156.54 626.16\nSub Total 297963.96\nIGST 29339.06\nRounding -0.02\nTotal (INR) %327303.00\nIN WORDS\nRupees Three Lakh Twenty Seven Thousand Three Hundred and Three Only\nHDFC Bank - A/C 30619343344111 - IFSC SLUL0614880 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.0272,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1282,
+  "gstins_found": 1
+ }
+}

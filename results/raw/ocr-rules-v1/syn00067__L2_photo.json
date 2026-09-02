@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00067__L2_photo",
+ "doc_id": "syn00067",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "\u2014\u2014\u2014\u2014\u2014\u2014\u2014 <x \u2014  ~\u201c",
+  "seller_gstin": "36SPPCA6442B8Z8",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "36VALCJ9852A7ZM",
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "\u2014\u2014\u2014\u2014\u2014\u2014\u2014 <x \u2014  ~\u201c\nKhasra No. 96, SIDCO Complex, Warangal\nTelangana - 507116 fore / Date aqjiaj20%s\n<untonter | GSTIN: 36SPPCA6442B8Z8 sparse / TEMS Apbays\nKhasra No. 260, Chandni Chowk, Warangal, Telangana - 504968\nGSTIN: 36VALCJ9852A7ZM |. snytstm / Place of Supply: Telangana\niE\nDescription Rate Taxable\ncc woes ale [os] nos] ace reno] woes] Sosst\nTau Sur egter200 Pas |r| wo wos|_ s2ne|_sesta|e| eel are\n+ Terai ss as_[ood| su aoe| 7058 zone] v2 | nas] roses\nSe\nrelearoetamovemsru co] ones] rezil_emcale| sans] sue\nPelesesoapronn ___[2n| sors] _osae| rowan] we [ienea0[ si\nrs [samiis seer st [ems| ve set]_cosse| rarso[ we | erent ssn\nict ar Fs tn [743840] 0090 |aeo07s| wasn [azo\nroltanoncampacrisvece [or] _ 1 Nos| smane|ezosae] v6 [9820] S950\nFlcvemamnatxesin _[owo| 2s sez| ee] $] sor] oer\nFalwonobink water Pp wb [et] 28 nos|_soen7e|eszao] ve [vor] wey\nra|roamaress Taos ____fose| _1N0s|_szrone| sooasal we | ore2| Say\nralsmarohonesorzece [es] _1nos|sozmor| soma w | 72520] 2820\nFslomerponpowiereg \u2014[owra]_sovcs|__tuse|_sosezo] we] sseze[_ss024\njst |\nEa)\nscat /n words: Rupees Ten Lakh Seventy One Thousand Nine Hundred and Ninety One Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.9371,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1147,
+  "gstins_found": 2
+ }
+}

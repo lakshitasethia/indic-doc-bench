@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00041__L2_photo",
+ "doc_id": "syn00041",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Pillai",
+  "invoice_date": null,
+  "seller_name": "INVOICE #",
+  "seller_gstin": "10DFZFP6342B8ZS",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "10QTTFG4165V1Z2",
+  "buyer_address": null,
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "33835.00",
+  "cgst_amount": "2982.78",
+  "sgst_amount": "2982.78",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.44",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "INVOICE #\n\nPillai Polymers Gupta Solutions Pvt. Ltd. 2025-26/6248\n\nDoor No. 296, Okhla Phase | Plot No. 362, Udyog Vihar ISSUED\nMuzaffarpur 806396 Muzaft 837942\n\nPLACE OF SUPPLY\n\n10DFZFP6342B8ZS 10QTTFG4165V1Z2 Bihar\n\nQTy RATE GST AMOUNT\n\nHard Bound Register 200 Pages 4820 15 NOS 112.48 18% 1687.20\n\nSmartphone 6GB/128GB 8517 +NOS 30068.80 18%  30068.80\n\nParacetamol IP 650mg Tablets 3004 55 BOX 37.80 12% 2079.00\n\nSubtotal 33835.00\n\nCGST. 2982.78\n\nSGST 2982.78\n\nRounding 0.44\n\nTotal %39801.00\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2533,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 495,
+  "gstins_found": 2
+ }
+}

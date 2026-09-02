@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00040__L0_clean",
+ "doc_id": "syn00040",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "1786",
+  "invoice_date": "2025-09-26",
+  "seller_name": "Chauhan Engineering Works LORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "23WEZPC2063N8ZD",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "200.00",
+  "cess_amount": null,
+  "round_off": "0.39",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chauhan Engineering Works LORIGINAL FOR RECIPIENT _\nPlot No. 180, Kalbadevi Road, Bhopal, Madhya Pradesh - 482976 Invoice No 1786\nGSTIN 23WEZPC2063N8ZD State Code 23 Invoice Date 26-09-2025\nTerms 30 Days\n\nBilled To Shipped To\n\nChauhan Steel & Alloys Chauhan Steel & Alloys\n\nPlot No. 365, GIDC Estate, Udaipur, Rajasthan - 319216 Plot No. 365, GIDC Estate, Udaipur\n\nGSTIN O8NRWCC7437Z2ZN Place of Supply Rajasthan (08) Reverse Charge: No\n\n|# | ____ Description of Goods /Services | HSN | ty | vom | Rate | Disc | Taxable | ast% | iGsT_ | Line Total\nGlucose Biscuits 200g 1905 467.24; | 934.48 168.21 1102.69\nSmartphone 6GB/128GB 8517 31595.74| | \u2014 347553.14 62559.57| 410112.71\nSynthetic Enamel Paint 4L 3208 | 3.657 359.11; 1313.27 236.39 1549.66\n| 4 | Hard Bound Register 200 Pages 4820 112.73] 6989.26 1258.07 8247.33\n1905 934.48 168.21 IGST 64222.24\n\nfo)\n\n8517 347553.14 62559.57 Round Off 0.39\n3208 1313.27 236.39 a\n4820 6989.26 1258.07 Total 421012.00\nAmount in words: Rupees Four Lakh Twenty One Thousand Twelve Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.606,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1023,
+  "gstins_found": 1
+ }
+}

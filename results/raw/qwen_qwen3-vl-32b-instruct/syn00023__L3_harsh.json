@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00023__L3_harsh",
+ "doc_id": "syn00023",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023/001",
+  "invoice_date": "2023-04-15",
+  "seller_name": "Tech Solutions Pvt Ltd",
+  "seller_gstin": "27AAACCS1234A1Z",
+  "seller_address": "Plot No. 10, Sector 12, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "ABC Enterprises",
+  "buyer_gstin": "29BBBCCS5678D2Z",
+  "buyer_address": "Building 5, Block C, Sector 15, Gurugram, Haryana - 122001",
+  "place_of_supply": "Haryana",
+  "reverse_charge": false,
+  "irn": "EINV2023041500000000000000000000000000000000000000000000000000000000",
+  "line_items": [
+   {
+    "description": "Laptop Dell Inspiron 15",
+    "hsn_sac": "847149",
+    "quantity": 5,
+    "unit": "Unit",
+    "unit_price": 45000,
+    "discount": 0,
+    "taxable_value": 225000,
+    "tax_rate": 18
+   },
+   {
+    "description": "Mouse Logitech M175",
+    "hsn_sac": "847150",
+    "quantity": 10,
+    "unit": "Unit",
+    "unit_price": 1200,
+    "discount": 0,
+    "taxable_value": 12000,
+    "tax_rate": 18
+   },
+   {
+    "description": "Keyboard Logitech K120",
+    "hsn_sac": "847151",
+    "quantity": 8,
+    "unit": "Unit",
+    "unit_price": 1500,
+    "discount": 0,
+    "taxable_value": 12000,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monitor ASUS VP248H",
+    "hsn_sac": "852872",
+    "quantity": 3,
+    "unit": "Unit",
+    "unit_price": 22000,
+    "discount": 0,
+    "taxable_value": 66000,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 315000,
+  "cgst_amount": 28350,
+  "sgst_amount": 28350,
+  "igst_amount": null,
+  "cess_amount": 0,
+  "round_off": 0,
+  "grand_total": 371700,
+  "amount_in_words": "Three Lakh Seventy-One Thousand Seven Hundred Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/2023/001\",\n  \"invoice_date\": \"2023-04-15\",\n  \"seller_name\": \"Tech Solutions Pvt Ltd\",\n  \"seller_gstin\": \"27AAACCS1234A1Z\",\n  \"seller_address\": \"Plot No. 10, Sector 12, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"ABC Enterprises\",\n  \"buyer_gstin\": \"29BBBCCS5678D2Z\",\n  \"buyer_address\": \"Building 5, Block C, Sector 15, Gurugram, Haryana - 122001\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": false,\n  \"irn\": \"EINV2023041500000000000000000000000000000000000000000000000000000000\",\n  \"line_items\": [\n    {\n      \"description\": \"Laptop Dell Inspiron 15\",\n      \"hsn_sac\": \"847149\",\n      \"quantity\": 5,\n      \"unit\": \"Unit\",\n      \"unit_price\": 45000,\n      \"discount\": 0,\n      \"taxable_value\": 225000,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Mouse Logitech M175\",\n      \"hsn_sac\": \"847150\",\n      \"quantity\": 10,\n      \"unit\": \"Unit\",\n      \"unit_price\": 1200,\n      \"discount\": 0,\n      \"taxable_value\": 12000,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Keyboard Logitech K120\",\n      \"hsn_sac\": \"847151\",\n      \"quantity\": 8,\n      \"unit\": \"Unit\",\n      \"unit_price\": 1500,\n      \"discount\": 0,\n      \"taxable_value\": 12000,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Monitor ASUS VP248H\",\n      \"hsn_sac\": \"852872\",\n      \"quantity\": 3,\n      \"unit\": \"Unit\",\n      \"unit_price\": 22000,\n      \"discount\": 0,\n      \"taxable_value\": 66000,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 315000,\n  \"cgst_amount\": 28350,\n  \"sgst_amount\": 28350,\n  \"igst_amount\": null,\n  \"cess_amount\": 0,\n  \"round_off\": 0,\n  \"grand_total\": 371700,\n  \"amount_in_words\": \"Three Lakh Seventy-One Thousand Seven Hundred Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1988,
+ "output_tokens": 707,
+ "cached_input_tokens": 0,
+ "latency_s": 15.9082,
+ "cost_usd": 0.000500864,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

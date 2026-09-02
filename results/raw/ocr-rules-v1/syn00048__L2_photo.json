@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00048__L2_photo",
+ "doc_id": "syn00048",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-18",
+  "seller_name": "Kaur Polymers Pvt. Ltd. Invoice No. \u2018T1/25-26/3277",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.49",
+  "grand_total": "881602.00",
+  "amount_in_words": null
+ },
+ "raw": "Kaur Polymers Pvt. Ltd. Invoice No. \u2018T1/25-26/3277\nDoor No. 200, Kalbadevi Road Dated 18-Jan-2026\nJodhpur, Rajasthan - 307 148 Mode/Terms of Payment Advance\nGSTIN/UIN: 08PAUCK1737V 1ZW Reverse Charge No\nState Name : Rajasthan, Code : 08\nBuyer (Bill 10) Destination: Chennai\nSethi & Sons LLP\nUnit No. 63, MG Road\nChennai, Tamil Nadu - 615114\nGSTIN/UIN: 331WECS7120M3ZS\nPlace of Supply : Tamil Nadu\neee ee ee\nHr [Oice Workstation Table seas [a Nos wrvons] asec] ree] sez\nLaptop Computer iS 16GB 8471 | ___1| nos [61296.74| $1296.74] 18% | _11033.41|\nParacetamol IP 650mg Tablets | | 5332 jpox[ 457] 231691.40 27802.97\nLess: Discount 12194.28\nPa [Ms Hex Bok with Numi? | 7318 | ai wos| oso] \u2014raneso[ reve 235.17\n\u00a7 |PVC Insulated Copper Cable $544 |7203.336 MTR 54.98 | 396039.41 18% | 71287.09\n2.5sqmm\n758900.85| __ | 122700.66\nRound Off 0.49\nGrand Total \u2014\u20ac 881602.00 |\n\u2018Amount Chargeable (in words): Rupees Eight Lakh Eighty One Thousand Six Hundred and Two Only\nBank Name ::State Bank of India\nAlc No. : 1 3833859528\nBranch & IFSC ; C hennai & UPYD0720620 Authorised Signatory\nThis is a Computer Generated Invoice\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5303,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1113,
+  "gstins_found": 0
+ }
+}

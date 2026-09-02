@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00006__L0_clean",
+ "doc_id": "syn00006",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL4661",
+  "invoice_date": "2026-01-23",
+  "seller_name": "Kaur Electricals Limited",
+  "seller_gstin": "24BZGCK5845F2Z2",
+  "seller_address": "Unit No. 1, Peenya 2nd Stage, Ahmedabad, Gujarat-386181",
+  "buyer_name": "Mehra Distributors Pvt. Ltd.",
+  "buyer_gstin": null,
+  "buyer_address": "Shop No. 154, Sector 63, Bhopal, Madhya Pradesh-470638",
+  "place_of_supply": "23-Madhya Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 18145.8,
+    "discount": null,
+    "taxable_value": 36291.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 3,
+    "unit": "BAG",
+    "unit_price": 408.15,
+    "discount": null,
+    "taxable_value": 1224.45,
+    "tax_rate": 28
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 266,
+    "unit": "SET",
+    "unit_price": 645.26,
+    "discount": null,
+    "taxable_value": 171639.16,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 4613,
+    "unit": "NOS",
+    "unit_price": 29.99,
+    "discount": null,
+    "taxable_value": 138343.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 118,
+    "unit": "PCS",
+    "unit_price": 115.07,
+    "discount": null,
+    "taxable_value": 13578.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 1,
+    "unit": "PRS",
+    "unit_price": 908.38,
+    "discount": null,
+    "taxable_value": 908.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 17484.11,
+    "discount": null,
+    "taxable_value": 17484.11,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7865.25,
+    "discount": 393.26,
+    "taxable_value": 7471.99,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 386941.82,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 69771.99,
+  "cess_amount": null,
+  "round_off": 0.19,
+  "grand_total": 456714,
+  "amount_in_words": "Rupees Four Lakh Fifty Six Thousand Seven Hundred and Fourteen Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"DL4661\",\n  \"invoice_date\": \"2026-01-23\",\n  \"seller_name\": \"Kaur Electricals Limited\",\n  \"seller_gstin\": \"24BZGCK5845F2Z2\",\n  \"seller_address\": \"Unit No. 1, Peenya 2nd Stage, Ahmedabad, Gujarat-386181\",\n  \"buyer_name\": \"Mehra Distributors Pvt. Ltd.\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Shop No. 154, Sector 63, Bhopal, Madhya Pradesh-470638\",\n  \"place_of_supply\": \"23-Madhya Pradesh\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 18145.8,\n      \"discount\": null,\n      \"taxable_value\": 36291.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 3,\n      \"unit\": \"BAG\",\n      \"unit_price\": 408.15,\n      \"discount\": null,\n      \"taxable_value\": 1224.45,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 266,\n      \"unit\": \"SET\",\n      \"unit_price\": 645.26,\n      \"discount\": null,\n      \"taxable_value\": 171639.16,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 4613,\n      \"unit\": \"NOS\",\n      \"unit_price\": 29.99,\n      \"discount\": null,\n      \"taxable_value\": 138343.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 118,\n      \"unit\": \"PCS\",\n      \"unit_price\": 115.07,\n      \"discount\": null,\n      \"taxable_value\": 13578.26,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 1,\n      \"unit\": \"PRS\",\n      \"unit_price\": 908.38,\n      \"discount\": null,\n      \"taxable_value\": 908.38,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 17484.11,\n      \"discount\": null,\n      \"taxable_value\": 17484.11,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Foam Mattress 72x36\",\n      \"hsn_sac\": \"9404\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 7865.25,\n      \"discount\": 393.26,\n      \"taxable_value\": 7471.99,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 386941.82,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 69771.99,\n  \"cess_amount\": null,\n  \"round_off\": 0.19,\n  \"grand_total\": 456714,\n  \"amount_in_words\": \"Rupees Four Lakh Fifty Six Thousand Seven Hundred and Fourteen Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3963,
+ "output_tokens": 1018,
+ "cached_input_tokens": 0,
+ "latency_s": 44.9383,
+ "cost_usd": 0.00083564,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

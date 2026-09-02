@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00002__L3_harsh",
+ "doc_id": "syn00002",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1234567890",
+  "invoice_date": "2023-04-05",
+  "seller_name": "VERMA SALES CORPORATION PRIVATE LIMITED",
+  "seller_gstin": "27AAAAA1234A1Z5",
+  "seller_address": "Plot No. 123, Sector 1, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "Rajiv Sharma",
+  "buyer_gstin": null,
+  "buyer_address": "House No. 456, Street 7, Delhi - 110001",
+  "place_of_supply": "Delhi",
+  "reverse_charge": false,
+  "irn": "ABCD123456789012345678901234567890123456789012345678901234567890",
+  "line_items": [
+   {
+    "description": "Instant Drink Powder",
+    "hsn_sac": "210690",
+    "quantity": 500,
+    "unit": "kg",
+    "unit_price": 250.0,
+    "discount": 0.0,
+    "taxable_value": 125000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cocoa Beverage Mix",
+    "hsn_sac": "210690",
+    "quantity": 250,
+    "unit": "kg",
+    "unit_price": 300.0,
+    "discount": 0.0,
+    "taxable_value": 75000.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 199999.99,
+  "cgst_amount": 17999.99,
+  "sgst_amount": 17999.99,
+  "igst_amount": null,
+  "cess_amount": 0.0,
+  "round_off": -0.01,
+  "grand_total": 235999.96,
+  "amount_in_words": "Rupees Two Lakh Thirty Five Thousand Nine Hundred Ninety-Nine Point Ninety-Six Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"1234567890\",\n  \"invoice_date\": \"2023-04-05\",\n  \"seller_name\": \"VERMA SALES CORPORATION PRIVATE LIMITED\",\n  \"seller_gstin\": \"27AAAAA1234A1Z5\",\n  \"seller_address\": \"Plot No. 123, Sector 1, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"Rajiv Sharma\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"House No. 456, Street 7, Delhi - 110001\",\n  \"place_of_supply\": \"Delhi\",\n  \"reverse_charge\": false,\n  \"irn\": \"ABCD123456789012345678901234567890123456789012345678901234567890\",\n  \"line_items\": [\n    {\n      \"description\": \"Instant Drink Powder\",\n      \"hsn_sac\": \"210690\",\n      \"quantity\": 500,\n      \"unit\": \"kg\",\n      \"unit_price\": 250.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 125000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cocoa Beverage Mix\",\n      \"hsn_sac\": \"210690\",\n      \"quantity\": 250,\n      \"unit\": \"kg\",\n      \"unit_price\": 300.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 75000.0,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 199999.99,\n  \"cgst_amount\": 17999.99,\n  \"sgst_amount\": 17999.99,\n  \"igst_amount\": null,\n  \"cess_amount\": 0.0,\n  \"round_off\": -0.01,\n  \"grand_total\": 235999.96,\n  \"amount_in_words\": \"Rupees Two Lakh Thirty Five Thousand Nine Hundred Ninety-Nine Point Ninety-Six Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1708,
+ "output_tokens": 548,
+ "cached_input_tokens": 0,
+ "latency_s": 12.9851,
+ "cost_usd": 0.00040560000000000005,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

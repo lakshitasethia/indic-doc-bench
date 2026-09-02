@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00020__L0_clean",
+ "doc_id": "syn00020",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-1539",
+  "invoice_date": "2025-04-17",
+  "seller_name": "NAIDU DISTRIBUTORS",
+  "seller_gstin": "23XDCCN0430D8ZB",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "130170.86",
+  "cess_amount": null,
+  "round_off": "0.39",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "NAIDU DISTRIBUTORS\nShop No. 10, Okhla Phase I\nBhopal - 451661\nGSTIN: 23XDCCN0430D8ZB\nState: Madhya Pradesh (23)\nTAX INVOICE\nBill No: INV-1539\nDate: 17/04/2025\nPOS: Uttar Pradesh\nCustomer: Sethi Solutions Limited\nGSTIN: O9BNHPS45911329\n1. Commercial Training and Coaching Services\nHSN 999293 11NOS x 37671.95 414391.45\n2. Road Transport Services of Goods\nHSN 996511 12NOS x 31058.78 372705.36\n3. Repair Services of Computers and\nPeripherals\nHSN 998721 11NOS x 1170.80 12878.80\n4, Other Professional and Technical Services\nHSN 998399 2NOS x 40484.30 80968.60\n5. Information Technology Consulting Services\nHSN 998313 3NOS x 37134.44 111403.32\nTaxable 992347.53\nIGST 130170.86\nRound Off -0.39\nTOTAL Rs .1122518.00\nRupees Eleven Lakh Twenty Two Thousand Five\nHundred and Eighteen Only\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3914,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 837,
+  "gstins_found": 1
+ }
+}

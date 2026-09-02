@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00094__L1_scan",
+ "doc_id": "syn00094",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "34.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "349253.00",
+  "grand_total": "349253.00",
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n- 841957\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\nFE eecnsoon one] ey [oe] oran [omnis | [serene ser ane\n; i |\nSaba Biscults | 4995 249.74|70426.68 6338.40|6338.40\njee CTC Tea | 9992 | 198.584 415.04|82420.30 2060.51|2060.51.\nSa Drink 2106 206.97] 11797.29 1061.76| 1061.76.\nremix\nBasmati Rice\need 506) 1006 | 32 717 Be 26) 2669.54 GE 74) ce 4\nBere Enamel | 3508 119.486] LTR | 560.64 6988.63) 18 | 6028.98 6028.98\n6 ee 8471 67482.40|64108.28 5769.75|5769.75\nTMT Steel Bar\nee | 7214\\ 0.122 58054.75| 6941.03 624.69| 624.69|\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS) |\n= 349253.00 \u2014 Rupees Three Lakh Forty Nine Thousand Two Hundred and Fifty Three Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.864,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 846,
+  "gstins_found": 0
+ }
+}

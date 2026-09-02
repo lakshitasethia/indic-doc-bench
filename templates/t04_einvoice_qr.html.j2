@@ -1,0 +1,61 @@
+{# E-invoice style: IRN block and a QR placeholder at top-right, ISO dates,
+   per-line taxable + tax columns split three ways, tight 8pt type, and a
+   second page for long item tables. #}
+<style>{{ base_css }}
+body { font-family: "DejaVu Sans", Verdana, sans-serif; font-size: 7.8pt; }
+.top { display:flex; border:1px solid #000; }
+.top > div { padding:6px 8px; }
+.irn { flex:1; border-right:1px solid #000; }
+.qr { width:96px; display:flex; align-items:center; justify-content:center; }
+.qr .ph { width:78px; height:78px; background:
+  repeating-conic-gradient(#000 0% 25%, #fff 0% 50%) 0 0/13px 13px; border:3px solid #000; }
+td, th { border:.6px solid #666; padding:2px 3px; }
+th { background:#f0f0f0; font-size:6.8pt; }
+.sec { border:1px solid #000; border-top:none; padding:5px 8px; }
+.grid { display:flex; }
+.grid > div { flex:1; padding-right:10px; }
+.k { color:#555; font-size:6.8pt; }
+</style>
+<div class="top">
+  <div class="irn">
+    <div class="b" style="font-size:10pt">e-Invoice &mdash; TAX INVOICE</div>
+    <div class="k">IRN</div><div style="word-break:break-all;font-size:6.8pt">{{ r.irn or 'NOT GENERATED' }}</div>
+    <div class="k" style="margin-top:3px">Ack No. / Ack Date</div><div>{{ ack_no }} / {{ d.iso }}</div>
+  </div>
+  <div class="qr"><div class="ph"></div></div>
+</div>
+<div class="sec grid">
+  <div><div class="k">Supplier</div><div class="b">{{ r.seller_name }}</div>
+    <div>{{ sa.line1 }}, {{ sa.city }}, {{ sa.state }} {{ sa.pincode }}</div>
+    <div class="k" style="margin-top:2px">GSTIN</div><div class="b">{{ r.seller_gstin }}</div></div>
+  <div><div class="k">Recipient</div><div class="b">{{ r.buyer_name }}</div>
+    <div>{{ ba.line1 }}, {{ ba.city }}, {{ ba.state }} {{ ba.pincode }}</div>
+    <div class="k" style="margin-top:2px">GSTIN</div><div class="b">{{ r.buyer_gstin or 'URP' }}</div></div>
+  <div><div class="k">Document No.</div><div class="b">{{ r.invoice_number }}</div>
+    <div class="k" style="margin-top:2px">Document Date</div><div>{{ d.iso }}</div>
+    <div class="k" style="margin-top:2px">Place of Supply</div><div>{{ ba.state_code }} - {{ ba.state }}</div>
+    <div class="k" style="margin-top:2px">Reverse Charge</div><div>{{ 'Y' if r.reverse_charge else 'N' }}</div></div>
+</div>
+<table style="margin-top:6px">
+  <tr><th>Sl</th><th>Item Description</th><th>HSN</th><th>Qty</th><th>UQC</th><th>Unit Price</th>
+      <th>Discount</th><th>Taxable Amt</th><th>Rate</th>
+      {% if interstate %}<th>IGST Amt</th>{% else %}<th>CGST Amt</th><th>SGST Amt</th>{% endif %}
+      <th>Total</th></tr>
+  {% for it in items %}
+  <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td><td class="c">{{ it.hsn_sac }}</td>
+    <td class="r">{{ it.quantity }}</td><td class="c">{{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+    <td class="r">{{ it.discount or '-' }}</td><td class="r">{{ it.taxable_value }}</td>
+    <td class="c">{{ it.tax_rate }}</td>
+    {% if interstate %}<td class="r">{{ it._igst }}</td>{% else %}<td class="r">{{ it._cgst }}</td><td class="r">{{ it._sgst }}</td>{% endif %}
+    <td class="r">{{ it._line_total }}</td></tr>
+  {% endfor %}
+</table>
+<table style="width:50%;margin-left:auto;margin-top:6px">
+  <tr><td>Total Taxable Value</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+  {% if interstate %}<tr><td>Total IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+  {% else %}<tr><td>Total CGST</td><td class="r">{{ r.cgst_amount }}</td></tr>
+  <tr><td>Total SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+  <tr><td>Round Off</td><td class="r">{{ r.round_off }}</td></tr>
+  <tr><td class="b">Total Invoice Value</td><td class="r b">{{ r.grand_total }}</td></tr>
+</table>
+<div style="margin-top:5px">Amount in words: <span class="b">{{ r.amount_in_words }}</span></div>

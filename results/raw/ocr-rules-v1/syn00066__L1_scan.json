@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00066__L1_scan",
+ "doc_id": "syn00066",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-02",
+  "seller_name": "Menon Trading Co. Limited NOTRE",
+  "seller_gstin": "36FJWPM7302U6ZT",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Menon Trading Co. Limited NOTRE\nGala No. 412, Kalbadevi Road, Hyderabad, Telangana-507904 Dt: 02/05/2025\nGSTIN: 36FJWPM7302U6ZT | State: Telangana (36) RCM: N\n1 [Foam Mattress 72x36 [9404/4 |NOS|10504.21] __-|10594.21|18/ 1906.96| 12501.17\n2 [OPC 53Grade Cement 50kg __\u2014\u2014[2523|-266|BAG| _400.83| __\u2014_-| 106620.78 | 28|29853.82/ 136474.60\n17167.44\n4 |Glucose Biscuits 200g [1905] 81 |BOX| 414.28) | 33556.68|18) 6040.20| 39596.88\n5 |Hard Bound Register 200 Pages [4820|__726|NOS|_105.53| ___\u2014-|_76614.78|18|13790.66) 90405.44\n6 [Cotton Woven Fabric 44 inch | 5208| 428.323|MTR| 188.76| _\u2014-| 80850.25| 5 | 4042.51) 84892.76\n7169.77\n8 [Refined SugarS-30_ | 1701) 1063.441|KGS|__46.48|2471.44| 46957.30| 5 | 2347.87] 49305.17\nQlAssamCTCTeaLeaf \u2014\u2014\u2014[0902|12.590|KGS|_196.91| 123.96 2355.14| 5| 117.76) 2472.90\n10/TMT Steel Bar Fe-500 12mm \u2014__\u2014|7214/ 0.100|TON| 48580.79| __\u2014-|_4858.08)18| 874.45) 5732.53\n12/Stainless Steel Cutlery Set __\u2014\u2014\u2014([8215|_8| SET|_576.53|__\u2014-|_4612.24/18| 830.20/ 5442.44\n13/Laptop Computeri5 16GB |8471| 1 NOS|77881.19| __-| 7881.19) 18|14018.61/ 91899.80\n470608.97\n78450.53\n0.50\n549060.00\n\nRs. in words: Rupees Five Lakh Forty Nine Thousand Sixty Only\nFor Menon Trading Co. Limited\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8883,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1216,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00039__L3_harsh",
+ "doc_id": "syn00039",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "RC25-06-0023",
+  "invoice_date": "2025-06-14",
+  "seller_name": "Ravi Logistics Private Limited",
+  "seller_gstin": "27AAACR3932F1ZS",
+  "seller_address": "B-28, B. P. Road, Noida, Uttar Pradesh 201301",
+  "buyer_name": "Oxide Marketing LLP",
+  "buyer_gstin": "27AAGCO8022M1ZD",
+  "buyer_address": "House No. 101, Sector 32, Noida, Uttar Pradesh 201301",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton\nWoven Fabric\n44 inch.",
+    "hsn_sac": "5208",
+    "quantity": 47.396,
+    "unit": "MTB",
+    "unit_price": 172.57,
+    "discount": null,
+    "taxable_value": 8177.1,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 363,
+    "unit": "NOS",
+    "unit_price": 24.64,
+    "discount": null,
+    "taxable_value": 9437.12,
+    "tax_rate": 18
+   },
+   {
+    "description": "Bismuth Rose\nBroken 5kg",
+    "hsn_sac": "1006",
+    "quantity": 361.254,
+    "unit": "KGS",
+    "unit_price": 95.01,
+    "discount": 63.65,
+    "taxable_value": 33980.32,
+    "tax_rate": 5
+   },
+   {
+    "description": "Alumun CTC\nNo Leaf",
+    "hsn_sac": "0902",
+    "quantity": 263.272,
+    "unit": "KGS",
+    "unit_price": 319.23,
+    "discount": null,
+    "taxable_value": 84044.32,
+    "tax_rate": 5
+   },
+   {
+    "description": "Insulated\nCopper Cable\n1 Sqmm",
+    "hsn_sac": "8544",
+    "quantity": 150.377,
+    "unit": "MTB",
+    "unit_price": 47.28,
+    "discount": null,
+    "taxable_value": 7108.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol\nIP 650mg\nTablets",
+    "hsn_sac": "3004",
+    "quantity": 27,
+    "unit": "BOX",
+    "unit_price": 60.32,
+    "discount": null,
+    "taxable_value": 1387.36,
+    "tax_rate": 12
+   },
+   {
+    "description": "TMT Steel\nBar Fe-500\n12mm",
+    "hsn_sac": "7214",
+    "quantity": 8.169,
+    "unit": "TON",
+    "unit_price": 49421.76,
+    "discount": null,
+    "taxable_value": 4042.18,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 140086.74,
+  "cgst_amount": 3502.17,
+  "sgst_amount": 3502.17,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.13,
+  "grand_total": 159433.0,
+  "amount_in_words": "Rupees One Lakh Fifty Nine Thousand Four Hundred and Thirty Three Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"RC25-06-0023\",\n  \"invoice_date\": \"2025-06-14\",\n  \"seller_name\": \"Ravi Logistics Private Limited\",\n  \"seller_gstin\": \"27AAACR3932F1ZS\",\n  \"seller_address\": \"B-28, B. P. Road, Noida, Uttar Pradesh 201301\",\n  \"buyer_name\": \"Oxide Marketing LLP\",\n  \"buyer_gstin\": \"27AAGCO8022M1ZD\",\n  \"buyer_address\": \"House No. 101, Sector 32, Noida, Uttar Pradesh 201301\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Cotton\\nWoven Fabric\\n44 inch.\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 47.396,\n      \"unit\": \"MTB\",\n      \"unit_price\": 172.57,\n      \"discount\": null,\n      \"taxable_value\": 8177.10,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 363,\n      \"unit\": \"NOS\",\n      \"unit_price\": 24.64,\n      \"discount\": null,\n      \"taxable_value\": 9437.12,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Bismuth Rose\\nBroken 5kg\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 361.254,\n      \"unit\": \"KGS\",\n      \"unit_price\": 95.01,\n      \"discount\": 63.65,\n      \"taxable_value\": 33980.32,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Alumun CTC\\nNo Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 263.272,\n      \"unit\": \"KGS\",\n      \"unit_price\": 319.23,\n      \"discount\": null,\n      \"taxable_value\": 84044.32,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Insulated\\nCopper Cable\\n1 Sqmm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 150.377,\n      \"unit\": \"MTB\",\n      \"unit_price\": 47.28,\n      \"discount\": null,\n      \"taxable_value\": 7108.64,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Paracetamol\\nIP 650mg\\nTablets\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 27,\n      \"unit\": \"BOX\",\n      \"unit_price\": 60.32,\n      \"discount\": null,\n      \"taxable_value\": 1387.36,\n      \"tax_rate\": 12\n    },\n    {\n      \"description\": \"TMT Steel\\nBar Fe-500\\n12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 8.169,\n      \"unit\": \"TON\",\n      \"unit_price\": 49421.76,\n      \"discount\": null,\n      \"taxable_value\": 4042.18,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 140086.74,\n  \"cgst_amount\": 3502.17,\n  \"sgst_amount\": 3502.17,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.13,\n  \"grand_total\": 159433.00,\n  \"amount_in_words\": \"Rupees One Lakh Fifty Nine Thousand Four Hundred and Thirty Three Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1770,
+ "output_tokens": 984,
+ "cached_input_tokens": 0,
+ "latency_s": 14.3908,
+ "cost_usd": 0.000593424,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

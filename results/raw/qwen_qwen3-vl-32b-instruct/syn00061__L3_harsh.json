@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00061__L3_harsh",
+ "doc_id": "syn00061",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-001",
+  "invoice_date": "2023-04-15",
+  "seller_name": "Mohan Infotech Pvt. Ltd.",
+  "seller_gstin": "27AAAAA0000A1Z5",
+  "seller_address": "Plot No. 123, Rajiv Gandhi IT Park, Hyderabad, Telangana - 500032",
+  "buyer_name": "Rajesh Traders",
+  "buyer_gstin": "27BBBBB0000B1Z8",
+  "buyer_address": "Plot No. 456, Kothapet Main Road, Hyderabad, Telangana - 500034",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": "IRN12345678901234567890123456789012345678901234567890123456789012",
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NO'S",
+    "unit_price": 17000.5,
+    "discount": null,
+    "taxable_value": 34001,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer @ 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NO'S",
+    "unit_price": 65004.35,
+    "discount": null,
+    "taxable_value": 65004.35,
+    "tax_rate": 18
+   },
+   {
+    "description": "HOPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 8.5,
+    "unit": "KGS",
+    "unit_price": 123.97,
+    "discount": null,
+    "taxable_value": 1053.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Acucon CTC Tea Leaf",
+    "hsn_sac": "9802",
+    "quantity": 12.5,
+    "unit": "KGS",
+    "unit_price": 301.59,
+    "discount": null,
+    "taxable_value": 3769.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 2.5,
+    "unit": "SET",
+    "unit_price": 774.74,
+    "discount": null,
+    "taxable_value": 1936.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.1,
+    "unit": "TON",
+    "unit_price": 54058.3,
+    "discount": null,
+    "taxable_value": 5405.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NO'S",
+    "unit_price": 15805.83,
+    "discount": null,
+    "taxable_value": 15805.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hay Bale with Net M12",
+    "hsn_sac": "7318",
+    "quantity": 20.0,
+    "unit": "KGS",
+    "unit_price": 23.27,
+    "discount": null,
+    "taxable_value": 465.4,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 141143.28,
+  "cgst_amount": 12702.89,
+  "sgst_amount": 12702.89,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.94,
+  "grand_total": 166548.48,
+  "amount_in_words": "One Lakh Sixty-Six Thousand Five Hundred Forty-Eight Rupees and Forty-Eight Paise Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-001\",\n  \"invoice_date\": \"2023-04-15\",\n  \"seller_name\": \"Mohan Infotech Pvt. Ltd.\",\n  \"seller_gstin\": \"27AAAAA0000A1Z5\",\n  \"seller_address\": \"Plot No. 123, Rajiv Gandhi IT Park, Hyderabad, Telangana - 500032\",\n  \"buyer_name\": \"Rajesh Traders\",\n  \"buyer_gstin\": \"27BBBBB0000B1Z8\",\n  \"buyer_address\": \"Plot No. 456, Kothapet Main Road, Hyderabad, Telangana - 500034\",\n  \"place_of_supply\": \"Telangana\",\n  \"reverse_charge\": null,\n  \"irn\": \"IRN12345678901234567890123456789012345678901234567890123456789012\",\n  \"line_items\": [\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 2,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 17000.5,\n      \"discount\": null,\n      \"taxable_value\": 34001,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer @ 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 65004.35,\n      \"discount\": null,\n      \"taxable_value\": 65004.35,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HOPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 8.50,\n      \"unit\": \"KGS\",\n      \"unit_price\": 123.97,\n      \"discount\": null,\n      \"taxable_value\": 1053.75,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Acucon CTC Tea Leaf\",\n      \"hsn_sac\": \"9802\",\n      \"quantity\": 12.50,\n      \"unit\": \"KGS\",\n      \"unit_price\": 301.59,\n      \"discount\": null,\n      \"taxable_value\": 3769.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 2.50,\n      \"unit\": \"SET\",\n      \"unit_price\": 774.74,\n      \"discount\": null,\n      \"taxable_value\": 1936.85,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 0.10,\n      \"unit\": \"TON\",\n      \"unit_price\": 54058.3,\n      \"discount\": null,\n      \"taxable_value\": 5405.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 15805.83,\n      \"discount\": null,\n      \"taxable_value\": 15805.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hay Bale with Net M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 20.00,\n      \"unit\": \"KGS\",\n      \"unit_price\": 23.27,\n      \"discount\": null,\n      \"taxable_value\": 465.4,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 141143.28,\n  \"cgst_amount\": 12702.89,\n  \"sgst_amount\": 12702.89,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.94,\n  \"grand_total\": 166548.48,\n  \"amount_in_words\": \"One Lakh Sixty-Six Thousand Five Hundred Forty-Eight Rupees and Forty-Eight Paise Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1827,
+ "output_tokens": 1108,
+ "cached_input_tokens": 0,
+ "latency_s": 12.7121,
+ "cost_usd": 0.000650936,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

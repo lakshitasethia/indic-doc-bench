@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00065__L0_clean",
+ "doc_id": "syn00065",
+ "level": "L0_clean",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Sharma",
+  "invoice_date": null,
+  "seller_name": "FROM BILLED TO INVOICE #",
+  "seller_gstin": "21IHRFS6464S4ZJ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "21XZJFS1028T8ZN",
+  "buyer_address": null,
+  "place_of_supply": "Odisha",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "463829.16",
+  "cgst_amount": "45421.33",
+  "sgst_amount": "45421.33",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.18",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "FROM BILLED TO INVOICE #\nSharma Distributors Private Limited Sharma Agencies Private Limited TAX-A-0227\nDoor No. 154, Naraina Vihar Khasra No. 414, Udyog Vihar ISSUED\nCuttack 752023 Bhubaneswar 754167 25 J 2025\nOdisha Odisha une\nGSTIN GSTIN PLACE OF SUPPLY\n21IHRFS6464S4ZJ 21XZJFS1028T8ZN Odisha\nDESCRIPTION HSN QTY RATE GST AMOUNT\nBasmati Rice (Broken 5%) 1006 156.699 KGS 77.76 5% 12184.91\nGlucose Biscuits 200g 1905 496 BOX 271.40 18% 134614.40\nSynthetic Enamel Paint 4L 3208 209.075 LTR 652.61 18% 136444.44\nHard Bound Register 200 Pages 4820 13 NOS 78.06 18% 964.04\nLaptop Computer i5 16GB 8471 1NOS 85276.54 18% 85276.54\nRadial Tyre 195/65 R15 4011 15 NOS 6271.89 28% 89374.43\nMS Hex Bolt with Nut M12 7318 190 NOS 26.16 18% 4970.40\nSubtotal 463829.16\nCGST 45421.33\nSGST 45421.33\nRounding 0.18\nTotal ~554672.00\nRupees Five Lakh Fifty Four Thousand Six Hundred and Seventy Two Only\nHDFC Bank - 44677295041448 - OURL0538699\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5574,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 928,
+  "gstins_found": 2
+ }
+}

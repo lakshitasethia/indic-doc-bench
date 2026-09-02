@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00022__L3_harsh",
+ "doc_id": "syn00022",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2023-07-11",
+  "invoice_date": "2023-07-11",
+  "seller_name": "Nawabji Sales Corporation",
+  "seller_gstin": "29AAFPSY220HNP",
+  "seller_address": "Mallika Products - 25, 2nd Floor, Near SBI Bank, Vidhya, Madhya Pradesh - 462021",
+  "buyer_name": "Sarvesh Electronics LLP",
+  "buyer_gstin": "23AAECS8013R1ZM",
+  "buyer_address": "Mallika Products, 13 Ganga Road, Indore, Madhya Pradesh - 452001",
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Refined Sugar C",
+    "hsn_sac": "1701",
+    "quantity": 38.541,
+    "unit": "KGS",
+    "unit_price": 38.85,
+    "discount": null,
+    "taxable_value": 2274.43,
+    "tax_rate": 5
+   },
+   {
+    "description": "Carbon Dioxide",
+    "hsn_sac": "5208",
+    "quantity": 894.311,
+    "unit": "MTA",
+    "unit_price": 143.53,
+    "discount": null,
+    "taxable_value": 146246.68,
+    "tax_rate": 5
+   },
+   {
+    "description": "Fabric 48 inch",
+    "hsn_sac": "9902",
+    "quantity": 86.013,
+    "unit": "KGS",
+    "unit_price": 246.84,
+    "discount": null,
+    "taxable_value": 21804.12,
+    "tax_rate": 5
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 0,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 170325.23,
+  "cgst_amount": 56.86,
+  "sgst_amount": 56.86,
+  "igst_amount": null,
+  "cess_amount": 0.0,
+  "round_off": -0.13,
+  "grand_total": 170441.0,
+  "amount_in_words": "Rupees One Lakh Seventy Eight Thousand Four Hundred and Forty One Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2023-07-11\",\n  \"invoice_date\": \"2023-07-11\",\n  \"seller_name\": \"Nawabji Sales Corporation\",\n  \"seller_gstin\": \"29AAFPSY220HNP\",\n  \"seller_address\": \"Mallika Products - 25, 2nd Floor, Near SBI Bank, Vidhya, Madhya Pradesh - 462021\",\n  \"buyer_name\": \"Sarvesh Electronics LLP\",\n  \"buyer_gstin\": \"23AAECS8013R1ZM\",\n  \"buyer_address\": \"Mallika Products, 13 Ganga Road, Indore, Madhya Pradesh - 452001\",\n  \"place_of_supply\": \"Madhya Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Refined Sugar C\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 38.541,\n      \"unit\": \"KGS\",\n      \"unit_price\": 38.85,\n      \"discount\": null,\n      \"taxable_value\": 2274.43,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Carbon Dioxide\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 894.311,\n      \"unit\": \"MTA\",\n      \"unit_price\": 143.53,\n      \"discount\": null,\n      \"taxable_value\": 146246.68,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Fabric 48 inch\",\n      \"hsn_sac\": \"9902\",\n      \"quantity\": 86.013,\n      \"unit\": \"KGS\",\n      \"unit_price\": 246.84,\n      \"discount\": null,\n      \"taxable_value\": 21804.12,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": null,\n      \"quantity\": null,\n      \"unit\": null,\n      \"unit_price\": null,\n      \"discount\": null,\n      \"taxable_value\": 0,\n      \"tax_rate\": null\n    }\n  ],\n  \"total_taxable_value\": 170325.23,\n  \"cgst_amount\": 56.86,\n  \"sgst_amount\": 56.86,\n  \"igst_amount\": null,\n  \"cess_amount\": 0.00,\n  \"round_off\": -0.13,\n  \"grand_total\": 170441.00,\n  \"amount_in_words\": \"Rupees One Lakh Seventy Eight Thousand Four Hundred and Forty One Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1688,
+ "output_tokens": 657,
+ "cached_input_tokens": 0,
+ "latency_s": 13.7563,
+ "cost_usd": 0.00044886400000000004,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

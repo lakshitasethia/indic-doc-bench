@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00043__L3_harsh",
+ "doc_id": "syn00043",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "\u2014 ec \u00e9 .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "\u2014 ec \u00e9 .\n[ie ag ey \u2014s\nJones 28. Rin nt Sie i monte tee \"7 ares\n} * Prive esc, (em isms\nI dure Apert Pharm ro\nJ | *| ser me LO) whercag wim Lu pI\nSS eee SRS\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.1837,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 156,
+  "gstins_found": 0
+ }
+}

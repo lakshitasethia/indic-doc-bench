@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00062__L2_photo",
+ "doc_id": "syn00062",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-10",
+  "seller_name": "CHAUHAN & SONS PVT. LTD. \u00e9",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "231053.88",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "37095.28",
+  "cess_amount": null,
+  "round_off": "0.16",
+  "grand_total": "268149.00",
+  "amount_in_words": null
+ },
+ "raw": "CHAUHAN & SONS PVT. LTD. \u00e9\nShop No. 285, Kalbadevi Road, Kanpur - 231247 (Uttar Pradesh)\nGSTIN: ;, O9YUBCCS492T9ZR State Code : 09 *\ni\nTAX INVOICE\nM/s. Patel Solutions Bill No. : INV/25-26/8512\nUnit No. 103, MG Road Date : 10.10.2025\nPanipat - 130854 R.C.M. : NO\nGSTIN : O6WPVPP1160112ZY :\nPlace of Supply : 06-Haryana :\nina me\n| 2 [Paracetanot IP 650mg Tablets \u2014 30.75. 74907.00\n| 2 [Leather Formal Shoes 1700.06| 74802.64| |\n| 3 [corrugated Carton-Box 5-Ply 14 NOS 62.17 870.38\n| 4 [Laptop Computer i5 16GB 1 Nos| 80473.86 80473.86\nTOTAL| 231053.88\nHSN / SAC Summary Taxable Value 231053.88\nusw | \u2018Taxable | Rate | Taxant | Add: IGST 37095.28\n3004 74907.00 8988.84| Round Off -0.16\n6403 74802.64 13464.48| |NET PAYABLE Rs. 268149.00\n4819 870.38| 18% 156.67\n8471 80473.86| 18% 14485.29\nRupees in words + Rupees Two Lakh Sixty Eight Thousand One Hundred and Forty Nine Only\nReceiver's Signature For CHAUHAN 6 SONS PVT. LTD.\nAuthorised Signatory\nNN\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6598,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 948,
+  "gstins_found": 0
+ }
+}

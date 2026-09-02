@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00081__L3_harsh",
+ "doc_id": "syn00081",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "G Payee tai eee 5S",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "G Payee tai eee 5S\nmeh \u2018 Peay OARS SS\ngare Steet & Aleve bP x ete Ms porno)\nPee 35. a, Pompe sind Mage 5 ai ere en\nFhave of Seaety: Cmsaont 3: a 4\n\u2014 Stuntenn \u2014 Ss nT ee ome \u2014\nsetey \\ migmare 6 state ko (HOS Sete, Gog e aee ge\nYeates OUR aC Oe +5 ae NeaME DE en NS\n$ ine Hee iteien eS) Meh, Seer. AS ah gg\nwane He Pane ae oe Ae wens ease |\nTotal Tanstibe Valiie gaan\n\noner : Sseceabied\n\nwor eg\n\n= ramd Total (354240 ow\n\nAneenn Ys Seth Yay Sts Merman Yom amine entity eeily :\n\npt meme\n\nened\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3917,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 489,
+  "gstins_found": 0
+ }
+}

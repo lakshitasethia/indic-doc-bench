@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00083__L1_scan",
+ "doc_id": "syn00083",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-20",
+  "seller_name": "Document Type TAX INVOICE Invoice No $1/25-26/9550",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1.00",
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No $1/25-26/9550\nSupplier Kaur Textiles Invoice Date 20-01-2026\nSupplier GSTIN O9AEKFK5643W1ZY Terms Advance\nSupplier Address Khasra No. 86, Ring Road, Kanpur, Uttar Pradesh - 230526\nRecipient Gupta Enterprises Des al\nRecipient Address Plot No. 329, Okhla Phase I, Lucknow, Uttar Pradesh - 247857 Place of Supply Uttar Pradesh\nReverse Charge No Currency INR\nLine Seaton HSN_SAC Qty UQC Unit_Price Discount Taxable Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nLaptop\n1. Computer i5 8471 3 NOS) 58402.60 0.00 175207.80 18 _15768.70 15768.70, 206745.20\n16GB\nCorrugated\n2 Carton Box 4819 2755 NOS 36.09 0.00 99427.95 18 8948.52 8948.52 117324.99\n5-Ply\nCotton\n3 Round 6109 3 PCS 309.73 0.00 929.19 5 23.23 23.23 975.65\nNeck T-Shirt\nTotal_Taxable_Value 275564.94\nTotal_CGST 24740.45\nTotal_SGST 24740.45\nRound_Off 0.16\nGrand_Total 325046.00\nRupees Three Lakh Twenty\neeaealn words Five Thousand Forty Six Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6302,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 935,
+  "gstins_found": 0
+ }
+}

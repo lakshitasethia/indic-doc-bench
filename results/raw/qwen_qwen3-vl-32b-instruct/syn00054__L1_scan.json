@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00054__L1_scan",
+ "doc_id": "syn00054",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL7530",
+  "invoice_date": "2025-08-29",
+  "seller_name": "Reddy Solutions",
+  "seller_gstin": "23GMXFR2628A5ZB",
+  "seller_address": "Gala No. 168, Sector 63, Indore, Madhya Pradesh-456565",
+  "buyer_name": "Kulkarni Distributors",
+  "buyer_gstin": "32UQXFK4926N6Z0",
+  "buyer_address": "Unit No. 52, GIDC Estate, Thiruvananthapuram, Kerala-683242",
+  "place_of_supply": "32-Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 7245.15,
+    "discount": null,
+    "taxable_value": 28980.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 102,
+    "unit": "NOS",
+    "unit_price": 113.5,
+    "discount": null,
+    "taxable_value": 11577,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 74.061,
+    "unit": "KGS",
+    "unit_price": 176.78,
+    "discount": null,
+    "taxable_value": 13092.5,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 53650.1,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 9657.02,
+  "cess_amount": null,
+  "round_off": -0.12,
+  "grand_total": 63307,
+  "amount_in_words": "Rupees Sixty Three Thousand Three Hundred and Seven Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"DL7530\",\n  \"invoice_date\": \"2025-08-29\",\n  \"seller_name\": \"Reddy Solutions\",\n  \"seller_gstin\": \"23GMXFR2628A5ZB\",\n  \"seller_address\": \"Gala No. 168, Sector 63, Indore, Madhya Pradesh-456565\",\n  \"buyer_name\": \"Kulkarni Distributors\",\n  \"buyer_gstin\": \"32UQXFK4926N6Z0\",\n  \"buyer_address\": \"Unit No. 52, GIDC Estate, Thiruvananthapuram, Kerala-683242\",\n  \"place_of_supply\": \"32-Kerala\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 4,\n      \"unit\": \"NOS\",\n      \"unit_price\": 7245.15,\n      \"discount\": null,\n      \"taxable_value\": 28980.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 102,\n      \"unit\": \"NOS\",\n      \"unit_price\": 113.5,\n      \"discount\": null,\n      \"taxable_value\": 11577,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 74.061,\n      \"unit\": \"KGS\",\n      \"unit_price\": 176.78,\n      \"discount\": null,\n      \"taxable_value\": 13092.5,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 53650.1,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 9657.02,\n  \"cess_amount\": null,\n  \"round_off\": -0.12,\n  \"grand_total\": 63307,\n  \"amount_in_words\": \"Rupees Sixty Three Thousand Three Hundred and Seven Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3944,
+ "output_tokens": 565,
+ "cached_input_tokens": 0,
+ "latency_s": 8.3009,
+ "cost_usd": 0.000645216,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

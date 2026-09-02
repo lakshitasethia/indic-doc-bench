@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00062__L0_clean",
+ "doc_id": "syn00062",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/8512",
+  "invoice_date": "2025-10-10",
+  "seller_name": "CHAUHAN & SONS PVT. LTD.",
+  "seller_gstin": "09YUBCC5492T9ZR",
+  "seller_address": "Shop No. 285, Kalbadevi Road, Kanpur - 231247 (Uttar Pradesh)",
+  "buyer_name": "M/s. Patel Solutions",
+  "buyer_gstin": "06WPVPP1160I1ZY",
+  "buyer_address": "Unit No. 103, MG Road, Panipat - 130854",
+  "place_of_supply": "06-Haryana",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 2436,
+    "unit": "BOX",
+    "unit_price": 30.75,
+    "discount": null,
+    "taxable_value": 74907,
+    "tax_rate": 12
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 44,
+    "unit": "PRS",
+    "unit_price": 1700.06,
+    "discount": null,
+    "taxable_value": 74802.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 62.17,
+    "discount": null,
+    "taxable_value": 870.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 80473.86,
+    "discount": null,
+    "taxable_value": 80473.86,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 231053.88,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 37095.28,
+  "cess_amount": null,
+  "round_off": -0.16,
+  "grand_total": 268149,
+  "amount_in_words": "Rupees Two Lakh Sixty Eight Thousand One Hundred and Forty Nine Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/25-26/8512\",\n  \"invoice_date\": \"2025-10-10\",\n  \"seller_name\": \"CHAUHAN & SONS PVT. LTD.\",\n  \"seller_gstin\": \"09YUBCC5492T9ZR\",\n  \"seller_address\": \"Shop No. 285, Kalbadevi Road, Kanpur - 231247 (Uttar Pradesh)\",\n  \"buyer_name\": \"M/s. Patel Solutions\",\n  \"buyer_gstin\": \"06WPVPP1160I1ZY\",\n  \"buyer_address\": \"Unit No. 103, MG Road, Panipat - 130854\",\n  \"place_of_supply\": \"06-Haryana\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Paracetamol IP 650mg Tablets\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 2436,\n      \"unit\": \"BOX\",\n      \"unit_price\": 30.75,\n      \"discount\": null,\n      \"taxable_value\": 74907,\n      \"tax_rate\": 12\n    },\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 44,\n      \"unit\": \"PRS\",\n      \"unit_price\": 1700.06,\n      \"discount\": null,\n      \"taxable_value\": 74802.64,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Carton Box 5-Ply\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 14,\n      \"unit\": \"NOS\",\n      \"unit_price\": 62.17,\n      \"discount\": null,\n      \"taxable_value\": 870.38,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 80473.86,\n      \"discount\": null,\n      \"taxable_value\": 80473.86,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 231053.88,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 37095.28,\n  \"cess_amount\": null,\n  \"round_off\": -0.16,\n  \"grand_total\": 268149,\n  \"amount_in_words\": \"Rupees Two Lakh Sixty Eight Thousand One Hundred and Forty Nine Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3948,
+ "output_tokens": 673,
+ "cached_input_tokens": 0,
+ "latency_s": 8.5264,
+ "cost_usd": 0.0006905599999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

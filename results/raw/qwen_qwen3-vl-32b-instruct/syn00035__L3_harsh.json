@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00035__L3_harsh",
+ "doc_id": "syn00035",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "NA-04/2023",
+  "invoice_date": "2023-04-05",
+  "seller_name": "Narayana Electronics LLP",
+  "seller_gstin": "29AAACZ1087K1ZD",
+  "seller_address": "Near the 70th Main Road, Gandhinagar, Bengaluru, Karnataka, India - 560038",
+  "buyer_name": "Rajesh Kumar",
+  "buyer_gstin": null,
+  "buyer_address": "Near the 70th Main Road, Gandhinagar, Bengaluru, Karnataka, India - 560038",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Mobile Phone",
+    "hsn_sac": "85171200",
+    "quantity": 1,
+    "unit": "Nos",
+    "unit_price": 28800,
+    "discount": 0,
+    "taxable_value": 28800,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 28800,
+  "cgst_amount": 2592,
+  "sgst_amount": 2592,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0,
+  "grand_total": 33984,
+  "amount_in_words": "Thirty Three Thousand Nine Hundred And Eighty Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"NA-04/2023\",\n  \"invoice_date\": \"2023-04-05\",\n  \"seller_name\": \"Narayana Electronics LLP\",\n  \"seller_gstin\": \"29AAACZ1087K1ZD\",\n  \"seller_address\": \"Near the 70th Main Road, Gandhinagar, Bengaluru, Karnataka, India - 560038\",\n  \"buyer_name\": \"Rajesh Kumar\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Near the 70th Main Road, Gandhinagar, Bengaluru, Karnataka, India - 560038\",\n  \"place_of_supply\": \"Karnataka\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Mobile Phone\",\n      \"hsn_sac\": \"85171200\",\n      \"quantity\": 1,\n      \"unit\": \"Nos\",\n      \"unit_price\": 28800,\n      \"discount\": 0,\n      \"taxable_value\": 28800,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 28800,\n  \"cgst_amount\": 2592,\n  \"sgst_amount\": 2592,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0,\n  \"grand_total\": 33984,\n  \"amount_in_words\": \"Thirty Three Thousand Nine Hundred And Eighty Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1637,
+ "output_tokens": 365,
+ "cached_input_tokens": 0,
+ "latency_s": 5.9527,
+ "cost_usd": 0.00032208799999999994,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

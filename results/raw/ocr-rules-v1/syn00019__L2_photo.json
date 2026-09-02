@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00019__L2_photo",
+ "doc_id": "syn00019",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2028-11-24",
+  "seller_name": "ai enn sus roe noe",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "ai enn sus roe noe\nWest Bengal - 736380 rey bate 24/11/2028\nvtcw\u00e9ontes / GSTIN: 19RZIFM62081473 \u2018ran ea / Terms epee\n| / Buyer: Mehra Distributors Private Limited\nShop No. 285, Ambattur Industrial Estate, Siliguri; West Bengal - 725433\nGSTIN: T9LHLFM1052G5z) | amytteens / Place of Supply: West Bengal\noe els Ps SETS su\nmeet fesr| \u201cwos rw fe sro\nae OR\na\nee ea\noat [el rst se] wt eee\nees [on] osha sos ee\npinetSorse _ [rofancaens| ~afamorny spare\neat ae\nSee\nfos /fownson |\nent # / In words: Rupees Four Lakh \u2018Sixty Two Thousand Forty Three Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6251,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 544,
+  "gstins_found": 0
+ }
+}

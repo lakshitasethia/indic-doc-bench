@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00041__L2_photo",
+ "doc_id": "syn00041",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/6248",
+  "invoice_date": "2025-09-10",
+  "seller_name": "Pillai Polymers",
+  "seller_gstin": "10DFZFP6342B8ZS",
+  "seller_address": "Door No. 296, Okhla Phase I Muzaffarpur 806396 Bihar",
+  "buyer_name": "Gupta Solutions Pvt. Ltd.",
+  "buyer_gstin": "10QTTFG4165V1Z2",
+  "buyer_address": "Plot No. 362, Udyog Vihar Muzaffarpur 837942 Bihar",
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 15,
+    "unit": "NOS",
+    "unit_price": 112.48,
+    "discount": null,
+    "taxable_value": 1687.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 30068.8,
+    "discount": null,
+    "taxable_value": 30068.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 55,
+    "unit": "BOX",
+    "unit_price": 37.8,
+    "discount": null,
+    "taxable_value": 2079,
+    "tax_rate": 12
+   }
+  ],
+  "total_taxable_value": 33835,
+  "cgst_amount": 2982.78,
+  "sgst_amount": 2982.78,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.44,
+  "grand_total": 39801,
+  "amount_in_words": "Rupees Thirty Nine Thousand Eight Hundred and One Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/6248\",\n  \"invoice_date\": \"2025-09-10\",\n  \"seller_name\": \"Pillai Polymers\",\n  \"seller_gstin\": \"10DFZFP6342B8ZS\",\n  \"seller_address\": \"Door No. 296, Okhla Phase I Muzaffarpur 806396 Bihar\",\n  \"buyer_name\": \"Gupta Solutions Pvt. Ltd.\",\n  \"buyer_gstin\": \"10QTTFG4165V1Z2\",\n  \"buyer_address\": \"Plot No. 362, Udyog Vihar Muzaffarpur 837942 Bihar\",\n  \"place_of_supply\": \"Bihar\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 15,\n      \"unit\": \"NOS\",\n      \"unit_price\": 112.48,\n      \"discount\": null,\n      \"taxable_value\": 1687.2,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 30068.8,\n      \"discount\": null,\n      \"taxable_value\": 30068.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Paracetamol IP 650mg Tablets\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 55,\n      \"unit\": \"BOX\",\n      \"unit_price\": 37.8,\n      \"discount\": null,\n      \"taxable_value\": 2079,\n      \"tax_rate\": 12\n    }\n  ],\n  \"total_taxable_value\": 33835,\n  \"cgst_amount\": 2982.78,\n  \"sgst_amount\": 2982.78,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.44,\n  \"grand_total\": 39801,\n  \"amount_in_words\": \"Rupees Thirty Nine Thousand Eight Hundred and One Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2544,
+ "output_tokens": 574,
+ "cached_input_tokens": 0,
+ "latency_s": 9.5656,
+ "cost_usd": 0.00050336,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

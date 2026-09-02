@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00081__L0_clean",
+ "doc_id": "syn00081",
+ "level": "L0_clean",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TAX-C-3295",
+  "invoice_date": "2025-11-05",
+  "seller_name": "Gupta Overseas Pvt. Ltd.",
+  "seller_gstin": "24IPGCG0221B3ZE",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1.00",
+  "cgst_amount": "40136.78",
+  "sgst_amount": "40136.78",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.16",
+  "grand_total": "524240.00",
+  "amount_in_words": null
+ },
+ "raw": "Gupta Overseas Pvt. Ltd.\nUnit No. 300, Naraina Vihar, Rajkot, Gujarat - 388384\nGSTIN: 24IPGCG0221B3ZE \u00ab State Code: 24\nTAX INVOICE\nBill To .\nAgarwal Steel & Alloys LLP Invoice No. TAX-C-3295\nPlot No. 296, Peenya 2nd Stage Date 05-Nov-2025\nAhmedabad, Gujarat - 387698 Payment Terms Cash\nGSTIN: 24ZZHPA4119H5Zo Reverse Charge No\nPlace of Supply: Gujarat\nsr] Particulars HSN/SAC| Qty | Rate__| Taxable Value | GST% | Tax Amount |\n1 Stainless Steel Cutlery Set 8215 321 SET 538.11 172733.31 18%  31092.00\n2 Laptop Computer i5 16GB 8471 1NOS 60263.87  60263.87 18%  10847.50\n3 Smartphone 6GB/128GB 8517 6NOS 24130.39 144782.34 18%  26060.82\n4 Basmati Rice (Broken 5%) 1006 = 552.207 KGS 102.86 5370.01, 5% 268.50\n5 Instant Drink Premix 2106 297 PCS 169.16 50240.52 18% 9043.30\n6 OPC 53 Grade Cement 50kg 2523 23 BAG 459.85 10576.55 28% 2961.44\nTotal Taxable Value 443966.60\nCGST 40136.78\nSGST 40136.78\nRound Off -0.16\nGrand Total X 524240.00\nAmount in words: Rupees Five Lakh Twenty Four Thousand Two Hundred and Forty Only\nBank: ICICI Bank, A/c 8272735041668225, IFSC YOUY0512440, Ahmedabad\nFor Gupta Overseas Pvt. Ltd.\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7076,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1137,
+  "gstins_found": 1
+ }
+}

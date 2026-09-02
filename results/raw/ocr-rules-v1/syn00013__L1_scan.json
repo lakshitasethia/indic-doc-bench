@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00013__L1_scan",
+ "doc_id": "syn00013",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-11-06",
+  "seller_name": "TAX INVOIC E Naidu Marketing Pvt. Ltd.",
+  "seller_gstin": "36DEBCC9724J7ZZ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "91208.85",
+  "cgst_amount": "11948.97",
+  "sgst_amount": "11948.97",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "21.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOIC E Naidu Marketing Pvt. Ltd.\nGala No. 325, MG Road\nINV-2829 Warangal - Telangana 507378\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n06/11/2025 36NVSFNO0901K5ZF Telangana (36) No\nBILL TO SHIP TO\nChowdhury Pharma Limited Chowdhury Pharma Limited\nPlot No. 310, Udyog Vihar, Warangal, Telangana - 503937 Plot No. 310, Udyog Vihar, Warangal, Telangana - 503937\nGST NO.\n36DEBCC9724J7ZZ\n# Item & Description HSN/SAC Qty Rate Amount\nere an en eee se ee ee\n1 HDPE Packing Bags gon (180187 | teadeea\n2 Radial Tyre 195/65 R15 4011 11NOS 6319.54 69514.94\n3 OPC 53 Grade Cement 50kg 2523 14 BAG 37/./6 5288.64\nSub Total 91208.85\nCGST 11948.97\nSGST 11948.97\nRounding 021\nTotal (INR) %115107.00\nIN WORDS\nRupees One Lakh Fifteen Thousand One Hundred and Seven Only\nBank of Baroda : A/C 61628312586 - IFSC QVWT0662124 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7459,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 840,
+  "gstins_found": 1
+ }
+}

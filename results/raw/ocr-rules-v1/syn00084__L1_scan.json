@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00084__L1_scan",
+ "doc_id": "syn00084",
+ "level": "L1_scan",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL6253",
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": "08RHTPS6228C8ZA",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.18",
+  "grand_total": "134836.00",
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\nChauhan Sales Corporation Limited Invoice No. DL6253\nGala No. 272, Sector 63 Dated 30-Jul-2025\nGurugram, Haryana - 125110 Mode/Terms of Payment 45 Days\nState Name : Haryana, Code : 06\nBuyer (Bill to) IRN: 586fd2b6701ba39812d2f2 1 3b5abafd56250bac3ca30dca9 1 0fb83be8\nShetty & Sons Private Limited sae Pe\nDoor No. 109, Chandni Chowk 2 eee\nJodhpur, Rajasthan - 340946\nGSTIN/UIN: 08RHTPS6228C8ZA\nPlace of Supply : Rajasthan\n[Tee |\n%\nStainless Steel Cutlery Set 8215 554.41| 33819.01 6087.42\nCorrugated Carton Box 5-Ply 4819 | 3289 24.46| 80448.94 14480.81\n114267.95| | 20568.23\nRound Off -0.18\nGrand Total = 134836.00\nAmount Chargeable (in words): Rupees One Lakh Thirty Four Thousand Eight Hundred and Thirty Six\nOnly\nBank Name : Axis Bank\nAlc No. : 75246142954014\nBranch & IFSC : Jodhpur & NPHJ0631463 Authorised Signatory\nThis is a Computer Generated Invoice\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7259,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 871,
+  "gstins_found": 1
+ }
+}

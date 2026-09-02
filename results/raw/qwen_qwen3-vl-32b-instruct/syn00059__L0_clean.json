@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00059__L0_clean",
+ "doc_id": "syn00059",
+ "level": "L0_clean",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/8202",
+  "invoice_date": "2025-06-13",
+  "seller_name": "Kulkarni Distributors LLP",
+  "seller_gstin": "33WDWCK7545I5Z0",
+  "seller_address": "Unit No. 466, Peenya 2nd Stage, Salem, Tamil Nadu - 604323",
+  "buyer_name": "Joshi Traders Limited",
+  "buyer_gstin": "08ICGCJ0734R9ZJ",
+  "buyer_address": "Door No. 418, Ambattur Industrial Estate, Jodhpur, Rajasthan - 333093",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 27259.75,
+    "discount": 545.2,
+    "taxable_value": 26714.55,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 2600,
+    "unit": "NOS",
+    "unit_price": 24.77,
+    "discount": 0,
+    "taxable_value": 64402,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 12.618,
+    "unit": "MTR",
+    "unit_price": 107.76,
+    "discount": 0,
+    "taxable_value": 1359.72,
+    "tax_rate": 5
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 83765.11,
+    "discount": 8376.51,
+    "taxable_value": 75388.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4513.59,
+    "discount": 0,
+    "taxable_value": 4513.59,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 172378.46,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 30851.37,
+  "cess_amount": null,
+  "round_off": 0.17,
+  "grand_total": 203230,
+  "amount_in_words": "Rupees Two Lakh Three Thousand Two Hundred and Thirty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"TI/25-26/8202\",\n  \"invoice_date\": \"2025-06-13\",\n  \"seller_name\": \"Kulkarni Distributors LLP\",\n  \"seller_gstin\": \"33WDWCK7545I5Z0\",\n  \"seller_address\": \"Unit No. 466, Peenya 2nd Stage, Salem, Tamil Nadu - 604323\",\n  \"buyer_name\": \"Joshi Traders Limited\",\n  \"buyer_gstin\": \"08ICGCJ0734R9ZJ\",\n  \"buyer_address\": \"Door No. 418, Ambattur Industrial Estate, Jodhpur, Rajasthan - 333093\",\n  \"place_of_supply\": \"Rajasthan\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 27259.75,\n      \"discount\": 545.2,\n      \"taxable_value\": 26714.55,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 2600,\n      \"unit\": \"NOS\",\n      \"unit_price\": 24.77,\n      \"discount\": 0,\n      \"taxable_value\": 64402,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Woven Fabric 44 inch\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 12.618,\n      \"unit\": \"MTR\",\n      \"unit_price\": 107.76,\n      \"discount\": 0,\n      \"taxable_value\": 1359.72,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 83765.11,\n      \"discount\": 8376.51,\n      \"taxable_value\": 75388.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Foam Mattress 72x36\",\n      \"hsn_sac\": \"9404\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 4513.59,\n      \"discount\": 0,\n      \"taxable_value\": 4513.59,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 172378.46,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 30851.37,\n  \"cess_amount\": null,\n  \"round_off\": 0.17,\n  \"grand_total\": 203230,\n  \"amount_in_words\": \"Rupees Two Lakh Three Thousand Two Hundred and Thirty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3919,
+ "output_tokens": 782,
+ "cached_input_tokens": 0,
+ "latency_s": 10.3963,
+ "cost_usd": 0.0007328879999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

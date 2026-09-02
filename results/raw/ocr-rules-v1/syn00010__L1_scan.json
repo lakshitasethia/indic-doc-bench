@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00010__L1_scan",
+ "doc_id": "syn00010",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": "2025-05-24",
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "1853.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "185371.00",
+  "grand_total": "185371.00",
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\nSharma Sales Corporation LLP INV/25-26/4217 2025-05-24\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n677056\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS |\n[|e srsumn vane] ey | vee | mere | vomevone | fi [etoranu] eran\nq eyntnetic 3208 |232.635| LTR| 455.02|105853.58] 18 |9526.82| 9526.82\nEnamel Paint 4L : : : : :\nStainless Steel\nMultifunction\nOffice |\n4 |Workstation 9403 ns 194251-57| 14251.57) 18 | 1282.64| 1282.64\nTable\nee 9404 7036.48| 7036.48 6a3 8 633.26\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\nX 185371.00 \u2014 Rupees One Lakh Eighty Five Thousand Three Hundred and Seventy One Only |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6429,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 750,
+  "gstins_found": 0
+ }
+}

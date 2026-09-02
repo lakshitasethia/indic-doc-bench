@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00018__L3_harsh",
+ "doc_id": "syn00018",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Spice & Senses",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "1. Soft Rice Bisc with Nut 60g",
+    "hsn_sac": "7119",
+    "quantity": 85,
+    "unit": "NOS",
+    "unit_price": 32.45,
+    "discount": null,
+    "taxable_value": 2758.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "2. Taler Soup 150g",
+    "hsn_sac": "2407",
+    "quantity": 445,
+    "unit": "PCS",
+    "unit_price": 41.17,
+    "discount": null,
+    "taxable_value": 18322.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "3. Bernard Rice Breaker 400g",
+    "hsn_sac": "1905",
+    "quantity": 11.648,
+    "unit": "KGS",
+    "unit_price": 77.28,
+    "discount": null,
+    "taxable_value": 899.32,
+    "tax_rate": 18
+   },
+   {
+    "description": "4. Minnow Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 851,
+    "unit": "BOX",
+    "unit_price": 289.28,
+    "discount": null,
+    "taxable_value": 246180.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "5. Packer Yeo 100x50-50-5",
+    "hsn_sac": "4011",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 821.54,
+    "discount": null,
+    "taxable_value": 4107.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "6. Office Kitchenette Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 70879.01,
+    "discount": null,
+    "taxable_value": 141758.02,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 290446.94,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 52280.45,
+  "cess_amount": null,
+  "round_off": -0.06,
+  "grand_total": 342727.39,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": null,\n  \"invoice_date\": null,\n  \"seller_name\": \"Spice & Senses\",\n  \"seller_gstin\": null,\n  \"seller_address\": null,\n  \"buyer_name\": null,\n  \"buyer_gstin\": null,\n  \"buyer_address\": null,\n  \"place_of_supply\": null,\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"1. Soft Rice Bisc with Nut 60g\",\n      \"hsn_sac\": \"7119\",\n      \"quantity\": 85,\n      \"unit\": \"NOS\",\n      \"unit_price\": 32.45,\n      \"discount\": null,\n      \"taxable_value\": 2758.25,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"2. Taler Soup 150g\",\n      \"hsn_sac\": \"2407\",\n      \"quantity\": 445,\n      \"unit\": \"PCS\",\n      \"unit_price\": 41.17,\n      \"discount\": null,\n      \"taxable_value\": 18322.85,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"3. Bernard Rice Breaker 400g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 11.648,\n      \"unit\": \"KGS\",\n      \"unit_price\": 77.28,\n      \"discount\": null,\n      \"taxable_value\": 899.32,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"4. Minnow Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 851,\n      \"unit\": \"BOX\",\n      \"unit_price\": 289.28,\n      \"discount\": null,\n      \"taxable_value\": 246180.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"5. Packer Yeo 100x50-50-5\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 5,\n      \"unit\": \"NOS\",\n      \"unit_price\": 821.54,\n      \"discount\": null,\n      \"taxable_value\": 4107.7,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"6. Office Kitchenette Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 70879.01,\n      \"discount\": null,\n      \"taxable_value\": 141758.02,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 290446.94,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 52280.45,\n  \"cess_amount\": null,\n  \"round_off\": -0.06,\n  \"grand_total\": 342727.39,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1656,
+ "output_tokens": 752,
+ "cached_input_tokens": 0,
+ "latency_s": 25.3371,
+ "cost_usd": 0.000485056,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

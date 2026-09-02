@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00046__L1_scan",
+ "doc_id": "syn00046",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "12324.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "1232456.00",
+  "grand_total": "1232456.00",
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n507712\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY |\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\n[i [owcnin atin [wows] ev | one [_unnmne | Toevaue [RRS [ cnvammn | sesranein\nGlucose\nEee 200g 1905 401.12 186119.68] 18 16750.77 16750.77\nBes SUS | Seta: 129.83 6231.84] 18| 560.87| 560.87\nremix\nMultifunction\n8443 | 1) Nos]25433.19 2543.19] 18 2288.99 2288.99\nMonoblock\n4 |Water Pump | 8413 3}NOS| 5512.36] 16537.08/18] 1488.34] 1488.34\n1HP\nSynthetic\n5 |Enamel Paint | 3208 66.422] LTR 462.92| 30748.07/18] 2767.33 2767.33\n4L\nLaptop\nComputer i5 | 8471 1| NOS |82640.58] 82640.58/18]| 7437.65] 7437.65\n16GB |\nMS\n7 | Fabricated 7308 | 2031.676| KGS 126.55|257108.60)| 18 |23139.77 2313977,\nStructure\nBasmati Rice |\nEee 5%) 1006 15.525) KGS, 77.68 1205.98] 5. 30.15 30.45\nSmartphone\nfs eerie 8517 17526.04 35052.08| 18 3154.69} 3154.69\nDetergent\nino Bee ikg 3402 157.08 5654.88| 18| 508.94 508.94\nRadial Tyre |\nfea Beale R15 4011 7285.84 14571.68| 28 2040.04] 2040.04\nCotton\n12 | Woven Fabric} 5208 57.897|MTR 107.16 6204.24| 5 155.14 155,11\n44 inch |\nOPE 53 |\n13 |Grade 2523 981| BAG 371.36 | 346088.95| 28 |48452.45/48452.45\nCement 50kg\nRefined\n14] Refine S-30 1701 25.623] KGS 48.67 1247.07) 5 | S118 SL.1e\nTOTAL TAXABLE VALUE TOTAL CGST TOTAL SGST ROUND OFF\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS)\n 1232456.00 \u2014 Rupees Twelve Lakh Thirty Two Thousand Four Hundred and Fifty Six Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3297,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1478,
+  "gstins_found": 0
+ }
+}

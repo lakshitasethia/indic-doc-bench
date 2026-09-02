@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00054__L3_harsh",
+ "doc_id": "syn00054",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023/001",
+  "invoice_date": "2023-04-05",
+  "seller_name": "Ready Solutions",
+  "seller_gstin": "27AAAAA1234A1Z5",
+  "seller_address": "Plot No. 1, Sector 12, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "ABC Traders",
+  "buyer_gstin": "27BBBBB5678C2Z9",
+  "buyer_address": "Plot No. 5, Sector 15, Noida, Uttar Pradesh - 201301",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": "IRN12345678901234567890123456789012345678901234567890123456789012",
+  "line_items": [
+   {
+    "description": "Standard Size Pencil Set",
+    "hsn_sac": "9608",
+    "quantity": 100,
+    "unit": "Set",
+    "unit_price": 120,
+    "discount": 0,
+    "taxable_value": 12000,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 150,
+    "unit": "Book",
+    "unit_price": 150,
+    "discount": 0,
+    "taxable_value": 22500,
+    "tax_rate": 12
+   },
+   {
+    "description": "HCTP Packing Bags",
+    "hsn_sac": "3926",
+    "quantity": 74,
+    "unit": "Bag",
+    "unit_price": 100,
+    "discount": 0,
+    "taxable_value": 7400,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 41900,
+  "cgst_amount": 2514,
+  "sgst_amount": 2514,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.01,
+  "grand_total": 46914.01,
+  "amount_in_words": "Forty Six Thousand Nine Hundred Fourteen and One Paise Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/2023/001\",\n  \"invoice_date\": \"2023-04-05\",\n  \"seller_name\": \"Ready Solutions\",\n  \"seller_gstin\": \"27AAAAA1234A1Z5\",\n  \"seller_address\": \"Plot No. 1, Sector 12, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"ABC Traders\",\n  \"buyer_gstin\": \"27BBBBB5678C2Z9\",\n  \"buyer_address\": \"Plot No. 5, Sector 15, Noida, Uttar Pradesh - 201301\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": \"IRN12345678901234567890123456789012345678901234567890123456789012\",\n  \"line_items\": [\n    {\n      \"description\": \"Standard Size Pencil Set\",\n      \"hsn_sac\": \"9608\",\n      \"quantity\": 100,\n      \"unit\": \"Set\",\n      \"unit_price\": 120,\n      \"discount\": 0,\n      \"taxable_value\": 12000,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 150,\n      \"unit\": \"Book\",\n      \"unit_price\": 150,\n      \"discount\": 0,\n      \"taxable_value\": 22500,\n      \"tax_rate\": 12\n    },\n    {\n      \"description\": \"HCTP Packing Bags\",\n      \"hsn_sac\": \"3926\",\n      \"quantity\": 74,\n      \"unit\": \"Bag\",\n      \"unit_price\": 100,\n      \"discount\": 0,\n      \"taxable_value\": 7400,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 41900,\n  \"cgst_amount\": 2514,\n  \"sgst_amount\": 2514,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.01,\n  \"grand_total\": 46914.01,\n  \"amount_in_words\": \"Forty Six Thousand Nine Hundred Fourteen and One Paise Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1618,
+ "output_tokens": 608,
+ "cached_input_tokens": 0,
+ "latency_s": 8.3214,
+ "cost_usd": 0.0004212,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00021__L3_harsh",
+ "doc_id": "syn00021",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": ". Se",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": ". Se\nes\nain fi awore\u00ae\n2 eee & Ste\nRe . ye teen To eer\n\u2018 \u2014 ya A hee sa tenienns\n: : ete i Popmees orem =\n= : z ae aoa . Bree re -\nye 7 me eM Meet e \u2014_-= a +\ncore \u00a2 = ee inne\nee te . ne\n; ae a aoe a\na ts ta --, Pe henal = ne\n; ae ile 4 Tosa Tenable Vator we pes A\nFawr Janne emerren men o\u2014\nSag ; ai nen ee ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2796,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 307,
+  "gstins_found": 0
+ }
+}

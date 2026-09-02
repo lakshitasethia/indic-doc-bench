@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00001__L2_photo",
+ "doc_id": "syn00001",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-31",
+  "seller_name": "TAX INVOICE Reddy Overseas",
+  "seller_gstin": "36MOZFR6014P5Z1",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "5335.68",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "266.78",
+  "cess_amount": null,
+  "round_off": "46.00",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Reddy Overseas\nINVOICE DATE GST NO PLACE OF SUPPLY REVERSE CHARGE\n31/05/2025 36MOZFR6014P5Z1- \u00b0 Bihar (10) No\nBILLTO SHIP TO\nJoshi Trading Co. Joshi Trading Co.\nShop No. 123, Ambattur Industrial Estate, Muzaffarpur, Shop No. 123, Ambattur Industrial Estate, Muzaffarpur,\nBihar - 837777 Bihar - 837777\nGST NO.\n1ODTUFU8283M6ZD\nee eg\n4\u00b0 Assam CTC Tea Leaf ogo2 \u00ab14218 413.01 8335.68\n: Sub Total 5335.68\nIGST 266.78\nRounding 046.\nTotal (INR) _ %5602.00\nIN WORDS : ;\n___ Rupees Five Thousand Six Hundred and Two Only ; ; :\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.305,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 530,
+  "gstins_found": 1
+ }
+}

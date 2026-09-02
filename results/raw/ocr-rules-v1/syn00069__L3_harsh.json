@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00069__L3_harsh",
+ "doc_id": "syn00069",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Chauhsn Traders Private Uimited \u2014. ff aaatan a",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chauhsn Traders Private Uimited \u2014. ff aaatan a\naa team Sees ee sey : E fe +485\n\n\u00b0 TAK INVOICE it 4 = ~ Tae 3;\n\u2018mal ta s ins\nAabowetie fe Sasbe thentnedd teres Me, Se\nSiew tai, Bil\u201d Sgt forewet hime gta\nGSTIN oA HEF AGC i Mee ee\ncaw wer woe Creemaatig ACORN AME SSA IS a2\n\nmk Dt Sessa a\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2288,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 286,
+  "gstins_found": 0
+ }
+}

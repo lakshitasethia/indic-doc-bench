@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00087__L2_photo",
+ "doc_id": "syn00087",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-11-03",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE atetnce a",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "94241.40",
+  "cgst_amount": "2392.13",
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.34",
+  "grand_total": "99026.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE atetnce a\nNOT GENERATED oe eel\nAck NO. / Ack Date cetetanatat\n10000079878953 / 2025-11-03 cacecenesa\u201d\n\u2018Supplier Recipient Document Ne\nIyer Solutions Private Limited Chowdhury Marketing 0989\nKhasra No. 182, Focal Point, Indore, Gala No. 158, Industrial Estate, Indore, Document Date\nMadhya Pradesh 476451 Madhya Pradesh 480190 aaa} 1 \u201c03\n230SuPr9s7euxz1 23\u00a23ucc7904NazF 23 : Madhya Pradesh |\na] eaten | Hs [ev | oe Jomo [ooama] mame Pert Ant [rte] cosrame | seerane | vem]\nSynthetic (ee) | |\n1/Enamel /3208 1.034 537.01 ae 49.97) 49.97) 655.21\nPaint 4L | | |\n\u2014\u2014\u2014 |\nRefined | |\n2/Sugar S-/1701 1943.969 47.07 91502.62/ 5 2287.57/2287.57 96077.76\n30\nCotton\ncand 7|PCS/311.93 2183.511 5) 54,59 2\nNeck'7. ; ; 4. 54.59/ 2292.69\nShirt\nTotal Taxable Value 94241.40\nTotal CGST 2392.13\n.\nRound Off 0.34\nme Total Invoice Value 99026.00\nAmount in words: Rupees Ninety Ninie Thotisand Twenty Six Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4929,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 912,
+  "gstins_found": 0
+ }
+}

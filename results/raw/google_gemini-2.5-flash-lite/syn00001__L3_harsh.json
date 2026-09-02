@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00001__L3_harsh",
+ "doc_id": "syn00001",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "google/gemini-2.5-flash-lite",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023/0002",
+  "invoice_date": "2023-09-12",
+  "seller_name": "Reddy Overseas",
+  "seller_gstin": "29AAGCS1234K1Z5",
+  "seller_address": "No. 123, Archana Industrial Estate, Mudichur, Chennai - 600048",
+  "buyer_name": "Jovin Trading Co.",
+  "buyer_gstin": null,
+  "buyer_address": "No. 123, Archana Industrial Estate, Mudichur, Chennai - 600048",
+  "place_of_supply": "TAMIL NADU",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Assort CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 12.012,
+    "unit": "KGS",
+    "unit_price": 413.01,
+    "discount": null,
+    "taxable_value": 5335.68,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 5335.68,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 240.72,
+  "cess_amount": null,
+  "round_off": -0.4,
+  "grand_total": 5576.0,
+  "amount_in_words": "Five Thousand Five Hundred Seventy Six Rupees Only"
+ },
+ "raw": "```json\n{\n  \"invoice_number\": \"INV/2023/0002\",\n  \"invoice_date\": \"2023-09-12\",\n  \"seller_name\": \"Reddy Overseas\",\n  \"seller_gstin\": \"29AAGCS1234K1Z5\",\n  \"seller_address\": \"No. 123, Archana Industrial Estate, Mudichur, Chennai - 600048\",\n  \"buyer_name\": \"Jovin Trading Co.\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"No. 123, Archana Industrial Estate, Mudichur, Chennai - 600048\",\n  \"place_of_supply\": \"TAMIL NADU\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Assort CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 12.012,\n      \"unit\": \"KGS\",\n      \"unit_price\": 413.01,\n      \"discount\": null,\n      \"taxable_value\": 5335.68,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 5335.68,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 240.72,\n  \"cess_amount\": null,\n  \"round_off\": -0.40,\n  \"grand_total\": 5576.00,\n  \"amount_in_words\": \"Five Thousand Five Hundred Seventy Six Rupees Only\"\n}\n```",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2980,
+ "output_tokens": 431,
+ "cached_input_tokens": 0,
+ "latency_s": 5.0139,
+ "cost_usd": 0.0004704,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

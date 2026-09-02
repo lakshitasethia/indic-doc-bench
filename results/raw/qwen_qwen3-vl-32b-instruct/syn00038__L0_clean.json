@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00038__L0_clean",
+ "doc_id": "syn00038",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-2159",
+  "invoice_date": "2025-06-26",
+  "seller_name": "CHAUGHAN ELECTRICALS",
+  "seller_gstin": "29GVSPC1366N6ZN",
+  "seller_address": "Khasra No. 445, Ambattur Industrial Estate, Hubballi - 574493 (Karnataka)",
+  "buyer_name": "Kaur Solutions Limited",
+  "buyer_gstin": "09LLPCK1924Z7Z5",
+  "buyer_address": "Plot No. 392, Sector 63, Lucknow - 234720",
+  "place_of_supply": "09-Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 16,
+    "unit": "SET",
+    "unit_price": 446.35,
+    "discount": null,
+    "taxable_value": 7141.6,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 7141.6,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 1285.49,
+  "cess_amount": null,
+  "round_off": -0.09,
+  "grand_total": 8427,
+  "amount_in_words": "Rupees Eight Thousand Four Hundred and Twenty Seven Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-2159\",\n  \"invoice_date\": \"2025-06-26\",\n  \"seller_name\": \"CHAUGHAN ELECTRICALS\",\n  \"seller_gstin\": \"29GVSPC1366N6ZN\",\n  \"seller_address\": \"Khasra No. 445, Ambattur Industrial Estate, Hubballi - 574493 (Karnataka)\",\n  \"buyer_name\": \"Kaur Solutions Limited\",\n  \"buyer_gstin\": \"09LLPCK1924Z7Z5\",\n  \"buyer_address\": \"Plot No. 392, Sector 63, Lucknow - 234720\",\n  \"place_of_supply\": \"09-Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 16,\n      \"unit\": \"SET\",\n      \"unit_price\": 446.35,\n      \"discount\": null,\n      \"taxable_value\": 7141.6,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 7141.6,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 1285.49,\n  \"cess_amount\": null,\n  \"round_off\": -0.09,\n  \"grand_total\": 8427,\n  \"amount_in_words\": \"Rupees Eight Thousand Four Hundred and Twenty Seven Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3924,
+ "output_tokens": 383,
+ "cached_input_tokens": 0,
+ "latency_s": 8.2069,
+ "cost_usd": 0.000567424,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

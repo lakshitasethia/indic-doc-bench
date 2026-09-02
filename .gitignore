@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+# Corpus images are regenerable from the manifest seeds; the manifest and the
+# ground truth are what must be version-controlled.
+data/synthetic/pdf/
+data/synthetic/L*/
+data/real/
+!data/synthetic/manifest.json
+# Raw model responses are NOT ignored -- they are the primary artifact and
+# re-running to recover them costs real money.
+.DS_Store

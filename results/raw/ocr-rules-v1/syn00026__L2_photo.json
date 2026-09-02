@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00026__L2_photo",
+ "doc_id": "syn00026",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-02-13",
+  "seller_name": "MENON POLYMERS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "316585.18",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "56985.00",
+  "cess_amount": null,
+  "round_off": "0.49",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "MENON POLYMERS\nunit No. 31% Okhlia Phase iy Gurugram ~- 124816 (Haryana)\nGSTIN : O6VMBCM3002F4ZU State Code : 06\n: \u2018TAX. INVOICE\nM/s. Agarwal .& Sons private Limited Bill No. : Inv/25-26/0526\nGala No. 234, Sector 63 Date : 13.02.2026\nPatna - 833740 R.C.M. : YES\nGSTIN : LOSDGFA6607A72I\nPlace of Supply : 10-Bihar\n[smo] Particulars (ac el el Value (Rs-)\n| 1 [Glucose Biscuits 200g 186 pox| _223.71| 41610.06\n| 2 sore Packing Bags heed 130.88 5017.15\n| 3 loftice Workstation Table [3 /Nos| 10947.43 32842.29\n| 4 [snseant prink Premix a 203.01| 237115.68\nTOTAL| 316585.18\n\n7 Taxable Value 316585.18\na Add: , IGST 56985 .33\n\n1905 41610.06 7489.81| Round Off 0.49\n\nRupees in words : Rupees Three Lakh Seventy Three Thousand Five Hundred and Seventy One only\n\nBank: HDFC Bank, A/c 13977675635, Irsc BpyBS0743760\n\nReceiver's Signature For MENON POLYMERS\n\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4609,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 869,
+  "gstins_found": 0
+ }
+}

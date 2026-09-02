@@ -1,0 +1,189 @@
+{
+ "variant_id": "syn00046__L2_photo",
+ "doc_id": "syn00046",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-6854",
+  "invoice_date": "2025-04-15",
+  "seller_name": "Chauhan Logistics Private Limited",
+  "seller_gstin": "36HSMCC6418V9Z8",
+  "seller_address": "Door No. 471, Peenya 2nd Stage, Hyderabad, Telangana - 507712",
+  "buyer_name": "Fernandes Engineering Works Pvt. Ltd.",
+  "buyer_gstin": "36PJDCF8577U5ZE",
+  "buyer_address": "Shop No. 122, Focal Point, Hyderabad, Telangana - 509910",
+  "place_of_supply": "Telangana / 36",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 464,
+    "unit": "BOX",
+    "unit_price": 401.12,
+    "discount": null,
+    "taxable_value": 186119.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 129.83,
+    "discount": null,
+    "taxable_value": 6231.84,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 25433.19,
+    "discount": null,
+    "taxable_value": 25433.19,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 5512.36,
+    "discount": null,
+    "taxable_value": 16537.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 66.422,
+    "unit": "LTR",
+    "unit_price": 462.92,
+    "discount": null,
+    "taxable_value": 30748.07,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 82640.58,
+    "discount": null,
+    "taxable_value": 82640.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 2031.676,
+    "unit": "KGS",
+    "unit_price": 126.55,
+    "discount": null,
+    "taxable_value": 257108.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 15.525,
+    "unit": "KGS",
+    "unit_price": 77.68,
+    "discount": null,
+    "taxable_value": 1205.98,
+    "tax_rate": 5
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 17526.04,
+    "discount": null,
+    "taxable_value": 35052.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 36,
+    "unit": "PCS",
+    "unit_price": 157.08,
+    "discount": null,
+    "taxable_value": 5654.88,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 7285.84,
+    "discount": null,
+    "taxable_value": 14571.68,
+    "tax_rate": 28
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 57.897,
+    "unit": "MTR",
+    "unit_price": 107.16,
+    "discount": null,
+    "taxable_value": 6204.24,
+    "tax_rate": 5
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 981,
+    "unit": "BAG",
+    "unit_price": 371.36,
+    "discount": null,
+    "taxable_value": 346088.95,
+    "tax_rate": 28
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 25.623,
+    "unit": "KGS",
+    "unit_price": 48.67,
+    "discount": null,
+    "taxable_value": 1247.07,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 1014843.92,
+  "cgst_amount": 108806.28,
+  "sgst_amount": 108806.28,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.48,
+  "grand_total": 1232456,
+  "amount_in_words": "Rupees Twelve Lakh Thirty Two Thousand Four Hundred and Fifty Six Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-6854\",\n  \"invoice_date\": \"2025-04-15\",\n  \"seller_name\": \"Chauhan Logistics Private Limited\",\n  \"seller_gstin\": \"36HSMCC6418V9Z8\",\n  \"seller_address\": \"Door No. 471, Peenya 2nd Stage, Hyderabad, Telangana - 507712\",\n  \"buyer_name\": \"Fernandes Engineering Works Pvt. Ltd.\",\n  \"buyer_gstin\": \"36PJDCF8577U5ZE\",\n  \"buyer_address\": \"Shop No. 122, Focal Point, Hyderabad, Telangana - 509910\",\n  \"place_of_supply\": \"Telangana / 36\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 464,\n      \"unit\": \"BOX\",\n      \"unit_price\": 401.12,\n      \"discount\": null,\n      \"taxable_value\": 186119.68,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 48,\n      \"unit\": \"PCS\",\n      \"unit_price\": 129.83,\n      \"discount\": null,\n      \"taxable_value\": 6231.84,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 25433.19,\n      \"discount\": null,\n      \"taxable_value\": 25433.19,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 3,\n      \"unit\": \"NOS\",\n      \"unit_price\": 5512.36,\n      \"discount\": null,\n      \"taxable_value\": 16537.08,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Synthetic Enamel Paint 4L\",\n      \"hsn_sac\": \"3208\",\n      \"quantity\": 66.422,\n      \"unit\": \"LTR\",\n      \"unit_price\": 462.92,\n      \"discount\": null,\n      \"taxable_value\": 30748.07,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 82640.58,\n      \"discount\": null,\n      \"taxable_value\": 82640.58,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 2031.676,\n      \"unit\": \"KGS\",\n      \"unit_price\": 126.55,\n      \"discount\": null,\n      \"taxable_value\": 257108.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Basmati Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 15.525,\n      \"unit\": \"KGS\",\n      \"unit_price\": 77.68,\n      \"discount\": null,\n      \"taxable_value\": 1205.98,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 17526.04,\n      \"discount\": null,\n      \"taxable_value\": 35052.08,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 36,\n      \"unit\": \"PCS\",\n      \"unit_price\": 157.08,\n      \"discount\": null,\n      \"taxable_value\": 5654.88,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 7285.84,\n      \"discount\": null,\n      \"taxable_value\": 14571.68,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Cotton Woven Fabric 44 inch\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 57.897,\n      \"unit\": \"MTR\",\n      \"unit_price\": 107.16,\n      \"discount\": null,\n      \"taxable_value\": 6204.24,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 981,\n      \"unit\": \"BAG\",\n      \"unit_price\": 371.36,\n      \"discount\": null,\n      \"taxable_value\": 346088.95,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Refined Sugar S-30\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 25.623,\n      \"unit\": \"KGS\",\n      \"unit_price\": 48.67,\n      \"discount\": null,\n      \"taxable_value\": 1247.07,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 1014843.92,\n  \"cgst_amount\": 108806.28,\n  \"sgst_amount\": 108806.28,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.48,\n  \"grand_total\": 1232456,\n  \"amount_in_words\": \"Rupees Twelve Lakh Thirty Two Thousand Four Hundred and Fifty Six Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3495,
+ "output_tokens": 1614,
+ "cached_input_tokens": 0,
+ "latency_s": 21.8796,
+ "cost_usd": 0.001034904,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

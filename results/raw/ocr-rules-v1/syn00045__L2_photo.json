@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00045__L2_photo",
+ "doc_id": "syn00045",
+ "level": "L2_photo",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/5308",
+  "invoice_date": "2025-11-16",
+  "seller_name": "Sharma Technologies Limited",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1.00",
+  "cgst_amount": "4009.55",
+  "sgst_amount": "4009.55",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.27",
+  "grand_total": "52570.00",
+  "amount_in_words": null
+ },
+ "raw": "Sharma Technologies Limited\nTAX INVOICE\nBill To :\nMenon Agencies Limited Invoice No. 2025-26/5308\nUnit No. 41, Chandni Chowk Date 16-Nov-2025\nCoimbatore, Tamil Nadu - 628729 Payment Terms 30 Days\nGSTIN: Unregistered Reverse Charge No\nPlace of Supply: Tamil Nadu\nSr Particulars HSN/SAC Qty Rate Taxable Value GST Tax Amount\n1 MS Hex Bolt with Nut M12 : 7318 31NOS 34.65 1074.15 18% 193.34\n2 Detergent Powder ikg 3402 306 PCS 142.08 43476.48 18% 7825.76\nTotal Taxable Value 44550.63\nCGST 4009.55\nSGST 4009.55\nRound Off 0.27\nGrand Total % 52570.00\nAmount in words: Rupees Fifty Two Thousand Five Hundred and Seventy Only\nBank: Axis Bank, A/c 92604898052, IFSC BIVG0812927, Coimbatore\nFor Sharma Technologies Limited\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3925,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 734,
+  "gstins_found": 0
+ }
+}

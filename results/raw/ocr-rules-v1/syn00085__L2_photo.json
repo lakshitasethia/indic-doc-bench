@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00085__L2_photo",
+ "doc_id": "syn00085",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-11",
+  "seller_name": "TAX INVOICE Sethi Electricals",
+  "seller_gstin": "32WVUCS9804K3ZV",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "687401.56",
+  "cgst_amount": "56988.54",
+  "sgst_amount": "56988.54",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.36",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Sethi Electricals\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n11/01/2026 32WVUCS9804K3ZV Kerala (32) No\nBILL TO. SHIP TO\nBanerjee Technologies Banerjee Technologies\nDoor No. 243, GIDC Estate, Kozhikode, Kerala - 677759 Door No. 243, GIDC Estate, Kozhikode, Kerala - 677759\nGST\n4 Item & Description HSN/SAC Qty Rate \u2018Amount\n+ Leather Formal Shoes 6403 ae 4596.55 211223.56\n2 Glucose Biscuits 200g spa gpBOK  eesee - TONEAES\n3 Multifunction Laser Printer 8443 4NOS 17405.54 17405.54\n4 Corrugated Carton Box 5-Ply 4819 | 19NOS 65.51 1244.69\n5 Paracetamol IP 650mg Tablets 3004 oox 53.22 165886.74\n6 Hard Bound Register 200 Pages 4820 14 NOS 58.23 815.22\n7 HDPE Packing Bags 3923 wo 479.48  11250.70\n3 MS Hex Bolt with Nut M12 sae eswos. 1637 eet\n9 Instant Drink Premix 2106 fo 232.46  33939.16\n40 OPC 53 Grade Cement 50kg See eA ones\n41. Monoblock Water Pump 1HP gaia 52NOS 4282.71 22270092\nSub Total 687401.56\ncGsT 56988.54\nSGsT 56988.54\nRounding 0.36\nTotal (INR) %801379.00\nfines Eight Lakh One Thousand Three Hundred and Seventy Nine Only\nBank of Baroda : AIC 066765552792\" 413 - IFSC UYKJ08378 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5756,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1136,
+  "gstins_found": 1
+ }
+}

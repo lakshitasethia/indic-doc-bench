@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00020__L0_clean",
+ "doc_id": "syn00020",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-1539",
+  "invoice_date": "2025-04-17",
+  "seller_name": "NAIDU DISTRIBUTORS",
+  "seller_gstin": "23XDCCN0430D8ZB",
+  "seller_address": "Shop No. 10, Okhla Phase I Bhopal - 451661",
+  "buyer_name": "Sethi Solutions Limited",
+  "buyer_gstin": "09BNHPS4591I3Z9",
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 11,
+    "unit": "NOS",
+    "unit_price": 37671.95,
+    "discount": null,
+    "taxable_value": 414391.45,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 12,
+    "unit": "NOS",
+    "unit_price": 31058.78,
+    "discount": null,
+    "taxable_value": 372705.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 11,
+    "unit": "NOS",
+    "unit_price": 1170.8,
+    "discount": null,
+    "taxable_value": 12878.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 40484.3,
+    "discount": null,
+    "taxable_value": 80968.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 37134.44,
+    "discount": null,
+    "taxable_value": 111403.32,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 992347.53,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 130170.86,
+  "cess_amount": null,
+  "round_off": -0.39,
+  "grand_total": 1122518,
+  "amount_in_words": "Rupees Eleven Lakh Twenty Two Thousand Five Hundred and Eighteen Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-1539\",\n  \"invoice_date\": \"2025-04-17\",\n  \"seller_name\": \"NAIDU DISTRIBUTORS\",\n  \"seller_gstin\": \"23XDCCN0430D8ZB\",\n  \"seller_address\": \"Shop No. 10, Okhla Phase I Bhopal - 451661\",\n  \"buyer_name\": \"Sethi Solutions Limited\",\n  \"buyer_gstin\": \"09BNHPS4591I3Z9\",\n  \"buyer_address\": null,\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Commercial Training and Coaching Services\",\n      \"hsn_sac\": \"999293\",\n      \"quantity\": 11,\n      \"unit\": \"NOS\",\n      \"unit_price\": 37671.95,\n      \"discount\": null,\n      \"taxable_value\": 414391.45,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Road Transport Services of Goods\",\n      \"hsn_sac\": \"996511\",\n      \"quantity\": 12,\n      \"unit\": \"NOS\",\n      \"unit_price\": 31058.78,\n      \"discount\": null,\n      \"taxable_value\": 372705.36,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Repair Services of Computers and Peripherals\",\n      \"hsn_sac\": \"998721\",\n      \"quantity\": 11,\n      \"unit\": \"NOS\",\n      \"unit_price\": 1170.8,\n      \"discount\": null,\n      \"taxable_value\": 12878.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Other Professional and Technical Services\",\n      \"hsn_sac\": \"998399\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 40484.3,\n      \"discount\": null,\n      \"taxable_value\": 80968.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Information Technology Consulting Services\",\n      \"hsn_sac\": \"998313\",\n      \"quantity\": 3,\n      \"unit\": \"NOS\",\n      \"unit_price\": 37134.44,\n      \"discount\": null,\n      \"taxable_value\": 111403.32,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 992347.53,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 130170.86,\n  \"cess_amount\": null,\n  \"round_off\": -0.39,\n  \"grand_total\": 1122518,\n  \"amount_in_words\": \"Rupees Eleven Lakh Twenty Two Thousand Five Hundred and Eighteen Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2253,
+ "output_tokens": 732,
+ "cached_input_tokens": 0,
+ "latency_s": 26.5972,
+ "cost_usd": 0.0005388239999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00036__L2_photo",
+ "doc_id": "syn00036",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-2017",
+  "invoice_date": "2025-08-24",
+  "seller_name": "Pillai Infratech Limited",
+  "seller_gstin": "36IISPP3336I5ZG",
+  "seller_address": "Plot No. 290, Chandni Chowk Warangal, Telangana - 507729",
+  "buyer_name": "Ahuwalia Marketing Limited",
+  "buyer_gstin": "29KCSFA6502Q2ZB",
+  "buyer_address": "Unit No. 269, Ambattur Industrial Estate Mangaluru, Karnataka - 568287",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 5677.73,
+    "discount": null,
+    "taxable_value": 34066.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 88624.07,
+    "discount": null,
+    "taxable_value": 88624.07,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 1,
+    "unit": "BOX",
+    "unit_price": 453.6,
+    "discount": null,
+    "taxable_value": 453.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB\nLess: Discount 13984.21",
+    "hsn_sac": "8517",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 23307.01,
+    "discount": 13984.21,
+    "taxable_value": 125857.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30\nLess: Discount 8342.56",
+    "hsn_sac": "1701",
+    "quantity": 4253.151,
+    "unit": "KGS",
+    "unit_price": 39.23,
+    "discount": 8342.56,
+    "taxable_value": 158508.55,
+    "tax_rate": 5
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 158,
+    "unit": "NOS",
+    "unit_price": 58.14,
+    "discount": null,
+    "taxable_value": 9186.12,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 416696.57,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 54399.27,
+  "cess_amount": null,
+  "round_off": 0.16,
+  "grand_total": 471096,
+  "amount_in_words": "Rupees Four Lakh Seventy One Thousand Ninety Six Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-B-2017\",\n  \"invoice_date\": \"2025-08-24\",\n  \"seller_name\": \"Pillai Infratech Limited\",\n  \"seller_gstin\": \"36IISPP3336I5ZG\",\n  \"seller_address\": \"Plot No. 290, Chandni Chowk Warangal, Telangana - 507729\",\n  \"buyer_name\": \"Ahuwalia Marketing Limited\",\n  \"buyer_gstin\": \"29KCSFA6502Q2ZB\",\n  \"buyer_address\": \"Unit No. 269, Ambattur Industrial Estate Mangaluru, Karnataka - 568287\",\n  \"place_of_supply\": \"Karnataka\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Foam Mattress 72x36\",\n      \"hsn_sac\": \"9404\",\n      \"quantity\": 6,\n      \"unit\": \"NOS\",\n      \"unit_price\": 5677.73,\n      \"discount\": null,\n      \"taxable_value\": 34066.38,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 88624.07,\n      \"discount\": null,\n      \"taxable_value\": 88624.07,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"1905\",\n      \"quantity\": 1,\n      \"unit\": \"BOX\",\n      \"unit_price\": 453.6,\n      \"discount\": null,\n      \"taxable_value\": 453.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB/128GB\\nLess: Discount 13984.21\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 6,\n      \"unit\": \"NOS\",\n      \"unit_price\": 23307.01,\n      \"discount\": 13984.21,\n      \"taxable_value\": 125857.85,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Refined Sugar S-30\\nLess: Discount 8342.56\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 4253.151,\n      \"unit\": \"KGS\",\n      \"unit_price\": 39.23,\n      \"discount\": 8342.56,\n      \"taxable_value\": 158508.55,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Corrugated Carton Box 5-Ply\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 158,\n      \"unit\": \"NOS\",\n      \"unit_price\": 58.14,\n      \"discount\": null,\n      \"taxable_value\": 9186.12,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 416696.57,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 54399.27,\n  \"cess_amount\": null,\n  \"round_off\": 0.16,\n  \"grand_total\": 471096,\n  \"amount_in_words\": \"Rupees Four Lakh Seventy One Thousand Ninety Six Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2682,
+ "output_tokens": 902,
+ "cached_input_tokens": 0,
+ "latency_s": 17.6228,
+ "cost_usd": 0.00065416,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

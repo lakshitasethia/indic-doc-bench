@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00051__L3_harsh",
+ "doc_id": "syn00051",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "a |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "a |\n\u2014 \u2014 3 epee\npore \u2014 ae eee\n\u2014 53 ene We inna 5 TDI tad\n: mayan wince, we ena 3, a ane\n: in sauninie x) sxe Sea EES\nct ores, ao 5 me\nae pecs) eit nn ene ee saute re ne)\nBe eel war\noe mcm, ORE Taran we: cat ae, S|\nae os Ae ler ae ne al\ners yee, Eee amar wage. rege\neo een ee a oma\nwoe : \u201c i as i\nse, nantes, 10D senna \u00a3408 AA SARE ORE\nPo ; \u2018 paper Sea\nas te Nee ceil am, oe, ee\n_saeions inn arinae, PAR aD a en 1500-40 NTS an\nee ea 3 a Ss\nie ee veges sab 2 leanne\nhes toe Oe od \u2018ie a 4\na eon See a \u2018canta ures nereD\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5444,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 515,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00030__L2_photo",
+ "doc_id": "syn00030",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "\u2014\u2014\u2014",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "261.33",
+  "sgst_amount": "261.33",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "\u2014\u2014\u2014\nShetty Infratech Pvt. Ltd. nears\npate rage ar\n\u201cTor Sethi Sales Corporation Pvt. Lid., Khasra No. 30, IDG Phase ll, Panipat, Haryana-126511 | GSTIN: URP | POS: O6-Haryana\n[se] Particulars a a C\u2014O \u2018Armour\n/1 [Cotton Woven Fabric 44 inch _| 5208 MTR 741323] -| 1045305 |5| 261.33] 261.33 40975.71\n\nTaxable 10453.05\n\nCGST 261.33\n\nSGST 261.33\nRIO nie 0.29\n\nINET 40976.00\n\nRs. in words: Rupees Ten Thousand Nine Hundred and Seventy Sx Only\n\nFor Shetty intratech Pvt Lid.\n\nAuth. Sign\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2547,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 481,
+  "gstins_found": 0
+ }
+}

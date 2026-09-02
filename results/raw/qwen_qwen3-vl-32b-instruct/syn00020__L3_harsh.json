@@ -1,0 +1,48 @@
+{
+ "variant_id": "syn00020__L3_harsh",
+ "doc_id": "syn00020",
+ "level": "L3_harsh",
+ "template_id": "t09",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": null,
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": null,\n  \"invoice_date\": null,\n  \"seller_name\": null,\n  \"seller_gstin\": null,\n  \"seller_address\": null,\n  \"buyer_name\": null,\n  \"buyer_gstin\": null,\n  \"buyer_address\": null,\n  \"place_of_supply\": null,\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [],\n  \"total_taxable_value\": null,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": null,\n  \"grand_total\": null,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1508,
+ "output_tokens": 151,
+ "cached_input_tokens": 0,
+ "latency_s": 7.4603,
+ "cost_usd": 0.000219648,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00008__L0_clean",
+ "doc_id": "syn00008",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL2629",
+  "invoice_date": "2025-09-11",
+  "seller_name": "BHATT ENGINEERING WORKS LLP",
+  "seller_gstin": "07TKUPB1538E1ZR",
+  "seller_address": "Unit No. 348, Naraina Vihar New Delhi - 110045",
+  "buyer_name": "Deshmukh Infratech Private Limited",
+  "buyer_gstin": "07RMRCD1643Z2ZB",
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "556BOX",
+    "quantity": 556,
+    "unit": "BOX",
+    "unit_price": 474.1,
+    "discount": null,
+    "taxable_value": 263599.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 573,
+    "unit": "NOS",
+    "unit_price": 67.47,
+    "discount": 1933.02,
+    "taxable_value": 36727.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 46,
+    "unit": "PCS",
+    "unit_price": 232.59,
+    "discount": null,
+    "taxable_value": 10699.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 14,
+    "unit": "PCS",
+    "unit_price": 142.07,
+    "discount": null,
+    "taxable_value": 1988.98,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 226,
+    "unit": "NOS",
+    "unit_price": 108.2,
+    "discount": null,
+    "taxable_value": 24453.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 17.325,
+    "unit": "KGS",
+    "unit_price": 133.06,
+    "discount": null,
+    "taxable_value": 2305.26,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 339773.47,
+  "cgst_amount": 30579.61,
+  "sgst_amount": 30579.61,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.31,
+  "grand_total": 400933,
+  "amount_in_words": "Rupees Four Lakh Nine Hundred and Thirty Three Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"DL2629\",\n  \"invoice_date\": \"2025-09-11\",\n  \"seller_name\": \"BHATT ENGINEERING WORKS LLP\",\n  \"seller_gstin\": \"07TKUPB1538E1ZR\",\n  \"seller_address\": \"Unit No. 348, Naraina Vihar New Delhi - 110045\",\n  \"buyer_name\": \"Deshmukh Infratech Private Limited\",\n  \"buyer_gstin\": \"07RMRCD1643Z2ZB\",\n  \"buyer_address\": null,\n  \"place_of_supply\": \"Delhi\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Glucose Biscuits 200g\",\n      \"hsn_sac\": \"556BOX\",\n      \"quantity\": 556,\n      \"unit\": \"BOX\",\n      \"unit_price\": 474.1,\n      \"discount\": null,\n      \"taxable_value\": 263599.6,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Carton Box 5-Ply\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 573,\n      \"unit\": \"NOS\",\n      \"unit_price\": 67.47,\n      \"discount\": 1933.02,\n      \"taxable_value\": 36727.29,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 46,\n      \"unit\": \"PCS\",\n      \"unit_price\": 232.59,\n      \"discount\": null,\n      \"taxable_value\": 10699.14,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 14,\n      \"unit\": \"PCS\",\n      \"unit_price\": 142.07,\n      \"discount\": null,\n      \"taxable_value\": 1988.98,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 226,\n      \"unit\": \"NOS\",\n      \"unit_price\": 108.2,\n      \"discount\": null,\n      \"taxable_value\": 24453.2,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 17.325,\n      \"unit\": \"KGS\",\n      \"unit_price\": 133.06,\n      \"discount\": null,\n      \"taxable_value\": 2305.26,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 339773.47,\n  \"cgst_amount\": 30579.61,\n  \"sgst_amount\": 30579.61,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.31,\n  \"grand_total\": 400933,\n  \"amount_in_words\": \"Rupees Four Lakh Nine Hundred and Thirty Three Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2328,
+ "output_tokens": 827,
+ "cached_input_tokens": 0,
+ "latency_s": 29.8424,
+ "cost_usd": 0.000586144,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

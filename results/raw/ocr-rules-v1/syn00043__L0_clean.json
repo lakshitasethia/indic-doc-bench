@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00043__L0_clean",
+ "doc_id": "syn00043",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TI/25-26/2784",
+  "invoice_date": "2026-03-02",
+  "seller_name": "adie / TAX INVOICE",
+  "seller_gstin": "29HJXPB2482G5ZJ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "29JIOCA1596G5ZF",
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "12.00",
+  "sgst_amount": "12.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "109829.00",
+  "amount_in_words": null
+ },
+ "raw": "adie / TAX INVOICE\nBanerjee Overseas LLP .\n. dae &. / INvoice No. TI/25-26/2784\nGala No. 428, Ring Road, Mangaluru .\nKarnataka - 574119 frie / Date 02/03/2026\nsiewasn\u00e9er / GSTIN: 29HJXPB2482G5ZJ pra et / TEFMS Advance\nsat / Buyer: Agarwal Pharma\nShop No. 144, MIDC Phase II, Bengaluru, Karnataka - 568246\nGSTIN: 29JIOCA1596G5ZF | srgften / Place of Supply: Karnataka\nSee eee ee ee\noe GST% CGST SGST\nDescription Qty Rate Taxable\nMS Hex Bolt with Nut M12 7318 | 5475 NOS| 17.00] 93075.00 8376.75| 8376.75\nga azare / Taxable 93075.00\nCGST 8376.75\nSGST 8376.75\ngaufa / Grand Total 109829.00\ngreet \u00a5 / In words: Rupees One Lakh Nine Thousand Eight Hundred and Twenty Nine Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4469,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 672,
+  "gstins_found": 2
+ }
+}

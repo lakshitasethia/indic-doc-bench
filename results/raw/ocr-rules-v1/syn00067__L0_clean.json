@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00067__L0_clean",
+ "doc_id": "syn00067",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-12-21",
+  "seller_name": "Ahluwalia Sales Corporation .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Ahluwalia Sales Corporation .\n\nKhasra No. 96, SIDCO Complex, Warangal ase. / Invoice No. am\n\nTelangana - 507116 fie / Date 21/12/2025\n\nsat / Buyer: Joshi & Sons Limited\n\nKhasra No. 260, Chandni Chowk, Warangal, Telangana - 504968\n\nfe] ann |e | tne ||| sr\nF\u00e9 fToietSeap 00g ____\u2014_|seor] svosecs| _ as0| rots) 16 fissis20[ 1551520\nPe staress see cutlery set _[aas| _16se1| 40590] Tsonse| 16 | esnes| este\n[ru stet sar e500 temm | va Ton |e020090| 26890075) 16 [asrsaa7|za75287\ngreet # / In words: Rupees Ten Lakh Seventy One Thousand Nine Hundred and Ninety One Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5497,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 565,
+  "gstins_found": 0
+ }
+}

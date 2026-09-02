@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00023__L1_scan",
+ "doc_id": "syn00023",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/0536",
+  "invoice_date": "2025-12-09",
+  "seller_name": "Document Type TAX INVOICE Invoice No 2025-26/0536",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No 2025-26/0536\nSupplier Mehra Engineering Works Invoice Date 09-12-2025\nSupplier GSTIN O8VVXCM0691U5Z9 Terms Advance\nSupplier Address \u2014 Shop No. 394, Udyog Vihar, Udaipur, Rajasthan - 341650\nRecipient Fernandes Polymers Limited Recipient GSTIN O8QLWPF2881B5ZE\nRecipient Address Door No. 351, Peenya 2nd Stage, Jaipur, Rajasthan - 301237 Place of Supply Rajasthan\nReverse Charge No Currency INR\nLine Beccrinion HSN_SAC_ Qty UQC Unit_Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nPVC\nInsulated\n1 Copper 8544 54.470 MTR 33.59 0.00 1829.65 18 164.67 164.67 2158.99\nCable\n2.5sqmm\nLaptop\n2 Computer i5 | 8471 2)NOS| 82321.95 0.00 164643.90 18 14817.95  14817.95 194279.80\n16GB\nTMT Steel\n3 BarFe-500 7214 0.357'TON, 58988.25 0.00 21058.81 18 1895.29 1895.29 24849.39\n12mm\nStainless\n4 | Steel 8215 2|SET 710.32 0.00 1420.64 18 127.86 127.86 1676.36\nCutlery Set\nCotton\nWoven\n5 ; 5208 4.166 MTR 128.09 0.00 533.62 5 13.34 13.34 560.30\nFabric 44\ninch\nOffice\n6 Workstation 9403 24 NOS 7620.60 0.00 182894.40 18 16460.50 16460.50 215815.40\nTable\nRadial Tyre\n7 195/65 R15 4011 5 NOS 7683.18 0.00 38415.90 28 5378.23 5378.23, 49172.36\npee gen | 3409 705 PCS 120.25 0.00 84776.25 18 7629.86 7629.86 100035.97\nPowder 1kg\nGlucose\n9 Biscuits 1905 10 BOX 434.79 434.79 3913.11 18 352.18 352.18 4617.47\n200g\nHDPE\n10 Packing 3923 79.831 KGS 171.36 0.00 13679.84 18 1231.19 1231.19 16142.22\nBags\nCotton\n11 Round Neck 6109 59 PCS 348.17 0.00 20542.03 5 513.55 513.55 21569.13\nT-Shirt\nBasmati\n12 Rice 1006 31.945 KGS 69.13 44.17 2164.19 5 54.10 54.10 2272.39\n(Broken 5%)\nSynthetic\n13 Enamel 3208 513.611 LTR 362.01 0.00 185932.32 18 16733.91| 16733.91 219400.14\nPaint 4L\nFoam\n14 | Mattress 9404 43 NOS 5993.01 0.00 257699.43 18 23192.95) 23192.95 304085.33\n72x36\nMultifunction\n15 Laser 8443 1,NOS | 22546.26 0.00 22546.26 18 2029.16 2029.16 26604.58\nPrinter\nParacetamol\n16 IP 650mg 3004 47 BOX 52.85 0.00 2483.95 12 149.04 149.04 2782.03\nTablets\nim joes ee [0002 979.082 KGS 391.81. 0.00. S386 14.12 5 9590.35 9590.35 402794.82\nCorrugated\n18 Carton Box (4819 2016 NOS 42.31 0.00 85296.96 18 7676.73 7676.73, 100650.42\n5-Ply\n19 heer ep 3401 640 PCS 39.25 0.00 25120.00 18 2260.80 2260.80 29641.60\nMSs\n20 Fabricated 7308 55.354 KGS 85.03 0.00 4706.75 18 423.61 423.61 5553.97\nStructure\n21 |MS Hex Bolt 7318 408 NOS 13.15 0.00 5365.20 18 482.87 482.87 6330.94\nwith Nut\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3781,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2397,
+  "gstins_found": 0
+ }
+}

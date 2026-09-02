@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00015__L0_clean",
+ "doc_id": "syn00015",
+ "level": "L0_clean",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Sethi",
+  "invoice_date": "2025-11-02",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE eee ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "62660.80",
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "73940.00",
+  "grand_total": "73940.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE eee ee\nIRN ee\nNOT GENERATED ae eee\nAck No. / Ack Date Oe ee ee\n10000079308785 / 2025-11-02 nee\nEBREEBRE EE\nSupplier Recipient Document No.\nSethi Logistics Ahluwalia Marketing LLP DL4590\nDoor No. 111, Peenya 2nd Stage, New Shop No. 361, Okhla Phase I, New Delhi, Document Date\nDelhi, Delhi 110986 Delhi 110501 2025-11-02\nGSTIN GSTIN Place of Supply\n07EBNCS1203B72ZK 070FJFA5701V9ZO 07 - Delhi\nReverse Charge\nN\n\u2018si[ tem Description | HSN [Qty] UQC | Unit Price [Discount] Taxable Amt [Rate] CGSTAmt | SGSTAmt | Total |\nOther\nProfessional\n1)and 998399} 1|;NOS/|62660.80 62660.80! 18 |5639.47| 5639.47) 73939.74\nTechnical\nServices\nTotal Taxable Value 62660.80\nTotal CGST 5639.47\nTotal SGST 5639.47\nRound Off\nTotal Invoice Value 73940.00\nAmount in words: Rupees Seventy Three Thousand Nine Hundred and Forty Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4971,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 832,
+  "gstins_found": 0
+ }
+}

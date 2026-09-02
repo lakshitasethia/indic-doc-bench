@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00004__L3_harsh",
+ "doc_id": "syn00004",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "15002",
+  "invoice_date": "2024-03-05",
+  "seller_name": "Ahuwalia Trading Co. Limited",
+  "seller_gstin": "07AAACN8630R1ZD",
+  "seller_address": "Plot No. 907, Industrial Estate, Panchkula, Haryana - 134109",
+  "buyer_name": "Bathi Engineering Works Limited",
+  "buyer_gstin": "06LYYFB4077GZY",
+  "buyer_address": "Door No. 418, Amritsar Industrial Estate, Gurgaon",
+  "place_of_supply": "Haryana (09)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2623",
+    "quantity": 53,
+    "unit": "BAG",
+    "unit_price": 438.11,
+    "discount": null,
+    "taxable_value": 23219.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 26,
+    "unit": "NOG",
+    "unit_price": 51.88,
+    "discount": null,
+    "taxable_value": 1348.88,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 24568.71,
+  "cgst_amount": 2211.18,
+  "sgst_amount": 2211.18,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.07,
+  "grand_total": 21171.9,
+  "amount_in_words": "Rupees One Lakh Twenty-One Thousand One Hundred and Seventy-One Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"15002\",\n  \"invoice_date\": \"2024-03-05\",\n  \"seller_name\": \"Ahuwalia Trading Co. Limited\",\n  \"seller_gstin\": \"07AAACN8630R1ZD\",\n  \"seller_address\": \"Plot No. 907, Industrial Estate, Panchkula, Haryana - 134109\",\n  \"buyer_name\": \"Bathi Engineering Works Limited\",\n  \"buyer_gstin\": \"06LYYFB4077GZY\",\n  \"buyer_address\": \"Door No. 418, Amritsar Industrial Estate, Gurgaon\",\n  \"place_of_supply\": \"Haryana (09)\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2623\",\n      \"quantity\": 53,\n      \"unit\": \"BAG\",\n      \"unit_price\": 438.11,\n      \"discount\": null,\n      \"taxable_value\": 23219.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 26,\n      \"unit\": \"NOG\",\n      \"unit_price\": 51.88,\n      \"discount\": null,\n      \"taxable_value\": 1348.88,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 24568.71,\n  \"cgst_amount\": 2211.18,\n  \"sgst_amount\": 2211.18,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.07,\n  \"grand_total\": 21171.90,\n  \"amount_in_words\": \"Rupees One Lakh Twenty-One Thousand One Hundred and Seventy-One Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1698,
+ "output_tokens": 485,
+ "cached_input_tokens": 0,
+ "latency_s": 12.849,
+ "cost_usd": 0.000378352,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

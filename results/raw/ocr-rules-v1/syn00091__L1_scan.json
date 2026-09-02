@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00091__L1_scan",
+ "doc_id": "syn00091",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-05",
+  "seller_name": "Kaur Textiles :",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Kaur Textiles :\n\nShop No. 152, Ring Road, Patna fe as Coe\n\nBihar - 808522 fais / Date 05/10/2025\n\nxa / Buyer: Mehra Sales Corporation LLP\n\nShop No. 101, Peenya 2nd Stage, Kochi, Kerala - 694497\n\nee\ncst\n\ngreet # / In words: Rupees Fifty Four Thousand Four Hundred and Eighty Seven Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4875,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 285,
+  "gstins_found": 0
+ }
+}

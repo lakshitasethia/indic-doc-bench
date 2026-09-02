@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00007__L3_harsh",
+ "doc_id": "syn00007",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-8-2404",
+  "invoice_date": "2026-03-15",
+  "seller_name": "Iyer Logistics Pvt. Ltd.",
+  "seller_gstin": "33KPRC18345JZZ",
+  "seller_address": "Shop No. 112, Vinoth Complex, Salim Tamil Nadu - 635002",
+  "buyer_name": "Rao Marketing LLP",
+  "buyer_gstin": "33LBRP2481NZZ",
+  "buyer_address": "Plot No. 48, Kattukottai Road, Chennai, Tamil Nadu - 600120",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Soy Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 428.995,
+    "unit": "KGS",
+    "unit_price": 98.42,
+    "discount": 43283.74,
+    "taxable_value": 3494.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Dried Premix",
+    "hsn_sac": "2706",
+    "quantity": 1.753,
+    "unit": "KGS",
+    "unit_price": 265.78,
+    "discount": 384.71,
+    "taxable_value": 760.47,
+    "tax_rate": 18
+   },
+   {
+    "description": "Coffee Roasted/Bean Value",
+    "hsn_sac": "9401",
+    "quantity": 1.9005,
+    "unit": "KGS",
+    "unit_price": 15095.87,
+    "discount": 75005.87,
+    "taxable_value": 1255.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 200g",
+    "hsn_sac": "3401",
+    "quantity": 1.753,
+    "unit": "PCS",
+    "unit_price": 47.44,
+    "discount": 616.15,
+    "taxable_value": 85.03,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 130.992,
+    "unit": "KGS",
+    "unit_price": 47.37,
+    "discount": 2718.89,
+    "taxable_value": 338.81,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar S-90",
+    "hsn_sac": "1701",
+    "quantity": 17.036,
+    "unit": "KGS",
+    "unit_price": 34.06,
+    "discount": 750.0,
+    "taxable_value": 58.75,
+    "tax_rate": 5
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "4215",
+    "quantity": 447.587,
+    "unit": "SET",
+    "unit_price": 256.4,
+    "discount": 116200.4,
+    "taxable_value": 10638.04,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3921",
+    "quantity": 264.773,
+    "unit": "KGS",
+    "unit_price": 780.57,
+    "discount": 47743.94,
+    "taxable_value": 4294.92,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 25754.07,
+  "cgst_amount": 2317.86,
+  "sgst_amount": 2317.86,
+  "igst_amount": null,
+  "cess_amount": 22.04,
+  "round_off": 0.71,
+  "grand_total": 30168.09,
+  "amount_in_words": "Rupees Thirty Lakh One Hundred Sixty Eight and Fifty Nine Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-8-2404\",\n  \"invoice_date\": \"2026-03-15\",\n  \"seller_name\": \"Iyer Logistics Pvt. Ltd.\",\n  \"seller_gstin\": \"33KPRC18345JZZ\",\n  \"seller_address\": \"Shop No. 112, Vinoth Complex, Salim Tamil Nadu - 635002\",\n  \"buyer_name\": \"Rao Marketing LLP\",\n  \"buyer_gstin\": \"33LBRP2481NZZ\",\n  \"buyer_address\": \"Plot No. 48, Kattukottai Road, Chennai, Tamil Nadu - 600120\",\n  \"place_of_supply\": \"Tamil Nadu\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Soy Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 428.995,\n      \"unit\": \"KGS\",\n      \"unit_price\": 98.42,\n      \"discount\": 43283.74,\n      \"taxable_value\": 3494.08,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Dried Premix\",\n      \"hsn_sac\": \"2706\",\n      \"quantity\": 1.753,\n      \"unit\": \"KGS\",\n      \"unit_price\": 265.78,\n      \"discount\": 384.71,\n      \"taxable_value\": 760.47,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Coffee Roasted/Bean Value\",\n      \"hsn_sac\": \"9401\",\n      \"quantity\": 1.9005,\n      \"unit\": \"KGS\",\n      \"unit_price\": 15095.87,\n      \"discount\": 75005.87,\n      \"taxable_value\": 1255.87,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Toilet Soap 200g\",\n      \"hsn_sac\": \"3401\",\n      \"quantity\": 1.753,\n      \"unit\": \"PCS\",\n      \"unit_price\": 47.44,\n      \"discount\": 616.15,\n      \"taxable_value\": 85.03,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Basmati Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 130.992,\n      \"unit\": \"KGS\",\n      \"unit_price\": 47.37,\n      \"discount\": 2718.89,\n      \"taxable_value\": 338.81,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Refined Sugar S-90\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 17.036,\n      \"unit\": \"KGS\",\n      \"unit_price\": 34.06,\n      \"discount\": 750.00,\n      \"taxable_value\": 58.75,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"4215\",\n      \"quantity\": 447.587,\n      \"unit\": \"SET\",\n      \"unit_price\": 256.40,\n      \"discount\": 116200.40,\n      \"taxable_value\": 10638.04,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3921\",\n      \"quantity\": 264.773,\n      \"unit\": \"KGS\",\n      \"unit_price\": 780.57,\n      \"discount\": 47743.94,\n      \"taxable_value\": 4294.92,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 25754.07,\n  \"cgst_amount\": 2317.86,\n  \"sgst_amount\": 2317.86,\n  \"igst_amount\": null,\n  \"cess_amount\": 22.04,\n  \"round_off\": 0.71,\n  \"grand_total\": 30168.09,\n  \"amount_in_words\": \"Rupees Thirty Lakh One Hundred Sixty Eight and Fifty Nine Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1808,
+ "output_tokens": 1100,
+ "cached_input_tokens": 0,
+ "latency_s": 45.6187,
+ "cost_usd": 0.0006456319999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

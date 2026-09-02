@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00076__L0_clean",
+ "doc_id": "syn00076",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TAX-B-7465",
+  "invoice_date": "2025-11-30",
+  "seller_name": "Reddy Industries LORIGINAL FOR RECIPIENT _",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Reddy Industries LORIGINAL FOR RECIPIENT _\nGala No. 91, MG Road, Ludhiana, Punjab - 156724 Invoice No TAX-B-7465\nGSTIN 03XRKCR9392M8ZU_ State Code 03 Invoice Date 30-11-2025\nTerms Cash\nBilled To Shipped To\nPatel Technologies LLP Patel Technologies LLP\nDoor No. 343, Ring Road, Ludhiana, Punjab - 151631 Door No. 343, Ring Road, Ludhiana\nGSTIN O3VIXPP188112Z4 Place of Supply Punjab (03) Reverse Charge: No\n\u201c1 |HDPEPackingBags \u00ab8923 <6.309/KGS| 114.69, | 723.58| 18 | 65.12) 65.12) 853.82\n2 [Radial Tyre 195/65R15 \u2014=\u2014===\u00abA011| ~~ NOS] 6199.50/ _\u2014\u00ab|\u2014\u00ab6199.50| 28 | 867.93| 867.93, 7935.36\n\"3 [Cotton Round NeckT-Shit _\u2014=\u00ab(6109| \u00ab38 PCS} 373.60) \u2014\u2014=\u00ab|\u2014-~14193.00| 5 | 364.83| 354.83, 14902.66\n(4 [Detergent Powder kg === 8402| 3061/PCS) 96.46) 14763.20| 280500.86| 18 | 25245.08| 25245.08| 330991 .02\n5 |Synthetic Enamel Paint4l_\u2014\u2014=\u2014=\u2014\u00ab|3208| \u20141.970| LTR| 846.17/ =| \u2014*1075.95| 18 | 96.84) 96.84) 1269.63\n6 |PVC insulated Copper Cable 2.5sqmm | 8544 6253.403|MTR| _35.32| __\u2014_\u2014\u2018| (220870.19| 18 | 1987832) 19878.32| 260626.83\n\u20187 |Stainless Steel Cutlery Set_\u2014===(8215| = SET) 641.80| 288.85 | 5488.16] 18 | 493.93| 493.93| 6476.02\n(8 [Cotton Woven Fabric 44 inch \u2014=\u00ab(5208| 3185.975/MTR| 115.22| \u2014~\u00ab|-367088.04/ \u00a7 | 9177.20| 9177.20) 385442.44\n\"9 |Hard Bound Register 200 Pages \u2014~(4820/\u2014145/NOS| _64.97| \u2014\u2014\u00ab|~\u20149420.65| 18 | 847.86) 847.86, 1116.37\n10/TMT Stee! BarFe-500 12mm \u2014__\u2014_\u2014=\u00ab|'7214| \u2014\u2014*1.832/ TON| 4821839| _\u2014_\u2014\u00ab|_~88336.09| 18 | 7950.25] 7950.25) 104236.59\n\u2018ijAssam CTC Teale _\u2014===S=\u00ab(0902|~\u2014\u00ab3.069/KGS| 34134/ \u00ab| \u2014\u2014\u00ab*t047.57| 5 | 26.19| \u2014_26.19| 1099.95\n12|MS Fabricated Structure =| 7308| 470.189/KGS| 99.86) __\u2014_\u2014~\u00ab|\u2014_-46953.07| 18 | 4225.78) 4225.78) 65404.63\n13/MSHexBoltwithNutM12___\u2014\u2014=\u2014=\u00ab|7318| \u20142820/NOS} 40.45] __\u2014_\u2014~\u00ab|;~\u2014~93844.00/ 18 | 8445.96] 8445.96] 110735.92\n14|OPC 53Grade Cement 50kg =| 2523 \u00ab418 BAG) 396.00] __\u2014~\u00ab|\u2018165528.00) 28 | 23173.92| 23173.92| 211875.84\n15|Refined SugarS-30\u2014\u2014=\u00ab|1701| (280.950/KGS| 46.43/ \u2014\u2014\u2014\u00ab|\u201413044.51| 5 | 926.11/ 326.11| 13696.73\n16 |Monoblock Water Pump 1HP__\u2014=\u00ab(8413| = 1/NOS| 4568.05) \u2014=\u00ab|~\u2014\u00ab4568.05| 18 | 411.12| 411.12| 5390.29\n17 |Smarphone 6GB128GB__\u2014\u2014=~=S~S=\u00ab 8517\u2018 /NOS| 1660.05) __\u2014_\u2014~|~_~16610.05| 18 | 1404.90 1404.90, 18419.85\n18 |ParacetamolIP 650mg Tablets __\u2014=\u00ab| 3004| \u2014\u2014\u00ab866/ BOX] 51.87| _\u2014\u00ab|\u2014-44019.42| 12 | 2695.17| 2695.17 50309.76\n19 Glucose Biscuits 2009 =| 1905| | \u2014<448/ BOX] 253.42) \u2014\u00ab|-\u2014113682.16) 18 | 10217.89) 10217.80| 193067.94\n20/|Multfunction Laser Printer === 8443/ == |NOS| 2858.96, \u00ab| \u201447717.92| 18 | 420461) 4294.61| 56307.14\n21 |Corugated Carton Box5Ply \u2014=\u00ab(4819| \u2014\u20141350/NOS) 44.54) =| \u2014\u00ab60129.00/ 18 | S4t1.61| 5411.61) 70952.22\n22/Instant Drink Premix =| 2106| = 75|PCS| 21731| __\u2014*|_16208.25| 18 | 1466.84) 1466.84) 19231.93\n23 /Basmati Rice (Broken 5%) __\u2014=\u00ab| 1006 | 2524.625/KGS| 126.96] __\u2014_\u2014~\u00ab|-920526.39| 5 | 8013.16] 8013.16| 936552.71\n24|Tolet Soap 1009 SSS~\u00ab MOT) \u00ab~\u2014COBLPCS| 56.39| \u00ab| \u2014\u2014721.74/ 18] 394.96) 394.96) 4391.66\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3354,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2927,
+  "gstins_found": 0
+ }
+}

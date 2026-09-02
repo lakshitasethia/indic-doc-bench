@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00019__L3_harsh",
+ "doc_id": "syn00019",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "[icin teckoaingtiee\u2014_* Se nl ane",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "[icin teckoaingtiee\u2014_* Se nl ane\n Eiperscodne : 306\n| SMW Ms DORAry . \u2018 }\n; hom nbs T= }\ns : tnd \u2018 = < uum fom! ce\nSis { Bs wal\u201d ,\n[kar feng\niO Gren teeny *#2003.20]\nes enerias ne * z\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.171,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 184,
+  "gstins_found": 0
+ }
+}

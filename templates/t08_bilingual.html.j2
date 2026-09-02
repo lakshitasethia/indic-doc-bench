@@ -1,0 +1,49 @@
+{# Hindi/English bilingual labels, as issued across much of north India. The
+   values stay in Latin script; only the field labels are bilingual. #}
+<style>{{ base_css }}
+body { font-family: "Noto Sans Devanagari", "Kohinoor Devanagari", "Devanagari Sangam MN", Arial, sans-serif; font-size: 8.5pt; }
+.box { border:2px solid #000; }
+.title { text-align:center; padding:4px; border-bottom:2px solid #000; }
+td, th { border:1px solid #000; padding:2px 4px; }
+th { font-size:7.5pt; background:#f2f2f2; }
+.hi { color:#333; font-size:7.5pt; }
+.np td { border:none; padding:1px 4px; }
+</style>
+<div class="box">
+  <div class="title"><span class="hi">कर बीजक</span> &nbsp;/&nbsp; <b style="font-size:12pt">TAX INVOICE</b></div>
+  <table class="np">
+    <tr><td style="width:56%"><b style="font-size:11pt">{{ r.seller_name }}</b><br>
+      {{ sa.line1 }}, {{ sa.city }}<br>{{ sa.state }} - {{ sa.pincode }}<br>
+      <span class="hi">जीएसटीआईएन</span> / GSTIN: <b>{{ r.seller_gstin }}</b></td>
+      <td><table class="np">
+        <tr><td><span class="hi">बीजक सं.</span> / Invoice No.</td><td class="b">{{ r.invoice_number }}</td></tr>
+        <tr><td><span class="hi">दिनांक</span> / Date</td><td class="b">{{ d.dmy_slash }}</td></tr>
+        <tr><td><span class="hi">भुगतान शर्तें</span> / Terms</td><td>{{ terms }}</td></tr>
+      </table></td></tr>
+  </table>
+  <table class="np" style="border-top:1px solid #000">
+    <tr><td><span class="hi">क्रेता</span> / Buyer: <b>{{ r.buyer_name }}</b><br>
+      {{ ba.line1 }}, {{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}<br>
+      GSTIN: {{ r.buyer_gstin or 'URP' }} &nbsp;|&nbsp; <span class="hi">आपूर्ति स्थान</span> / Place of Supply: {{ ba.state }}</td></tr>
+  </table>
+  <table>
+    <tr><th><span class="hi">क्र.</span><br>Sr</th><th><span class="hi">विवरण</span><br>Description</th>
+      <th>HSN</th><th><span class="hi">मात्रा</span><br>Qty</th><th><span class="hi">दर</span><br>Rate</th>
+      <th><span class="hi">कर योग्य</span><br>Taxable</th><th>GST%</th>
+      {% if interstate %}<th>IGST</th>{% else %}<th>CGST</th><th>SGST</th>{% endif %}</tr>
+    {% for it in items %}
+    <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td><td class="c">{{ it.hsn_sac }}</td>
+      <td class="r">{{ it.quantity }} {{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+      <td class="r">{{ it.taxable_value }}</td><td class="c">{{ it.tax_rate }}</td>
+      {% if interstate %}<td class="r">{{ it._igst }}</td>{% else %}<td class="r">{{ it._cgst }}</td><td class="r">{{ it._sgst }}</td>{% endif %}</tr>
+    {% endfor %}
+  </table>
+  <table style="width:44%;margin-left:auto">
+    <tr><td><span class="hi">कुल कर योग्य</span> / Taxable</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+    {% if interstate %}<tr><td>IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+    {% else %}<tr><td>CGST</td><td class="r">{{ r.cgst_amount }}</td></tr><tr><td>SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+    <tr><td><span class="hi">राउंड ऑफ</span> / Round Off</td><td class="r">{{ r.round_off }}</td></tr>
+    <tr><td class="b"><span class="hi">कुल राशि</span> / Grand Total</td><td class="r b">{{ r.grand_total }}</td></tr>
+  </table>
+  <div style="padding:3px 5px"><span class="hi">शब्दों में</span> / In words: <b>{{ r.amount_in_words }}</b></div>
+</div>

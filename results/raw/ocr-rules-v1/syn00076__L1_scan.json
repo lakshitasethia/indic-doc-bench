@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00076__L1_scan",
+ "doc_id": "syn00076",
+ "level": "L1_scan",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "TAX-B-7465",
+  "invoice_date": null,
+  "seller_name": "Reddy Industries [ORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "03XRKCR9392M8ZU",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Reddy Industries [ORIGINAL FOR RECIPIENT _\nGala No. 91, MG Road, Ludhiana, Punjab - 156724 Invoice No TAX-B-7465\nGSTIN 03XRKCR9392M8ZU State Code 03 Invoice Date eee faa\nBilled To Shipped To\n\nPatel Technologies LLP Patel Technologies LLP\n\nDoor No. 343, Ring Road, Ludhiana, Punjab - 151631 Door No. 343, Ring Road, Ludhiana\n\nGSTIN 03VIXPP188112Z4 Place of Supply Punjab (03) Reverse Charge: No\n\nPT [HDPE PackngBags -\u2014\u2014=~=\u00abirODS|~\u00abG GO| KGS] 11460 |= 723.58[ 18 | 65.12| 65.12] 859.82\n\"> |Radial Tyre 195765R15~\u201dS\u201d~*~*~\u00ab~dSAT|~~SCA|NOS| 619950] _\u2014*(|\u20146t99.60| 28 | 867.93| 867.93] 7935.36\n3 [Cotton RoundNeckT-sht \u00abtoa \u2014\u2014\u00absa[rcs| a7aso| =|\u2018 t41ea.00| 5 | a54.e3[ 354.03] 14902.68\n330991 02\nSsismihelcenemelpantal _(e208|1e70|cmR| See17| | ~\u2014*t075.95| 18 | oe.ea| 6.4] 126063\n-@ [PVC Insulated Copper Gable 25sqmm | 8544| 6253.403|MTR| _ 96.32| __\u2014| 220870.19| 18 | 19878.32| 19878.32| 260626.83\n\u201c7 Stainless Steel CullerySet __\u2014~\u00ab*(a215| =| SET| 641.80| 268.85[ 5480.16 18 | 493.03[ 499.93| 6476.02\nrg [Cotton Woven Fabric44inch\u2014~*(S208| 3188975|MTR| 11522| \u2014_\u2014\u2018| s67088.04[ 6 | 9177.20| 9177.20| 385442.44\n9 [Hard Bound Register 200Pages-+(4820| _\u2018145[NOs| _e497[ \u00ab| 9420.65/ 18 | 847.86] 847.86| 1116.37\n50 |TMT Steel BarFe-500 12mm \u2014\u2014*( 7214 1.682|TON| 4821830| _\u2014*| 8336.09 18 | 7950.25| 7950.25] 104236.59\niilassamCTCTeaLea\u2019__~-~\u2014~*(ogo2|soee[Kes| aaiaa[ \u00ab| toar.s7| 5 | 26.19[ 26.19| 1090.95\n\"12 |MS Fabricated Structure -~=~*\u00abd*T308|40.1e9|K@s|  99.86| \u2018| 46953.07| 18 | 4225.78| 4226.78| $5404.63\ni3[MS Hex BoltwithNutMi2-([ 7318 _2320[Nos| _40.45|____\u2014\u2018|_93644.00| 18 | 8445.96| 6445.96) 110735.92\n14|OPC 53 Grade Cement 50kg-\u2014~\u2014~\u00ab( 2523 \u2014418(BAG| _996.00| __\u2014_\u2014| 166528.00| 28 | 23173.92| 25173.92| 211875.84\n5 [Refined SugarS30~\u00ab*dATO1| 280.950[KGs| 4643[ \u00ab| t3044.s1| 5 | 326.11[ 326.11[ 13606.73\ni6[Monoblock Water Pump 7HP~=\u00abdjeatap\u2014\u2014\u2014=\u00abt|NOS| a5ea05| \u00ab| 4508.05[ 18 | atta] ati.t2| 5390.20\ni7|Smartphone 6G8/128GB_-~=\u00ab*d@ST7|___\u2014-t(Nos| 1561005[ | 15610.05| 18 | 1404.90| 1404.90| 18419.85\nre | Paracetamol IP 650mg Tablets \u00ab(3004 \u2014\u2014866/BOX| _1.87| _\u2014*(|_ aaate.4a| 12 | 2605.17| 2605.17] _50309.76\nF9[Glucose Biscuits 2009 _-~\u00ab( 1905 ~\u2014a4a[ Box] 25a42[ \u2018| 113692.16| 18 | 1027.89] 0217.89] 133967.94\n'20[Mulfunction Laser Printer \u2014~\u2014~=\u00ab(8443|_\u2014\u2014=\u00ab [NOS | 23858.06| \u2014*|_a77t7.02| 18 | 420461| 4204.61] 96307.14\n'31|Comugated Carton BoxS-Py~+([48t9| 1860[Nos| 4454[__\u2014*|_60729.00| 18 | Satt.e1[ Sat1.61| 7098222\nrza|instant DrinkPremx ~\u2014~\u00ab(2ts)\u2014a[pcs| 2iat| \u2018| 16208.26| 18 | 1466.84[ 1406.84] \"1923193\n\"33 |Basmati Rice (Broken 5%) ---~(| 1006 | 2624.626[Kes| 12696| __\u2014| 920826.30| 5 | 8013.16] 8013.16] 396552.71\nroa |Toilet Soap 1009 SSSC\u00abi AOE Cw pcs[ seso| \u2014=\u00ab|-\u2014a72t.ra| 18 | 934.06|  334.96[ 4301.66\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.8134,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2721,
+  "gstins_found": 1
+ }
+}

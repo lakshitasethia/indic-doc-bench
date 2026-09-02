@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00050__L2_photo",
+ "doc_id": "syn00050",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-05",
+  "seller_name": "IYER TRADING CO.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "371235.63",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "79755.25",
+  "cess_amount": null,
+  "round_off": "0.12",
+  "grand_total": "450991.00",
+  "amount_in_words": null
+ },
+ "raw": "IYER TRADING CO.\nDoor No. 90, MG Road, Delhi - 110893 (Delhi)\nGSTIN : O7JGUFI7367Y8ZX State Code : 07\nTAX INVOICE\nM/s. Iyer Sales Corporation Pvt. Ltd. Bill No. : 2025-26/9808\nShop No. 363, Kalbadevi Road Date : 05.05.2025\nSiliguri - 707654 R.C.M. +: NO\nGSTIN : 19CXICI9650J62G\nPlace of Supply : 19-West Bengal\n[ s.no | Particulars a ee ee ee\n| 1 [Hard Bound Register 200. Pages 187 NOS 88.04 16463.48|\n| 2 |corrugatea Carton Box 5-Ply ee 61.52 83175.04|\n|. 3 [Multifunction Laser Printer 28155.61 28155.61\n\u00ab| PVC Insulated Copper Cable 2.5sqmm Edm 70.73 10243.40\n| 5 [OPC 53 Grade Cement 50kg 296 BAG 436.92| 129328.32\n| 6 [mer Steel Bar Fe-500 12mm pare 60682.48] . 21056.82\n| 7 [svneneeic Enamel Paint 4L mace = 426.10| \u00bb 82812.96\nHSN / SAC Summary Taxable Value 371235.63\n[mew maxabte [| Rate [Tax ant | Add: IGST 79755.25\n4820 16463:48 2963.43| Round Off 0.12\n4819 83175.04 14971.51| |NET PAYABLE Rs. 450991.00\n8443 28155.61 5068.01\n8544 10243:40| 188 | 1843.81\n2523 129328. 32 36211.93\n7214 21056.82 3790.23\n3208 $2812.96 14906.33\nRupees in words : Rupees Four Lakh Fifty Thousand Nine Hundred and Ninety One Only\nBank: Kotak Mahindra Bank, A/\u00a2 $9510751759853, IFSC SKCY0433446 .\nReceiver's Signature For IYER TRADING CO. |\nAuthorised Signatory\n:\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.676,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1253,
+  "gstins_found": 0
+ }
+}

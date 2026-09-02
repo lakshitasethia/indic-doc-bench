@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00070__L2_photo",
+ "doc_id": "syn00070",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-18",
+  "seller_name": "SUPPLIER NAME INVOICE DATE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE DATE\nAhluwalia Textiles Pvt. Ltd. SI/25-26/7147 2025-07-18\nPPLIER ADDRES: SUPPLIER GSTIN STATE / CODE\naT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\u2019\n800239\nFer econmrwamor [owane| ey [ove | omerme[ rene vnn [fh coarsest amen\nParacetamol\n1. |IP 650mg 3004 241| BOX 36.46] .8347.52}12|- 500.85] 500.85\nTablets\nPVC Insulated\n2 |Copper Cable | 8544 |639.562|MTR 40.58| 25953.43|18] 2335.81] 2335.81\n2.5sqmm\nFoam\n3 |Mattress 9404 2 4279.92| 8559.84|18| 770.39} 770.39\n72x36\nMS Hex Bolt\nnie Nut M12 7318 6270|Nos| 35.89 225030.30| 18 |20252.73 20252.73\nOffice\nWorkstation. | 9403 ate 10691.79| 117609.69| 18 | 10584.87 | 10584.87\nTable\nCotton Round\ncoe 6109 1461 Pcs| 212,15 30995115] 5 | 7748.78) 7748.78\nRadial Tyre\n195/65 R15 | 40214 | _-1|Nnos| 7008.45 7008.45| 28, 981.18] 981.18\nDetergent\nPo Vesele 1kg 3402 128.31 15724.39| 18 1415.20} 1415.20\nLaptop\nhae iS | 8471 i 74197.20| 74197.20|18| 6677.75| 6677.75\n6GB\n10] 8efined Sugar) 1701 536.221 |kGs| 38.04| 20397.85 |s| 509.95] 509.95\nInstant Drink\neee bein | 2106 | sfecs| 201.57 1007.85] 18| 90.71 90.71\nSmartphone\nie oe one 8517 | _a|Nos 27982.40 27982.40| 18, 2518.42| 2518.42\nMS Fabricated\n7308 11.789] Kes 116.54 1373.89] 18| 123.65} 123.65\nTMT Steel Bar\nca Se foci 7214 0.863| TON|57085.32 49264.63| 18 | 4433.82| 4433.82\n% 1010297.00 \u2014 Rupees Ten Lakh Ten Thousand Two Hundr\u00e9d and Ninety Seven Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7287,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1420,
+  "gstins_found": 0
+ }
+}

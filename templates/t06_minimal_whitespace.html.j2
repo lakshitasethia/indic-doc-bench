@@ -1,0 +1,46 @@
+{# Modern minimal: no rules, wide leading, right-aligned money, "Invoice #".
+   Whitespace-separated fields are noticeably harder for layout heuristics. #}
+<style>{{ base_css }}
+body { font-family: Helvetica, Arial, sans-serif; font-size: 9.5pt; color:#1a1a1a; padding: 8mm 6mm; }
+h1 { font-weight:300; font-size:30pt; letter-spacing:6px; margin:0 0 26px; color:#111; }
+.k { color:#999; font-size:7.5pt; letter-spacing:1.2px; text-transform:uppercase; margin-bottom:2px; }
+.grid { display:flex; gap:44px; margin-bottom:30px; }
+td { padding:8px 4px; border:none; border-bottom:1px solid #f0f0f0; }
+th { padding:4px; border:none; border-bottom:1.5px solid #111; text-align:left;
+     font-size:7.5pt; letter-spacing:1.2px; text-transform:uppercase; color:#999; font-weight:400; }
+.tot { display:flex; justify-content:flex-end; margin-top:22px; }
+.tot table { width:auto; min-width:250px; }
+.tot td { border:none; padding:5px 4px; }
+.tot .g td { border-top:1.5px solid #111; padding-top:11px; font-size:14pt; }
+</style>
+<h1>INVOICE</h1>
+<div class="grid">
+  <div><div class="k">From</div><div style="font-weight:600">{{ r.seller_name }}</div>
+    <div style="color:#666">{{ sa.line1 }}<br>{{ sa.city }} {{ sa.pincode }}<br>{{ sa.state }}</div>
+    <div style="margin-top:7px" class="k">GSTIN</div><div>{{ r.seller_gstin }}</div></div>
+  <div><div class="k">Billed to</div><div style="font-weight:600">{{ r.buyer_name }}</div>
+    <div style="color:#666">{{ ba.line1 }}<br>{{ ba.city }} {{ ba.pincode }}<br>{{ ba.state }}</div>
+    <div style="margin-top:7px" class="k">GSTIN</div><div>{{ r.buyer_gstin or '—' }}</div></div>
+  <div style="margin-left:auto;text-align:right">
+    <div class="k">Invoice #</div><div style="font-weight:600">{{ r.invoice_number }}</div>
+    <div class="k" style="margin-top:9px">Issued</div><div>{{ d.dmy_long }}</div>
+    <div class="k" style="margin-top:9px">Place of supply</div><div>{{ ba.state }}</div></div>
+</div>
+<table>
+  <thead><tr><th>Description</th><th>HSN</th><th class="r">Qty</th><th class="r">Rate</th><th class="r">GST</th><th class="r">Amount</th></tr></thead>
+  <tbody>{% for it in items %}
+    <tr><td>{{ it.description }}</td><td style="color:#888">{{ it.hsn_sac }}</td>
+      <td class="r">{{ it.quantity }} {{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+      <td class="r" style="color:#888">{{ it.tax_rate }}%</td><td class="r">{{ it.taxable_value }}</td></tr>
+  {% endfor %}</tbody>
+</table>
+<div class="tot"><table>
+  <tr><td style="color:#888">Subtotal</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+  {% if interstate %}<tr><td style="color:#888">IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+  {% else %}<tr><td style="color:#888">CGST</td><td class="r">{{ r.cgst_amount }}</td></tr>
+  <tr><td style="color:#888">SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+  <tr><td style="color:#888">Rounding</td><td class="r">{{ r.round_off }}</td></tr>
+  <tr class="g"><td>Total</td><td class="r">₹{{ r.grand_total }}</td></tr>
+</table></div>
+<div style="margin-top:26px;color:#888;font-size:8pt">{{ r.amount_in_words }}<br>
+  {{ bank.name }} · {{ bank.account }} · {{ bank.ifsc }}</div>

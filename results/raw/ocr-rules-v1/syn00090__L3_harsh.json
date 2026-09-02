@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00090__L3_harsh",
+ "doc_id": "syn00090",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "sees netegee, : y =",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "sees netegee, : y =\neo erate = eS ee ee ee\nTV Gemetanm iy oe Nee ee jana es 4 eae a ies Coat\n9 water Dene Pune ra wee ee ee re eo ee\nToken rmmicen Nase Me... NOS. Soca Re 8 Cheek aS oyrad gD Nae\n(A ER ee Coreeeting AA - A ee et et eae!\ntime deny, wavs wr wes ee ae tenes,\natten ga a a a ea em\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2991,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 293,
+  "gstins_found": 0
+ }
+}

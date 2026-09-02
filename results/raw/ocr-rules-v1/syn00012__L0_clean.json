@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00012__L0_clean",
+ "doc_id": "syn00012",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-7788",
+  "invoice_date": "2026-02-23",
+  "seller_name": "Kaur Trading Co. Invoice No. INV-7788",
+  "seller_gstin": "27PRIFP1414E8Z0",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.02",
+  "grand_total": "149026.00",
+  "amount_in_words": null
+ },
+ "raw": "Kaur Trading Co. Invoice No. INV-7788\nShop No. 163, Ambattur Industrial Estate Dated 23-Feb-2026\nKolkata, West Bengal - 721395 Mode/Terms of Payment 15 Days\nState Name : West Bengal, Code : 19\nBuyer (Bill to) Destination: Mumbai\nPatel Trading Co. LLP\nShop No. 93, Sector 63\nMumbai, Maharashtra - 413809\nGSTIN/UIN: 27PRIFP1414E8Z0\nPlace of Supply : Maharashtra\n%\nHard Bound Register 200 Pages 4820 115.18] 806.26 145.13\nStainless Steel Cutlery Set 8215 516.49] 47000.59 8460.11\nInstant Drink Premix 2106 214.00| 2354.00 423.72\nMonoblock Water Pump 1HP 8413 5114.69| 5114.69 920.64\nHDPE Packing Bags 3923 | 5.030 170.30] 856.61 154.19\n| 6 | Corrugated Carton Box 5-Ply 4819 77.49} 41147.19 7406.49\n7 |PVC Insulated Copper Cable 8544 | 821.458]MTR 35.32] 29013.90} 18% | 5222.50\n2.5sqmm\nRound Off -0.02\nGrand Total = 149026.00\nAmount Chargeable (in words): Rupees One Lakh Forty Nine Thousand Twenty Six Only\nBank Name : ICICI Bank\nAle No. : 6396727401395319\nBranch & IFSC : Mumbai & BJSA0160434 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5484,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1014,
+  "gstins_found": 1
+ }
+}

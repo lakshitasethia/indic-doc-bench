@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00078__L0_clean",
+ "doc_id": "syn00078",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-12-28",
+  "seller_name": "Plot No. 277, GIDC Estate, Ghaziabad, Uttar Pradesh-260431 Dt: 28/12/2025",
+  "seller_gstin": "09FDZFC5070C5ZS",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Plot No. 277, GIDC Estate, Ghaziabad, Uttar Pradesh-260431 Dt: 28/12/2025\nGSTIN: 09FDZFC5070C5ZS | State: Uttar Pradesh (09) RCM: N\nSr] Particulars, | HSN| ty | | Rate | Disc | Taxable | %\u00ae | cost | cst | Amount\nInstant Drink Premix ___| 21068 PCS | 202.18) -| 1617.44) 18 145.57 145.57| 1908.58\n2 |Radial Tyre 195/65 R15 | 4011 | 16| NOS | 7054.41] -|_112870.56/28| 15801.88/ 1580188) 144474.32\n114488.00\n15947.45\n15947.45\n0.10\n146383.00\nRs. in words: Rupees One Lakh Forty Six Thousand Three Hundred and Eighty Three Only\nFor Chowdhury Solutions Limited\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3041,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 568,
+  "gstins_found": 1
+ }
+}

@@ -1,0 +1,56 @@
+{# Small-shop bill book: letterhead, hand-drawn feel, no HSN column in the item
+   table (an HSN summary sits at the bottom instead), "Rs." not the rupee sign,
+   condensed tax summary. This is the layout that breaks positional extraction. #}
+<style>{{ base_css }}
+body { font-family: "Courier New", monospace; font-size: 9pt; }
+.head { text-align:center; border-bottom:3px double #000; padding-bottom:6px; }
+.head .nm { font-family: Georgia, serif; font-size:17pt; font-weight:bold; letter-spacing:2px; }
+.row { display:flex; justify-content:space-between; margin:6px 0; }
+td, th { border:1px solid #444; padding:3px 5px; }
+th { background:#eee; font-size:8pt; }
+.noline td { border:none; padding:1px 4px; }
+</style>
+<div class="head">
+  <div class="nm">{{ r.seller_name|upper }}</div>
+  <div style="font-size:8.5pt">{{ sa.line1 }}, {{ sa.city }} - {{ sa.pincode }} ({{ sa.state }})</div>
+  <div style="font-size:8.5pt">GSTIN : {{ r.seller_gstin }} &nbsp;&nbsp; State Code : {{ sa.state_code }}</div>
+</div>
+<div class="c b" style="margin:5px 0;text-decoration:underline">TAX INVOICE</div>
+<div class="row">
+  <div>M/s. <b>{{ r.buyer_name }}</b><br>{{ ba.line1 }}<br>{{ ba.city }} - {{ ba.pincode }}<br>
+    GSTIN : {{ r.buyer_gstin or 'URP' }}<br>Place of Supply : {{ ba.state_code }}-{{ ba.state }}</div>
+  <div style="text-align:right">Bill No. : <b>{{ r.invoice_number }}</b><br>Date : <b>{{ d.dmy_dot }}</b><br>
+    R.C.M. : {{ 'YES' if r.reverse_charge else 'NO' }}</div>
+</div>
+<table>
+  <tr><th style="width:5%">S.No</th><th>Particulars</th><th style="width:12%">Qty</th>
+      <th style="width:14%">Rate</th><th style="width:16%">Value (Rs.)</th></tr>
+  {% for it in items %}
+  <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td>
+      <td class="r">{{ it.quantity }} {{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+      <td class="r">{{ it.taxable_value }}</td></tr>
+  {% endfor %}
+  <tr><td colspan="4" class="r b">TOTAL</td><td class="r b">{{ r.total_taxable_value }}</td></tr>
+</table>
+<div class="row" style="align-items:flex-start">
+  <table style="width:52%;margin-right:8px">
+    <tr><th colspan="4">HSN / SAC Summary</th></tr>
+    <tr><th>HSN</th><th>Taxable</th><th>Rate</th><th>Tax Amt</th></tr>
+    {% for h in hsn_summary %}
+    <tr><td>{{ h.hsn }}</td><td class="r">{{ h.taxable }}</td><td class="c">{{ h.rate }}%</td><td class="r">{{ h.tax }}</td></tr>
+    {% endfor %}
+  </table>
+  <table style="width:46%">
+    <tr class="noline"><td>Taxable Value</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+    {% if interstate %}<tr class="noline"><td>Add: IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+    {% else %}<tr class="noline"><td>Add: CGST</td><td class="r">{{ r.cgst_amount }}</td></tr>
+    <tr class="noline"><td>Add: SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+    <tr class="noline"><td>Round Off</td><td class="r">{{ r.round_off }}</td></tr>
+    <tr><td class="b">NET PAYABLE</td><td class="r b">Rs. {{ r.grand_total }}</td></tr>
+  </table>
+</div>
+<div style="margin-top:6px;font-size:8.5pt">Rupees in words : <b>{{ r.amount_in_words }}</b></div>
+<div style="margin-top:4px;font-size:7.5pt">Bank: {{ bank.name }}, A/c {{ bank.account }}, IFSC {{ bank.ifsc }}</div>
+<div class="row" style="margin-top:18px;font-size:8pt">
+  <div>Receiver's Signature</div><div>For {{ r.seller_name|upper }}<br><br>Authorised Signatory</div>
+</div>

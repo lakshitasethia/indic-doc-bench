@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00090__L0_clean",
+ "doc_id": "syn00090",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-08-25",
+  "seller_name": "Shop No. 446, Peenya 2nd Stage, Muzaffarpur, Bihar-806612 Dt 25/08/2025",
+  "seller_gstin": "10ZKRFT2734I5ZR",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Shop No. 446, Peenya 2nd Stage, Muzaffarpur, Bihar-806612 Dt 25/08/2025\nGSTIN: 10ZKRFT2734I5ZR | State: Bihar (10) RCM: N\nS| \u2014~\u2014sPacus\u2014\u2014SSSSC*~?SCSN SSS] US| |S Touabe | | COST | \u2014\u2014SGST \u00ab| Amount\n1|Glucose Biscuits 200g 1905) 913, BOX| 391.73) | 357649.49 | 18 | 32188.45 | 32188.45| 422026.39\n2|Instant Drink Premix __\u2014\u2014|2106| 1593/PCS| 164.51| | 262064.43 | 18 | 2385.80 | 23585.80| 309236.03\n3| Office Workstation Table |9403)10/NOS| 1683148 \u2014_\u2014_- | 168314.80 | 18 | 15148.33] 15148.33| 198611.46\n4|OPC 53 Grade Cement 50kg |2523/ 69 BAG] 395.82/2731.16| 24580.42/28| 3441.26] 3441.26] 31462.94\n5 | Basmati Rice (Broken 5%) |1006/51.103,KGS| _127.27| _\u2014-|_6503.88/ 5 | 162.60| 162.60| 6829.08\n6/MS Fabricated Structure 7308) 6.610/KGS| 118.02) -|_\u2014\u2014780.11/18| 70.21] 70.21] 920.53\n819893.13\n74596.65\n74596.65\n0.43\n969086.00\nRs. in words: Rupees Nine Lakh Sixty Nine Thousand Eighty Six Only\nFor Trivedi Trading Co.\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4395,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 930,
+  "gstins_found": 1
+ }
+}

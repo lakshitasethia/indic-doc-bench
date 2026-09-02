@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00068__L2_photo",
+ "doc_id": "syn00068",
+ "level": "L2_photo",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "PILLAT\u2019 ENG",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "PILLAT\u2019 ENG\nTNEERING WORKS pyr.\n\u00a5 LD.\nSHOP No. 66, GtDC Eatare\nNagpur - 40ss3e\nGStIN: 27mnrei ssc\nCOs State: Mahara. tea (27)\nfreer. TAX INvorcE 2\nDates wes\nPos: 907/06\nSertOMOE\u00ae PLiiai Enterprises ott\nSStIM: O9RsIcPEc220224 es:\nHON 4819 Gonos \u00abna\n#7 Nard Bound Register 300 Faye .\nB. Assam CrC Tes Lene \u2018\neM 0902 \u00a2.s3aK0% x 29,\n4; Mocsbiock Water Pics sup\nM58 6423 anos x soca,\n\u00ae. Cotton Woven Fabric 44 inch is\nHSM 5208 See. stews sine\n$. Leather rornat shoe\nteu #215. 3ser x S024 -\n4. HOPE Cacking bay\nWSN 292390. 253KG5 & 229.99\n9. Toiter Soap iove\nHSH _9401 \u2014 ia2%ce x 36.24\n30. Paracetanci IP cscs sSanier\nHEN 3004 eabox x Carzs F\n42. \u2018Saartonone eon/isece\nHEM $517 ins x 2659.4 4573.4\nHON-2472 nos x onlay ce \u201c\n14. Multifunction Lares Frint\nHSM 9443 Gas \u00ab2349034\nWau 2523 isaac x 399.34\n16. Office Workstation tevie\nWSN 9403 anos x #2se-10\n19, 100 Steel \u2018Bar Po-300 tien\nLess Disc\n18. Detatipent: Powder ky\n39, Radial tyre 195/45 nis\nWs.4011 3nos x e547 47.4\n29, Glucose Biscuits 2009\nWSN 1903 19380x x 39330\nWSN 7918 eSNos x 2262\nWeil 8344 37.0230\u00bb 9-29 430.8\n23. Bassati Rice (aroken st)\nWSN 1006S. Jnckes x ia0.e4 \u2018\n24. Foun Mattions 72x36\nWan 9404~ stios x 11900.62 6503.1\n4 25. Cotton Round Neck T-shirt\nHSH 6109. Gps x 351-99 104\n26: 8. Fabicicated Structure\nWish 7308 339. 9e7KGs x 128.16 4670.0\n27, Synthetic fnaeel Paint 41\nTaxable 238769.19\nrest 246204.54\nTOTAL Rs.1451974.00\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6432,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1393,
+  "gstins_found": 0
+ }
+}

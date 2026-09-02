@@ -1,0 +1,45 @@
+{# Raw spreadsheet export: uniform gridlines everywhere, no visual hierarchy,
+   header fields sitting in ordinary cells indistinguishable from data. #}
+<style>{{ base_css }}
+body { font-family: Calibri, "Segoe UI", Arial, sans-serif; font-size: 8.5pt; }
+table { border-collapse:collapse; }
+td, th { border:.75px solid #b7b7b7; padding:2px 4px; height:15px; }
+.lab { background:#f7f7f7; font-weight:bold; }
+.hdr td { background:#d9d9d9; font-weight:bold; text-align:center; }
+</style>
+<table>
+  <tr><td class="lab" style="width:16%">Document Type</td><td colspan="3">TAX INVOICE</td>
+      <td class="lab" style="width:14%">Invoice No</td><td>{{ r.invoice_number }}</td></tr>
+  <tr><td class="lab">Supplier</td><td colspan="3">{{ r.seller_name }}</td>
+      <td class="lab">Invoice Date</td><td>{{ d.dmy_dash }}</td></tr>
+  <tr><td class="lab">Supplier GSTIN</td><td colspan="3">{{ r.seller_gstin }}</td>
+      <td class="lab">Terms</td><td>{{ terms }}</td></tr>
+  <tr><td class="lab">Supplier Address</td><td colspan="5">{{ sa.line1 }}, {{ sa.city }}, {{ sa.state }} - {{ sa.pincode }}</td></tr>
+  <tr><td class="lab">Recipient</td><td colspan="3">{{ r.buyer_name }}</td>
+      <td class="lab">Recipient GSTIN</td><td>{{ r.buyer_gstin or '' }}</td></tr>
+  <tr><td class="lab">Recipient Address</td><td colspan="3">{{ ba.line1 }}, {{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}</td>
+      <td class="lab">Place of Supply</td><td>{{ ba.state }}</td></tr>
+  <tr><td class="lab">Reverse Charge</td><td>{{ 'Yes' if r.reverse_charge else 'No' }}</td>
+      <td colspan="2"></td><td class="lab">Currency</td><td>INR</td></tr>
+</table>
+<table style="margin-top:9px">
+  <tr class="hdr"><td>Line</td><td style="width:30%">Item Description</td><td>HSN_SAC</td><td>Qty</td><td>UQC</td>
+    <td>Unit_Price</td><td>Discount</td><td>Taxable_Value</td><td>Tax_Rate</td>
+    {% if interstate %}<td>IGST_Amt</td>{% else %}<td>CGST_Amt</td><td>SGST_Amt</td>{% endif %}<td>Line_Total</td></tr>
+  {% for it in items %}
+  <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td><td>{{ it.hsn_sac }}</td>
+    <td class="r">{{ it.quantity }}</td><td>{{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+    <td class="r">{{ it.discount or '0.00' }}</td><td class="r">{{ it.taxable_value }}</td><td class="r">{{ it.tax_rate }}</td>
+    {% if interstate %}<td class="r">{{ it._igst }}</td>{% else %}<td class="r">{{ it._cgst }}</td><td class="r">{{ it._sgst }}</td>{% endif %}
+    <td class="r">{{ it._line_total }}</td></tr>
+  {% endfor %}
+</table>
+<table style="margin-top:9px;width:42%">
+  <tr><td class="lab">Total_Taxable_Value</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+  {% if interstate %}<tr><td class="lab">Total_IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+  {% else %}<tr><td class="lab">Total_CGST</td><td class="r">{{ r.cgst_amount }}</td></tr>
+  <tr><td class="lab">Total_SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+  <tr><td class="lab">Round_Off</td><td class="r">{{ r.round_off }}</td></tr>
+  <tr><td class="lab">Grand_Total</td><td class="r b">{{ r.grand_total }}</td></tr>
+  <tr><td class="lab">Amount_In_Words</td><td>{{ r.amount_in_words }}</td></tr>
+</table>

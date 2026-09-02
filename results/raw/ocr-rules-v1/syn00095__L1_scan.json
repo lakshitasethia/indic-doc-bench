@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00095__L1_scan",
+ "doc_id": "syn00095",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "3740",
+  "invoice_date": "2025-07-23",
+  "seller_name": "Document Type TAX INVOICE Invoice No 3740",
+  "seller_gstin": "29AKHFM2648D6ZJ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "29TXRCB2743Z3ZF",
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No 3740\nSupplier Mahajan Engineering Works Pvt. Ltd. Invoice Date 23-07-2025\nSupplier GSTIN 29AKHFM2648D6ZJ Terms 30 Days\nSupplier Address | Khasra No. 104, MG Road, Mysuru, Karnataka - 560462\nRecipient Banerjee Polymers Limited presale 29TXRCB2743Z3ZF\nRecipient Address Unit No. 386, Focal Point, Mysuru, Karnataka - 563942 Place of Supply Karnataka\nReverse Charge No Currency INR\nLine D ends HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nRoad\nTransport\n1 : 996511 18 NOS | 12266.74 0.00 220801.32 S) 5520.03 5520.03) 231841.38\nServices of\nGoods\nRental\nServices of\n2 Commercial 997212 1 NOS 115878.52 0.00 115878.52 18, 10429.07, 10429.07| 136736.66\nProperty\nTotal_Taxable_Value 336679.84\nTotal_CGST 15949.10\nTotal_SGST 15949.10\nRound_Off -0.04\nGrand_Total 368578.00\nRupees Three Lakh Sixty Eight\nAmount_In_Words \u2014 Thousand Five Hundred and\nSeventy Eight Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5871,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 937,
+  "gstins_found": 2
+ }
+}

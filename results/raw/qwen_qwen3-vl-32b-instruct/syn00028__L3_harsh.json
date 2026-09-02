@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00028__L3_harsh",
+ "doc_id": "syn00028",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/2023/001",
+  "invoice_date": "2023-04-05",
+  "seller_name": "Iyer Electricals Pvt. Ltd.",
+  "seller_gstin": "33AAACI9876D1ZP",
+  "seller_address": "Unit No. 10, Road No. 1, Industrial Area, Tiruppur - 638011",
+  "buyer_name": "Trivedi Textiles Pvt. Ltd.",
+  "buyer_gstin": "33EBNF78784CQY",
+  "buyer_address": "Door No. 35, Sector 63, Madurai, Tamil Nadu - 621001",
+  "place_of_supply": "Tamil Nadu (32)",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Flex Box with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 7318,
+    "unit": "NO'S",
+    "unit_price": 23.11,
+    "discount": null,
+    "taxable_value": 42557.88,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 185/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 7,
+    "unit": "NO'S",
+    "unit_price": 6050.81,
+    "discount": null,
+    "taxable_value": 38655.67,
+    "tax_rate": 28
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 578,
+    "unit": "PCS",
+    "unit_price": 221.4,
+    "discount": null,
+    "taxable_value": 127969.2,
+    "tax_rate": 5
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2 Sqmm",
+    "hsn_sac": "8544",
+    "quantity": 87.296,
+    "unit": "MTS",
+    "unit_price": 84.04,
+    "discount": null,
+    "taxable_value": 9776.71,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NO'S",
+    "unit_price": 20486.67,
+    "discount": null,
+    "taxable_value": 20486.67,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 221186.96,
+  "cgst_amount": 39021.88,
+  "sgst_amount": 39021.88,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.12,
+  "grand_total": 269328.8,
+  "amount_in_words": "Rupees Two Lakh Sixty-Nine Thousand Three Hundred Twenty-Eight and Eighty Paise Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV/2023/001\",\n  \"invoice_date\": \"2023-04-05\",\n  \"seller_name\": \"Iyer Electricals Pvt. Ltd.\",\n  \"seller_gstin\": \"33AAACI9876D1ZP\",\n  \"seller_address\": \"Unit No. 10, Road No. 1, Industrial Area, Tiruppur - 638011\",\n  \"buyer_name\": \"Trivedi Textiles Pvt. Ltd.\",\n  \"buyer_gstin\": \"33EBNF78784CQY\",\n  \"buyer_address\": \"Door No. 35, Sector 63, Madurai, Tamil Nadu - 621001\",\n  \"place_of_supply\": \"Tamil Nadu (32)\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"MS Flex Box with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 7318,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 23.11,\n      \"discount\": null,\n      \"taxable_value\": 42557.88,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Radial Tyre 185/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 7,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 6050.81,\n      \"discount\": null,\n      \"taxable_value\": 38655.67,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 578,\n      \"unit\": \"PCS\",\n      \"unit_price\": 221.40,\n      \"discount\": null,\n      \"taxable_value\": 127969.20,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"PVC Insulated Copper Cable 2 Sqmm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 87.296,\n      \"unit\": \"MTS\",\n      \"unit_price\": 84.04,\n      \"discount\": null,\n      \"taxable_value\": 9776.71,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Multifunction Laser Printer\",\n      \"hsn_sac\": \"8443\",\n      \"quantity\": 1,\n      \"unit\": \"NO'S\",\n      \"unit_price\": 20486.67,\n      \"discount\": null,\n      \"taxable_value\": 20486.67,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 221186.96,\n  \"cgst_amount\": 39021.88,\n  \"sgst_amount\": 39021.88,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.12,\n  \"grand_total\": 269328.80,\n  \"amount_in_words\": \"Rupees Two Lakh Sixty-Nine Thousand Three Hundred Twenty-Eight and Eighty Paise Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1820,
+ "output_tokens": 792,
+ "cached_input_tokens": 0,
+ "latency_s": 34.775,
+ "cost_usd": 0.0005187519999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

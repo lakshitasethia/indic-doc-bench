@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00078__L2_photo",
+ "doc_id": "syn00078",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "GSTIN: OGFDZFCSO7OCSZS | State: Utar Pradesh (09) RCMEN |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "GSTIN: OGFDZFCSO7OCSZS | State: Utar Pradesh (09) RCMEN |\nae rr PTS TOPOS\nLo fot sc a\n\u2018Testo Pens [2s 6.Pos aie wi fe, W657, 4557) \u2014 10088\n[2 Racial Tyre 195/65 R15 | 4011 | 16] NOS | 705441 -|4\u00a52870.56|28| 15801.88| 16801.88| 144474.32\nCone ae\n\\OGS Tien oie | 15947.45,\nSGSime 1597.45,\nSRO mete _0.10\n\na ln wotds: Rupees One Lakh Foty Six Thousand Three Hundred and Eighty Thvee Only\nFor Chowdhury Solutions Limited\nAuth Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3449,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 428,
+  "gstins_found": 0
+ }
+}

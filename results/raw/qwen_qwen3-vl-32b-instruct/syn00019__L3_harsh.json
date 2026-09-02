@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00019__L3_harsh",
+ "doc_id": "syn00019",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "5304",
+  "invoice_date": "2025-07-24",
+  "seller_name": "Mehra Technologies Limited",
+  "seller_gstin": "78EZYMA3081A23",
+  "seller_address": "Unit No 23, Chandra Chowk, Siliguri, West Bengal - 734009",
+  "buyer_name": "Mehra Distributors Private Limited",
+  "buyer_gstin": "78ZNPPT0550QZ1",
+  "buyer_address": "Shop No. 285, Ambalaya Industrial Estate, Siliguri, West Bengal - 734003",
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Smartphone e286798CB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NO(S)",
+    "unit_price": 25788.27,
+    "discount": 25788.27,
+    "taxable_value": 25788.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Non-Filtered Water Purifier HWP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NO(S)",
+    "unit_price": 5259.69,
+    "discount": 5259.69,
+    "taxable_value": 5259.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 270.33,
+    "discount": 4803.6,
+    "taxable_value": 4803.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Two-Tiered Refrigerator 200-Watt",
+    "hsn_sac": "8520",
+    "quantity": 14,
+    "unit": "NO(S)",
+    "unit_price": 103.04,
+    "discount": 1442.56,
+    "taxable_value": 1442.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Dewalt Power Hammer Deg",
+    "hsn_sac": "3402",
+    "quantity": 31,
+    "unit": "PCS",
+    "unit_price": 173.2,
+    "discount": 3626.1,
+    "taxable_value": 3626.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NO(S)",
+    "unit_price": 16996.76,
+    "discount": 16996.76,
+    "taxable_value": 16996.76,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar 5-kg",
+    "hsn_sac": "1701",
+    "quantity": 7061.49,
+    "unit": "KGS",
+    "unit_price": 0.54,
+    "discount": 30738.11,
+    "taxable_value": 30738.11,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 425449.92,
+  "cgst_amount": 38290.6,
+  "sgst_amount": 38290.6,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.28,
+  "grand_total": 463045.0,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"5304\",\n  \"invoice_date\": \"2025-07-24\",\n  \"seller_name\": \"Mehra Technologies Limited\",\n  \"seller_gstin\": \"78EZYMA3081A23\",\n  \"seller_address\": \"Unit No 23, Chandra Chowk, Siliguri, West Bengal - 734009\",\n  \"buyer_name\": \"Mehra Distributors Private Limited\",\n  \"buyer_gstin\": \"78ZNPPT0550QZ1\",\n  \"buyer_address\": \"Shop No. 285, Ambalaya Industrial Estate, Siliguri, West Bengal - 734003\",\n  \"place_of_supply\": \"West Bengal\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Smartphone e286798CB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NO(S)\",\n      \"unit_price\": 25788.27,\n      \"discount\": 25788.27,\n      \"taxable_value\": 25788.27,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Non-Filtered Water Purifier HWP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 1,\n      \"unit\": \"NO(S)\",\n      \"unit_price\": 5259.69,\n      \"discount\": 5259.69,\n      \"taxable_value\": 5259.69,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 200,\n      \"unit\": \"SET\",\n      \"unit_price\": 270.33,\n      \"discount\": 4803.60,\n      \"taxable_value\": 4803.60,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Two-Tiered Refrigerator 200-Watt\",\n      \"hsn_sac\": \"8520\",\n      \"quantity\": 14,\n      \"unit\": \"NO(S)\",\n      \"unit_price\": 103.04,\n      \"discount\": 1442.56,\n      \"taxable_value\": 1442.56,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Dewalt Power Hammer Deg\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 31,\n      \"unit\": \"PCS\",\n      \"unit_price\": 173.20,\n      \"discount\": 3626.10,\n      \"taxable_value\": 3626.10,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NO(S)\",\n      \"unit_price\": 16996.76,\n      \"discount\": 16996.76,\n      \"taxable_value\": 16996.76,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Refined Sugar 5-kg\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 7061.49,\n      \"unit\": \"KGS\",\n      \"unit_price\": 0.54,\n      \"discount\": 30738.11,\n      \"taxable_value\": 30738.11,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 425449.92,\n  \"cgst_amount\": 38290.60,\n  \"sgst_amount\": 38290.60,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": -0.28,\n  \"grand_total\": 463045.00,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1808,
+ "output_tokens": 983,
+ "cached_input_tokens": 0,
+ "latency_s": 27.5606,
+ "cost_usd": 0.00059696,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

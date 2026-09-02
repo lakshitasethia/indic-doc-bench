@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00010__L2_photo",
+ "doc_id": "syn00010",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "\u2018SUPPLIER NAME INVOICE NUMBER INVOICE DATE i",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "185371.00",
+  "grand_total": "185371.00",
+  "amount_in_words": null
+ },
+ "raw": "\u2018SUPPLIER NAME INVOICE NUMBER INVOICE DATE i\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE |\nKasra No. 325, Kalbadevi Road, Kozhikode, Kerala - Kerala / 32 |\n|\nRECIPIENT NAME RECIPIENT GsTIN PLACE OF suppLy |\nMenon Solutions 32 - Kerala |\nRECIPIENT ADDRESS PAYMENT TERMS |\neee Se = so\nSynthetic |\nEnamel Paint 4L 3208 232.635 jure] 455.02 105853.58| 18 9526.82 9526.82)\nStainless Stee| |\nMultifunction al\nOffice |\nWorkstation 9403 1/NOS 14251.57 14251.57 1282.64 1282.64)\nTable |\nIs | ph aaah 9404 | fos 7036:48| 7036.48 633.28| 633.28]\nTOTAL TAXABLE VALUE TOTAL CGsr. TOTAL SGST ROUND OFF |\nTOTAL INVOICE VALUE (IN FIGURES AND WORDS) |\n%185371.00 \u2014 Rupees One Lakh Eighty Five Thousand Three Hundred and. Seventy One Only |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3717,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 724,
+  "gstins_found": 0
+ }
+}

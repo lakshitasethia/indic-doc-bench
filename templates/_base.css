@@ -1,0 +1,12 @@
+/* Shared print geometry only. Every visual decision that a model could latch
+   onto -- fonts, label wording, column order, tax presentation -- is set per
+   template, because a benchmark where all documents share a look measures one
+   layout with N seeds, not N layouts. */
+@page { size: A4; margin: 10mm; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+table { border-collapse: collapse; width: 100%; }
+.r { text-align: right; }
+.c { text-align: center; }
+.b { font-weight: bold; }
+.small { font-size: 8.5pt; }

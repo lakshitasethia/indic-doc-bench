@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00015__L1_scan",
+ "doc_id": "syn00015",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL4590",
+  "invoice_date": "2025-11-02",
+  "seller_name": "Sethi Logistics",
+  "seller_gstin": "07EBNCS1203B7ZK",
+  "seller_address": "Door No. 111, Peenya 2nd Stage, New Delhi, Delhi 110986",
+  "buyer_name": "Ahuwalia Marketing LLP",
+  "buyer_gstin": "07OFJFA5701V9Z0",
+  "buyer_address": "Shop No. 361, Okhla Phase I, New Delhi, Delhi 110501",
+  "place_of_supply": "07 - Delhi",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 62660.8,
+    "discount": null,
+    "taxable_value": 62660.8,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 62660.8,
+  "cgst_amount": 5639.47,
+  "sgst_amount": 5639.47,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.26,
+  "grand_total": 73940,
+  "amount_in_words": "Rupees Seventy Three Thousand Nine Hundred and Forty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"DL4590\",\n  \"invoice_date\": \"2025-11-02\",\n  \"seller_name\": \"Sethi Logistics\",\n  \"seller_gstin\": \"07EBNCS1203B7ZK\",\n  \"seller_address\": \"Door No. 111, Peenya 2nd Stage, New Delhi, Delhi 110986\",\n  \"buyer_name\": \"Ahuwalia Marketing LLP\",\n  \"buyer_gstin\": \"07OFJFA5701V9Z0\",\n  \"buyer_address\": \"Shop No. 361, Okhla Phase I, New Delhi, Delhi 110501\",\n  \"place_of_supply\": \"07 - Delhi\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Other Professional and Technical Services\",\n      \"hsn_sac\": \"998399\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 62660.8,\n      \"discount\": null,\n      \"taxable_value\": 62660.8,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 62660.8,\n  \"cgst_amount\": 5639.47,\n  \"sgst_amount\": 5639.47,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.26,\n  \"grand_total\": 73940,\n  \"amount_in_words\": \"Rupees Seventy Three Thousand Nine Hundred and Forty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3948,
+ "output_tokens": 390,
+ "cached_input_tokens": 0,
+ "latency_s": 9.6345,
+ "cost_usd": 0.000572832,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

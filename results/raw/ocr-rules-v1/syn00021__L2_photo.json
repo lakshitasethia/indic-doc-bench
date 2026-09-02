@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00021__L2_photo",
+ "doc_id": "syn00021",
+ "level": "L2_photo",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "SALE-B-4170",
+  "invoice_date": "2025-11-22",
+  "seller_name": "LN | Naidu Agencies Private Limited",
+  "seller_gstin": "06VGBFA0724Z9ZW",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "195.00",
+  "cgst_amount": "12763.96",
+  "sgst_amount": "12763.96",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.48",
+  "grand_total": "140420.00",
+  "amount_in_words": null
+ },
+ "raw": "LN | Naidu Agencies Private Limited\nKhasra No. 319, Kalbadevi Road, Panipat, Haryana - 122055\nGSTIN: o6NDQFN3329G1ZM * State Code: 06\nTAX INVOICE\nBill To :\nAhluwalia Pharma Invoice No. SALE-B-4170\nShop No. 236, Industrial Estate Date 22-Nov-2025\nFaridabad, Haryana - 136652 Payment Terms Cash\nGSTIN: 06VGBFA0724Z9ZW Reverse-Charge No\nPlace of Supply: Haryana\nms Sr Particulars HSN/SAC Qty Rate Taxable Value | GST% | Tax Amount\neit Radial Tyre 195/ 65 R15 4011 8 NOS . 8892.34 67581.78 28% 18922.90\n| 2 | Leather Formal Shoes 6403 24PRS 1282.20 30772.80 18% 5539-10\n[ 3| Stainless Steel Cutlery Set 8215 4SET 459.63 1838.52 18% 330.94\n[4 : _ Assam CIC Tea Leaf 0902 54.066 KGS = 271.88 14699.46 5% 734-98\nTotal Taxable Value 114892.56\ni CGST 12763.96\n: SGST 12763.96\nRound Off -0.48\n: Grand Total % 140420.00\nAmount in words: Rupees. One Lakh Forty \u2018Thousand Four \u2018Hundred and Twenty Only\nBank: HDFC Bank, A/e 1819097038851, IFSC JFGZ0437053. Faridabad\n4 For Naidu Agencies Private Limited\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4381,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1011,
+  "gstins_found": 1
+ }
+}

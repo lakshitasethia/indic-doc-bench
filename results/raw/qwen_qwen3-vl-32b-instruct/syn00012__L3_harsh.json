@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00012__L3_harsh",
+ "doc_id": "syn00012",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-7780",
+  "invoice_date": "2024-02-23",
+  "seller_name": "Kaye Trading Co.",
+  "seller_gstin": "19MGBCT7815ZD",
+  "seller_address": "Store No. 163, Ambalika Industrial Estate, Kalkheda, Bhopal, Madhya Pradesh - 462003",
+  "buyer_name": "Pavni Trading Co. LLP",
+  "buyer_gstin": "27FBNPT0162N1",
+  "buyer_address": "Shop No. 93, Sector 81-F, Noida, Uttar Pradesh - 201301",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "100ml Mineral Water - 300 Pkgs",
+    "hsn_sac": "4820",
+    "quantity": 300,
+    "unit": "NO",
+    "unit_price": 115.18,
+    "discount": 0,
+    "taxable_value": 34554,
+    "tax_rate": 18
+   },
+   {
+    "description": "Bottled Short Coffee - 9oz",
+    "hsn_sac": "8213",
+    "quantity": 94,
+    "unit": "SET",
+    "unit_price": 116.47,
+    "discount": 0,
+    "taxable_value": 10953.18,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Powder",
+    "hsn_sac": "2008",
+    "quantity": 15,
+    "unit": "PCS",
+    "unit_price": 264.06,
+    "discount": 0,
+    "taxable_value": 3960.9,
+    "tax_rate": 18
+   },
+   {
+    "description": "Whisk/Block Water Pump 1HP",
+    "hsn_sac": "84117",
+    "quantity": 1,
+    "unit": "No",
+    "unit_price": 1314.68,
+    "discount": 0,
+    "taxable_value": 1314.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 1406,
+    "unit": "KG",
+    "unit_price": 170.36,
+    "discount": 0,
+    "taxable_value": 239635.16,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-0%",
+    "hsn_sac": "4819",
+    "quantity": 134,
+    "unit": "NO",
+    "unit_price": 77.46,
+    "discount": 0,
+    "taxable_value": 10379.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "TVC Insulated Copper Cable",
+    "hsn_sac": "8544",
+    "quantity": 321.436,
+    "unit": "MTB",
+    "unit_price": 33.52,
+    "discount": 0,
+    "taxable_value": 10776.79,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 298263.25,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 53687.39,
+  "cess_amount": null,
+  "round_off": 0.05,
+  "grand_total": 351950.64,
+  "amount_in_words": "Rupees One Lakh Forty Nine Thousand Five Hundred Sixty Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-7780\",\n  \"invoice_date\": \"2024-02-23\",\n  \"seller_name\": \"Kaye Trading Co.\",\n  \"seller_gstin\": \"19MGBCT7815ZD\",\n  \"seller_address\": \"Store No. 163, Ambalika Industrial Estate, Kalkheda, Bhopal, Madhya Pradesh - 462003\",\n  \"buyer_name\": \"Pavni Trading Co. LLP\",\n  \"buyer_gstin\": \"27FBNPT0162N1\",\n  \"buyer_address\": \"Shop No. 93, Sector 81-F, Noida, Uttar Pradesh - 201301\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"100ml Mineral Water - 300 Pkgs\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 300,\n      \"unit\": \"NO\",\n      \"unit_price\": 115.18,\n      \"discount\": 0,\n      \"taxable_value\": 34554,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Bottled Short Coffee - 9oz\",\n      \"hsn_sac\": \"8213\",\n      \"quantity\": 94,\n      \"unit\": \"SET\",\n      \"unit_price\": 116.47,\n      \"discount\": 0,\n      \"taxable_value\": 10953.18,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Powder\",\n      \"hsn_sac\": \"2008\",\n      \"quantity\": 15,\n      \"unit\": \"PCS\",\n      \"unit_price\": 264.06,\n      \"discount\": 0,\n      \"taxable_value\": 3960.9,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Whisk/Block Water Pump 1HP\",\n      \"hsn_sac\": \"84117\",\n      \"quantity\": 1,\n      \"unit\": \"No\",\n      \"unit_price\": 1314.68,\n      \"discount\": 0,\n      \"taxable_value\": 1314.68,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"HDPE Packing Bags\",\n      \"hsn_sac\": \"3923\",\n      \"quantity\": 1406,\n      \"unit\": \"KG\",\n      \"unit_price\": 170.36,\n      \"discount\": 0,\n      \"taxable_value\": 239635.16,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Corrugated Carton Box 5-0%\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 134,\n      \"unit\": \"NO\",\n      \"unit_price\": 77.46,\n      \"discount\": 0,\n      \"taxable_value\": 10379.64,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TVC Insulated Copper Cable\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 321.436,\n      \"unit\": \"MTB\",\n      \"unit_price\": 33.52,\n      \"discount\": 0,\n      \"taxable_value\": 10776.79,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 298263.25,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 53687.39,\n  \"cess_amount\": null,\n  \"round_off\": 0.05,\n  \"grand_total\": 351950.64,\n  \"amount_in_words\": \"Rupees One Lakh Forty Nine Thousand Five Hundred Sixty Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1751,
+ "output_tokens": 951,
+ "cached_input_tokens": 0,
+ "latency_s": 20.2629,
+ "cost_usd": 0.00057772,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

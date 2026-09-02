@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00036__L3_harsh",
+ "doc_id": "syn00036",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "5 es st eee 44",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "5 es st eee 44\nean * | eS ORR wopcemeieee\n: AA See ea s\nBy \u2014\u2014\u2014 ae \u2014~ = \u2014 jes\nSal See a a |\n0: Sine 0 eC\nB bed mney heomat ea Mal afc} sista ase is | Te\ni#] te eA See) a ieee SP\na i \u2018 \u2018a \u2018Rowen Ct en\nDrom ran 1 wet Pew Orne Veeninaied amis in Cnty\non Seaicjecun\n| ec : ease\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3101,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 273,
+  "gstins_found": 0
+ }
+}

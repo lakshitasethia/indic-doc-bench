@@ -1,0 +1,45 @@
+{# Government-form style: every field in its own labelled box on a rigid grid.
+   Labels sit above values rather than beside them. #}
+<style>{{ base_css }}
+body { font-family: Verdana, Geneva, sans-serif; font-size: 7.8pt; }
+.g { display:grid; grid-template-columns:repeat(4,1fr); border-left:1px solid #000; border-top:1px solid #000; }
+.f { border-right:1px solid #000; border-bottom:1px solid #000; padding:3px 5px; min-height:30px; }
+.f .l { font-size:6.2pt; color:#444; text-transform:uppercase; letter-spacing:.4px; }
+.f .v { font-weight:bold; font-size:8.5pt; margin-top:1px; }
+.w2 { grid-column: span 2; } .w4 { grid-column: span 4; }
+td, th { border:1px solid #000; padding:2px 4px; }
+th { background:#e0e0e0; font-size:6.5pt; }
+</style>
+<div class="c b" style="border:2px solid #000;padding:4px;font-size:12pt;letter-spacing:2px">TAX INVOICE</div>
+<div class="g" style="margin-top:5px">
+  <div class="f w2"><div class="l">Supplier Name</div><div class="v">{{ r.seller_name }}</div></div>
+  <div class="f"><div class="l">Invoice Number</div><div class="v">{{ r.invoice_number }}</div></div>
+  <div class="f"><div class="l">Invoice Date</div><div class="v">{{ d.iso }}</div></div>
+  <div class="f w2"><div class="l">Supplier Address</div><div class="v" style="font-weight:normal">{{ sa.line1 }}, {{ sa.city }}, {{ sa.state }} - {{ sa.pincode }}</div></div>
+  <div class="f"><div class="l">Supplier GSTIN</div><div class="v">{{ r.seller_gstin }}</div></div>
+  <div class="f"><div class="l">State / Code</div><div class="v">{{ sa.state }} / {{ sa.state_code }}</div></div>
+  <div class="f w2"><div class="l">Recipient Name</div><div class="v">{{ r.buyer_name }}</div></div>
+  <div class="f"><div class="l">Recipient GSTIN</div><div class="v">{{ r.buyer_gstin or 'URP' }}</div></div>
+  <div class="f"><div class="l">Place of Supply</div><div class="v">{{ ba.state_code }} - {{ ba.state }}</div></div>
+  <div class="f w2"><div class="l">Recipient Address</div><div class="v" style="font-weight:normal">{{ ba.line1 }}, {{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}</div></div>
+  <div class="f"><div class="l">Reverse Charge</div><div class="v">{{ 'YES' if r.reverse_charge else 'NO' }}</div></div>
+  <div class="f"><div class="l">Payment Terms</div><div class="v">{{ terms }}</div></div>
+</div>
+<table style="margin-top:5px">
+  <tr><th>Sl No</th><th>Description of Supply</th><th>HSN/SAC</th><th>Qty</th><th>UQC</th><th>Unit Price</th>
+      <th>Taxable Value</th><th>Rate (%)</th>{% if interstate %}<th>IGST Amount</th>{% else %}<th>CGST Amount</th><th>SGST Amount</th>{% endif %}</tr>
+  {% for it in items %}
+  <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td><td class="c">{{ it.hsn_sac }}</td>
+    <td class="r">{{ it.quantity }}</td><td class="c">{{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+    <td class="r">{{ it.taxable_value }}</td><td class="c">{{ it.tax_rate }}</td>
+    {% if interstate %}<td class="r">{{ it._igst }}</td>{% else %}<td class="r">{{ it._cgst }}</td><td class="r">{{ it._sgst }}</td>{% endif %}</tr>
+  {% endfor %}
+</table>
+<div class="g" style="margin-top:5px">
+  <div class="f"><div class="l">Total Taxable Value</div><div class="v">{{ r.total_taxable_value }}</div></div>
+  <div class="f"><div class="l">{{ 'Total IGST' if interstate else 'Total CGST' }}</div><div class="v">{{ r.igst_amount if interstate else r.cgst_amount }}</div></div>
+  <div class="f"><div class="l">{{ 'Cess' if interstate else 'Total SGST' }}</div><div class="v">{{ (r.cess_amount or '0.00') if interstate else r.sgst_amount }}</div></div>
+  <div class="f"><div class="l">Round Off</div><div class="v">{{ r.round_off }}</div></div>
+  <div class="f w4"><div class="l">Total Invoice Value (in figures and words)</div>
+    <div class="v">₹ {{ r.grand_total }} &nbsp;&mdash;&nbsp; {{ r.amount_in_words }}</div></div>
+</div>

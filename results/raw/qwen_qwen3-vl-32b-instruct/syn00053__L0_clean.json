@@ -1,0 +1,139 @@
+{
+ "variant_id": "syn00053__L0_clean",
+ "doc_id": "syn00053",
+ "level": "L0_clean",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/4270",
+  "invoice_date": "2025-08-28",
+  "seller_name": "Trivedi Steel & Alloys Pvt. Ltd.",
+  "seller_gstin": "19GYDPT3289O6Z4",
+  "seller_address": "Door No. 127, MIDC Phase II Kolkata 725786 West Bengal",
+  "buyer_name": "Kulkarni Distributors",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 207, SIDCO Complex Howrah 718832 West Bengal",
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 17973.43,
+    "discount": null,
+    "taxable_value": 17973.43,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.1,
+    "unit": "TON",
+    "unit_price": 51679.55,
+    "discount": null,
+    "taxable_value": 5167.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 114.7,
+    "discount": null,
+    "taxable_value": 1605.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 55,
+    "unit": "PCS",
+    "unit_price": 210.85,
+    "discount": null,
+    "taxable_value": 11596.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 5,
+    "unit": "BAG",
+    "unit_price": 351.52,
+    "discount": null,
+    "taxable_value": 1757.6,
+    "tax_rate": 28
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 152,
+    "unit": "SET",
+    "unit_price": 393.53,
+    "discount": null,
+    "taxable_value": 59816.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 32855.34,
+    "discount": null,
+    "taxable_value": 32855.34,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 68361.71,
+    "discount": null,
+    "taxable_value": 68361.71,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 592,
+    "unit": "NOS",
+    "unit_price": 16.97,
+    "discount": null,
+    "taxable_value": 10046.24,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 209181.39,
+  "cgst_amount": 18914.2,
+  "sgst_amount": 18914.2,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.21,
+  "grand_total": 247010,
+  "amount_in_words": "Rupees Two Lakh Forty Seven Thousand Ten Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"2025-26/4270\",\n  \"invoice_date\": \"2025-08-28\",\n  \"seller_name\": \"Trivedi Steel & Alloys Pvt. Ltd.\",\n  \"seller_gstin\": \"19GYDPT3289O6Z4\",\n  \"seller_address\": \"Door No. 127, MIDC Phase II Kolkata 725786 West Bengal\",\n  \"buyer_name\": \"Kulkarni Distributors\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Plot No. 207, SIDCO Complex Howrah 718832 West Bengal\",\n  \"place_of_supply\": \"West Bengal\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 17973.43,\n      \"discount\": null,\n      \"taxable_value\": 17973.43,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 0.1,\n      \"unit\": \"TON\",\n      \"unit_price\": 51679.55,\n      \"discount\": null,\n      \"taxable_value\": 5167.96,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Hard Bound Register 200 Pages\",\n      \"hsn_sac\": \"4820\",\n      \"quantity\": 14,\n      \"unit\": \"NOS\",\n      \"unit_price\": 114.7,\n      \"discount\": null,\n      \"taxable_value\": 1605.8,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 55,\n      \"unit\": \"PCS\",\n      \"unit_price\": 210.85,\n      \"discount\": null,\n      \"taxable_value\": 11596.75,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"OPC 53 Grade Cement 50kg\",\n      \"hsn_sac\": \"2523\",\n      \"quantity\": 5,\n      \"unit\": \"BAG\",\n      \"unit_price\": 351.52,\n      \"discount\": null,\n      \"taxable_value\": 1757.6,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Stainless Steel Cutlery Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 152,\n      \"unit\": \"SET\",\n      \"unit_price\": 393.53,\n      \"discount\": null,\n      \"taxable_value\": 59816.56,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 32855.34,\n      \"discount\": null,\n      \"taxable_value\": 32855.34,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 68361.71,\n      \"discount\": null,\n      \"taxable_value\": 68361.71,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 592,\n      \"unit\": \"NOS\",\n      \"unit_price\": 16.97,\n      \"discount\": null,\n      \"taxable_value\": 10046.24,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 209181.39,\n  \"cgst_amount\": 18914.2,\n  \"sgst_amount\": 18914.2,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.21,\n  \"grand_total\": 247010,\n  \"amount_in_words\": \"Rupees Two Lakh Forty Seven Thousand Ten Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3966,
+ "output_tokens": 1111,
+ "cached_input_tokens": 0,
+ "latency_s": 14.0615,
+ "cost_usd": 0.00087464,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "variant_id": "syn00055__L1_scan",
+ "doc_id": "syn00055",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": null,
+ "raw": "",
+ "schema_violation": "call_failed",
+ "error": "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"in",
+ "refusal": false,
+ "finish_reason": null,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 182.2138,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": null
+}

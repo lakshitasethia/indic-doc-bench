@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00017__L3_harsh",
+ "doc_id": "syn00017",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL6150",
+  "invoice_date": "2026-01-08",
+  "seller_name": "Sanghvi Engineering Works Pvt. Ltd.",
+  "seller_gstin": "27AABCS0304P1ZD",
+  "seller_address": "B-10/1, Sector 62, Noida, Uttar Pradesh, 201301",
+  "buyer_name": "Chandan Overseas",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 10, Industrial Estate, Bhiwani, Haryana, 127021",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Corrugated Carton Box 6-Ply",
+    "hsn_sac": "4819",
+    "quantity": 127,
+    "unit": "NOSS",
+    "unit_price": 36.29,
+    "discount": null,
+    "taxable_value": 4628.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Brown Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 290.833,
+    "unit": "KGS",
+    "unit_price": 85.84,
+    "discount": null,
+    "taxable_value": 25720.5,
+    "tax_rate": 5
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7318",
+    "quantity": 6.282,
+    "unit": "TON",
+    "unit_price": 46726.81,
+    "discount": null,
+    "taxable_value": 13753.86,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 44062.89,
+  "cgst_amount": 2203.14,
+  "sgst_amount": 2203.14,
+  "igst_amount": null,
+  "cess_amount": 2293.83,
+  "round_off": 0.36,
+  "grand_total": 48851.0,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"DL6150\",\n  \"invoice_date\": \"2026-01-08\",\n  \"seller_name\": \"Sanghvi Engineering Works Pvt. Ltd.\",\n  \"seller_gstin\": \"27AABCS0304P1ZD\",\n  \"seller_address\": \"B-10/1, Sector 62, Noida, Uttar Pradesh, 201301\",\n  \"buyer_name\": \"Chandan Overseas\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Plot No. 10, Industrial Estate, Bhiwani, Haryana, 127021\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Corrugated Carton Box 6-Ply\",\n      \"hsn_sac\": \"4819\",\n      \"quantity\": 127,\n      \"unit\": \"NOSS\",\n      \"unit_price\": 36.29,\n      \"discount\": null,\n      \"taxable_value\": 4628.83,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Brown Rice (Broken 5%)\",\n      \"hsn_sac\": \"1006\",\n      \"quantity\": 290.833,\n      \"unit\": \"KGS\",\n      \"unit_price\": 85.84,\n      \"discount\": null,\n      \"taxable_value\": 25720.50,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 6.282,\n      \"unit\": \"TON\",\n      \"unit_price\": 46726.81,\n      \"discount\": null,\n      \"taxable_value\": 13753.86,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 44062.89,\n  \"cgst_amount\": 2203.14,\n  \"sgst_amount\": 2203.14,\n  \"igst_amount\": null,\n  \"cess_amount\": 2293.83,\n  \"round_off\": 0.36,\n  \"grand_total\": 48851.00,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1698,
+ "output_tokens": 573,
+ "cached_input_tokens": 0,
+ "latency_s": 15.9773,
+ "cost_usd": 0.00041495999999999997,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

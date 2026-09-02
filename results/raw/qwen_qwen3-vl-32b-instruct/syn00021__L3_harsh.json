@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00021__L3_harsh",
+ "doc_id": "syn00021",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-4170",
+  "invoice_date": "2023-11-02",
+  "seller_name": "Naidu Agencies Private Limited",
+  "seller_gstin": "28AAACN6580R1ZS",
+  "seller_address": "D-9/10, Sector 10, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "Akhilesh Pharma",
+  "buyer_gstin": "28AAACN6580R1ZS",
+  "buyer_address": "Shop No. 108, Industrial Estate, Faridabad, Haryana - 121001",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "KABIR Tyre 185/65 R15",
+    "hsn_sac": "8701",
+    "quantity": 8,
+    "unit": "NOX",
+    "unit_price": 1062.34,
+    "discount": null,
+    "taxable_value": 8538.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Parcel Meter",
+    "hsn_sac": "6403",
+    "quantity": 42,
+    "unit": "PCS",
+    "unit_price": 1282.2,
+    "discount": null,
+    "taxable_value": 53772.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Carbine Set",
+    "hsn_sac": "8215",
+    "quantity": 4,
+    "unit": "SET",
+    "unit_price": 439.63,
+    "discount": null,
+    "taxable_value": 1785.82,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 54.068,
+    "unit": "KGS",
+    "unit_price": 275.88,
+    "discount": null,
+    "taxable_value": 14899.46,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 81896.58,
+  "cgst_amount": 7370.7,
+  "sgst_amount": 7370.7,
+  "igst_amount": null,
+  "cess_amount": 0.48,
+  "round_off": -0.48,
+  "grand_total": 96637.98,
+  "amount_in_words": "Rupees Nine Lakh Sixty Thousand Four Hundred and Twenty Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SALE-B-4170\",\n  \"invoice_date\": \"2023-11-02\",\n  \"seller_name\": \"Naidu Agencies Private Limited\",\n  \"seller_gstin\": \"28AAACN6580R1ZS\",\n  \"seller_address\": \"D-9/10, Sector 10, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"Akhilesh Pharma\",\n  \"buyer_gstin\": \"28AAACN6580R1ZS\",\n  \"buyer_address\": \"Shop No. 108, Industrial Estate, Faridabad, Haryana - 121001\",\n  \"place_of_supply\": \"Haryana\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"KABIR Tyre 185/65 R15\",\n      \"hsn_sac\": \"8701\",\n      \"quantity\": 8,\n      \"unit\": \"NOX\",\n      \"unit_price\": 1062.34,\n      \"discount\": null,\n      \"taxable_value\": 8538.78,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Leather Parcel Meter\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 42,\n      \"unit\": \"PCS\",\n      \"unit_price\": 1282.20,\n      \"discount\": null,\n      \"taxable_value\": 53772.80,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Stainless Steel Carbine Set\",\n      \"hsn_sac\": \"8215\",\n      \"quantity\": 4,\n      \"unit\": \"SET\",\n      \"unit_price\": 439.63,\n      \"discount\": null,\n      \"taxable_value\": 1785.82,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Assam CTC Tea Leaf\",\n      \"hsn_sac\": \"0902\",\n      \"quantity\": 54.068,\n      \"unit\": \"KGS\",\n      \"unit_price\": 275.88,\n      \"discount\": null,\n      \"taxable_value\": 14899.46,\n      \"tax_rate\": 5\n    }\n  ],\n  \"total_taxable_value\": 81896.58,\n  \"cgst_amount\": 7370.70,\n  \"sgst_amount\": 7370.70,\n  \"igst_amount\": null,\n  \"cess_amount\": 0.48,\n  \"round_off\": -0.48,\n  \"grand_total\": 96637.98,\n  \"amount_in_words\": \"Rupees Nine Lakh Sixty Thousand Four Hundred and Twenty Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1768,
+ "output_tokens": 673,
+ "cached_input_tokens": 0,
+ "latency_s": 15.6005,
+ "cost_usd": 0.0004638399999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00084__L2_photo",
+ "doc_id": "syn00084",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "DL6253",
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.18",
+  "grand_total": "134836.00",
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\nChauhan Sales Corporation Limited Invoice No. DL6253\nGala No. 272, Sector 63 Dated 30-Jul-2025\nGurugram, Haryana - 125110 Mode/Terms of Payment 45 Days\nGSTIN/UIN: 060CGPC9947R6ZB Reverse Charge No\nState Name : Haryana, Code : 06\nBuyer (Bill to) IRN: 586fd2b670 1ba398 | 24212 | 3bSabafdS62S0bac3ca30dca9 1 OME 3be8\nShetty & Sons Private Limited pada\nDoor No. 109, Chandni Chowk cea\nJodhpur, Rajasthan - 340946\nGSTIN/UIN: O8RHTPS6228C8ZA\nPlace of Supply : Rajasthan\n[eee ee\n| 1 [Stainless Steel Cutlery Set | s2is | _61{SeT| 554.41]. 33819.01 6087.42\nCorrugated Carton Box 5-Ply 4819 |. 3289 24.46| 8048.94 14480.81\nTotal | 114267.95| | 20568.23\nRound Off -0.18\nGrand Total \u2014_-& 134836.00\nAmount Chargeable (in words): Rupees One Lakh Thirty Four Thousand Eight Hundred and Thirty Six\nOnly\nBank Name : Axis Bank\nAlc No. : 75246142954014\nBranch & IFSC : Jodhpur & NPHJ0631463 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4469,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 907,
+  "gstins_found": 0
+ }
+}

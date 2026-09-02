@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00021__L1_scan",
+ "doc_id": "syn00021",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-11-22",
+  "seller_name": "Naidu Agencies Private Limited",
+  "seller_gstin": "06NDQFN3329G1ZM",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1.00",
+  "cgst_amount": "12763.96",
+  "sgst_amount": "12763.96",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.48",
+  "grand_total": "140420.00",
+  "amount_in_words": null
+ },
+ "raw": "Naidu Agencies Private Limited\nKhasra No. 319, Kalbadevi Road, Panipat, Haryana - 122055\nGSTIN: 06NDQFN3329G1ZM \u00ab State Code: 06\nTAX INVOICE\nBill To\nShop No. 236, Industrial Estate Date 22-Nov-2025\nFaridabad, Haryana - 136652 Payment Terms Cash\nPlace of Supply: Haryana\nise] Particulars | HSNISAC| Qty | Rate | Taxable Value | GST% | Tax Amount |\n1 Radial Tyre 195/65 R15 4011 8 NOS 8892.34 67581.78 28% 18922.90\n2 Leather Formal Shoes 6403 24PRS 1282.20 30772.80 18% 5539.10\n3 Stainless Steel Cutlery Set 8215 4SET 459.63 1838.52 18% 330.94\n4 Assam CTC Tea Leaf 0902 54.066 KGS 271.88 14699.46 5% 734.98\nTotal Taxable Value 114892.56\nCGST 12763.96\nSGST 12763.96\nRound Off -0.48\nGrand Total ~ 140420.00\nAmount in words: Rupees One Lakh Forty Thousand Four Hundred and Twenty Only\nBank: HDFC Bank, A/c 18190970388511, IFSC JFGZ0437053, Faridabad\nFor Naidu Agencies Private Limited\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6772,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 901,
+  "gstins_found": 1
+ }
+}

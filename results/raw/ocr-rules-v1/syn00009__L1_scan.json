@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00009__L1_scan",
+ "doc_id": "syn00009",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "GJo281",
+  "invoice_date": "2026-02-28",
+  "seller_name": "Reddy Polymers",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "679493.55",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "145065.60",
+  "cess_amount": null,
+  "round_off": "0.15",
+  "grand_total": "824559.00",
+  "amount_in_words": null
+ },
+ "raw": "Reddy Polymers\nDoor No. 127, Peenya 2nd Stage, Warangal, Telangana - 508084\nGSTIN: 360PGPR7368S3Z8 + State Code: 36\nEE\nTAX INVOICE\nBill To\nAgarwal Polymers Private Limited Invoice No. GJo281\nPlot No. 280, Industrial Estate Date 28-Feb-2026\nMangaluru, Karnataka - 575165 Payment Terms 45 Days\nGSTIN: 290AMPA8931U7Z6 Reverse Charge No\nPlace of Supply: Karnataka\nrr a ae ce\n1 Detergent Powder ikg 3402 245 PCS 92.27, 22606.15 18% 4069.11\n2 MS Fabricated Structure 7308 7.597 KGS 85.38 648.63 18% 116.75\n3 Glucose Biscuits 200g 1905 214BOX 284.48 60878.72 18% 10958.17\n4 Stainless Steel Cutlery Set 8215 15 SET 710.82 10662.30 18% 1919.21\n5 Cotton Woven Fabric 44 inch 5208 39.616 MTR 170.70 6086.20 5% 304.31\n6 TMT Steel Bar Fe-500 12mm 7214 0.100 TON 50742.86 5074.29 18% 913.37\nPVC Insulated Copper Cable 4131.880 .\n7 2.5sqmm 8544 MTR 40.03 165399.16 18% 29771.85\n8 Corrugated Carton Box 5-Ply 4819 349 NOS 35-23 | 12295.27| 18% |. 2213.15\n9 Multifunction Laser Printer q 8443 1NOS 17980.33 17980.33 18% 3236.46\n10 OPC 53 Grade Cement 50kg 2523 577 BAG \u2014s 429.59 235479.76 28% | 65934.33\n11 Laptop Computer i5 16GB 8471 1NOS 49611.36 48619.13 18% 8751.44\n12 Office Workstation Table 9403 1NOS 11087.87| 11087.87 18% 1995.82\n13 Synthetic Enamel Paint 4L 3208 2.813 LTR 489.79 1350.22 18% 243.04\n14 Monoblock Water Pump 1HP 8413 1NOS. 6865.13 6865.13 18% 1235.72\n15 HDPE Packing Bags 3923 pees 144.58 33822.76 18% 6088.10\n16 Foam Mattress 72x36 9404 1 NOS 10955.39 9859.85 18% 174.77\n17 Smartphone 6GB/128GB 8517 1NOS_ 30777.78 30777.78 18% 5540.00\nTotal Taxable Value 679493.55\nIGST 145065.60\nRound Off -0.15\nGrand Total X 824559.00\nAmount in words: Rupees Eight Lakh Twenty Four Thousand Five Hundred and Fifty Nine Only\nBank: Bank of Baroda, A/c 12849239019, IFSC AFZC0466641, Mangaluru\nFor Reddy Polymers\nAuthorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.4667,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1827,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00033__L3_harsh",
+ "doc_id": "syn00033",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "\u2014\u2014\u2014\u2014",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "\u2014\u2014\u2014\u2014\n| 3 aml :\naS: ESE : Tyax exvoree\noe aes wee Mer\ne Seen ae ee feos To ewes\nToone : \u2014\u2014\u2014\u2014\ni ne <i\nreco Tee Teena = ae\n. aE lanl ~ ms ee ow\n4 engin cae wn an owe o# OE\ntwas ei Freese nes wns mn\n\u00ab geome oes. ig NE a 3\nit ee anal ae hemmed on\n4 Gene en : \u2014 on vor \u201c\n. sci een Be ee a ead pa gp gs\nee mane ae e ~\n* gate Doms Te So aan\n\u2014\u2014\u2014_ \u201cSagi 2 698\n+o \u201c re\n\u201ces aaa m8 wee \u2014. \u201c ra\ncs ann caoe oe ue aia :\nSeen tooo one an eee os\na) patie Hosea a pn res 7. - -\nGoon \u2014\u2014\n\u2014\u2014 a eer oes ~ ee eel nn\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5125,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 493,
+  "gstins_found": 0
+ }
+}

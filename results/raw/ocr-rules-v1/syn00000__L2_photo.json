@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00000__L2_photo",
+ "doc_id": "syn00000",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-6754",
+  "invoice_date": "2025-09-11",
+  "seller_name": "Deshmukh Industries Limited Invoice No. INV-6754",
+  "seller_gstin": "06JASCD3686A6Z5",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "06QQFFR1922V2Z8",
+  "buyer_address": null,
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.37",
+  "grand_total": "1133635.00",
+  "amount_in_words": null
+ },
+ "raw": "Deshmukh Industries Limited Invoice No. INV-6754\nPlot No. 134, Chandni C howk Dated 11-Sep-2025\nPanipat, Haryana = 131180 Mode/Terms of Payment 30 Days\nGSTIN/UIN: 06JASCD3686A6Z5 Reverse Charge No\nState Name : Haryana, Code : 06\nBuyer (Bill to) Destination: Gurugram\nReddy Enterprises Limited\nKhasra No. 434, Udyog Vihar\nGurugram, Haryana - 133845\nGSTIN/UIN: 06QQFFR1922V2Z8\nPlace of Supply : Haryana\nrae Sm: en [|e an\n| 1 | Hard Bound Register 200 Pages 4820 [ 2447[ NOs | _ 119.90] 293395.30 26405.58 | 26405.58\nOPC.53 Grade Cement S0ks TL sfeac] s5esa)_si2e| s0L17| 30.17\nBeen Coe 7395 08| 2588.08\n& Cotton Round Neck T-Shirt y sie | 226] POS 316.58 67969.73| 1699.24] 1699:24\nLess: Discount 3577.35\nSynthetic Enamel Paint 4L 3208 | 89.360 443.51| 37650.45| 3388.54). 3388.54\nLess: Discount 1981.60\nCorrugated Carton Box 5-Ply | ais |_| NOS 71.49) 16043.79] 1443.94] 1443.94\nLess: Discount 327.42\nCotton Woven Fabric 44 inch 5208 | 855.112|MTR|__ 140.96 r120536.59| 3013.41) 3013.41]\n| s [MS Fabricated Structure 7308 | 400.476 108.37) 43399.58| 3905.96| 3905.96\n| 9 [TMT Steel Bar Fe-500 12mm 7214 | 0.312 Tron | $5100.43] 1719133] 1547.2 1547.22\nSOT eicaeysa | as| 5Se1| ell ee [si72.36\n| 11 [Smartphone 6GB/128GB 3517 |__| NOS| 14878.54|_89271.24 3034.41| 8034.41\nRefined Sugar $-30 [_1701_| 50.093 IKGs| 39.01 1954.13] 48.85| 48.85\nSDP) | [776.06] 776.06\nDetergent Powder Ikg 3402 | 28] Pcs | 120.55] _3375.40 | 303.79] 303.79]\n16 | PVC Insulated Copper Cable $544 | 309.093|MTR| 82.14] 25388.90 2285.00| 2285.00\n2.5sqmm\nLaptop Computer iS 16GB gai |.__ 2[ Nos] 84591.75 169183.50 115226.52 1526.52\n\u2014\u2014_<_ 981584.93 | 76025.22 | 76025.22|\nRound Off -0.37\nGrand Total 1133635.00\n\u2018Amount Chargeable (in words): Rupees Eleven Lakh Thirty Three Thousand Six Hundred and Thirty\nFive Only\noo\nAve No: 81245440772\nBranch & IFSC : Gurugram & GDTO0999207 Authorised Signatory\nThis is a Computer Generated Invoice\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.908,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1909,
+  "gstins_found": 2
+ }
+}

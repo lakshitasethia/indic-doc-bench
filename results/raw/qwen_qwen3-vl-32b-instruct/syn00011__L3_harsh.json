@@ -1,0 +1,199 @@
+{
+ "variant_id": "syn00011__L3_harsh",
+ "doc_id": "syn00011",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-2023/04",
+  "invoice_date": "2023-04-01",
+  "seller_name": "Swaraj Industries Pvt Ltd",
+  "seller_gstin": "27AAAPC8967K1ZV",
+  "seller_address": "Plot No. 5, Sector 10, Noida, Uttar Pradesh - 201301",
+  "buyer_name": "Shree Ram Enterprises",
+  "buyer_gstin": "27ABAPC8967K1ZV",
+  "buyer_address": "Shop No. 10, Main Road, Ghaziabad, Uttar Pradesh - 201001",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Steel Rods",
+    "hsn_sac": "7318",
+    "quantity": 100,
+    "unit": "kg",
+    "unit_price": 50.0,
+    "discount": 0.0,
+    "taxable_value": 5000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Iron Pipes",
+    "hsn_sac": "7307",
+    "quantity": 50,
+    "unit": "m",
+    "unit_price": 120.0,
+    "discount": 0.0,
+    "taxable_value": 6000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Aluminum Sheets",
+    "hsn_sac": "7616",
+    "quantity": 20,
+    "unit": "sq.m",
+    "unit_price": 300.0,
+    "discount": 0.0,
+    "taxable_value": 6000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Copper Wires",
+    "hsn_sac": "7415",
+    "quantity": 10,
+    "unit": "kg",
+    "unit_price": 800.0,
+    "discount": 0.0,
+    "taxable_value": 8000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Plastic Pipes",
+    "hsn_sac": "3917",
+    "quantity": 150,
+    "unit": "m",
+    "unit_price": 40.0,
+    "discount": 0.0,
+    "taxable_value": 6000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Fittings",
+    "hsn_sac": "3917",
+    "quantity": 500,
+    "unit": "pcs",
+    "unit_price": 10.0,
+    "discount": 0.0,
+    "taxable_value": 5000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Electrical Cables",
+    "hsn_sac": "8544",
+    "quantity": 30,
+    "unit": "m",
+    "unit_price": 200.0,
+    "discount": 0.0,
+    "taxable_value": 6000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Switches",
+    "hsn_sac": "8536",
+    "quantity": 200,
+    "unit": "pcs",
+    "unit_price": 15.0,
+    "discount": 0.0,
+    "taxable_value": 3000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Sockets",
+    "hsn_sac": "8536",
+    "quantity": 100,
+    "unit": "pcs",
+    "unit_price": 20.0,
+    "discount": 0.0,
+    "taxable_value": 2000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "LED Bulbs",
+    "hsn_sac": "9405",
+    "quantity": 500,
+    "unit": "pcs",
+    "unit_price": 12.0,
+    "discount": 0.0,
+    "taxable_value": 6000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Fans",
+    "hsn_sac": "8514",
+    "quantity": 10,
+    "unit": "nos",
+    "unit_price": 1200.0,
+    "discount": 0.0,
+    "taxable_value": 12000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Air Conditioners",
+    "hsn_sac": "8415",
+    "quantity": 5,
+    "unit": "nos",
+    "unit_price": 30000.0,
+    "discount": 0.0,
+    "taxable_value": 150000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refrigerators",
+    "hsn_sac": "8418",
+    "quantity": 3,
+    "unit": "nos",
+    "unit_price": 25000.0,
+    "discount": 0.0,
+    "taxable_value": 75000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Washing Machines",
+    "hsn_sac": "8450",
+    "quantity": 2,
+    "unit": "nos",
+    "unit_price": 20000.0,
+    "discount": 0.0,
+    "taxable_value": 40000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Water Heaters",
+    "hsn_sac": "8516",
+    "quantity": 8,
+    "unit": "nos",
+    "unit_price": 5000.0,
+    "discount": 0.0,
+    "taxable_value": 40000.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 360000.0,
+  "cgst_amount": 32400.0,
+  "sgst_amount": 32400.0,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.0,
+  "grand_total": 424800.0,
+  "amount_in_words": "Four Lakh Twenty Four Thousand Eight Hundred Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"INV-2023/04\",\n  \"invoice_date\": \"2023-04-01\",\n  \"seller_name\": \"Swaraj Industries Pvt Ltd\",\n  \"seller_gstin\": \"27AAAPC8967K1ZV\",\n  \"seller_address\": \"Plot No. 5, Sector 10, Noida, Uttar Pradesh - 201301\",\n  \"buyer_name\": \"Shree Ram Enterprises\",\n  \"buyer_gstin\": \"27ABAPC8967K1ZV\",\n  \"buyer_address\": \"Shop No. 10, Main Road, Ghaziabad, Uttar Pradesh - 201001\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Steel Rods\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 100,\n      \"unit\": \"kg\",\n      \"unit_price\": 50.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 5000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Iron Pipes\",\n      \"hsn_sac\": \"7307\",\n      \"quantity\": 50,\n      \"unit\": \"m\",\n      \"unit_price\": 120.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 6000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Aluminum Sheets\",\n      \"hsn_sac\": \"7616\",\n      \"quantity\": 20,\n      \"unit\": \"sq.m\",\n      \"unit_price\": 300.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 6000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Copper Wires\",\n      \"hsn_sac\": \"7415\",\n      \"quantity\": 10,\n      \"unit\": \"kg\",\n      \"unit_price\": 800.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 8000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Plastic Pipes\",\n      \"hsn_sac\": \"3917\",\n      \"quantity\": 150,\n      \"unit\": \"m\",\n      \"unit_price\": 40.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 6000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"PVC Fittings\",\n      \"hsn_sac\": \"3917\",\n      \"quantity\": 500,\n      \"unit\": \"pcs\",\n      \"unit_price\": 10.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 5000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Electrical Cables\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 30,\n      \"unit\": \"m\",\n      \"unit_price\": 200.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 6000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Switches\",\n      \"hsn_sac\": \"8536\",\n      \"quantity\": 200,\n      \"unit\": \"pcs\",\n      \"unit_price\": 15.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 3000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Sockets\",\n      \"hsn_sac\": \"8536\",\n      \"quantity\": 100,\n      \"unit\": \"pcs\",\n      \"unit_price\": 20.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 2000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"LED Bulbs\",\n      \"hsn_sac\": \"9405\",\n      \"quantity\": 500,\n      \"unit\": \"pcs\",\n      \"unit_price\": 12.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 6000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Fans\",\n      \"hsn_sac\": \"8514\",\n      \"quantity\": 10,\n      \"unit\": \"nos\",\n      \"unit_price\": 1200.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 12000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Air Conditioners\",\n      \"hsn_sac\": \"8415\",\n      \"quantity\": 5,\n      \"unit\": \"nos\",\n      \"unit_price\": 30000.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 150000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Refrigerators\",\n      \"hsn_sac\": \"8418\",\n      \"quantity\": 3,\n      \"unit\": \"nos\",\n      \"unit_price\": 25000.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 75000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Washing Machines\",\n      \"hsn_sac\": \"8450\",\n      \"quantity\": 2,\n      \"unit\": \"nos\",\n      \"unit_price\": 20000.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 40000.0,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Water Heaters\",\n      \"hsn_sac\": \"8516\",\n      \"quantity\": 8,\n      \"unit\": \"nos\",\n      \"unit_price\": 5000.0,\n      \"discount\": 0.0,\n      \"taxable_value\": 40000.0,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 360000.0,\n  \"cgst_amount\": 32400.0,\n  \"sgst_amount\": 32400.0,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.0,\n  \"grand_total\": 424800.0,\n  \"amount_in_words\": \"Four Lakh Twenty Four Thousand Eight Hundred Only\",\n  \"reverse_charge\": false\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1888,
+ "output_tokens": 1595,
+ "cached_input_tokens": 0,
+ "latency_s": 43.5787,
+ "cost_usd": 0.0008598719999999999,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

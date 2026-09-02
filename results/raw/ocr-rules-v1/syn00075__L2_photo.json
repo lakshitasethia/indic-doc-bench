@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00075__L2_photo",
+ "doc_id": "syn00075",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Iyer",
+  "invoice_date": "2025-10-24",
+  "seller_name": "e-Invoice 7 TAX INVOICE eaeaeccen",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "8863.35",
+  "cgst_amount": "797.74",
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "10459.00",
+  "grand_total": "10459.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice 7 TAX INVOICE eaeaeccen\nextn tStcade2ut60 162056: essdy remy season eee\nAck No. / Ack Date a\n10000079783925 / 2025-10-24 ee ee ee\nSupplie Recipient Document No.\nIyer Traders Chauhan Enterprises INV-7645\nUnit No.. 164, MG Road, Faridabad, Shop No. 376, Naraina Vihar, Gurugram, Document Date\nHaryana 124585 ave 129930 20g 102A:\nO6MNGCrs6ioszzv URP os shaven\nReverse Charge.\nN\nF Item Description Hsn |\u2019 Qty ae | unt ie_[oisnune| Yeas Ane Ane] GaST an] SOST Sa] Totti]\nLeather Formal |\n[*!shoes 6403 a PRS 1957.57) -|1857.57 18 /167.18/167.18 2191.93)\n[Hard Bound. | |\n2| Register 200 |4820) 32 112.29 3593.28) 18|323.40 323.40/4240.08.\n| |\nPages |\nMS Hex Bolt | |\nbre Nut M12 7318 175\\Nos| 1950 3412.50 18) 307.13) 307.13 4026.76,\nTotal Taxable Value 8863.35\nTotal CGST | 797.74]\nRound Off Bee\nTotal Invoice Value 10459.00.\nAmount in words: Rupees Ten Thousand Four Hundred and Fifty Nine Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.472,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 902,
+  "gstins_found": 0
+ }
+}

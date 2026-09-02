@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00052__L1_scan",
+ "doc_id": "syn00052",
+ "level": "L1_scan",
+ "template_id": "t05",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL2278",
+  "invoice_date": "2025-05-15",
+  "seller_name": "Kulkarni Traders Pvt. Ltd.",
+  "seller_gstin": "19UCPPK4251R7Z1",
+  "seller_address": "Gala No. 140, Ambattur Industrial Estate, Siliguri, West Bengal - 725148",
+  "buyer_name": "Gupta Engineering Works Pvt. Ltd.",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 362, Ring Road, Amritsar, Punjab - 141982",
+  "place_of_supply": "Punjab (03)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 9,
+    "unit": "PRS",
+    "unit_price": 2167.61,
+    "discount": null,
+    "taxable_value": 19508.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 762.633,
+    "unit": "MTR",
+    "unit_price": 186.41,
+    "discount": null,
+    "taxable_value": 142162.42,
+    "tax_rate": 5
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 618,
+    "unit": "PCS",
+    "unit_price": 30.64,
+    "discount": null,
+    "taxable_value": 18935.52,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 180606.43,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 14028.04,
+  "cess_amount": null,
+  "round_off": -0.47,
+  "grand_total": 194634.0,
+  "amount_in_words": "Rupees One Lakh Ninety Four Thousand Six Hundred and Thirty Four Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"DL2278\",\n  \"invoice_date\": \"2025-05-15\",\n  \"seller_name\": \"Kulkarni Traders Pvt. Ltd.\",\n  \"seller_gstin\": \"19UCPPK4251R7Z1\",\n  \"seller_address\": \"Gala No. 140, Ambattur Industrial Estate, Siliguri, West Bengal - 725148\",\n  \"buyer_name\": \"Gupta Engineering Works Pvt. Ltd.\",\n  \"buyer_gstin\": null,\n  \"buyer_address\": \"Plot No. 362, Ring Road, Amritsar, Punjab - 141982\",\n  \"place_of_supply\": \"Punjab (03)\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 9,\n      \"unit\": \"PRS\",\n      \"unit_price\": 2167.61,\n      \"discount\": null,\n      \"taxable_value\": 19508.49,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Woven Fabric 44 inch\",\n      \"hsn_sac\": \"5208\",\n      \"quantity\": 762.633,\n      \"unit\": \"MTR\",\n      \"unit_price\": 186.41,\n      \"discount\": null,\n      \"taxable_value\": 142162.42,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Toilet Soap 100g\",\n      \"hsn_sac\": \"3401\",\n      \"quantity\": 618,\n      \"unit\": \"PCS\",\n      \"unit_price\": 30.64,\n      \"discount\": null,\n      \"taxable_value\": 18935.52,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 180606.43,\n  \"cgst_amount\": null,\n  \"sgst_amount\": null,\n  \"igst_amount\": 14028.04,\n  \"cess_amount\": null,\n  \"round_off\": -0.47,\n  \"grand_total\": 194634.0,\n  \"amount_in_words\": \"Rupees One Lakh Ninety Four Thousand Six Hundred and Thirty Four Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3948,
+ "output_tokens": 574,
+ "cached_input_tokens": 0,
+ "latency_s": 8.1443,
+ "cost_usd": 0.000649376,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00004__L3_harsh",
+ "doc_id": "syn00004",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "eae ioeeee main Ean, Gomepams: Henge SME \u2018Deore, \u2018names Eaten, Gaegete\u00ae . 5",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "eae ioeeee main Ean, Gomepams: Henge SME \u2018Deore, \u2018names Eaten, Gaegete\u00ae . 5\nGST COLYRPSOGTPRAEY Preven ot Seatety Haryone OF) Ramasine Omar Me : zi , .\n+ Ge 59 Gresko Comment 5283 Bp 9 we) eer Soest See, Oe,\n\npean Hence Pgecter 200 Png an ee rr me we we ve 68,\n\nae 4: ana Arnett weer\n\n- = = = ore 3372 18\n\nfmt 8 = ae\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2298,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 317,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00088__L3_harsh",
+ "doc_id": "syn00088",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "GBT oes ne PORE Ste, Le Pont aeern Soo S Onis Mee ey Bis a)",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "GBT oes ne PORE Ste, Le Pont aeern Soo S Onis Mee ey Bis a)\n4 et: ~ ~ cea eer <a my ee 2\n= Se =e\n.. \u201ci pee: 7 \" cae Pd\na eer area : =e a ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.1891,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 140,
+  "gstins_found": 0
+ }
+}

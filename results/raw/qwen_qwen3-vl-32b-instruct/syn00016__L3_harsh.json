@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00016__L3_harsh",
+ "doc_id": "syn00016",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1234567890",
+  "invoice_date": "2023-05-15",
+  "seller_name": "Naidu Industries Pvt. Ltd.",
+  "seller_gstin": "12AAACN1234A1Z5",
+  "seller_address": "Bhagat Singh Nagar, Patna, Bihar - 800001",
+  "buyer_name": "Rashi Sales Corporation",
+  "buyer_gstin": "12AAACN5678A1Z5",
+  "buyer_address": "Plot No. 273, Manika Vihar, Patna, Bihar - 800027",
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Goods and Services",
+    "hsn_sac": "998309",
+    "quantity": 1,
+    "unit": "Nos",
+    "unit_price": 54786.41,
+    "discount": null,
+    "taxable_value": 54786.41,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 54786.41,
+  "cgst_amount": 4930.78,
+  "sgst_amount": 4930.78,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.04,
+  "grand_total": 64648.0,
+  "amount_in_words": "Rupees Sixty Four Thousand Six Hundred and Forty Eight Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"1234567890\",\n  \"invoice_date\": \"2023-05-15\",\n  \"seller_name\": \"Naidu Industries Pvt. Ltd.\",\n  \"seller_gstin\": \"12AAACN1234A1Z5\",\n  \"seller_address\": \"Bhagat Singh Nagar, Patna, Bihar - 800001\",\n  \"buyer_name\": \"Rashi Sales Corporation\",\n  \"buyer_gstin\": \"12AAACN5678A1Z5\",\n  \"buyer_address\": \"Plot No. 273, Manika Vihar, Patna, Bihar - 800027\",\n  \"place_of_supply\": \"Bihar\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Goods and Services\",\n      \"hsn_sac\": \"998309\",\n      \"quantity\": 1,\n      \"unit\": \"Nos\",\n      \"unit_price\": 54786.41,\n      \"discount\": null,\n      \"taxable_value\": 54786.41,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 54786.41,\n  \"cgst_amount\": 4930.78,\n  \"sgst_amount\": 4930.78,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.04,\n  \"grand_total\": 64648.00,\n  \"amount_in_words\": \"Rupees Sixty Four Thousand Six Hundred and Forty Eight Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1736,
+ "output_tokens": 389,
+ "cached_input_tokens": 0,
+ "latency_s": 10.3772,
+ "cost_usd": 0.00034236799999999996,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

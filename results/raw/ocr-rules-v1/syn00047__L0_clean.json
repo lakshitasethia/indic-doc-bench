@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00047__L0_clean",
+ "doc_id": "syn00047",
+ "level": "L0_clean",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-7321",
+  "invoice_date": "2025-10-21",
+  "seller_name": "Document Type TAX INVOICE Invoice No INV-7321",
+  "seller_gstin": "19UNRPA1683Y8Z1",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "19QBZPN0082D3ZU",
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No INV-7321\nSupplier Agarwal Solutions LLP Invoice Date 21-10-2025\nSupplier GSTIN 19UNRPA1683Y8Z1 Terms 15 Days\nSupplier Address Plot No. 296, Chandni Chowk, Siliguri, West Bengal - 704524\nRecipient Naidu Marketing LLP ame 19QBZPN0082D3ZU\nRecipient Address Plot No. 187, GIDC Estate, Kolkata, West Bengal - 734819 Place of Supply West Bengal\nReverse Charge No Currency INR\nLine eos istlar HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nMonoblock\n1 Water 8413 2 NOS 5633.51 0.00 11267.02 18 1014.03 1014.03) 13295.08\nPump 1HP\nTotal_Taxable_Value 11267 .02\nTotal_CGST 1014.03\nTotal_SGST 1014.03\nRound_Off -0.08\nGrand_Total 13295.00\nRupees Thirteen Thousand\nAmount_In_Words \u2014 Two Hundred and Ninety Five\nOnly\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4352,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 781,
+  "gstins_found": 2
+ }
+}

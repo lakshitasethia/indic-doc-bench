@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00028__L3_harsh",
+ "doc_id": "syn00028",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Cow Mo. 35. Sector Nein Tan Mads. S300 : Come Mes I Seca ed fe eat arate.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Cow Mo. 35. Sector Nein Tan Mads. S300 : Come Mes I Seca ed fe eat arate.\nFr RI NORNICATY  Pracn a feo Vaart Nant 025 Sevwrse Charge tie serine\n\u00a5 (Atth re Bo wids be tag . re | tah hf ES ~ li es SF ae oo\n2 nates Tye tains his : son ge NOS an ob al aaa a\n> Cothon Mcnst Nemes Yi 230 | __ 8 eT ik OE tye 20: Rew Goes Be\n5 Wtthnction Lsmir Pritam \u201cae 108 Saki: Lda ee =\nFine Co a rapa ba a aise Ser ens |\nrts hh oc wines : St\naly esa te tee niake beans mene\n7 See tee yee Sg : es\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.3669,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 477,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00090__L2_photo",
+ "doc_id": "syn00090",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Trivedi Trading Co. TOOK",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "74596.65",
+  "sgst_amount": "7456.65",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Trivedi Trading Co. TOOK\npou Biscuits 200g 11905] 913|BOX| . 391.73| __-_ -|357649.49| 18) 32188.45) 32188.45 | 422026.39.\n2 |Instant Drink Premix 2106| 1593/PCS| 164.51] =| 262064.43 18 |[23685.80 23585.80 | 309236.03\n|3 | Office Workstation Table 9403 40| NOS} 16831.48 ~ -1168314.80 18 | 15148.33| 15148.33/ 198611.46\n|4/OPC 53 Grade Cement 50kg |2523| _ 69|BAG| _395.82|2731.16| 24580.42 28| 3441:26| 3441.26| 31462.94\n15 | Basmati Rice (Broken 5%) _|1006|51.103|KGS| 127.27 |, 6503.88) \u00a7 | 162.60| 162.60 6829.08\n'6/MS Fabricated Structure ._|7308| 6.610|KGS| 118.02|__-|_. 70.11/18), 70.21, _70.21| 92053\n819893.13\nCGST 74596.65\nSGST : 7456.65\nRIO 0.43\n[NETS e| 969086.00\nRs. in words: Rupees Nine Lakh Sixty Nine Thousand Eighty Six Only\nFor Trivedi Trading Co.\nAuth, Sign.\nTN\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.398,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 784,
+  "gstins_found": 0
+ }
+}

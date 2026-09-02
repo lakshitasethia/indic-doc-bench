@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00063__L2_photo",
+ "doc_id": "syn00063",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-08",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE es",
+  "seller_gstin": "24SILFI3523W6Z1",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Gujarat",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "573821.24",
+  "cgst_amount": "2.00",
+  "sgst_amount": "51802.63",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "677427.00",
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE es\nNOT GENERATED ered\n10000079688897 / 2025-10-08\nRee\nKulkarni Pharma Pvt. Ltd. Iyer Industries up Gv] 25-26/9412\nGala No. 188, Peenya 2nd Stage, Rajkot, Gujarat Door No, 26, MG Road, Vadodara, Gujarat\n393426 394368 2025-10-08\n240SBCK7592G5ZV 24SILFI3523W6Z1 24 - Gujarat\nae\n[st |_ttem oeseition [aa [aay wae | anes Trpiseount | Taxable Amt [Rate] Seat ie | Set Ame |. Total\n| \\Cotton | |\nba yioven \\5208\\62.250\\MTR| 163.49 017 \\\n3 |rabric 44 : : | 10177.25| 5 | 254:43| -. 254.43] 10686-12\n|_|inch__j_+ pet | | ia |\n|. |Synthetic \u2014 | |\n| 2 |Enamel 3208) 12.786| LTR 498.97 -| 6379.83) 18 574.18, 574.18 7528.19\n; La 53 fees} |\noS) \\Grade \\2523| 8|BAG) 452.96 -| 3623.68|28 507.32| 507 32| 4638.32\nCement | | | | i | \u2018 f Z :\nbe BOkgee oh \\ |\n| Laptop | | | |\n4 \\Computer i5 \\8471) 1|NOS|62875.47 | -| 62875.47\\18 5658.79 5658.79 74193.05\nMultifunction | | La cst | |\n5 Laser a eee Ae -s9s00.24|18|15255.02|15255.02 200000 28\nRadial Tyre | | | | | | loa} |\n7 Hex Bolt |_| ee |\nwith Nut 7318) 199)NOS| 27.46) -\\ 5464.54)18) 491.81) 491.81 6448.16\nStainless | \\ ec | | | Lee | |\n8 \\Steel 8215) 3| SET| 452.72) et 1358.16) 18} 122.23} 122.23 1602.62,\nCutlery. Set | | eS i eS a eee\nInstant | | | | | |\nDrink 2106) 13) PCS 181.78) =| 2363.14) 18) 212.68) 212.68) 2788.50)\nPremix fo es ee (a Ss Se\n3 \u2014 =\nCorrugated | | Bie | | |\nCarton Box 4819| 6027 NOS 46.28| -|278929.56| 18 \\25103.66|25103.66|329136.88\n5-Ply oe ee po\nFoam | be |\nMattress 9404 1)NOS 10429.95 -| 10429.95| 18| 938.70) 938.70) 12307.35)\n72x36 \\ ee\nTMT Steel | | | |\nBar Fe-500 7214| 0.214 51600.09 1104.24 9938.18! 18 894.44 894.44) 11727.06\nTotal Taxable Value x | 573821.24)\nTotal CGST 2 . 51802.63)\nTotal SGST [_51802.63}\nene ee\nTotal Invoice Value ___677427.00)\nES a\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.9946,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1758,
+  "gstins_found": 1
+ }
+}

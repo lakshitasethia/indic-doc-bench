@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00079__L1_scan",
+ "doc_id": "syn00079",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/6976",
+  "invoice_date": null,
+  "seller_name": "ar dis / TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "9756.56",
+  "sgst_amount": "9756.56",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": "127919.00",
+  "amount_in_words": null
+ },
+ "raw": "ar dis / TAX INVOICE\nBanerjee Agencies Limited .\ndae. / Invoice No. 2025-26/6976\nShop No. 328, Okhla Phase I, Warangal\nTelangana - 504936 oo Bie\nsiva\u00e9isn\u00e9es / GSTIN: 360MWPB7507Z8Z6 mune TEU Ho TENE\nxa / Buyer: Patel Electricals Private Limited\nKhasra No. 429, Naraina Vihar, Hyderabad, Telangana - 500126\nGSTIN: URP | saffzenz / Place of Supply: Telangana\nBL owes [|e | cw om] oe [om |\ner GST% CGST SGST\nDescription Qty Rate Taxable\nInformation Technology Consulting 1\n1 ; 998313 108406.25|108406.25| 18 | 9756.56 |9756.56\nServices NOS\ngaarara / Taxable 108406.25\nCGST 9756.56\nSGST 9756.56\ngata / Grand Total 127919.00\nersat # / In words: Rupees One Lakh Twenty Seven Thousand Nine Hundred and Nineteen Only\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.6539,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 709,
+  "gstins_found": 0
+ }
+}

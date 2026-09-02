@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00006__L0_clean",
+ "doc_id": "syn00006",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-23",
+  "seller_name": "Unit No. 1, Peenya 2nd Stage, Ahmedabad, Gujarat-386181 Dt: 23/01/2026",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Unit No. 1, Peenya 2nd Stage, Ahmedabad, Gujarat-386181 Dt: 23/01/2026\nGSTIN: 24BZGCK5845F 222 | State: Gujarat (24) RCM: N\nfel Paricuas | WN | ty | Uae | ise |Table | GST | Amount\n1/Smartphone 6GB/128GB__\u2014| 8517| 2 NOS | 18145.80| =| 36291.60/18| 6532.49} 42824.09\n2/OPC 53 Grade Cement 50kg | 2523| 3, BAG | 408.15, =| 1224.45/28/  342.85| 1567.30\n3 Stainless Stee! Cutlery Set___| 8215 | 266| SET | 645.26] -|_171639.16| 18 30895.05) 202534.21\n4/MS Hex Boltwith NutM12____| 7318| 4613, NOS|__29.99/ | 138343.87/ 18 24901.90| 163245.77\n5/Instant Drink Premix | 2406 | 118, PCS | 115.07|_\u2014-|__13578.26/18| 2444.09|  16022.36\n6 Leather Formal Shoes | 6403| 1, PRS | 908.38/ =| 908.3818) 163.51| 1071.89\n7 Office Workstation Table | 9403| 1, NOS | 17484.11| =| 17484.11/ 18] 3147.14] 2063.25\n'8/Foam Mattress 72x36 | 9404 1/NOS| 7865.25] 393.26] 7471.99/18| 1344.96] _ 8816.95\n386941.82\n69771.99\n0.19\n456714.00\nRs. in words: Rupees Four Lakh Fifty Six Thousand Seven Hundred and Fourteen Only\nFor Kaur Electricals Limited\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.4646,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1033,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,50 @@
+{# Corporate letterhead with a logo block and a rotated watermark across the
+   item table. The watermark overlaps text, which is a genuine OCR stressor. #}
+<style>{{ base_css }}
+body { font-family: Georgia, "Times New Roman", serif; font-size: 9pt; position:relative; }
+.lh { display:flex; align-items:center; gap:14px; border-bottom:4px solid {{ accent }}; padding-bottom:9px; }
+.logo { width:62px; height:62px; background:{{ accent }}; color:#fff; display:flex;
+        align-items:center; justify-content:center; font-size:26pt; font-weight:bold;
+        font-family:Arial,sans-serif; border-radius:5px; }
+.wm { position:absolute; top:44%; left:12%; font-size:52pt; color:rgba(0,0,0,0.09);
+      transform:rotate(-28deg); font-weight:bold; letter-spacing:7px; pointer-events:none; }
+td, th { border:1px solid #bbb; padding:3px 5px; }
+th { background:{{ accent }}; color:#fff; font-size:8pt; }
+.np td { border:none; padding:1px 4px; }
+</style>
+<div class="wm">ORIGINAL</div>
+<div class="lh">
+  <div class="logo">{{ r.seller_name[0] }}</div>
+  <div><div style="font-size:16pt;font-weight:bold;color:{{ accent }}">{{ r.seller_name }}</div>
+    <div style="font-size:8pt">{{ sa.line1 }}, {{ sa.city }}, {{ sa.state }} - {{ sa.pincode }}</div>
+    <div style="font-size:8pt">GSTIN: {{ r.seller_gstin }} &nbsp;&bull;&nbsp; State Code: {{ sa.state_code }}</div></div>
+</div>
+<div class="c b" style="margin:9px 0;font-size:12pt;letter-spacing:3px">TAX INVOICE</div>
+<table class="np">
+  <tr><td style="width:55%"><u>Bill To</u><br><b>{{ r.buyer_name }}</b><br>{{ ba.line1 }}<br>
+      {{ ba.city }}, {{ ba.state }} - {{ ba.pincode }}<br>GSTIN: {{ r.buyer_gstin or 'Unregistered' }}<br>
+      Place of Supply: {{ ba.state }}</td>
+    <td><table class="np"><tr><td>Invoice No.</td><td class="b">{{ r.invoice_number }}</td></tr>
+      <tr><td>Date</td><td class="b">{{ d.dmy_mon }}</td></tr>
+      <tr><td>Payment Terms</td><td>{{ terms }}</td></tr>
+      <tr><td>Reverse Charge</td><td>{{ 'Yes' if r.reverse_charge else 'No' }}</td></tr></table></td></tr>
+</table>
+<table style="margin-top:7px">
+  <tr><th>Sr.</th><th>Particulars</th><th>HSN/SAC</th><th>Qty</th><th>Rate</th><th>Taxable Value</th><th>GST %</th><th>Tax Amount</th></tr>
+  {% for it in items %}
+  <tr><td class="c">{{ loop.index }}</td><td>{{ it.description }}</td><td class="c">{{ it.hsn_sac }}</td>
+    <td class="r">{{ it.quantity }} {{ it.unit }}</td><td class="r">{{ it.unit_price }}</td>
+    <td class="r">{{ it.taxable_value }}</td><td class="c">{{ it.tax_rate }}%</td>
+    <td class="r">{{ it._cgst + it._sgst + it._igst }}</td></tr>
+  {% endfor %}
+</table>
+<table style="width:42%;margin-left:auto;margin-top:7px" class="np">
+  <tr><td>Total Taxable Value</td><td class="r">{{ r.total_taxable_value }}</td></tr>
+  {% if interstate %}<tr><td>IGST</td><td class="r">{{ r.igst_amount }}</td></tr>
+  {% else %}<tr><td>CGST</td><td class="r">{{ r.cgst_amount }}</td></tr><tr><td>SGST</td><td class="r">{{ r.sgst_amount }}</td></tr>{% endif %}
+  <tr><td>Round Off</td><td class="r">{{ r.round_off }}</td></tr>
+  <tr style="border-top:2px solid {{ accent }}"><td class="b">Grand Total</td><td class="r b">₹ {{ r.grand_total }}</td></tr>
+</table>
+<div style="margin-top:7px">Amount in words: <b>{{ r.amount_in_words }}</b></div>
+<div style="margin-top:5px;font-size:8pt">Bank: {{ bank.name }}, A/c {{ bank.account }}, IFSC {{ bank.ifsc }}, {{ bank.branch }}</div>
+<div style="margin-top:22px;text-align:right">For <b>{{ r.seller_name }}</b><br><br><br>Authorised Signatory</div>

@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00005__L3_harsh",
+ "doc_id": "syn00005",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "qwen/qwen3-vl-32b-instruct",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "200-04968",
+  "invoice_date": "2026-01-05",
+  "seller_name": "Nayla Steel & Alloys Private Limited",
+  "seller_gstin": "27AAACN3273R1ZT",
+  "seller_address": "Plot No. 120, Sector 15, Complex, Noida - 201301, Uttar Pradesh",
+  "buyer_name": "Agarwal Engineers LLP",
+  "buyer_gstin": "27AAACN3273R1ZT",
+  "buyer_address": "Plot No. 120, Sector 15, Complex, Noida - 201301, Uttar Pradesh",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7043.25,
+    "discount": null,
+    "taxable_value": 7043.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 23,
+    "unit": "NOS",
+    "unit_price": 11746.31,
+    "discount": null,
+    "taxable_value": 270165.13,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 20,
+    "unit": "PCS",
+    "unit_price": 61.85,
+    "discount": null,
+    "taxable_value": 1237.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 51,
+    "unit": "PCS",
+    "unit_price": 157.78,
+    "discount": null,
+    "taxable_value": 8046.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 1,
+    "unit": "PRS",
+    "unit_price": 1363.21,
+    "discount": null,
+    "taxable_value": 1363.26,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 287955.51,
+  "cgst_amount": 25915.95,
+  "sgst_amount": 25915.95,
+  "igst_amount": null,
+  "cess_amount": 0.03,
+  "round_off": -0.21,
+  "grand_total": 339874.0,
+  "amount_in_words": null
+ },
+ "raw": "{\n  \"invoice_number\": \"200-04968\",\n  \"invoice_date\": \"2026-01-05\",\n  \"seller_name\": \"Nayla Steel & Alloys Private Limited\",\n  \"seller_gstin\": \"27AAACN3273R1ZT\",\n  \"seller_address\": \"Plot No. 120, Sector 15, Complex, Noida - 201301, Uttar Pradesh\",\n  \"buyer_name\": \"Agarwal Engineers LLP\",\n  \"buyer_gstin\": \"27AAACN3273R1ZT\",\n  \"buyer_address\": \"Plot No. 120, Sector 15, Complex, Noida - 201301, Uttar Pradesh\",\n  \"place_of_supply\": \"Uttar Pradesh\",\n  \"reverse_charge\": null,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Monoblock Water Pump 1HP\",\n      \"hsn_sac\": \"8413\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 7043.25,\n      \"discount\": null,\n      \"taxable_value\": 7043.25,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 23,\n      \"unit\": \"NOS\",\n      \"unit_price\": 11746.31,\n      \"discount\": null,\n      \"taxable_value\": 270165.13,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Toilet Soap 100g\",\n      \"hsn_sac\": \"3401\",\n      \"quantity\": 20,\n      \"unit\": \"PCS\",\n      \"unit_price\": 61.85,\n      \"discount\": null,\n      \"taxable_value\": 1237.00,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 51,\n      \"unit\": \"PCS\",\n      \"unit_price\": 157.78,\n      \"discount\": null,\n      \"taxable_value\": 8046.78,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Leather Formal Shoes\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 1,\n      \"unit\": \"PRS\",\n      \"unit_price\": 1363.21,\n      \"discount\": null,\n      \"taxable_value\": 1363.26,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 287955.51,\n  \"cgst_amount\": 25915.95,\n  \"sgst_amount\": 25915.95,\n  \"igst_amount\": null,\n  \"cess_amount\": 0.03,\n  \"round_off\": -0.21,\n  \"grand_total\": 339874.00,\n  \"amount_in_words\": null\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1770,
+ "output_tokens": 757,
+ "cached_input_tokens": 0,
+ "latency_s": 26.7478,
+ "cost_usd": 0.000498992,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

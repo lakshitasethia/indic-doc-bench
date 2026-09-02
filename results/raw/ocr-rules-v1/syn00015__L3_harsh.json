@@ -1,0 +1,49 @@
+{
+ "variant_id": "syn00015__L3_harsh",
+ "doc_id": "syn00015",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "- See ere Ty Te",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "- See ere Ty Te\n\u2014.. Sere\n(Ee SE Geer\nDibe- oo roreoriey a permit nee ed\neS EES SET SAS Pere Seinen See aes | aaa Fe\n\nae MESH. 1 mos 4Dhen se \u2014 - aneo.sn t9 SE>0.47 S608.47 7>8DN 4\n\ne \u2018Wena COST s\u00a779.47\n\n\u2018 , : ew Sqr: CT sea\n\nRives OF 6.26\n\nA eth! Inwone Velwe 73940 00\n\nSen te, rey ten nn i thos eee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.2666,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 300,
+  "gstins_found": 0
+ }
+}
