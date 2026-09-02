@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00083__L3_harsh",
+ "doc_id": "syn00083",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "P/1519/19-20",
+  "invoice_date": "2019-10-07",
+  "seller_name": "THE INDIAN",
+  "seller_gstin": "20AAACT5623R1ZP",
+  "seller_address": "Khata No. 88, New Road, Village - Gosa, PO-Gosa, PS-Gosa - 824129",
+  "buyer_name": "Dino Enterprises",
+  "buyer_gstin": "20AAECD4990L1ZP",
+  "buyer_address": "PO No. 200, Gosa Phase 1, Lucknow - 226007",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": "N",
+  "irn": null,
+  "line_items": [
+   {
+    "description": "CPU Motherboard With 8th Gen LGA 1151 Socket Motherboard",
+    "hsn_sac": "8473",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 5652.04,
+    "discount": 1102.11,
+    "taxable_value": 10181.98,
+    "tax_rate": 18
+   },
+   {
+    "description": "Computer IC 8971",
+    "hsn_sac": "8542",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 2552.06,
+    "discount": null,
+    "taxable_value": 10208.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "Component",
+    "hsn_sac": "8473",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 224.75,
+    "discount": null,
+    "taxable_value": 449.5,
+    "tax_rate": 5
+   },
+   {
+    "description": "Parts I-7",
+    "hsn_sac": "8473",
+    "quantity": 5,
+    "unit": "PCS",
+    "unit_price": 358.72,
+    "discount": null,
+    "taxable_value": 1793.6,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 22633.32,
+  "cgst_amount": 2036.99,
+  "sgst_amount": 2036.99,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.16,
+  "grand_total": 26707.46,
+  "amount_in_words": "Rupees Twenty Six Thousand Seven Hundred & Seven Only"
+ },
+ "raw": "{\"invoice_number\": \"P/1519/19-20\", \"invoice_date\": \"2019-10-07\", \"seller_name\": \"THE INDIAN\", \"seller_gstin\": \"20AAACT5623R1ZP\", \"seller_address\": \"Khata No. 88, New Road, Village - Gosa, PO-Gosa, PS-Gosa - 824129\", \"buyer_name\": \"Dino Enterprises\", \"buyer_gstin\": \"20AAECD4990L1ZP\", \"buyer_address\": \"PO No. 200, Gosa Phase 1, Lucknow - 226007\", \"place_of_supply\": \"Uttar Pradesh\", \"reverse_charge\": \"N\", \"irn\": null, \"line_items\": [{\"description\": \"CPU Motherboard With 8th Gen LGA 1151 Socket Motherboard\", \"hsn_sac\": \"8473\", \"quantity\": 2, \"unit\": \"PCS\", \"unit_price\": 5652.04, \"discount\": 1102.11, \"taxable_value\": 10181.98, \"tax_rate\": 18}, {\"description\": \"Computer IC 8971\", \"hsn_sac\": \"8542\", \"quantity\": 4, \"unit\": \"PCS\", \"unit_price\": 2552.06, \"discount\": null, \"taxable_value\": 10208.24, \"tax_rate\": 18}, {\"description\": \"Component\", \"hsn_sac\": \"8473\", \"quantity\": 2, \"unit\": \"PCS\", \"unit_price\": 224.75, \"discount\": null, \"taxable_value\": 449.50, \"tax_rate\": 5}, {\"description\": \"Parts I-7\", \"hsn_sac\": \"8473\", \"quantity\": 5, \"unit\": \"PCS\", \"unit_price\": 358.72, \"discount\": null, \"taxable_value\": 1793.60, \"tax_rate\": 5}], \"total_taxable_value\": 22633.32, \"cgst_amount\": 2036.99, \"sgst_amount\": 2036.99, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": 0.16, \"grand_total\": 26707.46, \"amount_in_words\": \"Rupees Twenty Six Thousand Seven Hundred & Seven Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1918,
+ "output_tokens": 514,
+ "cached_input_tokens": 0,
+ "latency_s": 9.4589,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

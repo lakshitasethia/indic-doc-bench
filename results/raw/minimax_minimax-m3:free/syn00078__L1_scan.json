@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00078__L1_scan",
+ "doc_id": "syn00078",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/7291",
+  "invoice_date": "2025-12-28",
+  "seller_name": "Chowdhury Solutions Limited",
+  "seller_gstin": "09FDZFC5070C5ZS",
+  "seller_address": "Plot No. 277, GIDC Estate, Ghaziabad, Uttar Pradesh-260431",
+  "buyer_name": "Deshmukh Traders",
+  "buyer_gstin": "09VKFPD0960H8ZL",
+  "buyer_address": "Door No. 142, Okhla Phase I, Ghaziabad, Uttar Pradesh-242225",
+  "place_of_supply": "09-Uttar Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "total_taxable_value": 114488.0,
+  "cgst_amount": 15947.45,
+  "sgst_amount": 15947.45,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.1,
+  "grand_total": 146383.0,
+  "amount_in_words": "Rupees One Lakh Forty Six Thousand Three Hundred and Eighty Three Only",
+  "line_items": [
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 8,
+    "unit": "PCS",
+    "unit_price": 202.18,
+    "discount": null,
+    "taxable_value": 1617.44,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 16,
+    "unit": "NOS",
+    "unit_price": 7054.41,
+    "discount": null,
+    "taxable_value": 112870.56,
+    "tax_rate": 28
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"2025-26/7291\",\"invoice_date\":\"2025-12-28\",\"seller_name\":\"Chowdhury Solutions Limited\",\"seller_gstin\":\"09FDZFC5070C5ZS\",\"seller_address\":\"Plot No. 277, GIDC Estate, Ghaziabad, Uttar Pradesh-260431\",\"buyer_name\":\"Deshmukh Traders\",\"buyer_gstin\":\"09VKFPD0960H8ZL\",\"buyer_address\":\"Door No. 142, Okhla Phase I, Ghaziabad, Uttar Pradesh-242225\",\"place_of_supply\":\"09-Uttar Pradesh\",\"reverse_charge\":false,\"irn\":null,\"total_taxable_value\":114488.00,\"cgst_amount\":15947.45,\"sgst_amount\":15947.45,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.10,\"grand_total\":146383.00,\"amount_in_words\":\"Rupees One Lakh Forty Six Thousand Three Hundred and Eighty Three Only\",\"line_items\":[{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":8,\"unit\":\"PCS\",\"unit_price\":202.18,\"discount\":null,\"taxable_value\":1617.44,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":16,\"unit\":\"NOS\",\"unit_price\":7054.41,\"discount\":null,\"taxable_value\":112870.56,\"tax_rate\":28}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3998,
+ "output_tokens": 322,
+ "cached_input_tokens": 0,
+ "latency_s": 4.8367,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

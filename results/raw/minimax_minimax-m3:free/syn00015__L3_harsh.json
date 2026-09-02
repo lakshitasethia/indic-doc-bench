@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00015__L3_harsh",
+ "doc_id": "syn00015",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Grampanchay, Marketing LLP",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "GrokEngine",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 62660.8,
+  "cgst_amount": 5639.47,
+  "sgst_amount": 5639.47,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.26,
+  "grand_total": 73940.0,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 62660.8,
+    "discount": null,
+    "taxable_value": 62660.8,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": \"Grampanchay, Marketing LLP\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": \"GrokEngine\", \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 62660.80, \"cgst_amount\": 5639.47, \"sgst_amount\": 5639.47, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": 0.26, \"grand_total\": 73940.00, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Other Professional and Technical Services\", \"hsn_sac\": \"998399\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 62660.80, \"discount\": null, \"taxable_value\": 62660.80, \"tax_rate\": 18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1865,
+ "output_tokens": 226,
+ "cached_input_tokens": 0,
+ "latency_s": 3.788,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,249 @@
+{
+ "variant_id": "syn00055__L3_harsh",
+ "doc_id": "syn00055",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "MM2226",
+  "invoice_date": "2026-01-12",
+  "seller_name": "Shreeji MartRetail",
+  "seller_gstin": "04JFBPS9501HM3ZV",
+  "seller_address": "Chussy No 205, Industrial Estate, Panchkula - 134102, Haryana",
+  "buyer_name": "Bhatt Logistics",
+  "buyer_gstin": null,
+  "buyer_address": "Unit No. 131, MC Road, Faridabad, Hariyana - 121002",
+  "place_of_supply": "Hariyana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Corrugated Carton Box - Ply",
+    "hsn_sac": "4820",
+    "quantity": 55,
+    "unit": "NOS",
+    "unit_price": 14.13,
+    "discount": null,
+    "taxable_value": 776.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Unicare Drink Prima",
+    "hsn_sac": "2208",
+    "quantity": 75,
+    "unit": "PCS",
+    "unit_price": 152.25,
+    "discount": null,
+    "taxable_value": 11418.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Jupiter Computer i5 / MGB",
+    "hsn_sac": "8471",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 125646.54,
+    "discount": null,
+    "taxable_value": 251293.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 1104,
+    "unit": "SET",
+    "unit_price": 260.99,
+    "discount": null,
+    "taxable_value": 288134.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Room Furniture 20x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 1429.63,
+    "discount": null,
+    "taxable_value": 1429.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut, M12",
+    "hsn_sac": "7318",
+    "quantity": 2491,
+    "unit": "NOS",
+    "unit_price": 55.23,
+    "discount": null,
+    "taxable_value": 137577.93,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone DGV6/006/8",
+    "hsn_sac": "8517",
+    "quantity": 9,
+    "unit": "NOS",
+    "unit_price": 316.01,
+    "discount": null,
+    "taxable_value": 2944.09,
+    "tax_rate": 5
+   },
+   {
+    "description": "Calcium Round Neck T-shirt",
+    "hsn_sac": "6109",
+    "quantity": 70,
+    "unit": "PCS",
+    "unit_price": 185.68,
+    "discount": null,
+    "taxable_value": 13721.6,
+    "tax_rate": 5
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 8662.95,
+    "discount": null,
+    "taxable_value": 34671.72,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 528.708,
+    "unit": "KGS",
+    "unit_price": 201.36,
+    "discount": null,
+    "taxable_value": 106484.02,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar 100",
+    "hsn_sac": "1701",
+    "quantity": 5391.029,
+    "unit": "KGS",
+    "unit_price": 45.45,
+    "discount": null,
+    "taxable_value": 245022.89,
+    "tax_rate": 5
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 234,
+    "unit": "PCS",
+    "unit_price": 42.4,
+    "discount": null,
+    "taxable_value": 9921.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 228.247,
+    "unit": "KGS",
+    "unit_price": 131.9,
+    "discount": null,
+    "taxable_value": 30104.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (including)",
+    "hsn_sac": "1006",
+    "quantity": 196.717,
+    "unit": "KGS",
+    "unit_price": 112.1,
+    "discount": null,
+    "taxable_value": 22102.99,
+    "tax_rate": 5
+   },
+   {
+    "description": "Octagonal Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 1284,
+    "unit": "PCS",
+    "unit_price": 148.7,
+    "discount": null,
+    "taxable_value": 190926.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 97.057,
+    "unit": "KGS",
+    "unit_price": 126.21,
+    "discount": null,
+    "taxable_value": 12249.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable",
+    "hsn_sac": "8544",
+    "quantity": 328.692,
+    "unit": "KGS",
+    "unit_price": 86.15,
+    "discount": null,
+    "taxable_value": 28317.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "Mini Sound Bar with Mic",
+    "hsn_sac": "8518",
+    "quantity": 29,
+    "unit": "NOS",
+    "unit_price": 11.32,
+    "discount": null,
+    "taxable_value": 327.71,
+    "tax_rate": 18
+   },
+   {
+    "description": "Pager",
+    "hsn_sac": "4820",
+    "quantity": 24,
+    "unit": "NOS",
+    "unit_price": 51.32,
+    "discount": null,
+    "taxable_value": 1231.62,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rahul Dye 1Kg",
+    "hsn_sac": "4071",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 8504.67,
+    "discount": null,
+    "taxable_value": 8504.67,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1283215.04,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 1283235.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"MM2226\",\"invoice_date\":\"2026-01-12\",\"seller_name\":\"Shreeji MartRetail\",\"seller_gstin\":\"04JFBPS9501HM3ZV\",\"seller_address\":\"Chussy No 205, Industrial Estate, Panchkula - 134102, Haryana\",\"buyer_name\":\"Bhatt Logistics\",\"buyer_gstin\":null,\"buyer_address\":\"Unit No. 131, MC Road, Faridabad, Hariyana - 121002\",\"place_of_supply\":\"Hariyana\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Corrugated Carton Box - Ply\",\"hsn_sac\":\"4820\",\"quantity\":55,\"unit\":\"NOS\",\"unit_price\":14.13,\"discount\":null,\"taxable_value\":776.15,\"tax_rate\":18},{\"description\":\"Unicare Drink Prima\",\"hsn_sac\":\"2208\",\"quantity\":75,\"unit\":\"PCS\",\"unit_price\":152.25,\"discount\":null,\"taxable_value\":11418.75,\"tax_rate\":18},{\"description\":\"Jupiter Computer i5 / MGB\",\"hsn_sac\":\"8471\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":125646.54,\"discount\":null,\"taxable_value\":251293.08,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":1104,\"unit\":\"SET\",\"unit_price\":260.99,\"discount\":null,\"taxable_value\":288134.96,\"tax_rate\":18},{\"description\":\"Room Furniture 20x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":1429.63,\"discount\":null,\"taxable_value\":1429.63,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut, M12\",\"hsn_sac\":\"7318\",\"quantity\":2491,\"unit\":\"NOS\",\"unit_price\":55.23,\"discount\":null,\"taxable_value\":137577.93,\"tax_rate\":18},{\"description\":\"Smartphone DGV6/006/8\",\"hsn_sac\":\"8517\",\"quantity\":9,\"unit\":\"NOS\",\"unit_price\":316.01,\"discount\":null,\"taxable_value\":2944.09,\"tax_rate\":5},{\"description\":\"Calcium Round Neck T-shirt\",\"hsn_sac\":\"6109\",\"quantity\":70,\"unit\":\"PCS\",\"unit_price\":185.68,\"discount\":null,\"taxable_value\":13721.60,\"tax_rate\":5},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":8662.95,\"discount\":null,\"taxable_value\":34671.72,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":528.708,\"unit\":\"KGS\",\"unit_price\":201.36,\"discount\":null,\"taxable_value\":106484.02,\"tax_rate\":5},{\"description\":\"Refined Sugar 100\",\"hsn_sac\":\"1701\",\"quantity\":5391.029,\"unit\":\"KGS\",\"unit_price\":45.45,\"discount\":null,\"taxable_value\":245022.89,\"tax_rate\":5},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":234,\"unit\":\"PCS\",\"unit_price\":42.40,\"discount\":null,\"taxable_value\":9921.60,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":228.247,\"unit\":\"KGS\",\"unit_price\":131.90,\"discount\":null,\"taxable_value\":30104.42,\"tax_rate\":18},{\"description\":\"Basmati Rice (including)\",\"hsn_sac\":\"1006\",\"quantity\":196.717,\"unit\":\"KGS\",\"unit_price\":112.10,\"discount\":null,\"taxable_value\":22102.99,\"tax_rate\":5},{\"description\":\"Octagonal Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":1284,\"unit\":\"PCS\",\"unit_price\":148.70,\"discount\":null,\"taxable_value\":190926.80,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":97.057,\"unit\":\"KGS\",\"unit_price\":126.21,\"discount\":null,\"taxable_value\":12249.10,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable\",\"hsn_sac\":\"8544\",\"quantity\":328.692,\"unit\":\"KGS\",\"unit_price\":86.15,\"discount\":null,\"taxable_value\":28317.25,\"tax_rate\":18},{\"description\":\"Mini Sound Bar with Mic\",\"hsn_sac\":\"8518\",\"quantity\":29,\"unit\":\"NOS\",\"unit_price\":11.32,\"discount\":null,\"taxable_value\":327.71,\"tax_rate\":18},{\"description\":\"Pager\",\"hsn_sac\":\"4820\",\"quantity\":24,\"unit\":\"NOS\",\"unit_price\":51.32,\"discount\":null,\"taxable_value\":1231.62,\"tax_rate\":18},{\"description\":\"Rahul Dye 1Kg\",\"hsn_sac\":\"4071\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":8504.67,\"discount\":null,\"taxable_value\":8504.67,\"tax_rate\":18}],\"total_taxable_value\":1283215.04,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":1283235.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2309,
+ "output_tokens": 1218,
+ "cached_input_tokens": 0,
+ "latency_s": 8.3262,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

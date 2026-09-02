@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00082__L3_harsh",
+ "doc_id": "syn00082",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-0240",
+  "invoice_date": "2020-07-16",
+  "seller_name": "Chandan Overseas LLP",
+  "seller_gstin": "20AABFC4549M2ZS",
+  "seller_address": "Plot No. 408, Jarina Road, Karma, Jamshedpur - 831012",
+  "buyer_name": "Cube & Goas",
+  "buyer_gstin": "20AAGFC7911Y4Z0",
+  "buyer_address": "Jamshedpur - 831001",
+  "place_of_supply": "20 - Jharkhand",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 16095.795,
+    "discount": null,
+    "taxable_value": 32191.59,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 126.37,
+    "unit": "KGS",
+    "unit_price": 117.57,
+    "discount": null,
+    "taxable_value": 14857.32,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck, T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 586,
+    "unit": "PCS",
+    "unit_price": 391.79,
+    "discount": null,
+    "taxable_value": 230760.94,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 277809.85,
+  "cgst_amount": 28803.62,
+  "sgst_amount": 28803.62,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.05,
+  "grand_total": 297817.06,
+  "amount_in_words": "Rupees Two Lakh Ninety Seven Thousand Eight Hundred and Seventeen Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-0240\",\"invoice_date\":\"2020-07-16\",\"seller_name\":\"Chandan Overseas LLP\",\"seller_gstin\":\"20AABFC4549M2ZS\",\"seller_address\":\"Plot No. 408, Jarina Road, Karma, Jamshedpur - 831012\",\"buyer_name\":\"Cube & Goas\",\"buyer_gstin\":\"20AAGFC7911Y4Z0\",\"buyer_address\":\"Jamshedpur - 831001\",\"place_of_supply\":\"20 - Jharkhand\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":16095.795,\"discount\":null,\"taxable_value\":32191.59,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":126.370,\"unit\":\"KGS\",\"unit_price\":117.57,\"discount\":null,\"taxable_value\":14857.32,\"tax_rate\":18},{\"description\":\"Cotton Round Neck, T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":586,\"unit\":\"PCS\",\"unit_price\":391.79,\"discount\":null,\"taxable_value\":230760.94,\"tax_rate\":5}],\"total_taxable_value\":277809.85,\"cgst_amount\":28803.62,\"sgst_amount\":28803.62,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.05,\"grand_total\":297817.06,\"amount_in_words\":\"Rupees Two Lakh Ninety Seven Thousand Eight Hundred and Seventeen Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1844,
+ "output_tokens": 356,
+ "cached_input_tokens": 0,
+ "latency_s": 3.4284,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00094__L2_photo",
+ "doc_id": "syn00094",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "MH9284",
+  "invoice_date": "2025-09-06",
+  "seller_name": "Agarwal Technologies LLP",
+  "seller_gstin": "10NQRPA9957D9Z9",
+  "seller_address": "Gala No. 274, Ambattur Industrial Estate, Muzaffarpur, Bihar - 841957",
+  "buyer_name": "Pillai & Sons",
+  "buyer_gstin": "10EKBCP3634U9Z9",
+  "buyer_address": "Unit No. 98, Kalbadevi Road, Muzaffarpur, Bihar - 828298",
+  "place_of_supply": "10 - Bihar",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 282,
+    "unit": "BOX",
+    "unit_price": 249.74,
+    "discount": null,
+    "taxable_value": 70426.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 198.584,
+    "unit": "KGS",
+    "unit_price": 415.04,
+    "discount": null,
+    "taxable_value": 82420.3,
+    "tax_rate": 5
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 57,
+    "unit": "PCS",
+    "unit_price": 206.97,
+    "discount": null,
+    "taxable_value": 11797.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 32.717,
+    "unit": "KGS",
+    "unit_price": 83.26,
+    "discount": null,
+    "taxable_value": 2669.54,
+    "tax_rate": 5
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 119.486,
+    "unit": "LTR",
+    "unit_price": 560.64,
+    "discount": null,
+    "taxable_value": 66988.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 67482.4,
+    "discount": null,
+    "taxable_value": 64108.28,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.122,
+    "unit": "TON",
+    "unit_price": 58054.75,
+    "discount": null,
+    "taxable_value": 6941.03,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 305351.75,
+  "cgst_amount": 21950.83,
+  "sgst_amount": 21950.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.41,
+  "grand_total": 349253.0,
+  "amount_in_words": "Rupees Three Lakh Forty Nine Thousand Two Hundred and Fifty Three Only"
+ },
+ "raw": "{\"invoice_number\":\"MH9284\",\"invoice_date\":\"2025-09-06\",\"seller_name\":\"Agarwal Technologies LLP\",\"seller_gstin\":\"10NQRPA9957D9Z9\",\"seller_address\":\"Gala No. 274, Ambattur Industrial Estate, Muzaffarpur, Bihar - 841957\",\"buyer_name\":\"Pillai & Sons\",\"buyer_gstin\":\"10EKBCP3634U9Z9\",\"buyer_address\":\"Unit No. 98, Kalbadevi Road, Muzaffarpur, Bihar - 828298\",\"place_of_supply\":\"10 - Bihar\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":282,\"unit\":\"BOX\",\"unit_price\":249.74,\"discount\":null,\"taxable_value\":70426.68,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":198.584,\"unit\":\"KGS\",\"unit_price\":415.04,\"discount\":null,\"taxable_value\":82420.30,\"tax_rate\":5},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":57,\"unit\":\"PCS\",\"unit_price\":206.97,\"discount\":null,\"taxable_value\":11797.29,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":32.717,\"unit\":\"KGS\",\"unit_price\":83.26,\"discount\":null,\"taxable_value\":2669.54,\"tax_rate\":5},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":119.486,\"unit\":\"LTR\",\"unit_price\":560.64,\"discount\":null,\"taxable_value\":66988.63,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":67482.40,\"discount\":null,\"taxable_value\":64108.28,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.122,\"unit\":\"TON\",\"unit_price\":58054.75,\"discount\":null,\"taxable_value\":6941.03,\"tax_rate\":18}],\"total_taxable_value\":305351.75,\"cgst_amount\":21950.83,\"sgst_amount\":21950.83,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.41,\"grand_total\":349253.00,\"amount_in_words\":\"Rupees Three Lakh Forty Nine Thousand Two Hundred and Fifty Three Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3178,
+ "output_tokens": 598,
+ "cached_input_tokens": 0,
+ "latency_s": 5.443,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

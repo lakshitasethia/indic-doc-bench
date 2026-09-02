@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00065__L2_photo",
+ "doc_id": "syn00065",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-A-0227",
+  "invoice_date": "2025-06-25",
+  "seller_name": "Sharma Distributors Private Limited",
+  "seller_gstin": "21IHRFS6464S4ZJ",
+  "seller_address": "Door No. 154, Naraina Vihar, Cuttack 752023, Odisha",
+  "buyer_name": "Sharma Agencies Private Limited",
+  "buyer_gstin": "21XZJFS1028T8ZN",
+  "buyer_address": "Khasra No. 414, Udyog Vihar, Bhubaneswar 754167, Odisha",
+  "place_of_supply": "Odisha",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 156.699,
+    "unit": "KGS",
+    "unit_price": 77.76,
+    "discount": null,
+    "taxable_value": 12184.91,
+    "tax_rate": 5
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 496,
+    "unit": "BOX",
+    "unit_price": 271.4,
+    "discount": null,
+    "taxable_value": 134614.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 209.075,
+    "unit": "LTR",
+    "unit_price": 652.61,
+    "discount": null,
+    "taxable_value": 136444.44,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 13,
+    "unit": "NOS",
+    "unit_price": 78.06,
+    "discount": null,
+    "taxable_value": 964.04,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 85276.54,
+    "discount": null,
+    "taxable_value": 85276.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 15,
+    "unit": "NOS",
+    "unit_price": 6271.89,
+    "discount": null,
+    "taxable_value": 89374.43,
+    "tax_rate": 28
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 190,
+    "unit": "NOS",
+    "unit_price": 26.16,
+    "discount": null,
+    "taxable_value": 4970.4,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 463829.16,
+  "cgst_amount": 45421.33,
+  "sgst_amount": 45421.33,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.18,
+  "grand_total": 554672.0,
+  "amount_in_words": "Rupees Five Lakh Fifty Four Thousand Six Hundred and Seventy Two Only"
+ },
+ "raw": "{\"invoice_number\":\"TAX-A-0227\",\"invoice_date\":\"2025-06-25\",\"seller_name\":\"Sharma Distributors Private Limited\",\"seller_gstin\":\"21IHRFS6464S4ZJ\",\"seller_address\":\"Door No. 154, Naraina Vihar, Cuttack 752023, Odisha\",\"buyer_name\":\"Sharma Agencies Private Limited\",\"buyer_gstin\":\"21XZJFS1028T8ZN\",\"buyer_address\":\"Khasra No. 414, Udyog Vihar, Bhubaneswar 754167, Odisha\",\"place_of_supply\":\"Odisha\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":156.699,\"unit\":\"KGS\",\"unit_price\":77.76,\"discount\":null,\"taxable_value\":12184.91,\"tax_rate\":5},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":496,\"unit\":\"BOX\",\"unit_price\":271.40,\"discount\":null,\"taxable_value\":134614.40,\"tax_rate\":18},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":209.075,\"unit\":\"LTR\",\"unit_price\":652.61,\"discount\":null,\"taxable_value\":136444.44,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":13,\"unit\":\"NOS\",\"unit_price\":78.06,\"discount\":null,\"taxable_value\":964.04,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":85276.54,\"discount\":null,\"taxable_value\":85276.54,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":15,\"unit\":\"NOS\",\"unit_price\":6271.89,\"discount\":null,\"taxable_value\":89374.43,\"tax_rate\":28},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":190,\"unit\":\"NOS\",\"unit_price\":26.16,\"discount\":null,\"taxable_value\":4970.40,\"tax_rate\":18}],\"total_taxable_value\":463829.16,\"cgst_amount\":45421.33,\"sgst_amount\":45421.33,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.18,\"grand_total\":554672.00,\"amount_in_words\":\"Rupees Five Lakh Fifty Four Thousand Six Hundred and Seventy Two Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3528,
+ "output_tokens": 593,
+ "cached_input_tokens": 0,
+ "latency_s": 4.5488,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

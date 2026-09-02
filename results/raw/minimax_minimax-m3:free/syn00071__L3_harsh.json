@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00071__L3_harsh",
+ "doc_id": "syn00071",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Shoo Store & Allies",
+  "seller_gstin": null,
+  "seller_address": "2463/03/2018-19, Karnal, Haryana",
+  "buyer_name": "Shinny nakshira",
+  "buyer_gstin": null,
+  "buyer_address": "Dutta No. 306, 3rd, Anand Apartment, Gurgaon, Haryana",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glazed Tiles",
+    "hsn_sac": null,
+    "quantity": 500,
+    "unit": "BOX",
+    "unit_price": 65.0,
+    "discount": 0,
+    "taxable_value": 32500.0,
+    "tax_rate": 28
+   },
+   {
+    "description": "Preceslano Toilet Tiles",
+    "hsn_sac": null,
+    "quantity": 20,
+    "unit": "BOX",
+    "unit_price": 600.0,
+    "discount": 0,
+    "taxable_value": 12000.0,
+    "tax_rate": 28
+   },
+   {
+    "description": "Drain Board",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "BOX",
+    "unit_price": 21000.0,
+    "discount": 0,
+    "taxable_value": 21000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toto Cistern",
+    "hsn_sac": null,
+    "quantity": 2,
+    "unit": "BOX",
+    "unit_price": 49500.0,
+    "discount": 0,
+    "taxable_value": 99000.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Blue Vase Toilet 34S/2",
+    "hsn_sac": null,
+    "quantity": 3,
+    "unit": "BOX",
+    "unit_price": 720.0,
+    "discount": 0,
+    "taxable_value": 2160.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Indian Head HNS T-Shirt Stationary Item Box",
+    "hsn_sac": null,
+    "quantity": 480,
+    "unit": "BOX",
+    "unit_price": 216.0,
+    "discount": 0,
+    "taxable_value": 103680.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stationary Item Box",
+    "hsn_sac": null,
+    "quantity": 12,
+    "unit": "SET",
+    "unit_price": 700.0,
+    "discount": 0,
+    "taxable_value": 8400.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 266375.0,
+  "cgst_amount": 39762.0,
+  "sgst_amount": 39762.0,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 345899.0,
+  "amount_in_words": "Three Hundred And Eighty Four Thousand And Eighty Two Only"
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": \"Shoo Store & Allies\", \"seller_gstin\": null, \"seller_address\": \"2463/03/2018-19, Karnal, Haryana\", \"buyer_name\": \"Shinny nakshira\", \"buyer_gstin\": null, \"buyer_address\": \"Dutta No. 306, 3rd, Anand Apartment, Gurgaon, Haryana\", \"place_of_supply\": \"Haryana\", \"reverse_charge\": null, \"irn\": null, \"line_items\": [{\"description\": \"Glazed Tiles\", \"hsn_sac\": null, \"quantity\": 500, \"unit\": \"BOX\", \"unit_price\": 65.00, \"discount\": 0, \"taxable_value\": 32500.00, \"tax_rate\": 28}, {\"description\": \"Preceslano Toilet Tiles\", \"hsn_sac\": null, \"quantity\": 20, \"unit\": \"BOX\", \"unit_price\": 600.00, \"discount\": 0, \"taxable_value\": 12000.00, \"tax_rate\": 28}, {\"description\": \"Drain Board\", \"hsn_sac\": null, \"quantity\": 1, \"unit\": \"BOX\", \"unit_price\": 21000.00, \"discount\": 0, \"taxable_value\": 21000.00, \"tax_rate\": 18}, {\"description\": \"Toto Cistern\", \"hsn_sac\": null, \"quantity\": 2, \"unit\": \"BOX\", \"unit_price\": 49500.00, \"discount\": 0, \"taxable_value\": 99000.00, \"tax_rate\": 18}, {\"description\": \"Blue Vase Toilet 34S/2\", \"hsn_sac\": null, \"quantity\": 3, \"unit\": \"BOX\", \"unit_price\": 720.00, \"discount\": 0, \"taxable_value\": 2160.00, \"tax_rate\": 18}, {\"description\": \"Indian Head HNS T-Shirt Stationary Item Box\", \"hsn_sac\": null, \"quantity\": 480, \"unit\": \"BOX\", \"unit_price\": 216.00, \"discount\": 0, \"taxable_value\": 103680.00, \"tax_rate\": 18}, {\"description\": \"Stationary Item Box\", \"hsn_sac\": null, \"quantity\": 12, \"unit\": \"SET\", \"unit_price\": 700.00, \"discount\": 0, \"taxable_value\": 8400.00, \"tax_rate\": 18}], \"total_taxable_value\": 266375.00, \"cgst_amount\": 39762.00, \"sgst_amount\": 39762.00, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": 345899.00, \"amount_in_words\": \"Three Hundred And Eighty Four Thousand And Eighty Two Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2012,
+ "output_tokens": 655,
+ "cached_input_tokens": 0,
+ "latency_s": 4.8907,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00021__L3_harsh",
+ "doc_id": "syn00021",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "NALE/R-2470",
+  "invoice_date": "2025-11-22",
+  "seller_name": "Naidu Agencies Private Limited",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Abhishek Pharma",
+  "buyer_gstin": null,
+  "buyer_address": "Shop No 5060, Industrial Estate, Fatchabad, Haryana - 121001",
+  "place_of_supply": "Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Eldigi Type refills R40",
+    "hsn_sac": null,
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 4892.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "Eraser Pencell Wom",
+    "hsn_sac": null,
+    "quantity": 4,
+    "unit": "PACI",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 1170.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stedefler Steel Cattery Set",
+    "hsn_sac": null,
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 439.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "Asian CPG Tea leaf",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "PACI",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 274.88,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 12705.96,
+  "cgst_amount": 12705.96,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.45,
+  "grand_total": 14050.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"NALE/R-2470\",\"invoice_date\":\"2025-11-22\",\"seller_name\":\"Naidu Agencies Private Limited\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":\"Abhishek Pharma\",\"buyer_gstin\":null,\"buyer_address\":\"Shop No 5060, Industrial Estate, Fatchabad, Haryana - 121001\",\"place_of_supply\":\"Haryana\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Eldigi Type refills R40\",\"hsn_sac\":null,\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":4892.24,\"tax_rate\":18},{\"description\":\"Eraser Pencell Wom\",\"hsn_sac\":null,\"quantity\":4,\"unit\":\"PACI\",\"unit_price\":null,\"discount\":null,\"taxable_value\":1170.00,\"tax_rate\":18},{\"description\":\"Stedefler Steel Cattery Set\",\"hsn_sac\":null,\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":439.63,\"tax_rate\":18},{\"description\":\"Asian CPG Tea leaf\",\"hsn_sac\":null,\"quantity\":1,\"unit\":\"PACI\",\"unit_price\":null,\"discount\":null,\"taxable_value\":274.88,\"tax_rate\":5}],\"total_taxable_value\":12705.96,\"cgst_amount\":12705.96,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.45,\"grand_total\":14050.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2010,
+ "output_tokens": 353,
+ "cached_input_tokens": 0,
+ "latency_s": 5.367,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

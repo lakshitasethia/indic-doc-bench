@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00075__L2_photo",
+ "doc_id": "syn00075",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-7645",
+  "invoice_date": "2025-10-24",
+  "seller_name": "Iyer Traders",
+  "seller_gstin": "06MNGCI8610S2ZV",
+  "seller_address": "Unit No. 164, MG Road, Faridabad, Haryana 124585",
+  "buyer_name": "Chauhan Enterprises",
+  "buyer_gstin": null,
+  "buyer_address": "Shop No. 376, Naraina Vihar, Gurugram, Haryana 129930",
+  "place_of_supply": "06 - Haryana",
+  "reverse_charge": false,
+  "irn": "6e28b5f6e23ca3e82bfeec97da165b0d6bc077e1830dbca621e4e5d9778f7807",
+  "total_taxable_value": 8863.35,
+  "cgst_amount": 797.71,
+  "sgst_amount": 797.71,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.23,
+  "grand_total": 10459.0,
+  "amount_in_words": "Rupees Ten Thousand Four Hundred and Fifty Nine Only",
+  "line_items": [
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 1,
+    "unit": "PRS",
+    "unit_price": 1857.57,
+    "discount": null,
+    "taxable_value": 1857.57,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 32,
+    "unit": "NOS",
+    "unit_price": 112.29,
+    "discount": null,
+    "taxable_value": 3593.28,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 175,
+    "unit": "NOS",
+    "unit_price": 19.5,
+    "discount": null,
+    "taxable_value": 3412.5,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"INV-7645\",\"invoice_date\":\"2025-10-24\",\"seller_name\":\"Iyer Traders\",\"seller_gstin\":\"06MNGCI8610S2ZV\",\"seller_address\":\"Unit No. 164, MG Road, Faridabad, Haryana 124585\",\"buyer_name\":\"Chauhan Enterprises\",\"buyer_gstin\":null,\"buyer_address\":\"Shop No. 376, Naraina Vihar, Gurugram, Haryana 129930\",\"place_of_supply\":\"06 - Haryana\",\"reverse_charge\":false,\"irn\":\"6e28b5f6e23ca3e82bfeec97da165b0d6bc077e1830dbca621e4e5d9778f7807\",\"total_taxable_value\":8863.35,\"cgst_amount\":797.71,\"sgst_amount\":797.71,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.23,\"grand_total\":10459.00,\"amount_in_words\":\"Rupees Ten Thousand Four Hundred and Fifty Nine Only\",\"line_items\":[{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":1,\"unit\":\"PRS\",\"unit_price\":1857.57,\"discount\":null,\"taxable_value\":1857.57,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":32,\"unit\":\"NOS\",\"unit_price\":112.29,\"discount\":null,\"taxable_value\":3593.28,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":175,\"unit\":\"NOS\",\"unit_price\":19.50,\"discount\":null,\"taxable_value\":3412.50,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3090,
+ "output_tokens": 383,
+ "cached_input_tokens": 0,
+ "latency_s": 4.0756,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

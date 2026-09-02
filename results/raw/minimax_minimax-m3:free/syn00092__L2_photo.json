@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00092__L2_photo",
+ "doc_id": "syn00092",
+ "level": "L2_photo",
+ "template_id": "t09",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/1936",
+  "invoice_date": "2026-03-24",
+  "seller_name": "Sharma Distributors Private Limited",
+  "seller_gstin": "09NWCCS2262I4M",
+  "seller_address": "Unit No. 460, Sector 63, Ghaziabad - 201302, State Uttar Pradesh (09)",
+  "buyer_name": "Aenon Technologies Limited",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4010.67,
+    "discount": 80.21,
+    "taxable_value": 3930.46,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 3930.46,
+  "cgst_amount": 353.74,
+  "sgst_amount": 353.74,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.06,
+  "grand_total": 4638.0,
+  "amount_in_words": "Rupees Four Thousand Six Hundred and Thirty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"TI/25-26/1936\",\"invoice_date\":\"2026-03-24\",\"seller_name\":\"Sharma Distributors Private Limited\",\"seller_gstin\":\"09NWCCS2262I4M\",\"seller_address\":\"Unit No. 460, Sector 63, Ghaziabad - 201302, State Uttar Pradesh (09)\",\"buyer_name\":\"Aenon Technologies Limited\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":\"Uttar Pradesh\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Repair Services of Computers and Peripherals\",\"hsn_sac\":\"998721\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":4010.67,\"discount\":80.21,\"taxable_value\":3930.46,\"tax_rate\":18}],\"total_taxable_value\":3930.46,\"cgst_amount\":353.74,\"sgst_amount\":353.74,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.06,\"grand_total\":4638.00,\"amount_in_words\":\"Rupees Four Thousand Six Hundred and Thirty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1838,
+ "output_tokens": 244,
+ "cached_input_tokens": 0,
+ "latency_s": 3.9115,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

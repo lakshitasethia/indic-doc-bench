@@ -7,12 +7,13 @@ Nobody has published this. Every Indian fintech, accounting SaaS, and lending
 startup building document intake needs it.
 
 **Status:** harness complete; 12 templates; 96-document corpus at 4 severity
-levels (408 images, 626 line items). First results are in: the rules baseline
-has swept the full corpus, `qwen3-vl-32b-instruct` has 247 of 384 documents,
-and `gemini-2.5-flash-lite` has 24. The two model sweeps are **incomplete** —
-they stopped against an exhausted API balance, not a bug — so treat every
-number in `results/report.md` as provisional and read the `Calls failed`
-column before quoting any of them. No Anthropic model has been run yet.
+levels (408 images, 626 line items). Two arms have swept the full corpus —
+the `ocr-rules-v1` baseline and `minimax-m3` (384/384, zero failed calls).
+Two more are partial: `qwen3-vl-32b-instruct` at 247/384 and
+`gemini-2.5-flash-lite` at 24/384, both stopped against an exhausted API
+balance rather than a bug. Read the `Calls failed` column in
+`results/report.md` before quoting those two — they rest on less data and
+are not comparable at face value. No Anthropic model has been run yet.
 
 ---
 

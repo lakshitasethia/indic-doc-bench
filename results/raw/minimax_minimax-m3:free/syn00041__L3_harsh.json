@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00041__L3_harsh",
+ "doc_id": "syn00041",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Reliance Jio Infocomm PVT LTD",
+  "seller_gstin": "27AAACR5055K1Z7",
+  "seller_address": "Shop No 12,13, Acharya Shopping Mall, Navalgund ,Gadag, Karnataka 582103",
+  "buyer_name": "Fidal Polyplast",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No 100B, Cross Road, Kolhapur,Gadag, Karnataka 582103",
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 3390.04,
+  "cgst_amount": 305.1,
+  "sgst_amount": 305.1,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 3998.02,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": null,
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 112.48,
+    "discount": null,
+    "taxable_value": 102.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6258/128GB",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 3094.96,
+    "discount": null,
+    "taxable_value": 3094.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": null,
+    "quantity": 35,
+    "unit": "BOX",
+    "unit_price": 27.48,
+    "discount": null,
+    "taxable_value": 37.46,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"Reliance Jio Infocomm PVT LTD\",\"seller_gstin\":\"27AAACR5055K1Z7\",\"seller_address\":\"Shop No 12,13, Acharya Shopping Mall, Navalgund ,Gadag, Karnataka 582103\",\"buyer_name\":\"Fidal Polyplast\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No 100B, Cross Road, Kolhapur,Gadag, Karnataka 582103\",\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":3390.04,\"cgst_amount\":305.10,\"sgst_amount\":305.10,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":3998.02,\"amount_in_words\":null,\"line_items\":[{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":null,\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":112.48,\"discount\":null,\"taxable_value\":102.85,\"tax_rate\":18},{\"description\":\"Smartphone 6258/128GB\",\"hsn_sac\":null,\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":3094.96,\"discount\":null,\"taxable_value\":3094.96,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":null,\"quantity\":35,\"unit\":\"BOX\",\"unit_price\":27.48,\"discount\":null,\"taxable_value\":37.46,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1910,
+ "output_tokens": 338,
+ "cached_input_tokens": 0,
+ "latency_s": 6.4929,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

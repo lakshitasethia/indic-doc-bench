@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00030__L0_clean",
+ "doc_id": "syn00030",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-B-8783",
+  "invoice_date": "2025-06-03",
+  "seller_name": "Shetty Infratech Pvt. Ltd.",
+  "seller_gstin": "06YAMPS3893N1Z3",
+  "seller_address": "Plot No. 245, Okhla Phase I, Gurugram, Haryana-133701",
+  "buyer_name": "Sethi Sales Corporation Pvt. Ltd.",
+  "buyer_gstin": null,
+  "buyer_address": "Khasra No. 30, MIDC Phase II, Panipat, Haryana-126511",
+  "place_of_supply": "06-Haryana",
+  "reverse_charge": false,
+  "irn": null,
+  "total_taxable_value": 10453.05,
+  "cgst_amount": 261.33,
+  "sgst_amount": 261.33,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.29,
+  "grand_total": 10976.0,
+  "amount_in_words": "Rupees Ten Thousand Nine Hundred and Seventy Six Only",
+  "line_items": [
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 92.317,
+    "unit": "MTR",
+    "unit_price": 113.23,
+    "discount": null,
+    "taxable_value": 10453.05,
+    "tax_rate": 5
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"TAX-B-8783\",\"invoice_date\":\"2025-06-03\",\"seller_name\":\"Shetty Infratech Pvt. Ltd.\",\"seller_gstin\":\"06YAMPS3893N1Z3\",\"seller_address\":\"Plot No. 245, Okhla Phase I, Gurugram, Haryana-133701\",\"buyer_name\":\"Sethi Sales Corporation Pvt. Ltd.\",\"buyer_gstin\":null,\"buyer_address\":\"Khasra No. 30, MIDC Phase II, Panipat, Haryana-126511\",\"place_of_supply\":\"06-Haryana\",\"reverse_charge\":false,\"irn\":null,\"total_taxable_value\":10453.05,\"cgst_amount\":261.33,\"sgst_amount\":261.33,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.29,\"grand_total\":10976.00,\"amount_in_words\":\"Rupees Ten Thousand Nine Hundred and Seventy Six Only\",\"line_items\":[{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":92.317,\"unit\":\"MTR\",\"unit_price\":113.23,\"discount\":null,\"taxable_value\":10453.05,\"tax_rate\":5}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3782,
+ "output_tokens": 262,
+ "cached_input_tokens": 0,
+ "latency_s": 18.0021,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

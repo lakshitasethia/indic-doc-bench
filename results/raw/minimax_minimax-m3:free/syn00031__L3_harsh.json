@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00031__L3_harsh",
+ "doc_id": "syn00031",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "C664",
+  "invoice_date": "2026-02-02",
+  "seller_name": "Trend Industries Pvt. Ltd.",
+  "seller_gstin": "36AAFFP9575F1ZX",
+  "seller_address": "Sy. No. 407, Udyog Vihar, Hyderabad - 502307",
+  "buyer_name": "Kalkarni Solutions LLP",
+  "buyer_gstin": "36ABCFR4255L1ZA",
+  "buyer_address": "Plot No. 105, Patmya 2nd Stage, Faridabad, Haryana - 121538",
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 36376.04,
+  "cgst_amount": 1818.8,
+  "sgst_amount": 1818.8,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.23,
+  "grand_total": 38126.0,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Sticker, Color 70g",
+    "hsn_sac": "4821",
+    "quantity": 100.0,
+    "unit": "PCS",
+    "unit_price": 49.0,
+    "discount": 632.36,
+    "taxable_value": 6254.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 20.0,
+    "unit": "LTR",
+    "unit_price": 671.0,
+    "discount": 1200.0,
+    "taxable_value": 13241.35,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 1.0,
+    "unit": "NOS",
+    "unit_price": 171.0,
+    "discount": null,
+    "taxable_value": 22187.26,
+    "tax_rate": null
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": \"C664\", \"invoice_date\": \"2026-02-02\", \"seller_name\": \"Trend Industries Pvt. Ltd.\", \"seller_gstin\": \"36AAFFP9575F1ZX\", \"seller_address\": \"Sy. No. 407, Udyog Vihar, Hyderabad - 502307\", \"buyer_name\": \"Kalkarni Solutions LLP\", \"buyer_gstin\": \"36ABCFR4255L1ZA\", \"buyer_address\": \"Plot No. 105, Patmya 2nd Stage, Faridabad, Haryana - 121538\", \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 36376.04, \"cgst_amount\": 1818.80, \"sgst_amount\": 1818.80, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": -0.23, \"grand_total\": 38126.00, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Sticker, Color 70g\", \"hsn_sac\": \"4821\", \"quantity\": 100.00, \"unit\": \"PCS\", \"unit_price\": 49.00, \"discount\": 632.36, \"taxable_value\": 6254.64, \"tax_rate\": 18}, {\"description\": \"Synthetic Enamel Paint 4L\", \"hsn_sac\": \"3208\", \"quantity\": 20.00, \"unit\": \"LTR\", \"unit_price\": 671.00, \"discount\": 1200.00, \"taxable_value\": 13241.35, \"tax_rate\": 18}, {\"description\": \"Hard Bound Register 200 Pages\", \"hsn_sac\": \"4820\", \"quantity\": 1.00, \"unit\": \"NOS\", \"unit_price\": 171.00, \"discount\": null, \"taxable_value\": 22187.26, \"tax_rate\": null}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1946,
+ "output_tokens": 437,
+ "cached_input_tokens": 0,
+ "latency_s": 3.6932,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00095__L1_scan",
+ "doc_id": "syn00095",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "3740",
+  "invoice_date": "2025-07-23",
+  "seller_name": "Mahajan Engineering Works Pvt. Ltd.",
+  "seller_gstin": "29AKHFM2648D6ZJ",
+  "seller_address": "Khasra No. 104, MG Road, Mysuru, Karnataka - 560462",
+  "buyer_name": "Banerjee Polymers Limited",
+  "buyer_gstin": "29TXRCB2743Z3ZF",
+  "buyer_address": "Unit No. 386, Focal Point, Mysuru, Karnataka - 563942",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 18,
+    "unit": "NOS",
+    "unit_price": 12266.74,
+    "discount": 0.0,
+    "taxable_value": 220801.32,
+    "tax_rate": 5
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 115878.52,
+    "discount": 0.0,
+    "taxable_value": 115878.52,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 336679.84,
+  "cgst_amount": 15949.1,
+  "sgst_amount": 15949.1,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.04,
+  "grand_total": 368578.0,
+  "amount_in_words": "Rupees Three Lakh Sixty Eight Thousand Five Hundred and Seventy Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"3740\",\"invoice_date\":\"2025-07-23\",\"seller_name\":\"Mahajan Engineering Works Pvt. Ltd.\",\"seller_gstin\":\"29AKHFM2648D6ZJ\",\"seller_address\":\"Khasra No. 104, MG Road, Mysuru, Karnataka - 560462\",\"buyer_name\":\"Banerjee Polymers Limited\",\"buyer_gstin\":\"29TXRCB2743Z3ZF\",\"buyer_address\":\"Unit No. 386, Focal Point, Mysuru, Karnataka - 563942\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Road Transport Services of Goods\",\"hsn_sac\":\"996511\",\"quantity\":18,\"unit\":\"NOS\",\"unit_price\":12266.74,\"discount\":0.00,\"taxable_value\":220801.32,\"tax_rate\":5},{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":115878.52,\"discount\":0.00,\"taxable_value\":115878.52,\"tax_rate\":18}],\"total_taxable_value\":336679.84,\"cgst_amount\":15949.10,\"sgst_amount\":15949.10,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.04,\"grand_total\":368578.00,\"amount_in_words\":\"Rupees Three Lakh Sixty Eight Thousand Five Hundred and Seventy Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5006,
+ "output_tokens": 316,
+ "cached_input_tokens": 0,
+ "latency_s": 12.9173,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

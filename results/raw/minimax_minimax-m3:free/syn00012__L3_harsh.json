@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00012__L3_harsh",
+ "doc_id": "syn00012",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-17902",
+  "invoice_date": "2020-02-25",
+  "seller_name": "Kemp Trading Co.",
+  "seller_gstin": "29AFHFK7966K1ZD",
+  "seller_address": "Shop No. 101, Andurkar Industrial Estate, Kalyan, West Bengal - 743135",
+  "buyer_name": "Patel Trading Co. LLP",
+  "buyer_gstin": "27ABCFP5461L1Z9",
+  "buyer_address": "Shop No. 45, Sector 19, Mundhwa, Maharashtra - 411036",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": "No",
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Block Material 5000 Pages",
+    "hsn_sac": "4810",
+    "quantity": 40.2,
+    "unit": "PCS",
+    "unit_price": 115.19,
+    "discount": null,
+    "taxable_value": 4630.65,
+    "tax_rate": 12
+   },
+   {
+    "description": "Stainless Steel Coffee Pot",
+    "hsn_sac": "8211",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 816.0,
+    "discount": null,
+    "taxable_value": 40800.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hand Desk Printer",
+    "hsn_sac": "8470",
+    "quantity": 5200,
+    "unit": "PCS",
+    "unit_price": 216.4,
+    "discount": null,
+    "taxable_value": 1125280.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Aluminium Water Pump 2HP",
+    "hsn_sac": "8413",
+    "quantity": 9813,
+    "unit": "NOS",
+    "unit_price": 170.0,
+    "discount": null,
+    "taxable_value": 1668210.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bag",
+    "hsn_sac": "3923",
+    "quantity": 3625,
+    "unit": "NOS",
+    "unit_price": 170.5,
+    "discount": null,
+    "taxable_value": 618062.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rectangular Coffee Box 7Pcs",
+    "hsn_sac": "7321",
+    "quantity": 4814,
+    "unit": "NOS",
+    "unit_price": 39.5,
+    "discount": null,
+    "taxable_value": 190153.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 1863.4,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 2262002.55,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 237522.2,
+  "cess_amount": null,
+  "round_off": -0.0,
+  "grand_total": 3000000.0,
+  "amount_in_words": "Rupees One Lakh Thirty Nine Thousand Four Hundred Sixty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-17902\",\"invoice_date\":\"2020-02-25\",\"seller_name\":\"Kemp Trading Co.\",\"seller_gstin\":\"29AFHFK7966K1ZD\",\"seller_address\":\"Shop No. 101, Andurkar Industrial Estate, Kalyan, West Bengal - 743135\",\"buyer_name\":\"Patel Trading Co. LLP\",\"buyer_gstin\":\"27ABCFP5461L1Z9\",\"buyer_address\":\"Shop No. 45, Sector 19, Mundhwa, Maharashtra - 411036\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":\"No\",\"irn\":null,\"line_items\":[{\"description\":\"Block Material 5000 Pages\",\"hsn_sac\":\"4810\",\"quantity\":40.20,\"unit\":\"PCS\",\"unit_price\":115.19,\"discount\":null,\"taxable_value\":4630.65,\"tax_rate\":12},{\"description\":\"Stainless Steel Coffee Pot\",\"hsn_sac\":\"8211\",\"quantity\":50,\"unit\":\"PCS\",\"unit_price\":816.00,\"discount\":null,\"taxable_value\":40800.00,\"tax_rate\":18},{\"description\":\"Hand Desk Printer\",\"hsn_sac\":\"8470\",\"quantity\":5200,\"unit\":\"PCS\",\"unit_price\":216.40,\"discount\":null,\"taxable_value\":1125280.00,\"tax_rate\":18},{\"description\":\"Aluminium Water Pump 2HP\",\"hsn_sac\":\"8413\",\"quantity\":9813,\"unit\":\"NOS\",\"unit_price\":170.00,\"discount\":null,\"taxable_value\":1668210.00,\"tax_rate\":18},{\"description\":\"HDPE Packing Bag\",\"hsn_sac\":\"3923\",\"quantity\":3625,\"unit\":\"NOS\",\"unit_price\":170.50,\"discount\":null,\"taxable_value\":618062.50,\"tax_rate\":18},{\"description\":\"Rectangular Coffee Box 7Pcs\",\"hsn_sac\":\"7321\",\"quantity\":4814,\"unit\":\"NOS\",\"unit_price\":39.50,\"discount\":null,\"taxable_value\":190153.00,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":1863.40,\"tax_rate\":null}],\"total_taxable_value\":2262002.55,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":237522.20,\"cess_amount\":null,\"round_off\":-0.00,\"grand_total\":3000000.00,\"amount_in_words\":\"Rupees One Lakh Thirty Nine Thousand Four Hundred Sixty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1990,
+ "output_tokens": 574,
+ "cached_input_tokens": 0,
+ "latency_s": 7.9833,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

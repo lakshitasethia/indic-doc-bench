@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00088__L2_photo",
+ "doc_id": "syn00088",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-1382",
+  "invoice_date": "2025-07-07",
+  "seller_name": "Fernandes Overseas Pvt. Ltd.",
+  "seller_gstin": "29RGPFF0216P8ZZ",
+  "seller_address": "Door No. 147, Sector 63, Hubballi, Karnataka - 575420",
+  "buyer_name": "Joshi Steel & Alloys",
+  "buyer_gstin": "09MJBPJ7292X1ZP",
+  "buyer_address": "Door No. 6, Okhla Phase I, Noida, Uttar Pradesh - 245722",
+  "place_of_supply": "Uttar Pradesh (09)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 1.87,
+    "unit": "LTR",
+    "unit_price": 679.86,
+    "discount": null,
+    "taxable_value": 1271.34,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1271.34,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 228.84,
+  "cess_amount": null,
+  "round_off": -0.18,
+  "grand_total": 1500.0,
+  "amount_in_words": "Rupees One Thousand Five Hundred Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-1382\",\"invoice_date\":\"2025-07-07\",\"seller_name\":\"Fernandes Overseas Pvt. Ltd.\",\"seller_gstin\":\"29RGPFF0216P8ZZ\",\"seller_address\":\"Door No. 147, Sector 63, Hubballi, Karnataka - 575420\",\"buyer_name\":\"Joshi Steel & Alloys\",\"buyer_gstin\":\"09MJBPJ7292X1ZP\",\"buyer_address\":\"Door No. 6, Okhla Phase I, Noida, Uttar Pradesh - 245722\",\"place_of_supply\":\"Uttar Pradesh (09)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":1.870,\"unit\":\"LTR\",\"unit_price\":679.86,\"discount\":null,\"taxable_value\":1271.34,\"tax_rate\":18}],\"total_taxable_value\":1271.34,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":228.84,\"cess_amount\":null,\"round_off\":-0.18,\"grand_total\":1500.00,\"amount_in_words\":\"Rupees One Thousand Five Hundred Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2958,
+ "output_tokens": 263,
+ "cached_input_tokens": 0,
+ "latency_s": 6.6682,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

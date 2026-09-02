@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00007__L2_photo",
+ "doc_id": "syn00007",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-5606",
+  "invoice_date": "2025-07-27",
+  "seller_name": "Iyer Logistics Pvt. Ltd.",
+  "seller_gstin": "33KPKCI8345J2Z2",
+  "seller_address": "Shop No. 112, SIDCO Complex, Salem, Tamil Nadu - 615990",
+  "buyer_name": "Rao Marketing LLP",
+  "buyer_gstin": "33LRRFR7481N3ZZ",
+  "buyer_address": "Khasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 438.955,
+    "unit": "KGS",
+    "unit_price": 98.62,
+    "discount": null,
+    "taxable_value": 43289.74,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 73,
+    "unit": "PCS",
+    "unit_price": 255.78,
+    "discount": null,
+    "taxable_value": 18671.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15065.81,
+    "discount": null,
+    "taxable_value": 15065.81,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 11,
+    "unit": "PCS",
+    "unit_price": 61.65,
+    "discount": null,
+    "taxable_value": 678.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 130.992,
+    "unit": "KGS",
+    "unit_price": 97.37,
+    "discount": null,
+    "taxable_value": 12754.69,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 17.03,
+    "unit": "KGS",
+    "unit_price": 44.04,
+    "discount": null,
+    "taxable_value": 750.0,
+    "tax_rate": 5
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 461,
+    "unit": "SET",
+    "unit_price": 256.4,
+    "discount": null,
+    "taxable_value": 118200.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 269.773,
+    "unit": "KGS",
+    "unit_price": 180.59,
+    "discount": null,
+    "taxable_value": 47743.94,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 257154.67,
+  "cgst_amount": 22266.11,
+  "sgst_amount": 22266.11,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.11,
+  "grand_total": 301687.0,
+  "amount_in_words": "Rupees Three Lakh One Thousand Six Hundred and Eighty Seven Only"
+ },
+ "raw": "{\"invoice_number\":\"SALE-B-5606\",\"invoice_date\":\"2025-07-27\",\"seller_name\":\"Iyer Logistics Pvt. Ltd.\",\"seller_gstin\":\"33KPKCI8345J2Z2\",\"seller_address\":\"Shop No. 112, SIDCO Complex, Salem, Tamil Nadu - 615990\",\"buyer_name\":\"Rao Marketing LLP\",\"buyer_gstin\":\"33LRRFR7481N3ZZ\",\"buyer_address\":\"Khasra No. 48, Kalbadevi Road, Chennai, Tamil Nadu - 606125\",\"place_of_supply\":\"Tamil Nadu\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":438.955,\"unit\":\"KGS\",\"unit_price\":98.62,\"discount\":null,\"taxable_value\":43289.74,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":73,\"unit\":\"PCS\",\"unit_price\":255.78,\"discount\":null,\"taxable_value\":18671.94,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":15065.81,\"discount\":null,\"taxable_value\":15065.81,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":11,\"unit\":\"PCS\",\"unit_price\":61.65,\"discount\":null,\"taxable_value\":678.15,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":130.992,\"unit\":\"KGS\",\"unit_price\":97.37,\"discount\":null,\"taxable_value\":12754.69,\"tax_rate\":5},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":17.030,\"unit\":\"KGS\",\"unit_price\":44.04,\"discount\":null,\"taxable_value\":750.00,\"tax_rate\":5},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":461,\"unit\":\"SET\",\"unit_price\":256.40,\"discount\":null,\"taxable_value\":118200.40,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":269.773,\"unit\":\"KGS\",\"unit_price\":180.59,\"discount\":null,\"taxable_value\":47743.94,\"tax_rate\":18}],\"total_taxable_value\":257154.67,\"cgst_amount\":22266.11,\"sgst_amount\":22266.11,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.11,\"grand_total\":301687.00,\"amount_in_words\":\"Rupees Three Lakh One Thousand Six Hundred and Eighty Seven Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3528,
+ "output_tokens": 628,
+ "cached_input_tokens": 0,
+ "latency_s": 11.2583,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

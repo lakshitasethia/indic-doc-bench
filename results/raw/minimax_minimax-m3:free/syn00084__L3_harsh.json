@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00084__L3_harsh",
+ "doc_id": "syn00084",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "IDA4233",
+  "invoice_date": "2024-07-10",
+  "seller_name": "Chemozyme Niro Corporation Limited",
+  "seller_gstin": "21AABCCN5779M1Z9",
+  "seller_address": "D.No No. 17/1, Salivah-41, Chinnamushidivada, Srinivasa - 525109",
+  "buyer_name": "Shreeja & Sons Private Limited",
+  "buyer_gstin": "37BBDPS4662N1Z5",
+  "buyer_address": "D.No No. 189, 1, Chuttan Chowk, Chinnamushidivada, Srinivasa",
+  "place_of_supply": "Andhra Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Stainless Steel Laboratory Set",
+    "hsn_sac": "4213",
+    "quantity": 1,
+    "unit": "SET",
+    "unit_price": 3144.43,
+    "discount": null,
+    "taxable_value": 3144.43,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box (5Ply)",
+    "hsn_sac": "4819",
+    "quantity": 24,
+    "unit": "Nos",
+    "unit_price": 24.88,
+    "discount": null,
+    "taxable_value": 60468.44,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 114287.87,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 20568.22,
+  "cess_amount": null,
+  "round_off": -0.09,
+  "grand_total": 134856.0,
+  "amount_in_words": "Rupees One Lakh Thirty Four Thousand Eight Hundred and Thirty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"IDA4233\",\"invoice_date\":\"2024-07-10\",\"seller_name\":\"Chemozyme Niro Corporation Limited\",\"seller_gstin\":\"21AABCCN5779M1Z9\",\"seller_address\":\"D.No No. 17/1, Salivah-41, Chinnamushidivada, Srinivasa - 525109\",\"buyer_name\":\"Shreeja & Sons Private Limited\",\"buyer_gstin\":\"37BBDPS4662N1Z5\",\"buyer_address\":\"D.No No. 189, 1, Chuttan Chowk, Chinnamushidivada, Srinivasa\",\"place_of_supply\":\"Andhra Pradesh\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Stainless Steel Laboratory Set\",\"hsn_sac\":\"4213\",\"quantity\":1,\"unit\":\"SET\",\"unit_price\":3144.43,\"discount\":null,\"taxable_value\":3144.43,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box (5Ply)\",\"hsn_sac\":\"4819\",\"quantity\":24,\"unit\":\"Nos\",\"unit_price\":24.88,\"discount\":null,\"taxable_value\":60468.44,\"tax_rate\":18}],\"total_taxable_value\":114287.87,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":20568.22,\"cess_amount\":null,\"round_off\":-0.09,\"grand_total\":134856.00,\"amount_in_words\":\"Rupees One Lakh Thirty Four Thousand Eight Hundred and Thirty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1907,
+ "output_tokens": 338,
+ "cached_input_tokens": 0,
+ "latency_s": 4.0976,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

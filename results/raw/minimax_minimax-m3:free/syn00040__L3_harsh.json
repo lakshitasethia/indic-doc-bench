@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00040__L3_harsh",
+ "doc_id": "syn00040",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "305",
+  "invoice_date": "2019-04-06",
+  "seller_name": "Chauhan Steel & Alloys",
+  "seller_gstin": "09BBDPC7413722ZN",
+  "seller_address": "Plot No. 395, GIDC Estate, Udyognagar, Rajasthan - 310219",
+  "buyer_name": "Chauhan Steel & Alloys",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 395, GIDC Estate, Udyognagar, Rajasthan",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 386790.15,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 64222.34,
+  "cess_amount": null,
+  "round_off": 0.0,
+  "grand_total": 421012.0,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Door Section",
+    "hsn_sac": "7216",
+    "quantity": 4.28,
+    "unit": "TON",
+    "unit_price": 188.21,
+    "discount": null,
+    "taxable_value": 805.79,
+    "tax_rate": null
+   },
+   {
+    "description": "Calamine Rosette J2019",
+    "hsn_sac": "7205",
+    "quantity": 11,
+    "unit": "BOX",
+    "unit_price": 31595.74,
+    "discount": null,
+    "taxable_value": 347553.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartramp Ribbed Machine",
+    "hsn_sac": "7217",
+    "quantity": 3.667,
+    "unit": "LTR",
+    "unit_price": 308.11,
+    "discount": null,
+    "taxable_value": 1213.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint BL",
+    "hsn_sac": "3208",
+    "quantity": 52,
+    "unit": "NOS",
+    "unit_price": 112.73,
+    "discount": null,
+    "taxable_value": 5869.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hand Held Register J20 Fogarty",
+    "hsn_sac": "4820",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 31548.59,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": \"305\", \"invoice_date\": \"2019-04-06\", \"seller_name\": \"Chauhan Steel & Alloys\", \"seller_gstin\": \"09BBDPC7413722ZN\", \"seller_address\": \"Plot No. 395, GIDC Estate, Udyognagar, Rajasthan - 310219\", \"buyer_name\": \"Chauhan Steel & Alloys\", \"buyer_gstin\": null, \"buyer_address\": \"Plot No. 395, GIDC Estate, Udyognagar, Rajasthan\", \"place_of_supply\": \"Rajasthan\", \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 386790.15, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": 64222.34, \"cess_amount\": null, \"round_off\": 0.00, \"grand_total\": 421012.00, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Door Section\", \"hsn_sac\": \"7216\", \"quantity\": 4.28, \"unit\": \"TON\", \"unit_price\": 188.21, \"discount\": null, \"taxable_value\": 805.79, \"tax_rate\": null}, {\"description\": \"Calamine Rosette J2019\", \"hsn_sac\": \"7205\", \"quantity\": 11, \"unit\": \"BOX\", \"unit_price\": 31595.74, \"discount\": null, \"taxable_value\": 347553.14, \"tax_rate\": 18}, {\"description\": \"Smartramp Ribbed Machine\", \"hsn_sac\": \"7217\", \"quantity\": 3.667, \"unit\": \"LTR\", \"unit_price\": 308.11, \"discount\": null, \"taxable_value\": 1213.27, \"tax_rate\": 18}, {\"description\": \"Synthetic Enamel Paint BL\", \"hsn_sac\": \"3208\", \"quantity\": 52, \"unit\": \"NOS\", \"unit_price\": 112.73, \"discount\": null, \"taxable_value\": 5869.36, \"tax_rate\": 18}, {\"description\": \"Hand Held Register J20 Fogarty\", \"hsn_sac\": \"4820\", \"quantity\": null, \"unit\": null, \"unit_price\": null, \"discount\": null, \"taxable_value\": 31548.59, \"tax_rate\": 18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1998,
+ "output_tokens": 537,
+ "cached_input_tokens": 0,
+ "latency_s": 5.2175,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

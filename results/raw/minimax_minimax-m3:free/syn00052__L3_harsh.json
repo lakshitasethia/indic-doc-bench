@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00052__L3_harsh",
+ "doc_id": "syn00052",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "KT/2024-25/434",
+  "invoice_date": "2025-02-13",
+  "seller_name": "Kulkarni Traders Pvt. Ltd.",
+  "seller_gstin": "27AAACK1234A1Z5",
+  "seller_address": "Shop No. 5, Krishna Complex, Opp. Santoshi Mata Mandir, West Khopat, Thane (W) - 400601, Dist: Thane, Maharashtra",
+  "buyer_name": "Gupta Engineering Works Pvt. Ltd.",
+  "buyer_gstin": "27AAACX1234X1ZX",
+  "buyer_address": "Plot No. 362, Ring Road, Amravati, Patpadi - 597002",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6405",
+    "quantity": 9,
+    "unit": "PRS",
+    "unit_price": 2167.67,
+    "discount": null,
+    "taxable_value": 19508.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 782.83,
+    "unit": "MTR",
+    "unit_price": 180.41,
+    "discount": null,
+    "taxable_value": 142162.42,
+    "tax_rate": 5
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 518,
+    "unit": "PCS",
+    "unit_price": 35.94,
+    "discount": null,
+    "taxable_value": 18935.52,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 180606.43,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 15805.04,
+  "cess_amount": null,
+  "round_off": 0.47,
+  "grand_total": 196412.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"KT/2024-25/434\",\"invoice_date\":\"2025-02-13\",\"seller_name\":\"Kulkarni Traders Pvt. Ltd.\",\"seller_gstin\":\"27AAACK1234A1Z5\",\"seller_address\":\"Shop No. 5, Krishna Complex, Opp. Santoshi Mata Mandir, West Khopat, Thane (W) - 400601, Dist: Thane, Maharashtra\",\"buyer_name\":\"Gupta Engineering Works Pvt. Ltd.\",\"buyer_gstin\":\"27AAACX1234X1ZX\",\"buyer_address\":\"Plot No. 362, Ring Road, Amravati, Patpadi - 597002\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6405\",\"quantity\":9,\"unit\":\"PRS\",\"unit_price\":2167.67,\"discount\":null,\"taxable_value\":19508.49,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":782.83,\"unit\":\"MTR\",\"unit_price\":180.41,\"discount\":null,\"taxable_value\":142162.42,\"tax_rate\":5},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":518,\"unit\":\"PCS\",\"unit_price\":35.94,\"discount\":null,\"taxable_value\":18935.52,\"tax_rate\":18}],\"total_taxable_value\":180606.43,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":15805.04,\"cess_amount\":null,\"round_off\":0.47,\"grand_total\":196412.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1922,
+ "output_tokens": 377,
+ "cached_input_tokens": 0,
+ "latency_s": 3.1365,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

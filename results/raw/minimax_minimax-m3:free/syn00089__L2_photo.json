@@ -1,0 +1,179 @@
+{
+ "variant_id": "syn00089__L2_photo",
+ "doc_id": "syn00089",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "8336",
+  "invoice_date": "2026-01-31",
+  "seller_name": "Pillai Textiles Pvt. Ltd.",
+  "seller_gstin": "03NRGPP9091G5Z3",
+  "seller_address": "Unit No. 62, SIDCO Complex, Ludhiana 142403, Punjab",
+  "buyer_name": "Joshi Polymers LLP",
+  "buyer_gstin": "03LSUPJ1659Z2Z5",
+  "buyer_address": "Shop No. 455, Okhla Phase I, Ludhiana 150899, Punjab",
+  "place_of_supply": "Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 15929.97,
+    "discount": null,
+    "taxable_value": 79649.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 731,
+    "unit": "SET",
+    "unit_price": 379.69,
+    "discount": null,
+    "taxable_value": 277553.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 227,
+    "unit": "PCS",
+    "unit_price": 54.83,
+    "discount": null,
+    "taxable_value": 12446.41,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 18752.02,
+    "discount": null,
+    "taxable_value": 16876.82,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 28.199,
+    "unit": "KGS",
+    "unit_price": 112.9,
+    "discount": null,
+    "taxable_value": 3183.67,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 2656,
+    "unit": "BOX",
+    "unit_price": 46.37,
+    "discount": null,
+    "taxable_value": 123158.72,
+    "tax_rate": 12
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 14878.97,
+    "discount": null,
+    "taxable_value": 14878.97,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 7654.73,
+    "discount": null,
+    "taxable_value": 38273.65,
+    "tax_rate": 28
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 132,
+    "unit": "BAG",
+    "unit_price": 447.43,
+    "discount": null,
+    "taxable_value": 59060.76,
+    "tax_rate": 28
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 515,
+    "unit": "NOS",
+    "unit_price": 40.09,
+    "discount": null,
+    "taxable_value": 20646.35,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 176.204,
+    "unit": "KGS",
+    "unit_price": 43.94,
+    "discount": null,
+    "taxable_value": 7742.4,
+    "tax_rate": 5
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 12,
+    "unit": "PCS",
+    "unit_price": 91.45,
+    "discount": null,
+    "taxable_value": 1097.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 15.885,
+    "unit": "KGS",
+    "unit_price": 350.66,
+    "discount": null,
+    "taxable_value": 5570.23,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 660138.62,
+  "cgst_amount": 59719.13,
+  "sgst_amount": 59719.13,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.12,
+  "grand_total": 779577.0,
+  "amount_in_words": "Rupees Seven Lakh Seventy Nine Thousand Five Hundred and Seventy Seven Only"
+ },
+ "raw": "{\"invoice_number\":\"8336\",\"invoice_date\":\"2026-01-31\",\"seller_name\":\"Pillai Textiles Pvt. Ltd.\",\"seller_gstin\":\"03NRGPP9091G5Z3\",\"seller_address\":\"Unit No. 62, SIDCO Complex, Ludhiana 142403, Punjab\",\"buyer_name\":\"Joshi Polymers LLP\",\"buyer_gstin\":\"03LSUPJ1659Z2Z5\",\"buyer_address\":\"Shop No. 455, Okhla Phase I, Ludhiana 150899, Punjab\",\"place_of_supply\":\"Punjab\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":5,\"unit\":\"NOS\",\"unit_price\":15929.97,\"discount\":null,\"taxable_value\":79649.85,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":731,\"unit\":\"SET\",\"unit_price\":379.69,\"discount\":null,\"taxable_value\":277553.39,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":227,\"unit\":\"PCS\",\"unit_price\":54.83,\"discount\":null,\"taxable_value\":12446.41,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":18752.02,\"discount\":null,\"taxable_value\":16876.82,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":28.199,\"unit\":\"KGS\",\"unit_price\":112.90,\"discount\":null,\"taxable_value\":3183.67,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":2656,\"unit\":\"BOX\",\"unit_price\":46.37,\"discount\":null,\"taxable_value\":123158.72,\"tax_rate\":12},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":14878.97,\"discount\":null,\"taxable_value\":14878.97,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":5,\"unit\":\"NOS\",\"unit_price\":7654.73,\"discount\":null,\"taxable_value\":38273.65,\"tax_rate\":28},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":132,\"unit\":\"BAG\",\"unit_price\":447.43,\"discount\":null,\"taxable_value\":59060.76,\"tax_rate\":28},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":515,\"unit\":\"NOS\",\"unit_price\":40.09,\"discount\":null,\"taxable_value\":20646.35,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":176.204,\"unit\":\"KGS\",\"unit_price\":43.94,\"discount\":null,\"taxable_value\":7742.40,\"tax_rate\":5},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":12,\"unit\":\"PCS\",\"unit_price\":91.45,\"discount\":null,\"taxable_value\":1097.40,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":15.885,\"unit\":\"KGS\",\"unit_price\":350.66,\"discount\":null,\"taxable_value\":5570.23,\"tax_rate\":5}],\"total_taxable_value\":660138.62,\"cgst_amount\":59719.13,\"sgst_amount\":59719.13,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.12,\"grand_total\":779577.00,\"amount_in_words\":\"Rupees Seven Lakh Seventy Nine Thousand Five Hundred and Seventy Seven Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3958,
+ "output_tokens": 894,
+ "cached_input_tokens": 0,
+ "latency_s": 12.7123,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

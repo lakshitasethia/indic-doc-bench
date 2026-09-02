@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00027__L1_scan",
+ "doc_id": "syn00027",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "3388",
+  "invoice_date": "2026-02-05",
+  "seller_name": "Naidu Pharma",
+  "seller_gstin": "24ZRXPN8501F6ZO",
+  "seller_address": "Shop No. 40, Focal Point, Ahmedabad, Gujarat 385664",
+  "buyer_name": "Kaur Trading Co. Pvt. Ltd.",
+  "buyer_gstin": "24UELFK4825O1Z3",
+  "buyer_address": "Door No. 416, Industrial Estate, Surat, Gujarat 362452",
+  "place_of_supply": "24 - Gujarat",
+  "reverse_charge": false,
+  "irn": "87ecf234749047facb02e586cdf662857ef2b849c764d154393ebfc6a64ef260",
+  "line_items": [
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 92,
+    "unit": "PCS",
+    "unit_price": 42.49,
+    "discount": null,
+    "taxable_value": 3909.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 3353,
+    "unit": "BOX",
+    "unit_price": 54.74,
+    "discount": null,
+    "taxable_value": 183543.22,
+    "tax_rate": 12
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 117.75,
+    "discount": null,
+    "taxable_value": 28260.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 215712.3,
+  "cgst_amount": 13907.81,
+  "sgst_amount": 13907.81,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.08,
+  "grand_total": 243528.0,
+  "amount_in_words": "Rupees Two Lakh Forty Three Thousand Five Hundred and Twenty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"3388\",\"invoice_date\":\"2026-02-05\",\"seller_name\":\"Naidu Pharma\",\"seller_gstin\":\"24ZRXPN8501F6ZO\",\"seller_address\":\"Shop No. 40, Focal Point, Ahmedabad, Gujarat 385664\",\"buyer_name\":\"Kaur Trading Co. Pvt. Ltd.\",\"buyer_gstin\":\"24UELFK4825O1Z3\",\"buyer_address\":\"Door No. 416, Industrial Estate, Surat, Gujarat 362452\",\"place_of_supply\":\"24 - Gujarat\",\"reverse_charge\":false,\"irn\":\"87ecf234749047facb02e586cdf662857ef2b849c764d154393ebfc6a64ef260\",\"line_items\":[{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":92,\"unit\":\"PCS\",\"unit_price\":42.49,\"discount\":null,\"taxable_value\":3909.08,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":3353,\"unit\":\"BOX\",\"unit_price\":54.74,\"discount\":null,\"taxable_value\":183543.22,\"tax_rate\":12},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":240,\"unit\":\"PCS\",\"unit_price\":117.75,\"discount\":null,\"taxable_value\":28260.00,\"tax_rate\":18}],\"total_taxable_value\":215712.30,\"cgst_amount\":13907.81,\"sgst_amount\":13907.81,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.08,\"grand_total\":243528.00,\"amount_in_words\":\"Rupees Two Lakh Forty Three Thousand Five Hundred and Twenty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5366,
+ "output_tokens": 385,
+ "cached_input_tokens": 0,
+ "latency_s": 5.8626,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

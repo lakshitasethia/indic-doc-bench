@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00008__L0_clean",
+ "doc_id": "syn00008",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL2629",
+  "invoice_date": "2025-09-11",
+  "seller_name": "BHATT ENGINEERING WORKS LLP",
+  "seller_gstin": "07TKUPB1538E1ZR",
+  "seller_address": "Unit No. 348, Naraina Vihar, New Delhi - 110045",
+  "buyer_name": "Deshmukh Infratech Private Limited",
+  "buyer_gstin": "07RMRCD1643Z2ZB",
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 339773.47,
+  "cgst_amount": 30579.61,
+  "sgst_amount": 30579.61,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.31,
+  "grand_total": 400933.0,
+  "amount_in_words": "Rupees Four Lakh Nine Hundred and Thirty Three Only",
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 556,
+    "unit": "BOX",
+    "unit_price": 474.1,
+    "discount": null,
+    "taxable_value": 263599.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 573,
+    "unit": "NOS",
+    "unit_price": 67.47,
+    "discount": 1933.02,
+    "taxable_value": 36727.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 46,
+    "unit": "PCS",
+    "unit_price": 232.59,
+    "discount": null,
+    "taxable_value": 10699.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 14,
+    "unit": "PCS",
+    "unit_price": 142.07,
+    "discount": null,
+    "taxable_value": 1988.98,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 226,
+    "unit": "NOS",
+    "unit_price": 108.2,
+    "discount": null,
+    "taxable_value": 24453.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 17.325,
+    "unit": "KGS",
+    "unit_price": 133.06,
+    "discount": null,
+    "taxable_value": 2305.26,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"DL2629\",\"invoice_date\":\"2025-09-11\",\"seller_name\":\"BHATT ENGINEERING WORKS LLP\",\"seller_gstin\":\"07TKUPB1538E1ZR\",\"seller_address\":\"Unit No. 348, Naraina Vihar, New Delhi - 110045\",\"buyer_name\":\"Deshmukh Infratech Private Limited\",\"buyer_gstin\":\"07RMRCD1643Z2ZB\",\"buyer_address\":null,\"place_of_supply\":\"Delhi\",\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":339773.47,\"cgst_amount\":30579.61,\"sgst_amount\":30579.61,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.31,\"grand_total\":400933.00,\"amount_in_words\":\"Rupees Four Lakh Nine Hundred and Thirty Three Only\",\"line_items\":[{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":556,\"unit\":\"BOX\",\"unit_price\":474.10,\"discount\":null,\"taxable_value\":263599.60,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":573,\"unit\":\"NOS\",\"unit_price\":67.47,\"discount\":1933.02,\"taxable_value\":36727.29,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":46,\"unit\":\"PCS\",\"unit_price\":232.59,\"discount\":null,\"taxable_value\":10699.14,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":14,\"unit\":\"PCS\",\"unit_price\":142.07,\"discount\":null,\"taxable_value\":1988.98,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":226,\"unit\":\"NOS\",\"unit_price\":108.20,\"discount\":null,\"taxable_value\":24453.20,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":17.325,\"unit\":\"KGS\",\"unit_price\":133.06,\"discount\":null,\"taxable_value\":2305.26,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2768,
+ "output_tokens": 502,
+ "cached_input_tokens": 0,
+ "latency_s": 13.3363,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

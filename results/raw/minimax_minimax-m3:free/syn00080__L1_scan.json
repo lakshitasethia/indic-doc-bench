@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00080__L1_scan",
+ "doc_id": "syn00080",
+ "level": "L1_scan",
+ "template_id": "t09",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/0309",
+  "invoice_date": "2025-11-05",
+  "seller_name": "PATEL MARKETING PVT. LTD.",
+  "seller_gstin": "21NQZPP3771S8Z5",
+  "seller_address": "Door No. 303, Ring Road, Bhubaneswar - 761803, Odisha (21)",
+  "buyer_name": "Banerjee Electricals LLP",
+  "buyer_gstin": "07DYUPB6382X4ZX",
+  "buyer_address": null,
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 1513.91,
+    "unit": "KGS",
+    "unit_price": 38.8,
+    "discount": null,
+    "taxable_value": 58739.71,
+    "tax_rate": null
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 90,
+    "unit": "NOS",
+    "unit_price": 30.0,
+    "discount": null,
+    "taxable_value": 2700.0,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 61439.71,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 3422.99,
+  "cess_amount": null,
+  "round_off": 0.3,
+  "grand_total": 64863.0,
+  "amount_in_words": "Rupees Sixty Four Thousand Eight Hundred and Sixty Three Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/0309\",\"invoice_date\":\"2025-11-05\",\"seller_name\":\"PATEL MARKETING PVT. LTD.\",\"seller_gstin\":\"21NQZPP3771S8Z5\",\"seller_address\":\"Door No. 303, Ring Road, Bhubaneswar - 761803, Odisha (21)\",\"buyer_name\":\"Banerjee Electricals LLP\",\"buyer_gstin\":\"07DYUPB6382X4ZX\",\"buyer_address\":null,\"place_of_supply\":\"Delhi\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":1513.91,\"unit\":\"KGS\",\"unit_price\":38.80,\"discount\":null,\"taxable_value\":58739.71,\"tax_rate\":null},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":90,\"unit\":\"NOS\",\"unit_price\":30.00,\"discount\":null,\"taxable_value\":2700.00,\"tax_rate\":null}],\"total_taxable_value\":61439.71,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":3422.99,\"cess_amount\":null,\"round_off\":0.30,\"grand_total\":64863.00,\"amount_in_words\":\"Rupees Sixty Four Thousand Eight Hundred and Sixty Three Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2478,
+ "output_tokens": 302,
+ "cached_input_tokens": 0,
+ "latency_s": 11.8788,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

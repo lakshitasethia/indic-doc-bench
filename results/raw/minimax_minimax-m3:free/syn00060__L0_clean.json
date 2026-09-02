@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00060__L0_clean",
+ "doc_id": "syn00060",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL7329",
+  "invoice_date": "2026-03-30",
+  "seller_name": "Verma Logistics",
+  "seller_gstin": "19LINCV1037E5ZE",
+  "seller_address": "Khasra No. 437, Ring Road, Howrah, West Bengal - 708717",
+  "buyer_name": "Sethi Polymers",
+  "buyer_gstin": null,
+  "buyer_address": "Khasra No. 130, GIDC Estate, Ahmedabad, Gujarat - 388881",
+  "place_of_supply": "Gujarat",
+  "reverse_charge": false,
+  "irn": "c40f1a1aebc76f93874f00657da8ce163763c1b654b215cdfd91c453345c69e9",
+  "line_items": [
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 166092.54,
+    "discount": null,
+    "taxable_value": 166092.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 28114.5,
+    "discount": null,
+    "taxable_value": 28114.5,
+    "tax_rate": 5
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 42328.03,
+    "discount": 846.56,
+    "taxable_value": 41481.47,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 235688.51,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 38769.05,
+  "cess_amount": null,
+  "round_off": 0.44,
+  "grand_total": 274458.0,
+  "amount_in_words": "Rupees Two Lakh Seventy Four Thousand Four Hundred and Fifty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"DL7329\",\"invoice_date\":\"2026-03-30\",\"seller_name\":\"Verma Logistics\",\"seller_gstin\":\"19LINCV1037E5ZE\",\"seller_address\":\"Khasra No. 437, Ring Road, Howrah, West Bengal - 708717\",\"buyer_name\":\"Sethi Polymers\",\"buyer_gstin\":null,\"buyer_address\":\"Khasra No. 130, GIDC Estate, Ahmedabad, Gujarat - 388881\",\"place_of_supply\":\"Gujarat\",\"reverse_charge\":false,\"irn\":\"c40f1a1aebc76f93874f00657da8ce163763c1b654b215cdfd91c453345c69e9\",\"line_items\":[{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":166092.54,\"discount\":null,\"taxable_value\":166092.54,\"tax_rate\":18},{\"description\":\"Road Transport Services of Goods\",\"hsn_sac\":\"996511\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":28114.50,\"discount\":null,\"taxable_value\":28114.50,\"tax_rate\":5},{\"description\":\"Commercial Training and Coaching Services\",\"hsn_sac\":\"999293\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":42328.03,\"discount\":846.56,\"taxable_value\":41481.47,\"tax_rate\":18}],\"total_taxable_value\":235688.51,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":38769.05,\"cess_amount\":null,\"round_off\":0.44,\"grand_total\":274458.00,\"amount_in_words\":\"Rupees Two Lakh Seventy Four Thousand Four Hundred and Fifty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6014,
+ "output_tokens": 386,
+ "cached_input_tokens": 0,
+ "latency_s": 6.7346,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

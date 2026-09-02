@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00054__L3_harsh",
+ "doc_id": "syn00054",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Radii Solutions",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Notebook Hard Cover A6",
+    "hsn_sac": null,
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 226.75,
+    "discount": null,
+    "taxable_value": 890.3,
+    "tax_rate": null
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 103.39,
+    "discount": null,
+    "taxable_value": 103.39,
+    "tax_rate": null
+   },
+   {
+    "description": "HPS Pasting Bag",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 13.0,
+    "discount": null,
+    "taxable_value": 16.0,
+    "tax_rate": null
+   },
+   {
+    "description": "HPS Pasting Bag",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 23.0,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 1032.69,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 1230.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"Radii Solutions\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":null,\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Notebook Hard Cover A6\",\"hsn_sac\":null,\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":226.75,\"discount\":null,\"taxable_value\":890.30,\"tax_rate\":null},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":null,\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":103.39,\"discount\":null,\"taxable_value\":103.39,\"tax_rate\":null},{\"description\":\"HPS Pasting Bag\",\"hsn_sac\":null,\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":13.00,\"discount\":null,\"taxable_value\":16.00,\"tax_rate\":null},{\"description\":\"HPS Pasting Bag\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":23.00,\"tax_rate\":null}],\"total_taxable_value\":1032.69,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":1230.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1814,
+ "output_tokens": 311,
+ "cached_input_tokens": 0,
+ "latency_s": 8.9015,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00026__L3_harsh",
+ "doc_id": "syn00026",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "MENON POLYMERS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Rubber Blankets 300v",
+    "hsn_sac": null,
+    "quantity": 198,
+    "unit": "NOS",
+    "unit_price": 196,
+    "discount": null,
+    "taxable_value": 38707.1,
+    "tax_rate": null
+   },
+   {
+    "description": "Teflon Blankets",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 10467.23,
+    "tax_rate": null
+   },
+   {
+    "description": "Surface Polishing Fabric",
+    "hsn_sac": null,
+    "quantity": 117,
+    "unit": "NOS",
+    "unit_price": 103,
+    "discount": null,
+    "taxable_value": 12050.09,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 316505.18,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 373072.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"MENON POLYMERS\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":null,\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Rubber Blankets 300v\",\"hsn_sac\":null,\"quantity\":198,\"unit\":\"NOS\",\"unit_price\":196,\"discount\":null,\"taxable_value\":38707.10,\"tax_rate\":null},{\"description\":\"Teflon Blankets\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":10467.23,\"tax_rate\":null},{\"description\":\"Surface Polishing Fabric\",\"hsn_sac\":null,\"quantity\":117,\"unit\":\"NOS\",\"unit_price\":103,\"discount\":null,\"taxable_value\":12050.09,\"tax_rate\":null}],\"total_taxable_value\":316505.18,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":373072.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1990,
+ "output_tokens": 264,
+ "cached_input_tokens": 0,
+ "latency_s": 3.0719,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

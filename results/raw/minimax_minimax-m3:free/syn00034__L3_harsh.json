@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00034__L3_harsh",
+ "doc_id": "syn00034",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "OIPL/2425/050",
+  "invoice_date": "2024-08-29",
+  "seller_name": "Mahindra Logistics Limited",
+  "seller_gstin": "29AAHCM0434C1ZK",
+  "seller_address": "Mahindra Logistics Limited, 2nd Floor, G.K. Tower, 28/1, Old Madras Road, Bengaluru - 560016, Karnataka",
+  "buyer_name": "Supplying Technologies Limited",
+  "buyer_gstin": "22AAHCS1667H9ZA",
+  "buyer_address": "12, Parsi Panchayat Road, Andheri East, Mumbai - 400069, Maharashtra",
+  "place_of_supply": "22 - Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 78406.01,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 78406.01,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 7063.79,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 85469.8,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"OIPL/2425/050\",\"invoice_date\":\"2024-08-29\",\"seller_name\":\"Mahindra Logistics Limited\",\"seller_gstin\":\"29AAHCM0434C1ZK\",\"seller_address\":\"Mahindra Logistics Limited, 2nd Floor, G.K. Tower, 28/1, Old Madras Road, Bengaluru - 560016, Karnataka\",\"buyer_name\":\"Supplying Technologies Limited\",\"buyer_gstin\":\"22AAHCS1667H9ZA\",\"buyer_address\":\"12, Parsi Panchayat Road, Andheri East, Mumbai - 400069, Maharashtra\",\"place_of_supply\":\"22 - Maharashtra\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":78406.01,\"tax_rate\":18}],\"total_taxable_value\":78406.01,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":7063.79,\"cess_amount\":null,\"round_off\":null,\"grand_total\":85469.80,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1802,
+ "output_tokens": 252,
+ "cached_input_tokens": 0,
+ "latency_s": 4.7742,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

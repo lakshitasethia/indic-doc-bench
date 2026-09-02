@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00075__L3_harsh",
+ "doc_id": "syn00075",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Choudhary Enterprises",
+  "seller_gstin": null,
+  "seller_address": "Shop No. 1-10, Vandana Vihar, Durgapura, Jaipur (302018)",
+  "buyer_name": "Syst Readers",
+  "buyer_gstin": null,
+  "buyer_address": "A-168(B)4 S.K.T. ITI Road, Pratapnagar, Jaipur (302033)",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 8863.35,
+  "cgst_amount": 797.71,
+  "sgst_amount": 797.71,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.23,
+  "grand_total": 10459.0,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Leather Portnot",
+    "hsn_sac": "6403",
+    "quantity": 1,
+    "unit": "PRS",
+    "unit_price": 1857.57,
+    "discount": null,
+    "taxable_value": 1857.57,
+    "tax_rate": 18
+   },
+   {
+    "description": "Shoes Hard Bound Register 100 Pages",
+    "hsn_sac": "4820",
+    "quantity": 32,
+    "unit": "NOS",
+    "unit_price": 112.29,
+    "discount": null,
+    "taxable_value": 3593.28,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 175,
+    "unit": "NOS",
+    "unit_price": 19.5,
+    "discount": null,
+    "taxable_value": 3412.5,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"Choudhary Enterprises\",\"seller_gstin\":null,\"seller_address\":\"Shop No. 1-10, Vandana Vihar, Durgapura, Jaipur (302018)\",\"buyer_name\":\"Syst Readers\",\"buyer_gstin\":null,\"buyer_address\":\"A-168(B)4 S.K.T. ITI Road, Pratapnagar, Jaipur (302033)\",\"place_of_supply\":\"Rajasthan\",\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":8863.35,\"cgst_amount\":797.71,\"sgst_amount\":797.71,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.23,\"grand_total\":10459.00,\"amount_in_words\":null,\"line_items\":[{\"description\":\"Leather Portnot\",\"hsn_sac\":\"6403\",\"quantity\":1,\"unit\":\"PRS\",\"unit_price\":1857.57,\"discount\":null,\"taxable_value\":1857.57,\"tax_rate\":18},{\"description\":\"Shoes Hard Bound Register 100 Pages\",\"hsn_sac\":\"4820\",\"quantity\":32,\"unit\":\"NOS\",\"unit_price\":112.29,\"discount\":null,\"taxable_value\":3593.28,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":175,\"unit\":\"NOS\",\"unit_price\":19.50,\"discount\":null,\"taxable_value\":3412.50,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1946,
+ "output_tokens": 330,
+ "cached_input_tokens": 0,
+ "latency_s": 5.1481,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

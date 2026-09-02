@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00083__L1_scan",
+ "doc_id": "syn00083",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/9550",
+  "invoice_date": "2026-01-20",
+  "seller_name": "Kaur Textiles",
+  "seller_gstin": "09AEKFK5643W1ZY",
+  "seller_address": "Khasra No. 86, Ring Road, Kanpur, Uttar Pradesh - 230526",
+  "buyer_name": "Gupta Enterprises",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 329, Okhla Phase I, Lucknow, Uttar Pradesh - 247857",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 58402.6,
+    "discount": 0.0,
+    "taxable_value": 175207.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 2755,
+    "unit": "NOS",
+    "unit_price": 36.09,
+    "discount": 0.0,
+    "taxable_value": 99427.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 3,
+    "unit": "PCS",
+    "unit_price": 309.73,
+    "discount": 0.0,
+    "taxable_value": 929.19,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 275564.94,
+  "cgst_amount": 24740.45,
+  "sgst_amount": 24740.45,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.16,
+  "grand_total": 325046.0,
+  "amount_in_words": "Rupees Three Lakh Twenty Five Thousand Forty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"SI/25-26/9550\",\"invoice_date\":\"2026-01-20\",\"seller_name\":\"Kaur Textiles\",\"seller_gstin\":\"09AEKFK5643W1ZY\",\"seller_address\":\"Khasra No. 86, Ring Road, Kanpur, Uttar Pradesh - 230526\",\"buyer_name\":\"Gupta Enterprises\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No. 329, Okhla Phase I, Lucknow, Uttar Pradesh - 247857\",\"place_of_supply\":\"Uttar Pradesh\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":58402.60,\"discount\":0.00,\"taxable_value\":175207.80,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":2755,\"unit\":\"NOS\",\"unit_price\":36.09,\"discount\":0.00,\"taxable_value\":99427.95,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":3,\"unit\":\"PCS\",\"unit_price\":309.73,\"discount\":0.00,\"taxable_value\":929.19,\"tax_rate\":5}],\"total_taxable_value\":275564.94,\"cgst_amount\":24740.45,\"sgst_amount\":24740.45,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.16,\"grand_total\":325046.00,\"amount_in_words\":\"Rupees Three Lakh Twenty Five Thousand Forty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5006,
+ "output_tokens": 371,
+ "cached_input_tokens": 0,
+ "latency_s": 5.3837,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

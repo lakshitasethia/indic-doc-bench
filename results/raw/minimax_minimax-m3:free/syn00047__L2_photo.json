@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00047__L2_photo",
+ "doc_id": "syn00047",
+ "level": "L2_photo",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-7321",
+  "invoice_date": "2025-10-21",
+  "seller_name": "Agarwal Solutions LLP",
+  "seller_gstin": "19UNRPA1683Y8Z1",
+  "seller_address": "Plot No. 296, Chandni Chowk, Siliguri, West Bengal - 704524",
+  "buyer_name": "Naidu Marketing LLP",
+  "buyer_gstin": "19QBZPN0082D3ZU",
+  "buyer_address": "Plot No. 187, GIDC Estate, Kolkata, West Bengal - 734819",
+  "place_of_supply": "West Bengal",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 5633.51,
+    "discount": 0.0,
+    "taxable_value": 11267.02,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 11267.02,
+  "cgst_amount": 1014.03,
+  "sgst_amount": 1014.03,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.08,
+  "grand_total": 13295.0,
+  "amount_in_words": "Rupees Thirteen Thousand Two Hundred and Ninety Five Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-7321\",\"invoice_date\":\"2025-10-21\",\"seller_name\":\"Agarwal Solutions LLP\",\"seller_gstin\":\"19UNRPA1683Y8Z1\",\"seller_address\":\"Plot No. 296, Chandni Chowk, Siliguri, West Bengal - 704524\",\"buyer_name\":\"Naidu Marketing LLP\",\"buyer_gstin\":\"19QBZPN0082D3ZU\",\"buyer_address\":\"Plot No. 187, GIDC Estate, Kolkata, West Bengal - 734819\",\"place_of_supply\":\"West Bengal\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":5633.51,\"discount\":0.00,\"taxable_value\":11267.02,\"tax_rate\":18}],\"total_taxable_value\":11267.02,\"cgst_amount\":1014.03,\"sgst_amount\":1014.03,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.08,\"grand_total\":13295.00,\"amount_in_words\":\"Rupees Thirteen Thousand Two Hundred and Ninety Five Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2720,
+ "output_tokens": 262,
+ "cached_input_tokens": 0,
+ "latency_s": 6.5149,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

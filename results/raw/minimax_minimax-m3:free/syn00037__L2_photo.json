@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00037__L2_photo",
+ "doc_id": "syn00037",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "6404",
+  "invoice_date": "2026-02-10",
+  "seller_name": "Joshi Infratech Pvt. Ltd.",
+  "seller_gstin": "07KCKFJ1940D8Z1",
+  "seller_address": "Khasra No. 237, Industrial Estate, New Delhi - Delhi 110261",
+  "buyer_name": "Mahajan Steel & Alloys LLP",
+  "buyer_gstin": null,
+  "buyer_address": "Gala No. 133, Industrial Estate, Hyderabad, Telangana - 501615",
+  "place_of_supply": "Telangana (36)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 230,
+    "unit": "PCS",
+    "unit_price": 194.05,
+    "discount": null,
+    "taxable_value": 44631.5,
+    "tax_rate": null
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 20,
+    "unit": "SET",
+    "unit_price": 526.72,
+    "discount": null,
+    "taxable_value": 10534.4,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 55165.9,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 4127.77,
+  "cess_amount": null,
+  "round_off": 0.33,
+  "grand_total": 59294.0,
+  "amount_in_words": "Rupees Fifty Nine Thousand Two Hundred and Ninety Four Only"
+ },
+ "raw": "{\"invoice_number\":\"6404\",\"invoice_date\":\"2026-02-10\",\"seller_name\":\"Joshi Infratech Pvt. Ltd.\",\"seller_gstin\":\"07KCKFJ1940D8Z1\",\"seller_address\":\"Khasra No. 237, Industrial Estate, New Delhi - Delhi 110261\",\"buyer_name\":\"Mahajan Steel & Alloys LLP\",\"buyer_gstin\":null,\"buyer_address\":\"Gala No. 133, Industrial Estate, Hyderabad, Telangana - 501615\",\"place_of_supply\":\"Telangana (36)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":230,\"unit\":\"PCS\",\"unit_price\":194.05,\"discount\":null,\"taxable_value\":44631.50,\"tax_rate\":null},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":20,\"unit\":\"SET\",\"unit_price\":526.72,\"discount\":null,\"taxable_value\":10534.40,\"tax_rate\":null}],\"total_taxable_value\":55165.90,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":4127.77,\"cess_amount\":null,\"round_off\":0.33,\"grand_total\":59294.00,\"amount_in_words\":\"Rupees Fifty Nine Thousand Two Hundred and Ninety Four Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3002,
+ "output_tokens": 304,
+ "cached_input_tokens": 0,
+ "latency_s": 9.1572,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

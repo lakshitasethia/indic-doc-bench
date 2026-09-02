@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00082__L2_photo",
+ "doc_id": "syn00082",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-0242",
+  "invoice_date": "2025-07-10",
+  "seller_name": "Chauhan Overseas LLP",
+  "seller_gstin": "29OLXCC4416D1ZE",
+  "seller_address": "Unit No. 356, Okhla Phase I, Bengaluru, Karnataka - 580392",
+  "buyer_name": "Gupta & Sons",
+  "buyer_gstin": "29QWGFG7417Y4ZG",
+  "buyer_address": "Plot No. 68, Sector 63, Mysuru, Karnataka - 572298",
+  "place_of_supply": "29 - Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 16095.79,
+    "discount": null,
+    "taxable_value": 32191.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 126.37,
+    "unit": "KGS",
+    "unit_price": 117.57,
+    "discount": null,
+    "taxable_value": 14857.32,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 586,
+    "unit": "PCS",
+    "unit_price": 393.79,
+    "discount": null,
+    "taxable_value": 230760.94,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 277809.84,
+  "cgst_amount": 10003.42,
+  "sgst_amount": 10003.42,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.32,
+  "grand_total": 297817.0,
+  "amount_in_words": "Rupees Two Lakh Ninety Seven Thousand Eight Hundred and Seventeen Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-0242\",\"invoice_date\":\"2025-07-10\",\"seller_name\":\"Chauhan Overseas LLP\",\"seller_gstin\":\"29OLXCC4416D1ZE\",\"seller_address\":\"Unit No. 356, Okhla Phase I, Bengaluru, Karnataka - 580392\",\"buyer_name\":\"Gupta & Sons\",\"buyer_gstin\":\"29QWGFG7417Y4ZG\",\"buyer_address\":\"Plot No. 68, Sector 63, Mysuru, Karnataka - 572298\",\"place_of_supply\":\"29 - Karnataka\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":16095.79,\"discount\":null,\"taxable_value\":32191.58,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":126.370,\"unit\":\"KGS\",\"unit_price\":117.57,\"discount\":null,\"taxable_value\":14857.32,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":586,\"unit\":\"PCS\",\"unit_price\":393.79,\"discount\":null,\"taxable_value\":230760.94,\"tax_rate\":5}],\"total_taxable_value\":277809.84,\"cgst_amount\":10003.42,\"sgst_amount\":10003.42,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.32,\"grand_total\":297817.00,\"amount_in_words\":\"Rupees Two Lakh Ninety Seven Thousand Eight Hundred and Seventeen Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2754,
+ "output_tokens": 363,
+ "cached_input_tokens": 0,
+ "latency_s": 4.8974,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

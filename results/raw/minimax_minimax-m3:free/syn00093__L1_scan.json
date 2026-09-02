@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00093__L1_scan",
+ "doc_id": "syn00093",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/6760",
+  "invoice_date": "2025-11-03",
+  "seller_name": "Bhatt Polymers",
+  "seller_gstin": "27VKCCB1279G5ZI",
+  "seller_address": "Plot No. 16, Udyog Vihar, Nagpur, Maharashtra - 424167",
+  "buyer_name": "Naidu Industries",
+  "buyer_gstin": "27YLWPN0559S1Z8",
+  "buyer_address": "Gala No. 168, MG Road, Nagpur, Maharashtra - 441743",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 30,
+    "unit": "BOX",
+    "unit_price": 56.4,
+    "discount": null,
+    "taxable_value": 1692.0,
+    "tax_rate": 12
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 3,
+    "unit": "PCS",
+    "unit_price": 369.56,
+    "discount": null,
+    "taxable_value": 997.81,
+    "tax_rate": 5
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 7.044,
+    "unit": "KGS",
+    "unit_price": 159.03,
+    "discount": null,
+    "taxable_value": 1120.21,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 785,
+    "unit": "NOS",
+    "unit_price": 70.68,
+    "discount": null,
+    "taxable_value": 55483.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 17,
+    "unit": "NOS",
+    "unit_price": 78.14,
+    "discount": null,
+    "taxable_value": 1328.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 3779.48,
+    "unit": "KGS",
+    "unit_price": 90.52,
+    "discount": null,
+    "taxable_value": 342118.53,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 134.199,
+    "unit": "KGS",
+    "unit_price": 42.73,
+    "discount": null,
+    "taxable_value": 5734.32,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 408475.05,
+  "cgst_amount": 14036.7,
+  "sgst_amount": 14036.7,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.45,
+  "grand_total": 436548.0,
+  "amount_in_words": "Rupees Four Lakh Thirty Six Thousand Five Hundred and Forty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"SI/25-26/6760\",\"invoice_date\":\"2025-11-03\",\"seller_name\":\"Bhatt Polymers\",\"seller_gstin\":\"27VKCCB1279G5ZI\",\"seller_address\":\"Plot No. 16, Udyog Vihar, Nagpur, Maharashtra - 424167\",\"buyer_name\":\"Naidu Industries\",\"buyer_gstin\":\"27YLWPN0559S1Z8\",\"buyer_address\":\"Gala No. 168, MG Road, Nagpur, Maharashtra - 441743\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":30,\"unit\":\"BOX\",\"unit_price\":56.40,\"discount\":null,\"taxable_value\":1692.00,\"tax_rate\":12},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":3,\"unit\":\"PCS\",\"unit_price\":369.56,\"discount\":null,\"taxable_value\":997.81,\"tax_rate\":5},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":7.044,\"unit\":\"KGS\",\"unit_price\":159.03,\"discount\":null,\"taxable_value\":1120.21,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":785,\"unit\":\"NOS\",\"unit_price\":70.68,\"discount\":null,\"taxable_value\":55483.80,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":17,\"unit\":\"NOS\",\"unit_price\":78.14,\"discount\":null,\"taxable_value\":1328.38,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":3779.480,\"unit\":\"KGS\",\"unit_price\":90.52,\"discount\":null,\"taxable_value\":342118.53,\"tax_rate\":5},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":134.199,\"unit\":\"KGS\",\"unit_price\":42.73,\"discount\":null,\"taxable_value\":5734.32,\"tax_rate\":5}],\"total_taxable_value\":408475.05,\"cgst_amount\":14036.70,\"sgst_amount\":14036.70,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.45,\"grand_total\":436548.00,\"amount_in_words\":\"Rupees Four Lakh Thirty Six Thousand Five Hundred and Forty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6518,
+ "output_tokens": 586,
+ "cached_input_tokens": 0,
+ "latency_s": 8.3267,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

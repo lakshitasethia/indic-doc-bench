@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00077__L3_harsh",
+ "doc_id": "syn00077",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "S002-INV/379",
+  "invoice_date": null,
+  "seller_name": "British Brand & Alloys LLP",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Bentley & Stone Pvt. Ltd.",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "PVC Insulation Copper Cable 2.5sq.mm",
+    "hsn_sac": null,
+    "quantity": 4001,
+    "unit": "MTR",
+    "unit_price": 50.52,
+    "discount": null,
+    "taxable_value": 242141.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": null,
+    "quantity": 6,
+    "unit": "SET",
+    "unit_price": 335.47,
+    "discount": null,
+    "taxable_value": 2007.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 244448.84,
+    "tax_rate": null
+   },
+   {
+    "description": "",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 44040.38,
+    "tax_rate": null
+   },
+   {
+    "description": "",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 0.83,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 1288709.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"S002-INV/379\",\"invoice_date\":null,\"seller_name\":\"British Brand & Alloys LLP\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":\"Bentley & Stone Pvt. Ltd.\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"PVC Insulation Copper Cable 2.5sq.mm\",\"hsn_sac\":null,\"quantity\":4001,\"unit\":\"MTR\",\"unit_price\":50.52,\"discount\":null,\"taxable_value\":242141.49,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":null,\"quantity\":6,\"unit\":\"SET\",\"unit_price\":335.47,\"discount\":null,\"taxable_value\":2007.36,\"tax_rate\":18},{\"description\":\"\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":244448.84,\"tax_rate\":null},{\"description\":\"\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":44040.38,\"tax_rate\":null},{\"description\":\"\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":0.83,\"tax_rate\":null}],\"total_taxable_value\":null,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":1288709.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1946,
+ "output_tokens": 365,
+ "cached_input_tokens": 0,
+ "latency_s": 3.1951,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

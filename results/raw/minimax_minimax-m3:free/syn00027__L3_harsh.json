@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00027__L3_harsh",
+ "doc_id": "syn00027",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "14",
+  "invoice_date": null,
+  "seller_name": "Lohia Trading Co. Pvt. Ltd.",
+  "seller_gstin": "09AAACL3036E1Z5",
+  "seller_address": "Sector-24, Noida Special Economic Zone, Gautam Budh Nagar, Noida",
+  "buyer_name": "The Bangalore Printers",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Sorbitol (Solid) 100g",
+    "hsn_sac": "2905",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 62.45,
+    "discount": null,
+    "taxable_value": 3900.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol BP (Colour) Tablets",
+    "hsn_sac": "2904",
+    "quantity": 350,
+    "unit": "BOX",
+    "unit_price": 54.74,
+    "discount": null,
+    "taxable_value": 582343.22,
+    "tax_rate": 12
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 117.75,
+    "discount": null,
+    "taxable_value": 28260.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 215713.22,
+  "cgst_amount": 13907.81,
+  "sgst_amount": 13907.81,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 243528.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"14\",\"invoice_date\":null,\"seller_name\":\"Lohia Trading Co. Pvt. Ltd.\",\"seller_gstin\":\"09AAACL3036E1Z5\",\"seller_address\":\"Sector-24, Noida Special Economic Zone, Gautam Budh Nagar, Noida\",\"buyer_name\":\"The Bangalore Printers\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":\"Uttar Pradesh\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Sorbitol (Solid) 100g\",\"hsn_sac\":\"2905\",\"quantity\":240,\"unit\":\"PCS\",\"unit_price\":62.45,\"discount\":null,\"taxable_value\":3900.00,\"tax_rate\":18},{\"description\":\"Paracetamol BP (Colour) Tablets\",\"hsn_sac\":\"2904\",\"quantity\":350,\"unit\":\"BOX\",\"unit_price\":54.74,\"discount\":null,\"taxable_value\":582343.22,\"tax_rate\":12},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":240,\"unit\":\"PCS\",\"unit_price\":117.75,\"discount\":null,\"taxable_value\":28260.00,\"tax_rate\":18}],\"total_taxable_value\":215713.22,\"cgst_amount\":13907.81,\"sgst_amount\":13907.81,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":243528.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1924,
+ "output_tokens": 320,
+ "cached_input_tokens": 0,
+ "latency_s": 3.6853,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

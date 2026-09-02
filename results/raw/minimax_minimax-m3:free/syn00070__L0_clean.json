@@ -1,0 +1,189 @@
+{
+ "variant_id": "syn00070__L0_clean",
+ "doc_id": "syn00070",
+ "level": "L0_clean",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/7147",
+  "invoice_date": "2025-07-18",
+  "seller_name": "Ahluwalia Textiles Pvt. Ltd.",
+  "seller_gstin": "10SVACA3053H9ZJ",
+  "seller_address": "Plot No. 447, Ring Road, Patna, Bihar - 829805",
+  "buyer_name": "Pillai Trading Co. Private Limited",
+  "buyer_gstin": "10JULFP3219O6ZM",
+  "buyer_address": "Door No. 39, Ambattur Industrial Estate, Patna, Bihar - 800239",
+  "place_of_supply": "10 - Bihar",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 241,
+    "unit": "BOX",
+    "unit_price": 36.46,
+    "discount": null,
+    "taxable_value": 8347.52,
+    "tax_rate": 12
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 639.562,
+    "unit": "MTR",
+    "unit_price": 40.58,
+    "discount": null,
+    "taxable_value": 25953.43,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 4279.92,
+    "discount": null,
+    "taxable_value": 8559.84,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 6270,
+    "unit": "NOS",
+    "unit_price": 35.89,
+    "discount": null,
+    "taxable_value": 225030.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 11,
+    "unit": "NOS",
+    "unit_price": 10691.79,
+    "discount": null,
+    "taxable_value": 117609.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 1461,
+    "unit": "PCS",
+    "unit_price": 212.15,
+    "discount": null,
+    "taxable_value": 309951.15,
+    "tax_rate": 5
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7008.45,
+    "discount": null,
+    "taxable_value": 7008.45,
+    "tax_rate": 28
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 129,
+    "unit": "PCS",
+    "unit_price": 128.31,
+    "discount": null,
+    "taxable_value": 15724.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 74197.2,
+    "discount": null,
+    "taxable_value": 74197.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 536.221,
+    "unit": "KGS",
+    "unit_price": 38.04,
+    "discount": null,
+    "taxable_value": 20397.85,
+    "tax_rate": 5
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 5,
+    "unit": "PCS",
+    "unit_price": 201.57,
+    "discount": null,
+    "taxable_value": 1007.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 27982.4,
+    "discount": null,
+    "taxable_value": 27982.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 11.789,
+    "unit": "KGS",
+    "unit_price": 116.54,
+    "discount": null,
+    "taxable_value": 1373.89,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.863,
+    "unit": "TON",
+    "unit_price": 57085.32,
+    "discount": null,
+    "taxable_value": 49264.63,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 892408.59,
+  "cgst_amount": 58944.11,
+  "sgst_amount": 58944.11,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.19,
+  "grand_total": 1010297.0,
+  "amount_in_words": "Rupees Ten Lakh Ten Thousand Two Hundred and Ninety Seven Only"
+ },
+ "raw": "{\n  \"invoice_number\": \"SI/25-26/7147\",\n  \"invoice_date\": \"2025-07-18\",\n  \"seller_name\": \"Ahluwalia Textiles Pvt. Ltd.\",\n  \"seller_gstin\": \"10SVACA3053H9ZJ\",\n  \"seller_address\": \"Plot No. 447, Ring Road, Patna, Bihar - 829805\",\n  \"buyer_name\": \"Pillai Trading Co. Private Limited\",\n  \"buyer_gstin\": \"10JULFP3219O6ZM\",\n  \"buyer_address\": \"Door No. 39, Ambattur Industrial Estate, Patna, Bihar - 800239\",\n  \"place_of_supply\": \"10 - Bihar\",\n  \"reverse_charge\": false,\n  \"irn\": null,\n  \"line_items\": [\n    {\n      \"description\": \"Paracetamol IP 650mg Tablets\",\n      \"hsn_sac\": \"3004\",\n      \"quantity\": 241,\n      \"unit\": \"BOX\",\n      \"unit_price\": 36.46,\n      \"discount\": null,\n      \"taxable_value\": 8347.52,\n      \"tax_rate\": 12\n    },\n    {\n      \"description\": \"PVC Insulated Copper Cable 2.5sqmm\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 639.562,\n      \"unit\": \"MTR\",\n      \"unit_price\": 40.58,\n      \"discount\": null,\n      \"taxable_value\": 25953.43,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Foam Mattress 72x36\",\n      \"hsn_sac\": \"9404\",\n      \"quantity\": 2,\n      \"unit\": \"NOS\",\n      \"unit_price\": 4279.92,\n      \"discount\": null,\n      \"taxable_value\": 8559.84,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Hex Bolt with Nut M12\",\n      \"hsn_sac\": \"7318\",\n      \"quantity\": 6270,\n      \"unit\": \"NOS\",\n      \"unit_price\": 35.89,\n      \"discount\": null,\n      \"taxable_value\": 225030.30,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Office Workstation Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 11,\n      \"unit\": \"NOS\",\n      \"unit_price\": 10691.79,\n      \"discount\": null,\n      \"taxable_value\": 117609.69,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Cotton Round Neck T-Shirt\",\n      \"hsn_sac\": \"6109\",\n      \"quantity\": 1461,\n      \"unit\": \"PCS\",\n      \"unit_price\": 212.15,\n      \"discount\": null,\n      \"taxable_value\": 309951.15,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Radial Tyre 195/65 R15\",\n      \"hsn_sac\": \"4011\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 7008.45,\n      \"discount\": null,\n      \"taxable_value\": 7008.45,\n      \"tax_rate\": 28\n    },\n    {\n      \"description\": \"Detergent Powder 1kg\",\n      \"hsn_sac\": \"3402\",\n      \"quantity\": 129,\n      \"unit\": \"PCS\",\n      \"unit_price\": 128.31,\n      \"discount\": null,\n      \"taxable_value\": 15724.39,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Laptop Computer i5 16GB\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 74197.20,\n      \"discount\": null,\n      \"taxable_value\": 74197.20,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Refined Sugar S-30\",\n      \"hsn_sac\": \"1701\",\n      \"quantity\": 536.221,\n      \"unit\": \"KGS\",\n      \"unit_price\": 38.04,\n      \"discount\": null,\n      \"taxable_value\": 20397.85,\n      \"tax_rate\": 5\n    },\n    {\n      \"description\": \"Instant Drink Premix\",\n      \"hsn_sac\": \"2106\",\n      \"quantity\": 5,\n      \"unit\": \"PCS\",\n      \"unit_price\": 201.57,\n      \"discount\": null,\n      \"taxable_value\": 1007.85,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"Smartphone 6GB/128GB\",\n      \"hsn_sac\": \"8517\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"unit_price\": 27982.40,\n      \"discount\": null,\n      \"taxable_value\": 27982.40,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"MS Fabricated Structure\",\n      \"hsn_sac\": \"7308\",\n      \"quantity\": 11.789,\n      \"unit\": \"KGS\",\n      \"unit_price\": 116.54,\n      \"discount\": null,\n      \"taxable_value\": 1373.89,\n      \"tax_rate\": 18\n    },\n    {\n      \"description\": \"TMT Steel Bar Fe-500 12mm\",\n      \"hsn_sac\": \"7214\",\n      \"quantity\": 0.863,\n      \"unit\": \"TON\",\n      \"unit_price\": 57085.32,\n      \"discount\": null,\n      \"taxable_value\": 49264.63,\n      \"tax_rate\": 18\n    }\n  ],\n  \"total_taxable_value\": 892408.59,\n  \"cgst_amount\": 58944.11,\n  \"sgst_amount\": 58944.11,\n  \"igst_amount\": null,\n  \"cess_amount\": null,\n  \"round_off\": 0.19,\n  \"grand_total\": 1010297.00,\n  \"amount_in_words\": \"Rupees Ten Lakh Ten Thousand Two Hundred and Ninety Seven Only\"\n}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5366,
+ "output_tokens": 1392,
+ "cached_input_tokens": 0,
+ "latency_s": 14.2221,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

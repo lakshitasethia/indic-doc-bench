@@ -1,0 +1,48 @@
+{
+ "variant_id": "syn00047__L3_harsh",
+ "doc_id": "syn00047",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "SKI MOTORS",
+  "seller_gstin": null,
+  "seller_address": "Approach Jamshedpur LLP, Jamshedpur, Jharkhand-831016",
+  "buyer_name": "Sujata Marwah (HUF)",
+  "buyer_gstin": null,
+  "buyer_address": "Flat No. 401, GDC Estate, Golmuri, Jamshedpur-831003",
+  "place_of_supply": "Jharkhand",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null,
+  "line_items": []
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"SKI MOTORS\",\"seller_gstin\":null,\"seller_address\":\"Approach Jamshedpur LLP, Jamshedpur, Jharkhand-831016\",\"buyer_name\":\"Sujata Marwah (HUF)\",\"buyer_gstin\":null,\"buyer_address\":\"Flat No. 401, GDC Estate, Golmuri, Jamshedpur-831003\",\"place_of_supply\":\"Jharkhand\",\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":null,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":null,\"amount_in_words\":null,\"line_items\":[]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1849,
+ "output_tokens": 164,
+ "cached_input_tokens": 0,
+ "latency_s": 2.4129,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

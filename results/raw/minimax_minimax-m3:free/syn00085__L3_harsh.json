@@ -1,0 +1,158 @@
+{
+ "variant_id": "syn00085__L3_harsh",
+ "doc_id": "syn00085",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": null,
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Lather Fomet Shoes",
+    "hsn_sac": "6405",
+    "quantity": 12,
+    "unit": "PRS",
+    "unit_price": 1594.58,
+    "discount": null,
+    "taxable_value": 19122.36,
+    "tax_rate": null
+   },
+   {
+    "description": "Multipurpose Oven",
+    "hsn_sac": "8516",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 231.28,
+    "discount": null,
+    "taxable_value": 19422.52,
+    "tax_rate": null
+   },
+   {
+    "description": "Multipunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "PCS",
+    "unit_price": 17400.24,
+    "discount": null,
+    "taxable_value": 17400.24,
+    "tax_rate": null
+   },
+   {
+    "description": "Corrugated Carton box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 38,
+    "unit": "NOS",
+    "unit_price": 35.01,
+    "discount": null,
+    "taxable_value": 3264.89,
+    "tax_rate": null
+   },
+   {
+    "description": "Paracetamol IP 500mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 3117,
+    "unit": "BOX",
+    "unit_price": 52.22,
+    "discount": null,
+    "taxable_value": 513.03,
+    "tax_rate": null
+   },
+   {
+    "description": "Internal Annual Magazine 200 Pages",
+    "hsn_sac": "4901",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 84.23,
+    "discount": null,
+    "taxable_value": 11290.7,
+    "tax_rate": null
+   },
+   {
+    "description": "HDPC ZWP/PO Bags",
+    "hsn_sac": "3923",
+    "quantity": 55,
+    "unit": "NOS",
+    "unit_price": 179.68,
+    "discount": null,
+    "taxable_value": 5222.41,
+    "tax_rate": null
+   },
+   {
+    "description": "3/8 Hex Bolt with Nut M12",
+    "hsn_sac": "7315",
+    "quantity": 148,
+    "unit": "PCS",
+    "unit_price": 52.97,
+    "discount": null,
+    "taxable_value": 10319.1,
+    "tax_rate": null
+   },
+   {
+    "description": "Instant Drum Frame",
+    "hsn_sac": "3706",
+    "quantity": 1,
+    "unit": "BAG",
+    "unit_price": 236.46,
+    "discount": null,
+    "taxable_value": 1580.5,
+    "tax_rate": null
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "unit": null,
+    "unit_price": 4292.71,
+    "discount": null,
+    "taxable_value": 223700.92,
+    "tax_rate": null
+   },
+   {
+    "description": "Submersible Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 32,
+    "unit": "NOS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 687401.56,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":null,\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":null,\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Lather Fomet Shoes\",\"hsn_sac\":\"6405\",\"quantity\":12,\"unit\":\"PRS\",\"unit_price\":1594.58,\"discount\":null,\"taxable_value\":19122.36,\"tax_rate\":null},{\"description\":\"Multipurpose Oven\",\"hsn_sac\":\"8516\",\"quantity\":2,\"unit\":\"PCS\",\"unit_price\":231.28,\"discount\":null,\"taxable_value\":19422.52,\"tax_rate\":null},{\"description\":\"Multipunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"PCS\",\"unit_price\":17400.24,\"discount\":null,\"taxable_value\":17400.24,\"tax_rate\":null},{\"description\":\"Corrugated Carton box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":38,\"unit\":\"NOS\",\"unit_price\":35.01,\"discount\":null,\"taxable_value\":3264.89,\"tax_rate\":null},{\"description\":\"Paracetamol IP 500mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":3117,\"unit\":\"BOX\",\"unit_price\":52.22,\"discount\":null,\"taxable_value\":513.03,\"tax_rate\":null},{\"description\":\"Internal Annual Magazine 200 Pages\",\"hsn_sac\":\"4901\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":84.23,\"discount\":null,\"taxable_value\":11290.70,\"tax_rate\":null},{\"description\":\"HDPC ZWP/PO Bags\",\"hsn_sac\":\"3923\",\"quantity\":55,\"unit\":\"NOS\",\"unit_price\":179.68,\"discount\":null,\"taxable_value\":5222.41,\"tax_rate\":null},{\"description\":\"3/8 Hex Bolt with Nut M12\",\"hsn_sac\":\"7315\",\"quantity\":148,\"unit\":\"PCS\",\"unit_price\":52.97,\"discount\":null,\"taxable_value\":10319.10,\"tax_rate\":null},{\"description\":\"Instant Drum Frame\",\"hsn_sac\":\"3706\",\"quantity\":1,\"unit\":\"BAG\",\"unit_price\":236.46,\"discount\":null,\"taxable_value\":1580.50,\"tax_rate\":null},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"unit\":null,\"unit_price\":4292.71,\"discount\":null,\"taxable_value\":223700.92,\"tax_rate\":null},{\"description\":\"Submersible Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":32,\"unit\":\"NOS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":687401.56,\"tax_rate\":null}],\"total_taxable_value\":null,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":null,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2171,
+ "output_tokens": 677,
+ "cached_input_tokens": 0,
+ "latency_s": 14.3667,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

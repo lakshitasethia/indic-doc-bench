@@ -1,0 +1,189 @@
+{
+ "variant_id": "syn00070__L3_harsh",
+ "doc_id": "syn00070",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "Bihir/2/10",
+  "invoice_date": "2026-06-30",
+  "seller_name": "Supreme Textiles Pvt. Ltd.",
+  "seller_gstin": "10004/GCA/C/2002/2",
+  "seller_address": null,
+  "buyer_name": "Pilani Trading Co. Private Limited",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": null,
+    "quantity": 3004,
+    "unit": "BOX",
+    "unit_price": 241,
+    "discount": null,
+    "taxable_value": 8347.52,
+    "tax_rate": 12
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2 Sq.mm",
+    "hsn_sac": null,
+    "quantity": 8544,
+    "unit": "MTR",
+    "unit_price": 639.562,
+    "discount": null,
+    "taxable_value": 28953.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": null,
+    "quantity": 8404,
+    "unit": "NOS",
+    "unit_price": 2,
+    "discount": null,
+    "taxable_value": 8559.84,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": null,
+    "quantity": 7318,
+    "unit": "NOS",
+    "unit_price": 4270,
+    "discount": null,
+    "taxable_value": 225030.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": null,
+    "quantity": 9401,
+    "unit": "NOS",
+    "unit_price": 11,
+    "discount": null,
+    "taxable_value": 117609.79,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": null,
+    "quantity": 6109,
+    "unit": "PCS",
+    "unit_price": 1461,
+    "discount": null,
+    "taxable_value": 209951.15,
+    "tax_rate": 5
+   },
+   {
+    "description": "Radar Sync (95/05 P15)",
+    "hsn_sac": null,
+    "quantity": 4011,
+    "unit": "NOS",
+    "unit_price": 1,
+    "discount": null,
+    "taxable_value": 7008.45,
+    "tax_rate": 28
+   },
+   {
+    "description": "Basmati Rice 5kg",
+    "hsn_sac": null,
+    "quantity": 3402,
+    "unit": "PCS",
+    "unit_price": 329,
+    "discount": null,
+    "taxable_value": 15724.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": null,
+    "quantity": 8471,
+    "unit": "NOS",
+    "unit_price": 1,
+    "discount": null,
+    "taxable_value": 74197.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar 1kg",
+    "hsn_sac": null,
+    "quantity": 1701,
+    "unit": "KGS",
+    "unit_price": 534.227,
+    "discount": null,
+    "taxable_value": 20397.05,
+    "tax_rate": 5
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": null,
+    "quantity": 3306,
+    "unit": "PCS",
+    "unit_price": 3,
+    "discount": null,
+    "taxable_value": 1007.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 4GB/128GB",
+    "hsn_sac": null,
+    "quantity": 8517,
+    "unit": "NOS",
+    "unit_price": 1,
+    "discount": null,
+    "taxable_value": 27982.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": null,
+    "quantity": 7308,
+    "unit": "KGS",
+    "unit_price": 11.789,
+    "discount": null,
+    "taxable_value": 1272.89,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": null,
+    "quantity": 7214,
+    "unit": "TON",
+    "unit_price": 0.961,
+    "discount": null,
+    "taxable_value": 49364.63,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 845106.28,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 845630.39,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"Bihir/2/10\",\"invoice_date\":\"2026-06-30\",\"seller_name\":\"Supreme Textiles Pvt. Ltd.\",\"seller_gstin\":\"10004/GCA/C/2002/2\",\"seller_address\":null,\"buyer_name\":\"Pilani Trading Co. Private Limited\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":\"Bihar\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":null,\"quantity\":3004,\"unit\":\"BOX\",\"unit_price\":241,\"discount\":null,\"taxable_value\":8347.52,\"tax_rate\":12},{\"description\":\"PVC Insulated Copper Cable 2 Sq.mm\",\"hsn_sac\":null,\"quantity\":8544,\"unit\":\"MTR\",\"unit_price\":639.562,\"discount\":null,\"taxable_value\":28953.42,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":null,\"quantity\":8404,\"unit\":\"NOS\",\"unit_price\":2,\"discount\":null,\"taxable_value\":8559.84,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":null,\"quantity\":7318,\"unit\":\"NOS\",\"unit_price\":4270,\"discount\":null,\"taxable_value\":225030.30,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":null,\"quantity\":9401,\"unit\":\"NOS\",\"unit_price\":11,\"discount\":null,\"taxable_value\":117609.79,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":null,\"quantity\":6109,\"unit\":\"PCS\",\"unit_price\":1461,\"discount\":null,\"taxable_value\":209951.15,\"tax_rate\":5},{\"description\":\"Radar Sync (95/05 P15)\",\"hsn_sac\":null,\"quantity\":4011,\"unit\":\"NOS\",\"unit_price\":1,\"discount\":null,\"taxable_value\":7008.45,\"tax_rate\":28},{\"description\":\"Basmati Rice 5kg\",\"hsn_sac\":null,\"quantity\":3402,\"unit\":\"PCS\",\"unit_price\":329,\"discount\":null,\"taxable_value\":15724.39,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":null,\"quantity\":8471,\"unit\":\"NOS\",\"unit_price\":1,\"discount\":null,\"taxable_value\":74197.20,\"tax_rate\":18},{\"description\":\"Refined Sugar 1kg\",\"hsn_sac\":null,\"quantity\":1701,\"unit\":\"KGS\",\"unit_price\":534.227,\"discount\":null,\"taxable_value\":20397.05,\"tax_rate\":5},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":null,\"quantity\":3306,\"unit\":\"PCS\",\"unit_price\":3,\"discount\":null,\"taxable_value\":1007.85,\"tax_rate\":18},{\"description\":\"Smartphone 4GB/128GB\",\"hsn_sac\":null,\"quantity\":8517,\"unit\":\"NOS\",\"unit_price\":1,\"discount\":null,\"taxable_value\":27982.40,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":null,\"quantity\":7308,\"unit\":\"KGS\",\"unit_price\":11.789,\"discount\":null,\"taxable_value\":1272.89,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":null,\"quantity\":7214,\"unit\":\"TON\",\"unit_price\":0.961,\"discount\":null,\"taxable_value\":49364.63,\"tax_rate\":18}],\"total_taxable_value\":845106.28,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":845630.39,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2210,
+ "output_tokens": 865,
+ "cached_input_tokens": 0,
+ "latency_s": 5.0422,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

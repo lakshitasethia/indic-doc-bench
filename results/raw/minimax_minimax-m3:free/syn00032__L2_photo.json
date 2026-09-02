@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00032__L2_photo",
+ "doc_id": "syn00032",
+ "level": "L2_photo",
+ "template_id": "t09",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "MH1515",
+  "invoice_date": "2025-05-26",
+  "seller_name": "FERNANDES OVERSEAS",
+  "seller_gstin": "27PUFPF6066G3ZR",
+  "seller_address": "Shop No. 140, MIDC Phase II Thane 413106, State: Maharashtra (27)",
+  "buyer_name": "Nair & Sons",
+  "buyer_gstin": "27PBIPM6516OJZG",
+  "buyer_address": "Maharashtra",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 18234.94,
+    "discount": 0,
+    "taxable_value": 18234.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 987,
+    "unit": "PCS",
+    "unit_price": 148.74,
+    "discount": 32.5,
+    "taxable_value": 140856.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 5.408,
+    "unit": "KGS",
+    "unit_price": 128.2,
+    "discount": 0,
+    "taxable_value": 617.54,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 159709.26,
+  "cgst_amount": 14373.83,
+  "sgst_amount": 14373.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.08,
+  "grand_total": 188457,
+  "amount_in_words": "Rupees One Lakh Eighty Eight Thousand Four Hundred and Fifty Seven Only"
+ },
+ "raw": "{\"invoice_number\":\"MH1515\",\"invoice_date\":\"2025-05-26\",\"seller_name\":\"FERNANDES OVERSEAS\",\"seller_gstin\":\"27PUFPF6066G3ZR\",\"seller_address\":\"Shop No. 140, MIDC Phase II Thane 413106, State: Maharashtra (27)\",\"buyer_name\":\"Nair & Sons\",\"buyer_gstin\":\"27PBIPM6516OJZG\",\"buyer_address\":\"Maharashtra\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":18234.94,\"discount\":0,\"taxable_value\":18234.94,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":987,\"unit\":\"PCS\",\"unit_price\":148.74,\"discount\":32.50,\"taxable_value\":140856.78,\"tax_rate\":18},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":5.408,\"unit\":\"KGS\",\"unit_price\":128.20,\"discount\":0,\"taxable_value\":617.54,\"tax_rate\":18}],\"total_taxable_value\":159709.26,\"cgst_amount\":14373.83,\"sgst_amount\":14373.83,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.08,\"grand_total\":188457,\"amount_in_words\":\"Rupees One Lakh Eighty Eight Thousand Four Hundred and Fifty Seven Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1820,
+ "output_tokens": 346,
+ "cached_input_tokens": 0,
+ "latency_s": 2.9181,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

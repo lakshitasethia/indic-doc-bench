@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00079__L3_harsh",
+ "doc_id": "syn00079",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-24/INV/176",
+  "invoice_date": "2025-11-15",
+  "seller_name": "Salzer Agronics Limited",
+  "seller_gstin": "33AACCS9876E1Z2",
+  "seller_address": "Plot No. 329, Osince Phase II, Harohalli, Talangana - 560105",
+  "buyer_name": "Suyati Patel Electricals Private Limited",
+  "buyer_gstin": "36ABECS1234F1Z5",
+  "buyer_address": "Khasra No.4/5, Narpura Vihar, Hyderabad, Telangana - 500026",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998315",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 104426.23,
+    "discount": null,
+    "taxable_value": 104426.23,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 104426.23,
+  "cgst_amount": 9756.58,
+  "sgst_amount": 9756.58,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.39,
+  "grand_total": 127919.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"2025-24/INV/176\",\"invoice_date\":\"2025-11-15\",\"seller_name\":\"Salzer Agronics Limited\",\"seller_gstin\":\"33AACCS9876E1Z2\",\"seller_address\":\"Plot No. 329, Osince Phase II, Harohalli, Talangana - 560105\",\"buyer_name\":\"Suyati Patel Electricals Private Limited\",\"buyer_gstin\":\"36ABECS1234F1Z5\",\"buyer_address\":\"Khasra No.4/5, Narpura Vihar, Hyderabad, Telangana - 500026\",\"place_of_supply\":\"Telangana\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998315\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":104426.23,\"discount\":null,\"taxable_value\":104426.23,\"tax_rate\":18}],\"total_taxable_value\":104426.23,\"cgst_amount\":9756.58,\"sgst_amount\":9756.58,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.39,\"grand_total\":127919.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1924,
+ "output_tokens": 259,
+ "cached_input_tokens": 0,
+ "latency_s": 6.819,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

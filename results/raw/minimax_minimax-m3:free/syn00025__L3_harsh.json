@@ -1,0 +1,169 @@
+{
+ "variant_id": "syn00025__L3_harsh",
+ "doc_id": "syn00025",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Chaudhary Swies Corporation",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Krisholi Agencies Limited",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HCQS Eye/Ear Drops",
+    "hsn_sac": "3004",
+    "quantity": 594.556,
+    "unit": "KGS",
+    "unit_price": 148.66,
+    "discount": null,
+    "taxable_value": 27736.16,
+    "tax_rate": null
+   },
+   {
+    "description": "Synflex External Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 18.738,
+    "unit": "LTR",
+    "unit_price": 476.73,
+    "discount": null,
+    "taxable_value": 7902.55,
+    "tax_rate": null
+   },
+   {
+    "description": "Gaseoplast Cotton Box 2-Ply",
+    "hsn_sac": "4819",
+    "quantity": 42,
+    "unit": "NOS",
+    "unit_price": 48.54,
+    "discount": null,
+    "taxable_value": 2038.68,
+    "tax_rate": null
+   },
+   {
+    "description": "Material Hose, Garden 3M",
+    "hsn_sac": "5906",
+    "quantity": 368.054,
+    "unit": "KGS",
+    "unit_price": 61.32,
+    "discount": null,
+    "taxable_value": 22566.45,
+    "tax_rate": null
+   },
+   {
+    "description": "Leather Flavour Shoes",
+    "hsn_sac": "6403",
+    "quantity": 17.866,
+    "unit": "PRS",
+    "unit_price": 1171.45,
+    "discount": null,
+    "taxable_value": 20914.69,
+    "tax_rate": null
+   },
+   {
+    "description": "MB Viva Buff-carb-Vio M12",
+    "hsn_sac": "7318",
+    "quantity": 132,
+    "unit": "NOS",
+    "unit_price": 37.23,
+    "discount": null,
+    "taxable_value": 4542.96,
+    "tax_rate": null
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 4,
+    "unit": "BAG",
+    "unit_price": 403.49,
+    "discount": null,
+    "taxable_value": 1613.96,
+    "tax_rate": null
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 406.29,
+    "discount": null,
+    "taxable_value": 812.58,
+    "tax_rate": null
+   },
+   {
+    "description": "Glucose Biscuits 500g",
+    "hsn_sac": "1905",
+    "quantity": 3,
+    "unit": "BOX",
+    "unit_price": 261.9,
+    "discount": null,
+    "taxable_value": 785.7,
+    "tax_rate": null
+   },
+   {
+    "description": "Asian CTIG Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 423.412,
+    "unit": "KGS",
+    "unit_price": 388.98,
+    "discount": null,
+    "taxable_value": 164694.59,
+    "tax_rate": null
+   },
+   {
+    "description": "MB Fabricator Structure",
+    "hsn_sac": "7308",
+    "quantity": 360.141,
+    "unit": "KGS",
+    "unit_price": 1234.46,
+    "discount": null,
+    "taxable_value": 445519.58,
+    "tax_rate": null
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 156.54,
+    "discount": null,
+    "taxable_value": 626.16,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 697963.06,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 8287393.4,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"Chaudhary Swies Corporation\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":\"Krisholi Agencies Limited\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"HCQS Eye/Ear Drops\",\"hsn_sac\":\"3004\",\"quantity\":594.556,\"unit\":\"KGS\",\"unit_price\":148.66,\"discount\":null,\"taxable_value\":27736.16,\"tax_rate\":null},{\"description\":\"Synflex External Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":18.738,\"unit\":\"LTR\",\"unit_price\":476.73,\"discount\":null,\"taxable_value\":7902.55,\"tax_rate\":null},{\"description\":\"Gaseoplast Cotton Box 2-Ply\",\"hsn_sac\":\"4819\",\"quantity\":42,\"unit\":\"NOS\",\"unit_price\":48.54,\"discount\":null,\"taxable_value\":2038.68,\"tax_rate\":null},{\"description\":\"Material Hose, Garden 3M\",\"hsn_sac\":\"5906\",\"quantity\":368.054,\"unit\":\"KGS\",\"unit_price\":61.32,\"discount\":null,\"taxable_value\":22566.45,\"tax_rate\":null},{\"description\":\"Leather Flavour Shoes\",\"hsn_sac\":\"6403\",\"quantity\":17.866,\"unit\":\"PRS\",\"unit_price\":1171.45,\"discount\":null,\"taxable_value\":20914.69,\"tax_rate\":null},{\"description\":\"MB Viva Buff-carb-Vio M12\",\"hsn_sac\":\"7318\",\"quantity\":132,\"unit\":\"NOS\",\"unit_price\":37.23,\"discount\":null,\"taxable_value\":4542.96,\"tax_rate\":null},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":4,\"unit\":\"BAG\",\"unit_price\":403.49,\"discount\":null,\"taxable_value\":1613.96,\"tax_rate\":null},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":2,\"unit\":\"PCS\",\"unit_price\":406.29,\"discount\":null,\"taxable_value\":812.58,\"tax_rate\":null},{\"description\":\"Glucose Biscuits 500g\",\"hsn_sac\":\"1905\",\"quantity\":3,\"unit\":\"BOX\",\"unit_price\":261.9,\"discount\":null,\"taxable_value\":785.7,\"tax_rate\":null},{\"description\":\"Asian CTIG Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":423.412,\"unit\":\"KGS\",\"unit_price\":388.98,\"discount\":null,\"taxable_value\":164694.59,\"tax_rate\":null},{\"description\":\"MB Fabricator Structure\",\"hsn_sac\":\"7308\",\"quantity\":360.141,\"unit\":\"KGS\",\"unit_price\":1234.46,\"discount\":null,\"taxable_value\":445519.58,\"tax_rate\":null},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":4,\"unit\":\"PCS\",\"unit_price\":156.54,\"discount\":null,\"taxable_value\":626.16,\"tax_rate\":null}],\"total_taxable_value\":697963.06,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":8287393.4,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2246,
+ "output_tokens": 765,
+ "cached_input_tokens": 0,
+ "latency_s": 5.3845,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

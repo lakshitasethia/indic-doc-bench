@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00088__L3_harsh",
+ "doc_id": "syn00088",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "3288",
+  "invoice_date": null,
+  "seller_name": "Fernandes Overseas Pvt. Ltd.",
+  "seller_gstin": "09AAACF2729X1ZP",
+  "seller_address": "S-25/46, 47, Varanasi-221005, Varanasi, Uttar Pradesh",
+  "buyer_name": "Asahi Steel & Alloys",
+  "buyer_gstin": null,
+  "buyer_address": "Chowk No. 6, Chhota Phaze 1, Noida, Uttar Pradesh - 245722",
+  "place_of_supply": "Uttar Pradesh (09)",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": null,
+    "quantity": 30,
+    "unit": "BOX",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 1271.34,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1271.34,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 228.84,
+  "cess_amount": null,
+  "round_off": 0,
+  "grand_total": 1500.18,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"3288\",\"invoice_date\":null,\"seller_name\":\"Fernandes Overseas Pvt. Ltd.\",\"seller_gstin\":\"09AAACF2729X1ZP\",\"seller_address\":\"S-25/46, 47, Varanasi-221005, Varanasi, Uttar Pradesh\",\"buyer_name\":\"Asahi Steel & Alloys\",\"buyer_gstin\":null,\"buyer_address\":\"Chowk No. 6, Chhota Phaze 1, Noida, Uttar Pradesh - 245722\",\"place_of_supply\":\"Uttar Pradesh (09)\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":null,\"quantity\":30,\"unit\":\"BOX\",\"unit_price\":null,\"discount\":null,\"taxable_value\":1271.34,\"tax_rate\":18}],\"total_taxable_value\":1271.34,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":228.84,\"cess_amount\":null,\"round_off\":0,\"grand_total\":1500.18,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1934,
+ "output_tokens": 239,
+ "cached_input_tokens": 0,
+ "latency_s": 6.1027,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

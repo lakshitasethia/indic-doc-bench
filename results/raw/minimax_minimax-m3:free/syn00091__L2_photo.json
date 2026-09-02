@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00091__L2_photo",
+ "doc_id": "syn00091",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "KA6546",
+  "invoice_date": "2025-10-05",
+  "seller_name": "Kaur Textiles",
+  "seller_gstin": "10LVCK0286A9ZL",
+  "seller_address": "Shop No. 152, Ring Road, Patna, Bihar - 808522",
+  "buyer_name": "Mehra Sales Corporation LLP",
+  "buyer_gstin": "32FEFFM3936C3ZA",
+  "buyer_address": "Shop No. 101, Peenya 2nd Stage, Kochi, Kerala - 694497",
+  "place_of_supply": "Kerala",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 46175.36,
+    "discount": null,
+    "taxable_value": 46175.36,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 46175.36,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 8311.56,
+  "cess_amount": null,
+  "round_off": 0.08,
+  "grand_total": 54487.0,
+  "amount_in_words": "Rupees Fifty Four Thousand Four Hundred and Eighty Seven Only"
+ },
+ "raw": "{\"invoice_number\":\"KA6546\",\"invoice_date\":\"2025-10-05\",\"seller_name\":\"Kaur Textiles\",\"seller_gstin\":\"10LVCK0286A9ZL\",\"seller_address\":\"Shop No. 152, Ring Road, Patna, Bihar - 808522\",\"buyer_name\":\"Mehra Sales Corporation LLP\",\"buyer_gstin\":\"32FEFFM3936C3ZA\",\"buyer_address\":\"Shop No. 101, Peenya 2nd Stage, Kochi, Kerala - 694497\",\"place_of_supply\":\"Kerala\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":46175.36,\"discount\":null,\"taxable_value\":46175.36,\"tax_rate\":18}],\"total_taxable_value\":46175.36,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":8311.56,\"cess_amount\":null,\"round_off\":0.08,\"grand_total\":54487.00,\"amount_in_words\":\"Rupees Fifty Four Thousand Four Hundred and Eighty Seven Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2782,
+ "output_tokens": 250,
+ "cached_input_tokens": 0,
+ "latency_s": 5.3329,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

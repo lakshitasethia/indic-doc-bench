@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00059__L1_scan",
+ "doc_id": "syn00059",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/8202",
+  "invoice_date": "2025-06-13",
+  "seller_name": "Kulkarni Distributors LLP",
+  "seller_gstin": "33WDWCK7545I5Z0",
+  "seller_address": "Unit No. 466, Peenya 2nd Stage, Salem, Tamil Nadu - 604323",
+  "buyer_name": "Joshi Traders Limited",
+  "buyer_gstin": "08ICGCJ0734R9ZJ",
+  "buyer_address": "Door No. 418, Ambattur Industrial Estate, Jodhpur, Rajasthan - 333093",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": false,
+  "irn": null,
+  "total_taxable_value": 172378.46,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 30851.37,
+  "cess_amount": null,
+  "round_off": 0.17,
+  "grand_total": 203230.0,
+  "amount_in_words": "Rupees Two Lakh Three Thousand Two Hundred and Thirty Only",
+  "line_items": [
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 27259.75,
+    "discount": 545.2,
+    "taxable_value": 26714.55,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 2600,
+    "unit": "NOS",
+    "unit_price": 24.77,
+    "discount": 0.0,
+    "taxable_value": 64402.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 12.618,
+    "unit": "MTR",
+    "unit_price": 107.76,
+    "discount": 0.0,
+    "taxable_value": 1359.72,
+    "tax_rate": 5
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 83765.11,
+    "discount": 8376.51,
+    "taxable_value": 75388.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4513.59,
+    "discount": 0.0,
+    "taxable_value": 4513.59,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"TI/25-26/8202\",\"invoice_date\":\"2025-06-13\",\"seller_name\":\"Kulkarni Distributors LLP\",\"seller_gstin\":\"33WDWCK7545I5Z0\",\"seller_address\":\"Unit No. 466, Peenya 2nd Stage, Salem, Tamil Nadu - 604323\",\"buyer_name\":\"Joshi Traders Limited\",\"buyer_gstin\":\"08ICGCJ0734R9ZJ\",\"buyer_address\":\"Door No. 418, Ambattur Industrial Estate, Jodhpur, Rajasthan - 333093\",\"place_of_supply\":\"Rajasthan\",\"reverse_charge\":false,\"irn\":null,\"total_taxable_value\":172378.46,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":30851.37,\"cess_amount\":null,\"round_off\":0.17,\"grand_total\":203230.00,\"amount_in_words\":\"Rupees Two Lakh Three Thousand Two Hundred and Thirty Only\",\"line_items\":[{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":27259.75,\"discount\":545.20,\"taxable_value\":26714.55,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":2600,\"unit\":\"NOS\",\"unit_price\":24.77,\"discount\":0.00,\"taxable_value\":64402.00,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":12.618,\"unit\":\"MTR\",\"unit_price\":107.76,\"discount\":0.00,\"taxable_value\":1359.72,\"tax_rate\":5},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":83765.11,\"discount\":8376.51,\"taxable_value\":75388.60,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":4513.59,\"discount\":0.00,\"taxable_value\":4513.59,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6158,
+ "output_tokens": 493,
+ "cached_input_tokens": 0,
+ "latency_s": 11.6775,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

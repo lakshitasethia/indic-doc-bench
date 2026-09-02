@@ -1,0 +1,179 @@
+{
+ "variant_id": "syn00066__L1_scan",
+ "doc_id": "syn00066",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/3994",
+  "invoice_date": "2025-05-02",
+  "seller_name": "Menon Trading Co. Limited",
+  "seller_gstin": "36FJWPM7302U6ZT",
+  "seller_address": "Gala No. 412, Kalbadevi Road, Hyderabad, Telangana-507904",
+  "buyer_name": "Shetty & Sons LLP",
+  "buyer_gstin": "27DZVPS0177L2ZC",
+  "buyer_address": "Khasra No. 75, Ring Road, Nagpur, Maharashtra-407604",
+  "place_of_supply": "27-Maharashtra",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 10594.21,
+    "discount": null,
+    "taxable_value": 10594.21,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 266,
+    "unit": "BAG",
+    "unit_price": 400.83,
+    "discount": null,
+    "taxable_value": 106620.78,
+    "tax_rate": 28
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 527,
+    "unit": "NOS",
+    "unit_price": 28.17,
+    "discount": 296.91,
+    "taxable_value": 14548.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 81,
+    "unit": "BOX",
+    "unit_price": 414.28,
+    "discount": null,
+    "taxable_value": 33556.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 726,
+    "unit": "NOS",
+    "unit_price": 105.53,
+    "discount": null,
+    "taxable_value": 76614.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 428.323,
+    "unit": "MTR",
+    "unit_price": 188.76,
+    "discount": null,
+    "taxable_value": 80850.25,
+    "tax_rate": 5
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 6200.08,
+    "discount": 124.0,
+    "taxable_value": 6076.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 1063.441,
+    "unit": "KGS",
+    "unit_price": 46.48,
+    "discount": 2471.44,
+    "taxable_value": 46957.3,
+    "tax_rate": 5
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 12.59,
+    "unit": "KGS",
+    "unit_price": 196.91,
+    "discount": 123.96,
+    "taxable_value": 2355.14,
+    "tax_rate": 5
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.1,
+    "unit": "TON",
+    "unit_price": 48580.79,
+    "discount": null,
+    "taxable_value": 4858.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 67.953,
+    "unit": "MTR",
+    "unit_price": 74.81,
+    "discount": null,
+    "taxable_value": 5083.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 8,
+    "unit": "SET",
+    "unit_price": 576.53,
+    "discount": null,
+    "taxable_value": 4612.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 77881.19,
+    "discount": null,
+    "taxable_value": 77881.19,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 470608.97,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 78450.53,
+  "cess_amount": null,
+  "round_off": 0.5,
+  "grand_total": 549060.0,
+  "amount_in_words": "Rupees Five Lakh Forty Nine Thousand Sixty Only"
+ },
+ "raw": "{\"invoice_number\":\"INV/25-26/3994\",\"invoice_date\":\"2025-05-02\",\"seller_name\":\"Menon Trading Co. Limited\",\"seller_gstin\":\"36FJWPM7302U6ZT\",\"seller_address\":\"Gala No. 412, Kalbadevi Road, Hyderabad, Telangana-507904\",\"buyer_name\":\"Shetty & Sons LLP\",\"buyer_gstin\":\"27DZVPS0177L2ZC\",\"buyer_address\":\"Khasra No. 75, Ring Road, Nagpur, Maharashtra-407604\",\"place_of_supply\":\"27-Maharashtra\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":10594.21,\"discount\":null,\"taxable_value\":10594.21,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":266,\"unit\":\"BAG\",\"unit_price\":400.83,\"discount\":null,\"taxable_value\":106620.78,\"tax_rate\":28},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":527,\"unit\":\"NOS\",\"unit_price\":28.17,\"discount\":296.91,\"taxable_value\":14548.68,\"tax_rate\":18},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":81,\"unit\":\"BOX\",\"unit_price\":414.28,\"discount\":null,\"taxable_value\":33556.68,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":726,\"unit\":\"NOS\",\"unit_price\":105.53,\"discount\":null,\"taxable_value\":76614.78,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":428.323,\"unit\":\"MTR\",\"unit_price\":188.76,\"discount\":null,\"taxable_value\":80850.25,\"tax_rate\":5},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":6200.08,\"discount\":124.00,\"taxable_value\":6076.08,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":1063.441,\"unit\":\"KGS\",\"unit_price\":46.48,\"discount\":2471.44,\"taxable_value\":46957.30,\"tax_rate\":5},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":12.590,\"unit\":\"KGS\",\"unit_price\":196.91,\"discount\":123.96,\"taxable_value\":2355.14,\"tax_rate\":5},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.100,\"unit\":\"TON\",\"unit_price\":48580.79,\"discount\":null,\"taxable_value\":4858.08,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":67.953,\"unit\":\"MTR\",\"unit_price\":74.81,\"discount\":null,\"taxable_value\":5083.56,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":8,\"unit\":\"SET\",\"unit_price\":576.53,\"discount\":null,\"taxable_value\":4612.24,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":77881.19,\"discount\":null,\"taxable_value\":77881.19,\"tax_rate\":18}],\"total_taxable_value\":470608.97,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":78450.53,\"cess_amount\":null,\"round_off\":0.50,\"grand_total\":549060.00,\"amount_in_words\":\"Rupees Five Lakh Forty Nine Thousand Sixty Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5582,
+ "output_tokens": 924,
+ "cached_input_tokens": 0,
+ "latency_s": 10.0849,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

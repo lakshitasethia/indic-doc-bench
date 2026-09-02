@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00029__L2_photo",
+ "doc_id": "syn00029",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0881",
+  "invoice_date": "2025-07-20",
+  "seller_name": "Reddy Technologies",
+  "seller_gstin": "07LSSPR7919D4ZR",
+  "seller_address": "Unit No. 134, Focal Point, New Delhi 110134, Delhi",
+  "buyer_name": "Bhatt Infratech",
+  "buyer_gstin": "07OZVPB4125J3ZR",
+  "buyer_address": "Unit No. 379, Udyog Vihar, Delhi 110563, Delhi",
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 5.292,
+    "unit": "KGS",
+    "unit_price": 177.48,
+    "discount": null,
+    "taxable_value": 939.22,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 2,
+    "unit": "BOX",
+    "unit_price": 351.69,
+    "discount": null,
+    "taxable_value": 703.38,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1642.6,
+  "cgst_amount": 147.83,
+  "sgst_amount": 147.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.26,
+  "grand_total": 1938.0,
+  "amount_in_words": "Rupees One Thousand Nine Hundred and Thirty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"0881\",\"invoice_date\":\"2025-07-20\",\"seller_name\":\"Reddy Technologies\",\"seller_gstin\":\"07LSSPR7919D4ZR\",\"seller_address\":\"Unit No. 134, Focal Point, New Delhi 110134, Delhi\",\"buyer_name\":\"Bhatt Infratech\",\"buyer_gstin\":\"07OZVPB4125J3ZR\",\"buyer_address\":\"Unit No. 379, Udyog Vihar, Delhi 110563, Delhi\",\"place_of_supply\":\"Delhi\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":5.292,\"unit\":\"KGS\",\"unit_price\":177.48,\"discount\":null,\"taxable_value\":939.22,\"tax_rate\":18},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":2,\"unit\":\"BOX\",\"unit_price\":351.69,\"discount\":null,\"taxable_value\":703.38,\"tax_rate\":18}],\"total_taxable_value\":1642.60,\"cgst_amount\":147.83,\"sgst_amount\":147.83,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.26,\"grand_total\":1938.00,\"amount_in_words\":\"Rupees One Thousand Nine Hundred and Thirty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3055,
+ "output_tokens": 298,
+ "cached_input_tokens": 0,
+ "latency_s": 8.4055,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

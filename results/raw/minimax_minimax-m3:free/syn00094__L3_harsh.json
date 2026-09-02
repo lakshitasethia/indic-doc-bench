@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00094__L3_harsh",
+ "doc_id": "syn00094",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "PA/2025-26/043",
+  "invoice_date": "2025-09-08",
+  "seller_name": "Agarwal Technologies LLP",
+  "seller_gstin": "10ABCFA7524H1Z8",
+  "seller_address": "Gola Road, Ward No. 17/A, Khata No. 125/A, Khata No. 211/A, Ward No. 16, Subhash Road, Manjharia, PIN - 854105",
+  "buyer_name": "Bihar",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Bihar",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 300g",
+    "hsn_sac": null,
+    "quantity": 192,
+    "unit": "BOX",
+    "unit_price": 249.74,
+    "discount": null,
+    "taxable_value": 70425.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": null,
+    "quantity": 9902,
+    "unit": "KGS",
+    "unit_price": 415.04,
+    "discount": null,
+    "taxable_value": 82420.3,
+    "tax_rate": 5
+   },
+   {
+    "description": "Instant Drink Protinex",
+    "hsn_sac": null,
+    "quantity": 2106,
+    "unit": "PCS",
+    "unit_price": 206.97,
+    "discount": null,
+    "taxable_value": 11797.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Bananas Rice (Broken 5%)",
+    "hsn_sac": null,
+    "quantity": 3006,
+    "unit": "KGS",
+    "unit_price": 33.717,
+    "discount": null,
+    "taxable_value": 2669.14,
+    "tax_rate": 5
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": null,
+    "quantity": 110,
+    "unit": "LTR",
+    "unit_price": 560.64,
+    "discount": null,
+    "taxable_value": 60960.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": null,
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 62482.4,
+    "discount": null,
+    "taxable_value": 64108.28,
+    "tax_rate": 18
+   },
+   {
+    "description": "Thel Steel Bar Fe 500 12mm",
+    "hsn_sac": null,
+    "quantity": 7214,
+    "unit": "TON",
+    "unit_price": 0.122,
+    "discount": null,
+    "taxable_value": 880.11,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 209806.86,
+  "cgst_amount": 11659.45,
+  "sgst_amount": 11659.45,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 233126.96,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"PA/2025-26/043\",\"invoice_date\":\"2025-09-08\",\"seller_name\":\"Agarwal Technologies LLP\",\"seller_gstin\":\"10ABCFA7524H1Z8\",\"seller_address\":\"Gola Road, Ward No. 17/A, Khata No. 125/A, Khata No. 211/A, Ward No. 16, Subhash Road, Manjharia, PIN - 854105\",\"buyer_name\":\"Bihar\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":\"Bihar\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Glucose Biscuits 300g\",\"hsn_sac\":null,\"quantity\":192,\"unit\":\"BOX\",\"unit_price\":249.74,\"discount\":null,\"taxable_value\":70425.68,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":null,\"quantity\":9902,\"unit\":\"KGS\",\"unit_price\":415.04,\"discount\":null,\"taxable_value\":82420.30,\"tax_rate\":5},{\"description\":\"Instant Drink Protinex\",\"hsn_sac\":null,\"quantity\":2106,\"unit\":\"PCS\",\"unit_price\":206.97,\"discount\":null,\"taxable_value\":11797.29,\"tax_rate\":18},{\"description\":\"Bananas Rice (Broken 5%)\",\"hsn_sac\":null,\"quantity\":3006,\"unit\":\"KGS\",\"unit_price\":33.717,\"discount\":null,\"taxable_value\":2669.14,\"tax_rate\":5},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":null,\"quantity\":110,\"unit\":\"LTR\",\"unit_price\":560.64,\"discount\":null,\"taxable_value\":60960.63,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":null,\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":62482.40,\"discount\":null,\"taxable_value\":64108.28,\"tax_rate\":18},{\"description\":\"Thel Steel Bar Fe 500 12mm\",\"hsn_sac\":null,\"quantity\":7214,\"unit\":\"TON\",\"unit_price\":0.122,\"discount\":null,\"taxable_value\":880.11,\"tax_rate\":18}],\"total_taxable_value\":209806.86,\"cgst_amount\":11659.45,\"sgst_amount\":11659.45,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":233126.96,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1968,
+ "output_tokens": 558,
+ "cached_input_tokens": 0,
+ "latency_s": 4.6026,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "variant_id": "syn00033__L3_harsh",
+ "doc_id": "syn00033",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "9061",
+  "invoice_date": "2026-03-08",
+  "seller_name": "Naidu Solutions Limited",
+  "seller_gstin": "29ABCDE1234F1Z5",
+  "seller_address": "Door No. 53, LBS Vidya Vihar, Thiruvananthapuram, Kerala - 695034",
+  "buyer_name": "Mowito Andratech",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Kerala",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6105",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 258.89,
+    "discount": null,
+    "taxable_value": 51777.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hand Knitted Kashmir Wool Pullover",
+    "hsn_sac": "6110",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 1156.63,
+    "discount": null,
+    "taxable_value": 57831.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 3-Ply",
+    "hsn_sac": "4819",
+    "quantity": 22,
+    "unit": "NOS",
+    "unit_price": 41.5,
+    "discount": null,
+    "taxable_value": 912.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 6,
+    "unit": "PCS",
+    "unit_price": 125.62,
+    "discount": null,
+    "taxable_value": 753.07,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Dryal Seeds",
+    "hsn_sac": null,
+    "quantity": 482,
+    "unit": "PCS",
+    "unit_price": 468.85,
+    "discount": null,
+    "taxable_value": 225954.2,
+    "tax_rate": 0
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 5,
+    "unit": "BAG",
+    "unit_price": 252.75,
+    "discount": null,
+    "taxable_value": 1263.73,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44-inch",
+    "hsn_sac": "5208",
+    "quantity": 2026,
+    "unit": "MTR",
+    "unit_price": 91.65,
+    "discount": null,
+    "taxable_value": 185700.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Chrome Boreable 20pc",
+    "hsn_sac": "8607",
+    "quantity": 540,
+    "unit": "BOX",
+    "unit_price": 462.89,
+    "discount": null,
+    "taxable_value": 249959.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 789,
+    "unit": "KG",
+    "unit_price": 81.48,
+    "discount": null,
+    "taxable_value": 64292.13,
+    "tax_rate": 18
+   },
+   {
+    "description": "Asphalt Shigs 3-pc",
+    "hsn_sac": "6807",
+    "quantity": 8900,
+    "unit": "NOS",
+    "unit_price": 28.55,
+    "discount": null,
+    "taxable_value": 254107.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 354,
+    "unit": "MTR",
+    "unit_price": 522.46,
+    "discount": null,
+    "taxable_value": 184990.79,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5mm",
+    "hsn_sac": "8544",
+    "quantity": 2456,
+    "unit": "MTR",
+    "unit_price": 755.69,
+    "discount": null,
+    "taxable_value": 447959.72,
+    "tax_rate": 18
+   },
+   {
+    "description": "Roasted Rice (Machine)",
+    "hsn_sac": null,
+    "quantity": 16023,
+    "unit": "NOS",
+    "unit_price": 141.6,
+    "discount": null,
+    "taxable_value": 2269165.42,
+    "tax_rate": 0
+   },
+   {
+    "description": "Radial Tyre 205/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 38,
+    "unit": "NOS",
+    "unit_price": 3708.19,
+    "discount": null,
+    "taxable_value": 140911.22,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 7086.43,
+    "discount": null,
+    "taxable_value": 42518.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 9434,
+    "unit": "NOS",
+    "unit_price": 32.51,
+    "discount": null,
+    "taxable_value": 306711.04,
+    "tax_rate": 18
+   },
+   {
+    "description": "Access CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 1226,
+    "unit": "KG",
+    "unit_price": 333.55,
+    "discount": null,
+    "taxable_value": 408874.6,
+    "tax_rate": 5
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 6305,
+    "unit": "PRS",
+    "unit_price": 139.45,
+    "discount": null,
+    "taxable_value": 879161.25,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 7709684.1,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.14,
+  "grand_total": 11444982.1,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"9061\",\"invoice_date\":\"2026-03-08\",\"seller_name\":\"Naidu Solutions Limited\",\"seller_gstin\":\"29ABCDE1234F1Z5\",\"seller_address\":\"Door No. 53, LBS Vidya Vihar, Thiruvananthapuram, Kerala - 695034\",\"buyer_name\":\"Mowito Andratech\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":\"Kerala\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6105\",\"quantity\":200,\"unit\":\"PCS\",\"unit_price\":258.89,\"discount\":null,\"taxable_value\":51777.80,\"tax_rate\":18},{\"description\":\"Hand Knitted Kashmir Wool Pullover\",\"hsn_sac\":\"6110\",\"quantity\":50,\"unit\":\"PCS\",\"unit_price\":1156.63,\"discount\":null,\"taxable_value\":57831.50,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 3-Ply\",\"hsn_sac\":\"4819\",\"quantity\":22,\"unit\":\"NOS\",\"unit_price\":41.50,\"discount\":null,\"taxable_value\":912.50,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":6,\"unit\":\"PCS\",\"unit_price\":125.62,\"discount\":null,\"taxable_value\":753.07,\"tax_rate\":18},{\"description\":\"Instant Dryal Seeds\",\"hsn_sac\":null,\"quantity\":482,\"unit\":\"PCS\",\"unit_price\":468.85,\"discount\":null,\"taxable_value\":225954.20,\"tax_rate\":0},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":5,\"unit\":\"BAG\",\"unit_price\":252.75,\"discount\":null,\"taxable_value\":1263.73,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44-inch\",\"hsn_sac\":\"5208\",\"quantity\":2026,\"unit\":\"MTR\",\"unit_price\":91.65,\"discount\":null,\"taxable_value\":185700.56,\"tax_rate\":18},{\"description\":\"Chrome Boreable 20pc\",\"hsn_sac\":\"8607\",\"quantity\":540,\"unit\":\"BOX\",\"unit_price\":462.89,\"discount\":null,\"taxable_value\":249959.69,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":789,\"unit\":\"KG\",\"unit_price\":81.48,\"discount\":null,\"taxable_value\":64292.13,\"tax_rate\":18},{\"description\":\"Asphalt Shigs 3-pc\",\"hsn_sac\":\"6807\",\"quantity\":8900,\"unit\":\"NOS\",\"unit_price\":28.55,\"discount\":null,\"taxable_value\":254107.30,\"tax_rate\":18},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":354,\"unit\":\"MTR\",\"unit_price\":522.46,\"discount\":null,\"taxable_value\":184990.79,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 2.5mm\",\"hsn_sac\":\"8544\",\"quantity\":2456,\"unit\":\"MTR\",\"unit_price\":755.69,\"discount\":null,\"taxable_value\":447959.72,\"tax_rate\":18},{\"description\":\"Roasted Rice (Machine)\",\"hsn_sac\":null,\"quantity\":16023,\"unit\":\"NOS\",\"unit_price\":141.60,\"discount\":null,\"taxable_value\":2269165.42,\"tax_rate\":0},{\"description\":\"Radial Tyre 205/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":38,\"unit\":\"NOS\",\"unit_price\":3708.19,\"discount\":null,\"taxable_value\":140911.22,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":7086.43,\"discount\":null,\"taxable_value\":42518.58,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":9434,\"unit\":\"NOS\",\"unit_price\":32.51,\"discount\":null,\"taxable_value\":306711.04,\"tax_rate\":18},{\"description\":\"Access CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":1226,\"unit\":\"KG\",\"unit_price\":333.55,\"discount\":null,\"taxable_value\":408874.60,\"tax_rate\":5},{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":6305,\"unit\":\"PRS\",\"unit_price\":139.45,\"discount\":null,\"taxable_value\":879161.25,\"tax_rate\":5}],\"total_taxable_value\":7709684.10,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.14,\"grand_total\":11444982.10,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2375,
+ "output_tokens": 1115,
+ "cached_input_tokens": 0,
+ "latency_s": 7.352,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

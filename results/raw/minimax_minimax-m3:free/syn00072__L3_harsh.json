@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00072__L3_harsh",
+ "doc_id": "syn00072",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-23-26-0566",
+  "invoice_date": "2023-09-26",
+  "seller_name": "Mighty Apprises Pvt. Ltd.",
+  "seller_gstin": "27EHPP8196N1Z9",
+  "seller_address": "Block No. 324, Kalidas Complex, Ghotwade Phata, Ghotavade, Mulshi, Pune, 390529",
+  "buyer_name": "null",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 10463.72,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 62453.92,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998311",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 24518.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Professional Training and Coaching Services",
+    "hsn_sac": "999921",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 36154.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996512",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 229891.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripheral",
+    "hsn_sac": "998519",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 123182.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Support Services",
+    "hsn_sac": "998315",
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 2075.95,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 488660.75,
+  "cgst_amount": 43979.47,
+  "sgst_amount": 43979.47,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 577058.69,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"INV-23-26-0566\",\"invoice_date\":\"2023-09-26\",\"seller_name\":\"Mighty Apprises Pvt. Ltd.\",\"seller_gstin\":\"27EHPP8196N1Z9\",\"seller_address\":\"Block No. 324, Kalidas Complex, Ghotwade Phata, Ghotavade, Mulshi, Pune, 390529\",\"buyer_name\":\"null\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":\"Madhya Pradesh\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":10463.72,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":62453.92,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998311\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":24518.42,\"tax_rate\":18},{\"description\":\"Professional Training and Coaching Services\",\"hsn_sac\":\"999921\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":36154.96,\"tax_rate\":18},{\"description\":\"Road Transport Services of Goods\",\"hsn_sac\":\"996512\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":229891.06,\"tax_rate\":18},{\"description\":\"Repair Services of Computers and Peripheral\",\"hsn_sac\":\"998519\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":123182.78,\"tax_rate\":18},{\"description\":\"Information Technology Support Services\",\"hsn_sac\":\"998315\",\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":2075.95,\"tax_rate\":18}],\"total_taxable_value\":488660.75,\"cgst_amount\":43979.47,\"sgst_amount\":43979.47,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":577058.69,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2150,
+ "output_tokens": 515,
+ "cached_input_tokens": 0,
+ "latency_s": 7.3445,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

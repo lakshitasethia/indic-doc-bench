@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00036__L1_scan",
+ "doc_id": "syn00036",
+ "level": "L1_scan",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SALE-B-2017",
+  "invoice_date": "2025-08-24",
+  "seller_name": "Pillai Infratech Limited",
+  "seller_gstin": "36IISPP333615ZG",
+  "seller_address": "Plot No. 290, Chandni Chowk, Warangal, Telangana - 507729",
+  "buyer_name": "Ahluwalia Marketing Limited",
+  "buyer_gstin": "29KCSFA6502Q2ZB",
+  "buyer_address": "Unit No. 269, Ambattur Industrial Estate, Mangaluru, Karnataka - 568287",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 5677.73,
+    "discount": null,
+    "taxable_value": 34066.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 88624.07,
+    "discount": null,
+    "taxable_value": 88624.07,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 1,
+    "unit": "BOX",
+    "unit_price": 453.6,
+    "discount": null,
+    "taxable_value": 453.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 23307.01,
+    "discount": 13984.21,
+    "taxable_value": 125857.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 4253.151,
+    "unit": "KGS",
+    "unit_price": 39.23,
+    "discount": 8342.56,
+    "taxable_value": 158508.55,
+    "tax_rate": 5
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 158,
+    "unit": "NOS",
+    "unit_price": 58.14,
+    "discount": null,
+    "taxable_value": 9186.12,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 416696.57,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 54399.27,
+  "cess_amount": null,
+  "round_off": 0.16,
+  "grand_total": 471096.0,
+  "amount_in_words": "Rupees Four Lakh Seventy One Thousand Ninety Six Only"
+ },
+ "raw": "{\"invoice_number\":\"SALE-B-2017\",\"invoice_date\":\"2025-08-24\",\"seller_name\":\"Pillai Infratech Limited\",\"seller_gstin\":\"36IISPP333615ZG\",\"seller_address\":\"Plot No. 290, Chandni Chowk, Warangal, Telangana - 507729\",\"buyer_name\":\"Ahluwalia Marketing Limited\",\"buyer_gstin\":\"29KCSFA6502Q2ZB\",\"buyer_address\":\"Unit No. 269, Ambattur Industrial Estate, Mangaluru, Karnataka - 568287\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":5677.73,\"discount\":null,\"taxable_value\":34066.38,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":88624.07,\"discount\":null,\"taxable_value\":88624.07,\"tax_rate\":18},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":1,\"unit\":\"BOX\",\"unit_price\":453.60,\"discount\":null,\"taxable_value\":453.60,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":23307.01,\"discount\":13984.21,\"taxable_value\":125857.85,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":4253.151,\"unit\":\"KGS\",\"unit_price\":39.23,\"discount\":8342.56,\"taxable_value\":158508.55,\"tax_rate\":5},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":158,\"unit\":\"NOS\",\"unit_price\":58.14,\"discount\":null,\"taxable_value\":9186.12,\"tax_rate\":18}],\"total_taxable_value\":416696.57,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":54399.27,\"cess_amount\":null,\"round_off\":0.16,\"grand_total\":471096.00,\"amount_in_words\":\"Rupees Four Lakh Seventy One Thousand Ninety Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6086,
+ "output_tokens": 541,
+ "cached_input_tokens": 0,
+ "latency_s": 6.0327,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,259 @@
+{
+ "variant_id": "syn00011__L3_harsh",
+ "doc_id": "syn00011",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-0023",
+  "invoice_date": "2025-09-03",
+  "seller_name": "JKL Associates",
+  "seller_gstin": "27AAACJ1234L1Z5",
+  "seller_address": "123 Park Street, Corporate Hub, Andheri Dry Bridge, Kurla East - 110001",
+  "buyer_name": "Zenith Exports Private Limited",
+  "buyer_gstin": "27AAACZ5678Q1Z3",
+  "buyer_address": "456 Greenwood Avenue, Industrial Estate, Powai, Delhi - 110002",
+  "place_of_supply": "MH",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "IT Consulting Services",
+    "hsn_sac": "998314",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 1550.2,
+    "discount": null,
+    "taxable_value": 4650.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Custom Software Development",
+    "hsn_sac": "998314",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 2705.85,
+    "discount": null,
+    "taxable_value": 5411.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Technical Support Services",
+    "hsn_sac": "998316",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 3367.95,
+    "discount": null,
+    "taxable_value": 3367.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "Domain Registration",
+    "hsn_sac": null,
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 649.3,
+    "discount": null,
+    "taxable_value": 3246.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hosting Service Annual",
+    "hsn_sac": "998315",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4110.95,
+    "discount": null,
+    "taxable_value": 4110.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "Web Design Service",
+    "hsn_sac": "998314",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 2995.75,
+    "discount": null,
+    "taxable_value": 8987.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "SEO Optimization Package",
+    "hsn_sac": "998317",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 1230.4,
+    "discount": null,
+    "taxable_value": 2460.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cloud Storage Upgrade",
+    "hsn_sac": "998316",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5187.6,
+    "discount": null,
+    "taxable_value": 5187.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Annual Maintenance Contract",
+    "hsn_sac": "998316",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 1450.15,
+    "discount": null,
+    "taxable_value": 1450.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Data Backup Service",
+    "hsn_sac": "998316",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 2115.5,
+    "discount": null,
+    "taxable_value": 8462.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "IT Infrastructure Upgrade",
+    "hsn_sac": "998314",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 6587.4,
+    "discount": null,
+    "taxable_value": 6587.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cybersecurity Audit",
+    "hsn_sac": "998316",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 3624.85,
+    "discount": null,
+    "taxable_value": 7249.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Project Management Service",
+    "hsn_sac": "998317",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 2894.65,
+    "discount": null,
+    "taxable_value": 2894.65,
+    "tax_rate": 18
+   },
+   {
+    "description": "Premium Support",
+    "hsn_sac": "998316",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 2495.0,
+    "discount": null,
+    "taxable_value": 4990.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Software License Renewal",
+    "hsn_sac": "998317",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 1762.2,
+    "discount": null,
+    "taxable_value": 5286.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Network Setup Service",
+    "hsn_sac": "998314",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4399.95,
+    "discount": null,
+    "taxable_value": 4399.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "IT Training Program",
+    "hsn_sac": "998316",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 3186.3,
+    "discount": null,
+    "taxable_value": 6372.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Backup Recovery Service",
+    "hsn_sac": "998316",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 2735.5,
+    "discount": null,
+    "taxable_value": 2735.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cloud Migration Service",
+    "hsn_sac": "998317",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 4975.25,
+    "discount": null,
+    "taxable_value": 9950.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Quality Assurance Testing",
+    "hsn_sac": "998317",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5612.0,
+    "discount": null,
+    "taxable_value": 5612.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hardware Supply",
+    "hsn_sac": null,
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 3845.9,
+    "discount": null,
+    "taxable_value": 19229.5,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 115643.9,
+  "cgst_amount": 10407.95,
+  "sgst_amount": 10407.95,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 136459.8,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"INV-0023\",\"invoice_date\":\"2025-09-03\",\"seller_name\":\"JKL Associates\",\"seller_gstin\":\"27AAACJ1234L1Z5\",\"seller_address\":\"123 Park Street, Corporate Hub, Andheri Dry Bridge, Kurla East - 110001\",\"buyer_name\":\"Zenith Exports Private Limited\",\"buyer_gstin\":\"27AAACZ5678Q1Z3\",\"buyer_address\":\"456 Greenwood Avenue, Industrial Estate, Powai, Delhi - 110002\",\"place_of_supply\":\"MH\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"IT Consulting Services\",\"hsn_sac\":\"998314\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":1550.20,\"discount\":null,\"taxable_value\":4650.60,\"tax_rate\":18},{\"description\":\"Custom Software Development\",\"hsn_sac\":\"998314\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":2705.85,\"discount\":null,\"taxable_value\":5411.70,\"tax_rate\":18},{\"description\":\"Technical Support Services\",\"hsn_sac\":\"998316\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":3367.95,\"discount\":null,\"taxable_value\":3367.95,\"tax_rate\":18},{\"description\":\"Domain Registration\",\"hsn_sac\":null,\"quantity\":5,\"unit\":\"NOS\",\"unit_price\":649.30,\"discount\":null,\"taxable_value\":3246.50,\"tax_rate\":18},{\"description\":\"Hosting Service Annual\",\"hsn_sac\":\"998315\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":4110.95,\"discount\":null,\"taxable_value\":4110.95,\"tax_rate\":18},{\"description\":\"Web Design Service\",\"hsn_sac\":\"998314\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":2995.75,\"discount\":null,\"taxable_value\":8987.25,\"tax_rate\":18},{\"description\":\"SEO Optimization Package\",\"hsn_sac\":\"998317\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":1230.40,\"discount\":null,\"taxable_value\":2460.80,\"tax_rate\":18},{\"description\":\"Cloud Storage Upgrade\",\"hsn_sac\":\"998316\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5187.60,\"discount\":null,\"taxable_value\":5187.60,\"tax_rate\":18},{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998316\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":1450.15,\"discount\":null,\"taxable_value\":1450.15,\"tax_rate\":18},{\"description\":\"Data Backup Service\",\"hsn_sac\":\"998316\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":2115.50,\"discount\":null,\"taxable_value\":8462.00,\"tax_rate\":18},{\"description\":\"IT Infrastructure Upgrade\",\"hsn_sac\":\"998314\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":6587.40,\"discount\":null,\"taxable_value\":6587.40,\"tax_rate\":18},{\"description\":\"Cybersecurity Audit\",\"hsn_sac\":\"998316\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":3624.85,\"discount\":null,\"taxable_value\":7249.70,\"tax_rate\":18},{\"description\":\"Project Management Service\",\"hsn_sac\":\"998317\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":2894.65,\"discount\":null,\"taxable_value\":2894.65,\"tax_rate\":18},{\"description\":\"Premium Support\",\"hsn_sac\":\"998316\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":2495.00,\"discount\":null,\"taxable_value\":4990.00,\"tax_rate\":18},{\"description\":\"Software License Renewal\",\"hsn_sac\":\"998317\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":1762.20,\"discount\":null,\"taxable_value\":5286.60,\"tax_rate\":18},{\"description\":\"Network Setup Service\",\"hsn_sac\":\"998314\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":4399.95,\"discount\":null,\"taxable_value\":4399.95,\"tax_rate\":18},{\"description\":\"IT Training Program\",\"hsn_sac\":\"998316\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":3186.30,\"discount\":null,\"taxable_value\":6372.60,\"tax_rate\":18},{\"description\":\"Backup Recovery Service\",\"hsn_sac\":\"998316\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":2735.50,\"discount\":null,\"taxable_value\":2735.50,\"tax_rate\":18},{\"description\":\"Cloud Migration Service\",\"hsn_sac\":\"998317\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":4975.25,\"discount\":null,\"taxable_value\":9950.50,\"tax_rate\":18},{\"description\":\"Quality Assurance Testing\",\"hsn_sac\":\"998317\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5612.00,\"discount\":null,\"taxable_value\":5612.00,\"tax_rate\":18},{\"description\":\"Hardware Supply\",\"hsn_sac\":null,\"quantity\":5,\"unit\":\"NOS\",\"unit_price\":3845.90,\"discount\":null,\"taxable_value\":19229.50,\"tax_rate\":18}],\"total_taxable_value\":115643.90,\"cgst_amount\":10407.95,\"sgst_amount\":10407.95,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":136459.80,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2148,
+ "output_tokens": 1213,
+ "cached_input_tokens": 0,
+ "latency_s": 7.1265,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

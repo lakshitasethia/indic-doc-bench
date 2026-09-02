@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00087__L1_scan",
+ "doc_id": "syn00087",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0989",
+  "invoice_date": "2025-11-03",
+  "seller_name": "Iyer Solutions Private Limited",
+  "seller_gstin": "23DSHPI9578U1ZI",
+  "seller_address": "Khasra No. 182, Focal Point, Indore, Madhya Pradesh 476451",
+  "buyer_name": "Chowdhury Marketing",
+  "buyer_gstin": "23CJUCC7904N3ZF",
+  "buyer_address": "Gala No. 158, Industrial Estate, Indore, Madhya Pradesh 480190",
+  "place_of_supply": "23 - Madhya Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "total_taxable_value": 94241.4,
+  "cgst_amount": 2392.13,
+  "sgst_amount": 2392.13,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.34,
+  "grand_total": 99026.0,
+  "amount_in_words": "Rupees Ninety Nine Thousand Twenty Six Only",
+  "line_items": [
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 1.034,
+    "unit": "LTR",
+    "unit_price": 537.01,
+    "discount": null,
+    "taxable_value": 555.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 1943.969,
+    "unit": "KGS",
+    "unit_price": 47.07,
+    "discount": null,
+    "taxable_value": 91502.62,
+    "tax_rate": 5
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 7,
+    "unit": "PCS",
+    "unit_price": 311.93,
+    "discount": null,
+    "taxable_value": 2183.51,
+    "tax_rate": 5
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"0989\",\"invoice_date\":\"2025-11-03\",\"seller_name\":\"Iyer Solutions Private Limited\",\"seller_gstin\":\"23DSHPI9578U1ZI\",\"seller_address\":\"Khasra No. 182, Focal Point, Indore, Madhya Pradesh 476451\",\"buyer_name\":\"Chowdhury Marketing\",\"buyer_gstin\":\"23CJUCC7904N3ZF\",\"buyer_address\":\"Gala No. 158, Industrial Estate, Indore, Madhya Pradesh 480190\",\"place_of_supply\":\"23 - Madhya Pradesh\",\"reverse_charge\":false,\"irn\":null,\"total_taxable_value\":94241.40,\"cgst_amount\":2392.13,\"sgst_amount\":2392.13,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.34,\"grand_total\":99026.00,\"amount_in_words\":\"Rupees Ninety Nine Thousand Twenty Six Only\",\"line_items\":[{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":1.034,\"unit\":\"LTR\",\"unit_price\":537.01,\"discount\":null,\"taxable_value\":555.27,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":1943.969,\"unit\":\"KGS\",\"unit_price\":47.07,\"discount\":null,\"taxable_value\":91502.62,\"tax_rate\":5},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":7,\"unit\":\"PCS\",\"unit_price\":311.93,\"discount\":null,\"taxable_value\":2183.51,\"tax_rate\":5}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5942,
+ "output_tokens": 364,
+ "cached_input_tokens": 0,
+ "latency_s": 8.8893,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00062__L2_photo",
+ "doc_id": "syn00062",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/8512",
+  "invoice_date": "2025-10-10",
+  "seller_name": "CHAUHAN & SONS PVT. LTD.",
+  "seller_gstin": "09YUBCC5492T9ZR",
+  "seller_address": "Shop No. 285, Kalbadevi Road, Kanpur - 231247 (Uttar Pradesh)",
+  "buyer_name": "Patel Solutions",
+  "buyer_gstin": "06WPYPP1160I12Y",
+  "buyer_address": "Unit No. 103, MG Road, Panipat - 130854",
+  "place_of_supply": "06-Haryana",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 2436,
+    "unit": "BOX",
+    "unit_price": 30.75,
+    "discount": null,
+    "taxable_value": 74907.0,
+    "tax_rate": 12
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 44,
+    "unit": "PRS",
+    "unit_price": 1700.06,
+    "discount": null,
+    "taxable_value": 74802.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 62.17,
+    "discount": null,
+    "taxable_value": 870.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 80473.86,
+    "discount": null,
+    "taxable_value": 80473.86,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 231053.88,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 37095.28,
+  "cess_amount": null,
+  "round_off": -0.16,
+  "grand_total": 268149.0,
+  "amount_in_words": "Rupees Two Lakh Sixty Eight Thousand One Hundred and Forty Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"INV/25-26/8512\",\"invoice_date\":\"2025-10-10\",\"seller_name\":\"CHAUHAN & SONS PVT. LTD.\",\"seller_gstin\":\"09YUBCC5492T9ZR\",\"seller_address\":\"Shop No. 285, Kalbadevi Road, Kanpur - 231247 (Uttar Pradesh)\",\"buyer_name\":\"Patel Solutions\",\"buyer_gstin\":\"06WPYPP1160I12Y\",\"buyer_address\":\"Unit No. 103, MG Road, Panipat - 130854\",\"place_of_supply\":\"06-Haryana\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":2436,\"unit\":\"BOX\",\"unit_price\":30.75,\"discount\":null,\"taxable_value\":74907.00,\"tax_rate\":12},{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":44,\"unit\":\"PRS\",\"unit_price\":1700.06,\"discount\":null,\"taxable_value\":74802.64,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":62.17,\"discount\":null,\"taxable_value\":870.38,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":80473.86,\"discount\":null,\"taxable_value\":80473.86,\"tax_rate\":18}],\"total_taxable_value\":231053.88,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":37095.28,\"cess_amount\":null,\"round_off\":-0.16,\"grand_total\":268149.00,\"amount_in_words\":\"Rupees Two Lakh Sixty Eight Thousand One Hundred and Forty Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3134,
+ "output_tokens": 427,
+ "cached_input_tokens": 0,
+ "latency_s": 9.4308,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

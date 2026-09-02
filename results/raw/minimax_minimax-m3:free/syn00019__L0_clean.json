@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00019__L0_clean",
+ "doc_id": "syn00019",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "0304",
+  "invoice_date": "2025-11-24",
+  "seller_name": "Mehra Technologies Limited",
+  "seller_gstin": "19RZIFM6208I4Z3",
+  "seller_address": "Unit No. 23, Chandni Chowk, Siliguri, West Bengal - 736380",
+  "buyer_name": "Mehra Distributors Private Limited",
+  "buyer_gstin": "19LHLFM1052G5ZJ",
+  "buyer_address": "Shop No. 285, Ambattur Industrial Estate, Siliguri, West Bengal - 725433",
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 425449.92,
+  "cgst_amount": 18296.68,
+  "sgst_amount": 18296.68,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.28,
+  "grand_total": 462043.0,
+  "amount_in_words": "Rupees Four Lakh Sixty Two Thousand Forty Three Only",
+  "line_items": [
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 26189.33,
+    "discount": null,
+    "taxable_value": 26189.33,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5259.69,
+    "discount": null,
+    "taxable_value": 5259.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 209,
+    "unit": "SET",
+    "unit_price": 310.33,
+    "discount": null,
+    "taxable_value": 64858.97,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 103.04,
+    "discount": null,
+    "taxable_value": 1442.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 31,
+    "unit": "PCS",
+    "unit_price": 113.1,
+    "discount": null,
+    "taxable_value": 3506.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 16596.16,
+    "discount": null,
+    "taxable_value": 16596.16,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 7061.458,
+    "unit": "KGS",
+    "unit_price": 43.56,
+    "discount": null,
+    "taxable_value": 307597.11,
+    "tax_rate": 5
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"0304\",\"invoice_date\":\"2025-11-24\",\"seller_name\":\"Mehra Technologies Limited\",\"seller_gstin\":\"19RZIFM6208I4Z3\",\"seller_address\":\"Unit No. 23, Chandni Chowk, Siliguri, West Bengal - 736380\",\"buyer_name\":\"Mehra Distributors Private Limited\",\"buyer_gstin\":\"19LHLFM1052G5ZJ\",\"buyer_address\":\"Shop No. 285, Ambattur Industrial Estate, Siliguri, West Bengal - 725433\",\"place_of_supply\":\"West Bengal\",\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":425449.92,\"cgst_amount\":18296.68,\"sgst_amount\":18296.68,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.28,\"grand_total\":462043.00,\"amount_in_words\":\"Rupees Four Lakh Sixty Two Thousand Forty Three Only\",\"line_items\":[{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":26189.33,\"discount\":null,\"taxable_value\":26189.33,\"tax_rate\":18},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5259.69,\"discount\":null,\"taxable_value\":5259.69,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":209,\"unit\":\"SET\",\"unit_price\":310.33,\"discount\":null,\"taxable_value\":64858.97,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":103.04,\"discount\":null,\"taxable_value\":1442.56,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":31,\"unit\":\"PCS\",\"unit_price\":113.10,\"discount\":null,\"taxable_value\":3506.10,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":16596.16,\"discount\":null,\"taxable_value\":16596.16,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":7061.458,\"unit\":\"KGS\",\"unit_price\":43.56,\"discount\":null,\"taxable_value\":307597.11,\"tax_rate\":5}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6374,
+ "output_tokens": 578,
+ "cached_input_tokens": 0,
+ "latency_s": 5.7692,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

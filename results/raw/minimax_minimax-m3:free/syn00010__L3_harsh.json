@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00010__L3_harsh",
+ "doc_id": "syn00010",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": null,
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 255150.0,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.06,
+  "grand_total": 266318.68,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 232.639,
+    "unit": "LTR",
+    "unit_price": 459,
+    "discount": null,
+    "taxable_value": 105853.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 7,
+    "unit": "SET",
+    "unit_price": 439.1,
+    "discount": null,
+    "taxable_value": 3073.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "M3 Induction Stove 2000",
+    "hsn_sac": "8413",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 36879.15,
+    "discount": null,
+    "taxable_value": 26879.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 14251.57,
+    "discount": null,
+    "taxable_value": 14251.57,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 71x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7036.48,
+    "discount": null,
+    "taxable_value": 7036.48,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": null, \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": null, \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 255150.00, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": -0.06, \"grand_total\": 266318.68, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Synthetic Enamel Paint 4L\", \"hsn_sac\": \"3208\", \"quantity\": 232.639, \"unit\": \"LTR\", \"unit_price\": 459, \"discount\": null, \"taxable_value\": 105853.58, \"tax_rate\": 18}, {\"description\": \"Stainless Steel Cutlery Set\", \"hsn_sac\": \"8215\", \"quantity\": 7, \"unit\": \"SET\", \"unit_price\": 439.10, \"discount\": null, \"taxable_value\": 3073.30, \"tax_rate\": 18}, {\"description\": \"M3 Induction Stove 2000\", \"hsn_sac\": \"8413\", \"quantity\": 2, \"unit\": \"NOS\", \"unit_price\": 36879.15, \"discount\": null, \"taxable_value\": 26879.15, \"tax_rate\": 18}, {\"description\": \"Office Workstation Table\", \"hsn_sac\": \"9403\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 14251.57, \"discount\": null, \"taxable_value\": 14251.57, \"tax_rate\": 18}, {\"description\": \"Foam Mattress 71x36\", \"hsn_sac\": \"9404\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 7036.48, \"discount\": null, \"taxable_value\": 7036.48, \"tax_rate\": 18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1982,
+ "output_tokens": 475,
+ "cached_input_tokens": 0,
+ "latency_s": 7.4801,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

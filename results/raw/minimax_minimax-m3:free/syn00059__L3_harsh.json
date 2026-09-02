@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00059__L3_harsh",
+ "doc_id": "syn00059",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TE/25-26/056",
+  "invoice_date": "2025-04-15",
+  "seller_name": "Truelance Infrastructure LLP",
+  "seller_gstin": "23ABDFT5847M1ZG",
+  "seller_address": "Unit No. 404, Platinum 2nd Sagar, Gulwa, Gwalior - 474001",
+  "buyer_name": "Jigyasa Traders Limited",
+  "buyer_gstin": "23ABDFJ3780M1ZJ",
+  "buyer_address": "Shop No. 110, Ambition Industrial Estate, Indore, Madhya Pradesh",
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Item",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "PCS",
+    "unit_price": 27356,
+    "discount": 925.28,
+    "taxable_value": 26374,
+    "tax_rate": 18
+   },
+   {
+    "description": "Item",
+    "hsn_sac": "7318",
+    "quantity": 2020,
+    "unit": "PCS",
+    "unit_price": 28.77,
+    "discount": 0,
+    "taxable_value": 54442,
+    "tax_rate": 18
+   },
+   {
+    "description": "Item",
+    "hsn_sac": "3206",
+    "quantity": 12.67,
+    "unit": "KGS",
+    "unit_price": 127.25,
+    "discount": 0,
+    "taxable_value": 1399.71,
+    "tax_rate": 5
+   },
+   {
+    "description": "Item",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "PCS",
+    "unit_price": 32193,
+    "discount": 1379.6,
+    "taxable_value": 30813.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Item",
+    "hsn_sac": "2806",
+    "quantity": 3,
+    "unit": "PCS",
+    "unit_price": 6572.85,
+    "discount": 0,
+    "taxable_value": 4533.5,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 125379.46,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 21866.04,
+  "cess_amount": null,
+  "round_off": 0.5,
+  "grand_total": 159272.04,
+  "amount_in_words": "One Lakh Fifty Nine Thousand Two Hundred Seventy Two Only"
+ },
+ "raw": "{\"invoice_number\":\"TE/25-26/056\",\"invoice_date\":\"2025-04-15\",\"seller_name\":\"Truelance Infrastructure LLP\",\"seller_gstin\":\"23ABDFT5847M1ZG\",\"seller_address\":\"Unit No. 404, Platinum 2nd Sagar, Gulwa, Gwalior - 474001\",\"buyer_name\":\"Jigyasa Traders Limited\",\"buyer_gstin\":\"23ABDFJ3780M1ZJ\",\"buyer_address\":\"Shop No. 110, Ambition Industrial Estate, Indore, Madhya Pradesh\",\"place_of_supply\":\"Madhya Pradesh\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Item\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"PCS\",\"unit_price\":27356,\"discount\":925.28,\"taxable_value\":26374,\"tax_rate\":18},{\"description\":\"Item\",\"hsn_sac\":\"7318\",\"quantity\":2020,\"unit\":\"PCS\",\"unit_price\":28.77,\"discount\":0,\"taxable_value\":54442,\"tax_rate\":18},{\"description\":\"Item\",\"hsn_sac\":\"3206\",\"quantity\":12.670,\"unit\":\"KGS\",\"unit_price\":127.25,\"discount\":0,\"taxable_value\":1399.71,\"tax_rate\":5},{\"description\":\"Item\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"PCS\",\"unit_price\":32193,\"discount\":1379.6,\"taxable_value\":30813.4,\"tax_rate\":18},{\"description\":\"Item\",\"hsn_sac\":\"2806\",\"quantity\":3,\"unit\":\"PCS\",\"unit_price\":6572.85,\"discount\":0,\"taxable_value\":4533.5,\"tax_rate\":18}],\"total_taxable_value\":125379.46,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":21866.04,\"cess_amount\":null,\"round_off\":0.5,\"grand_total\":159272.04,\"amount_in_words\":\"One Lakh Fifty Nine Thousand Two Hundred Seventy Two Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2010,
+ "output_tokens": 443,
+ "cached_input_tokens": 0,
+ "latency_s": 4.7125,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

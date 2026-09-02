@@ -1,0 +1,169 @@
+{
+ "variant_id": "syn00063__L1_scan",
+ "doc_id": "syn00063",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/9412",
+  "invoice_date": "2025-10-08",
+  "seller_name": "Kulkarni Pharma Pvt. Ltd.",
+  "seller_gstin": "24OSBCK7592G5ZV",
+  "seller_address": "Gala No. 188, Peenya 2nd Stage, Rajkot, Gujarat 393426",
+  "buyer_name": "Iyer Industries LLP",
+  "buyer_gstin": "24SJLFI3523W6ZI",
+  "buyer_address": "Door No. 26, MG Road, Vadodara, Gujarat 394368",
+  "place_of_supply": "24 - Gujarat",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 62.25,
+    "unit": "MTR",
+    "unit_price": 163.49,
+    "discount": null,
+    "taxable_value": 10177.25,
+    "tax_rate": 5
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 12.786,
+    "unit": "LTR",
+    "unit_price": 498.97,
+    "discount": null,
+    "taxable_value": 6379.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 8,
+    "unit": "BAG",
+    "unit_price": 452.96,
+    "discount": null,
+    "taxable_value": 3623.68,
+    "tax_rate": 28
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 62875.47,
+    "discount": null,
+    "taxable_value": 62875.47,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 9,
+    "unit": "NOS",
+    "unit_price": 18833.36,
+    "discount": null,
+    "taxable_value": 169500.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 7100.69,
+    "discount": 1420.14,
+    "taxable_value": 12781.24,
+    "tax_rate": 28
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 199,
+    "unit": "NOS",
+    "unit_price": 27.46,
+    "discount": null,
+    "taxable_value": 5464.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 3,
+    "unit": "SET",
+    "unit_price": 452.72,
+    "discount": null,
+    "taxable_value": 1358.16,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 13,
+    "unit": "PCS",
+    "unit_price": 181.78,
+    "discount": null,
+    "taxable_value": 2363.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 6027,
+    "unit": "NOS",
+    "unit_price": 46.28,
+    "discount": null,
+    "taxable_value": 278929.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 10429.95,
+    "discount": null,
+    "taxable_value": 10429.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.214,
+    "unit": "TON",
+    "unit_price": 51600.09,
+    "discount": 1104.24,
+    "taxable_value": 9938.18,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 573821.24,
+  "cgst_amount": 51802.63,
+  "sgst_amount": 51802.63,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.5,
+  "grand_total": 677427.0,
+  "amount_in_words": "Rupees Six Lakh Seventy Seven Thousand Four Hundred and Twenty Seven Only"
+ },
+ "raw": "{\"invoice_number\":\"INV/25-26/9412\",\"invoice_date\":\"2025-10-08\",\"seller_name\":\"Kulkarni Pharma Pvt. Ltd.\",\"seller_gstin\":\"24OSBCK7592G5ZV\",\"seller_address\":\"Gala No. 188, Peenya 2nd Stage, Rajkot, Gujarat 393426\",\"buyer_name\":\"Iyer Industries LLP\",\"buyer_gstin\":\"24SJLFI3523W6ZI\",\"buyer_address\":\"Door No. 26, MG Road, Vadodara, Gujarat 394368\",\"place_of_supply\":\"24 - Gujarat\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":62.250,\"unit\":\"MTR\",\"unit_price\":163.49,\"discount\":null,\"taxable_value\":10177.25,\"tax_rate\":5},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":12.786,\"unit\":\"LTR\",\"unit_price\":498.97,\"discount\":null,\"taxable_value\":6379.83,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":8,\"unit\":\"BAG\",\"unit_price\":452.96,\"discount\":null,\"taxable_value\":3623.68,\"tax_rate\":28},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":62875.47,\"discount\":null,\"taxable_value\":62875.47,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":9,\"unit\":\"NOS\",\"unit_price\":18833.36,\"discount\":null,\"taxable_value\":169500.24,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":7100.69,\"discount\":1420.14,\"taxable_value\":12781.24,\"tax_rate\":28},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":199,\"unit\":\"NOS\",\"unit_price\":27.46,\"discount\":null,\"taxable_value\":5464.54,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":3,\"unit\":\"SET\",\"unit_price\":452.72,\"discount\":null,\"taxable_value\":1358.16,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":13,\"unit\":\"PCS\",\"unit_price\":181.78,\"discount\":null,\"taxable_value\":2363.14,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":6027,\"unit\":\"NOS\",\"unit_price\":46.28,\"discount\":null,\"taxable_value\":278929.56,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":10429.95,\"discount\":null,\"taxable_value\":10429.95,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.214,\"unit\":\"TON\",\"unit_price\":51600.09,\"discount\":1104.24,\"taxable_value\":9938.18,\"tax_rate\":18}],\"total_taxable_value\":573821.24,\"cgst_amount\":51802.63,\"sgst_amount\":51802.63,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.50,\"grand_total\":677427.00,\"amount_in_words\":\"Rupees Six Lakh Seventy Seven Thousand Four Hundred and Twenty Seven Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5438,
+ "output_tokens": 866,
+ "cached_input_tokens": 0,
+ "latency_s": 11.3499,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

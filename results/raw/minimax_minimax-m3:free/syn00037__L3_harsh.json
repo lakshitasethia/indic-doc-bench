@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00037__L3_harsh",
+ "doc_id": "syn00037",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Jaimi Indutech Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Nektejar Steel & Alloys LLP",
+  "buyer_gstin": null,
+  "buyer_address": "Survey No. 109, Industrial Estate, Hyderabad, Telangana",
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Stainless Round Wires, 1 other",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 49021.5,
+    "tax_rate": null
+   },
+   {
+    "description": "Corrosion Steel Cutlery Set",
+    "hsn_sac": null,
+    "quantity": 20,
+    "unit": "SET",
+    "unit_price": 326.73,
+    "discount": null,
+    "taxable_value": 6534.6,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 55556.1,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 71099.4,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"Jaimi Indutech Pvt. Ltd.\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":\"Nektejar Steel & Alloys LLP\",\"buyer_gstin\":null,\"buyer_address\":\"Survey No. 109, Industrial Estate, Hyderabad, Telangana\",\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Stainless Round Wires, 1 other\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":49021.5,\"tax_rate\":null},{\"description\":\"Corrosion Steel Cutlery Set\",\"hsn_sac\":null,\"quantity\":20,\"unit\":\"SET\",\"unit_price\":326.73,\"discount\":null,\"taxable_value\":6534.6,\"tax_rate\":null}],\"total_taxable_value\":55556.1,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":71099.4,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1924,
+ "output_tokens": 247,
+ "cached_input_tokens": 0,
+ "latency_s": 3.4798,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

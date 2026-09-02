@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00028__L1_scan",
+ "doc_id": "syn00028",
+ "level": "L1_scan",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2398",
+  "invoice_date": "2025-09-11",
+  "seller_name": "Iyer Electricals Pvt. Ltd.",
+  "seller_gstin": "36EXLFI2018A2ZG",
+  "seller_address": "Unit No. 167, Focal Point, Hyderabad, Telangana - 504823",
+  "buyer_name": "Trivedi Textiles Pvt. Ltd.",
+  "buyer_gstin": "33EBNFT0784C5ZY",
+  "buyer_address": "Door No. 35, Sector 63, Madurai, Tamil Nadu - 631601",
+  "place_of_supply": "Tamil Nadu (33)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 1218,
+    "unit": "NOS",
+    "unit_price": 33.11,
+    "discount": null,
+    "taxable_value": 40327.98,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 7,
+    "unit": "NOS",
+    "unit_price": 5550.81,
+    "discount": null,
+    "taxable_value": 38855.67,
+    "tax_rate": 28
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 578,
+    "unit": "PCS",
+    "unit_price": 221.4,
+    "discount": null,
+    "taxable_value": 127969.2,
+    "tax_rate": 5
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 87.066,
+    "unit": "MTR",
+    "unit_price": 64.04,
+    "discount": null,
+    "taxable_value": 5575.71,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 20486.67,
+    "discount": 2048.67,
+    "taxable_value": 18438.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 231166.56,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 28859.56,
+  "cess_amount": null,
+  "round_off": -0.12,
+  "grand_total": 260026.0,
+  "amount_in_words": "Rupees Two Lakh Sixty Thousand Twenty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"2398\",\"invoice_date\":\"2025-09-11\",\"seller_name\":\"Iyer Electricals Pvt. Ltd.\",\"seller_gstin\":\"36EXLFI2018A2ZG\",\"seller_address\":\"Unit No. 167, Focal Point, Hyderabad, Telangana - 504823\",\"buyer_name\":\"Trivedi Textiles Pvt. Ltd.\",\"buyer_gstin\":\"33EBNFT0784C5ZY\",\"buyer_address\":\"Door No. 35, Sector 63, Madurai, Tamil Nadu - 631601\",\"place_of_supply\":\"Tamil Nadu (33)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":1218,\"unit\":\"NOS\",\"unit_price\":33.11,\"discount\":null,\"taxable_value\":40327.98,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":7,\"unit\":\"NOS\",\"unit_price\":5550.81,\"discount\":null,\"taxable_value\":38855.67,\"tax_rate\":28},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":578,\"unit\":\"PCS\",\"unit_price\":221.40,\"discount\":null,\"taxable_value\":127969.20,\"tax_rate\":5},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":87.066,\"unit\":\"MTR\",\"unit_price\":64.04,\"discount\":null,\"taxable_value\":5575.71,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":20486.67,\"discount\":2048.67,\"taxable_value\":18438.00,\"tax_rate\":18}],\"total_taxable_value\":231166.56,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":28859.56,\"cess_amount\":null,\"round_off\":-0.12,\"grand_total\":260026.00,\"amount_in_words\":\"Rupees Two Lakh Sixty Thousand Twenty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3926,
+ "output_tokens": 482,
+ "cached_input_tokens": 0,
+ "latency_s": 7.8464,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

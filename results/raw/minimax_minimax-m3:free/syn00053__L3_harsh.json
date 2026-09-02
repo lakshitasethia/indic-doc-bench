@@ -1,0 +1,139 @@
+{
+ "variant_id": "syn00053__L3_harsh",
+ "doc_id": "syn00053",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/250425",
+  "invoice_date": "2025-04-25",
+  "seller_name": "Nuwall Steel & Alloys Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Kishori Distributors",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 208181.39,
+  "cgst_amount": 20814.2,
+  "sgst_amount": 20814.2,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.21,
+  "grand_total": 7247010.0,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 17973.43,
+    "discount": null,
+    "taxable_value": 17973.43,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe 500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.198,
+    "unit": "TON",
+    "unit_price": 31879.55,
+    "discount": null,
+    "taxable_value": 3187.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 614.7,
+    "discount": null,
+    "taxable_value": 1825.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Plastic Cone Pieces",
+    "hsn_sac": "3926",
+    "quantity": 53,
+    "unit": "PCS",
+    "unit_price": 219.8,
+    "discount": null,
+    "taxable_value": 11649.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 5,
+    "unit": "BAG",
+    "unit_price": 391.52,
+    "discount": null,
+    "taxable_value": 1757.6,
+    "tax_rate": 28
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 192,
+    "unit": "SET",
+    "unit_price": 363.53,
+    "discount": null,
+    "taxable_value": 39816.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 39655.34,
+    "discount": null,
+    "taxable_value": 39855.34,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 49381.73,
+    "discount": null,
+    "taxable_value": 68363.71,
+    "tax_rate": 12
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 580,
+    "unit": "NOS",
+    "unit_price": 16.97,
+    "discount": null,
+    "taxable_value": 10046.24,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"INV/250425\",\"invoice_date\":\"2025-04-25\",\"seller_name\":\"Nuwall Steel & Alloys Pvt. Ltd.\",\"seller_gstin\":null,\"seller_address\":null,\"buyer_name\":\"Kishori Distributors\",\"buyer_gstin\":null,\"buyer_address\":null,\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":208181.39,\"cgst_amount\":20814.20,\"sgst_amount\":20814.20,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.21,\"grand_total\":7247010.00,\"amount_in_words\":null,\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":17973.43,\"discount\":null,\"taxable_value\":17973.43,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe 500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.198,\"unit\":\"TON\",\"unit_price\":31879.55,\"discount\":null,\"taxable_value\":3187.96,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":614.70,\"discount\":null,\"taxable_value\":1825.80,\"tax_rate\":18},{\"description\":\"Plastic Cone Pieces\",\"hsn_sac\":\"3926\",\"quantity\":53,\"unit\":\"PCS\",\"unit_price\":219.80,\"discount\":null,\"taxable_value\":11649.75,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":5,\"unit\":\"BAG\",\"unit_price\":391.52,\"discount\":null,\"taxable_value\":1757.60,\"tax_rate\":28},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":192,\"unit\":\"SET\",\"unit_price\":363.53,\"discount\":null,\"taxable_value\":39816.56,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":39655.34,\"discount\":null,\"taxable_value\":39855.34,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":49381.73,\"discount\":null,\"taxable_value\":68363.71,\"tax_rate\":12},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":580,\"unit\":\"NOS\",\"unit_price\":16.97,\"discount\":null,\"taxable_value\":10046.24,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2100,
+ "output_tokens": 619,
+ "cached_input_tokens": 0,
+ "latency_s": 4.4236,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

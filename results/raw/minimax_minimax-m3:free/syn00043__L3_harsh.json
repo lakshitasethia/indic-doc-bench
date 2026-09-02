@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00043__L3_harsh",
+ "doc_id": "syn00043",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TL/25-26/2784",
+  "invoice_date": "2025-08-05",
+  "seller_name": "Sapphire Overseas LLP",
+  "seller_gstin": "29HIXSP8249J1GZ3",
+  "seller_address": "Gala No. 428, Ring Road, Mangaluru, Karnataka - 575020",
+  "buyer_name": "Agarwal Pharma",
+  "buyer_gstin": "29AOCPA9246G1ZK",
+  "buyer_address": "Shop No. 144, MGMC Phyto II, Bengaluru, Karnataka - 560076",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Silver Nano Gold 6000s Nut MIG",
+    "hsn_sac": "7118",
+    "quantity": 6000,
+    "unit": "NOS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 350.16,
+    "tax_rate": 3
+   }
+  ],
+  "total_taxable_value": 350.16,
+  "cgst_amount": 5.25,
+  "sgst_amount": 5.25,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 360.66,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"TL/25-26/2784\",\"invoice_date\":\"2025-08-05\",\"seller_name\":\"Sapphire Overseas LLP\",\"seller_gstin\":\"29HIXSP8249J1GZ3\",\"seller_address\":\"Gala No. 428, Ring Road, Mangaluru, Karnataka - 575020\",\"buyer_name\":\"Agarwal Pharma\",\"buyer_gstin\":\"29AOCPA9246G1ZK\",\"buyer_address\":\"Shop No. 144, MGMC Phyto II, Bengaluru, Karnataka - 560076\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Silver Nano Gold 6000s Nut MIG\",\"hsn_sac\":\"7118\",\"quantity\":6000,\"unit\":\"NOS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":350.16,\"tax_rate\":3}],\"total_taxable_value\":350.16,\"cgst_amount\":5.25,\"sgst_amount\":5.25,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":360.66,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1918,
+ "output_tokens": 245,
+ "cached_input_tokens": 0,
+ "latency_s": 3.5703,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

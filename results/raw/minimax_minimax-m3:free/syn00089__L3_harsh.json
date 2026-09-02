@@ -1,0 +1,189 @@
+{
+ "variant_id": "syn00089__L3_harsh",
+ "doc_id": "syn00089",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2024-01-31",
+  "seller_name": "Ajax Textiles Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Jyoti Polyprints LLP",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 590138.65,
+  "cgst_amount": 55719.13,
+  "sgst_amount": 55719.13,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.12,
+  "grand_total": 711997.03,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Circular Workstation Table",
+    "hsn_sac": null,
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 15028.97,
+    "discount": null,
+    "taxable_value": 75944.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": null,
+    "quantity": 731,
+    "unit": "SET",
+    "unit_price": 379.69,
+    "discount": null,
+    "taxable_value": 277553.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "Tool Chair 100g",
+    "hsn_sac": null,
+    "quantity": 3807,
+    "unit": "PCS",
+    "unit_price": 34.83,
+    "discount": null,
+    "taxable_value": 12495.41,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartshine 820/1200GB",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 14875.02,
+    "discount": null,
+    "taxable_value": 14876.62,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": null,
+    "quantity": 7200,
+    "unit": null,
+    "unit_price": 112.9,
+    "discount": null,
+    "taxable_value": 3180.07,
+    "tax_rate": 18
+   },
+   {
+    "description": "Prephenol IP 650mg Tablets",
+    "hsn_sac": null,
+    "quantity": 26199,
+    "unit": "KGS",
+    "unit_price": 48.37,
+    "discount": null,
+    "taxable_value": 12134.72,
+    "tax_rate": 12
+   },
+   {
+    "description": "Multicolor Lead Pencil",
+    "hsn_sac": null,
+    "quantity": 2660,
+    "unit": "BOX",
+    "unit_price": 14876.97,
+    "discount": null,
+    "taxable_value": 14876.97,
+    "tax_rate": 18
+   },
+   {
+    "description": "Roller Pen TBE/65 R15",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7654.72,
+    "discount": null,
+    "taxable_value": 58273.65,
+    "tax_rate": 18
+   },
+   {
+    "description": "CPC 12 Grade Cement 50kg",
+    "hsn_sac": null,
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 427.43,
+    "discount": null,
+    "taxable_value": 59680.76,
+    "tax_rate": 28
+   },
+   {
+    "description": "MS Hex Bolt Nut M12",
+    "hsn_sac": null,
+    "quantity": 133,
+    "unit": "BAG",
+    "unit_price": 40.29,
+    "discount": null,
+    "taxable_value": 20648.35,
+    "tax_rate": 18
+   },
+   {
+    "description": "Helmet Super 0.95",
+    "hsn_sac": null,
+    "quantity": 515,
+    "unit": "NOS",
+    "unit_price": 43.94,
+    "discount": null,
+    "taxable_value": 7742.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": null,
+    "quantity": 179304,
+    "unit": "KGS",
+    "unit_price": 81.45,
+    "discount": null,
+    "taxable_value": 13967.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Acem CTG Tea Leaf",
+    "hsn_sac": null,
+    "quantity": 32,
+    "unit": "PCS",
+    "unit_price": 305.66,
+    "discount": null,
+    "taxable_value": 55776.23,
+    "tax_rate": 18
+   },
+   {
+    "description": null,
+    "hsn_sac": null,
+    "quantity": 15.605,
+    "unit": "KGS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": null,
+    "tax_rate": null
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": \"2024-01-31\", \"seller_name\": \"Ajax Textiles Pvt. Ltd.\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": \"Jyoti Polyprints LLP\", \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 590138.65, \"cgst_amount\": 55719.13, \"sgst_amount\": 55719.13, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": 0.12, \"grand_total\": 711997.03, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Circular Workstation Table\", \"hsn_sac\": null, \"quantity\": 5, \"unit\": \"NOS\", \"unit_price\": 15028.97, \"discount\": null, \"taxable_value\": 75944.85, \"tax_rate\": 18}, {\"description\": \"Stainless Steel Cutlery Set\", \"hsn_sac\": null, \"quantity\": 731, \"unit\": \"SET\", \"unit_price\": 379.69, \"discount\": null, \"taxable_value\": 277553.39, \"tax_rate\": 18}, {\"description\": \"Tool Chair 100g\", \"hsn_sac\": null, \"quantity\": 3807, \"unit\": \"PCS\", \"unit_price\": 34.83, \"discount\": null, \"taxable_value\": 12495.41, \"tax_rate\": 18}, {\"description\": \"Smartshine 820/1200GB\", \"hsn_sac\": null, \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 14875.02, \"discount\": null, \"taxable_value\": 14876.62, \"tax_rate\": 18}, {\"description\": \"MS Fabricated Structure\", \"hsn_sac\": null, \"quantity\": 7200, \"unit\": null, \"unit_price\": 112.90, \"discount\": null, \"taxable_value\": 3180.07, \"tax_rate\": 18}, {\"description\": \"Prephenol IP 650mg Tablets\", \"hsn_sac\": null, \"quantity\": 26199, \"unit\": \"KGS\", \"unit_price\": 48.37, \"discount\": null, \"taxable_value\": 12134.72, \"tax_rate\": 12}, {\"description\": \"Multicolor Lead Pencil\", \"hsn_sac\": null, \"quantity\": 2660, \"unit\": \"BOX\", \"unit_price\": 14876.97, \"discount\": null, \"taxable_value\": 14876.97, \"tax_rate\": 18}, {\"description\": \"Roller Pen TBE/65 R15\", \"hsn_sac\": null, \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 7654.72, \"discount\": null, \"taxable_value\": 58273.65, \"tax_rate\": 18}, {\"description\": \"CPC 12 Grade Cement 50kg\", \"hsn_sac\": null, \"quantity\": 6, \"unit\": \"NOS\", \"unit_price\": 427.43, \"discount\": null, \"taxable_value\": 59680.76, \"tax_rate\": 28}, {\"description\": \"MS Hex Bolt Nut M12\", \"hsn_sac\": null, \"quantity\": 133, \"unit\": \"BAG\", \"unit_price\": 40.29, \"discount\": null, \"taxable_value\": 20648.35, \"tax_rate\": 18}, {\"description\": \"Helmet Super 0.95\", \"hsn_sac\": null, \"quantity\": 515, \"unit\": \"NOS\", \"unit_price\": 43.94, \"discount\": null, \"taxable_value\": 7742.40, \"tax_rate\": 18}, {\"description\": \"Detergent Powder 1kg\", \"hsn_sac\": null, \"quantity\": 179304, \"unit\": \"KGS\", \"unit_price\": 81.45, \"discount\": null, \"taxable_value\": 13967.40, \"tax_rate\": 18}, {\"description\": \"Acem CTG Tea Leaf\", \"hsn_sac\": null, \"quantity\": 32, \"unit\": \"PCS\", \"unit_price\": 305.66, \"discount\": null, \"taxable_value\": 55776.23, \"tax_rate\": 18}, {\"description\": null, \"hsn_sac\": null, \"quantity\": 15.605, \"unit\": \"KGS\", \"unit_price\": null, \"discount\": null, \"taxable_value\": null, \"tax_rate\": null}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2194,
+ "output_tokens": 1053,
+ "cached_input_tokens": 0,
+ "latency_s": 6.5568,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

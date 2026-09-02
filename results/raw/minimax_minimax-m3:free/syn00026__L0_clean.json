@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00026__L0_clean",
+ "doc_id": "syn00026",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/0526",
+  "invoice_date": "2026-02-13",
+  "seller_name": "MENON POLYMERS",
+  "seller_gstin": "06VBCM3002F4ZU",
+  "seller_address": "Unit No. 319, Okhla Phase I, Gurugram - 124816 (Haryana)",
+  "buyer_name": "Agarwal & Sons Private Limited",
+  "buyer_gstin": "10SDGFA6607A7ZI",
+  "buyer_address": "Gala No. 234, Sector 63, Patna - 833740",
+  "place_of_supply": "10-Bihar",
+  "reverse_charge": true,
+  "irn": null,
+  "total_taxable_value": 316585.18,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 56985.33,
+  "cess_amount": null,
+  "round_off": 0.49,
+  "grand_total": 373571.0,
+  "amount_in_words": "Rupees Three Lakh Seventy Three Thousand Five Hundred and Seventy One Only",
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 186,
+    "unit": "BOX",
+    "unit_price": 223.71,
+    "discount": null,
+    "taxable_value": 41610.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 38.334,
+    "unit": "KGS",
+    "unit_price": 130.88,
+    "discount": null,
+    "taxable_value": 5017.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 10947.43,
+    "discount": null,
+    "taxable_value": 32842.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 1168,
+    "unit": "PCS",
+    "unit_price": 203.01,
+    "discount": null,
+    "taxable_value": 237115.68,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"INV/25-26/0526\",\"invoice_date\":\"2026-02-13\",\"seller_name\":\"MENON POLYMERS\",\"seller_gstin\":\"06VBCM3002F4ZU\",\"seller_address\":\"Unit No. 319, Okhla Phase I, Gurugram - 124816 (Haryana)\",\"buyer_name\":\"Agarwal & Sons Private Limited\",\"buyer_gstin\":\"10SDGFA6607A7ZI\",\"buyer_address\":\"Gala No. 234, Sector 63, Patna - 833740\",\"place_of_supply\":\"10-Bihar\",\"reverse_charge\":true,\"irn\":null,\"total_taxable_value\":316585.18,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":56985.33,\"cess_amount\":null,\"round_off\":0.49,\"grand_total\":373571.00,\"amount_in_words\":\"Rupees Three Lakh Seventy Three Thousand Five Hundred and Seventy One Only\",\"line_items\":[{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":186,\"unit\":\"BOX\",\"unit_price\":223.71,\"discount\":null,\"taxable_value\":41610.06,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":38.334,\"unit\":\"KGS\",\"unit_price\":130.88,\"discount\":null,\"taxable_value\":5017.15,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":10947.43,\"discount\":null,\"taxable_value\":32842.29,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":1168,\"unit\":\"PCS\",\"unit_price\":203.01,\"discount\":null,\"taxable_value\":237115.68,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5870,
+ "output_tokens": 418,
+ "cached_input_tokens": 0,
+ "latency_s": 4.9985,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

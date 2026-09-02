@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00005__L0_clean",
+ "doc_id": "syn00005",
+ "level": "L0_clean",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/0963",
+  "invoice_date": "2026-01-30",
+  "seller_name": "Naidu Steel & Alloys Private Limited",
+  "seller_gstin": "03UOVFN4403U4Z4",
+  "seller_address": "Plot No. 186, SIDCO Complex, Jalandhar 143330, Punjab",
+  "buyer_name": "Agarwal Polymers LLP",
+  "buyer_gstin": "03NVXCA9952B3ZU",
+  "buyer_address": "Shop No. 248, Sector 63, Ludhiana 142575, Punjab",
+  "place_of_supply": "Punjab",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 287859.51,
+  "cgst_amount": 25907.35,
+  "sgst_amount": 25907.35,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.21,
+  "grand_total": 339674.0,
+  "amount_in_words": "Rupees Three Lakh Thirty Nine Thousand Six Hundred and Seventy Four Only",
+  "line_items": [
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7043.25,
+    "discount": null,
+    "taxable_value": 7043.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 23,
+    "unit": "NOS",
+    "unit_price": 11746.31,
+    "discount": null,
+    "taxable_value": 270165.13,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 20,
+    "unit": "PCS",
+    "unit_price": 61.95,
+    "discount": null,
+    "taxable_value": 1239.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 51,
+    "unit": "PCS",
+    "unit_price": 157.78,
+    "discount": null,
+    "taxable_value": 8046.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 1,
+    "unit": "PRS",
+    "unit_price": 1393.21,
+    "discount": null,
+    "taxable_value": 1365.35,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"2025-26/0963\",\"invoice_date\":\"2026-01-30\",\"seller_name\":\"Naidu Steel & Alloys Private Limited\",\"seller_gstin\":\"03UOVFN4403U4Z4\",\"seller_address\":\"Plot No. 186, SIDCO Complex, Jalandhar 143330, Punjab\",\"buyer_name\":\"Agarwal Polymers LLP\",\"buyer_gstin\":\"03NVXCA9952B3ZU\",\"buyer_address\":\"Shop No. 248, Sector 63, Ludhiana 142575, Punjab\",\"place_of_supply\":\"Punjab\",\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":287859.51,\"cgst_amount\":25907.35,\"sgst_amount\":25907.35,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.21,\"grand_total\":339674.00,\"amount_in_words\":\"Rupees Three Lakh Thirty Nine Thousand Six Hundred and Seventy Four Only\",\"line_items\":[{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":7043.25,\"discount\":null,\"taxable_value\":7043.25,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":23,\"unit\":\"NOS\",\"unit_price\":11746.31,\"discount\":null,\"taxable_value\":270165.13,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":20,\"unit\":\"PCS\",\"unit_price\":61.95,\"discount\":null,\"taxable_value\":1239.00,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":51,\"unit\":\"PCS\",\"unit_price\":157.78,\"discount\":null,\"taxable_value\":8046.78,\"tax_rate\":18},{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":1,\"unit\":\"PRS\",\"unit_price\":1393.21,\"discount\":null,\"taxable_value\":1365.35,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6518,
+ "output_tokens": 471,
+ "cached_input_tokens": 0,
+ "latency_s": 7.919,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

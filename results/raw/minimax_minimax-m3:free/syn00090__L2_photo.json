@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00090__L2_photo",
+ "doc_id": "syn00090",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/3595",
+  "invoice_date": "2025-08-25",
+  "seller_name": "Trivedi Trading Co.",
+  "seller_gstin": "10ZKRF72734I5ZR",
+  "seller_address": "Shop No. 446, Peenya 2nd Stage, Muzaffarpur, Bihar-806612",
+  "buyer_name": "Ahluwalia Technologies Limited",
+  "buyer_gstin": "10DHTPA4952A5ZP",
+  "buyer_address": "Unit No. 160, GIDC Estate, Patna, Bihar-825424",
+  "place_of_supply": "10-Bihar",
+  "reverse_charge": "N",
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 913,
+    "unit": "BOX",
+    "unit_price": 391.73,
+    "discount": null,
+    "taxable_value": 357649.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 1593,
+    "unit": "PCS",
+    "unit_price": 164.51,
+    "discount": null,
+    "taxable_value": 262064.43,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 10,
+    "unit": "NOS",
+    "unit_price": 16831.48,
+    "discount": null,
+    "taxable_value": 168314.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 69,
+    "unit": "BAG",
+    "unit_price": 395.82,
+    "discount": 2731.16,
+    "taxable_value": 24580.42,
+    "tax_rate": 28
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 51.103,
+    "unit": "KGS",
+    "unit_price": 127.27,
+    "discount": null,
+    "taxable_value": 6503.88,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 6.61,
+    "unit": "KGS",
+    "unit_price": 118.02,
+    "discount": null,
+    "taxable_value": 780.11,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 819893.13,
+  "cgst_amount": 74596.65,
+  "sgst_amount": 74596.65,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.43,
+  "grand_total": 969086.0,
+  "amount_in_words": "Rupees Nine Lakh Sixty Nine Thousand Eighty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/3595\",\"invoice_date\":\"2025-08-25\",\"seller_name\":\"Trivedi Trading Co.\",\"seller_gstin\":\"10ZKRF72734I5ZR\",\"seller_address\":\"Shop No. 446, Peenya 2nd Stage, Muzaffarpur, Bihar-806612\",\"buyer_name\":\"Ahluwalia Technologies Limited\",\"buyer_gstin\":\"10DHTPA4952A5ZP\",\"buyer_address\":\"Unit No. 160, GIDC Estate, Patna, Bihar-825424\",\"place_of_supply\":\"10-Bihar\",\"reverse_charge\":\"N\",\"irn\":null,\"line_items\":[{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":913,\"unit\":\"BOX\",\"unit_price\":391.73,\"discount\":null,\"taxable_value\":357649.49,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":1593,\"unit\":\"PCS\",\"unit_price\":164.51,\"discount\":null,\"taxable_value\":262064.43,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":10,\"unit\":\"NOS\",\"unit_price\":16831.48,\"discount\":null,\"taxable_value\":168314.80,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":69,\"unit\":\"BAG\",\"unit_price\":395.82,\"discount\":2731.16,\"taxable_value\":24580.42,\"tax_rate\":28},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":51.103,\"unit\":\"KGS\",\"unit_price\":127.27,\"discount\":null,\"taxable_value\":6503.88,\"tax_rate\":5},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":6.610,\"unit\":\"KGS\",\"unit_price\":118.02,\"discount\":null,\"taxable_value\":780.11,\"tax_rate\":18}],\"total_taxable_value\":819893.13,\"cgst_amount\":74596.65,\"sgst_amount\":74596.65,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.43,\"grand_total\":969086.00,\"amount_in_words\":\"Rupees Nine Lakh Sixty Nine Thousand Eighty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2694,
+ "output_tokens": 530,
+ "cached_input_tokens": 0,
+ "latency_s": 5.4933,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

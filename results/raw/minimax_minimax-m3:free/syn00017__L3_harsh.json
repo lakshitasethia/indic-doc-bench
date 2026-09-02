@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00017__L3_harsh",
+ "doc_id": "syn00017",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL8152",
+  "invoice_date": "2026-01-08",
+  "seller_name": "Surgical Engineering Works Pvt. Ltd.",
+  "seller_gstin": "19AARCS9945K1Z2",
+  "seller_address": "Budge Budge Trunk Road, P.O. Dharap, Maheshtala, Kolkata 700141, West Bengal",
+  "buyer_name": "Chaibasa Seva Sadan",
+  "buyer_gstin": null,
+  "buyer_address": "Chaibasa, West Singhbhum, Jharkhand",
+  "place_of_supply": "Jharkhand",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 127,
+    "unit": "NOS",
+    "unit_price": 30.29,
+    "discount": null,
+    "taxable_value": 4008.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Brownah Tape (Brown) 2\"/1",
+    "hsn_sac": "3919",
+    "quantity": 296,
+    "unit": "",
+    "unit_price": 85.84,
+    "discount": null,
+    "taxable_value": 25720.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT (Best Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 49700,
+    "unit": "TON",
+    "unit_price": 2.81,
+    "discount": null,
+    "taxable_value": 13750.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 43479.33,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 2293.83,
+  "cess_amount": null,
+  "round_off": 0.34,
+  "grand_total": 54861.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"DL8152\",\"invoice_date\":\"2026-01-08\",\"seller_name\":\"Surgical Engineering Works Pvt. Ltd.\",\"seller_gstin\":\"19AARCS9945K1Z2\",\"seller_address\":\"Budge Budge Trunk Road, P.O. Dharap, Maheshtala, Kolkata 700141, West Bengal\",\"buyer_name\":\"Chaibasa Seva Sadan\",\"buyer_gstin\":null,\"buyer_address\":\"Chaibasa, West Singhbhum, Jharkhand\",\"place_of_supply\":\"Jharkhand\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":127,\"unit\":\"NOS\",\"unit_price\":30.29,\"discount\":null,\"taxable_value\":4008.83,\"tax_rate\":18},{\"description\":\"Brownah Tape (Brown) 2\\\"\\/1\",\"hsn_sac\":\"3919\",\"quantity\":296,\"unit\":\"\",\"unit_price\":85.84,\"discount\":null,\"taxable_value\":25720.50,\"tax_rate\":18},{\"description\":\"TMT (Best Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":49700,\"unit\":\"TON\",\"unit_price\":2.81,\"discount\":null,\"taxable_value\":13750.00,\"tax_rate\":18}],\"total_taxable_value\":43479.33,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":2293.83,\"cess_amount\":null,\"round_off\":0.34,\"grand_total\":54861.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1907,
+ "output_tokens": 355,
+ "cached_input_tokens": 0,
+ "latency_s": 6.7098,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

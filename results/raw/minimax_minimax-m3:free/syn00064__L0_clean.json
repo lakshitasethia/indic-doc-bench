@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00064__L0_clean",
+ "doc_id": "syn00064",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL1399",
+  "invoice_date": "2025-10-09",
+  "seller_name": "Deshmukh Pharma",
+  "seller_gstin": "03VSUFD8574J3Z5",
+  "seller_address": "Unit No. 218, Naraina Vihar, Jalandhar, Punjab - 144073",
+  "buyer_name": "Ahluwalia Solutions",
+  "buyer_gstin": "03AYBPA8960D2ZV",
+  "buyer_address": "Gala No. 15, Sector 63, Jalandhar, Punjab - 156258",
+  "place_of_supply": "Punjab (03)",
+  "reverse_charge": false,
+  "irn": null,
+  "total_taxable_value": 75221.92,
+  "cgst_amount": 1880.55,
+  "sgst_amount": 1880.55,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.02,
+  "grand_total": 78983.0,
+  "amount_in_words": "Rupees Seventy Eight Thousand Nine Hundred and Eighty Three Only",
+  "line_items": [
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 1553.53,
+    "unit": "KGS",
+    "unit_price": 48.42,
+    "discount": null,
+    "taxable_value": 75221.92,
+    "tax_rate": 5
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"DL1399\",\"invoice_date\":\"2025-10-09\",\"seller_name\":\"Deshmukh Pharma\",\"seller_gstin\":\"03VSUFD8574J3Z5\",\"seller_address\":\"Unit No. 218, Naraina Vihar, Jalandhar, Punjab - 144073\",\"buyer_name\":\"Ahluwalia Solutions\",\"buyer_gstin\":\"03AYBPA8960D2ZV\",\"buyer_address\":\"Gala No. 15, Sector 63, Jalandhar, Punjab - 156258\",\"place_of_supply\":\"Punjab (03)\",\"reverse_charge\":false,\"irn\":null,\"total_taxable_value\":75221.92,\"cgst_amount\":1880.55,\"sgst_amount\":1880.55,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.02,\"grand_total\":78983.00,\"amount_in_words\":\"Rupees Seventy Eight Thousand Nine Hundred and Eighty Three Only\",\"line_items\":[{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":1553.530,\"unit\":\"KGS\",\"unit_price\":48.42,\"discount\":null,\"taxable_value\":75221.92,\"tax_rate\":5}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3278,
+ "output_tokens": 267,
+ "cached_input_tokens": 0,
+ "latency_s": 7.1776,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

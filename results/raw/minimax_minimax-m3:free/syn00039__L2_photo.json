@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00039__L2_photo",
+ "doc_id": "syn00039",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/9633",
+  "invoice_date": "2025-12-14",
+  "seller_name": "Gupta Marketing LLP",
+  "seller_gstin": "24ZYAFG3659B8ZM",
+  "seller_address": "Plot No. 317, Udyog Vihar, Vadodara, Gujarat 378706",
+  "buyer_name": "Rao Logistics Private Limited",
+  "buyer_gstin": "10JPRCR0981X3Z8",
+  "buyer_address": "Gala No. 25, Focal Point, Patna, Bihar 825258",
+  "place_of_supply": "10 - Bihar",
+  "reverse_charge": false,
+  "irn": "43775fed44dddaf9385e819d7c16b7cab33b71cc5247956cf20e3d79721a2e22",
+  "line_items": [
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 47.398,
+    "unit": "MTR",
+    "unit_price": 172.52,
+    "discount": null,
+    "taxable_value": 8177.1,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 383,
+    "unit": "NOS",
+    "unit_price": 24.64,
+    "discount": null,
+    "taxable_value": 9437.12,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 361.254,
+    "unit": "KGS",
+    "unit_price": 96.01,
+    "discount": 693.68,
+    "taxable_value": 33990.32,
+    "tax_rate": 5
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 263.272,
+    "unit": "KGS",
+    "unit_price": 319.23,
+    "discount": null,
+    "taxable_value": 84044.32,
+    "tax_rate": 5
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 150.373,
+    "unit": "MTR",
+    "unit_price": 47.28,
+    "discount": null,
+    "taxable_value": 7109.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 23,
+    "unit": "BOX",
+    "unit_price": 60.32,
+    "discount": null,
+    "taxable_value": 1387.36,
+    "tax_rate": 12
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.1,
+    "unit": "TON",
+    "unit_price": 49421.76,
+    "discount": null,
+    "taxable_value": 4942.18,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 149088.04,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 10345.09,
+  "cess_amount": null,
+  "round_off": -0.13,
+  "grand_total": 159433.0,
+  "amount_in_words": "Rupees One Lakh Fifty Nine Thousand Four Hundred and Thirty Three Only"
+ },
+ "raw": "{\"invoice_number\":\"SI/25-26/9633\",\"invoice_date\":\"2025-12-14\",\"seller_name\":\"Gupta Marketing LLP\",\"seller_gstin\":\"24ZYAFG3659B8ZM\",\"seller_address\":\"Plot No. 317, Udyog Vihar, Vadodara, Gujarat 378706\",\"buyer_name\":\"Rao Logistics Private Limited\",\"buyer_gstin\":\"10JPRCR0981X3Z8\",\"buyer_address\":\"Gala No. 25, Focal Point, Patna, Bihar 825258\",\"place_of_supply\":\"10 - Bihar\",\"reverse_charge\":false,\"irn\":\"43775fed44dddaf9385e819d7c16b7cab33b71cc5247956cf20e3d79721a2e22\",\"line_items\":[{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":47.398,\"unit\":\"MTR\",\"unit_price\":172.52,\"discount\":null,\"taxable_value\":8177.10,\"tax_rate\":5},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":383,\"unit\":\"NOS\",\"unit_price\":24.64,\"discount\":null,\"taxable_value\":9437.12,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":361.254,\"unit\":\"KGS\",\"unit_price\":96.01,\"discount\":693.68,\"taxable_value\":33990.32,\"tax_rate\":5},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":263.272,\"unit\":\"KGS\",\"unit_price\":319.23,\"discount\":null,\"taxable_value\":84044.32,\"tax_rate\":5},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":150.373,\"unit\":\"MTR\",\"unit_price\":47.28,\"discount\":null,\"taxable_value\":7109.64,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":23,\"unit\":\"BOX\",\"unit_price\":60.32,\"discount\":null,\"taxable_value\":1387.36,\"tax_rate\":12},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.100,\"unit\":\"TON\",\"unit_price\":49421.76,\"discount\":null,\"taxable_value\":4942.18,\"tax_rate\":18}],\"total_taxable_value\":149088.04,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":10345.09,\"cess_amount\":null,\"round_off\":-0.13,\"grand_total\":159433.00,\"amount_in_words\":\"Rupees One Lakh Fifty Nine Thousand Four Hundred and Thirty Three Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3574,
+ "output_tokens": 633,
+ "cached_input_tokens": 0,
+ "latency_s": 10.5549,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

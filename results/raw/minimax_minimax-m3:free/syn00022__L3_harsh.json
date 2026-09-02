@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00022__L3_harsh",
+ "doc_id": "syn00022",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "12",
+  "invoice_date": "2018-07-25",
+  "seller_name": "Timber Sales Corporation",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Sonthium Sugar S 30",
+    "hsn_sac": "1701",
+    "quantity": 36.594,
+    "unit": "KGS",
+    "unit_price": 38.69,
+    "discount": 22774.41,
+    "taxable_value": 56.86,
+    "tax_rate": 5
+   },
+   {
+    "description": "Cotton Hosiery Fabric,44 inch",
+    "hsn_sac": "5208",
+    "quantity": 89.311,
+    "unit": "MTR",
+    "unit_price": 163.53,
+    "discount": 146246.68,
+    "taxable_value": 2026.17,
+    "tax_rate": 5
+   },
+   {
+    "description": "Asaam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 86.013,
+    "unit": "KGS",
+    "unit_price": 266.86,
+    "discount": 21004.12,
+    "taxable_value": 548.1,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 2631.13,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 276319.28,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\": \"12\", \"invoice_date\": \"2018-07-25\", \"seller_name\": \"Timber Sales Corporation\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": null, \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"line_items\": [{\"description\": \"Sonthium Sugar S 30\", \"hsn_sac\": \"1701\", \"quantity\": 36.594, \"unit\": \"KGS\", \"unit_price\": 38.69, \"discount\": 22774.41, \"taxable_value\": 56.86, \"tax_rate\": 5}, {\"description\": \"Cotton Hosiery Fabric,44 inch\", \"hsn_sac\": \"5208\", \"quantity\": 89.311, \"unit\": \"MTR\", \"unit_price\": 163.53, \"discount\": 146246.68, \"taxable_value\": 2026.17, \"tax_rate\": 5}, {\"description\": \"Asaam CTC Tea Leaf\", \"hsn_sac\": \"0902\", \"quantity\": 86.013, \"unit\": \"KGS\", \"unit_price\": 266.86, \"discount\": 21004.12, \"taxable_value\": 548.10, \"tax_rate\": 5}], \"total_taxable_value\": 2631.13, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": 276319.28, \"amount_in_words\": null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1895,
+ "output_tokens": 368,
+ "cached_input_tokens": 0,
+ "latency_s": 3.5418,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

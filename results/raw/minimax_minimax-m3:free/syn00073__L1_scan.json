@@ -1,0 +1,139 @@
+{
+ "variant_id": "syn00073__L1_scan",
+ "doc_id": "syn00073",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-C-2007",
+  "invoice_date": "2025-05-25",
+  "seller_name": "Ahluwalia Engineering Works",
+  "seller_gstin": "08TGYPA1015G3Z1",
+  "seller_address": "Shop No. 401, Kalbadevi Road, Udaipur \u00b7 Rajasthan 338370",
+  "buyer_name": "Pillai Infratech LLP",
+  "buyer_gstin": "23OUQCP6299J5Z0",
+  "buyer_address": "Door No. 76, MG Road, Bhopal, Madhya Pradesh - 484050",
+  "place_of_supply": "Madhya Pradesh (23)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 325,
+    "unit": "PCS",
+    "unit_price": 52.51,
+    "discount": null,
+    "taxable_value": 17065.75,
+    "tax_rate": null
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 388,
+    "unit": "BOX",
+    "unit_price": 54.66,
+    "discount": null,
+    "taxable_value": 21208.08,
+    "tax_rate": null
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 74.109,
+    "unit": "KGS",
+    "unit_price": 109.99,
+    "discount": null,
+    "taxable_value": 8151.25,
+    "tax_rate": null
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 11522.55,
+    "discount": null,
+    "taxable_value": 11522.55,
+    "tax_rate": null
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 10159.38,
+    "discount": null,
+    "taxable_value": 10159.38,
+    "tax_rate": null
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 2369.17,
+    "unit": "MTR",
+    "unit_price": 78.38,
+    "discount": null,
+    "taxable_value": 185695.54,
+    "tax_rate": null
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 1,
+    "unit": "BAG",
+    "unit_price": 453.9,
+    "discount": null,
+    "taxable_value": 431.2,
+    "tax_rate": null
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 147,
+    "unit": "BOX",
+    "unit_price": 225.58,
+    "discount": null,
+    "taxable_value": 33160.26,
+    "tax_rate": null
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 1,
+    "unit": "SET",
+    "unit_price": 764.59,
+    "discount": null,
+    "taxable_value": 764.59,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 288158.6,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 49579.54,
+  "cess_amount": null,
+  "round_off": -0.14,
+  "grand_total": 337738.0,
+  "amount_in_words": "Rupees Three Lakh Thirty Seven Thousand Seven Hundred and Thirty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"TAX-C-2007\",\"invoice_date\":\"2025-05-25\",\"seller_name\":\"Ahluwalia Engineering Works\",\"seller_gstin\":\"08TGYPA1015G3Z1\",\"seller_address\":\"Shop No. 401, Kalbadevi Road, Udaipur \u00b7 Rajasthan 338370\",\"buyer_name\":\"Pillai Infratech LLP\",\"buyer_gstin\":\"23OUQCP6299J5Z0\",\"buyer_address\":\"Door No. 76, MG Road, Bhopal, Madhya Pradesh - 484050\",\"place_of_supply\":\"Madhya Pradesh (23)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":325,\"unit\":\"PCS\",\"unit_price\":52.51,\"discount\":null,\"taxable_value\":17065.75,\"tax_rate\":null},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":388,\"unit\":\"BOX\",\"unit_price\":54.66,\"discount\":null,\"taxable_value\":21208.08,\"tax_rate\":null},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":74.109,\"unit\":\"KGS\",\"unit_price\":109.99,\"discount\":null,\"taxable_value\":8151.25,\"tax_rate\":null},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":11522.55,\"discount\":null,\"taxable_value\":11522.55,\"tax_rate\":null},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":10159.38,\"discount\":null,\"taxable_value\":10159.38,\"tax_rate\":null},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":2369.170,\"unit\":\"MTR\",\"unit_price\":78.38,\"discount\":null,\"taxable_value\":185695.54,\"tax_rate\":null},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":1,\"unit\":\"BAG\",\"unit_price\":453.90,\"discount\":null,\"taxable_value\":431.20,\"tax_rate\":null},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":147,\"unit\":\"BOX\",\"unit_price\":225.58,\"discount\":null,\"taxable_value\":33160.26,\"tax_rate\":null},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":1,\"unit\":\"SET\",\"unit_price\":764.59,\"discount\":null,\"taxable_value\":764.59,\"tax_rate\":null}],\"total_taxable_value\":288158.60,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":49579.54,\"cess_amount\":null,\"round_off\":-0.14,\"grand_total\":337738.00,\"amount_in_words\":\"Rupees Three Lakh Thirty Seven Thousand Seven Hundred and Thirty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6518,
+ "output_tokens": 697,
+ "cached_input_tokens": 0,
+ "latency_s": 7.4097,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

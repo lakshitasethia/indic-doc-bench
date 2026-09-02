@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00069__L3_harsh",
+ "doc_id": "syn00069",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-3777",
+  "invoice_date": "2024-11-23",
+  "seller_name": "Chauhan Traders Private Limited",
+  "seller_gstin": null,
+  "seller_address": "Shop No. 4B, ABC Arcade, Vrindavan, Dilsapur - 281001",
+  "buyer_name": "Aishwarya & Sons Limited",
+  "buyer_gstin": "07AAHCA8780C4ZE",
+  "buyer_address": "Khasra No. 37, Rajput Farms, New Delhi, Delhi - 110015",
+  "place_of_supply": "Delhi",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Foam Mattress",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 22013.5,
+    "discount": 0,
+    "taxable_value": 22013.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 250mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 100,
+    "unit": "BOX",
+    "unit_price": 64.4,
+    "discount": 0,
+    "taxable_value": 6440,
+    "tax_rate": 12
+   }
+  ],
+  "total_taxable_value": 28453.5,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 3926.18,
+  "cess_amount": null,
+  "round_off": -0.06,
+  "grand_total": 32379.6,
+  "amount_in_words": "Thirty Two Thousand Three Hundred and Forty Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-3777\",\"invoice_date\":\"2024-11-23\",\"seller_name\":\"Chauhan Traders Private Limited\",\"seller_gstin\":null,\"seller_address\":\"Shop No. 4B, ABC Arcade, Vrindavan, Dilsapur - 281001\",\"buyer_name\":\"Aishwarya & Sons Limited\",\"buyer_gstin\":\"07AAHCA8780C4ZE\",\"buyer_address\":\"Khasra No. 37, Rajput Farms, New Delhi, Delhi - 110015\",\"place_of_supply\":\"Delhi\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Foam Mattress\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":22013.50,\"discount\":0,\"taxable_value\":22013.50,\"tax_rate\":18},{\"description\":\"Paracetamol IP 250mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":100,\"unit\":\"BOX\",\"unit_price\":64.40,\"discount\":0,\"taxable_value\":6440,\"tax_rate\":12}],\"total_taxable_value\":28453.50,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":3926.18,\"cess_amount\":null,\"round_off\":-0.06,\"grand_total\":32379.60,\"amount_in_words\":\"Thirty Two Thousand Three Hundred and Forty Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1990,
+ "output_tokens": 298,
+ "cached_input_tokens": 0,
+ "latency_s": 8.9052,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

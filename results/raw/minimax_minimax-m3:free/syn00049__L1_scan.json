@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00049__L1_scan",
+ "doc_id": "syn00049",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/5888",
+  "invoice_date": "2026-03-23",
+  "seller_name": "Kulkarni Steel & Alloys",
+  "seller_gstin": "27QYFCK3190U7ZQ",
+  "seller_address": "Gala No. 220, Ring Road, Nashik, Maharashtra 427802",
+  "buyer_name": "Shetty Distributors Private Limited",
+  "buyer_gstin": "27PXKFS0801E1ZT",
+  "buyer_address": "Door No. 364, Chandni Chowk, Nagpur, Maharashtra - 427244",
+  "place_of_supply": "Maharashtra (27)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 35.77,
+    "unit": "KGS",
+    "unit_price": 156.4,
+    "discount": null,
+    "taxable_value": 5594.43,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 27120.48,
+    "discount": null,
+    "taxable_value": 27120.48,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.671,
+    "unit": "TON",
+    "unit_price": 49040.82,
+    "discount": null,
+    "taxable_value": 32248.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 1239,
+    "unit": "NOS",
+    "unit_price": 18.88,
+    "discount": null,
+    "taxable_value": 23392.32,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 359,
+    "unit": "BOX",
+    "unit_price": 387.28,
+    "discount": null,
+    "taxable_value": 139033.52,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 58.676,
+    "unit": "KGS",
+    "unit_price": 109.07,
+    "discount": null,
+    "taxable_value": 6399.79,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 1.269,
+    "unit": "LTR",
+    "unit_price": 656.78,
+    "discount": null,
+    "taxable_value": 833.45,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 234622.25,
+  "cgst_amount": 20700.01,
+  "sgst_amount": 20700.01,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.27,
+  "grand_total": 276022.0,
+  "amount_in_words": "Rupees Two Lakh Seventy Six Thousand Twenty Two Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/5888\",\"invoice_date\":\"2026-03-23\",\"seller_name\":\"Kulkarni Steel & Alloys\",\"seller_gstin\":\"27QYFCK3190U7ZQ\",\"seller_address\":\"Gala No. 220, Ring Road, Nashik, Maharashtra 427802\",\"buyer_name\":\"Shetty Distributors Private Limited\",\"buyer_gstin\":\"27PXKFS0801E1ZT\",\"buyer_address\":\"Door No. 364, Chandni Chowk, Nagpur, Maharashtra - 427244\",\"place_of_supply\":\"Maharashtra (27)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":35.770,\"unit\":\"KGS\",\"unit_price\":156.40,\"discount\":null,\"taxable_value\":5594.43,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":27120.48,\"discount\":null,\"taxable_value\":27120.48,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.671,\"unit\":\"TON\",\"unit_price\":49040.82,\"discount\":null,\"taxable_value\":32248.26,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":1239,\"unit\":\"NOS\",\"unit_price\":18.88,\"discount\":null,\"taxable_value\":23392.32,\"tax_rate\":18},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":359,\"unit\":\"BOX\",\"unit_price\":387.28,\"discount\":null,\"taxable_value\":139033.52,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":58.676,\"unit\":\"KGS\",\"unit_price\":109.07,\"discount\":null,\"taxable_value\":6399.79,\"tax_rate\":18},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":1.269,\"unit\":\"LTR\",\"unit_price\":656.78,\"discount\":null,\"taxable_value\":833.45,\"tax_rate\":18}],\"total_taxable_value\":234622.25,\"cgst_amount\":20700.01,\"sgst_amount\":20700.01,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.27,\"grand_total\":276022.00,\"amount_in_words\":\"Rupees Two Lakh Seventy Six Thousand Twenty Two Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6302,
+ "output_tokens": 592,
+ "cached_input_tokens": 0,
+ "latency_s": 8.4193,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

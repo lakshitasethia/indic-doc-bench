@@ -1,0 +1,70 @@
+{
+ "variant_id": "syn00002__L3_harsh",
+ "doc_id": "syn00002",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "VERMA SALES CORPORATION PRIVATE LIMITED",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 139947.47,
+  "cgst_amount": 12595.27,
+  "sgst_amount": 12595.27,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 164456.0,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Giftware Finish Powder",
+    "hsn_sac": null,
+    "quantity": 600.0,
+    "unit": null,
+    "unit_price": 101.0,
+    "discount": null,
+    "taxable_value": 109547.47,
+    "tax_rate": null
+   },
+   {
+    "description": "Browning Wax",
+    "hsn_sac": null,
+    "quantity": 200.0,
+    "unit": null,
+    "unit_price": 152.0,
+    "discount": null,
+    "taxable_value": 30400.0,
+    "taxable_value_2": 139947.47,
+    "tax_rate": null
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": \"VERMA SALES CORPORATION PRIVATE LIMITED\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": null, \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 139947.47, \"cgst_amount\": 12595.27, \"sgst_amount\": 12595.27, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": 164456.00, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Giftware Finish Powder\", \"hsn_sac\": null, \"quantity\": 600.00, \"unit\": null, \"unit_price\": 101.00, \"discount\": null, \"taxable_value\": 109547.47, \"tax_rate\": null}, {\"description\": \"Browning Wax\", \"hsn_sac\": null, \"quantity\": 200.00, \"unit\": null, \"unit_price\": 152.00, \"discount\": null, \"taxable_value\": 30400.00, \"taxable_value_2\": 139947.47, \"tax_rate\": null}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1918,
+ "output_tokens": 289,
+ "cached_input_tokens": 0,
+ "latency_s": 5.8053,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00057__L0_clean",
+ "doc_id": "syn00057",
+ "level": "L0_clean",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-A-0225",
+  "invoice_date": "2026-01-30",
+  "seller_name": "Pillai Logistics Limited",
+  "seller_gstin": "29BTXCP1588V5ZI",
+  "seller_address": "Khasra No. 17, Focal Point, Mysuru, Karnataka - 563544",
+  "buyer_name": "Kaur Marketing",
+  "buyer_gstin": "29GMBFK8832S2ZK",
+  "buyer_address": "Door No. 311, Industrial Estate, Mangaluru, Karnataka - 572684",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.1,
+    "unit": "TON",
+    "unit_price": 55478.4,
+    "discount": null,
+    "taxable_value": 5270.45,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15798.03,
+    "discount": null,
+    "taxable_value": 15008.13,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 20278.58,
+  "cgst_amount": 1825.07,
+  "sgst_amount": 1825.07,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.28,
+  "grand_total": 23929.0,
+  "amount_in_words": "Rupees Twenty Three Thousand Nine Hundred and Twenty Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"TAX-A-0225\",\"invoice_date\":\"2026-01-30\",\"seller_name\":\"Pillai Logistics Limited\",\"seller_gstin\":\"29BTXCP1588V5ZI\",\"seller_address\":\"Khasra No. 17, Focal Point, Mysuru, Karnataka - 563544\",\"buyer_name\":\"Kaur Marketing\",\"buyer_gstin\":\"29GMBFK8832S2ZK\",\"buyer_address\":\"Door No. 311, Industrial Estate, Mangaluru, Karnataka - 572684\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.1,\"unit\":\"TON\",\"unit_price\":55478.4,\"discount\":null,\"taxable_value\":5270.45,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":15798.03,\"discount\":null,\"taxable_value\":15008.13,\"tax_rate\":18}],\"total_taxable_value\":20278.58,\"cgst_amount\":1825.07,\"sgst_amount\":1825.07,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.28,\"grand_total\":23929.00,\"amount_in_words\":\"Rupees Twenty Three Thousand Nine Hundred and Twenty Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6230,
+ "output_tokens": 317,
+ "cached_input_tokens": 0,
+ "latency_s": 5.3146,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

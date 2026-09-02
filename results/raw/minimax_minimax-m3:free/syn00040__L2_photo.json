@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00040__L2_photo",
+ "doc_id": "syn00040",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1786",
+  "invoice_date": "2025-09-26",
+  "seller_name": "Chauhan Engineering Works",
+  "seller_gstin": "23WEZPC2063N8ZD",
+  "seller_address": "Plot No. 180, Kalbadevi Road, Bhopal, Madhya Pradesh - 482976",
+  "buyer_name": "Chauhan Steel & Alloys",
+  "buyer_gstin": "08NRWCC7437Z2ZN",
+  "buyer_address": "Plot No. 365, GIDC Estate, Udaipur, Rajasthan - 319216",
+  "place_of_supply": "Rajasthan (08)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 2,
+    "unit": "BOX",
+    "unit_price": 467.24,
+    "discount": null,
+    "taxable_value": 934.48,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 11,
+    "unit": "NOS",
+    "unit_price": 31595.74,
+    "discount": null,
+    "taxable_value": 347553.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 3.657,
+    "unit": "LTR",
+    "unit_price": 359.11,
+    "discount": null,
+    "taxable_value": 1313.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 62,
+    "unit": "NOS",
+    "unit_price": 112.73,
+    "discount": null,
+    "taxable_value": 6989.26,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 356790.15,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 64222.24,
+  "cess_amount": null,
+  "round_off": -0.39,
+  "grand_total": 421012.0,
+  "amount_in_words": "Rupees Four Lakh Twenty One Thousand Twelve Only"
+ },
+ "raw": "{\"invoice_number\":\"1786\",\"invoice_date\":\"2025-09-26\",\"seller_name\":\"Chauhan Engineering Works\",\"seller_gstin\":\"23WEZPC2063N8ZD\",\"seller_address\":\"Plot No. 180, Kalbadevi Road, Bhopal, Madhya Pradesh - 482976\",\"buyer_name\":\"Chauhan Steel & Alloys\",\"buyer_gstin\":\"08NRWCC7437Z2ZN\",\"buyer_address\":\"Plot No. 365, GIDC Estate, Udaipur, Rajasthan - 319216\",\"place_of_supply\":\"Rajasthan (08)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":2,\"unit\":\"BOX\",\"unit_price\":467.24,\"discount\":null,\"taxable_value\":934.48,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":11,\"unit\":\"NOS\",\"unit_price\":31595.74,\"discount\":null,\"taxable_value\":347553.14,\"tax_rate\":18},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":3.657,\"unit\":\"LTR\",\"unit_price\":359.11,\"discount\":null,\"taxable_value\":1313.27,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":62,\"unit\":\"NOS\",\"unit_price\":112.73,\"discount\":null,\"taxable_value\":6989.26,\"tax_rate\":18}],\"total_taxable_value\":356790.15,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":64222.24,\"cess_amount\":null,\"round_off\":-0.39,\"grand_total\":421012.00,\"amount_in_words\":\"Rupees Four Lakh Twenty One Thousand Twelve Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3278,
+ "output_tokens": 421,
+ "cached_input_tokens": 0,
+ "latency_s": 4.6093,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

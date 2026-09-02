@@ -1,0 +1,179 @@
+{
+ "variant_id": "syn00011__L1_scan",
+ "doc_id": "syn00011",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-3525",
+  "invoice_date": "2025-07-10",
+  "seller_name": "Deshmukh Sales Corporation LLP",
+  "seller_gstin": "07EZSPD2578D1Z4",
+  "seller_address": "Unit No. 31, Peenya 2nd Stage, Delhi, Delhi - 110427",
+  "buyer_name": "Fernandes Distributors",
+  "buyer_gstin": "07FKLPF0917E5Z9",
+  "buyer_address": "Door No. 202, Ambattur Industrial Estate, Delhi, Delhi - 110287",
+  "place_of_supply": "Delhi",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 4864.14,
+    "discount": 0.0,
+    "taxable_value": 19456.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 19.122,
+    "unit": "KGS",
+    "unit_price": 39.8,
+    "discount": 15.22,
+    "taxable_value": 745.84,
+    "tax_rate": 5
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 218,
+    "unit": "BOX",
+    "unit_price": 438.1,
+    "discount": 0.0,
+    "taxable_value": 95505.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 244,
+    "unit": "PCS",
+    "unit_price": 339.15,
+    "discount": 8275.26,
+    "taxable_value": 74477.34,
+    "tax_rate": 5
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 6734.93,
+    "discount": 0.0,
+    "taxable_value": 6734.93,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 793.569,
+    "unit": "MTR",
+    "unit_price": 163.54,
+    "discount": 0.0,
+    "taxable_value": 129780.27,
+    "tax_rate": 5
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 145,
+    "unit": "BAG",
+    "unit_price": 444.84,
+    "discount": 0.0,
+    "taxable_value": 64501.8,
+    "tax_rate": 28
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 257.38,
+    "unit": "KGS",
+    "unit_price": 125.18,
+    "discount": 0.0,
+    "taxable_value": 32218.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.973,
+    "unit": "TON",
+    "unit_price": 59402.03,
+    "discount": 2889.91,
+    "taxable_value": 54908.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 12,
+    "unit": "PRS",
+    "unit_price": 1572.1,
+    "discount": 0.0,
+    "taxable_value": 18865.2,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 1.935,
+    "unit": "KGS",
+    "unit_price": 398.94,
+    "discount": 0.0,
+    "taxable_value": 771.95,
+    "tax_rate": 5
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15931.38,
+    "discount": 0.0,
+    "taxable_value": 15931.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 417,
+    "unit": "PCS",
+    "unit_price": 33.78,
+    "discount": 0.0,
+    "taxable_value": 14086.26,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 527984.43,
+  "cgst_amount": 37368.27,
+  "sgst_amount": 37368.27,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.03,
+  "grand_total": 602721.0,
+  "amount_in_words": "Rupees Six Lakh Two Thousand Seven Hundred and Twenty One Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-3525\",\"invoice_date\":\"2025-07-10\",\"seller_name\":\"Deshmukh Sales Corporation LLP\",\"seller_gstin\":\"07EZSPD2578D1Z4\",\"seller_address\":\"Unit No. 31, Peenya 2nd Stage, Delhi, Delhi - 110427\",\"buyer_name\":\"Fernandes Distributors\",\"buyer_gstin\":\"07FKLPF0917E5Z9\",\"buyer_address\":\"Door No. 202, Ambattur Industrial Estate, Delhi, Delhi - 110287\",\"place_of_supply\":\"Delhi\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":4864.14,\"discount\":0.00,\"taxable_value\":19456.56,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":19.122,\"unit\":\"KGS\",\"unit_price\":39.80,\"discount\":15.22,\"taxable_value\":745.84,\"tax_rate\":5},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":218,\"unit\":\"BOX\",\"unit_price\":438.10,\"discount\":0.00,\"taxable_value\":95505.80,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":244,\"unit\":\"PCS\",\"unit_price\":339.15,\"discount\":8275.26,\"taxable_value\":74477.34,\"tax_rate\":5},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":6734.93,\"discount\":0.00,\"taxable_value\":6734.93,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":793.569,\"unit\":\"MTR\",\"unit_price\":163.54,\"discount\":0.00,\"taxable_value\":129780.27,\"tax_rate\":5},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":145,\"unit\":\"BAG\",\"unit_price\":444.84,\"discount\":0.00,\"taxable_value\":64501.80,\"tax_rate\":28},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":257.380,\"unit\":\"KGS\",\"unit_price\":125.18,\"discount\":0.00,\"taxable_value\":32218.83,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.973,\"unit\":\"TON\",\"unit_price\":59402.03,\"discount\":2889.91,\"taxable_value\":54908.27,\"tax_rate\":18},{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":12,\"unit\":\"PRS\",\"unit_price\":1572.10,\"discount\":0.00,\"taxable_value\":18865.20,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":1.935,\"unit\":\"KGS\",\"unit_price\":398.94,\"discount\":0.00,\"taxable_value\":771.95,\"tax_rate\":5},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":15931.38,\"discount\":0.00,\"taxable_value\":15931.38,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":417,\"unit\":\"PCS\",\"unit_price\":33.78,\"discount\":0.00,\"taxable_value\":14086.26,\"tax_rate\":18}],\"total_taxable_value\":527984.43,\"cgst_amount\":37368.27,\"sgst_amount\":37368.27,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.03,\"grand_total\":602721.00,\"amount_in_words\":\"Rupees Six Lakh Two Thousand Seven Hundred and Twenty One Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5942,
+ "output_tokens": 923,
+ "cached_input_tokens": 0,
+ "latency_s": 8.8358,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

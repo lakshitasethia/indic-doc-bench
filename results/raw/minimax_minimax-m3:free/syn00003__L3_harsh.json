@@ -1,0 +1,89 @@
+{
+ "variant_id": "syn00003__L3_harsh",
+ "doc_id": "syn00003",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "IN/2425/0286",
+  "invoice_date": null,
+  "seller_name": "Geetanjali Steel & Alloys LLP",
+  "seller_gstin": "09EHDPK6237F1ZQ",
+  "seller_address": "Plot No. F-26, UPSIDC, Industrial Area, Pandav Nagar, Distt: Gautam Buddha Nagar, UP-201306",
+  "buyer_name": "Niti Overseas",
+  "buyer_gstin": "09AANPN6250G1ZE",
+  "buyer_address": "Shop No. 29, B Block, Gole Market, Vishnu Vihar, Collector Ganj, Ghaziabad, UP-201005",
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 7,
+    "unit": "NOS",
+    "unit_price": 9962.94,
+    "discount": null,
+    "taxable_value": 69887.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 26788.73,
+    "discount": null,
+    "taxable_value": 26788.73,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 70459.34,
+    "discount": null,
+    "taxable_value": 281837.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 138,
+    "unit": "PCS",
+    "unit_price": 202.1,
+    "discount": null,
+    "taxable_value": 68309.8,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 446823.47,
+  "cgst_amount": 36547.04,
+  "sgst_amount": 36547.04,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.41,
+  "grand_total": 519771.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\": \"IN/2425/0286\", \"invoice_date\": null, \"seller_name\": \"Geetanjali Steel & Alloys LLP\", \"seller_gstin\": \"09EHDPK6237F1ZQ\", \"seller_address\": \"Plot No. F-26, UPSIDC, Industrial Area, Pandav Nagar, Distt: Gautam Buddha Nagar, UP-201306\", \"buyer_name\": \"Niti Overseas\", \"buyer_gstin\": \"09AANPN6250G1ZE\", \"buyer_address\": \"Shop No. 29, B Block, Gole Market, Vishnu Vihar, Collector Ganj, Ghaziabad, UP-201005\", \"place_of_supply\": \"Uttar Pradesh\", \"reverse_charge\": null, \"irn\": null, \"line_items\": [{\"description\": \"Workstation Table\", \"hsn_sac\": \"9403\", \"quantity\": 7, \"unit\": \"NOS\", \"unit_price\": 9962.94, \"discount\": null, \"taxable_value\": 69887.58, \"tax_rate\": 18}, {\"description\": \"Multifunction Laser Printer\", \"hsn_sac\": \"8443\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 26788.73, \"discount\": null, \"taxable_value\": 26788.73, \"tax_rate\": 18}, {\"description\": \"Laptop Computer i5 16GB\", \"hsn_sac\": \"8471\", \"quantity\": 4, \"unit\": \"NOS\", \"unit_price\": 70459.34, \"discount\": null, \"taxable_value\": 281837.36, \"tax_rate\": 18}, {\"description\": \"Cotton Round Neck T-Shirt\", \"hsn_sac\": \"6109\", \"quantity\": 138, \"unit\": \"PCS\", \"unit_price\": 202.10, \"discount\": null, \"taxable_value\": 68309.80, \"tax_rate\": 5}], \"total_taxable_value\": 446823.47, \"cgst_amount\": 36547.04, \"sgst_amount\": 36547.04, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": 0.41, \"grand_total\": 519771.00, \"amount_in_words\": null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1946,
+ "output_tokens": 511,
+ "cached_input_tokens": 0,
+ "latency_s": 4.5164,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

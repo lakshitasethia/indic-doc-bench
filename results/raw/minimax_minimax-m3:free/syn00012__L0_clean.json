@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00012__L0_clean",
+ "doc_id": "syn00012",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-7788",
+  "invoice_date": "2026-02-23",
+  "seller_name": "Kaur Trading Co.",
+  "seller_gstin": "19OIOFK7761L9ZD",
+  "seller_address": "Shop No. 163, Ambattur Industrial Estate, Kolkata, West Bengal - 721395",
+  "buyer_name": "Patel Trading Co. LLP",
+  "buyer_gstin": "27PRIFP1414E8Z0",
+  "buyer_address": "Shop No. 93, Sector 63, Mumbai, Maharashtra - 413809",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 7,
+    "unit": "NOS",
+    "unit_price": 115.18,
+    "discount": null,
+    "taxable_value": 806.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 91,
+    "unit": "SET",
+    "unit_price": 516.49,
+    "discount": null,
+    "taxable_value": 47000.59,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 11,
+    "unit": "PCS",
+    "unit_price": 214.0,
+    "discount": null,
+    "taxable_value": 2354.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5114.69,
+    "discount": null,
+    "taxable_value": 5114.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 5.03,
+    "unit": "KGS",
+    "unit_price": 170.3,
+    "discount": null,
+    "taxable_value": 856.61,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 531,
+    "unit": "NOS",
+    "unit_price": 77.49,
+    "discount": null,
+    "taxable_value": 41147.19,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 821.458,
+    "unit": "MTR",
+    "unit_price": 35.32,
+    "discount": null,
+    "taxable_value": 29013.9,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 126293.24,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 22732.78,
+  "cess_amount": null,
+  "round_off": -0.02,
+  "grand_total": 149026.0,
+  "amount_in_words": "Rupees One Lakh Forty Nine Thousand Twenty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-7788\",\"invoice_date\":\"2026-02-23\",\"seller_name\":\"Kaur Trading Co.\",\"seller_gstin\":\"19OIOFK7761L9ZD\",\"seller_address\":\"Shop No. 163, Ambattur Industrial Estate, Kolkata, West Bengal - 721395\",\"buyer_name\":\"Patel Trading Co. LLP\",\"buyer_gstin\":\"27PRIFP1414E8Z0\",\"buyer_address\":\"Shop No. 93, Sector 63, Mumbai, Maharashtra - 413809\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":7,\"unit\":\"NOS\",\"unit_price\":115.18,\"discount\":null,\"taxable_value\":806.26,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":91,\"unit\":\"SET\",\"unit_price\":516.49,\"discount\":null,\"taxable_value\":47000.59,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":11,\"unit\":\"PCS\",\"unit_price\":214.00,\"discount\":null,\"taxable_value\":2354.00,\"tax_rate\":18},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5114.69,\"discount\":null,\"taxable_value\":5114.69,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":5.030,\"unit\":\"KGS\",\"unit_price\":170.30,\"discount\":null,\"taxable_value\":856.61,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":531,\"unit\":\"NOS\",\"unit_price\":77.49,\"discount\":null,\"taxable_value\":41147.19,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":821.458,\"unit\":\"MTR\",\"unit_price\":35.32,\"discount\":null,\"taxable_value\":29013.90,\"tax_rate\":18}],\"total_taxable_value\":126293.24,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":22732.78,\"cess_amount\":null,\"round_off\":-0.02,\"grand_total\":149026.00,\"amount_in_words\":\"Rupees One Lakh Forty Nine Thousand Twenty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6302,
+ "output_tokens": 574,
+ "cached_input_tokens": 0,
+ "latency_s": 6.407,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

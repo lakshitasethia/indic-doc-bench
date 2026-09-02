@@ -1,0 +1,99 @@
+{
+ "variant_id": "syn00010__L1_scan",
+ "doc_id": "syn00010",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/4217",
+  "invoice_date": "2025-05-24",
+  "seller_name": "Sharma Sales Corporation LLP",
+  "seller_gstin": "32IXEPS3088S6ZB",
+  "seller_address": "Khasra No. 325, Kalbadevi Road, Kozhikode, Kerala - 677056",
+  "buyer_name": "Menon Solutions",
+  "buyer_gstin": "32XJSFM8284L5Z8",
+  "buyer_address": "Gala No. 38, Ring Road, Kochi, Kerala - 689392",
+  "place_of_supply": "32 - Kerala",
+  "reverse_charge": true,
+  "irn": null,
+  "total_taxable_value": 157094.48,
+  "cgst_amount": 14138.49,
+  "sgst_amount": 14138.49,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.46,
+  "grand_total": 185371.0,
+  "amount_in_words": "Rupees One Lakh Eighty Five Thousand Three Hundred and Seventy One Only",
+  "line_items": [
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 232.635,
+    "unit": "LTR",
+    "unit_price": 455.02,
+    "discount": null,
+    "taxable_value": 105853.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 7,
+    "unit": "SET",
+    "unit_price": 439.1,
+    "discount": null,
+    "taxable_value": 3073.7,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 26879.15,
+    "discount": null,
+    "taxable_value": 26879.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 14251.57,
+    "discount": null,
+    "taxable_value": 14251.57,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7036.48,
+    "discount": null,
+    "taxable_value": 7036.48,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"INV/25-26/4217\",\"invoice_date\":\"2025-05-24\",\"seller_name\":\"Sharma Sales Corporation LLP\",\"seller_gstin\":\"32IXEPS3088S6ZB\",\"seller_address\":\"Khasra No. 325, Kalbadevi Road, Kozhikode, Kerala - 677056\",\"buyer_name\":\"Menon Solutions\",\"buyer_gstin\":\"32XJSFM8284L5Z8\",\"buyer_address\":\"Gala No. 38, Ring Road, Kochi, Kerala - 689392\",\"place_of_supply\":\"32 - Kerala\",\"reverse_charge\":true,\"irn\":null,\"total_taxable_value\":157094.48,\"cgst_amount\":14138.49,\"sgst_amount\":14138.49,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.46,\"grand_total\":185371.00,\"amount_in_words\":\"Rupees One Lakh Eighty Five Thousand Three Hundred and Seventy One Only\",\"line_items\":[{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":232.635,\"unit\":\"LTR\",\"unit_price\":455.02,\"discount\":null,\"taxable_value\":105853.58,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":7,\"unit\":\"SET\",\"unit_price\":439.10,\"discount\":null,\"taxable_value\":3073.70,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":26879.15,\"discount\":null,\"taxable_value\":26879.15,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":14251.57,\"discount\":null,\"taxable_value\":14251.57,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":7036.48,\"discount\":null,\"taxable_value\":7036.48,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5510,
+ "output_tokens": 477,
+ "cached_input_tokens": 0,
+ "latency_s": 7.5836,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

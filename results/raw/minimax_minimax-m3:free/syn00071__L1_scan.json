@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00071__L1_scan",
+ "doc_id": "syn00071",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-3027",
+  "invoice_date": "2026-03-15",
+  "seller_name": "Kulkarni Steel & Alloys",
+  "seller_gstin": "24BYEPK4627Q9ZR",
+  "seller_address": "Khasra No. 214, Kalbadevi Road, Ahmedabad, Gujarat - 370347",
+  "buyer_name": "Sharma Industries",
+  "buyer_gstin": "24RXVFS0903B2ZO",
+  "buyer_address": "Gala No. 268, MG Road, Ahmedabad, Gujarat - 396812",
+  "place_of_supply": "Gujarat",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 356,
+    "unit": "PCS",
+    "unit_price": 60.33,
+    "discount": 429.55,
+    "taxable_value": 21047.93,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 29,
+    "unit": "BOX",
+    "unit_price": 21.0,
+    "discount": 60.9,
+    "taxable_value": 548.1,
+    "tax_rate": 12
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 24888.94,
+    "discount": 0.0,
+    "taxable_value": 24888.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 81930.02,
+    "discount": 0.0,
+    "taxable_value": 245790.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 2.969,
+    "unit": "MTR",
+    "unit_price": 201.72,
+    "discount": 0.0,
+    "taxable_value": 598.91,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 413,
+    "unit": "NOS",
+    "unit_price": 23.2,
+    "discount": 0.0,
+    "taxable_value": 9581.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 233,
+    "unit": "PCS",
+    "unit_price": 219.69,
+    "discount": 0.0,
+    "taxable_value": 51187.77,
+    "tax_rate": 5
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 19,
+    "unit": "SET",
+    "unit_price": 764.86,
+    "discount": 0.0,
+    "taxable_value": 14532.34,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 368175.65,
+  "cgst_amount": 29753.22,
+  "sgst_amount": 29753.22,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.09,
+  "grand_total": 427682.0,
+  "amount_in_words": "Rupees Four Lakh Twenty Seven Thousand Six Hundred and Eighty Two Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-3027\",\"invoice_date\":\"2026-03-15\",\"seller_name\":\"Kulkarni Steel & Alloys\",\"seller_gstin\":\"24BYEPK4627Q9ZR\",\"seller_address\":\"Khasra No. 214, Kalbadevi Road, Ahmedabad, Gujarat - 370347\",\"buyer_name\":\"Sharma Industries\",\"buyer_gstin\":\"24RXVFS0903B2ZO\",\"buyer_address\":\"Gala No. 268, MG Road, Ahmedabad, Gujarat - 396812\",\"place_of_supply\":\"Gujarat\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":356,\"unit\":\"PCS\",\"unit_price\":60.33,\"discount\":429.55,\"taxable_value\":21047.93,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":29,\"unit\":\"BOX\",\"unit_price\":21.00,\"discount\":60.90,\"taxable_value\":548.10,\"tax_rate\":12},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":24888.94,\"discount\":0.00,\"taxable_value\":24888.94,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":81930.02,\"discount\":0.00,\"taxable_value\":245790.06,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":2.969,\"unit\":\"MTR\",\"unit_price\":201.72,\"discount\":0.00,\"taxable_value\":598.91,\"tax_rate\":5},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":413,\"unit\":\"NOS\",\"unit_price\":23.20,\"discount\":0.00,\"taxable_value\":9581.60,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":233,\"unit\":\"PCS\",\"unit_price\":219.69,\"discount\":0.00,\"taxable_value\":51187.77,\"tax_rate\":5},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":19,\"unit\":\"SET\",\"unit_price\":764.86,\"discount\":0.00,\"taxable_value\":14532.34,\"tax_rate\":18}],\"total_taxable_value\":368175.65,\"cgst_amount\":29753.22,\"sgst_amount\":29753.22,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.09,\"grand_total\":427682.00,\"amount_in_words\":\"Rupees Four Lakh Twenty Seven Thousand Six Hundred and Eighty Two Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6446,
+ "output_tokens": 647,
+ "cached_input_tokens": 0,
+ "latency_s": 12.8312,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

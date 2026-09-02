@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00050__L1_scan",
+ "doc_id": "syn00050",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/9808",
+  "invoice_date": "2025-05-05",
+  "seller_name": "IYER TRADING CO.",
+  "seller_gstin": "07JGUFI7367Y8ZX",
+  "seller_address": "Door No. 90, MG Road, Delhi - 110893 (Delhi)",
+  "buyer_name": "Iyer Sales Corporation Pvt. Ltd.",
+  "buyer_gstin": "19CXICI9650J6ZG",
+  "buyer_address": "Shop No. 363, Kalbadevi Road, Siliguri - 707654",
+  "place_of_supply": "19-West Bengal",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 187,
+    "unit": "NOS",
+    "unit_price": 88.04,
+    "discount": null,
+    "taxable_value": 16463.48,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 1352,
+    "unit": "NOS",
+    "unit_price": 61.52,
+    "discount": null,
+    "taxable_value": 83175.04,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 28155.61,
+    "discount": null,
+    "taxable_value": 28155.61,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 144.824,
+    "unit": "MTR",
+    "unit_price": 70.73,
+    "discount": null,
+    "taxable_value": 10243.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 296,
+    "unit": "BAG",
+    "unit_price": 436.92,
+    "discount": null,
+    "taxable_value": 129328.32,
+    "tax_rate": 28
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.347,
+    "unit": "TON",
+    "unit_price": 60682.48,
+    "discount": null,
+    "taxable_value": 21056.82,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 194.351,
+    "unit": "LTR",
+    "unit_price": 426.1,
+    "discount": null,
+    "taxable_value": 82812.96,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 371235.63,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 79755.25,
+  "cess_amount": null,
+  "round_off": 0.12,
+  "grand_total": 450991.0,
+  "amount_in_words": "Rupees Four Lakh Fifty Thousand Nine Hundred and Ninety One Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/9808\",\"invoice_date\":\"2025-05-05\",\"seller_name\":\"IYER TRADING CO.\",\"seller_gstin\":\"07JGUFI7367Y8ZX\",\"seller_address\":\"Door No. 90, MG Road, Delhi - 110893 (Delhi)\",\"buyer_name\":\"Iyer Sales Corporation Pvt. Ltd.\",\"buyer_gstin\":\"19CXICI9650J6ZG\",\"buyer_address\":\"Shop No. 363, Kalbadevi Road, Siliguri - 707654\",\"place_of_supply\":\"19-West Bengal\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":187,\"unit\":\"NOS\",\"unit_price\":88.04,\"discount\":null,\"taxable_value\":16463.48,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":1352,\"unit\":\"NOS\",\"unit_price\":61.52,\"discount\":null,\"taxable_value\":83175.04,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":28155.61,\"discount\":null,\"taxable_value\":28155.61,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":144.824,\"unit\":\"MTR\",\"unit_price\":70.73,\"discount\":null,\"taxable_value\":10243.40,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":296,\"unit\":\"BAG\",\"unit_price\":436.92,\"discount\":null,\"taxable_value\":129328.32,\"tax_rate\":28},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.347,\"unit\":\"TON\",\"unit_price\":60682.48,\"discount\":null,\"taxable_value\":21056.82,\"tax_rate\":18},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":194.351,\"unit\":\"LTR\",\"unit_price\":426.10,\"discount\":null,\"taxable_value\":82812.96,\"tax_rate\":18}],\"total_taxable_value\":371235.63,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":79755.25,\"cess_amount\":null,\"round_off\":0.12,\"grand_total\":450991.00,\"amount_in_words\":\"Rupees Four Lakh Fifty Thousand Nine Hundred and Ninety One Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6446,
+ "output_tokens": 594,
+ "cached_input_tokens": 0,
+ "latency_s": 13.6474,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

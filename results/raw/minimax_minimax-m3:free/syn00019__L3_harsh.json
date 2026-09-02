@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00019__L3_harsh",
+ "doc_id": "syn00019",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "9384",
+  "invoice_date": "2026-11-24",
+  "seller_name": "Mahindra Technologies Limited",
+  "seller_gstin": "09AAGCM4430M4Z3",
+  "seller_address": "Unit No. 23, Chintels Design Studio, West Bengal - 721302",
+  "buyer_name": "Mahindra Distributors Private Limited",
+  "buyer_gstin": "20AAGCM9431A1Z1",
+  "buyer_address": "Unit No. 205, Adidhar Industrial Estate, Singur, West Bengal - 725633",
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Swaraj 635 FE Tractor",
+    "hsn_sac": "8701",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 26589.33,
+    "discount": null,
+    "taxable_value": 26589.33,
+    "tax_rate": 18
+   },
+   {
+    "description": "Mahindra 265 Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 8284.69,
+    "discount": null,
+    "taxable_value": 33538.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "Swaraj Tyre Cutting Set",
+    "hsn_sac": "8215",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 2.35,
+    "discount": null,
+    "taxable_value": 404.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rear Carted Broytek 300 Pungs",
+    "hsn_sac": "3920",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 104.04,
+    "discount": null,
+    "taxable_value": 1440.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Mecurigami Booster 4kg",
+    "hsn_sac": "3402",
+    "quantity": 37,
+    "unit": "PCS",
+    "unit_price": 33.3,
+    "discount": null,
+    "taxable_value": 1232.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Mechanisation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 16596.18,
+    "discount": null,
+    "taxable_value": 16596.18,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar 5 kg",
+    "hsn_sac": "1701",
+    "quantity": 2,
+    "unit": "BAG",
+    "unit_price": 5034.0,
+    "discount": null,
+    "taxable_value": 10958.5,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 90760.4,
+  "cgst_amount": 15549.83,
+  "sgst_amount": 15549.83,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.1,
+  "grand_total": 443043.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"9384\",\"invoice_date\":\"2026-11-24\",\"seller_name\":\"Mahindra Technologies Limited\",\"seller_gstin\":\"09AAGCM4430M4Z3\",\"seller_address\":\"Unit No. 23, Chintels Design Studio, West Bengal - 721302\",\"buyer_name\":\"Mahindra Distributors Private Limited\",\"buyer_gstin\":\"20AAGCM9431A1Z1\",\"buyer_address\":\"Unit No. 205, Adidhar Industrial Estate, Singur, West Bengal - 725633\",\"place_of_supply\":\"West Bengal\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Swaraj 635 FE Tractor\",\"hsn_sac\":\"8701\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":26589.33,\"discount\":null,\"taxable_value\":26589.33,\"tax_rate\":18},{\"description\":\"Mahindra 265 Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":8284.69,\"discount\":null,\"taxable_value\":33538.69,\"tax_rate\":18},{\"description\":\"Swaraj Tyre Cutting Set\",\"hsn_sac\":\"8215\",\"quantity\":200,\"unit\":\"SET\",\"unit_price\":2.35,\"discount\":null,\"taxable_value\":404.69,\"tax_rate\":18},{\"description\":\"Rear Carted Broytek 300 Pungs\",\"hsn_sac\":\"3920\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":104.04,\"discount\":null,\"taxable_value\":1440.58,\"tax_rate\":18},{\"description\":\"Mecurigami Booster 4kg\",\"hsn_sac\":\"3402\",\"quantity\":37,\"unit\":\"PCS\",\"unit_price\":33.30,\"discount\":null,\"taxable_value\":1232.50,\"tax_rate\":18},{\"description\":\"Office Mechanisation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":16596.18,\"discount\":null,\"taxable_value\":16596.18,\"tax_rate\":18},{\"description\":\"Refined Sugar 5 kg\",\"hsn_sac\":\"1701\",\"quantity\":2,\"unit\":\"BAG\",\"unit_price\":5034.00,\"discount\":null,\"taxable_value\":10958.50,\"tax_rate\":18}],\"total_taxable_value\":90760.40,\"cgst_amount\":15549.83,\"sgst_amount\":15549.83,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.10,\"grand_total\":443043.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2056,
+ "output_tokens": 570,
+ "cached_input_tokens": 0,
+ "latency_s": 4.4813,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

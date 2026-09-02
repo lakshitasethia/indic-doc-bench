@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00024__L3_harsh",
+ "doc_id": "syn00024",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2020-26/SEQG",
+  "invoice_date": "2020-07-10",
+  "seller_name": "GREEN LIGHT PROFESSIONAL EYE",
+  "seller_gstin": "10ABGPC5295N1ZY",
+  "seller_address": "D-220, MG Road, New Delhi, Delhi - 110007",
+  "buyer_name": "Shailesh & Sons LLP",
+  "buyer_gstin": null,
+  "buyer_address": "D-220, MG Road, Indrapuri, Patna - 800001",
+  "place_of_supply": "Delhi",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Double Door Screen",
+    "hsn_sac": "8531",
+    "quantity": 10,
+    "unit": "PCS",
+    "unit_price": 354.5,
+    "discount": 0,
+    "taxable_value": 3545.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Safety Glass 100g",
+    "hsn_sac": "3407",
+    "quantity": 42,
+    "unit": "PCS",
+    "unit_price": 81.6,
+    "discount": 0,
+    "taxable_value": 8337.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 15,
+    "unit": "BAG",
+    "unit_price": 362.8,
+    "discount": 0,
+    "taxable_value": 12641.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "Tata Structura 4Kg (Section 55)",
+    "hsn_sac": "3304",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 56.5,
+    "discount": 0,
+    "taxable_value": 12137.65,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/60 R15",
+    "hsn_sac": "4011",
+    "quantity": 15,
+    "unit": "PCS",
+    "unit_price": 3100,
+    "discount": 0,
+    "taxable_value": 6962.55,
+    "tax_rate": 18
+   },
+   {
+    "description": "CFL 7W LED Bulb 2 Pieces",
+    "hsn_sac": "8539",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 210.65,
+    "discount": 0,
+    "taxable_value": 21547.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Room CTS Tax Lead",
+    "hsn_sac": "9983",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 325.68,
+    "discount": 0,
+    "taxable_value": 70165.9,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 141694.45,
+  "cgst_amount": 8856.92,
+  "sgst_amount": 8856.92,
+  "igst_amount": null,
+  "cess_amount": 0.45,
+  "round_off": 0.43,
+  "grand_total": 159888.0,
+  "amount_in_words": "Rupees One Lakh Fifty Eight Thousand Eight Hundred Only"
+ },
+ "raw": "{\"invoice_number\":\"2020-26/SEQG\",\"invoice_date\":\"2020-07-10\",\"seller_name\":\"GREEN LIGHT PROFESSIONAL EYE\",\"seller_gstin\":\"10ABGPC5295N1ZY\",\"seller_address\":\"D-220, MG Road, New Delhi, Delhi - 110007\",\"buyer_name\":\"Shailesh & Sons LLP\",\"buyer_gstin\":null,\"buyer_address\":\"D-220, MG Road, Indrapuri, Patna - 800001\",\"place_of_supply\":\"Delhi\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Double Door Screen\",\"hsn_sac\":\"8531\",\"quantity\":10,\"unit\":\"PCS\",\"unit_price\":354.50,\"discount\":0,\"taxable_value\":3545.00,\"tax_rate\":18},{\"description\":\"Safety Glass 100g\",\"hsn_sac\":\"3407\",\"quantity\":42,\"unit\":\"PCS\",\"unit_price\":81.60,\"discount\":0,\"taxable_value\":8337.50,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":15,\"unit\":\"BAG\",\"unit_price\":362.80,\"discount\":0,\"taxable_value\":12641.10,\"tax_rate\":18},{\"description\":\"Tata Structura 4Kg (Section 55)\",\"hsn_sac\":\"3304\",\"quantity\":100,\"unit\":\"PCS\",\"unit_price\":56.50,\"discount\":0,\"taxable_value\":12137.65,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/60 R15\",\"hsn_sac\":\"4011\",\"quantity\":15,\"unit\":\"PCS\",\"unit_price\":3100,\"discount\":0,\"taxable_value\":6962.55,\"tax_rate\":18},{\"description\":\"CFL 7W LED Bulb 2 Pieces\",\"hsn_sac\":\"8539\",\"quantity\":100,\"unit\":\"PCS\",\"unit_price\":210.65,\"discount\":0,\"taxable_value\":21547.75,\"tax_rate\":18},{\"description\":\"Room CTS Tax Lead\",\"hsn_sac\":\"9983\",\"quantity\":200,\"unit\":\"PCS\",\"unit_price\":325.68,\"discount\":0,\"taxable_value\":70165.90,\"tax_rate\":18}],\"total_taxable_value\":141694.45,\"cgst_amount\":8856.92,\"sgst_amount\":8856.92,\"igst_amount\":null,\"cess_amount\":0.45,\"round_off\":0.43,\"grand_total\":159888.00,\"amount_in_words\":\"Rupees One Lakh Fifty Eight Thousand Eight Hundred Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1949,
+ "output_tokens": 568,
+ "cached_input_tokens": 0,
+ "latency_s": 12.4052,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

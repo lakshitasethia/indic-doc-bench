@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00043__L2_photo",
+ "doc_id": "syn00043",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TI/25-26/2784",
+  "invoice_date": "2026-03-02",
+  "seller_name": "Banerjee Overseas LLP",
+  "seller_gstin": "29HJXPB2482G5ZJ",
+  "seller_address": "Gala No. 428, Ring Road, Mangaluru, Karnataka - 574119",
+  "buyer_name": "Agarwal Pharma",
+  "buyer_gstin": "29JIOCA1596G5ZF",
+  "buyer_address": "Shop No. 144, MIDC Phase II, Bengaluru, Karnataka - 568246",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 5475,
+    "unit": "NOS",
+    "unit_price": 17.0,
+    "discount": null,
+    "taxable_value": 93075.0,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 93075.0,
+  "cgst_amount": 8376.75,
+  "sgst_amount": 8376.75,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.5,
+  "grand_total": 109829.0,
+  "amount_in_words": "Rupees One Lakh Nine Thousand Eight Hundred and Twenty Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"TI/25-26/2784\",\"invoice_date\":\"2026-03-02\",\"seller_name\":\"Banerjee Overseas LLP\",\"seller_gstin\":\"29HJXPB2482G5ZJ\",\"seller_address\":\"Gala No. 428, Ring Road, Mangaluru, Karnataka - 574119\",\"buyer_name\":\"Agarwal Pharma\",\"buyer_gstin\":\"29JIOCA1596G5ZF\",\"buyer_address\":\"Shop No. 144, MIDC Phase II, Bengaluru, Karnataka - 568246\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":5475,\"unit\":\"NOS\",\"unit_price\":17.00,\"discount\":null,\"taxable_value\":93075.00,\"tax_rate\":18}],\"total_taxable_value\":93075.00,\"cgst_amount\":8376.75,\"sgst_amount\":8376.75,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.50,\"grand_total\":109829.00,\"amount_in_words\":\"Rupees One Lakh Nine Thousand Eight Hundred and Twenty Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2945,
+ "output_tokens": 263,
+ "cached_input_tokens": 0,
+ "latency_s": 3.7468,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

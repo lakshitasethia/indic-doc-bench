@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00065__L3_harsh",
+ "doc_id": "syn00065",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "558-3-0897",
+  "invoice_date": "2024-06-28",
+  "seller_name": "Sysme Garments Private Limited",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Sysme Distributors Private Limited",
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cement Standard",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 72184.29,
+    "tax_rate": null
+   },
+   {
+    "description": "Electronic Rice (Broken 5%)",
+    "hsn_sac": null,
+    "quantity": 1700,
+    "unit": "KGS",
+    "unit_price": 108.8,
+    "discount": null,
+    "taxable_value": 184960.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": null,
+    "quantity": 1000,
+    "unit": "BOX",
+    "unit_price": 271.4,
+    "discount": null,
+    "taxable_value": 271400.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": null,
+    "quantity": 3200,
+    "unit": "LTR",
+    "unit_price": 632.41,
+    "discount": null,
+    "taxable_value": 2023712.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": null,
+    "quantity": 4000,
+    "unit": "NOS",
+    "unit_price": 78.0,
+    "discount": null,
+    "taxable_value": 312000.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": null,
+    "quantity": 5473,
+    "unit": "NOS",
+    "unit_price": 50076.54,
+    "discount": null,
+    "taxable_value": 274069.32,
+    "tax_rate": null
+   },
+   {
+    "description": "Refine Type HMBIS 21t",
+    "hsn_sac": null,
+    "quantity": 4213,
+    "unit": "NOS",
+    "unit_price": 15.6,
+    "discount": null,
+    "taxable_value": 65738.1,
+    "tax_rate": null
+   },
+   {
+    "description": "M2 Flex Bolt with Nut M12",
+    "hsn_sac": null,
+    "quantity": 7210,
+    "unit": "NOS",
+    "unit_price": 11.4,
+    "discount": null,
+    "taxable_value": 82174.5,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 553529.16,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": 49423.33,
+  "round_off": null,
+  "grand_total": 604072.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\": \"558-3-0897\", \"invoice_date\": \"2024-06-28\", \"seller_name\": \"Sysme Garments Private Limited\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": \"Sysme Distributors Private Limited\", \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"line_items\": [{\"description\": \"Cement Standard\", \"hsn_sac\": null, \"quantity\": null, \"unit\": null, \"unit_price\": null, \"discount\": null, \"taxable_value\": 72184.29, \"tax_rate\": null}, {\"description\": \"Electronic Rice (Broken 5%)\", \"hsn_sac\": null, \"quantity\": 1700, \"unit\": \"KGS\", \"unit_price\": 108.8, \"discount\": null, \"taxable_value\": 184960.00, \"tax_rate\": null}, {\"description\": \"Glucose Biscuits 200g\", \"hsn_sac\": null, \"quantity\": 1000, \"unit\": \"BOX\", \"unit_price\": 271.40, \"discount\": null, \"taxable_value\": 271400.00, \"tax_rate\": null}, {\"description\": \"Synthetic Enamel Paint 4L\", \"hsn_sac\": null, \"quantity\": 3200, \"unit\": \"LTR\", \"unit_price\": 632.41, \"discount\": null, \"taxable_value\": 2023712.00, \"tax_rate\": null}, {\"description\": \"Hard Bound Register 200 Pages\", \"hsn_sac\": null, \"quantity\": 4000, \"unit\": \"NOS\", \"unit_price\": 78.00, \"discount\": null, \"taxable_value\": 312000.00, \"tax_rate\": null}, {\"description\": \"Laptop Computer i5 16GB\", \"hsn_sac\": null, \"quantity\": 5473, \"unit\": \"NOS\", \"unit_price\": 50076.54, \"discount\": null, \"taxable_value\": 274069.32, \"tax_rate\": null}, {\"description\": \"Refine Type HMBIS 21t\", \"hsn_sac\": null, \"quantity\": 4213, \"unit\": \"NOS\", \"unit_price\": 15.60, \"discount\": null, \"taxable_value\": 65738.10, \"tax_rate\": null}, {\"description\": \"M2 Flex Bolt with Nut M12\", \"hsn_sac\": null, \"quantity\": 7210, \"unit\": \"NOS\", \"unit_price\": 11.40, \"discount\": null, \"taxable_value\": 82174.50, \"tax_rate\": null}], \"total_taxable_value\": 553529.16, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": 49423.33, \"round_off\": null, \"grand_total\": 604072.00, \"amount_in_words\": null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2078,
+ "output_tokens": 676,
+ "cached_input_tokens": 0,
+ "latency_s": 4.4682,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

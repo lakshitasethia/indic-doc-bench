@@ -1,0 +1,27 @@
+{
+ "variant_id": "syn00056__L3_harsh",
+ "doc_id": "syn00056",
+ "level": "L3_harsh",
+ "template_id": "t09",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": null,
+ "raw": "null",
+ "schema_violation": "json_not_an_object",
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1622,
+ "output_tokens": 2,
+ "cached_input_tokens": 0,
+ "latency_s": 1.6795,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

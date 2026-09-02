@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00081__L3_harsh",
+ "doc_id": "syn00081",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-C-2105",
+  "invoice_date": "2025-11-03",
+  "seller_name": "Gupta Overseas Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": "Plot No. 166, Jhotwara, IInd, Indl. Area, Jaipur -302012",
+  "buyer_name": "Agrawal Steel & Alloys LLP",
+  "buyer_gstin": "24ADVFA2139H1ZP",
+  "buyer_address": "Plot No. 406, Patna and Bhilai, Ahmedabad, Gujarat - 380006",
+  "place_of_supply": "Gujarat",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 201.0,
+    "unit": "SET",
+    "unit_price": 3306.81,
+    "discount": null,
+    "taxable_value": 665059.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer 15.06GB",
+    "hsn_sac": "8471",
+    "quantity": 1.0,
+    "unit": "NOS",
+    "unit_price": 65083.87,
+    "discount": null,
+    "taxable_value": 65083.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 5.0,
+    "unit": "NOS",
+    "unit_price": 34570.3,
+    "discount": null,
+    "taxable_value": 172851.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Round Rim (Stainless Steel)",
+    "hsn_sac": "7323",
+    "quantity": 32.0,
+    "unit": "PCS",
+    "unit_price": 163.8,
+    "discount": null,
+    "taxable_value": 5220.05,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 467.0,
+    "unit": "PCS",
+    "unit_price": 160.46,
+    "discount": null,
+    "taxable_value": 74933.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 3.0,
+    "unit": "BAG",
+    "unit_price": 459.85,
+    "discount": null,
+    "taxable_value": 1662.44,
+    "tax_rate": 28
+   }
+  ],
+  "total_taxable_value": 985310.6,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 167503.78,
+  "cess_amount": null,
+  "round_off": -0.14,
+  "grand_total": 1252810.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"TAX-C-2105\",\"invoice_date\":\"2025-11-03\",\"seller_name\":\"Gupta Overseas Pvt. Ltd.\",\"seller_gstin\":null,\"seller_address\":\"Plot No. 166, Jhotwara, IInd, Indl. Area, Jaipur -302012\",\"buyer_name\":\"Agrawal Steel & Alloys LLP\",\"buyer_gstin\":\"24ADVFA2139H1ZP\",\"buyer_address\":\"Plot No. 406, Patna and Bhilai, Ahmedabad, Gujarat - 380006\",\"place_of_supply\":\"Gujarat\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":201.00,\"unit\":\"SET\",\"unit_price\":3306.81,\"discount\":null,\"taxable_value\":665059.26,\"tax_rate\":18},{\"description\":\"Laptop Computer 15.06GB\",\"hsn_sac\":\"8471\",\"quantity\":1.00,\"unit\":\"NOS\",\"unit_price\":65083.87,\"discount\":null,\"taxable_value\":65083.87,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":5.00,\"unit\":\"NOS\",\"unit_price\":34570.30,\"discount\":null,\"taxable_value\":172851.50,\"tax_rate\":18},{\"description\":\"Round Rim (Stainless Steel)\",\"hsn_sac\":\"7323\",\"quantity\":32.00,\"unit\":\"PCS\",\"unit_price\":163.80,\"discount\":null,\"taxable_value\":5220.05,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":467.00,\"unit\":\"PCS\",\"unit_price\":160.46,\"discount\":null,\"taxable_value\":74933.39,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":3.00,\"unit\":\"BAG\",\"unit_price\":459.85,\"discount\":null,\"taxable_value\":1662.44,\"tax_rate\":28}],\"total_taxable_value\":985310.60,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":167503.78,\"cess_amount\":null,\"round_off\":-0.14,\"grand_total\":1252810.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1990,
+ "output_tokens": 521,
+ "cached_input_tokens": 0,
+ "latency_s": 3.9608,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

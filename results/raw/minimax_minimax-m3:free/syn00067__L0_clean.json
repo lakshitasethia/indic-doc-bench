@@ -1,0 +1,199 @@
+{
+ "variant_id": "syn00067__L0_clean",
+ "doc_id": "syn00067",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "7777",
+  "invoice_date": "2025-12-21",
+  "seller_name": "Ahluwalia Sales Corporation",
+  "seller_gstin": "36SPPCA6442B8Z8",
+  "seller_address": "Khasra No. 96, SIDCO Complex, Warangal, Telangana - 507116",
+  "buyer_name": "Joshi & Sons Limited",
+  "buyer_gstin": "36VALCJ9852A7ZM",
+  "buyer_address": "Khasra No. 260, Chandni Chowk, Warangal, Telangana - 504968",
+  "place_of_supply": "Telangana",
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 909986.43,
+  "cgst_amount": 81002.29,
+  "sgst_amount": 81002.29,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.01,
+  "grand_total": 1071991.0,
+  "amount_in_words": "Rupees Ten Lakh Seventy One Thousand Nine Hundred and Ninety One Only",
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 12936.82,
+    "discount": null,
+    "taxable_value": 77620.92,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 89,
+    "unit": "NOS",
+    "unit_price": 52.08,
+    "discount": null,
+    "taxable_value": 4635.12,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 1358,
+    "unit": "BOX",
+    "unit_price": 20.98,
+    "discount": null,
+    "taxable_value": 28490.84,
+    "tax_rate": 12
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 52,
+    "unit": "PRS",
+    "unit_price": 1866.22,
+    "discount": null,
+    "taxable_value": 97043.44,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 8,
+    "unit": "NOS",
+    "unit_price": 75.21,
+    "discount": null,
+    "taxable_value": 601.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 3709,
+    "unit": "PCS",
+    "unit_price": 45.88,
+    "discount": null,
+    "taxable_value": 170168.92,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 19494.85,
+    "discount": null,
+    "taxable_value": 19494.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 18,
+    "unit": "SET",
+    "unit_price": 405.98,
+    "discount": null,
+    "taxable_value": 7307.64,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 4.384,
+    "unit": "TON",
+    "unit_price": 60200.9,
+    "discount": null,
+    "taxable_value": 263920.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 62203.38,
+    "discount": null,
+    "taxable_value": 62203.38,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 321.32,
+    "discount": null,
+    "taxable_value": 642.64,
+    "tax_rate": 5
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 35,
+    "unit": "NOS",
+    "unit_price": 3843.78,
+    "discount": null,
+    "taxable_value": 134532.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 9270.08,
+    "discount": null,
+    "taxable_value": 9084.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 30281.07,
+    "discount": null,
+    "taxable_value": 30281.07,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 30,
+    "unit": "PCS",
+    "unit_price": 131.94,
+    "discount": null,
+    "taxable_value": 3958.2,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"7777\",\"invoice_date\":\"2025-12-21\",\"seller_name\":\"Ahluwalia Sales Corporation\",\"seller_gstin\":\"36SPPCA6442B8Z8\",\"seller_address\":\"Khasra No. 96, SIDCO Complex, Warangal, Telangana - 507116\",\"buyer_name\":\"Joshi & Sons Limited\",\"buyer_gstin\":\"36VALCJ9852A7ZM\",\"buyer_address\":\"Khasra No. 260, Chandni Chowk, Warangal, Telangana - 504968\",\"place_of_supply\":\"Telangana\",\"reverse_charge\":null,\"irn\":null,\"total_taxable_value\":909986.43,\"cgst_amount\":81002.29,\"sgst_amount\":81002.29,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.01,\"grand_total\":1071991.00,\"amount_in_words\":\"Rupees Ten Lakh Seventy One Thousand Nine Hundred and Ninety One Only\",\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":12936.82,\"discount\":null,\"taxable_value\":77620.92,\"tax_rate\":18},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":89,\"unit\":\"NOS\",\"unit_price\":52.08,\"discount\":null,\"taxable_value\":4635.12,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":1358,\"unit\":\"BOX\",\"unit_price\":20.98,\"discount\":null,\"taxable_value\":28490.84,\"tax_rate\":12},{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":52,\"unit\":\"PRS\",\"unit_price\":1866.22,\"discount\":null,\"taxable_value\":97043.44,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":8,\"unit\":\"NOS\",\"unit_price\":75.21,\"discount\":null,\"taxable_value\":601.68,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":3709,\"unit\":\"PCS\",\"unit_price\":45.88,\"discount\":null,\"taxable_value\":170168.92,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":19494.85,\"discount\":null,\"taxable_value\":19494.85,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":18,\"unit\":\"SET\",\"unit_price\":405.98,\"discount\":null,\"taxable_value\":7307.64,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":4.384,\"unit\":\"TON\",\"unit_price\":60200.90,\"discount\":null,\"taxable_value\":263920.75,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":62203.38,\"discount\":null,\"taxable_value\":62203.38,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":2,\"unit\":\"PCS\",\"unit_price\":321.32,\"discount\":null,\"taxable_value\":642.64,\"tax_rate\":5},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":35,\"unit\":\"NOS\",\"unit_price\":3843.78,\"discount\":null,\"taxable_value\":134532.30,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":9270.08,\"discount\":null,\"taxable_value\":9084.68,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":30281.07,\"discount\":null,\"taxable_value\":30281.07,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":30,\"unit\":\"PCS\",\"unit_price\":131.94,\"discount\":null,\"taxable_value\":3958.20,\"tax_rate\":18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5798,
+ "output_tokens": 1004,
+ "cached_input_tokens": 0,
+ "latency_s": 13.2084,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

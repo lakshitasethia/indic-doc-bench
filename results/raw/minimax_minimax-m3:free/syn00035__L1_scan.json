@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00035__L1_scan",
+ "doc_id": "syn00035",
+ "level": "L1_scan",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SI/25-26/8992",
+  "invoice_date": "2025-06-08",
+  "seller_name": "Verma Distributors LLP",
+  "seller_gstin": "03GUNCV2316Q3ZL",
+  "seller_address": "Khasra No. 378, Okhla Phase I, Jalandhar, Punjab - 142539",
+  "buyer_name": "Menon Marketing Limited",
+  "buyer_gstin": "03TJPCM9711Z1Z8",
+  "buyer_address": "Door No. 234, GIDC Estate, Ludhiana, Punjab - 140360",
+  "place_of_supply": "Punjab",
+  "reverse_charge": false,
+  "irn": null,
+  "total_taxable_value": 2852.75,
+  "cgst_amount": 71.32,
+  "sgst_amount": 71.32,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.39,
+  "grand_total": 2995.0,
+  "amount_in_words": "Rupees Two Thousand Nine Hundred and Ninety Five Only",
+  "line_items": [
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 26.809,
+    "unit": "KGS",
+    "unit_price": 106.41,
+    "discount": 0.0,
+    "taxable_value": 2852.75,
+    "tax_rate": 5
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\":\"SI/25-26/8992\",\"invoice_date\":\"2025-06-08\",\"seller_name\":\"Verma Distributors LLP\",\"seller_gstin\":\"03GUNCV2316Q3ZL\",\"seller_address\":\"Khasra No. 378, Okhla Phase I, Jalandhar, Punjab - 142539\",\"buyer_name\":\"Menon Marketing Limited\",\"buyer_gstin\":\"03TJPCM9711Z1Z8\",\"buyer_address\":\"Door No. 234, GIDC Estate, Ludhiana, Punjab - 140360\",\"place_of_supply\":\"Punjab\",\"reverse_charge\":false,\"irn\":null,\"total_taxable_value\":2852.75,\"cgst_amount\":71.32,\"sgst_amount\":71.32,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.39,\"grand_total\":2995.00,\"amount_in_words\":\"Rupees Two Thousand Nine Hundred and Ninety Five Only\",\"line_items\":[{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":26.809,\"unit\":\"KGS\",\"unit_price\":106.41,\"discount\":0.00,\"taxable_value\":2852.75,\"tax_rate\":5}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 4430,
+ "output_tokens": 272,
+ "cached_input_tokens": 0,
+ "latency_s": 4.726,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

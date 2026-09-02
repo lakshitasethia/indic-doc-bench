@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00045__L3_harsh",
+ "doc_id": "syn00045",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/3308",
+  "invoice_date": "2025-11-16",
+  "seller_name": "Sharma Technologies Limited",
+  "seller_gstin": null,
+  "seller_address": "Unit No. 40, Ground Floor, Road No. 6, Industrial Estate, Patil Pada, Goregaon (East), Mumbai - 400063",
+  "buyer_name": "Memon Agencies Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Unit No. 41, Dombivli Chowk, Dombivli, Thane Nadu - 421201",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": "No",
+  "irn": null,
+  "line_items": [
+   {
+    "description": "50S Day Roll with Nut Mix",
+    "hsn_sac": null,
+    "quantity": 25,
+    "unit": "NOS",
+    "unit_price": 10.5,
+    "discount": null,
+    "taxable_value": 262.5,
+    "tax_rate": null
+   },
+   {
+    "description": "Dettigung Powder 5kg",
+    "hsn_sac": null,
+    "quantity": 1000,
+    "unit": "PCS",
+    "unit_price": 142.08,
+    "discount": null,
+    "taxable_value": 142080,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 142342.5,
+  "cgst_amount": 2009.55,
+  "sgst_amount": 2009.55,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.3,
+  "grand_total": 146362.2,
+  "amount_in_words": "Rupees Fifty Two Thousand Five Hundred Two and Ninety Paise Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/3308\",\"invoice_date\":\"2025-11-16\",\"seller_name\":\"Sharma Technologies Limited\",\"seller_gstin\":null,\"seller_address\":\"Unit No. 40, Ground Floor, Road No. 6, Industrial Estate, Patil Pada, Goregaon (East), Mumbai - 400063\",\"buyer_name\":\"Memon Agencies Limited\",\"buyer_gstin\":null,\"buyer_address\":\"Unit No. 41, Dombivli Chowk, Dombivli, Thane Nadu - 421201\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":\"No\",\"irn\":null,\"line_items\":[{\"description\":\"50S Day Roll with Nut Mix\",\"hsn_sac\":null,\"quantity\":25,\"unit\":\"NOS\",\"unit_price\":10.5,\"discount\":null,\"taxable_value\":262.5,\"tax_rate\":null},{\"description\":\"Dettigung Powder 5kg\",\"hsn_sac\":null,\"quantity\":1000,\"unit\":\"PCS\",\"unit_price\":142.08,\"discount\":null,\"taxable_value\":142080,\"tax_rate\":null}],\"total_taxable_value\":142342.5,\"cgst_amount\":2009.55,\"sgst_amount\":2009.55,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.3,\"grand_total\":146362.2,\"amount_in_words\":\"Rupees Fifty Two Thousand Five Hundred Two and Ninety Paise Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2033,
+ "output_tokens": 313,
+ "cached_input_tokens": 0,
+ "latency_s": 3.6159,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

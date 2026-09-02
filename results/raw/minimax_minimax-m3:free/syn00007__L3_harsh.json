@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00007__L3_harsh",
+ "doc_id": "syn00007",
+ "level": "L3_harsh",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SAE-B-3404",
+  "invoice_date": "2020-03-27",
+  "seller_name": "IOCL Logistics Pvt. Ltd.",
+  "seller_gstin": "33SPNPC1925S1Z2",
+  "seller_address": "Shop No. 112, MBCO Complex, Salem",
+  "buyer_name": "J P Royer Red Marketing LLP",
+  "buyer_gstin": "33LBBPK9978R1ZZ",
+  "buyer_address": "48-A, Kathivedan Road, Chetput, Salem - 636020",
+  "place_of_supply": "Tamil Nadu",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Site Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 438.995,
+    "unit": "KGS",
+    "unit_price": 90,
+    "discount": null,
+    "taxable_value": 39509.74,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instand Enrol Fees",
+    "hsn_sac": "2106",
+    "quantity": 72,
+    "unit": "PCS",
+    "unit_price": 295.78,
+    "discount": null,
+    "taxable_value": 10639.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Interlocking Cable",
+    "hsn_sac": "9403",
+    "quantity": 2500,
+    "unit": "NOS",
+    "unit_price": 18.58,
+    "discount": null,
+    "taxable_value": 25588.85,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rode Star 100g",
+    "hsn_sac": "3401",
+    "quantity": 444,
+    "unit": "SET",
+    "unit_price": 97.05,
+    "discount": null,
+    "taxable_value": 61670.39,
+    "tax_rate": 18
+   },
+   {
+    "description": "Bellnath Bap 20 Battan 5N",
+    "hsn_sac": "1006",
+    "quantity": 120.99,
+    "unit": "KGS",
+    "unit_price": 97.27,
+    "discount": null,
+    "taxable_value": 15764.89,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar 5.00",
+    "hsn_sac": "1701",
+    "quantity": 10,
+    "unit": "SET",
+    "unit_price": 84.96,
+    "discount": null,
+    "taxable_value": 705.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Aluminum Steel Cutlery 504",
+    "hsn_sac": "8215",
+    "quantity": 464,
+    "unit": "SET",
+    "unit_price": 106.4,
+    "discount": null,
+    "taxable_value": 198500.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "5000 Pieces Bags",
+    "hsn_sac": "3923",
+    "quantity": 358.773,
+    "unit": "NOS",
+    "unit_price": 47343.34,
+    "discount": null,
+    "taxable_value": 1295.04,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 357673.36,
+  "cgst_amount": 32188.5,
+  "sgst_amount": 32188.5,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.11,
+  "grand_total": 421697.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"SAE-B-3404\",\"invoice_date\":\"2020-03-27\",\"seller_name\":\"IOCL Logistics Pvt. Ltd.\",\"seller_gstin\":\"33SPNPC1925S1Z2\",\"seller_address\":\"Shop No. 112, MBCO Complex, Salem\",\"buyer_name\":\"J P Royer Red Marketing LLP\",\"buyer_gstin\":\"33LBBPK9978R1ZZ\",\"buyer_address\":\"48-A, Kathivedan Road, Chetput, Salem - 636020\",\"place_of_supply\":\"Tamil Nadu\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Site Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":438.995,\"unit\":\"KGS\",\"unit_price\":90,\"discount\":null,\"taxable_value\":39509.74,\"tax_rate\":18},{\"description\":\"Instand Enrol Fees\",\"hsn_sac\":\"2106\",\"quantity\":72,\"unit\":\"PCS\",\"unit_price\":295.78,\"discount\":null,\"taxable_value\":10639.96,\"tax_rate\":18},{\"description\":\"Office Interlocking Cable\",\"hsn_sac\":\"9403\",\"quantity\":2500,\"unit\":\"NOS\",\"unit_price\":18.58,\"discount\":null,\"taxable_value\":25588.85,\"tax_rate\":18},{\"description\":\"Rode Star 100g\",\"hsn_sac\":\"3401\",\"quantity\":444,\"unit\":\"SET\",\"unit_price\":97.05,\"discount\":null,\"taxable_value\":61670.39,\"tax_rate\":18},{\"description\":\"Bellnath Bap 20 Battan 5N\",\"hsn_sac\":\"1006\",\"quantity\":120.990,\"unit\":\"KGS\",\"unit_price\":97.27,\"discount\":null,\"taxable_value\":15764.89,\"tax_rate\":18},{\"description\":\"Refined Sugar 5.00\",\"hsn_sac\":\"1701\",\"quantity\":10,\"unit\":\"SET\",\"unit_price\":84.96,\"discount\":null,\"taxable_value\":705.00,\"tax_rate\":18},{\"description\":\"Aluminum Steel Cutlery 504\",\"hsn_sac\":\"8215\",\"quantity\":464,\"unit\":\"SET\",\"unit_price\":106.40,\"discount\":null,\"taxable_value\":198500.49,\"tax_rate\":18},{\"description\":\"5000 Pieces Bags\",\"hsn_sac\":\"3923\",\"quantity\":358.773,\"unit\":\"NOS\",\"unit_price\":47343.34,\"discount\":null,\"taxable_value\":1295.04,\"tax_rate\":18}],\"total_taxable_value\":357673.36,\"cgst_amount\":32188.50,\"sgst_amount\":32188.50,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.11,\"grand_total\":421697.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2078,
+ "output_tokens": 606,
+ "cached_input_tokens": 0,
+ "latency_s": 6.0132,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

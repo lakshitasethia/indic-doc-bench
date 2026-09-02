@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00095__L3_harsh",
+ "doc_id": "syn00095",
+ "level": "L3_harsh",
+ "template_id": "t12",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1",
+  "invoice_date": "2025-12-10",
+  "seller_name": "Soham Engineering Works Pvt. Ltd.",
+  "seller_gstin": "29ABECS0053H1ZE",
+  "seller_address": "Plot No. 66, BCI Plaza Road, Malur, Karnataka - 563160",
+  "buyer_name": "Soham Polymers LLP",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 33, BCI Plaza Road, Malur, Karnataka - 563160",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": "f42fa9b9e0b1acb68b9b97b6b7c6c1d5b8e3c2a4d5e6f7a8b9c0d1e2f3a4b5c6d",
+  "line_items": [
+   {
+    "description": "ONE WAY CBC 5W SGF and Use Mould Handle_with_No Run CBC SMT and Use_SW_456",
+    "hsn_sac": "8477",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15915.24,
+    "discount": 0,
+    "taxable_value": 15915.24,
+    "tax_rate": 18
+   },
+   {
+    "description": "CBC NOZZLE 5 2 MM RUNES CBC 5W SMT and Use CBC 5W SM_098",
+    "hsn_sac": "8477",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 3450.17,
+    "discount": 0,
+    "taxable_value": 10350.51,
+    "tax_rate": 18
+   },
+   {
+    "description": "1 PC NOZZLE",
+    "hsn_sac": null,
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 1250,
+    "discount": 0,
+    "taxable_value": 1250,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 27515.75,
+  "cgst_amount": 2476.42,
+  "sgst_amount": 2476.42,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.41,
+  "grand_total": 32469,
+  "amount_in_words": "Thirty Two Thousand Four Hundred Sixty Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"1\",\"invoice_date\":\"2025-12-10\",\"seller_name\":\"Soham Engineering Works Pvt. Ltd.\",\"seller_gstin\":\"29ABECS0053H1ZE\",\"seller_address\":\"Plot No. 66, BCI Plaza Road, Malur, Karnataka - 563160\",\"buyer_name\":\"Soham Polymers LLP\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No. 33, BCI Plaza Road, Malur, Karnataka - 563160\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":false,\"irn\":\"f42fa9b9e0b1acb68b9b97b6b7c6c1d5b8e3c2a4d5e6f7a8b9c0d1e2f3a4b5c6d\",\"line_items\":[{\"description\":\"ONE WAY CBC 5W SGF and Use Mould Handle_with_No Run CBC SMT and Use_SW_456\",\"hsn_sac\":\"8477\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":15915.24,\"discount\":0,\"taxable_value\":15915.24,\"tax_rate\":18},{\"description\":\"CBC NOZZLE 5 2 MM RUNES CBC 5W SMT and Use CBC 5W SM_098\",\"hsn_sac\":\"8477\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":3450.17,\"discount\":0,\"taxable_value\":10350.51,\"tax_rate\":18},{\"description\":\"1 PC NOZZLE\",\"hsn_sac\":null,\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":1250,\"discount\":0,\"taxable_value\":1250,\"tax_rate\":18}],\"total_taxable_value\":27515.75,\"cgst_amount\":2476.42,\"sgst_amount\":2476.42,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.41,\"grand_total\":32469,\"amount_in_words\":\"Thirty Two Thousand Four Hundred Sixty Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1865,
+ "output_tokens": 438,
+ "cached_input_tokens": 0,
+ "latency_s": 7.1108,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

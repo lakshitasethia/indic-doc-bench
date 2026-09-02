@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00061__L3_harsh",
+ "doc_id": "syn00061",
+ "level": "L3_harsh",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "MP/2025-26/1610",
+  "invoice_date": "2026-02-09",
+  "seller_name": "Mahajan Infotech Pvt. Ltd.",
+  "seller_gstin": "23ABOCM2567Q1Z0",
+  "seller_address": "Shop No 224, Kalanagar Road, Jabalpur, Jabalpur, Madhya Pradesh",
+  "buyer_name": "Mishra Traders",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 224, Kalayanu Road, Jabalpur, Jabalpur, 482001",
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 8,
+    "unit": "NOS",
+    "unit_price": 17500,
+    "discount": null,
+    "taxable_value": 129160,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 69999.99,
+    "discount": null,
+    "taxable_value": 349999.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 6.5,
+    "unit": "KGS",
+    "unit_price": 135.97,
+    "discount": null,
+    "taxable_value": 883.81,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 12.851,
+    "unit": "KGS",
+    "unit_price": 301.39,
+    "discount": null,
+    "taxable_value": 3873.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 2.562,
+    "unit": "KGS",
+    "unit_price": 714.74,
+    "discount": null,
+    "taxable_value": 1830.92,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.635,
+    "unit": "TON",
+    "unit_price": 34058.38,
+    "discount": null,
+    "taxable_value": 20190.04,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 13883.33,
+    "discount": null,
+    "taxable_value": 13883.33,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hnt Book with No2 V612",
+    "hsn_sac": "7518",
+    "quantity": 359,
+    "unit": "NOS",
+    "unit_price": 22.37,
+    "discount": null,
+    "taxable_value": 8026.83,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 527848.75,
+  "cgst_amount": 47514.66,
+  "sgst_amount": 47514.66,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.04,
+  "grand_total": 1048788.46,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"MP/2025-26/1610\",\"invoice_date\":\"2026-02-09\",\"seller_name\":\"Mahajan Infotech Pvt. Ltd.\",\"seller_gstin\":\"23ABOCM2567Q1Z0\",\"seller_address\":\"Shop No 224, Kalanagar Road, Jabalpur, Jabalpur, Madhya Pradesh\",\"buyer_name\":\"Mishra Traders\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No. 224, Kalayanu Road, Jabalpur, Jabalpur, 482001\",\"place_of_supply\":\"Madhya Pradesh\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":8,\"unit\":\"NOS\",\"unit_price\":17500,\"discount\":null,\"taxable_value\":129160,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":5,\"unit\":\"NOS\",\"unit_price\":69999.99,\"discount\":null,\"taxable_value\":349999.95,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":6.5,\"unit\":\"KGS\",\"unit_price\":135.97,\"discount\":null,\"taxable_value\":883.81,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":12.851,\"unit\":\"KGS\",\"unit_price\":301.39,\"discount\":null,\"taxable_value\":3873.87,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":2.562,\"unit\":\"KGS\",\"unit_price\":714.74,\"discount\":null,\"taxable_value\":1830.92,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.635,\"unit\":\"TON\",\"unit_price\":34058.38,\"discount\":null,\"taxable_value\":20190.04,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":13883.33,\"discount\":null,\"taxable_value\":13883.33,\"tax_rate\":18},{\"description\":\"MS Hnt Book with No2 V612\",\"hsn_sac\":\"7518\",\"quantity\":359,\"unit\":\"NOS\",\"unit_price\":22.37,\"discount\":null,\"taxable_value\":8026.83,\"tax_rate\":18}],\"total_taxable_value\":527848.75,\"cgst_amount\":47514.66,\"sgst_amount\":47514.66,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.04,\"grand_total\":1048788.46,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2078,
+ "output_tokens": 622,
+ "cached_input_tokens": 0,
+ "latency_s": 5.8322,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

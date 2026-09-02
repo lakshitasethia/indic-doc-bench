@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00093__L3_harsh",
+ "doc_id": "syn00093",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "B250-26/KR/26",
+  "invoice_date": "2025-11-05",
+  "seller_name": "Bhatt Polymers",
+  "seller_gstin": "27TLWPPS0992G1ZR",
+  "seller_address": "Plot No. 37, Survey No. 9, Village Taloja, Maval, Maharashtra - 410208",
+  "buyer_name": "Naidu Industries",
+  "buyer_gstin": null,
+  "buyer_address": "Gala No. 368, MC Road, Magarw, Maharashtra - 421105",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Porcelainized PP Hinged Tablets",
+    "hsn_sac": null,
+    "quantity": 3004,
+    "unit": "PCS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 26254.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cubana Round Neck T-Shirt",
+    "hsn_sac": null,
+    "quantity": 8009,
+    "unit": "PCS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 67986.3,
+    "tax_rate": 5
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": null,
+    "quantity": 3923,
+    "unit": "KGS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 97022.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "Concealed Carbon Box 0-Ply",
+    "hsn_sac": null,
+    "quantity": 4804,
+    "unit": "NOS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 10168.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hand Bound Register 200 Pages",
+    "hsn_sac": null,
+    "quantity": 4804,
+    "unit": "NOS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 1228.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Round Box Division 6%",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": null,
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 621338.0,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar 5-50",
+    "hsn_sac": null,
+    "quantity": null,
+    "unit": "KGS",
+    "unit_price": null,
+    "discount": null,
+    "taxable_value": 5774.55,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 823672.0,
+  "cgst_amount": 34936.76,
+  "sgst_amount": 34936.76,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 893545.0,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"B250-26/KR/26\",\"invoice_date\":\"2025-11-05\",\"seller_name\":\"Bhatt Polymers\",\"seller_gstin\":\"27TLWPPS0992G1ZR\",\"seller_address\":\"Plot No. 37, Survey No. 9, Village Taloja, Maval, Maharashtra - 410208\",\"buyer_name\":\"Naidu Industries\",\"buyer_gstin\":null,\"buyer_address\":\"Gala No. 368, MC Road, Magarw, Maharashtra - 421105\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Porcelainized PP Hinged Tablets\",\"hsn_sac\":null,\"quantity\":3004,\"unit\":\"PCS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":26254.00,\"tax_rate\":18},{\"description\":\"Cubana Round Neck T-Shirt\",\"hsn_sac\":null,\"quantity\":8009,\"unit\":\"PCS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":67986.30,\"tax_rate\":5},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":null,\"quantity\":3923,\"unit\":\"KGS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":97022.25,\"tax_rate\":18},{\"description\":\"Concealed Carbon Box 0-Ply\",\"hsn_sac\":null,\"quantity\":4804,\"unit\":\"NOS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":10168.80,\"tax_rate\":18},{\"description\":\"Hand Bound Register 200 Pages\",\"hsn_sac\":null,\"quantity\":4804,\"unit\":\"NOS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":1228.30,\"tax_rate\":18},{\"description\":\"Round Box Division 6%\",\"hsn_sac\":null,\"quantity\":null,\"unit\":null,\"unit_price\":null,\"discount\":null,\"taxable_value\":621338.00,\"tax_rate\":5},{\"description\":\"Refined Sugar 5-50\",\"hsn_sac\":null,\"quantity\":null,\"unit\":\"KGS\",\"unit_price\":null,\"discount\":null,\"taxable_value\":5774.55,\"tax_rate\":5}],\"total_taxable_value\":823672.00,\"cgst_amount\":34936.76,\"sgst_amount\":34936.76,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":893545.00,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1991,
+ "output_tokens": 541,
+ "cached_input_tokens": 0,
+ "latency_s": 5.3539,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

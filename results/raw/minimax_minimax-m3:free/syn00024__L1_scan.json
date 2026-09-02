@@ -1,0 +1,119 @@
+{
+ "variant_id": "syn00024__L1_scan",
+ "doc_id": "syn00024",
+ "level": "L1_scan",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/6184",
+  "invoice_date": "2025-07-16",
+  "seller_name": "Sethi Industries",
+  "seller_gstin": "07JPRCS2734Y5ZV",
+  "seller_address": "Door No. 138, Peenya 2nd Stage, New Delhi, Delhi - 110627",
+  "buyer_name": "Shetty & Sons LLP",
+  "buyer_gstin": "07YLOPS2069W8ZX",
+  "buyer_address": "Gala No. 330, MG Road, Delhi, Delhi - 110975",
+  "place_of_supply": "Delhi",
+  "reverse_charge": false,
+  "irn": "97c3327bbe2bbf605b6eee62a93ca433394744925bded0f0b4c6f590b1e56644",
+  "line_items": [
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 22,
+    "unit": "PCS",
+    "unit_price": 154.5,
+    "discount": null,
+    "taxable_value": 3399.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 163,
+    "unit": "PCS",
+    "unit_price": 52.5,
+    "discount": null,
+    "taxable_value": 8557.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 43,
+    "unit": "BAG",
+    "unit_price": 362.82,
+    "discount": null,
+    "taxable_value": 15601.26,
+    "tax_rate": 28
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 200.386,
+    "unit": "KGS",
+    "unit_price": 94.38,
+    "discount": null,
+    "taxable_value": 18912.43,
+    "tax_rate": 5
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5003.01,
+    "discount": 500.3,
+    "taxable_value": 4502.71,
+    "tax_rate": 28
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 21547.73,
+    "discount": null,
+    "taxable_value": 21547.73,
+    "tax_rate": 18
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 215.471,
+    "unit": "KGS",
+    "unit_price": 325.64,
+    "discount": null,
+    "taxable_value": 70165.98,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 142686.61,
+  "cgst_amount": 8056.91,
+  "sgst_amount": 8056.91,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.43,
+  "grand_total": 158800.0,
+  "amount_in_words": "Rupees One Lakh Fifty Eight Thousand Eight Hundred Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/6184\",\"invoice_date\":\"2025-07-16\",\"seller_name\":\"Sethi Industries\",\"seller_gstin\":\"07JPRCS2734Y5ZV\",\"seller_address\":\"Door No. 138, Peenya 2nd Stage, New Delhi, Delhi - 110627\",\"buyer_name\":\"Shetty & Sons LLP\",\"buyer_gstin\":\"07YLOPS2069W8ZX\",\"buyer_address\":\"Gala No. 330, MG Road, Delhi, Delhi - 110975\",\"place_of_supply\":\"Delhi\",\"reverse_charge\":false,\"irn\":\"97c3327bbe2bbf605b6eee62a93ca433394744925bded0f0b4c6f590b1e56644\",\"line_items\":[{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":22,\"unit\":\"PCS\",\"unit_price\":154.50,\"discount\":null,\"taxable_value\":3399.00,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":163,\"unit\":\"PCS\",\"unit_price\":52.50,\"discount\":null,\"taxable_value\":8557.50,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":43,\"unit\":\"BAG\",\"unit_price\":362.82,\"discount\":null,\"taxable_value\":15601.26,\"tax_rate\":28},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":200.386,\"unit\":\"KGS\",\"unit_price\":94.38,\"discount\":null,\"taxable_value\":18912.43,\"tax_rate\":5},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5003.01,\"discount\":500.30,\"taxable_value\":4502.71,\"tax_rate\":28},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":21547.73,\"discount\":null,\"taxable_value\":21547.73,\"tax_rate\":18},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":215.471,\"unit\":\"KGS\",\"unit_price\":325.64,\"discount\":null,\"taxable_value\":70165.98,\"tax_rate\":5}],\"total_taxable_value\":142686.61,\"cgst_amount\":8056.91,\"sgst_amount\":8056.91,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.43,\"grand_total\":158800.00,\"amount_in_words\":\"Rupees One Lakh Fifty Eight Thousand Eight Hundred Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6158,
+ "output_tokens": 617,
+ "cached_input_tokens": 0,
+ "latency_s": 7.2037,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

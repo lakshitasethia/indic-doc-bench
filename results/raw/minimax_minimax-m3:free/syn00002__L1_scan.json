@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00002__L1_scan",
+ "doc_id": "syn00002",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV-8297",
+  "invoice_date": "2026-01-28",
+  "seller_name": "VERMA SALES CORPORATION PRIVATE LIMITED",
+  "seller_gstin": "09ANUFV1023Z4Z3",
+  "seller_address": "Unit No. 325, Udyog Vihar, Ghaziabad - 220736 (Uttar Pradesh)",
+  "buyer_name": "Sethi Textiles Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Khasra No. 479, Okhla Phase I, Jodhpur - 345995",
+  "place_of_supply": "08-Rajasthan",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 1181,
+    "unit": "PCS",
+    "unit_price": 115.07,
+    "discount": null,
+    "taxable_value": 135897.67,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 10,
+    "unit": "BOX",
+    "unit_price": 365.02,
+    "discount": null,
+    "taxable_value": 3650.2,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 139547.87,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 25118.62,
+  "cess_amount": null,
+  "round_off": -0.49,
+  "grand_total": 164666.0,
+  "amount_in_words": "Rupees One Lakh Sixty Four Thousand Six Hundred and Sixty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"INV-8297\",\"invoice_date\":\"2026-01-28\",\"seller_name\":\"VERMA SALES CORPORATION PRIVATE LIMITED\",\"seller_gstin\":\"09ANUFV1023Z4Z3\",\"seller_address\":\"Unit No. 325, Udyog Vihar, Ghaziabad - 220736 (Uttar Pradesh)\",\"buyer_name\":\"Sethi Textiles Limited\",\"buyer_gstin\":null,\"buyer_address\":\"Khasra No. 479, Okhla Phase I, Jodhpur - 345995\",\"place_of_supply\":\"08-Rajasthan\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":1181,\"unit\":\"PCS\",\"unit_price\":115.07,\"discount\":null,\"taxable_value\":135897.67,\"tax_rate\":18},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":10,\"unit\":\"BOX\",\"unit_price\":365.02,\"discount\":null,\"taxable_value\":3650.20,\"tax_rate\":18}],\"total_taxable_value\":139547.87,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":25118.62,\"cess_amount\":null,\"round_off\":-0.49,\"grand_total\":164666.00,\"amount_in_words\":\"Rupees One Lakh Sixty Four Thousand Six Hundred and Sixty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5150,
+ "output_tokens": 315,
+ "cached_input_tokens": 0,
+ "latency_s": 4.1907,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

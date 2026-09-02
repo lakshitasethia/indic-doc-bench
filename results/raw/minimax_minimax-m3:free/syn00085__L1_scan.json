@@ -1,0 +1,159 @@
+{
+ "variant_id": "syn00085__L1_scan",
+ "doc_id": "syn00085",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "1923",
+  "invoice_date": "2026-01-11",
+  "seller_name": "Sethi Electricals",
+  "seller_gstin": "32WVUCS9804K3ZV",
+  "seller_address": "Khasra No. 22, Sector 63, Kochi, Kerala 694359",
+  "buyer_name": "Banerjee Technologies",
+  "buyer_gstin": "32KXBPB8963W9Z8",
+  "buyer_address": "Door No. 243, GIDC Estate, Kozhikode, Kerala - 677759",
+  "place_of_supply": "Kerala (32)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 135,
+    "unit": "PRS",
+    "unit_price": 1596.55,
+    "discount": null,
+    "taxable_value": 211223.56,
+    "tax_rate": null
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 87,
+    "unit": "BOX",
+    "unit_price": 223.36,
+    "discount": null,
+    "taxable_value": 19432.32,
+    "tax_rate": null
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 17405.54,
+    "discount": null,
+    "taxable_value": 17405.54,
+    "tax_rate": null
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 19,
+    "unit": "NOS",
+    "unit_price": 65.51,
+    "discount": null,
+    "taxable_value": 1244.69,
+    "tax_rate": null
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 3117,
+    "unit": "BOX",
+    "unit_price": 53.22,
+    "discount": null,
+    "taxable_value": 165886.74,
+    "tax_rate": null
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 58.23,
+    "discount": null,
+    "taxable_value": 815.22,
+    "tax_rate": null
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 62.685,
+    "unit": "KGS",
+    "unit_price": 179.48,
+    "discount": null,
+    "taxable_value": 11250.7,
+    "tax_rate": null
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 93,
+    "unit": "NOS",
+    "unit_price": 16.37,
+    "discount": null,
+    "taxable_value": 1522.41,
+    "tax_rate": null
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 146,
+    "unit": "PCS",
+    "unit_price": 232.46,
+    "discount": null,
+    "taxable_value": 33939.16,
+    "tax_rate": null
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 5,
+    "unit": "BAG",
+    "unit_price": 396.06,
+    "discount": null,
+    "taxable_value": 1980.3,
+    "tax_rate": null
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 52,
+    "unit": "NOS",
+    "unit_price": 4282.71,
+    "discount": null,
+    "taxable_value": 222700.92,
+    "tax_rate": null
+   }
+  ],
+  "total_taxable_value": 687401.56,
+  "cgst_amount": 56988.54,
+  "sgst_amount": 56988.54,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.36,
+  "grand_total": 801379.0,
+  "amount_in_words": "Rupees Eight Lakh One Thousand Three Hundred and Seventy Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"1923\",\"invoice_date\":\"2026-01-11\",\"seller_name\":\"Sethi Electricals\",\"seller_gstin\":\"32WVUCS9804K3ZV\",\"seller_address\":\"Khasra No. 22, Sector 63, Kochi, Kerala 694359\",\"buyer_name\":\"Banerjee Technologies\",\"buyer_gstin\":\"32KXBPB8963W9Z8\",\"buyer_address\":\"Door No. 243, GIDC Estate, Kozhikode, Kerala - 677759\",\"place_of_supply\":\"Kerala (32)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":135,\"unit\":\"PRS\",\"unit_price\":1596.55,\"discount\":null,\"taxable_value\":211223.56,\"tax_rate\":null},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":87,\"unit\":\"BOX\",\"unit_price\":223.36,\"discount\":null,\"taxable_value\":19432.32,\"tax_rate\":null},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":17405.54,\"discount\":null,\"taxable_value\":17405.54,\"tax_rate\":null},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":19,\"unit\":\"NOS\",\"unit_price\":65.51,\"discount\":null,\"taxable_value\":1244.69,\"tax_rate\":null},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":3117,\"unit\":\"BOX\",\"unit_price\":53.22,\"discount\":null,\"taxable_value\":165886.74,\"tax_rate\":null},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":58.23,\"discount\":null,\"taxable_value\":815.22,\"tax_rate\":null},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":62.685,\"unit\":\"KGS\",\"unit_price\":179.48,\"discount\":null,\"taxable_value\":11250.70,\"tax_rate\":null},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":93,\"unit\":\"NOS\",\"unit_price\":16.37,\"discount\":null,\"taxable_value\":1522.41,\"tax_rate\":null},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":146,\"unit\":\"PCS\",\"unit_price\":232.46,\"discount\":null,\"taxable_value\":33939.16,\"tax_rate\":null},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":5,\"unit\":\"BAG\",\"unit_price\":396.06,\"discount\":null,\"taxable_value\":1980.30,\"tax_rate\":null},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":52,\"unit\":\"NOS\",\"unit_price\":4282.71,\"discount\":null,\"taxable_value\":222700.92,\"tax_rate\":null}],\"total_taxable_value\":687401.56,\"cgst_amount\":56988.54,\"sgst_amount\":56988.54,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.36,\"grand_total\":801379.00,\"amount_in_words\":\"Rupees Eight Lakh One Thousand Three Hundred and Seventy Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5942,
+ "output_tokens": 780,
+ "cached_input_tokens": 0,
+ "latency_s": 11.1987,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

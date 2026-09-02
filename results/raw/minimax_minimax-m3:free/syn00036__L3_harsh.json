@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00036__L3_harsh",
+ "doc_id": "syn00036",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "KALE-B-2017",
+  "invoice_date": "2017-08-24",
+  "seller_name": "Pillar Salttech Limited",
+  "seller_gstin": "20AAHCP4576P1ZB",
+  "seller_address": "Plot No. 304, Dist. Chamber Commerce Building, Karma Bhavan, Kadru, Ranchi, 834001",
+  "buyer_name": "Adrenalia Marketing Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 469, Kailashnagar, Gamharia, Seraikela - 832108",
+  "place_of_supply": "Jharkhand",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Sticker Materials 35x38",
+    "hsn_sac": "9604",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 50177.73,
+    "discount": 140008.28,
+    "taxable_value": 139952.53,
+    "tax_rate": null
+   },
+   {
+    "description": "Laptop Computer 35 360GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 88624.05,
+    "discount": 88624.07,
+    "taxable_value": 139952.53,
+    "tax_rate": 18
+   },
+   {
+    "description": "Calculator Presents 200gr",
+    "hsn_sac": "9987",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 453.66,
+    "discount": 453.6,
+    "taxable_value": 81.63,
+    "tax_rate": null
+   },
+   {
+    "description": "Minicomputer 6GB CWGB",
+    "hsn_sac": "8517",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 22107.01,
+    "discount": 22683.85,
+    "taxable_value": 22604.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 4253.15,
+    "unit": "KGS",
+    "unit_price": 38.23,
+    "discount": 208309.52,
+    "taxable_value": 7025.63,
+    "tax_rate": 5
+   },
+   {
+    "description": "Control Cable Box S-Pts",
+    "hsn_sac": "8539",
+    "quantity": 150,
+    "unit": "NOS",
+    "unit_price": 58.3,
+    "discount": 9086.12,
+    "taxable_value": 653.2,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 310690.57,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": 0.06,
+  "grand_total": 475690.0,
+  "amount_in_words": "Rupees Four Lakh Seventy Five Thousand Six Hundred Ninety Six Only"
+ },
+ "raw": "{\"invoice_number\":\"KALE-B-2017\",\"invoice_date\":\"2017-08-24\",\"seller_name\":\"Pillar Salttech Limited\",\"seller_gstin\":\"20AAHCP4576P1ZB\",\"seller_address\":\"Plot No. 304, Dist. Chamber Commerce Building, Karma Bhavan, Kadru, Ranchi, 834001\",\"buyer_name\":\"Adrenalia Marketing Limited\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No. 469, Kailashnagar, Gamharia, Seraikela - 832108\",\"place_of_supply\":\"Jharkhand\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Sticker Materials 35x38\",\"hsn_sac\":\"9604\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":50177.73,\"discount\":140008.28,\"taxable_value\":139952.53,\"tax_rate\":null},{\"description\":\"Laptop Computer 35 360GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":88624.05,\"discount\":88624.07,\"taxable_value\":139952.53,\"tax_rate\":18},{\"description\":\"Calculator Presents 200gr\",\"hsn_sac\":\"9987\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":453.66,\"discount\":453.60,\"taxable_value\":81.63,\"tax_rate\":null},{\"description\":\"Minicomputer 6GB CWGB\",\"hsn_sac\":\"8517\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":22107.01,\"discount\":22683.85,\"taxable_value\":22604.83,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":4253.15,\"unit\":\"KGS\",\"unit_price\":38.23,\"discount\":208309.52,\"taxable_value\":7025.63,\"tax_rate\":5},{\"description\":\"Control Cable Box S-Pts\",\"hsn_sac\":\"8539\",\"quantity\":150,\"unit\":\"NOS\",\"unit_price\":58.30,\"discount\":9086.12,\"taxable_value\":653.20,\"tax_rate\":18}],\"total_taxable_value\":310690.57,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":0.06,\"grand_total\":475690.00,\"amount_in_words\":\"Rupees Four Lakh Seventy Five Thousand Six Hundred Ninety Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1949,
+ "output_tokens": 541,
+ "cached_input_tokens": 0,
+ "latency_s": 4.4989,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

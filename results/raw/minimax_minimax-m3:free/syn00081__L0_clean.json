@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00081__L0_clean",
+ "doc_id": "syn00081",
+ "level": "L0_clean",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "TAX-C-3295",
+  "invoice_date": "2025-11-05",
+  "seller_name": "Gupta Overseas Pvt. Ltd.",
+  "seller_gstin": "24IPGCG0221B3ZE",
+  "seller_address": "Unit No. 300, Naraina Vihar, Rajkot, Gujarat - 388384",
+  "buyer_name": "Agarwal Steel & Alloys LLP",
+  "buyer_gstin": "24ZZHPA4119H5Z0",
+  "buyer_address": "Plot No. 296, Peenya 2nd Stage, Ahmedabad, Gujarat - 387698",
+  "place_of_supply": "Gujarat",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 321,
+    "unit": "SET",
+    "unit_price": 538.11,
+    "discount": null,
+    "taxable_value": 172733.31,
+    "tax_rate": 18
+   },
+   {
+    "description": "Laptop Computer i5 16GB",
+    "hsn_sac": "8471",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 60263.87,
+    "discount": null,
+    "taxable_value": 60263.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 6,
+    "unit": "NOS",
+    "unit_price": 24130.39,
+    "discount": null,
+    "taxable_value": 144782.34,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 52.207,
+    "unit": "KGS",
+    "unit_price": 102.86,
+    "discount": null,
+    "taxable_value": 5370.01,
+    "tax_rate": 5
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 297,
+    "unit": "PCS",
+    "unit_price": 169.16,
+    "discount": null,
+    "taxable_value": 50240.52,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 23,
+    "unit": "BAG",
+    "unit_price": 459.85,
+    "discount": null,
+    "taxable_value": 10576.55,
+    "tax_rate": 28
+   }
+  ],
+  "total_taxable_value": 443966.6,
+  "cgst_amount": 40136.78,
+  "sgst_amount": 40136.78,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.16,
+  "grand_total": 524240.0,
+  "amount_in_words": "Rupees Five Lakh Twenty Four Thousand Two Hundred and Forty Only"
+ },
+ "raw": "{\"invoice_number\":\"TAX-C-3295\",\"invoice_date\":\"2025-11-05\",\"seller_name\":\"Gupta Overseas Pvt. Ltd.\",\"seller_gstin\":\"24IPGCG0221B3ZE\",\"seller_address\":\"Unit No. 300, Naraina Vihar, Rajkot, Gujarat - 388384\",\"buyer_name\":\"Agarwal Steel & Alloys LLP\",\"buyer_gstin\":\"24ZZHPA4119H5Z0\",\"buyer_address\":\"Plot No. 296, Peenya 2nd Stage, Ahmedabad, Gujarat - 387698\",\"place_of_supply\":\"Gujarat\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":321,\"unit\":\"SET\",\"unit_price\":538.11,\"discount\":null,\"taxable_value\":172733.31,\"tax_rate\":18},{\"description\":\"Laptop Computer i5 16GB\",\"hsn_sac\":\"8471\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":60263.87,\"discount\":null,\"taxable_value\":60263.87,\"tax_rate\":18},{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":6,\"unit\":\"NOS\",\"unit_price\":24130.39,\"discount\":null,\"taxable_value\":144782.34,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":52.207,\"unit\":\"KGS\",\"unit_price\":102.86,\"discount\":null,\"taxable_value\":5370.01,\"tax_rate\":5},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":297,\"unit\":\"PCS\",\"unit_price\":169.16,\"discount\":null,\"taxable_value\":50240.52,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":23,\"unit\":\"BAG\",\"unit_price\":459.85,\"discount\":null,\"taxable_value\":10576.55,\"tax_rate\":28}],\"total_taxable_value\":443966.60,\"cgst_amount\":40136.78,\"sgst_amount\":40136.78,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.16,\"grand_total\":524240.00,\"amount_in_words\":\"Rupees Five Lakh Twenty Four Thousand Two Hundred and Forty Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6374,
+ "output_tokens": 533,
+ "cached_input_tokens": 0,
+ "latency_s": 6.5467,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "variant_id": "syn00016__L3_harsh",
+ "doc_id": "syn00016",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Naidu Industries Pvt. Ltd.",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": "Neeru Sales Corporation",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 273, Marolme Vihar, Patna - 800027",
+  "place_of_supply": "Bihar (06)",
+  "reverse_charge": "No",
+  "irn": null,
+  "total_taxable_value": 54790.41,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 9851.55,
+  "cess_amount": null,
+  "round_off": 0.04,
+  "grand_total": 64645.0,
+  "amount_in_words": "Rupees Sixty Four Thousand Six Hundred and Forty Eight Only",
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 54790.41,
+    "discount": 0.0,
+    "taxable_value": 54790.41,
+    "tax_rate": 18
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": \"Naidu Industries Pvt. Ltd.\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": \"Neeru Sales Corporation\", \"buyer_gstin\": null, \"buyer_address\": \"Plot No. 273, Marolme Vihar, Patna - 800027\", \"place_of_supply\": \"Bihar (06)\", \"reverse_charge\": \"No\", \"irn\": null, \"total_taxable_value\": 54790.41, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": 9851.55, \"cess_amount\": null, \"round_off\": 0.04, \"grand_total\": 64645.00, \"amount_in_words\": \"Rupees Sixty Four Thousand Six Hundred and Forty Eight Only\", \"line_items\": [{\"description\": \"Other Professional and Technical Services\", \"hsn_sac\": \"998399\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 54790.41, \"discount\": 0.00, \"taxable_value\": 54790.41, \"tax_rate\": 18}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1979,
+ "output_tokens": 260,
+ "cached_input_tokens": 0,
+ "latency_s": 3.8673,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "variant_id": "syn00014__L0_clean",
+ "doc_id": "syn00014",
+ "level": "L0_clean",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/9244",
+  "invoice_date": "2025-07-06",
+  "seller_name": "AGARWAL TECHNOLOGIES",
+  "seller_gstin": "09HKXPA4424J7ZH",
+  "seller_address": "Khasra No. 451, Ring Road, Agra - 217782 (Uttar Pradesh)",
+  "buyer_name": "Mehra Trading Co.",
+  "buyer_gstin": "03DIJPM202201Z9",
+  "buyer_address": "Khasra No. 454, Sector 63, Ludhiana - 150832",
+  "place_of_supply": "03-Punjab",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 121,
+    "unit": "PCS",
+    "unit_price": 117.97,
+    "discount": null,
+    "taxable_value": 14274.37,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 29,
+    "unit": "NOS",
+    "unit_price": 6276.69,
+    "discount": null,
+    "taxable_value": 182024.01,
+    "tax_rate": 28
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 1427,
+    "unit": "PCS",
+    "unit_price": 263.1,
+    "discount": null,
+    "taxable_value": 375443.7,
+    "tax_rate": 5
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 95.596,
+    "unit": "KGS",
+    "unit_price": 113.67,
+    "discount": null,
+    "taxable_value": 10866.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Formal Shoes",
+    "hsn_sac": "6403",
+    "quantity": 3,
+    "unit": "PRS",
+    "unit_price": 1388.39,
+    "discount": null,
+    "taxable_value": 4165.17,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 3884.49,
+    "discount": null,
+    "taxable_value": 3806.8,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 590580.45,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 75699.2,
+  "cess_amount": null,
+  "round_off": 0.35,
+  "grand_total": 666280.0,
+  "amount_in_words": "Rupees Six Lakh Sixty Six Thousand Two Hundred and Eighty Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/9244\",\"invoice_date\":\"2025-07-06\",\"seller_name\":\"AGARWAL TECHNOLOGIES\",\"seller_gstin\":\"09HKXPA4424J7ZH\",\"seller_address\":\"Khasra No. 451, Ring Road, Agra - 217782 (Uttar Pradesh)\",\"buyer_name\":\"Mehra Trading Co.\",\"buyer_gstin\":\"03DIJPM202201Z9\",\"buyer_address\":\"Khasra No. 454, Sector 63, Ludhiana - 150832\",\"place_of_supply\":\"03-Punjab\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":121,\"unit\":\"PCS\",\"unit_price\":117.97,\"discount\":null,\"taxable_value\":14274.37,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":29,\"unit\":\"NOS\",\"unit_price\":6276.69,\"discount\":null,\"taxable_value\":182024.01,\"tax_rate\":28},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":1427,\"unit\":\"PCS\",\"unit_price\":263.10,\"discount\":null,\"taxable_value\":375443.70,\"tax_rate\":5},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":95.596,\"unit\":\"KGS\",\"unit_price\":113.67,\"discount\":null,\"taxable_value\":10866.40,\"tax_rate\":18},{\"description\":\"Leather Formal Shoes\",\"hsn_sac\":\"6403\",\"quantity\":3,\"unit\":\"PRS\",\"unit_price\":1388.39,\"discount\":null,\"taxable_value\":4165.17,\"tax_rate\":18},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":3884.49,\"discount\":null,\"taxable_value\":3806.80,\"tax_rate\":18}],\"total_taxable_value\":590580.45,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":75699.20,\"cess_amount\":null,\"round_off\":0.35,\"grand_total\":666280.00,\"amount_in_words\":\"Rupees Six Lakh Sixty Six Thousand Two Hundred and Eighty Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 6518,
+ "output_tokens": 530,
+ "cached_input_tokens": 0,
+ "latency_s": 7.2067,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

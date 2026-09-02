@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00077__L2_photo",
+ "doc_id": "syn00077",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "SV/25-26/1310",
+  "invoice_date": "2025-06-19",
+  "seller_name": "Trivedi Steel & Alloys LLP",
+  "seller_gstin": "29ROZPT7406R6ZT",
+  "seller_address": "Door No. 62, Ring Road, Bengaluru 572538, Karnataka",
+  "buyer_name": "Shetty & Sons Pvt. Ltd.",
+  "buyer_gstin": "07CBPCS2522R5ZH",
+  "buyer_address": "Unit No. 232, MG Road, New Delhi 110481, Delhi",
+  "place_of_supply": "Delhi",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 4001.016,
+    "unit": "MTR",
+    "unit_price": 60.52,
+    "discount": null,
+    "taxable_value": 242141.49,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 5,
+    "unit": "SET",
+    "unit_price": 505.47,
+    "discount": null,
+    "taxable_value": 2527.35,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 244668.84,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 44040.39,
+  "cess_amount": null,
+  "round_off": -0.23,
+  "grand_total": 288709.0,
+  "amount_in_words": "Rupees Two Lakh Eighty Eight Thousand Seven Hundred and Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"SV/25-26/1310\",\"invoice_date\":\"2025-06-19\",\"seller_name\":\"Trivedi Steel & Alloys LLP\",\"seller_gstin\":\"29ROZPT7406R6ZT\",\"seller_address\":\"Door No. 62, Ring Road, Bengaluru 572538, Karnataka\",\"buyer_name\":\"Shetty & Sons Pvt. Ltd.\",\"buyer_gstin\":\"07CBPCS2522R5ZH\",\"buyer_address\":\"Unit No. 232, MG Road, New Delhi 110481, Delhi\",\"place_of_supply\":\"Delhi\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":4001.016,\"unit\":\"MTR\",\"unit_price\":60.52,\"discount\":null,\"taxable_value\":242141.49,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":5,\"unit\":\"SET\",\"unit_price\":505.47,\"discount\":null,\"taxable_value\":2527.35,\"tax_rate\":18}],\"total_taxable_value\":244668.84,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":44040.39,\"cess_amount\":null,\"round_off\":-0.23,\"grand_total\":288709.00,\"amount_in_words\":\"Rupees Two Lakh Eighty Eight Thousand Seven Hundred and Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3012,
+ "output_tokens": 318,
+ "cached_input_tokens": 0,
+ "latency_s": 3.7385,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

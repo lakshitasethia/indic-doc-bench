@@ -1,0 +1,79 @@
+{
+ "variant_id": "syn00060__L3_harsh",
+ "doc_id": "syn00060",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "BL7570",
+  "invoice_date": "2026-03-30",
+  "seller_name": "Yatra Logistics",
+  "seller_gstin": null,
+  "seller_address": "Room No. 617, Ring Road, Howrah, West Bengal - 711117",
+  "buyer_name": "DISTINGUISH PRINCE HORIZON",
+  "buyer_gstin": null,
+  "buyer_address": "Naya Bazar - West Bengal, India",
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998315",
+    "quantity": 1,
+    "unit": null,
+    "unit_price": 160097.54,
+    "discount": null,
+    "taxable_value": 160097.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 1,
+    "unit": null,
+    "unit_price": 28134.5,
+    "discount": null,
+    "taxable_value": 28134.5,
+    "tax_rate": 5
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 1,
+    "unit": null,
+    "unit_price": 42128.5,
+    "discount": null,
+    "taxable_value": 42128.5,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 235668.53,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 38769.46,
+  "cess_amount": null,
+  "round_off": 0.01,
+  "grand_total": 274438.0,
+  "amount_in_words": "Rupees Two Lakh Seventy Four Thousand Four Hundred and Fifty Eight Only"
+ },
+ "raw": "{\"invoice_number\":\"BL7570\",\"invoice_date\":\"2026-03-30\",\"seller_name\":\"Yatra Logistics\",\"seller_gstin\":null,\"seller_address\":\"Room No. 617, Ring Road, Howrah, West Bengal - 711117\",\"buyer_name\":\"DISTINGUISH PRINCE HORIZON\",\"buyer_gstin\":null,\"buyer_address\":\"Naya Bazar - West Bengal, India\",\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998315\",\"quantity\":1,\"unit\":null,\"unit_price\":160097.54,\"discount\":null,\"taxable_value\":160097.54,\"tax_rate\":18},{\"description\":\"Road Transport services of Goods\",\"hsn_sac\":\"996511\",\"quantity\":1,\"unit\":null,\"unit_price\":28134.5,\"discount\":null,\"taxable_value\":28134.5,\"tax_rate\":5},{\"description\":\"Commercial Training and Coaching Services\",\"hsn_sac\":\"999293\",\"quantity\":1,\"unit\":null,\"unit_price\":42128.5,\"discount\":null,\"taxable_value\":42128.5,\"tax_rate\":18}],\"total_taxable_value\":235668.53,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":38769.46,\"cess_amount\":null,\"round_off\":0.01,\"grand_total\":274438.00,\"amount_in_words\":\"Rupees Two Lakh Seventy Four Thousand Four Hundred and Fifty Eight Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 1946,
+ "output_tokens": 333,
+ "cached_input_tokens": 0,
+ "latency_s": 3.5421,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

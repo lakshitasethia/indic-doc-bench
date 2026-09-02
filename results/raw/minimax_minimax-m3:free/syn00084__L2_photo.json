@@ -1,0 +1,69 @@
+{
+ "variant_id": "syn00084__L2_photo",
+ "doc_id": "syn00084",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "DL6253",
+  "invoice_date": "2025-07-30",
+  "seller_name": "Chauhan Sales Corporation Limited",
+  "seller_gstin": "06OCGPC9947R6ZB",
+  "seller_address": "Gala No. 272, Sector 63, Gurugram, Haryana - 125110",
+  "buyer_name": "Shetty & Sons Private Limited",
+  "buyer_gstin": "08RHTPS6228C8ZA",
+  "buyer_address": "Door No. 109, Chandni Chowk, Jodhpur, Rajasthan - 340946",
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": false,
+  "irn": "586fd2b6701ba39812d2f213b5abafd56250bac3ca30dca910fb83be8c3cfc1e",
+  "line_items": [
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 61,
+    "unit": "SET",
+    "unit_price": 554.41,
+    "discount": null,
+    "taxable_value": 33819.01,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 3289,
+    "unit": "NOS",
+    "unit_price": 24.46,
+    "discount": null,
+    "taxable_value": 80448.94,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 114267.95,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 20568.23,
+  "cess_amount": null,
+  "round_off": -0.18,
+  "grand_total": 134836.0,
+  "amount_in_words": "Rupees One Lakh Thirty Four Thousand Eight Hundred and Thirty Six Only"
+ },
+ "raw": "{\"invoice_number\":\"DL6253\",\"invoice_date\":\"2025-07-30\",\"seller_name\":\"Chauhan Sales Corporation Limited\",\"seller_gstin\":\"06OCGPC9947R6ZB\",\"seller_address\":\"Gala No. 272, Sector 63, Gurugram, Haryana - 125110\",\"buyer_name\":\"Shetty & Sons Private Limited\",\"buyer_gstin\":\"08RHTPS6228C8ZA\",\"buyer_address\":\"Door No. 109, Chandni Chowk, Jodhpur, Rajasthan - 340946\",\"place_of_supply\":\"Rajasthan\",\"reverse_charge\":false,\"irn\":\"586fd2b6701ba39812d2f213b5abafd56250bac3ca30dca910fb83be8c3cfc1e\",\"line_items\":[{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":61,\"unit\":\"SET\",\"unit_price\":554.41,\"discount\":null,\"taxable_value\":33819.01,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":3289,\"unit\":\"NOS\",\"unit_price\":24.46,\"discount\":null,\"taxable_value\":80448.94,\"tax_rate\":18}],\"total_taxable_value\":114267.95,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":20568.23,\"cess_amount\":null,\"round_off\":-0.18,\"grand_total\":134836.00,\"amount_in_words\":\"Rupees One Lakh Thirty Four Thousand Eight Hundred and Thirty Six Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3046,
+ "output_tokens": 352,
+ "cached_input_tokens": 0,
+ "latency_s": 6.0968,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "variant_id": "syn00072__L2_photo",
+ "doc_id": "syn00072",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "INV/25-26/4946",
+  "invoice_date": "2025-06-26",
+  "seller_name": "Sethi Distributors",
+  "seller_gstin": "21EPBPS1396D3Z0",
+  "seller_address": "Gala No: 204, SIDCO Complex, Cuttack, Odisha - 760225",
+  "buyer_name": "Reddy Agencies Pvt. Ltd.",
+  "buyer_gstin": "23FHFCR3792M5ZB",
+  "buyer_address": "Gala No: 324, Industrial Estate, Jabalpur, Madhya Pradesh - 462617",
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": true,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 105092.29,
+    "discount": null,
+    "taxable_value": 105092.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 14,
+    "unit": "NOS",
+    "unit_price": 13175.98,
+    "discount": null,
+    "taxable_value": 184463.72,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 175972.46,
+    "discount": 3519.45,
+    "taxable_value": 172453.01,
+    "tax_rate": 18
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 24319.42,
+    "discount": null,
+    "taxable_value": 24319.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 34114.9,
+    "discount": null,
+    "taxable_value": 34114.9,
+    "tax_rate": 5
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 55,
+    "unit": "NOS",
+    "unit_price": 3615.91,
+    "discount": null,
+    "taxable_value": 198875.05,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 49,
+    "unit": "NOS",
+    "unit_price": 5162.42,
+    "discount": null,
+    "taxable_value": 252958.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 122192.76,
+    "discount": null,
+    "taxable_value": 122192.76,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1094469.73,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 192569.62,
+  "cess_amount": null,
+  "round_off": -0.35,
+  "grand_total": 1287039.0,
+  "amount_in_words": "Rupees Twelve Lakh Eighty Seven Thousand Thirty Nine Only"
+ },
+ "raw": "{\"invoice_number\":\"INV/25-26/4946\",\"invoice_date\":\"2025-06-26\",\"seller_name\":\"Sethi Distributors\",\"seller_gstin\":\"21EPBPS1396D3Z0\",\"seller_address\":\"Gala No: 204, SIDCO Complex, Cuttack, Odisha - 760225\",\"buyer_name\":\"Reddy Agencies Pvt. Ltd.\",\"buyer_gstin\":\"23FHFCR3792M5ZB\",\"buyer_address\":\"Gala No: 324, Industrial Estate, Jabalpur, Madhya Pradesh - 462617\",\"place_of_supply\":\"Madhya Pradesh\",\"reverse_charge\":true,\"irn\":null,\"line_items\":[{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":105092.29,\"discount\":null,\"taxable_value\":105092.29,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":14,\"unit\":\"NOS\",\"unit_price\":13175.98,\"discount\":null,\"taxable_value\":184463.72,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":175972.46,\"discount\":3519.45,\"taxable_value\":172453.01,\"tax_rate\":18},{\"description\":\"Commercial Training and Coaching Services\",\"hsn_sac\":\"999293\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":24319.42,\"discount\":null,\"taxable_value\":24319.42,\"tax_rate\":18},{\"description\":\"Road Transport Services of Goods\",\"hsn_sac\":\"996511\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":34114.90,\"discount\":null,\"taxable_value\":34114.90,\"tax_rate\":5},{\"description\":\"Repair Services of Computers and Peripherals\",\"hsn_sac\":\"998721\",\"quantity\":55,\"unit\":\"NOS\",\"unit_price\":3615.91,\"discount\":null,\"taxable_value\":198875.05,\"tax_rate\":18},{\"description\":\"Repair Services of Computers and Peripherals\",\"hsn_sac\":\"998721\",\"quantity\":49,\"unit\":\"NOS\",\"unit_price\":5162.42,\"discount\":null,\"taxable_value\":252958.58,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":122192.76,\"discount\":null,\"taxable_value\":122192.76,\"tax_rate\":18}],\"total_taxable_value\":1094469.73,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":192569.62,\"cess_amount\":null,\"round_off\":-0.35,\"grand_total\":1287039.00,\"amount_in_words\":\"Rupees Twelve Lakh Eighty Seven Thousand Thirty Nine Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 3850,
+ "output_tokens": 631,
+ "cached_input_tokens": 0,
+ "latency_s": 7.9682,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}
