@@ -63,9 +63,13 @@ could not categorise on its own, ready for the manual taxonomy pass.
 
 ## The dataset
 
-Hybrid, in three layers, and the hybrid is the point.
+Hybrid, in three layers, and the hybrid is the point. Two of the three are
+built: 96 base documents rendered across 4 severity levels gives **384
+document-variants (408 images, 626 line items)**, all hash-locked in
+`data/synthetic/manifest.json`. Layer 3 is not collected yet, and every
+number in this repository should be read in that light.
 
-**Layer 1 — synthetic (~300 docs).** Twelve Jinja templates modelled on the
+**Layer 1 — synthetic (96 docs, built).** Twelve Jinja templates modelled on the
 layouts real Indian invoicing software produces — Tally-style exports, SaaS
 invoices, handmade bill books, e-invoices with IRN and QR, wide landscape
 grids, minimal whitespace layouts, dense multi-page tables, bilingual
@@ -86,8 +90,8 @@ claim that nothing about them is familiar: the layouts deliberately imitate
 widely-used software, and the HSN codes and commodity names are real. The
 precise claim is that the answers cannot have been memorised.
 
-**Layer 2 — degraded (~150 docs).** Nobody uploads a clean PDF. They photograph
-a printed bill at an angle under a ceiling light. Four severity levels applied
+**Layer 2 — degraded (288 variants, built).** Nobody uploads a clean PDF.
+They photograph a printed bill at an angle under a ceiling light. Four severity levels applied
 to the *same* documents:
 
 | Level | DPI | Rotation | Perspective | JPEG | Lighting | Noise |
@@ -105,8 +109,8 @@ Because it is the same document at every level, per-document degradation deltas
 and paired significance tests are available — an unpaired design would need far
 more documents for the same power.
 
-**Layer 3 — real (~50 docs).** Genuine invoices collected with explicit
-permission, personal details redacted, hand-labelled. Small, but it answers the
+**Layer 3 — real (~50 docs — NOT YET COLLECTED).** Genuine invoices collected
+with explicit permission, personal details redacted, hand-labelled. Small, but it answers the
 question that decides the project's credibility: *does synthetic performance
 transfer?* If models score 91% on synthetic and 64% on real photographs, that
 gap is the headline.

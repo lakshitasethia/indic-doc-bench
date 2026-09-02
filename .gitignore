@@ -11,3 +11,5 @@ data/real/
 # Raw model responses are NOT ignored -- they are the primary artifact and
 # re-running to recover them costs real money.
 .DS_Store
+.env
+.env.*

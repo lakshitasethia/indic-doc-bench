@@ -27,10 +27,36 @@ ANTHROPIC_PRICING: Dict[str, tuple] = {
 # (src/idb/pricing.py), which is fetched live and timestamped.
 
 
+# A third-party relay reached through an OpenAI-compatible endpoint. Requests
+# are prefixed `agentrouter:` so results land in their own directory and are
+# never silently pooled with first-party or OpenRouter results: the relay does
+# not let us verify which model, version or system prompt actually served a
+# request, and that provenance gap has to stay visible in the file layout.
+AGENTROUTER_BASE_URL = "https://agentrouter.org/v1"
+
+
 def build(name: str):
     """Instantiate an adapter by registry name."""
+    import os
+
     from .adapters.rules import RulesBaseline
     from .adapters.vision import AnthropicVision, OpenRouterVision
+
+    if name.startswith("agentrouter:"):
+        upstream = name.split(":", 1)[1]
+        if not upstream:
+            raise SystemExit("usage: agentrouter:<model-id>")
+        key = os.environ.get("AGENTROUTER_API_KEY", "").strip()
+        if not key:
+            raise SystemExit(
+                "AGENTROUTER_API_KEY is not set.\n"
+                "  add `export AGENTROUTER_API_KEY=...` to ~/.zshrc, then reopen the shell")
+        base = os.environ.get("AGENTROUTER_BASE_URL", AGENTROUTER_BASE_URL).rstrip("/")
+        # Credits are granted rather than billed, so cost is recorded as zero.
+        # The token counts are still logged and remain the honest comparison.
+        ad = OpenRouterVision(upstream, 0.0, 0.0, api_key=key, base_url=base)
+        ad.name = name
+        return ad
 
     if name in ANTHROPIC_PRICING:
         pin, pout, pcache = ANTHROPIC_PRICING[name]
