@@ -212,6 +212,42 @@ leading sentence — and completely unforgiving about *content*: no key renaming
 no value repair. A model returning valid JSON with the wrong keys has committed
 a schema violation and is scored as one.
 
+## 8b. Table length, not image quality, breaks the header totals
+
+The residue review turned up a mechanism the severity axis was not built to
+catch, and it is the clearest single finding in the corpus so far.
+
+Every unexplained numeric error on a **clean** document — 28 of 28 — lands on
+one of the four documents carrying 23 or more line items. Those four are 4% of
+the corpus and absorb 100% of these errors. All 28 are header totals
+(`cgst_amount`, `sgst_amount`, `total_taxable_value`, `grand_total`); not one
+is a line-item field.
+
+Split by table length, on clean 300 DPI renders where every digit is legible:
+
+| Model | Header acc. (short) | Header acc. (>=23 items) | Line items (short -> long) |
+|---|---:|---:|---|
+| minimax-m3 | 95.5% | **68.3%** | 96.3% -> 87.1% |
+| qwen3-vl-32b | 93.5% | **59.4%** | 97.0% -> 83.0% |
+
+Two independent models, the same collapse, and the header falls roughly three
+times as far as the line items. The models are still reading the rows; they are
+losing the aggregate. Degradation severity does not explain it, because these
+are the clean renders.
+
+The honest caveat is that this rests on **four documents** (n=4 and n=2 per
+model), so it is a strong signal and not an established effect. The confidence
+intervals on those two header numbers are wide and they are not reported as a
+headline result.
+
+It also indicts the corpus rather than only the models. A benchmark whose
+documents have a median of 5 line items is not measuring the case that breaks
+extraction hardest, and 4% coverage of the regime that produces 100% of the
+clean-document numeric errors is under-sampling the interesting part of the
+distribution. Adding long-table documents is now the highest-value corpus work
+after Layer 3 — cheaper than Layer 3, and it targets a failure this corpus has
+already demonstrated it can detect.
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a
@@ -269,31 +305,35 @@ Read this before citing any number here.
 1. **Synthetic documents are not real documents.** Layer 3 exists precisely to
    measure that gap, and until it is collected the synthetic numbers are an
    upper bound. Expect real photographed invoices to score materially worse.
-2. **Twelve templates is twelve layouts.** Template is the resampling unit for
+2. **The corpus under-samples long tables.** Median 5 line items, and only 4
+   documents of 96 carry 23 or more — yet those four absorb every unexplained
+   numeric error on clean renders (§8b). The regime that breaks extraction
+   hardest is the one this corpus covers least.
+3. **Twelve templates is twelve layouts.** Template is the resampling unit for
    a reason; conclusions do not extend to layouts unlike these. Adding
    templates remains the cheapest way to strengthen the benchmark. The twelve
    span Tally-style exports, SaaS invoices, handmade bill books, e-invoices
    with IRN, wide landscape grids, minimal whitespace layouts, dense multi-page
    tables, bilingual forms, thermal receipts, watermarked letterheads, boxed
    government-style forms, and raw spreadsheet exports.
-3. **The degradation model is synthetic.** Real phone photographs bring motion
+4. **The degradation model is synthetic.** Real phone photographs bring motion
    blur, rolling shutter, focus falloff, fingers, staples and folds. The
    pipeline covers geometry, lighting, noise and compression.
-4. **Document-level exact match cannot rank models at n=400** (§5). Treat that
+5. **Document-level exact match cannot rank models at n=400** (§5). Treat that
    column as a difficulty gauge, not a leaderboard.
-5. **Determinism is not guaranteed** (§7). Variance is measured, not eliminated.
-6. **Prices change.** The cost table is valid as of its stated verification date
+6. **Determinism is not guaranteed** (§7). Variance is measured, not eliminated.
+7. **Prices change.** The cost table is valid as of its stated verification date
    and no longer.
-7. **The rules baseline is deliberately crude** — labelled-field regexes and a
+8. **The rules baseline is deliberately crude** — labelled-field regexes and a
    GSTIN pattern. It is a floor, not a serious contender. Its collapse on
    two-column layouts, where OCR interleaves the columns and the first GSTIN
    found belongs to the buyer, is a genuine property of the approach rather than
    an artefact of the implementation.
-8. **Latin-script values only.** One template (`t08`) carries bilingual
+9. **Latin-script values only.** One template (`t08`) carries bilingual
    Hindi/English *labels*, which is how a large share of north Indian invoices
    are actually issued, but every extracted *value* is Latin script. Documents
    whose values are in Devanagari or another Indic script are not covered, and
    a model could plausibly do much worse on those.
-9. **One prompt.** Results describe these models under this prompt. Structured
+10. **One prompt.** Results describe these models under this prompt. Structured
    output modes would likely eliminate schema violations entirely and are a
    separate axis, deliberately not mixed in.
