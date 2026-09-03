@@ -1,0 +1,25 @@
+{
+ "variant_id": "syn00000__L2_photo",
+ "doc_id": "syn00000",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+ "architecture": "native_vision",
+ "record": null,
+ "raw": "",
+ "schema_violation": "call_failed",
+ "error": "provider error: {'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)', 'code': 502}",
+ "refusal": false,
+ "finish_reason": null,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.1022,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": null
+}

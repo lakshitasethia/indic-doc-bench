@@ -197,6 +197,30 @@ def cmd_report(args):
     print("\nwritten to %s" % out)
 
 
+def cmd_triage(args):
+    """Suggest categories for the residue the auto-classifier could not call."""
+    from . import triage as TR
+
+    manifest = C.load_manifest(pathlib.Path(args.manifest))
+    gt_by_doc = {d["doc_id"]: d["ground_truth"] for d in manifest["documents"]}
+    queue = pathlib.Path(args.queue)
+    if not queue.exists():
+        raise SystemExit("no review queue at %s -- run `idb report` first" % queue)
+
+    rows = TR.triage_queue(queue, gt_by_doc, pathlib.Path(args.raw))
+    TR.write(rows, pathlib.Path(args.out))
+
+    counts = TR.summarise(rows)
+    ambiguous = sum(v for k, v in counts.items() if k.startswith("AMBIGUOUS"))
+    print("triaged %d rows -> %s\n" % (len(rows), args.out))
+    for cat in sorted(counts, key=lambda c: -counts[c]):
+        print("  %-24s %3d" % (cat, counts[cat]))
+    print("\n  %d suggested, %d left for review (%.0f%%)"
+          % (len(rows) - ambiguous, ambiguous, 100.0 * ambiguous / max(len(rows), 1)))
+    print("\nSuggestions are suggestions: `suggestion_basis` carries the evidence, "
+          "and\nnothing marked AMBIGUOUS has been guessed at.")
+
+
 def cmd_pricing(args):
     from . import pricing
     if args.refresh:
@@ -238,6 +262,13 @@ def main(argv=None):
                    help="run each document N times to measure run-to-run variance "
                         "(temperature=0 is unavailable on current frontier models)")
     r.set_defaults(func=cmd_run)
+
+    t = sub.add_parser("triage", help="suggest categories for the review queue residue")
+    t.add_argument("--queue", default=str(ROOT / "results" / "review_queue.csv"))
+    t.add_argument("--manifest", default=str(DEFAULT_CORPUS / "manifest.json"))
+    t.add_argument("--raw", default=str(DEFAULT_RAW))
+    t.add_argument("--out", default=str(ROOT / "results" / "review_queue_triaged.csv"))
+    t.set_defaults(func=cmd_triage)
 
     pr = sub.add_parser("pricing", help="show/refresh the OpenRouter rate card")
     pr.add_argument("--refresh", action="store_true")

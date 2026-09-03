@@ -53,12 +53,23 @@ brew install tesseract          # only for the OCR+rules baseline
 .venv/bin/idb run --models claude-opus-5 --repeat 3 --levels L0_clean  # variance
 
 .venv/bin/idb report --models claude-opus-5 ocr-rules-v1
+.venv/bin/idb triage                             # narrow the review residue
 .venv/bin/python -m pytest tests -q
 ```
 
 `report` writes `results/report.md`, three figures into `results/figures/`, and
 `results/review_queue.csv` — a stratified sample of the errors the classifier
 could not categorise on its own, ready for the manual taxonomy pass.
+
+`triage` then attacks that residue with signals the classifier does not use —
+whether the predicted value is verbatim some *other* field of the same
+document, whether a wrong amount is a right amount from elsewhere (a line
+quantity, or a tax the model computed instead of reading), and numeric rather
+than string distance. It writes `results/review_queue_triaged.csv` with a
+suggestion, the evidence behind it, and the record's ground-truth-free
+self-consistency score. It suggests; it does not decide. Rows it cannot
+explain are marked `AMBIGUOUS-*` and left for a human, because a guess written
+into that column would be indistinguishable from a reviewed judgement.
 
 ---
 
@@ -136,6 +147,7 @@ src/idb/
   runner.py       sweep with cost/latency/raw-response logging
   report.py       leaderboard, degradation curves, cost tables
   taxonomy.py     auto-classifies errors; queues the ambiguous residue
+  triage.py       narrows that residue; refuses to guess at what is left
   figures.py      degradation curve, error-mix bars, cost/accuracy scatter
   models.py       pinned Anthropic IDs; everything else priced live
   pricing.py      OpenRouter rate card, fetched and timestamped

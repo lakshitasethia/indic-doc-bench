@@ -1,0 +1,146 @@
+model,variant_id,level,template_id,field,row,auto_category,detail,ground_truth,predicted,reviewed_category,reviewer_note,suggested_category,suggestion_basis,self_consistency
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,seller_name,,wrong_value,needs review,deshmukh industries,redbrick industries,,,entity_substitution,kept 'industries',0.57
+google/gemini-2.5-flash-lite,syn00022__L3_harsh,L3_harsh,t11,buyer_name,,wrong_value,needs review,menon electricals,mishra electricals,,,entity_substitution,kept 'electricals',0.60
+google/gemini-2.5-flash-lite,syn00001__L3_harsh,L3_harsh,t02,igst_amount,,wrong_value,needs review,266.78,240.72,,,AMBIGUOUS-numeric,"unrelated number (266.78 vs 240.72, 10% off)",0.75
+google/gemini-2.5-flash-lite,syn00018__L3_harsh,L3_harsh,t07,amount_in_words,,wrong_value,needs review,rupees two lakh eighty eight thousand five hundred and twenty eight only,two lakh fifty seven thousand three hundred seventy eight rupees and six paise only,,,entity_substitution,kept 'and eight hundred lakh only ru',0.56
+google/gemini-2.5-flash-lite,syn00018__L3_harsh,L3_harsh,t07,buyer_name,,wrong_value,needs review,banerjee,abc,,,AMBIGUOUS-text,unrelated (fuzzy 18),0.56
+google/gemini-2.5-flash-lite,syn00022__L3_harsh,L3_harsh,t11,seller_address,,wrong_value,needs review,338 mg indore madhya pradesh 462727,235 mg indore madhya pradesh 452001,,,character_misread,fuzzy 82,0.60
+google/gemini-2.5-flash-lite,syn00018__L3_harsh,L3_harsh,t07,buyer_address,,wrong_value,needs review,431 midc phase ii thiruvananthapuram kerala 695031,456 cross bangalore 560001,,,AMBIGUOUS-text,unrelated (fuzzy 36),0.56
+google/gemini-2.5-flash-lite,syn00009__L3_harsh,L3_harsh,t10,invoice_number,,wrong_value,needs review,GJ0281,GJOSKY,,,AMBIGUOUS-text,unrelated (fuzzy 33),0.67
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,unit,7,wrong_value,needs review,KGS,TON,,,AMBIGUOUS-text,unrelated (fuzzy 0),0.57
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,description,13,wrong_value,needs review,instant drink premix,instant desk cleaner,,,entity_substitution,kept 'instant',0.57
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,description,16,wrong_value,needs review,laptop computer i5 16gb,laptop computer 15 6,,,character_misread,fuzzy 88,0.57
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,taxable_value,14,wrong_value,needs review,3375.40,256320.00,,,AMBIGUOUS-numeric,"unrelated number (3375.40 vs 256320.00, 7494% off)",0.57
+google/gemini-2.5-flash-lite,syn00009__L3_harsh,L3_harsh,t10,taxable_value,2,wrong_value,needs review,60878.72,76931.20,,,AMBIGUOUS-numeric,"unrelated number (60878.72 vs 76931.20, 26% off)",0.67
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,taxable_value,3,wrong_value,needs review,67969.73,1475039.58,,,AMBIGUOUS-numeric,"unrelated number (67969.73 vs 1475039.58, 2070% off)",0.57
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,quantity,15,wrong_value,needs review,309.093,5.000,,,field_confusion,predicted = line[3].tax_rate,0.57
+google/gemini-2.5-flash-lite,syn00000__L3_harsh,L3_harsh,t01,quantity,9,wrong_value,needs review,133.000,62.000,,,AMBIGUOUS-numeric,"unrelated number (133.00 vs 62.00, 53% off)",0.57
+minimax/minimax-m3:free,syn00023__L0_clean,L0_clean,t12,grand_total,,wrong_value,needs review,1776935.00,1591872.46,,,AMBIGUOUS-numeric,"unrelated number (1776935.00 vs 1591872.46, 10% off)",0.89
+minimax/minimax-m3:free,syn00023__L0_clean,L0_clean,t12,sgst_amount,,wrong_value,needs review,114721.08,137117.63,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 137117.63, 20% off)",0.89
+minimax/minimax-m3:free,syn00076__L0_clean,L0_clean,t05,grand_total,,wrong_value,needs review,2340927.00,2244531.96,,,AMBIGUOUS-numeric,"unrelated number (2340927.00 vs 2244531.96, 4% off)",0.89
+minimax/minimax-m3:free,syn00076__L0_clean,L0_clean,t05,sgst_amount,,wrong_value,needs review,145244.70,153498.49,,,AMBIGUOUS-numeric,"unrelated number (145244.70 vs 153498.49, 6% off)",0.89
+minimax/minimax-m3:free,syn00076__L0_clean,L0_clean,t05,cgst_amount,,wrong_value,needs review,145244.70,153498.49,,,AMBIGUOUS-numeric,"unrelated number (145244.70 vs 153498.49, 6% off)",0.89
+minimax/minimax-m3:free,syn00051__L0_clean,L0_clean,t04,total_taxable_value,,wrong_value,needs review,2674669.59,2323591.66,,,AMBIGUOUS-numeric,"unrelated number (2674669.59 vs 2323591.66, 13% off)",0.83
+minimax/minimax-m3:free,syn00023__L0_clean,L0_clean,t12,total_taxable_value,,wrong_value,needs review,1547493.32,1317637.20,,,AMBIGUOUS-numeric,"unrelated number (1547493.32 vs 1317637.20, 15% off)",0.89
+minimax/minimax-m3:free,syn00023__L0_clean,L0_clean,t12,cgst_amount,,wrong_value,needs review,114721.08,137117.63,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 137117.63, 20% off)",0.89
+minimax/minimax-m3:free,syn00023__L1_scan,L1_scan,t12,sgst_amount,,wrong_value,needs review,114721.08,130912.81,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 130912.81, 14% off)",0.88
+minimax/minimax-m3:free,syn00051__L1_scan,L1_scan,t04,sgst_amount,,wrong_value,needs review,186612.45,126129.97,,,AMBIGUOUS-numeric,"unrelated number (186612.45 vs 126129.97, 32% off)",0.89
+minimax/minimax-m3:free,syn00023__L1_scan,L1_scan,t12,cgst_amount,,wrong_value,needs review,114721.08,130912.81,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 130912.81, 14% off)",0.88
+minimax/minimax-m3:free,syn00076__L1_scan,L1_scan,t05,grand_total,,wrong_value,needs review,2340927.00,3337659.48,,,AMBIGUOUS-numeric,"unrelated number (2340927.00 vs 3337659.48, 43% off)",0.89
+minimax/minimax-m3:free,syn00051__L1_scan,L1_scan,t04,grand_total,,wrong_value,needs review,3047894.00,2935184.43,,,AMBIGUOUS-numeric,"unrelated number (3047894.00 vs 2935184.43, 4% off)",0.89
+minimax/minimax-m3:free,syn00076__L1_scan,L1_scan,t05,sgst_amount,,wrong_value,needs review,145244.70,254661.42,,,AMBIGUOUS-numeric,"unrelated number (145244.70 vs 254661.42, 75% off)",0.89
+minimax/minimax-m3:free,syn00051__L1_scan,L1_scan,t04,cgst_amount,,wrong_value,needs review,186612.45,126129.97,,,AMBIGUOUS-numeric,"unrelated number (186612.45 vs 126129.97, 32% off)",0.89
+minimax/minimax-m3:free,syn00076__L1_scan,L1_scan,t05,cgst_amount,,wrong_value,needs review,145244.70,254661.42,,,AMBIGUOUS-numeric,"unrelated number (145244.70 vs 254661.42, 75% off)",0.89
+minimax/minimax-m3:free,syn00076__L2_photo,L2_photo,t05,cgst_amount,,wrong_value,needs review,145244.70,155816.54,,,AMBIGUOUS-numeric,"unrelated number (145244.70 vs 155816.54, 7% off)",0.89
+minimax/minimax-m3:free,syn00039__L2_photo,L2_photo,t04,reverse_charge,,wrong_value,needs review,True,False,,,AMBIGUOUS-text,unrelated (fuzzy 22),1.00
+minimax/minimax-m3:free,syn00020__L2_photo,L2_photo,t09,buyer_gstin,,wrong_value,needs review,09BNHPS4591I3Z9,09HNHPS459111J2S,,,AMBIGUOUS-text,unrelated (fuzzy 64),0.78
+minimax/minimax-m3:free,syn00020__L2_photo,L2_photo,t09,seller_gstin,,wrong_value,needs review,23XDCCN0430D8ZB,23XDGCCN0430DRZE,,,character_misread,fuzzy 83,0.78
+minimax/minimax-m3:free,syn00023__L2_photo,L2_photo,t12,total_taxable_value,,wrong_value,needs review,1547493.32,1620367.55,,,AMBIGUOUS-numeric,"unrelated number (1547493.32 vs 1620367.55, 5% off)",0.88
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,buyer_gstin,,wrong_value,needs review,09RJJCP6022B2ZN,09RJCPG0228B2N,,,character_misread,fuzzy 82,0.44
+minimax/minimax-m3:free,syn00051__L2_photo,L2_photo,t04,total_taxable_value,,wrong_value,needs review,2674669.59,2330592.66,,,AMBIGUOUS-numeric,"unrelated number (2674669.59 vs 2330592.66, 13% off)",0.83
+minimax/minimax-m3:free,syn00023__L2_photo,L2_photo,t12,cgst_amount,,wrong_value,needs review,114721.08,136480.13,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 136480.13, 19% off)",0.88
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,taxable_value,11,wrong_value,needs review,309522.64,26573.41,,,field_confusion,predicted = line[10].unit_price,0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,taxable_value,19,wrong_value,needs review,68313.90,704.70,,,AMBIGUOUS-numeric,"unrelated number (68313.90 vs 704.70, 99% off)",0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,taxable_value,12,wrong_value,needs review,201445.95,369522.64,,,AMBIGUOUS-numeric,"unrelated number (201445.95 vs 369522.64, 83% off)",0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,quantity,25,wrong_value,needs review,113.987,2.000,,,AMBIGUOUS-numeric,"unrelated number (113.99 vs 2.00, 98% off)",0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,description,4,wrong_value,needs review,cotton woven fabric 44 inch,cotton woves fabric 44 inch less disc,,,character_misread,fuzzy 81,0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,taxable_value,13,wrong_value,needs review,152960.28,201945.95,,,AMBIGUOUS-numeric,"unrelated number (152960.28 vs 201945.95, 32% off)",0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,taxable_value,17,wrong_value,needs review,704.70,45515.29,,,AMBIGUOUS-numeric,"unrelated number (704.70 vs 45515.29, 6359% off)",0.44
+minimax/minimax-m3:free,syn00068__L2_photo,L2_photo,t09,taxable_value,15,wrong_value,needs review,36979.52,5990.10,,,AMBIGUOUS-numeric,"unrelated number (36979.52 vs 5990.10, 84% off)",0.44
+minimax/minimax-m3:free,syn00028__L3_harsh,L3_harsh,t05,grand_total,,wrong_value,needs review,260026.00,389226.94,,,AMBIGUOUS-numeric,"unrelated number (260026.00 vs 389226.94, 50% off)",0.43
+minimax/minimax-m3:free,syn00095__L3_harsh,L3_harsh,t12,buyer_name,,wrong_value,needs review,banerjee polymers,soham polymers,,,entity_substitution,kept 'polymers',0.89
+minimax/minimax-m3:free,syn00003__L3_harsh,L3_harsh,t04,buyer_address,,wrong_value,needs review,150 midc phase ii noida uttar pradesh 240750,29 b block gole market vishnu vihar collector ganj ghaziabad up 201005,,,AMBIGUOUS-text,unrelated (fuzzy 35),0.56
+minimax/minimax-m3:free,syn00036__L3_harsh,L3_harsh,t01,buyer_name,,wrong_value,needs review,ahluwalia marketing,adrenalia marketing,,,entity_substitution,kept 'marketing',0.43
+minimax/minimax-m3:free,syn00003__L3_harsh,L3_harsh,t04,seller_gstin,,wrong_value,needs review,21ZOLPN8515K2ZZ,09EHDPK6237F1ZQ,,,AMBIGUOUS-text,unrelated (fuzzy 26),0.56
+minimax/minimax-m3:free,syn00072__L3_harsh,L3_harsh,t01,seller_name,,wrong_value,needs review,sethi distributors,mighty apprises,,,AMBIGUOUS-text,unrelated (fuzzy 30),0.43
+minimax/minimax-m3:free,syn00062__L3_harsh,L3_harsh,t03,buyer_name,,wrong_value,needs review,patel solutions,m s sunil solutomes,,,AMBIGUOUS-text,unrelated (fuzzy 52),0.50
+minimax/minimax-m3:free,syn00009__L3_harsh,L3_harsh,t10,seller_gstin,,wrong_value,needs review,36OPGPR7368S3Z8,24GAAFA8652G1ZR,,,AMBIGUOUS-text,unrelated (fuzzy 19),0.50
+minimax/minimax-m3:free,syn00061__L3_harsh,L3_harsh,t02,unit_price,0,wrong_value,needs review,17395.10,17500.00,,,AMBIGUOUS-numeric,"unrelated number (17395.10 vs 17500.00, 1% off)",0.67
+minimax/minimax-m3:free,syn00073__L3_harsh,L3_harsh,t02,quantity,7,wrong_value,needs review,147.000,1000.000,,,AMBIGUOUS-numeric,"unrelated number (147.00 vs 1000.00, 580% off)",0.50
+minimax/minimax-m3:free,syn00024__L3_harsh,L3_harsh,t01,description,3,wrong_value,needs review,basmati rice broken 5,tata structura 4kg section 55,,,AMBIGUOUS-text,unrelated (fuzzy 43),0.44
+minimax/minimax-m3:free,syn00084__L3_harsh,L3_harsh,t01,description,0,wrong_value,needs review,stainless steel cutlery set,stainless steel laboratory set,,,character_misread,fuzzy 80,0.56
+minimax/minimax-m3:free,syn00088__L3_harsh,L3_harsh,t05,unit,0,wrong_value,needs review,LTR,BOX,,,AMBIGUOUS-text,unrelated (fuzzy 0),0.67
+minimax/minimax-m3:free,syn00000__L3_harsh,L3_harsh,t01,unit_price,15,wrong_value,needs review,82.14,21086.73,,,AMBIGUOUS-numeric,"unrelated number (82.14 vs 21086.73, 25572% off)",0.50
+minimax/minimax-m3:free,syn00033__L3_harsh,L3_harsh,t10,quantity,10,wrong_value,needs review,3.035,354.000,,,AMBIGUOUS-numeric,"unrelated number (3.04 vs 354.00, 11564% off)",0.43
+minimax/minimax-m3:free,syn00033__L3_harsh,L3_harsh,t10,unit_price,15,wrong_value,needs review,7586.43,32.51,,,AMBIGUOUS-numeric,"unrelated number (7586.43 vs 32.51, 100% off)",0.43
+ocr-rules-v1,syn00055__L0_clean,L0_clean,t08,cgst_amount,,wrong_value,needs review,100230.99,5.00,,,field_confusion,predicted = line[6].quantity,1.00
+ocr-rules-v1,syn00031__L0_clean,L0_clean,t08,seller_name,,wrong_value,needs review,trivedi industries,adie tax invoice,,,AMBIGUOUS-text,unrelated (fuzzy 41),0.75
+ocr-rules-v1,syn00047__L0_clean,L0_clean,t12,seller_name,,wrong_value,needs review,agarwal solutions,document type tax invoice invoice no inv 7321,,,AMBIGUOUS-text,unrelated (fuzzy 19),1.00
+ocr-rules-v1,syn00005__L0_clean,L0_clean,t06,seller_name,,wrong_value,needs review,naidu steel alloys,from billed to invoice,,,AMBIGUOUS-text,unrelated (fuzzy 30),1.00
+ocr-rules-v1,syn00010__L0_clean,L0_clean,t11,invoice_number,,wrong_value,needs review,INV/25-26/4217,INVOICE,,,AMBIGUOUS-text,unrelated (fuzzy 28),0.50
+ocr-rules-v1,syn00027__L0_clean,L0_clean,t04,invoice_number,,wrong_value,needs review,3388,NAIDU,,,AMBIGUOUS-text,unrelated (fuzzy 0),0.60
+ocr-rules-v1,syn00094__L0_clean,L0_clean,t11,seller_name,,wrong_value,needs review,agarwal technologies,tax invoice,,,AMBIGUOUS-text,unrelated (fuzzy 38),1.00
+ocr-rules-v1,syn00053__L0_clean,L0_clean,t06,seller_name,,wrong_value,needs review,trivedi steel alloys,from billed to invoice,,,AMBIGUOUS-text,unrelated (fuzzy 38),1.00
+ocr-rules-v1,syn00011__L1_scan,L1_scan,t12,sgst_amount,,wrong_value,needs review,37368.27,1.00,,,field_confusion,predicted = line[4].quantity,1.00
+ocr-rules-v1,syn00047__L1_scan,L1_scan,t12,total_taxable_value,,wrong_value,needs review,11267.02,1.00,,,AMBIGUOUS-numeric,"unrelated number (11267.02 vs 1.00, 100% off)",1.00
+ocr-rules-v1,syn00089__L1_scan,L1_scan,t06,seller_name,,wrong_value,needs review,pillai textiles,from billed to invoice,,,AMBIGUOUS-text,unrelated (fuzzy 37),1.00
+ocr-rules-v1,syn00077__L1_scan,L1_scan,t06,seller_name,,wrong_value,needs review,trivedi steel alloys,from billed to invoice,,,AMBIGUOUS-text,unrelated (fuzzy 38),0.80
+ocr-rules-v1,syn00015__L1_scan,L1_scan,t04,sgst_amount,,wrong_value,needs review,5639.47,1.00,,,field_confusion,predicted = line[0].quantity,0.71
+ocr-rules-v1,syn00012__L1_scan,L1_scan,t01,seller_name,,wrong_value,needs review,kaur trading,tax invoice,,,AMBIGUOUS-text,unrelated (fuzzy 34),1.00
+ocr-rules-v1,syn00034__L1_scan,L1_scan,t11,seller_name,,wrong_value,needs review,ahluwalia logistics,tax invoice,,,AMBIGUOUS-text,unrelated (fuzzy 33),0.71
+ocr-rules-v1,syn00041__L1_scan,L1_scan,t06,invoice_number,,wrong_value,needs review,2025-26/6248,PILLAI,,,AMBIGUOUS-text,unrelated (fuzzy 0),1.00
+ocr-rules-v1,syn00083__L2_photo,L2_photo,t12,cgst_amount,,wrong_value,needs review,24740.45,4.00,,,AMBIGUOUS-numeric,"unrelated number (24740.45 vs 4.00, 100% off)",1.00
+ocr-rules-v1,syn00021__L2_photo,L2_photo,t10,total_taxable_value,,wrong_value,needs review,114892.56,195.00,,,AMBIGUOUS-numeric,"unrelated number (114892.56 vs 195.00, 100% off)",0.86
+ocr-rules-v1,syn00034__L2_photo,L2_photo,t11,invoice_number,,wrong_value,needs review,2025-26/5984,INVOICE,,,AMBIGUOUS-text,unrelated (fuzzy 0),0.83
+ocr-rules-v1,syn00011__L2_photo,L2_photo,t12,cgst_amount,,wrong_value,needs review,37368.27,1.00,,,field_confusion,predicted = line[4].quantity,1.00
+ocr-rules-v1,syn00037__L2_photo,L2_photo,t02,round_off,,wrong_value,needs review,0.33,4.00,,,AMBIGUOUS-numeric,"unrelated number (0.33 vs 4.00, 1112% off)",0.67
+ocr-rules-v1,syn00041__L2_photo,L2_photo,t06,seller_name,,wrong_value,needs review,pillai polymers,invoice,,,AMBIGUOUS-text,unrelated (fuzzy 27),1.00
+ocr-rules-v1,syn00059__L2_photo,L2_photo,t12,seller_name,,wrong_value,needs review,kulkarni distributors,document type tax invoice invoiceno t1 25 26 8202,,,AMBIGUOUS-text,unrelated (fuzzy 22),1.00
+ocr-rules-v1,syn00041__L2_photo,L2_photo,t06,invoice_number,,wrong_value,needs review,2025-26/6248,PILLAI,,,AMBIGUOUS-text,unrelated (fuzzy 0),1.00
+ocr-rules-v1,syn00061__L3_harsh,L3_harsh,t02,seller_name,,wrong_value,needs review,mahajan infratech,roataann a ca,,,AMBIGUOUS-text,unrelated (fuzzy 46),1.00
+ocr-rules-v1,syn00017__L3_harsh,L3_harsh,t06,seller_name,,wrong_value,needs review,chauhan overseas,mide id eacid ae ml nm,,,AMBIGUOUS-text,unrelated (fuzzy 15),1.00
+ocr-rules-v1,syn00043__L3_harsh,L3_harsh,t08,seller_name,,wrong_value,needs review,banerjee overseas,ec,,,AMBIGUOUS-text,unrelated (fuzzy 10),1.00
+ocr-rules-v1,syn00040__L3_harsh,L3_harsh,t05,seller_name,,wrong_value,needs review,chauhan engineering works,chauhan engineering wor aan se,,,character_misread,fuzzy 87,1.00
+ocr-rules-v1,syn00044__L3_harsh,L3_harsh,t09,seller_name,,wrong_value,needs review,naidu sales,ae mee seemerne soa,,,AMBIGUOUS-text,unrelated (fuzzy 33),1.00
+ocr-rules-v1,syn00060__L3_harsh,L3_harsh,t01,seller_name,,wrong_value,needs review,verma logistics,peste eee,,,AMBIGUOUS-text,unrelated (fuzzy 25),1.00
+ocr-rules-v1,syn00063__L3_harsh,L3_harsh,t04,seller_name,,wrong_value,needs review,kulkarni pharma,aimee,,,AMBIGUOUS-text,unrelated (fuzzy 30),1.00
+ocr-rules-v1,syn00018__L3_harsh,L3_harsh,t07,seller_name,,wrong_value,needs review,iyer sons,mss hitomi wis yy sy as ee oe om he,,,AMBIGUOUS-text,unrelated (fuzzy 22),1.00
+qwen/qwen3-vl-32b-instruct,syn00023__L0_clean,L0_clean,t12,sgst_amount,,wrong_value,needs review,114721.08,57893.29,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 57893.29, 50% off)",0.78
+qwen/qwen3-vl-32b-instruct,syn00023__L0_clean,L0_clean,t12,total_taxable_value,,wrong_value,needs review,1547493.32,1272437.28,,,AMBIGUOUS-numeric,"unrelated number (1547493.32 vs 1272437.28, 18% off)",0.78
+qwen/qwen3-vl-32b-instruct,syn00026__L0_clean,L0_clean,t03,reverse_charge,,wrong_value,needs review,True,False,,,AMBIGUOUS-text,unrelated (fuzzy 22),0.89
+qwen/qwen3-vl-32b-instruct,syn00051__L0_clean,L0_clean,t04,total_taxable_value,,wrong_value,needs review,2674669.59,1823672.52,,,AMBIGUOUS-numeric,"unrelated number (2674669.59 vs 1823672.52, 32% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00051__L0_clean,L0_clean,t04,grand_total,,wrong_value,needs review,3047894.00,2032929.28,,,AMBIGUOUS-numeric,"unrelated number (3047894.00 vs 2032929.28, 33% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00055__L0_clean,L0_clean,t08,grand_total,,wrong_value,needs review,1562897.00,1562896.93,,,character_misread,within 0.1% (1562897.00 vs 1562896.93),0.88
+qwen/qwen3-vl-32b-instruct,syn00023__L0_clean,L0_clean,t12,cgst_amount,,wrong_value,needs review,114721.08,57893.29,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 57893.29, 50% off)",0.78
+qwen/qwen3-vl-32b-instruct,syn00051__L0_clean,L0_clean,t04,cgst_amount,,wrong_value,needs review,186612.45,104628.38,,,AMBIGUOUS-numeric,"unrelated number (186612.45 vs 104628.38, 44% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00008__L0_clean,L0_clean,t09,hsn_sac,0,wrong_value,needs review,1905,556BOX,,,AMBIGUOUS-text,unrelated (fuzzy 19),1.00
+qwen/qwen3-vl-32b-instruct,syn00023__L1_scan,L1_scan,t12,cgst_amount,,wrong_value,needs review,114721.08,57893.29,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 57893.29, 50% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00023__L1_scan,L1_scan,t12,total_taxable_value,,wrong_value,needs review,1547493.32,1272437.28,,,AMBIGUOUS-numeric,"unrelated number (1547493.32 vs 1272437.28, 18% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00051__L1_scan,L1_scan,t04,cgst_amount,,wrong_value,needs review,186612.45,102250.29,,,AMBIGUOUS-numeric,"unrelated number (186612.45 vs 102250.29, 45% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00023__L1_scan,L1_scan,t12,sgst_amount,,wrong_value,needs review,114721.08,57893.29,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 57893.29, 50% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00051__L1_scan,L1_scan,t04,total_taxable_value,,wrong_value,needs review,2674669.59,1709594.58,,,AMBIGUOUS-numeric,"unrelated number (2674669.59 vs 1709594.58, 36% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00014__L1_scan,L1_scan,t03,seller_gstin,,wrong_value,needs review,09HKXPA4424J7ZH,09HXPA424J7ZH,,,character_misread,edit distance 2,0.67
+qwen/qwen3-vl-32b-instruct,syn00051__L1_scan,L1_scan,t04,sgst_amount,,wrong_value,needs review,186612.45,102250.29,,,AMBIGUOUS-numeric,"unrelated number (186612.45 vs 102250.29, 45% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00026__L1_scan,L1_scan,t03,reverse_charge,,wrong_value,needs review,True,False,,,AMBIGUOUS-text,unrelated (fuzzy 22),1.00
+qwen/qwen3-vl-32b-instruct,syn00023__L2_photo,L2_photo,t12,cgst_amount,,wrong_value,needs review,114721.08,114519.36,,,AMBIGUOUS-numeric,"unrelated number (114721.08 vs 114519.36, 0% off)",0.78
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,buyer_gstin,,wrong_value,needs review,09BNHPS4591I3Z9,09BNIPS45911329,,,character_misread,fuzzy 80,0.50
+qwen/qwen3-vl-32b-instruct,syn00051__L2_photo,L2_photo,t04,cgst_amount,,wrong_value,needs review,186612.45,127225.42,,,AMBIGUOUS-numeric,"unrelated number (186612.45 vs 127225.42, 32% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00024__L2_photo,L2_photo,t01,irn,,wrong_value,needs review,97C3327BBE2BBF605B6EEE62A93CA433394744925BDED0F0B4C6F590B1E56644,97C3327BBE2BBF605B6EEC62A93CA433394744925BED0F0B4C6F590BLE56644,,,character_misread,fuzzy 96,1.00
+qwen/qwen3-vl-32b-instruct,syn00023__L2_photo,L2_photo,t12,total_taxable_value,,wrong_value,needs review,1547493.32,1272437.28,,,AMBIGUOUS-numeric,"unrelated number (1547493.32 vs 1272437.28, 18% off)",0.78
+qwen/qwen3-vl-32b-instruct,syn00051__L2_photo,L2_photo,t04,grand_total,,wrong_value,needs review,3047894.00,2027410.70,,,AMBIGUOUS-numeric,"unrelated number (3047894.00 vs 2027410.70, 33% off)",0.89
+qwen/qwen3-vl-32b-instruct,syn00055__L2_photo,L2_photo,t08,grand_total,,wrong_value,needs review,1562897.00,1562896.93,,,character_misread,within 0.1% (1562897.00 vs 1562896.93),0.88
+qwen/qwen3-vl-32b-instruct,syn00008__L2_photo,L2_photo,t09,seller_gstin,,wrong_value,needs review,07TKUPB1538E1ZR,07KXFB1536BZR,,,AMBIGUOUS-text,unrelated (fuzzy 64),0.50
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,quantity,4,wrong_value,needs review,3.000,100.000,,,AMBIGUOUS-numeric,"unrelated number (3.00 vs 100.00, 3233% off)",0.50
+qwen/qwen3-vl-32b-instruct,syn00008__L2_photo,L2_photo,t09,hsn_sac,0,wrong_value,needs review,1905,HSN1905,,,AMBIGUOUS-text,unrelated (fuzzy 72),0.50
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,quantity,0,wrong_value,needs review,11.000,1100.000,,,AMBIGUOUS-numeric,"unrelated number (11.00 vs 1100.00, 9900% off)",0.50
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,quantity,2,wrong_value,needs review,11.000,1170.000,,,AMBIGUOUS-numeric,"unrelated number (11.00 vs 1170.00, 10536% off)",0.50
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,unit,1,wrong_value,needs review,NOS,X,,,AMBIGUOUS-text,unrelated (fuzzy 0),0.50
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,quantity,1,wrong_value,needs review,12.000,1200.000,,,AMBIGUOUS-numeric,"unrelated number (12.00 vs 1200.00, 9900% off)",0.50
+qwen/qwen3-vl-32b-instruct,syn00020__L2_photo,L2_photo,t09,unit,0,wrong_value,needs review,NOS,X,,,AMBIGUOUS-text,unrelated (fuzzy 0),0.50
+qwen/qwen3-vl-32b-instruct,syn00008__L2_photo,L2_photo,t09,hsn_sac,1,wrong_value,needs review,4819,HSN4815,,,AMBIGUOUS-text,unrelated (fuzzy 54),0.50
+qwen/qwen3-vl-32b-instruct,syn00019__L3_harsh,L3_harsh,t08,sgst_amount,,wrong_value,needs review,18296.68,38290.60,,,field_confusion,predicted = taxable x 18%/2 (computed CGST/SGST),0.44
+qwen/qwen3-vl-32b-instruct,syn00058__L3_harsh,L3_harsh,t11,buyer_address,,wrong_value,needs review,423 industrial estate siliguri west bengal 715969,house 423 industrial estate ghaziabad uttar pradesh 201001,,,entity_substitution,kept '423 estate industrial',0.78
+qwen/qwen3-vl-32b-instruct,syn00022__L3_harsh,L3_harsh,t11,invoice_number,,wrong_value,needs review,7999,2023-07-11,,,AMBIGUOUS-text,unrelated (fuzzy 14),0.50
+qwen/qwen3-vl-32b-instruct,syn00064__L3_harsh,L3_harsh,t05,total_taxable_value,,wrong_value,needs review,75221.92,1273.20,,,AMBIGUOUS-numeric,"unrelated number (75221.92 vs 1273.20, 98% off)",0.70
+qwen/qwen3-vl-32b-instruct,syn00042__L3_harsh,L3_harsh,t07,buyer_gstin,,wrong_value,needs review,36JNJCM6473S6ZB,27BBBBB0000B2Z6,,,AMBIGUOUS-text,unrelated (fuzzy 13),0.78
+qwen/qwen3-vl-32b-instruct,syn00048__L3_harsh,L3_harsh,t01,buyer_address,,wrong_value,needs review,63 mg chennai tamil nadu 615114,63 saki chennai tamil nadu 600114,,,character_misread,fuzzy 84,0.40
+qwen/qwen3-vl-32b-instruct,syn00059__L3_harsh,L3_harsh,t12,grand_total,,wrong_value,needs review,203230.00,282306.94,,,AMBIGUOUS-numeric,"unrelated number (203230.00 vs 282306.94, 39% off)",0.40
+qwen/qwen3-vl-32b-instruct,syn00013__L3_harsh,L3_harsh,t02,buyer_name,,wrong_value,needs review,chowdhury pharma,chandru pharma,,,entity_substitution,kept 'pharma',0.44
+qwen/qwen3-vl-32b-instruct,syn00033__L3_harsh,L3_harsh,t10,discount,6,wrong_value,needs review,3320.22,10.00,,,AMBIGUOUS-numeric,"unrelated number (3320.22 vs 10.00, 100% off)",0.60
+qwen/qwen3-vl-32b-instruct,syn00009__L3_harsh,L3_harsh,t10,description,15,wrong_value,needs review,foam mattress 72x36,toilet mattress 70x38,,,entity_substitution,kept 'mattress',0.40
+qwen/qwen3-vl-32b-instruct,syn00055__L3_harsh,L3_harsh,t08,description,15,wrong_value,needs review,hdpe packing bags,welding rods 10 kgs,,,AMBIGUOUS-text,unrelated (fuzzy 38),0.50
+qwen/qwen3-vl-32b-instruct,syn00009__L3_harsh,L3_harsh,t10,unit_price,10,wrong_value,needs review,49611.36,4980.38,,,character_misread,digit slip 10x (49611.36 vs 4980.38),0.40
+qwen/qwen3-vl-32b-instruct,syn00040__L3_harsh,L3_harsh,t05,taxable_value,3,wrong_value,needs review,6989.26,1352.76,,,AMBIGUOUS-numeric,"unrelated number (6989.26 vs 1352.76, 81% off)",0.50
+qwen/qwen3-vl-32b-instruct,syn00055__L3_harsh,L3_harsh,t08,hsn_sac,1,wrong_value,needs review,2106,3926,,,AMBIGUOUS-numeric,"unrelated number (2106.00 vs 3926.00, 86% off)",0.50
+qwen/qwen3-vl-32b-instruct,syn00026__L3_harsh,L3_harsh,t03,description,1,wrong_value,needs review,hdpe packing bags,dyeing spinning base,,,AMBIGUOUS-text,unrelated (fuzzy 59),0.70
+qwen/qwen3-vl-32b-instruct,syn00042__L3_harsh,L3_harsh,t07,quantity,0,wrong_value,needs review,94.838,100.000,,,AMBIGUOUS-numeric,"unrelated number (94.84 vs 100.00, 5% off)",0.78
