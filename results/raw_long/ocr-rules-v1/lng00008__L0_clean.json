@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00008__L0_clean",
+ "doc_id": "lng00008",
+ "level": "L0_clean",
+ "template_id": "t09",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INV-9787",
+  "invoice_date": "2026-02-03",
+  "seller_name": "SETHI ELECTRICALS",
+  "seller_gstin": "19WFGPS7009C2ZS",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "140001.58",
+  "sgst_amount": "140001.58",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.49",
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "SETHI ELECTRICALS\nPlot No. 116, MIDC Phase II\nSiliguri - 740990\nGSTIN: 19WFGPS7009C2ZS\nState: West Bengal (19)\nTAX INVOICE\nBill No: INV-9787\nDate: 03/02/2026\nPOS: West Bengal\nCustomer: Chauhan Distributors LLP\nGSTIN: URP\n1. Glucose Biscuits 200g\nHSN 1905 169BOX x 357.84 60474.96\n2. Synthetic Enamel Paint 4L\nHSN 3208 31.763LTR x 608.75 19335.73\n3. Smartphone 6GB/128GB\nHSN 8517 INOS x 29707.71 29707.71\n4, MS Hex Bolt with Nut M12\nHSN 7318 53NOS x 40.30 2135.90\n5. Monoblock Water Pump 1HP\nHSN 8413 20NOS x 5766.19 109557.61\nLess Disc -5766.19\n6. Radial Tyre 195/65 R15\nHSN 4011 62NOS x 5364.61 332605.82\n7. Basmati Rice (Broken 5%)\nHSN 1006 839.245KGS x 60.19 50514.16\n8. Office Workstation Table\nHSN 9403 INOS x 18454.31 18454.31\n9. Cotton Round Neck T-Shirt\nHSN 6109 522PCS x 334.52 174619.44\n10. Instant Drink Premix\nHSN 2106 22PCS x 134.66 2962.52\n11. HDPE Packing Bags\nHSN 3923 8.767KGS x 180.79 1584.99\n12. PVC Insulated Copper Cable 2.5sqmm\nHSN 8544 841.993MTR x 48.24 40617.74\n13. Paracetamol IP 650mg Tablets\nHSN 3004 4744BOX x 21.72 103039.68\n14. Refined Sugar S-30\nHSN 1701 201.598KGS x 51.02 10285.53\n15. Multifunction Laser Printer\nHSN 8443 INOS x 24897.06 24897.06\n16. OPC 53 Grade Cement 50kg\nHSN 2523 174BAG x 459.63 79975.62\n17. Foam Mattress 72x36\nHSN 9404 INOS x 9294.56 9108.67\nLess Disc -185.89\n18. MS Fabricated Structure\nHSN 7308 94.311KGS x 110.03 10377.04\n19. Cotton Woven Fabric 44 inch\nHSN 5208 93.600MTR x 171.47 16049.59\n20. Toilet Soap 100g\nHSN 3401 1049PCS x 53.71 56341.79\n21. Leather Formal Shoes\nHSN 6403 5PRS x 2079.24 10396.20\n22. Laptop Computer i5 16GB\nHSN 8471 INOS x 69673.61 69673.61\n23. Detergent Powder lkg\nHSN 3402 2115PCS x 133.76 282902.40\n24. Stainless Steel Cutlery Set\nHSN 8215 102SET x 245.88 23825.77\nLess Disc -1253.99\n25. Assam CTC Tea Leaf\nHSN 0902 41.523KGS x 277.45 10368.50\nLess Disc -1152.06\nTaxable 1549812.35\nCGST 140001.58\nSGST 140001.58\nRound Off 0.49\nTOTAL Rs .1829816.00\nRupees Eighteen Lakh Twenty Nine Thousand Eight\nHundred and Sixteen Only\nGoods once sold will not be taken back\n*** THANK YOU ***\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.58,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2067,
+  "gstins_found": 1
+ }
+}

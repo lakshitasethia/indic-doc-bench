@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00017__L1_scan",
+ "doc_id": "lng00017",
+ "level": "L1_scan",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Ahluwalia",
+  "invoice_date": "2026-03-16",
+  "seller_name": "INV \u00a9) Gis",
+  "seller_gstin": "23EMSCA1668C5ZV",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "23CBNPS3906B6ZO",
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "INV \u00a9) Gis\nFROM BILEED 0 INVOICE #\nAhluwalia Agencies Pvt. Ltd. Sethi Distributors Pvt. Ltd. SALE-A-7414\noat ie ia Ge Estate Sno Ne: ea Ambattur Industrial Estate cee\nMadhya Pradesh Madhya Pradesh 16 March 2026\nGSTIN GSTIN PLACE OF SUPPLY\n23EMSCA1668C5ZV 23CBNPS3906B6ZO Madhya Pradesh\nDESCRIPTION HSN QTY RATE GSt AMOUNT\nStainless Steel Cutlery Set 8215 822 SET 726.37 18% 233891.14\nMS Fabricated Structure 7308 75.809 KGS 113.23 18% 4583558\nRefined Sugar S-30 1701 1938.827 KGS 48.62 5% 94265.77\nHard Bound Register 200 Pages 4820 573 NOS 112.66 18%  64554.18\nBasmati Rice (Broken 5%) 1006 39.720 KGS 12.28 572 2583.86\nHDPE Packing Bags 3928 751-565 Kao 149.68 18% 112494.25\nMultifunction Laser Printer 8443 11 NOS 20621.87 18% 226840.57\nFoam Mattress 72x36 9404 1NOS 10644.81 18% 10644.81\nRadial Tyre 195/65 R15 4011 8NOS 8988.42 28%  71907.36\nOPC 53 Grade Cement 50kg 2523 2 BAG 384.94 28% 769.88\nDetergent Powder 1kg 3402 104 PCS 87.80 18% 9131.20\nToilet Soap 100g 3401 36 PCS 29.16 18% 1049.76\nInstant Drink Premix 2106 4PCS 124.77 18% 489.10\nCorrugated Carton Box 5-Ply 4819 9999 NOS 24.98 18% 249775.02\nSynthetic Enamel Paint 4L 3208 10.275 E1R 571.49 18% 5872.06\nAssam CTC Tea Leaf 0902 13.999KGS 2/681 5% 387506\nGlucose Biscuits 200g 1905 2BOX 360.06 18% 720.12\nMonoblock Water Pump 1HP 8413 3NOS 4952.86 18%  14858.58\nLeather Formal Shoes 6403 27PRS 2068.47 18% 55848.69\nCotton Round Neck T-Shirt 6109 68PCS 235.69. 5% (e025 72\nMS Hex Bolt with Nut M12 7318 32 NOS 32.18 1870 1009.16\nPVC Insulated Copper Cable 2.5sqmm = 8544 57.338 MTR 56.37 18\u00b0. 3167.50\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.9356,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1567,
+  "gstins_found": 2
+ }
+}

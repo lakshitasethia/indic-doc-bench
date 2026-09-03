@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00000__L2_photo",
+ "doc_id": "lng00000",
+ "level": "L2_photo",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/7204",
+  "invoice_date": "2025-11-20",
+  "seller_name": "Ahluwalia Enterprises Invoice No. 2025-26/7204",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.04",
+  "grand_total": "1685215.00",
+  "amount_in_words": null
+ },
+ "raw": "Ahluwalia Enterprises Invoice No. 2025-26/7204\nGala No. 466, Peenya 2nd Stage Dated 20-Nov-2025\n: : Reverse Charge No\nState Name : Tamil Nadu, Code : 33\nSees |\nRao Industries\nDoor No. 252, Ambattur Industrial Estate\nCoimbatore, Tamil Nadu - 642803\nGSTIN/UIN: 33XBNCR376117Z9\nPlace of Supply : Tamil Nadu\nce of Sn pcm ae [ome Te Ta ag\nce \u2014 [ems [alms] malonate\nea en [sm [ ass stl msteal SS Td\na [eats | \u00ab|nos| sto consi a\n[Mem ee [a | sno earl sasel sel\nPe ia \u2014 or | ara] ssel eam at\n[oun ik} Soy | eres |e SS\ner ran ice Io TE ESE\nPres na Lee | \u2014_s[nos[ su aes uaeat E\nets iS Lie [ anal nes|_ mush aso\nieee ri ps [ tL set| snail Sasanl Buel\nHa paonsest eS [ssa | \u2014_alol_snasl_ tones i\nlores onsen [aro [snl] el Tare IR\ncomme ee [asfecs|_ wan Sn BT\nHs ps rons or [eles sas Sally\nHe pen CIC \u2014\u2014[ ra es] waa a\nCE er ce CE\nel ap ae [slr nesnl Sh A\neee [oman wal ol\nL\u00e9ss: Discount 9324.28\nDonen ae | Sms a re\nipa sere ae [slr eal al Sd\nee\nell a Ol ol\n2.5sqmm\nRefined Sugar $30 ar Lalas |_| seroma 921 8\nene F1433436.24| 12588940 | 125889.40|\nRound Off -0.04\nGrand Total\u2019 \u20ac 1685215.00\nAmount Chargeable (in words); Rupees Sixteen Lakh Eighty Five Thousand Two Hundred and Fifteen \u00a9\nOnly\nee\nBank Name : State Bank of India :\nThis is a Computer Generated Invoice\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.7782,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1254,
+  "gstins_found": 0
+ }
+}

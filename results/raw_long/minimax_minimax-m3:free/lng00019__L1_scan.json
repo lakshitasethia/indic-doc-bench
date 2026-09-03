@@ -1,0 +1,289 @@
+{
+ "variant_id": "lng00019__L1_scan",
+ "doc_id": "lng00019",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "5269",
+  "invoice_date": "2025-08-02",
+  "seller_name": "Rao Distributors",
+  "seller_gstin": "21TSKPR3978P7Z6",
+  "seller_address": "Gala No. 161, MIDC Phase II, Cuttack, Odisha - 763059",
+  "buyer_name": "Chowdhury Industries LLP",
+  "buyer_gstin": "29DZOCC4475S1Z0",
+  "buyer_address": "Khasra No. 166, MG Road, Bengaluru, Karnataka - 585850",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Smartphone 6GB/128GB",
+    "hsn_sac": "8517",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 37230.23,
+    "discount": null,
+    "taxable_value": 37230.23,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "quantity": 110,
+    "unit": "PCS",
+    "unit_price": 99.75,
+    "discount": null,
+    "taxable_value": 10972.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "quantity": 3,
+    "unit": "SET",
+    "unit_price": 262.48,
+    "discount": null,
+    "taxable_value": 787.44,
+    "tax_rate": 18
+   },
+   {
+    "description": "Foam Mattress 72x36",
+    "hsn_sac": "9404",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 10905.75,
+    "discount": null,
+    "taxable_value": 10905.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Monoblock Water Pump 1HP",
+    "hsn_sac": "8413",
+    "quantity": 53,
+    "unit": "NOS",
+    "unit_price": 7164.44,
+    "discount": null,
+    "taxable_value": 341743.79,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 1491,
+    "unit": "PCS",
+    "unit_price": 29.59,
+    "discount": null,
+    "taxable_value": 44118.69,
+    "tax_rate": 18
+   },
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "quantity": 0.1,
+    "unit": "TON",
+    "unit_price": 61072.52,
+    "discount": null,
+    "taxable_value": 6107.25,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 5252.95,
+    "discount": null,
+    "taxable_value": 21011.8,
+    "tax_rate": 28
+   },
+   {
+    "description": "Assam CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 26.069,
+    "unit": "KGS",
+    "unit_price": 266.34,
+    "discount": null,
+    "taxable_value": 6943.22,
+    "tax_rate": 5
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 22813.31,
+    "discount": null,
+    "taxable_value": 22813.31,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP 650mg Tablets",
+    "hsn_sac": "3004",
+    "quantity": 1771,
+    "unit": "BOX",
+    "unit_price": 51.04,
+    "discount": null,
+    "taxable_value": 90391.84,
+    "tax_rate": 12
+   },
+   {
+    "description": "Hard Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 12,
+    "unit": "NOS",
+    "unit_price": 57.39,
+    "discount": null,
+    "taxable_value": 688.68,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 12165.42,
+    "discount": null,
+    "taxable_value": 12165.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Glucose Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 12,
+    "unit": "BOX",
+    "unit_price": 380.48,
+    "discount": null,
+    "taxable_value": 4565.76,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 396.623,
+    "unit": "KGS",
+    "unit_price": 178.55,
+    "discount": null,
+    "taxable_value": 70817.04,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply",
+    "hsn_sac": "4819",
+    "quantity": 5291,
+    "unit": "NOS",
+    "unit_price": 74.12,
+    "discount": null,
+    "taxable_value": 392168.92,
+    "tax_rate": 18
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 21,
+    "unit": "PCS",
+    "unit_price": 162.73,
+    "discount": null,
+    "taxable_value": 3417.33,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 22.269,
+    "unit": "MTR",
+    "unit_price": 154.59,
+    "discount": null,
+    "taxable_value": 3442.56,
+    "tax_rate": 5
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 14.741,
+    "unit": "KGS",
+    "unit_price": 45.05,
+    "discount": null,
+    "taxable_value": 664.08,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "7318",
+    "quantity": 33,
+    "unit": "NOS",
+    "unit_price": 19.49,
+    "discount": null,
+    "taxable_value": 643.17,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 652,
+    "unit": "BAG",
+    "unit_price": 407.72,
+    "discount": null,
+    "taxable_value": 265833.44,
+    "tax_rate": 28
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "7308",
+    "quantity": 13.681,
+    "unit": "KGS",
+    "unit_price": 94.97,
+    "discount": null,
+    "taxable_value": 1299.28,
+    "tax_rate": 18
+   },
+   {
+    "description": "Basmati Rice (Broken 5%)",
+    "hsn_sac": "1006",
+    "quantity": 237.491,
+    "unit": "KGS",
+    "unit_price": 66.8,
+    "discount": null,
+    "taxable_value": 15864.4,
+    "tax_rate": 5
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 20.952,
+    "unit": "LTR",
+    "unit_price": 403.29,
+    "discount": null,
+    "taxable_value": 8449.73,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1373045.63,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": 266910.38,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"5269\",\"invoice_date\":\"2025-08-02\",\"seller_name\":\"Rao Distributors\",\"seller_gstin\":\"21TSKPR3978P7Z6\",\"seller_address\":\"Gala No. 161, MIDC Phase II, Cuttack, Odisha - 763059\",\"buyer_name\":\"Chowdhury Industries LLP\",\"buyer_gstin\":\"29DZOCC4475S1Z0\",\"buyer_address\":\"Khasra No. 166, MG Road, Bengaluru, Karnataka - 585850\",\"place_of_supply\":\"Karnataka\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Smartphone 6GB/128GB\",\"hsn_sac\":\"8517\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":37230.23,\"discount\":null,\"taxable_value\":37230.23,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"quantity\":110,\"unit\":\"PCS\",\"unit_price\":99.75,\"discount\":null,\"taxable_value\":10972.50,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"quantity\":3,\"unit\":\"SET\",\"unit_price\":262.48,\"discount\":null,\"taxable_value\":787.44,\"tax_rate\":18},{\"description\":\"Foam Mattress 72x36\",\"hsn_sac\":\"9404\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":10905.75,\"discount\":null,\"taxable_value\":10905.75,\"tax_rate\":18},{\"description\":\"Monoblock Water Pump 1HP\",\"hsn_sac\":\"8413\",\"quantity\":53,\"unit\":\"NOS\",\"unit_price\":7164.44,\"discount\":null,\"taxable_value\":341743.79,\"tax_rate\":18},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":1491,\"unit\":\"PCS\",\"unit_price\":29.59,\"discount\":null,\"taxable_value\":44118.69,\"tax_rate\":18},{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"quantity\":0.100,\"unit\":\"TON\",\"unit_price\":61072.52,\"discount\":null,\"taxable_value\":6107.25,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":5252.95,\"discount\":null,\"taxable_value\":21011.80,\"tax_rate\":28},{\"description\":\"Assam CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":26.069,\"unit\":\"KGS\",\"unit_price\":266.34,\"discount\":null,\"taxable_value\":6943.22,\"tax_rate\":5},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":22813.31,\"discount\":null,\"taxable_value\":22813.31,\"tax_rate\":18},{\"description\":\"Paracetamol IP 650mg Tablets\",\"hsn_sac\":\"3004\",\"quantity\":1771,\"unit\":\"BOX\",\"unit_price\":51.04,\"discount\":null,\"taxable_value\":90391.84,\"tax_rate\":12},{\"description\":\"Hard Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":12,\"unit\":\"NOS\",\"unit_price\":57.39,\"discount\":null,\"taxable_value\":688.68,\"tax_rate\":18},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":12165.42,\"discount\":null,\"taxable_value\":12165.42,\"tax_rate\":18},{\"description\":\"Glucose Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":12,\"unit\":\"BOX\",\"unit_price\":380.48,\"discount\":null,\"taxable_value\":4565.76,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":396.623,\"unit\":\"KGS\",\"unit_price\":178.55,\"discount\":null,\"taxable_value\":70817.04,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 5-Ply\",\"hsn_sac\":\"4819\",\"quantity\":5291,\"unit\":\"NOS\",\"unit_price\":74.12,\"discount\":null,\"taxable_value\":392168.92,\"tax_rate\":18},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":21,\"unit\":\"PCS\",\"unit_price\":162.73,\"discount\":null,\"taxable_value\":3417.33,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":22.269,\"unit\":\"MTR\",\"unit_price\":154.59,\"discount\":null,\"taxable_value\":3442.56,\"tax_rate\":5},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":14.741,\"unit\":\"KGS\",\"unit_price\":45.05,\"discount\":null,\"taxable_value\":664.08,\"tax_rate\":5},{\"description\":\"MS Hex Bolt with Nut M12\",\"hsn_sac\":\"7318\",\"quantity\":33,\"unit\":\"NOS\",\"unit_price\":19.49,\"discount\":null,\"taxable_value\":643.17,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":652,\"unit\":\"BAG\",\"unit_price\":407.72,\"discount\":null,\"taxable_value\":265833.44,\"tax_rate\":28},{\"description\":\"MS Fabricated Structure\",\"hsn_sac\":\"7308\",\"quantity\":13.681,\"unit\":\"KGS\",\"unit_price\":94.97,\"discount\":null,\"taxable_value\":1299.28,\"tax_rate\":18},{\"description\":\"Basmati Rice (Broken 5%)\",\"hsn_sac\":\"1006\",\"quantity\":237.491,\"unit\":\"KGS\",\"unit_price\":66.80,\"discount\":null,\"taxable_value\":15864.40,\"tax_rate\":5},{\"description\":\"Synthetic Enamel Paint 4L\",\"hsn_sac\":\"3208\",\"quantity\":20.952,\"unit\":\"LTR\",\"unit_price\":403.29,\"discount\":null,\"taxable_value\":8449.73,\"tax_rate\":18}],\"total_taxable_value\":1373045.63,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":266910.38,\"cess_amount\":null,\"round_off\":null,\"grand_total\":null,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 5222,
+ "output_tokens": 1465,
+ "cached_input_tokens": 0,
+ "latency_s": 27.4651,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

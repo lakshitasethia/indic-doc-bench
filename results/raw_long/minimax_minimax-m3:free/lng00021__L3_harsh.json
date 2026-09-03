@@ -1,0 +1,229 @@
+{
+ "variant_id": "lng00021__L3_harsh",
+ "doc_id": "lng00021",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "B-4645",
+  "invoice_date": "2025-07-01",
+  "seller_name": "Mehra Traders",
+  "seller_gstin": null,
+  "seller_address": "Plot No. 1130/2, Khasra No. 176/2, Third Floor, Mundka, Delhi, Najafgarh Road, Near Bank of Baroda, New Delhi, 110041",
+  "buyer_name": "Nair & Sons Pvt. Ltd.",
+  "buyer_gstin": null,
+  "buyer_address": "Door No: 573, Fiscal Point, Bhopal, Madhya Pradesh - 462030",
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998599",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 7755.55,
+    "discount": null,
+    "taxable_value": 7755.55,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 31400.0,
+    "discount": null,
+    "taxable_value": 31400.0,
+    "tax_rate": 5
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 112662.14,
+    "discount": null,
+    "taxable_value": 112662.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998714",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 4753.07,
+    "discount": null,
+    "taxable_value": 9506.14,
+    "tax_rate": 18
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999003",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 31484.0,
+    "discount": null,
+    "taxable_value": 94474.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 5644.01,
+    "discount": null,
+    "taxable_value": 28220.05,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 72561.42,
+    "discount": null,
+    "taxable_value": 72561.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998714",
+    "quantity": 27,
+    "unit": "NOS",
+    "unit_price": 2028.77,
+    "discount": null,
+    "taxable_value": 20226.77,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 9,
+    "unit": "NOS",
+    "unit_price": 8458.87,
+    "discount": null,
+    "taxable_value": 8458.87,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998714",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 5673.9,
+    "discount": null,
+    "taxable_value": 28369.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998599",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 8972.1,
+    "discount": null,
+    "taxable_value": 8972.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998599",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 12089.54,
+    "discount": null,
+    "taxable_value": 12089.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 23391.37,
+    "discount": null,
+    "taxable_value": 23391.37,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 67977.08,
+    "discount": null,
+    "taxable_value": 273354.16,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998714",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 4183.98,
+    "discount": null,
+    "taxable_value": 4183.98,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998714",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 2993.58,
+    "discount": null,
+    "taxable_value": 2993.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999003",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 8027.66,
+    "discount": null,
+    "taxable_value": 8027.66,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 23579.12,
+    "discount": null,
+    "taxable_value": 47158.24,
+    "tax_rate": 5
+   }
+  ],
+  "total_taxable_value": 791805.07,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\": \"B-4645\", \"invoice_date\": \"2025-07-01\", \"seller_name\": \"Mehra Traders\", \"seller_gstin\": null, \"seller_address\": \"Plot No. 1130/2, Khasra No. 176/2, Third Floor, Mundka, Delhi, Najafgarh Road, Near Bank of Baroda, New Delhi, 110041\", \"buyer_name\": \"Nair & Sons Pvt. Ltd.\", \"buyer_gstin\": null, \"buyer_address\": \"Door No: 573, Fiscal Point, Bhopal, Madhya Pradesh - 462030\", \"place_of_supply\": \"Madhya Pradesh\", \"reverse_charge\": false, \"irn\": null, \"line_items\": [{\"description\": \"Other Professional and Technical Services\", \"hsn_sac\": \"998599\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 7755.55, \"discount\": null, \"taxable_value\": 7755.55, \"tax_rate\": 18}, {\"description\": \"Road Transport Services of Goods\", \"hsn_sac\": \"996511\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 31400.00, \"discount\": null, \"taxable_value\": 31400.00, \"tax_rate\": 5}, {\"description\": \"Rental Services of Commercial Property\", \"hsn_sac\": \"997212\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 112662.14, \"discount\": null, \"taxable_value\": 112662.14, \"tax_rate\": 18}, {\"description\": \"Repair Services of Computers and Peripherals\", \"hsn_sac\": \"998714\", \"quantity\": 2, \"unit\": \"NOS\", \"unit_price\": 4753.07, \"discount\": null, \"taxable_value\": 9506.14, \"tax_rate\": 18}, {\"description\": \"Commercial Training and Coaching Services\", \"hsn_sac\": \"999003\", \"quantity\": 3, \"unit\": \"NOS\", \"unit_price\": 31484.00, \"discount\": null, \"taxable_value\": 94474.00, \"tax_rate\": 18}, {\"description\": \"Information Technology Consulting Services\", \"hsn_sac\": \"998313\", \"quantity\": 5, \"unit\": \"NOS\", \"unit_price\": 5644.01, \"discount\": null, \"taxable_value\": 28220.05, \"tax_rate\": 18}, {\"description\": \"Rental Services of Commercial Property\", \"hsn_sac\": \"997212\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 72561.42, \"discount\": null, \"taxable_value\": 72561.42, \"tax_rate\": 18}, {\"description\": \"Repair Services of Computers and Peripherals\", \"hsn_sac\": \"998714\", \"quantity\": 27, \"unit\": \"NOS\", \"unit_price\": 2028.77, \"discount\": null, \"taxable_value\": 20226.77, \"tax_rate\": 18}, {\"description\": \"Rental Services of Commercial Property\", \"hsn_sac\": \"997212\", \"quantity\": 9, \"unit\": \"NOS\", \"unit_price\": 8458.87, \"discount\": null, \"taxable_value\": 8458.87, \"tax_rate\": 18}, {\"description\": \"Repair Services of Computers and Peripherals\", \"hsn_sac\": \"998714\", \"quantity\": 5, \"unit\": \"NOS\", \"unit_price\": 5673.90, \"discount\": null, \"taxable_value\": 28369.50, \"tax_rate\": 18}, {\"description\": \"Other Professional and Technical Services\", \"hsn_sac\": \"998599\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 8972.10, \"discount\": null, \"taxable_value\": 8972.10, \"tax_rate\": 18}, {\"description\": \"Other Professional and Technical Services\", \"hsn_sac\": \"998599\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 12089.54, \"discount\": null, \"taxable_value\": 12089.54, \"tax_rate\": 18}, {\"description\": \"Rental Services of Commercial Property\", \"hsn_sac\": \"997212\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 23391.37, \"discount\": null, \"taxable_value\": 23391.37, \"tax_rate\": 18}, {\"description\": \"Rental Services of Commercial Property\", \"hsn_sac\": \"997212\", \"quantity\": 2, \"unit\": \"NOS\", \"unit_price\": 67977.08, \"discount\": null, \"taxable_value\": 273354.16, \"tax_rate\": 18}, {\"description\": \"Repair Services of Computers and Peripherals\", \"hsn_sac\": \"998714\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 4183.98, \"discount\": null, \"taxable_value\": 4183.98, \"tax_rate\": 18}, {\"description\": \"Repair Services of Computers and Peripherals\", \"hsn_sac\": \"998714\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 2993.58, \"discount\": null, \"taxable_value\": 2993.58, \"tax_rate\": 18}, {\"description\": \"Commercial Training and Coaching Services\", \"hsn_sac\": \"999003\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 8027.66, \"discount\": null, \"taxable_value\": 8027.66, \"tax_rate\": 18}, {\"description\": \"Road Transport Services of Goods\", \"hsn_sac\": \"996511\", \"quantity\": 2, \"unit\": \"NOS\", \"unit_price\": 23579.12, \"discount\": null, \"taxable_value\": 47158.24, \"tax_rate\": 5}], \"total_taxable_value\": 791805.07, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": null, \"amount_in_words\": null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2201,
+ "output_tokens": 1405,
+ "cached_input_tokens": 0,
+ "latency_s": 37.2304,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00018__L0_clean",
+ "doc_id": "lng00018",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-28",
+  "seller_name": "Patel Industries LLP NoINv.9064",
+  "seller_gstin": "08IRGPP6881A5ZA",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "156256.14",
+  "sgst_amount": "156256.14",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Patel Industries LLP NoINv.9064\nDoor No. 201, Ring Road, Udaipur, Rajasthan-307686 Dt: 28/05/2025\nGSTIN: 08IRGPP6881A5ZA | State: Rajasthan (08) RCM: N\nOther Professional and\n1 [Other Pr eon 998399 r467142, 74677 42|18 6720.97| 6720.97} 88119.36\n2 |Rental Services of 997212! 1/ NOS|137491.01 137491.01 | 18/12374.19] 12374.19| 162239.39\nCommercial Property\n3. oad Transpo Services of | 999544 $7854.32, $7854 32 5 | 946.36, 946.36) 39747.04\nRepair Services of Computers\nak S porpherals 998721 e05733, 6257 3818 563.16| 563.16) 7383.65\nCommercial Training and\nConching Serves 999293 3681145 - 1104849518 9939.09| 9939.09/130312.53\nInformation Technology\n6 Consulting Services 998313 161791.56 \u2014 161791.56| 18 /14561.24/ 14561.24| 190914.04\n7_|nformation Technology 998313| 1/NOS|109284.90 109284.90|18) 9835.64 9835.64 | 128956.18\nConsulting Services\ngoad Transport Services of | 999544 19856.20, 19856-2) 5 | 496.41; 496.41| 20849.11\nInformation Technology\n| Consulting Senices 298313) 1 NoS| 17457248, 174572.48 | 18| 15711.52/ 15711.52|205995.52\n10 Read Tanspor Services of | 999544 19988.72, 13983.72) 5 | 334.59| 334.59| 14052.90\nInformation Technology\nConsulting Sertces 998313 155939,96 a 155939.96 | 18|14034.60/ 14034.60| 184009.16\n42| Rental Services of 997212| 1|NOS| 80238.94 80238.94/18| 7221.50) 7221.50| 94681.94\nCommercial Property\n13, Road Transpo Services of | 999544 5490.00, - 5490.00 5 137.25| 137.25] 5764.50\nInformation Technology\nConsulting Serices 998313 156545,12 \u2014 156545.12|18|14089.06| 14089.06| 184723.24\n45 | COmmercial Training and 999293) 1/NOS| 43547.95 43547.95|18| 3919.32} 3919.32) 51386.59\nCoaching Services\nOther Professional and\n16 her Pr Sa 998399 5063542, - 50635.42|18 5367.19| 5367.19| 70369.80\n17 | Rental Services of 997212| 1/NOS| 33574.21/3357.42| 30216.79/18] 2719.51! 2719.51) 35655.81\nCommercial Property\nRental Services of\nCommercial Properly 697212) 1 Nos| e918285, \u00a33182.85|18 8381.96) 8381.96|109896.77\nRental Services of\nCommercial Properly 997212 12300640, - 123906.40 | 18| 11151.58] 11151.58| 146209.56\nCommercial Training and\n20 commer Sonn 999293 15605.13| 780.26 14824 87 18 1334.24) 1334.24] 17493.35\n24 | Rental Services of 997212) 1|NOS| 106861.65 106861.65/18| 9617.55} 9617.55|126096.75\nCommercial Property\nOther Professional and\n22 ther Pr hea 208399) 1 NOS| a167e03| 41679.03|18 3751.11| 3751.11} 49181.25\n93 | Information Technology 998313) 1/NOS| 33867.73 33867.73|18| 3048.10) 3048.10! 39963,93\nConsulting Services\n1791490.09\nCGST 156256.14\nSGST 156256.14\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.6817,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2528,
+  "gstins_found": 1
+ }
+}

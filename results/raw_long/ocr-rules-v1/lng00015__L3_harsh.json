@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00015__L3_harsh",
+ "doc_id": "lng00015",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "mee Va E j Ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "mee Va E j Ee\nea eee So ae eee: oat:\na an ee ame. ae wear\nee sie aya tee ae ere sae! bern\ntheme ings ree) veis-gs MOPSC 0 Mee gtd gel rime |\nBi ducvmaciitl\n* Gemter saees sane 0 1906.89 eee! 0 te\nre jes Hem shay 9096! 9) * age oy i\n? S Gaey Siren: esa eA ee sean ~ he\nor nal 14/9008 e082 be Pad 7044 9 i Sas 6 sb san, =\ni? ite wn 8\" Shay PI a0 Seen mR\nnoe me Dieiieiae Se UPD 1 nese w mt |\nSt Soest i pe Hach ona ae Pin oh seat sate ae\ncoe : - pe = et\nte +08 iil a Ses ay me fo \u00ae\nee /_ | Mb ET ae ae\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7636,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 500,
+  "gstins_found": 0
+ }
+}

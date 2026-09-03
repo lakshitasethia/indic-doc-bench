@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00016__L0_clean",
+ "doc_id": "lng00016",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/1535",
+  "invoice_date": "2025-11-03",
+  "seller_name": "Rao Agencies Limited LORIGINAL FOR RECIPIENT _",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Rao Agencies Limited LORIGINAL FOR RECIPIENT _\nDoor No. 230, Ambattur Industrial Estate, Siliguri, West Bengal - 736316 Invoice No 2025-26/1535\nGSTIN 19KJBPR3645Y2ZQ_ State Code 19 Invoice Date 03-11-2025\nTerms Cash\nBilled To Shipped To\nChauhan Enterprises Chauhan Enterprises\nDoor No. 298, Ambattur Industrial Estate, Siliguri, West Bengal - 713392 Door No. 298, Ambattur Industrial Estate, Siliguri\nGSTIN Unregistered Place of Supply West Bengal (19) Reverse Charge: No\n\u201c1 [Monoblock Water Pump HP 8413/1 [NOS| 3644.06] | \u2014\u20143644.06| 18 | 327.97, 327.97| 4300.00\n(2 |Stainless Steel Cutlery Set 8215[ 3 | SET| 247.17| \u2014\u2014\u00ab|\u2014=\u2014741.51| 18 | 66.74| 66.74) 874.99\n79338.48\n4 [Tole Soap 100g SSS=\u00abMOT| =~ PCS| 36.36, | = 127260| 18 | 114.53 114.53) 1501.66\n(5 [Multifunction Laser Printer =| 8443[ =| NOS| 20608.52| _\u2014*|\u2014-20608.52| 18 | 1854.77| 1854.77| 24318.06\n(6 [Paracetamol IP 650mg Tablets __\u2014\u00ab(3004{\u2014\u2014\u00ab421/BOX| 64.98] 786.26| 7076.32| 12 | _424.58| 424.58| 7925.48\n(7 [Office Workstation Table == 9403{ \u00ab2 |NOS| 932079| =| \u2014\u20181689.58| 18 | 1679.36] 1679.36) 22018.30\n8 |TMT Steel BarFe-500 12mm =| 7214| ~\u20142.386| TON | 60249.63| __\u2014_\u2014|\u2018143755.62| 18 | 12938.01/ 12938.01| 169631.64\n9 [Corrugated Carton Box S-Ply \u2014=\u00ab(4819|\u2014\u00ab22|NOS| _27.22| \u00ab| \u2014\u2014=\u2014\u00ab98.84| 18 | 53.90, 53.90| 706.64\n10|MS Fabricated Structure === 7308 8.898/KGS| 107.58, | \u2014\u2014987.25| 18 | 86.15 86.15) 1129.55\n11 |Glucose Biscuits 2009 === 1905 \u2014\u00ab22| BOX] 248.76] =| \u2014=\u2014872.72| 18 | 492.54) 492.54| 6457.80\n12|PVC Insulated Copper Cable 25sqmm | 8544| 189.860/MTR| 60.73| __\u2014_\u2014*|_\u201411530.20| 18 | 1037.72| 1037.72) 13605.64\n5819.31\n14[RadialTyre 195/65R15 == 01 | ~\u2014=S|NOS| 6774.25) (| _<60968.25| 28 | 8535.56| 8535.56) 78039.37\n415 |instant Drink Premix SS 2106{ 9 PCS| 42570| \u2014=\u00ab|\u2014\u2014=\u00ab137.30| 18 | 101.82| 101.82) 1334.94\n87008.89\n17|Cotton Woven Fabric 44 inch =| 5208| 616872/MTR| 163.99, | \u2014_-94838.13| 6 | 2370.95| 2370.95 99580.03\n18|HDPEPackingBags =| 3923 947.909/KGS| 129.48/ _\u2014~|-\u2018121958.38| 18 | 10976.25| 10976.25| 143910.88\n19|LeatherFormal Shoes === 6403/7 PRS| 219751| _\u2014|_-81307.87| 18 | 7317-74 7317.71] 95943.29\n20/OPC 53 Grade Cement 50kg =| 2523 \u2014\u2014\u00ab150/BAG| 395.19 _\u2014\u00ab|\u2014_~59278.50| 28 | 8208.99| 8298.99) 75876.48\n21 [Refined SugarS-30SS=\u00ab ATO | t178653/KGS| 4053| \u2014\u2014=\u00ab|\u2014\u00aba770.8i| 5 | 1194.27| 1194.27] 50159.35\n22|Hard Bound Register 200 Pages __\u2014\u2014\u00ab(4820[_\u2014=21|NOS| 95.16, _\u2014=\u00ab|\u2014\u2014\u00abit998.36| 18 | 179.85] 179.85] 2358.06\n684.78\n24|Synthetic Enamel Paint4l =| 3208 7.982) LTR} 403.82, | _\u2014-2987.00| 18 | 268.29 268.29) 3517.58\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.9148,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2512,
+  "gstins_found": 0
+ }
+}

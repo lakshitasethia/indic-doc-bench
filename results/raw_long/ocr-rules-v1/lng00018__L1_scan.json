@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00018__L1_scan",
+ "doc_id": "lng00018",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-28",
+  "seller_name": "Patel Industries LLP te ai |",
+  "seller_gstin": "08IRGPP6881A5ZA",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Rajasthan",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "156256.14",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Patel Industries LLP te ai |\nDoor No. 201, Ring Road, Udaipur; Rajasthan-307686 Dt: 28/05/2025\nGSTIN: 08IRGPP6881A5ZA | State: Rajasthan (08) RCM: N\nTo: lyer Solutions, Shop No. 91, Ring Road, Jodhpur, Rajasthan-316198 | GSTIN: O8DIRCI3526K8ZC | POS: 08-Rajasthan\n4 |Other Professional and 998399| 1|NOS| 74677.42 74677.42\\18| 6720.97| 6720.97! 88119.36\nTechnical Services\n9 |Rental Services of 997212| 1|NOS| 137491.01 137491.01 | 18 | 12374.19| 12374.19| 162239.39\nCommercial Property\nBee Services of | 996544 $7854.92, - $7854.32 5 | 946.36; 946.36| 39747.04\n4 |Repair Services of Computers | 999754) 4|Nos| 6257.33 6257.33|18| 563.16] 563.16] 7383.65\nand Peripherals\n5, |Commercial Training and 999293| 3|NOS| 36811.45 110434.35|18| 9939.09} 9939.09/130312.53\nCoaching Services\nInformation Technology\n| Crit cee 998313 16179156, - 161791.56|18|14561.24| 14561.24/190914.04\n7 | Information Technology 998313| 1/NOS| 109284.90 109284.90/18| 9835.64] 9835.64|128956.18\nConsulting Services\nfe Sears Services of | 999544 19656.29) 19856-29 5 | 496.41| 496.41) 20849.11\nInformation Technology\n| Garataa Sonites 998313 174572.48 iC 474572.48 |\\18 | 15711.52| 15711.52|205995.52\nRoe are Services of | 999544 19988.72) 19988,72) 5 334.59| 334.59] 14052.90\n44 | !nformation Technology 998313| 1|NOS|155939.96 155939.96 | 18 |14034.60| 14034.60| 184009.16\nConsulting Services\n42|Rental Services of 997212| 1|NOS| 80238.94 80238.94|18| 7221.50| 7221.50| 94681.94\nCommercial Property\neS Services of | 999544 5400.00, - 5490.00 5 137.25] 137.25] 5764.50\n14 | nformation Technology 998313| 1/NOS| 156545.12 156545,12| 18 |14089.06| 14089.06| 184723.24\nConsulting Services\n45|Commercial Training and | ggg993| 4/NOS| 43547.95 43547.95|18| 3919.32! 3919.32] 51386.59\nCoaching Services\n46 | Other Professional and 998399| 1/NOS| 59635.42 59635.42|18| 5367.19| 5367.19} 70369.80\nTechnical Services\nRental Services of\nie petelee etsy 297212) 1 Nos| 33574.21| 3357.42 20216,79|18| 9719.51| 2719.51 35655.81\nRental Services of\neen prea 257212) 1 Nos| e313285, \u00a33182.85 18 8381.96) 8381.96|109896.77\nRental Services of\nA eae 997212 123906.40 i 423906.40|18| 11151.58) 11151.58 | 146209.56\nCommercial Training and\ncece ee 299203) 1 Nos| 15605.13| 780.26 14824 87 18 1334.24} 1334.24] 17493.35\nRental Services of\nea erate Bed 297212) 1)Nos| 106861.65, 10686165 18 9617.55| 9617.55|126096.75\nOther Professional and\nEEGs ay 298399) 1 Nos| 4167903) - 41679.03|18 3751.11| 3751.11] 49181.25\n93 | Information Technology 998313| 1/NOS| 33867.73 33867.73|18| 3048.10] 3048.10| 39963.93\nConsulting Services\n1791490.09\n6Gor 156256.14\nSGST 156256.14\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.8332,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2619,
+  "gstins_found": 1
+ }
+}

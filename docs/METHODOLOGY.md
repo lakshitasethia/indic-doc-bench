@@ -212,41 +212,59 @@ leading sentence — and completely unforgiving about *content*: no key renaming
 no value repair. A model returning valid JSON with the wrong keys has committed
 a schema violation and is scored as one.
 
-## 8b. Table length, not image quality, breaks the header totals
+## 8b. Table length degrades extraction, and header totals worst
 
 The residue review turned up a mechanism the severity axis was not built to
-catch, and it is the clearest single finding in the corpus so far.
+catch. It was found on four documents, so it was then tested properly on a
+purpose-built corpus.
 
-Every unexplained numeric error on a **clean** document — 28 of 28 — lands on
-one of the four documents carrying 23 or more line items. Those four are 4% of
-the corpus and absorb 100% of these errors. All 28 are header totals
-(`cgst_amount`, `sgst_amount`, `total_taxable_value`, `grand_total`); not one
-is a line-item field.
+**The signal.** Every unexplained numeric error on a *clean* document -- 28 of
+28 -- landed on one of the four documents carrying 23 or more line items. Those
+four are 4% of the corpus and absorbed 100% of those errors. All 28 were header
+totals; not one was a line-item field.
 
-Split by table length, on clean 300 DPI renders where every digit is legible:
+**The test.** `data/long_probe/` is 24 documents built by the same generator
+with the same round-robin template assignment, differing in exactly one
+respect: line counts forced into 23-28 instead of drawn from the natural
+distribution (median 5). Built with `idb build --prefix lng --line-items 23 28`
+as its own corpus, since the main manifest is immutable by design. 612 line
+items, all 12 templates, swept clean by `minimax-m3` and the rules baseline.
 
-| Model | Header acc. (short) | Header acc. (>=23 items) | Line items (short -> long) |
-|---|---:|---:|---|
-| minimax-m3 | 95.5% | **68.3%** | 96.3% -> 87.1% |
-| qwen3-vl-32b | 93.5% | **59.4%** | 97.0% -> 83.0% |
+Clean 300 DPI renders, where every digit is legible. Clustered bootstrap,
+template as the resampling unit:
 
-Two independent models, the same collapse, and the header falls roughly three
-times as far as the line items. The models are still reading the rows; they are
-losing the aggregate. Degradation severity does not explain it, because these
-are the clean renders.
+| Model | Field group | Short (n=92) | Long (n=24) | Delta |
+|---|---|---|---|---:|
+| minimax-m3 | header | 95.5% [92.7, 97.9] | **68.7%** [61.4, 76.7] | **-26.8** |
+| minimax-m3 | line items | 96.3% [93.3, 98.9] | **79.7%** [71.7, 87.9] | **-16.6** |
+| ocr-rules-v1 | header | 30.0% [24.1, 35.6] | 19.9% [14.2, 25.7] | -10.1 |
 
-The honest caveat is that this rests on **four documents** (n=4 and n=2 per
-model), so it is a strong signal and not an established effect. The confidence
-intervals on those two header numbers are wide and they are not reported as a
-headline result.
+The header estimate replicated almost exactly: 68.3% on the original four
+documents, 68.7% on twenty-four independent ones. Confidence intervals do not
+overlap. Table length degrades header extraction on clean, perfectly legible
+images, and image quality explains none of it.
 
-It also indicts the corpus rather than only the models. A benchmark whose
-documents have a median of 5 line items is not measuring the case that breaks
-extraction hardest, and 4% coverage of the regime that produces 100% of the
-clean-document numeric errors is under-sampling the interesting part of the
-distribution. Adding long-table documents is now the highest-value corpus work
-after Layer 3 — cheaper than Layer 3, and it targets a failure this corpus has
-already demonstrated it can detect.
+**A correction.** The four-document reading suggested header fields fell about
+three times as far as line items. At n=24 that ratio is 1.6, not 3 -- the
+line-item drop of 16.6 points is much larger than the four-document sample
+implied. The earlier gloss that models "are still reading the rows and only
+losing the aggregate" was too strong and is withdrawn. Long tables degrade
+*everything*; header totals simply degrade worst. That the small sample got the
+headline number right and the secondary comparison wrong is a fair illustration
+of what n=4 can and cannot support.
+
+The rules baseline degrades too (-10.1 points), which is worth noting because
+its mechanism cannot be attention over a long context -- it is a regex. Long
+documents are harder for unrelated reasons as well, so the VLM result should
+not be attributed entirely to context handling.
+
+**What it means for the corpus.** A benchmark whose documents have a median of
+5 line items under-measures the case that breaks extraction hardest. The probe
+addresses this for the two free arms; the main corpus is unchanged, so the
+headline leaderboard still reflects the natural length distribution, which is
+the right default for a realistic cost-per-1000-documents claim. Reporting both
+is the honest arrangement: natural distribution for what a pipeline will
+actually see, and the probe for the regime that breaks it.
 
 ## 9. The taxonomy is mostly automatic
 
@@ -305,10 +323,12 @@ Read this before citing any number here.
 1. **Synthetic documents are not real documents.** Layer 3 exists precisely to
    measure that gap, and until it is collected the synthetic numbers are an
    upper bound. Expect real photographed invoices to score materially worse.
-2. **The corpus under-samples long tables.** Median 5 line items, and only 4
-   documents of 96 carry 23 or more — yet those four absorb every unexplained
-   numeric error on clean renders (§8b). The regime that breaks extraction
-   hardest is the one this corpus covers least.
+2. **The main corpus under-samples long tables.** Median 5 line items, and only
+   4 documents of 96 carry 23 or more — yet those four absorb every unexplained
+   numeric error on clean renders. `data/long_probe/` (24 documents, 23–28
+   items) now covers that regime and confirms a 26.8-point header collapse
+   (§8b), but only for the two arms that could be swept for free. The headline
+   leaderboard still reflects the natural length distribution.
 3. **Twelve templates is twelve layouts.** Template is the resampling unit for
    a reason; conclusions do not extend to layouts unlike these. Adding
    templates remains the cheapest way to strengthen the benchmark. The twelve

@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00022__L2_photo",
+ "doc_id": "lng00022",
+ "level": "L2_photo",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-16",
+  "seller_name": "SUPPLIER NAME VOl jUMBE Inve ATI |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME VOl jUMBE Inve ATI |\nChauhan Enterprises Private Limited 2026-01-16\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\nShop No. 458, GIDC Estate, Amritsar, Punjab - 156991\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SuppLy\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\nACCT E en i eee\nHard Bound\nRegister 200 4820 937 57.53] 53905.61 18} 4851.50 4851.50)\nPages |\nLeather\nFormal 6403 3 1635.70 4907.10] 18 441.64 441.64)\nShoes |\nOPC 53\nGrade 2523 3} BAG 384.97 1154.91 161.69 161.69)\nCement 50kg |\nDetergent |\n|| Powder 1kq 3402 121.96 2805.08] 18| 252.46 252.46)\nGlucose |\n5 Biscuits 200g 1905 358.55 4661.15 419.50 419.50]\nCotton |\nWoven Fabric 5208 | 1104.065 MTR 152.56] 168436.16 5 | 4210.90 4210.90)\n44 inch |\nOffice |\nWorkstation 9403 2 12558.79 25117.58/18 2260.58 2260.58 |\nTable |\nPVC\nInsulated |\nik 60.79 60.79)\nCopper Cable 8544 12.280|}MTR 55.00 675.40 0 |\n2.5sqmm |\n|\nRadial Tyre 438.71 |28|30301.42 30301.42)\n9 | 195/65 Ris 4011 31|Nos| 7757.66 |216438.7 2\n10] Fouet Soap | 3401 36722.30) 18| 3305.01] 3305.01)\nCotton\n11/Round Neck | 6109 1045} Pcs 340.96 sana s| 8907.58 8907.58)\nT-Shirt\nCorrugated |\n12 Parton Box 4819 12/u05 49.78 \u00a3575.26 501.78 501.78)\n5-Ply /\n13 Packing Bags 3923 eo {\n14 Sugar S-30 |1701] 39.\nLapto, |\nenter iS | 8471 54857.12] 54857.12 sa] sor. 4937.14]\n16GB |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.6427,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1304,
+  "gstins_found": 0
+ }
+}

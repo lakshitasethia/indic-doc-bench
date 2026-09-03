@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00004__L1_scan",
+ "doc_id": "lng00004",
+ "level": "L1_scan",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/7057",
+  "invoice_date": null,
+  "seller_name": "Chowdhury Steel & Alloys [ORIGINAL FOR RECIPIENT |",
+  "seller_gstin": "23ICZPC9993X8ZI",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chowdhury Steel & Alloys [ORIGINAL FOR RECIPIENT |\nGala No. 198, MIDC Phase II, Bhopal, Madhya Pradesh - 458050 Invoice No 2025-26/7057\nGSTIN 23ICZPC9993X8ZI State Code 23 Invoice me ica\nBilled To Shipped To\n\nBhatt Overseas Pvt. Ltd. Bhatt Overseas Pvt. Ltd.\n\nPlot No. 464, GIDC Estate, Indore, Madhya Pradesh - 455549 Plot No. 464, GIDC Estate, Indore\n\nGSTIN 23UJKPB6746W6ZQ_ Place of Supply Madhya Pradesh (23) Reverse Charge: No\n\n1 [information Technology Consulting Services _|998313| 2/NOS| 110620.90| _| 221247.80| 18 | 19911.76| 19911.76| 26106532\n2 [Rental Services of Commercial Property |997212| 1/NOS| 129349.77| __| 120349.77/ 18 | 1641.48) 11641.48| 152632.73\n3 [Road Transport Services of Goods __\u2014~=~\u00ab*d896511 | [NOS] ist7461/ | 15174.61[ 6 | 379.87| 379.97| 15983.5\n4 [Other Professional and Technical Services |998399| 1/NOS| 43655.83/ __\u2014|_43665.83| 18 | 3920.02| 3929.02] 6151387\n\u201c5 [Repair Services of Computers and Peripherals [998721| 2|NOS| 4017.89| (| _8036.78| 18 | 728.22| 723.22| 9482.22\n6 [Commercial Training and Coaching Services _|999293| 1/NOS| 19867.39| 993.37| 18874.02| 18 | 1698.66) 1698.66 _22271.34\n\"7 [Road Transport Services of Goods __\u2014~\u2014~=\u00ab(996511| 4|NOS| 25610.79/ \u2018| 102443.16| 6 | 2561.08| 2561.08] 107565.32\n8 [information Technology Consulting Services |998313| 1/NOS| 61404.50/ __\u2014_|_51404.50/ 18 | 4626.41| 4626.41| 60667.92\n-9 [information Technology Consulting Services |998313| 1|NOS| 63189.95| | _63189.95| 18 | 5687.10| 6687.10] _74564.15\n10|information Technology Consulting Services |998313| 1/NOS|_2173123| __|_21731.23| 18 | 1955.81| 1955.81| 25642.85\n\u201c11 [Rental Services of Commercial Property |997212| 1/NOS| 120654.06| __| 129684.06| 18 | 11668.87/ 11668.87| 162091.80\n72 [Rental Services of Commercial Property _(997212| 1/NOS| 6116.96, __\u2014|_66116.96| 18 | 5950.53/ 6950.53] 7801802\n\"13 [Other Professional and Technical Services [998399| 1/NOS| 20719.90| __|_29719.90| 18 | 2674.79| 2674.79| 36069.48\n\"14 [Other Professional and Technical Services |998399| 1/NOS| 50538.91| | _60538.97| 18 | 4548.50| 4548.50/ 59635.01\n24838523\n76 [Commercial Training and Coaching Services |999293| 1|NOS| 22490.05| ___|_22490.05| 18 | 2024.10| 2024.10] 26538.26\n2318452\n[8 [Repair Services of Computers and Peripherals [998721| 1|NOS| s91988| | _-6919.88| 18 | 532.79| 632.79| 6985.46\n19 [Rental Services of Commercial Property [997212| 1|NOS| 100396.21| __| 100396.21| 18 | 9036.66| 9035.66] 11846753\n20 [Other Professional and Technical Services | 998399| 3|NOS| 84710.02| __| 264130.06| 18 | 22871.71| 22871.71| 209873.48\n\"21 [Rental Services of Commercial Property [997212| 2|NOS| 6822423| ___| 136448.46| 18 | 12280.36| 12280.36| 161009.18\n\"22 [Commercial Training and Coaching Services _|999203| 1|NOS| 8630.42| (| _8630.42| 18 | 776.74| 776.74| 10183.90\n\"23 Information Technology Consulting Services _[998313| 1|NOS|172247.86| __| 172247.86| 18 | 1502.31] 16602.31| 203252.48\n38750.69\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 4.079,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2942,
+  "gstins_found": 1
+ }
+}

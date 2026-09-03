@@ -1,0 +1,280 @@
+{
+ "variant_id": "lng00000__L3_harsh",
+ "doc_id": "lng00000",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "34/Sep-2025",
+  "invoice_date": "2025-09-30",
+  "seller_name": "Adheshife Enterprises",
+  "seller_gstin": "21AHFPAT8679P1ZD",
+  "seller_address": "Gala No. 186, Poojaya Indl. Estate, Sarul Naka, Bhiw 421302",
+  "buyer_name": "Rao Industries",
+  "buyer_gstin": "23CDGPKR7679F1Z8",
+  "buyer_address": "Door No: 252, Ambether Industrial Estate, Gham Naka, Tanel Naka - 482002",
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Lather Fruction Manl",
+    "hsn_sac": "3401",
+    "quantity": 2,
+    "unit": "PES",
+    "unit_price": 1086,
+    "discount": 97.25,
+    "taxable_value": 2074.75,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Stroom Tubing 44 mil",
+    "hsn_sac": "5208",
+    "quantity": 223.317,
+    "unit": "MTR",
+    "unit_price": 97.25,
+    "discount": 21716.54,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Maatcheck Water Pump HP",
+    "hsn_sac": "4013",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5059.96,
+    "discount": null,
+    "taxable_value": 5059.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Roofing Ting conrd RH",
+    "hsn_sac": "9403",
+    "quantity": 37,
+    "unit": "BOX",
+    "unit_price": 82,
+    "discount": 21684.94,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cement Baghole 50kg",
+    "hsn_sac": "2523",
+    "quantity": 205,
+    "unit": "PCS",
+    "unit_price": 36.7,
+    "discount": null,
+    "taxable_value": 11662.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Emite Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 3401,
+    "unit": "KG",
+    "unit_price": 22.3,
+    "discount": 52.7,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Hex Bolt with Nut M1",
+    "hsn_sac": "7318",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 26591.75,
+    "discount": 152758.57,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Methylated Lime Pretas",
+    "hsn_sac": "2814",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 22.8,
+    "discount": 1730.42,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Acrylie Sand Colloary Set",
+    "hsn_sac": "3214",
+    "quantity": 126,
+    "unit": "SET",
+    "unit_price": 300,
+    "unit_price_2": 300,
+    "discount": 509.22,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": null,
+    "quantity": 10,
+    "unit": "BAG",
+    "unit_price": 375.17,
+    "discount": 120676.96,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Comppoted Carton Box 5 Ply",
+    "hsn_sac": "4819",
+    "quantity": 397,
+    "unit": "NOS",
+    "unit_price": 308.31,
+    "discount": 32213.46,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Cot",
+    "hsn_sac": "7308",
+    "quantity": 395.233,
+    "unit": "KGS",
+    "unit_price": 370.47,
+    "discount": 8282.83,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Gigan CTC Tea Leaf",
+    "hsn_sac": "0902",
+    "quantity": 33.808,
+    "unit": "KGS",
+    "unit_price": 342.83,
+    "discount": 14078.66,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Packing Bags",
+    "hsn_sac": "3923",
+    "quantity": 1716.94,
+    "unit": "NOS",
+    "unit_price": 8,
+    "discount": 66050.28,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Lupoy Compond",
+    "hsn_sac": "8479",
+    "quantity": 1,
+    "unit": "PKT",
+    "unit_price": 256.56,
+    "discount": 46537.06,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 6,
+    "unit": "PCS",
+    "unit_price": 417.99,
+    "discount": 47918.66,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Acrylic Enamel Paint 4",
+    "hsn_sac": "3208",
+    "quantity": 1,
+    "unit": "LTR",
+    "unit_price": 61234.84,
+    "discount": 57063.37,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "TSG 2",
+    "hsn_sac": "7214",
+    "quantity": 1,
+    "unit": "BOX",
+    "unit_price": 232.61,
+    "discount": 20648.4,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Brass Rod Bar 300 12mm",
+    "hsn_sac": "7210",
+    "quantity": 115,
+    "unit": "KG",
+    "unit_price": 22.76,
+    "discount": 13448.89,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Dosa Premis",
+    "hsn_sac": "1101",
+    "quantity": 9,
+    "unit": "NOS",
+    "unit_price": 52.79,
+    "discount": 26482.21,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cinnmoned 7/8 Adhesh Tape",
+    "hsn_sac": "3919",
+    "quantity": 2,
+    "unit": "PCS",
+    "unit_price": 83.33,
+    "discount": 67.49,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cab",
+    "hsn_sac": "8544",
+    "quantity": 80,
+    "unit": "MTR",
+    "unit_price": null,
+    "discount": 1576.98,
+    "taxable_value": null,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar 5 M",
+    "hsn_sac": "1701",
+    "quantity": 87.5,
+    "unit": "KG",
+    "unit_price": 47.49,
+    "discount": null,
+    "taxable_value": null,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1473426.28,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 1485223.46,
+  "amount_in_words": "Rupess Seven Lakh Eighty Five Thousand Two Hundred and Twenty"
+ },
+ "raw": "{\"invoice_number\":\"34/Sep-2025\",\"invoice_date\":\"2025-09-30\",\"seller_name\":\"Adheshife Enterprises\",\"seller_gstin\":\"21AHFPAT8679P1ZD\",\"seller_address\":\"Gala No. 186, Poojaya Indl. Estate, Sarul Naka, Bhiw 421302\",\"buyer_name\":\"Rao Industries\",\"buyer_gstin\":\"23CDGPKR7679F1Z8\",\"buyer_address\":\"Door No: 252, Ambether Industrial Estate, Gham Naka, Tanel Naka - 482002\",\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Lather Fruction Manl\",\"hsn_sac\":\"3401\",\"quantity\":2,\"unit\":\"PES\",\"unit_price\":1086,\"discount\":97.25,\"taxable_value\":2074.75,\"tax_rate\":18},{\"description\":\"Cotton Stroom Tubing 44 mil\",\"hsn_sac\":\"5208\",\"quantity\":223.317,\"unit\":\"MTR\",\"unit_price\":97.25,\"discount\":21716.54,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Maatcheck Water Pump HP\",\"hsn_sac\":\"4013\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5059.96,\"discount\":null,\"taxable_value\":5059.96,\"tax_rate\":18},{\"description\":\"Roofing Ting conrd RH\",\"hsn_sac\":\"9403\",\"quantity\":37,\"unit\":\"BOX\",\"unit_price\":82,\"discount\":21684.94,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Cement Baghole 50kg\",\"hsn_sac\":\"2523\",\"quantity\":205,\"unit\":\"PCS\",\"unit_price\":36.7,\"discount\":null,\"taxable_value\":11662.36,\"tax_rate\":18},{\"description\":\"Emite Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":3401,\"unit\":\"KG\",\"unit_price\":22.3,\"discount\":52.7,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"MS Hex Bolt with Nut M1\",\"hsn_sac\":\"7318\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":26591.75,\"discount\":152758.57,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Methylated Lime Pretas\",\"hsn_sac\":\"2814\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":22.8,\"discount\":1730.42,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Acrylie Sand Colloary Set\",\"hsn_sac\":\"3214\",\"quantity\":126,\"unit\":\"SET\",\"unit_price\":300,\"unit_price_2\":300,\"discount\":509.22,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":null,\"quantity\":10,\"unit\":\"BAG\",\"unit_price\":375.17,\"discount\":120676.96,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Comppoted Carton Box 5 Ply\",\"hsn_sac\":\"4819\",\"quantity\":397,\"unit\":\"NOS\",\"unit_price\":308.31,\"discount\":32213.46,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"MS Fabricated Cot\",\"hsn_sac\":\"7308\",\"quantity\":395.233,\"unit\":\"KGS\",\"unit_price\":370.47,\"discount\":8282.83,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Gigan CTC Tea Leaf\",\"hsn_sac\":\"0902\",\"quantity\":33.808,\"unit\":\"KGS\",\"unit_price\":342.83,\"discount\":14078.66,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Packing Bags\",\"hsn_sac\":\"3923\",\"quantity\":1716.94,\"unit\":\"NOS\",\"unit_price\":8,\"discount\":66050.28,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Lupoy Compond\",\"hsn_sac\":\"8479\",\"quantity\":1,\"unit\":\"PKT\",\"unit_price\":256.56,\"discount\":46537.06,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":6,\"unit\":\"PCS\",\"unit_price\":417.99,\"discount\":47918.66,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Acrylic Enamel Paint 4\",\"hsn_sac\":\"3208\",\"quantity\":1,\"unit\":\"LTR\",\"unit_price\":61234.84,\"discount\":57063.37,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"TSG 2\",\"hsn_sac\":\"7214\",\"quantity\":1,\"unit\":\"BOX\",\"unit_price\":232.61,\"discount\":20648.40,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Brass Rod Bar 300 12mm\",\"hsn_sac\":\"7210\",\"quantity\":115,\"unit\":\"KG\",\"unit_price\":22.76,\"discount\":13448.89,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Instant Dosa Premis\",\"hsn_sac\":\"1101\",\"quantity\":9,\"unit\":\"NOS\",\"unit_price\":52.79,\"discount\":26482.21,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Cinnmoned 7/8 Adhesh Tape\",\"hsn_sac\":\"3919\",\"quantity\":2,\"unit\":\"PCS\",\"unit_price\":83.33,\"discount\":67.49,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cab\",\"hsn_sac\":\"8544\",\"quantity\":80,\"unit\":\"MTR\",\"unit_price\":null,\"discount\":1576.98,\"taxable_value\":null,\"tax_rate\":18},{\"description\":\"Refined Sugar 5 M\",\"hsn_sac\":\"1701\",\"quantity\":87.5,\"unit\":\"KG\",\"unit_price\":47.49,\"discount\":null,\"taxable_value\":null,\"tax_rate\":18}],\"total_taxable_value\":1473426.28,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":1485223.46,\"amount_in_words\":\"Rupess Seven Lakh Eighty Five Thousand Two Hundred and Twenty\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2318,
+ "output_tokens": 1418,
+ "cached_input_tokens": 0,
+ "latency_s": 51.2432,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

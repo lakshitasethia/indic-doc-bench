@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00007__L2_photo",
+ "doc_id": "lng00007",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-12-19",
+  "seller_name": "Chauhan Solutions Limited",
+  "seller_gstin": "19DPAPC4707R8ZC",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "29DYSCR5756L1ZV",
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chauhan Solutions Limited\n\nWest Bengal - 713769 Powe Date 19/12/2025\nsiew\u00e9tantes / GSTIN: 19DPAPC4707R8ZC agra eet / Terms 15 Days\n\nwn / Buyer: Rao Infratech\n\nGSTIN: 29DYSCR5756L1ZV | snuff zens / Place of Supply: Karnataka\neee\n\nDescription Taxable\n\n[1 |smarhone ccarzacs \u2014\u2014\u2014\u2014\u2018[ast7| 10s] 408049) 0804s] 18 | Taenoo\n2 [Pvc insulated Copper cable 2ssamm| saa] \u00ab60635 mre] 74] ssssiol ve | soars\n[3 [Basmati nice roken5%) 106] 5926005] _ ca00] ae0meo] 5 | vw0r49\n[soit Soap 00g aon varnrcs| siz] ass0smn| v6 | 20070\n[5 |matitunction aserPiner sa] NOs] 162420] 836940] 16 [1960605\n[\u00e9 [HOPE Packing Bass ____\u2014_\u2014+|923] zvarzxcs| 1510535645955] v6 | osza72\nFafeucse seus 2009 [sos] raox| sin] _ramor| v0] _ar95\n9 | Foam Mattress 72x36\neS See eee\nfalotice workstation Table |o40s] st nos|_820| 5800420] 16 [aso\nfs|refined sugars30\u2014\u2014\u2014|ror] asaaxes| 4620] tevarel s | e224\nfe}cotion Woven Fabri ae inch [5206] 73626 wre] _raas|zseez025] 5 | way\nr7fassam creTeateat_____[osaa| 2s0esxcs| _z1sre] seso| s | 20809\nfeltapop omputerisisce __[eari] 1 nos] steieas|ste6as| 1 [050500\nfg|Parecetamati soma ablets [3004] ssp0x) 2205] aman] r2| 24\nali tee sar Fes00 nm [724] 000 Tow|ssreese) _szi2s 18|v3825\nza|msHexeotewin Nutra ___|Tat8| \u2014_sr10 nos] a0] 1999520] 10 | 299075\nae stainless Steet caeryset____[az1s| __s0set]_Toaar| a822380| 10 | e302\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.4782,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1329,
+  "gstins_found": 2
+ }
+}

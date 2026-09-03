@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00006__L2_photo",
+ "doc_id": "lng00006",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "| Banerjee Infratech uxwwore",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "38818.23",
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "| Banerjee Infratech uxwwore\nGala No, 91, Kalbadew Road, Ghaziabad, Uttar Pradesh-230925 De o7/ozeas |\n\u2018GSTIN: 08JBHFBO994L7ZJ | State: Uttar Pradesh (09) RCM:N |\nTo: Menon Traders LLP, Door No. 439, GIDC Estate, Lucknow, Uttar Pradesh-243469 | GSTIN: O9XOEFM6352M3ZC | POS: 09-Uttar Pradesh |\n1 |Synthetic Enamel Paint 4L _|3208| 10.192) LTR | oat) | (6974.90 18) 627.74) 62774696038\n2 |OPC $3.Grade Cement 50kg |2523) 1/BAG| _406:82) 89.50) _4386.562/28) 613.97| 613.97/ 5613.46\n5 |Office Workstation Table __|9403) 1 NOS |10885.96/. _-| 10885.96 18. 979.74) 979.74) 12845.44\n4 |Glucose Biscuits 200g [1905] \"3/BOx] 24741] ~~] 742.23/18) 66.80| 66.80) _ 875.83\n5 [Cotton Woven Fabric 44 inch _/5208| 10.218/MTR| 208.25)212.79| 1915.11/ 5 | 47.88) 47.88] 2010.87\nSf Te 65 s_ ___|4011/ ___9|NOS| $491.26) | 49421.34 28 6918.99 6918.99 63259.32\n1 Basmati Roe (Broken 5%) | 1006] 45.304]KGS| 10695) -|4845.26| \u00a7| 121.13) 124.43) . 5087.52\n|8 |TMT Steel Bar Fe-500 12mm 17214] 0.100/ TON /56995.31/ =| 5699.53) 18) 512.96) 512.96, 6725.45\n| [Detergent Powder thg 3402) 189] PCs| 152.80] -| 28879.20|18|2509.13|2509.13| 34077 46\n/10 Toilet Soap 100g [3401 180/ PCS 40.19] _-| _7234.20|18| 651.08 | 651.08) 8596.36\n|11|Leather Formal Shoes 6403) OVERS | 1520.26 =-| 24477.78 | 18] 2203.00 |2203,00) 28883.76\n12|Monoblock Water Pump 1HP_ 8413] __4|NOS|_ 4306.58] Sl 17222.32 |18 | 1550.01 | 1550.01) 2032.34.\n|13 | Corugated Carton Box 5-Ply 4819 158)NOS| 41.85] ___-| . 6612.30|18| 695.11] 595.11/ 7802.52\n|14 /Stainless Steel Cutlery Set__/8215| | SET) 08-11) 45.45] _2226.99/18) 200.43) 200.43] 2627.85\n15 | Instant Drink Premix [2106] 3/PCS| 177.13 \"=| 53.39/18) 47.83 47.83) 627.05\n16 Paracetamol IP 650mg Tablets |3004) 1751|BOX| 53.11) _*| 92995.64 |12|5579.74|5579.74/104155.09\nMS Fabricated Structure 7308| 64.738) KGS| 135.71 1175.71| 8609.88 | 18 774.89| 774.89| 10159.66)\na ee 4820 61|Nos| 106.7) -| 6514.19 18) 586 28 586.28) 7686.75\nMS Hex Bolt with NutM12__|7318| _4324/NOS} 15.68) - \" 67800.32| 18 |6102.03 610203 8004.38)\n'20 | Cotton Round Neck T-Shirt |6109/ _450/PCS| 336.02) _-1151209.00/ 5 (3780.23 3780.23 | 158769.46.\n121 HDPE Packing Bags 6.871/KGS| 184.85] =| 1270.10/18) 114.31] 114.311 1498.72\n'22| Smartphone 6GB/128GB (8517| _1/NOS/30703.07) __-| 30703.07 |18 2763.28 |2763.28| 6229.63\n(23 Assam CTC Tea Leaf 10902|155.852/KGS| 354.61 -|_55266.68) 5 | 1381.67 |1381.67| 58030.02\nTaxable cen 586422:86\nCGST 38818.23\niscst | 38818.23\n[RO] 0.32\nNET | 664059,00\nRs. in words: Rupees Six Lakh Soy Four Thousand Fifty Nine Only\nFor Banerjee Intratech\n\u2018Auth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.4948,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2582,
+  "gstins_found": 0
+ }
+}

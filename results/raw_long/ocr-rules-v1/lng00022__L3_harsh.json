@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00022__L3_harsh",
+ "doc_id": "lng00022",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": ": \u201cre ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": ": \u201cre ee\nPERE tee oe NTE Rene - sey, Dt PR\nae =e\nFenaeyee\njp Shee Sai ?\nGn $3 \u00a5 r\n3 Gente aa a; ey \u2018 Jat\nSait SiS\n4 | Stee gen aie ae te\npfitaier tay / 2402 Sy $2096). 2008 oa! sy .\na homme] tes * 4\n| Cottue\n\u00a36 | Wewen Patme howe Of O65 were 183 Ae \u2018 \u2018\n[items 4\nChee\nfd tape j\nq Tove\n* | pever Cate #54 ,\nfeaeaee |\n# liens Oe 401 sos 66 216098.71/ 2\n| Yeectees 7 ;\niin Tee tees! mx be \u201caq \u00b0 \u201c\nMN paining Bags | 292 :\nPo Sagar B- f\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7401,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 431,
+  "gstins_found": 0
+ }
+}

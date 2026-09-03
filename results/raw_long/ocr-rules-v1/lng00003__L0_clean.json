@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00003__L0_clean",
+ "doc_id": "lng00003",
+ "level": "L0_clean",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "Ahluwalia",
+  "invoice_date": "2025-05-20",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE eo i",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE eo i\n\nNoT GENERATED noneeaany\n\nAck No. / Ack Date san nt a i\u201d\n\n10000712733757 / 2025-05-20 \u2018ete\n\nSupplier Recipient Document No.\n\nAhluwalia Distributors Gupta Traders INV/25-26/4941\n\nPlot No. 69, Peenya 2nd Stage, Noida, Uttar Gala No. 178, Industrial Estate, Agra, Uttar Document Date\n\nPradesh 241846 Pradesh 262149 2025-05-20\n\nGSTIN GSTIN Place of Supply\n\nO9HOZFA2730M8ZO O9AMDCG6104E4Z6 09 - Uttar Pradesh\n\nNs Charge\n\n[Si | Item Description | HSN | Qty | UQc | UnitPrice | Discount | TaxableAmt |Rate| CGsTAmt | sGsTAmt | Total |\nRefined\n\n1 [Refined 1701 834.516 KGS 44.44| 741.72 3634.17 5 | 908.60 908.60} 38161.37\nAssam CTC\n\n2 [Assam CTC og09 1.571 KGS| 374.81, 588.83 5. 14.72) 14.72; 618.27\nTMT Steel\n\n3 |Bar Fe-500 |7214 0.184| TON |58080.47 10686.81) 18 961.81 961.81} 12610.43\n12mm\nCotton\n\n4 | Woven 5208| 39.928/MTR| 192.59 7689.73} 5 | 192.24) 192.24) 8074.21\nFabric 44 , , , , , ,\ninch\nLeather\n\n5 |Formal 6403 19}PRS| 1941.13 36881.47|18/] 3319.33) 3319.33) 43520.13\nShoes\nBasmati\nRice (Broken |1006)200.005|KGS 111.87 22374.56| 5 559.36 559.36} 23493.28\n5%)\nHard Bound\n\n7 |Register 200 |4820 221|NOS 75.36 16654.56/18} 1498.91} 1498.91} 19652.38\nPages\n\na [Tolle Soap 3401, 17/PCS| 59.67, 1014.39 18| 91.30 91.30] 1196.99\nSynthetic\nEnamel 3208 6.326) LTR 453.75 2870.42) 18 258.34 258.34 3387.10\nPaint 4L\nHDPE\n\n10| Packing 3923| 88.325|KGS 151.90/1341.66|} 12074.91|}18} 1086.74} 1086.74) 14248.39\nBags\nSmartphone\n\n11/Smartphons 8517) 1, NOS/37328.81 3732.88 33595.93 18| 3023.63| 3023.63} 39643.19\nOffice\n\n12|}Workstation |9403 1|NOS|16354.87 16354.87/18| 1471.94) 1471.94} 19298.75\nTable\nFoam\n\n13|Mattress 9404 1|NOS| 9236.99 9236.99/ 18 831.33 831.33} 10899.65\n72X36\nMS Hex Bolt\n\n14| with Nut 7318 1151/NOS 26.18] 602.66} 29530.52|18| 2657.75) 2657.75| 34846.02\nM12\nOPC 53\nGrade\n\n15 Cement 2523 10| BAG 378.78 3787.80) 28 530.29 530.29 4848.38\n50kg\nLaptop\n\n16|Computer i5 |8471 1|NOS|53486.82 53486.82|/18| 4813.81! 4813.81) 63114.44\n16GB\n\n17|MS 7308|316.200|KGS 139.58} 882.70) 43252.50/18| 3892.73] 3892.73} 51037.96\nFabricated\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.7163,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2071,
+  "gstins_found": 0
+ }
+}

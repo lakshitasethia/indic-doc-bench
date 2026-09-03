@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00006__L0_clean",
+ "doc_id": "lng00006",
+ "level": "L0_clean",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-10-07",
+  "seller_name": "Gala No. 91, Kalbadevi Road, Ghaziabad, Uttar Pradesh-239925 Dt: 07/10/2025",
+  "seller_gstin": "09JBHFB0994L7Z4",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Gala No. 91, Kalbadevi Road, Ghaziabad, Uttar Pradesh-239925 Dt: 07/10/2025\nGSTIN: 09JBHFB0994L7Z4 | State: Uttar Pradesh (09) RCM: N\n1 |Synthetic Enamel Paint4L 3208] 10.192| LTR | 684.35, -|_ 6974.90 18) 627.74] 627.74| 8230.38\n5613.46\n3 |Office Workstation Table 9403} 1|NOS/10885.96) _-|_ 1885.96 18) 979.74] 979.74) 12845.44\n4 |Glucose Biscuits 200g | 1905|_3|BOX| 247.41) -|_\u2014742.23/18/ 66.80] 66.80, 875.83\n2010.87\n6 |Radial Tyre 195/65R15 | 4011|_\u2014\u2014 9 |NOS| 5491.26) -|_ 4942.34 /28 6918.99/6918.99/ 63259.32\n7 |Basmati Rice (Broken 5%) | 1006| 45.304|KGS| 106.95) -|_ 4845.26 5 | 121.13] 121.13| 5087.52\n8 | TMT Steel Bar Fe-500 12mm [7214] 0.100| TON |56995.31,-|_ 5699.53 /18/ 512.96] 512.96] 6725.45\n9 |Detergent Powder tkg \u20143402| 189] PCS| 152.80, -|_28879.20 18 2599.13 |2599.13| 3407.46\n10|Toilet Soap 100g 3401| \u2014 180|PCS| 40.19) -|_7234.20/18) 651.08) 651.08| 8536.36\n\u201811 |Leather Formal Shoes _\u2014\u20146403|_\u2014\u201416|PRS| 1529.86) -|_24477.76 | 18|2203.00|2203.00| 2883.76\n12|Monoblock Water Pump 1HP__(8413|_4|NOS| 4305.58) -|_ 17222.32 18 1550.01] 1550.01/ 2032.34\n13| Corrugated Carton Box 5-Ply |4819| 158|NOS| 41.85, -|_ 6612.30/18/ 595.11] 595.11/ 7802.52\n2627.85\n15|Instant Drink Premix 2106] 3|PCS| 177.13) -|_\u2014_531.39/18) 47.83] 47.83 627.05\n16| Paracetamol IP 650mg Tablets |3004| 1751|BOX| 53.11, -|_ 92995.61 | 12/5579.74|5579.74 | 104155.09\n10159.66\nwien | its won) | wa) a\n19|MS Hex Bolt with NutM12___|7318|_4324|NOS| 15.68) __\u2014_-|_ 67800.32 18 6102.03 |6102.03/ 80004.38\n20|Cotton Round Neck T-Shirt 6109|__ 450/PCS| 336.02) _-| 151209.00 5 |3780.23|3780.23 | 158769.46\n21|HDPE PackingBags | 3923| 6.871|KGS| 184.85) -|_ 1270.10/18/ 114.31] 114.31| 1498.72\n22|Smartphone 6GB/128GB__\u2014\u2014(8517|_\u2014\u20141|NOS/30703.07)__-|_30703.07 | 18|2763.28|2763.28| 36229.63\n23|/AssamCTCTeaLleaf_ 0902 155.852|KGS| 354.61) -|_ 5266.68 5 | 1381.67) 1381.67, 58030.02\n586422.86\n38818.23\n38818.23\n0.32\n664059.00\n\nRs. in words: Rupees Six Lakh Sixty Four Thousand Fifty Nine Only\nFor Banerjee Infratech\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.2955,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2013,
+  "gstins_found": 1
+ }
+}

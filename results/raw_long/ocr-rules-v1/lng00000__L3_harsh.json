@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00000__L3_harsh",
+ "doc_id": "lng00000",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "t= angers",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "t= angers\n\\oon re tat |\u00bb \u2014a | :\n| care ded ba aE oie }\n= ps See eee ts ao een ey ae eee a\n\u2018ions Fae ait | rita \"f at el re\nscence wines Pena 14 Jucnt e ge eT\n+ lee Boer 7 -) jeer) = 3 =e\nacorn et ie ee) eS ae ae)\n+ aceite meme {an | mee oa a\nselon na oe (eet ey es wines\nfame armen EY at ee oe ies\ngi Ter] wagpamy e canoe mente 1)\na ee SS wa Fiera eo\nvTap comnts Tel. ~ fuente Tt Gens |\nas Sean ak St sat mesh pom ew a\nBre ea es ial ee at wae ee\nen ) hanes Bet ON it aa\neee Sof ae =f a ae ee\nowen, a PH (atest ee eet ee\npat ee ||| ant een Sone. :\nSee en \" Se 7 ee\nnomena erent 5\n\u2014\u2014 = a\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.2315,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 586,
+  "gstins_found": 0
+ }
+}

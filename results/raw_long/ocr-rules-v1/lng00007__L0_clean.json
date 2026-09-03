@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00007__L0_clean",
+ "doc_id": "lng00007",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "0039",
+  "invoice_date": "2025-12-19",
+  "seller_name": "Chauhan Solutions Limited .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chauhan Solutions Limited .\n\nGala No. 103, Ambattur Industrial Estate, Howrah ase. / Invoice No. 0039\n\nWest Bengal - 713769 frie / Date 19/12/2025\n\nxat / Buyer: Rao Infratech\n\nKhasra No. 226, SIDCO Complex, Bengaluru, Karnataka - 568997\nfewest |e | me ||\nfa[HOPE Pacing Begs ___\u2014_\u2014+( 928] zaTI2Ks| 110530045955) 18 [ 052272\nPe [cicose seus 2009 \u2014\u2014\u2014~+(s0s| 80x] _sstri|_zaas7] 18] ames\n[3 [Foam atwess7ace oa] __1Nos| 755776] \u2014TieoaT| 18 teense\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8122,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 444,
+  "gstins_found": 0
+ }
+}

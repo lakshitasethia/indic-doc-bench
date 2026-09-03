@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00004__L2_photo",
+ "doc_id": "lng00004",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/7057",
+  "invoice_date": "2025-07-09",
+  "seller_name": "Chowdhury Steel & Alloys [ORIGINAL FOR RECIPIENT",
+  "seller_gstin": "23ICZPC9993X8ZI",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "23UJKPB6746W6ZQ",
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chowdhury Steel & Alloys [ORIGINAL FOR RECIPIENT\nGala No. 198, MIDC Phase II, Bhopal, Madhya Pradesh - 458050 invoice No 2025-26/7057\nGSTIN 23ICZPC9993X8ZI Stat\u00e9 Code 23 Invoice Date 09-07-2025\nTerms 45 Days\n\nBhatt Overseas Pvt. Ltd. Bhatt Overseas Pvt. Ltd.\n\nPlot No. 464, GIDC Estate, Indore, Madhya Pradesh - 455549 Plot No. 464, GIDC Estate, Indore\n\nGSTIN 23UJKPB6746W6ZQ - Place of Supply Madhya Pradesh (23) Reverse Charge: No\n\n[#] Description of Goods! Services : [_HsN [aw] vom [Rate [Disc [Taxable [osT%| cost [ScsT__\u2014|_. Line Total\n261065 32\nOS St FO Re Ee 152632.73\neet es een \u2014_ | eee 379.37| 15933.35\nSo ete erase seven \u2014_fooeaes|]nca|_aacenen| \u2014\u2014\u20141asonna| 19 teonaal_samsee| site\n0 Se ee Be 9482.22\n| 6 |Commercial Training and Coaching Services 22271.34\n[7 | Road Transport Services of Goods ee eg eee ee 10756532\n[8 | information Technology Consulting Services _|998313| 1/NOS| 1404.50 | _1404.50| 18 | 4626.41] 4626.41) 6065732\n0 Se el es eee 7456415\n/10| information Technology Consulting Services |998313| 1|NOS| 2173123, | 21731.23] 18 | 1958.81) 1955.61] 25642.85\n|11/Rental Services of Commercial Property \u2014_|997212| 1|NOS| 129654.06| | 129654.06) 18 | 11668.87| 11668.87| 152991.80\n|12| Rental Services of Commercial Property ___|997212| 1|NOS| 6611696] | 66116.96| 18 | 5950.53/ 5950.53/ _78018.02\n13 | Other Professional and Technical Services __| 998399 1/NOS| _29719.90 |_29719.90| 18 | 2674.79| 2674.79] 35069.48\nees a enrtrae cares \u2014\u2014|ooemo|-t|hos |torsenr| | wees 59635.91\n[15] information Technology Consulting Services | 996313| 4|NOS| 5393.67) 11078.73| 21049595) 18 | 18944,64] 18044.64| 248386.23\n[16 | Commercial Training and Coaching Services _|999283| 1|NOS| 2249005, ___| 2490.05] 18 | 2024.10| 2024.10] 26698.25\n[17 [Other Professional and Technical Services |908399| 1/NOS| 21831.00| 2183.10] 19647.90| 18 | 1768.31| 1768.31] 2314.52\n|18 |Repair Services of Computers and Peripherals_| 998721] 1|NOS| 5919.88) | 5919.88| 18 | 532.79| 532.79] 6985.46\nee eereeei rent, ourea| ilps toosonzt| | soosnezt| te [soon posse 118467.53\n|20 | Other Professional and Technical Services __| 998399| 3/NOS| 84710.02| | 254130.06| 18 | 2871.71] 22871.71| 299873.48\n|21/Rental Services of Commercial Property _\u2018|997212| 2/NOS| 6824.23! | 136448.46] 18 | 12280.36] 12280.36| 161009.18\nCommercial Training and Coaching Services __|999293| 1/NOS| _8630.42| | __8630.42/ 18 | 776.74 _776.74|  10183.90\nee eee ere es eee 203252.48\n'24 Other Professional and Technical Services | 998389| 1/NOS| 3360968] _670.19| 3260.49] 18 | 2985.55] 2966.55| 6750.59\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.3748,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2572,
+  "gstins_found": 2
+ }
+}

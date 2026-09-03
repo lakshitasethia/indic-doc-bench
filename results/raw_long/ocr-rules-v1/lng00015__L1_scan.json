@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00015__L1_scan",
+ "doc_id": "lng00015",
+ "level": "L1_scan",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-08",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE ristetn ns",
+  "seller_gstin": "21HIXPC1965P8ZA",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Odisha",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE ristetn ns\nor GENERATED Pea\nAck No. / Ack Date \u2018ne\n10000712828785 / 2026-01-08 a\nChowdhury Trading Co. LLP Chauhan Agencies Pvt. Ltd. TAX-B-1132\nDoor No. 61, Kalbadevi Road, Cuttack, Odisha Unit No. 10, SIDCO Complex, Bhubaneswar, Document Date\n758648 Odisha 759832 2026-01-08\nGSTIN GSTIN Place of Supply\n21HIXPC1965P8ZA URP 21 - Odisha\nReverse Charge\nN\n[a nen pescinton [REN [en] uae | onkpnee | piecsunt [Tambo ant [Rate] costame | Tsesrame (} 7 veri\nSynthetic\n1 |Enamel 3208; 3.030|LTR 563.79 1708.28/18 153.75 153.75| 2015.78\nPaint 4L\nHDPE\n2 |Packing 3923)139.154| KGS 132.53 18442.08/18| 1659.79| 1659.79| 21761.66\nBags\nGlucose\n3 | Biscuits 1905 BOX| 227.31 2045.79/18 184.12 184.12) 2414.03\n200g\nLeather\n4 |Formal 6403 3/PRS| 1895.67 5687.01/18 511.83} 511.83) 6710.67\nShoes\nTMT Steel\n5 |Bar Fe-500 |7214| 0.134|}TON|52695.14 7061.15/\\18 635.50| 635.50} 8332.15\n12mm\nCorrugated\nCarton Box |4819 34|NOS 32.48 1104.32/18 99.39 99.39 1303.10\n5-Ply\nHard Bound\n7 |Register 200 |4820 11/NOS 116.18 1277.98)| 18 115.02 115.02 1508.02\nPages\nCotton\neven 5208| 11.334/MTR| 174.07 1972.91] 5 49.321 49:32) 2071555\nFabric 44 : : : : ; :\ninch\nParacetamol\nIP 650mg 3004 9287|BOX 18.35 170416.45| 12|10224.99| 10224.99|190866.43\nTablets\nMultifunction\nso[\"utfunction|seas| _24|Nos| 16012.54| 7686.02 376614.94) 18|33895.34 33895.34|444405.62\nEe erate 3401, 605) PCS 45.05, 27255.25| 18 2452.97| 2452.97) 32161.19\nCotton\n12|Round Neck |6109 21) PCS 194.33 4080.93] 5 102.02 102.02} 4284.97\nT-Shirt\nMonoblock\n13|Water Pump |8413 49|NOS| 7729.18 378729.82| 18|34085.68| 34085.68/446901.18\n1HP\n7 PSU 1701| 75.735|KGS| 46.09 3490.63) 5 87.27| 87-270 3665 17\nSugar S-30 t : : : : ;\nLaptop\n15|Computer i5 |8471 2|/NOS|85272.39 170544.78)| 18|15349.03| 15349.03|201242.84\n16GB\nFoam\n16| Mattress 9404 1}NOS|11408.25 11408.25|18| 1026.74} 1026.74) 13461.73\n72x36\n17|Basmati 1006|594.038|KGS 98.15 -|- 58304.83| 5 | 1457.62] 1457.62) 61220.07\nRice (Broken\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.6165,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1959,
+  "gstins_found": 1
+ }
+}

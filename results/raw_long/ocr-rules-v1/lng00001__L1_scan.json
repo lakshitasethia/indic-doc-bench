@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00001__L1_scan",
+ "doc_id": "lng00001",
+ "level": "L1_scan",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-11-15",
+  "seller_name": "TAX INVOICE Trivedi Polymers",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Trivedi Polymers\nShop No. 416, Ring Road\nT1/25-26/7562 Jaipur - Rajasthan 341455\nINVOICE DATE  GSTNO. PLACE OF SUPPLY | REVERSE CHARGE\n15/11/2025 O8UFVPT9734P6ZA \u2014_ Rajasthan (08) No\nBILL TO SHIP TO\nAgarwal Engineering Works Agarwal Engineering Works\nUnit No. 45, Ring Road, Udaipur, Rajasthan - 332695 Unit No. 45, Ring Road, Udaipur, Rajasthan - 332695\nOBEBECA34620971\n# Item & Description HSN/SAC Qty Rate Amount\n1 TMT Steel Bar Fe-500 12mm 7214 ory 53039.60 5303.96\n2. Office Workstation Table 9403 4NOS 8849.34 35397736\n3. Cotton Round Neck T-Shirt 6109 42 PGs 291-75 12258 50\n4 Glucose Biscuits 200g 1905 16 BOX 253.48 4055.68\n5 Hard Bound Register 200 Pages 4820 15 NOS 104.70 1570.50\n6 Smartphone 6GB/128GB 8517 11 NOS 22404.39 246448.29\n: H Gaal\n7 \u2014 Synthetic Enamel Paint 4L 3208 ITR 391.32 20467:96\n8 Radial Tyre 195/65 R15 4011 13NOS 7283.29 = 940327\n9 HDPE Packing Bags ao23 1b dy Bedi\n10 OPC 53 Grade Cement 50kg 2528 3 BAG 404.67 1214.01\n11 Cotton Woven Fabric 44 inch 5208 es igs\n1.460\n12 Assam CTC Tea Leaf 0902 KGS 384.03 504.61\n13 Leather Formal Shoes 6403 (PRS 1719-70 12037.90\n14 Paracetamol IP 650mg Tablets 3004 ay 62.44 31469.76\n15 Detergent Powder 1kg 3402 54 PCS 165.56 8940.24\n16 Laptop Computer i5 16GB 8471 1 NOS 7630502 76305.02\n17 Stainless Steel Cutlery Set 8215 84 SET 242.32 . 20354.88\n18 Refined Sugar $-30 1701 38 Sed genie\n49 PVC Insulated Copper Cable 2.5sqmm as4q SOG R77 = 88.88 2668245\n20 Multifunction Laser Printer 8443 13NOS. 20089.66 261165.58\n21 MS Hex Bolt with Nut M12 7318 42 NOS 33.68 1414.56\n22 Corrugated Carton Box 5-Ply 4819 36 NOS 75.60 2721.60\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.3739,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1612,
+  "gstins_found": 0
+ }
+}

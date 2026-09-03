@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00022__L1_scan",
+ "doc_id": "lng00022",
+ "level": "L1_scan",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "SUPPLIER NAME INVOICE NUMBER INVOICE DATE\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE/CODE\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\nShop No. 45, GIDC Estate, Ludhiana, Punjab - 149186 NO 15 Days\ned ee\nHard Bound\n1 |Register 200 | 4820 937|NOS 57.53| 53905.61/18| 4851.50 4851.50\nPages\nLeather\n2 | Formal 6403 3|PRS| 1635.70 4907.10|18 441.64 441.64 |\nShoes\nOPC 53\n3 |Grade 2525 3| BAG 384.97 1154.91] 28 161.69 161.69\nCement 50kg\nDetergent\neee ikg 3402 121.96 2805.08) 18| 252.46 252.46.\nGlucose |\nCotton\nWoven Fabric | 5208 | 1104.065|MTR 152.56|168436.16| 5 | 4210.90} 4210.90\n44 inch\nOffice\n7 |Workstation | 9403 2|NOS/12558.79| 25117.58/18] 2260.58] 2260.58\nTable\nPVC |\nInsulated |\nCopper Cable 8544 12.280|MTR 55.00 675.40] 18 60.79 60.79\n2.5sqmm |\nRadial Tyre | agii 31/nos| 7757.66|216438.71| 28 | 30301.42|30301.42.\n195/65 R15 : : : :\nro ee Sear Ao 46.78 36722.30| 18 3305.01| 3305.01\nCotton |\n11]Round Neck | 6109 1045} PCS 340.96] 356303.20| 5 | 8907.58] 8907.58\nT-Shirt |\nCorrugated |\n12| Carton Box 4819 112|NOS 49.78 5575.36/ 18 501.78 501.78\n5-Ply |\n13 wee 3923 7.140| KGS 132.47 945.84] 18 85.13 5.1 |\nPacking Bags j : : ; 85. 2)\nRefined\na ete S-30 1701 39.316|KGS 40.10 1576.57| 5 39.41 32.41,\nLaptop |\n15|Computer i5 | 8471 1|NOS|54857.12|] 54857.12|18] 4937.14| 4937.14\n16GB\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.7948,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1293,
+  "gstins_found": 0
+ }
+}

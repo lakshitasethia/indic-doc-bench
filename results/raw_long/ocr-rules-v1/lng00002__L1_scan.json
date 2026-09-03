@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00002__L1_scan",
+ "doc_id": "lng00002",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-03",
+  "seller_name": "MAHAJAN & SONS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1228156.20",
+  "cgst_amount": "94893.47",
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "MAHAJAN & SONS\nPlot No. 443, Udyog Vihar, Jodhpur - 311328 (Rajasthan)\n\nGSTIN : O8JPGPM3692Z9Z2 State Code : 08\nSS \u2014\nTAX INVOICE\nM/s. Iyer Traders Limited Bill No. : KA9059\nKhasra No. 378, Okhla Phase I Date : 03.07.2025\nUdaipur - 337628 RCM... NO\n\nGSTIN : O8RWZPI8094R7ZD\nPlace of Supply : 08-Rajasthan\nFe\n1 [eve Insulated Copper Cable 2.5sqmm eee can 42.37 168561 . 71\n| 2 [Toilet Soap 100g 2011 bee 57.29| Tisoto ene\n| 3 [Office Workstation Table 8 NOS| 8632.45 69061.04\n| 4 | Laptop Computer i5 16GB 81413.19 g1413, 1g)\n| 5 | Foam Mattress 72x36 6907.47 6907. 47\n5.565 |\nSynthetic Enamel Paint 4L a 585.75 3096.71 |\n| 7 [cotton Woven Fabric 44 inch ee 180.33 D537 O04\nHDPE Packing Bags ae 164. 0h 1544.08\nKes\n| 9 |Radial Tyre 195/65 R15 11 NOS| 5205200 57255.00\n| 10 [Hard Bound Register 200 Pages 20\u00b0 NOS 93.48 1682 .G4)\n| 11 [Cotton Round Neck T-Shirt Gee Fee 372.70) 2a oar wo\n| 12 [Ms Hex Bolt with Nut M12 505 NOS 40.85 DOING 66\n| 13 [Detergent Powder 1kg 1019 Pee 119.83] Weeiee\n| 14 |Leather Formal Shoes 1288.06 1288.06,\n| 15 [Monoblock Water Pump 1HP 33 NOS| 5352.27) [l7eo2) om\n| 17 | Paracetamol IP 650mg Tablets OS > 1 I T1665 3S\n18 |Resined Sugar S-30 = A2 755 1961 30\n19 |pasmati Rice (Broken 5%) ee 139.0) 2343.47\n| 20 |Glucose Biscuits 200g 473.58 43095.78.\n| 21 |OPC 53 Grade Cement 50kg 408.70 817.40]\n| 22 |Corrugated Carton Box 5-Ply 769 NOS 39\u00b022 28659.48\n23 |e Steel Bar Fe-500 12mm ae 60762.99 17742 7\nSmartphone 6GB/128GB 26135 46 26138.45\n8. 528\n25 |MS Fabricated Structure KGS ii. 7 OZR 2 0\nTOTAL | 1228156.20.\nTaxable Value 1228156.20\nese rsa eee Add: CGST 94893.47\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.2506,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1597,
+  "gstins_found": 0
+ }
+}

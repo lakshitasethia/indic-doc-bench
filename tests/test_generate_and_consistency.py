@@ -47,3 +47,32 @@ def test_corrupted_output_is_detected_without_ground_truth():
     j = to_json_safe(rec)
     j["seller_gstin"] = j["seller_gstin"][:-1] + ("A" if j["seller_gstin"][-1] != "A" else "B")
     assert consistency_score(j) < 1.0
+
+
+def test_force_line_count_overrides_the_natural_distribution():
+    """The long-table probe (METHODOLOGY 8b) depends on this override."""
+    from idb.generate import generate_invoice
+    for n in (1, 23, 28):
+        rec, _ = generate_invoice(90001, "t01", force_line_count=n)
+        assert len(rec["line_items"]) == n
+
+
+def test_forced_documents_still_reconcile_arithmetically():
+    """A probe corpus whose tax maths did not add up would measure nothing:
+    every model would 'fail' on ground truth that was itself wrong."""
+    from idb.consistency import consistency_score
+    from idb.generate import generate_invoice, to_json_safe
+    for seed in range(90000, 90008):
+        rec, _ = generate_invoice(seed, "t01", force_line_count=25)
+        assert consistency_score(to_json_safe(rec)) == 1.0
+
+
+def test_forcing_length_changes_only_the_length():
+    """The override must not perturb the rest of the document, or long and
+    short corpora would differ in more ways than the one under test."""
+    from idb.generate import generate_invoice
+    base, _ = generate_invoice(90002, "t03")
+    forced, _ = generate_invoice(90002, "t03", force_line_count=25)
+    for field in ("seller_name", "buyer_name", "seller_gstin", "invoice_date",
+                  "place_of_supply", "invoice_number"):
+        assert base[field] == forced[field], field

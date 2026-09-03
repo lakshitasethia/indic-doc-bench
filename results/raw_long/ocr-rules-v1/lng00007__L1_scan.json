@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00007__L1_scan",
+ "doc_id": "lng00007",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Chauhan Solutions Limited :",
+  "seller_gstin": "19DPAPC4707R8ZC",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "West Bengal",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chauhan Solutions Limited :\n\nWest Bengal - 713769 i bee\nsitva\u00e9isn\u00e9es / GSTIN: 19DPAPC4707R8ZC egg cl) (cla tb Dave\n\nxa / Buyer: Rao Infratech\n\nKhasra No. 226, SIDCO Complex, Bengaluru, Karnataka - 568997\n\nA eee\n[6 [HOPE Packing Bogs ____\u2014_\u2014_\u2014(3023| sora Kas] 16105] 33848956] 1 [032272\nfe [oueoseascuts 2009 _\u2014\u2014*(is0s| 80x) sein] _zazisr| te | 795\n[2 [Foam atwessraae [sada] 1 nos] sre] _reosr| 78 | 125896\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.1648,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 407,
+  "gstins_found": 1
+ }
+}

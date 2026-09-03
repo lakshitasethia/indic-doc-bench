@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00016__L2_photo",
+ "doc_id": "lng00016",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/1",
+  "invoice_date": "2025-11-03",
+  "seller_name": "Rao Agencies Limited [ORIGINAL FOR RECIPIENT",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Rao Agencies Limited [ORIGINAL FOR RECIPIENT\nDoor No. 230, Ambattur Industrial Estate, Siliguri, West Bengal - 736316 Invoice No 2025-26/1 535\nGSTIN 49KJBPR3645\u00a52ZQ State.Code 19 Invoice Date 03-11-2025\nTerms Cash\nBilled To Shipped To\nChauhan Enterprises Chauhan Enterprises\nDoor No. 298, Ambattur Industrial Estate, Siliguri, West Bengal - 713392 Door No. 298, Ambattur Industrial Estate, Siliguri\nGSTIN Unregistered Place of Supply West Bengal (19) Reverse Charge: No:\nHe ston a ant siete [ven [a sa ror aerar| 0m\nLl saieae Water Pump 1HP_ | S418 Ei, MNOS) 964408) | 3644.06 | 18 |__327.97| 827,97 | S000)\n2 | Stainless Steel Cutlery Set 8215 | __3| SET | 247.17| | 74151 | 18 | aan 66.74 | 874.99\n[3 | Smartphone 6GB/128GB 9517, ____2| NOS. 3537.37 \"3538.74| _67236.00| 18 [ease] osu ze ae\ntn Og Low ~35|PCS| _~- 36.36 4272.60| 18 | __114.53 414.53 _ 1501.66\n[5 | Multifunction Laser Printer 4/NOS | 20608.52| 50608.52| 18 | _1854.77| 1894.77) 24318.06\n| 6 | Paracetamol IP 650mg Tablets apitBox| _64.98| _786.26| _7076.52| 12 7925.48\ni esntens Sg = Tous NOS [_ea20.70| | 78659.58| 18 | 1679.36| 1679.36 22018.30\nrremleerreto0 tam (7242558 siarss.02| 18 | 25360 169631 64\na eed Caron bors (S| EN en\nHa lMsFabicotedsmucure 08 |_ 88 rkes| 10758) | [ae [ 86.15] __06.t5| 112088\nFt | Glucose Biscuits 2009 Hreos[22[eox| 24876 | tae | ae2.se] 492.54] 6467.80\n42 [PVC Insulated Copper Cable 2.5sqmm rans ecseolame| oral | weoozal a | TS 4037.72| .13605.64\nHa [Assam CTC Tea Leaf ese eel mes | zazt| arom] sens] S| a 1929.03| 5581931\n14 | Racial Tyre 195/65 R15 a 78039 37\nalae \u2014\u2014 fae oP MaTao[ 16 [107.82] 10192] 139404\n16 [Laptop Computer i6 1668 erp [Nos | T7617 2|ea00.6| 79726.95 'gea6.27) _6696.27| \u201487008.89\n|17 | Cotton Woven Fabric 44 inch (5208 | 615.872| MTR | _163.90| | 94838.13| 5 |_2370.95| _2370.98| 99580.03\n| 18 | HDPE Packing Bags [3923| 947.909| KGS ; tzoael 121958.38 (46 | 10976.25| 10976.25| 143910.88\nHa[LesiherFormalShoos = A stones [cerss| | sora 18 | Te te 95943.20\n30] OPC 53 Grade Gement S0kg + 2828 760| BaG | 396.19) 75876.48\nee eee Pama seas 5016935\n[>| ard Bound Register 200 Pages | 48201 rnos| 95.16 ra.36{ 18 [179.85] _ 17085) _ 2368.06\nFes{MS Hex eon win Nuti2 7338 nos oat enna \u2014 se2| 18 | sexe 684.78\npismeenenene \u2014\u2014[o| raison 1m] 3617.58\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.4817,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2274,
+  "gstins_found": 0
+ }
+}

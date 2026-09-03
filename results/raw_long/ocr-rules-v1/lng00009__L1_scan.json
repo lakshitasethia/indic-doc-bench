@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00009__L1_scan",
+ "doc_id": "lng00009",
+ "level": "L1_scan",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "9940",
+  "invoice_date": "2026-02-20",
+  "seller_name": "A Agarwal Electricals",
+  "seller_gstin": "29FZHCA9872X6ZH",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "29WXQPV3995W8ZN",
+  "buyer_address": null,
+  "place_of_supply": "Karnataka",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "A Agarwal Electricals\nGala No. 40, Chandni Chowk, Mangaluru, Karnataka - 590672\nGSTIN: 29FZHCA9872X6ZH \u00ab\u00a9 State Code: 29\nes\nTAX INVOICE\nBill To :\nVerma Solutions Invoice No. 9940\nShop No. 293, Peenya 2nd Stage Date 20-Feb-2026\nBengaluru, Karnataka - 585124 Payment Terms 45 Days\nGSTIN: 29WXQPV3995W8ZN Reverse Charge No\nPlace of Supply: Karnataka\neS\n1 Cotton Woven Fabric 44 inch 5208 | 9.202 MTR 127,23 1170.77, 5% 58.54\n2 ie oe coe 4820 249 NOS 54.08 13465.92 18% 2423.86\n3 OPC 53 Grade Cement 50kg 2523 73 BAG 436.74 30287.92 28% 8480.62\n4 Foam Mattress 72x36 9404 1NOS| 7577.46 7577-46 18% 1363.94\n5 MS Fabricated Structure 7308 Bee 132.98 25927.78 18% 4667.00\n6 Instant Drink Premix 2106 315 PCS 227.71, 71728.65 18%  12911.16\n7 Cotton Round Neck T-Shirt 6109 264 PCS 188.36 49727.04 5% 2486.36\n8 Radial Tyre 195/65 R15 4011 4NOS 8040.28 32161.12 28% 9005.12\n9 Multifunction Laser Printer 8443 1NOS 15214.56 15214.56 18% 2738.62\n10 Monoblock Water Pump 1HP 8413 1NOS 6916.62 6778.29 18% 1220.10\n11 Assam CTC Tea Leaf 0902 Pe 247.12 49802.59 5% 2490.12\n12 Glucose Biscuits 200g | 1905 ; 40 BOX 274.00 10960.00 18% 1972.80\n13. Smartphone 6GB/ 128GB | 8517 2NOS 41016.13 82032.26 18% 14765.80\n14 Laptop Computer 15 16GB 8471 2NOS 72306.69 137382.71 18% 24728.88\n15 Refined Sugar S-30 1701 mes 43.19 62899.37 5% 3144.96\n16 Corrugated Carton Box 5-Ply 4819 3728 NOS 70.43 262563.04 18%  47261.34\n17 MS Hex Bolt with Nut M12 7318 123 NOS 32.65 4015.95 18% 722.88\nPVC Insulated Copper Cable ;\n18 2.5sqmm 8544 23.512 MTR 87.75 2063.18 | 18% 371.38\n19 Stainless Steel Cutlery Set 8215 11SET | 660.01 7260.11 18% 1306.82\n20 Leather Formal Shoes 6403 1PRS = 1929.94 1929.94 18% 347.38\n21 Synthetic Enamel Paint 4L 3208 26.582 LTR 641.70 17057.67 18% 3070.38\n22 Toilet Soap 100g 7 3401 4485 PCS 49.98 224160.30 18% 40348.86\n23 Office Workstation Table 9403 19 NOS 7241.23 137583.37 18% 24765.00\n24 Basmati Rice (Broken 5%) 1006 ~\u2014-: 111.868 KGS 75.15 847.29 5% 42.36\n: 427.092\n25 HDPE Packing Bags 3923 KGS 150.03  64076.61 18%  11533.78\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 3.77,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2031,
+  "gstins_found": 2
+ }
+}

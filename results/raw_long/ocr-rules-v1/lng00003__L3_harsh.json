@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00003__L3_harsh",
+ "doc_id": "lng00003",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "SS Som aera",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "SS Som aera\noe\noye ane ai\nFe 0 ae secon ge\neh ad Sesiunae,: agen ren rs, eee sage wean, ws\nee ome +\n12 Soe 2 ose ome aan oi BTM 7\nYet ee \u201c\ngee tetee (724 eyes ton seine ious\n \u2014\n=, 2 ae Pare _ \" <a\n> \u2014 a a yous pemen.ar is, OOP ass 4\nne aan vi aon a /\nEger tame\noe ee, ya caina.puve. vse, sonny) 1\nhd ~~ Oe ad vee oat .\nao ia, RE on ern ae \u20182 o\u201d \u00ae\nyore if\naos ee eT Sma wan ol\na. F\neee oe Seconrsne.ct 702? eal sarned, and,\n12 eae \u2014 5 ee 184 moe \u201cree 7\nee aoe sR nee * \u2018 =\n= me wee ane ee\n\u201css -\nve i ae cosa a eee oa\nBue ome incg re: pena, 0\u201d oan oe\nce Saale pe wae * \u201d\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.8082,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 569,
+  "gstins_found": 0
+ }
+}

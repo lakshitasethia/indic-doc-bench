@@ -1,0 +1,209 @@
+{
+ "variant_id": "lng00015__L3_harsh",
+ "doc_id": "lng00015",
+ "level": "L3_harsh",
+ "template_id": "t04",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "BHARATH WARE INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Synthetic Dyestuff Pigment AL (HCNS)",
+    "hsn_sac": null,
+    "quantity": 2100,
+    "unit": "KGS",
+    "unit_price": 303.76,
+    "discount": null,
+    "taxable_value": 637896,
+    "tax_rate": 18
+   },
+   {
+    "description": "Packing Bags",
+    "hsn_sac": null,
+    "quantity": 2022.134,
+    "unit": "KGS",
+    "unit_price": 132.52,
+    "discount": null,
+    "taxable_value": 306437.18,
+    "tax_rate": 18
+   },
+   {
+    "description": "Process & Solvents",
+    "hsn_sac": null,
+    "quantity": 2900,
+    "unit": null,
+    "unit_price": 827.27,
+    "discount": null,
+    "taxable_value": 2041.18,
+    "tax_rate": 18
+   },
+   {
+    "description": "Catalyst H2007",
+    "hsn_sac": null,
+    "quantity": 840,
+    "unit": "KGS",
+    "unit_price": 1805.62,
+    "discount": null,
+    "taxable_value": 5887.21,
+    "tax_rate": 18
+   },
+   {
+    "description": "Net Dyes 1 For Py 500 530m",
+    "hsn_sac": null,
+    "quantity": 7214,
+    "unit": "TONS",
+    "unit_price": 52805.14,
+    "discount": null,
+    "taxable_value": 3766.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 5-Ply 4x",
+    "hsn_sac": null,
+    "quantity": 1100,
+    "unit": "PCS",
+    "unit_price": 51.66,
+    "discount": null,
+    "taxable_value": 1305.08,
+    "tax_rate": 18
+   },
+   {
+    "description": "Hand Knotted Polypropylene 1Paper",
+    "hsn_sac": null,
+    "quantity": 4620,
+    "unit": "NOS",
+    "unit_price": 216.16,
+    "discount": null,
+    "taxable_value": 377.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Filler Cotton",
+    "hsn_sac": null,
+    "quantity": 1200,
+    "unit": "NOS",
+    "unit_price": 174.07,
+    "discount": null,
+    "taxable_value": 1972.97,
+    "tax_rate": 18
+   },
+   {
+    "description": "Paracetamol IP Micron Sedona",
+    "hsn_sac": null,
+    "quantity": 3000,
+    "unit": "BOX",
+    "unit_price": 59.25,
+    "discount": null,
+    "taxable_value": 170416.45,
+    "tax_rate": 18
+   },
+   {
+    "description": "Outer Carton Baby Crab Crik",
+    "hsn_sac": null,
+    "quantity": 8400,
+    "unit": "PCS",
+    "unit_price": 10012.64,
+    "discount": null,
+    "taxable_value": 234414.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "Round Neck T-Shirt Mamuton",
+    "hsn_sac": null,
+    "quantity": 4100,
+    "unit": "PCS",
+    "unit_price": 996.32,
+    "discount": null,
+    "taxable_value": 27205.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "Water Pump",
+    "hsn_sac": null,
+    "quantity": 6412,
+    "unit": null,
+    "unit_price": 7729.18,
+    "discount": null,
+    "taxable_value": 4005.63,
+    "tax_rate": 18
+   },
+   {
+    "description": "Roasted Sugar 0.50",
+    "hsn_sac": null,
+    "quantity": 1201,
+    "unit": "KGS",
+    "unit_price": 75.72,
+    "discount": null,
+    "taxable_value": 178726.82,
+    "tax_rate": 18
+   },
+   {
+    "description": "Computer IS 8471 2004",
+    "hsn_sac": null,
+    "quantity": 3905,
+    "unit": null,
+    "unit_price": 6523.26,
+    "discount": null,
+    "taxable_value": 3405.62,
+    "tax_rate": 18
+   },
+   {
+    "description": "Plasma TV80",
+    "hsn_sac": null,
+    "quantity": 5466,
+    "unit": null,
+    "unit_price": 0,
+    "discount": null,
+    "taxable_value": 170444.26,
+    "tax_rate": 18
+   },
+   {
+    "description": "Roasted Nuts D/C Dextro",
+    "hsn_sac": null,
+    "quantity": 4001,
+    "unit": "KGS",
+    "unit_price": 98.11,
+    "discount": null,
+    "taxable_value": 21490.26,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 58204.82,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": \"BHARATH WARE INVOICE\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": null, \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"line_items\": [{\"description\": \"Synthetic Dyestuff Pigment AL (HCNS)\", \"hsn_sac\": null, \"quantity\": 2100, \"unit\": \"KGS\", \"unit_price\": 303.76, \"discount\": null, \"taxable_value\": 637896, \"tax_rate\": 18}, {\"description\": \"Packing Bags\", \"hsn_sac\": null, \"quantity\": 2022.134, \"unit\": \"KGS\", \"unit_price\": 132.52, \"discount\": null, \"taxable_value\": 306437.18, \"tax_rate\": 18}, {\"description\": \"Process & Solvents\", \"hsn_sac\": null, \"quantity\": 2900, \"unit\": null, \"unit_price\": 827.27, \"discount\": null, \"taxable_value\": 2041.18, \"tax_rate\": 18}, {\"description\": \"Catalyst H2007\", \"hsn_sac\": null, \"quantity\": 840, \"unit\": \"KGS\", \"unit_price\": 1805.62, \"discount\": null, \"taxable_value\": 5887.21, \"tax_rate\": 18}, {\"description\": \"Net Dyes 1 For Py 500 530m\", \"hsn_sac\": null, \"quantity\": 7214, \"unit\": \"TONS\", \"unit_price\": 52805.14, \"discount\": null, \"taxable_value\": 3766.63, \"tax_rate\": 18}, {\"description\": \"Corrugated Carton Box 5-Ply 4x\", \"hsn_sac\": null, \"quantity\": 1100, \"unit\": \"PCS\", \"unit_price\": 51.66, \"discount\": null, \"taxable_value\": 1305.08, \"tax_rate\": 18}, {\"description\": \"Hand Knotted Polypropylene 1Paper\", \"hsn_sac\": null, \"quantity\": 4620, \"unit\": \"NOS\", \"unit_price\": 216.16, \"discount\": null, \"taxable_value\": 377.06, \"tax_rate\": 18}, {\"description\": \"Filler Cotton\", \"hsn_sac\": null, \"quantity\": 1200, \"unit\": \"NOS\", \"unit_price\": 174.07, \"discount\": null, \"taxable_value\": 1972.97, \"tax_rate\": 18}, {\"description\": \"Paracetamol IP Micron Sedona\", \"hsn_sac\": null, \"quantity\": 3000, \"unit\": \"BOX\", \"unit_price\": 59.25, \"discount\": null, \"taxable_value\": 170416.45, \"tax_rate\": 18}, {\"description\": \"Outer Carton Baby Crab Crik\", \"hsn_sac\": null, \"quantity\": 8400, \"unit\": \"PCS\", \"unit_price\": 10012.64, \"discount\": null, \"taxable_value\": 234414.36, \"tax_rate\": 18}, {\"description\": \"Round Neck T-Shirt Mamuton\", \"hsn_sac\": null, \"quantity\": 4100, \"unit\": \"PCS\", \"unit_price\": 996.32, \"discount\": null, \"taxable_value\": 27205.26, \"tax_rate\": 18}, {\"description\": \"Water Pump\", \"hsn_sac\": null, \"quantity\": 6412, \"unit\": null, \"unit_price\": 7729.18, \"discount\": null, \"taxable_value\": 4005.63, \"tax_rate\": 18}, {\"description\": \"Roasted Sugar 0.50\", \"hsn_sac\": null, \"quantity\": 1201, \"unit\": \"KGS\", \"unit_price\": 75.72, \"discount\": null, \"taxable_value\": 178726.82, \"tax_rate\": 18}, {\"description\": \"Computer IS 8471 2004\", \"hsn_sac\": null, \"quantity\": 3905, \"unit\": null, \"unit_price\": 6523.26, \"discount\": null, \"taxable_value\": 3405.62, \"tax_rate\": 18}, {\"description\": \"Plasma TV80\", \"hsn_sac\": null, \"quantity\": 5466, \"unit\": null, \"unit_price\": 0, \"discount\": null, \"taxable_value\": 170444.26, \"tax_rate\": 18}, {\"description\": \"Roasted Nuts D/C Dextro\", \"hsn_sac\": null, \"quantity\": 4001, \"unit\": \"KGS\", \"unit_price\": 98.11, \"discount\": null, \"taxable_value\": 21490.26, \"tax_rate\": 18}], \"total_taxable_value\": 58204.82, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": null, \"amount_in_words\": null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2232,
+ "output_tokens": 1181,
+ "cached_input_tokens": 0,
+ "latency_s": 13.368,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

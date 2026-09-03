@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00019__L2_photo",
+ "doc_id": "lng00019",
+ "level": "L2_photo",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-08-02",
+  "seller_name": "ke Phase II, Cuttack \u2014 =",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "ke Phase II, Cuttack \u2014 =\nOdishs E nes058 : few / Date 02/08/2025\nsiven\u00e9es / GSTIN: 21TSKPR3978P726 \u2018rer et / Terms BE\naa / Buyer: Chowdhury Industries LLP\na No. 166, MG Road, Bengaluru, Karnataka - 585850\nGSTIN: 29020\u00a2\u00a24475s1z0 | smyft eer / Place of Supply: Karnataka\n= = |\nFears fos | ws nasa\na I Te ee\nFeats ce fons] sea] ral]\nmee Taas |e] oss sa ea\n[eam net fons | ssl] sae So\na CCC\n[ee fesor aon rae] anoror ae] sera] Sf a\na Ce pe\names ovens asserts 2 a\na COMETS pe\nnena sue] nao \u2014 sae\naceon] \u2014 tens] oo] saa oa\nre eeatente [ves] wos ase a ae\nea fs] lola sa\nee\ncnn) leon] srk] \u2014 tal mea ee\neta [sea] as] also ae\nea [ae oa\nSe CO\nFC Me\nTS\nee\na\nlemme tein Joos| ao a] _set oP ea\nrover /Taxable | aoasa\nSa\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.0065,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 707,
+  "gstins_found": 0
+ }
+}

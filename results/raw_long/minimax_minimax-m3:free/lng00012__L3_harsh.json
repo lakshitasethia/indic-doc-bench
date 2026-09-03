@@ -1,0 +1,280 @@
+{
+ "variant_id": "lng00012__L3_harsh",
+ "doc_id": "lng00012",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/0375",
+  "invoice_date": "2026-03-26",
+  "seller_name": "Kubbra Logistics",
+  "seller_gstin": "29ATFPK8399R9ZK",
+  "seller_address": "Door No: 128, Sector #2, 2nd Cross, Mahalaxmi Nagar - 410037, BENGALURU - 410037",
+  "buyer_name": "Mishra Overseas LLP",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 38, MIG Road, Pune, Maharashtra - 411037, Pune, Maharashtra",
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "TMT Steel Bar Fe-500 12mm",
+    "hsn_sac": "7214",
+    "unit": "MTN",
+    "quantity": 6.844,
+    "unit_price": 58330.73,
+    "discount": null,
+    "taxable_value": 399203.73,
+    "tax_rate": 18
+   },
+   {
+    "description": "Sillicon Carbide Disc",
+    "hsn_sac": "6913",
+    "unit": "NOS",
+    "quantity": 1,
+    "unit_price": 15444.6,
+    "discount": null,
+    "taxable_value": 15444.6,
+    "tax_rate": 18
+   },
+   {
+    "description": "Smartphone 8GB 128GB",
+    "hsn_sac": "8517",
+    "unit": "NOS",
+    "quantity": 2,
+    "unit_price": 2417.99,
+    "discount": null,
+    "taxable_value": 4835.98,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "unit": "NOS",
+    "quantity": 1,
+    "unit_price": 3481.27,
+    "discount": null,
+    "taxable_value": 3481.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Mild Steel Water Pump 3hp",
+    "hsn_sac": "8413",
+    "unit": "NOS",
+    "quantity": 1,
+    "unit_price": 4972.29,
+    "discount": null,
+    "taxable_value": 4972.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "2106",
+    "unit": "PCS",
+    "quantity": 7,
+    "unit_price": 325.45,
+    "discount": null,
+    "taxable_value": 2278.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Primary Resistance TV 32cm screen",
+    "hsn_sac": "8528",
+    "unit": "PCS",
+    "quantity": 3,
+    "unit_price": 1582.179,
+    "discount": null,
+    "taxable_value": 4746.537,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Elastod Foam 4L",
+    "hsn_sac": "3208",
+    "unit": "LTR",
+    "quantity": 8.235,
+    "unit_price": 345.45,
+    "discount": null,
+    "taxable_value": 2845.53,
+    "tax_rate": 18
+   },
+   {
+    "description": "Grease Fitting",
+    "hsn_sac": "8489",
+    "unit": "PCS",
+    "quantity": 1,
+    "unit_price": 356.22,
+    "discount": null,
+    "taxable_value": 356.22,
+    "tax_rate": 18
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "8443",
+    "unit": "NOS",
+    "quantity": 2,
+    "unit_price": 3833.27,
+    "discount": null,
+    "taxable_value": 7666.54,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabrication Bracket",
+    "hsn_sac": "7308",
+    "unit": "KGS",
+    "quantity": 404.09,
+    "unit_price": 4250.49,
+    "discount": null,
+    "taxable_value": 4299.27,
+    "tax_rate": 18
+   },
+   {
+    "description": "Corrugated Carton Box 3-Ply 600x400x350",
+    "hsn_sac": "4819",
+    "unit": "NOS",
+    "quantity": 9000,
+    "unit_price": 36.59,
+    "discount": null,
+    "taxable_value": 288679.13,
+    "tax_rate": 18
+   },
+   {
+    "description": "Ice Soap 100g",
+    "hsn_sac": "3401",
+    "unit": "PCS",
+    "quantity": 3250,
+    "unit_price": 32.84,
+    "discount": null,
+    "taxable_value": 117326.59,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 1.5sqmm",
+    "hsn_sac": "8544",
+    "unit": "MTR",
+    "quantity": 21.252,
+    "unit_price": 879.16,
+    "discount": null,
+    "taxable_value": 5797.99,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bags",
+    "hsn_sac": "3923",
+    "unit": "KGS",
+    "quantity": 58.821,
+    "unit_price": 351.4,
+    "discount": null,
+    "taxable_value": 4063.03,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "unit": "MTR",
+    "quantity": 25.5,
+    "unit_price": 135.96,
+    "discount": null,
+    "taxable_value": 3448.37,
+    "tax_rate": 18
+   },
+   {
+    "description": "GPS 32 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "unit": "BAG",
+    "quantity": 2,
+    "unit_price": 141.5,
+    "discount": null,
+    "taxable_value": 389.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Instant Chx Nuts Solid Carr 50gm",
+    "hsn_sac": "2008",
+    "unit": "KGS",
+    "quantity": 265.557,
+    "unit_price": 151.5,
+    "discount": null,
+    "taxable_value": 4423.0,
+    "tax_rate": 18
+   },
+   {
+    "description": "Lighting Connector 6 500LB",
+    "hsn_sac": "8536",
+    "unit": "NOS",
+    "quantity": 2,
+    "unit_price": 214.59,
+    "discount": null,
+    "taxable_value": 214.59,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Brush 200g",
+    "hsn_sac": "9603",
+    "unit": "PCS",
+    "quantity": 37,
+    "unit_price": 505.22,
+    "discount": null,
+    "taxable_value": 5854.22,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "unit": "KGS",
+    "quantity": 65.977,
+    "unit_price": 49,
+    "unit_price_original": null,
+    "discount": null,
+    "taxable_value": 4055.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": "8215",
+    "unit": "SET",
+    "quantity": 52,
+    "unit_price": 224.84,
+    "discount": null,
+    "taxable_value": 2042.84,
+    "tax_rate": 18
+   },
+   {
+    "description": "Fries Machine 72cm",
+    "hsn_sac": "8419",
+    "unit": "NOS",
+    "quantity": 10,
+    "unit_price": 574.84,
+    "discount": null,
+    "taxable_value": 50059.25,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 113407.89,
+  "cgst_amount": 113407.89,
+  "sgst_amount": 113407.89,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": -0.09,
+  "grand_total": 1462270.0,
+  "amount_in_words": "Rupees Nineteen Lakh Two Thousand Two Hundred and Ten Only"
+ },
+ "raw": "{\"invoice_number\":\"2025-26/0375\",\"invoice_date\":\"2026-03-26\",\"seller_name\":\"Kubbra Logistics\",\"seller_gstin\":\"29ATFPK8399R9ZK\",\"seller_address\":\"Door No: 128, Sector #2, 2nd Cross, Mahalaxmi Nagar - 410037, BENGALURU - 410037\",\"buyer_name\":\"Mishra Overseas LLP\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No. 38, MIG Road, Pune, Maharashtra - 411037, Pune, Maharashtra\",\"place_of_supply\":\"Maharashtra\",\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"TMT Steel Bar Fe-500 12mm\",\"hsn_sac\":\"7214\",\"unit\":\"MTN\",\"quantity\":6.844,\"unit_price\":58330.73,\"discount\":null,\"taxable_value\":399203.73,\"tax_rate\":18},{\"description\":\"Sillicon Carbide Disc\",\"hsn_sac\":\"6913\",\"unit\":\"NOS\",\"quantity\":1,\"unit_price\":15444.60,\"discount\":null,\"taxable_value\":15444.60,\"tax_rate\":18},{\"description\":\"Smartphone 8GB 128GB\",\"hsn_sac\":\"8517\",\"unit\":\"NOS\",\"quantity\":2,\"unit_price\":2417.99,\"discount\":null,\"taxable_value\":4835.98,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"unit\":\"NOS\",\"quantity\":1,\"unit_price\":3481.27,\"discount\":null,\"taxable_value\":3481.27,\"tax_rate\":18},{\"description\":\"Mild Steel Water Pump 3hp\",\"hsn_sac\":\"8413\",\"unit\":\"NOS\",\"quantity\":1,\"unit_price\":4972.29,\"discount\":null,\"taxable_value\":4972.29,\"tax_rate\":18},{\"description\":\"Instant Drink Premix\",\"hsn_sac\":\"2106\",\"unit\":\"PCS\",\"quantity\":7,\"unit_price\":325.45,\"discount\":null,\"taxable_value\":2278.15,\"tax_rate\":18},{\"description\":\"Primary Resistance TV 32cm screen\",\"hsn_sac\":\"8528\",\"unit\":\"PCS\",\"quantity\":3,\"unit_price\":1582.179,\"discount\":null,\"taxable_value\":4746.537,\"tax_rate\":18},{\"description\":\"Synthetic Elastod Foam 4L\",\"hsn_sac\":\"3208\",\"unit\":\"LTR\",\"quantity\":8.235,\"unit_price\":345.45,\"discount\":null,\"taxable_value\":2845.53,\"tax_rate\":18},{\"description\":\"Grease Fitting\",\"hsn_sac\":\"8489\",\"unit\":\"PCS\",\"quantity\":1,\"unit_price\":356.22,\"discount\":null,\"taxable_value\":356.22,\"tax_rate\":18},{\"description\":\"Multifunction Laser Printer\",\"hsn_sac\":\"8443\",\"unit\":\"NOS\",\"quantity\":2,\"unit_price\":3833.27,\"discount\":null,\"taxable_value\":7666.54,\"tax_rate\":18},{\"description\":\"MS Fabrication Bracket\",\"hsn_sac\":\"7308\",\"unit\":\"KGS\",\"quantity\":404.090,\"unit_price\":4250.49,\"discount\":null,\"taxable_value\":4299.27,\"tax_rate\":18},{\"description\":\"Corrugated Carton Box 3-Ply 600x400x350\",\"hsn_sac\":\"4819\",\"unit\":\"NOS\",\"quantity\":9000,\"unit_price\":36.59,\"discount\":null,\"taxable_value\":288679.13,\"tax_rate\":18},{\"description\":\"Ice Soap 100g\",\"hsn_sac\":\"3401\",\"unit\":\"PCS\",\"quantity\":3250,\"unit_price\":32.84,\"discount\":null,\"taxable_value\":117326.59,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 1.5sqmm\",\"hsn_sac\":\"8544\",\"unit\":\"MTR\",\"quantity\":21.252,\"unit_price\":879.16,\"discount\":null,\"taxable_value\":5797.99,\"tax_rate\":18},{\"description\":\"HDPE Packing Bags\",\"hsn_sac\":\"3923\",\"unit\":\"KGS\",\"quantity\":58.821,\"unit_price\":351.40,\"discount\":null,\"taxable_value\":4063.03,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"unit\":\"MTR\",\"quantity\":25.500,\"unit_price\":135.96,\"discount\":null,\"taxable_value\":3448.37,\"tax_rate\":18},{\"description\":\"GPS 32 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"unit\":\"BAG\",\"quantity\":2,\"unit_price\":141.50,\"discount\":null,\"taxable_value\":389.06,\"tax_rate\":18},{\"description\":\"Instant Chx Nuts Solid Carr 50gm\",\"hsn_sac\":\"2008\",\"unit\":\"KGS\",\"quantity\":265.557,\"unit_price\":151.50,\"discount\":null,\"taxable_value\":4423.00,\"tax_rate\":18},{\"description\":\"Lighting Connector 6 500LB\",\"hsn_sac\":\"8536\",\"unit\":\"NOS\",\"quantity\":2,\"unit_price\":214.59,\"discount\":null,\"taxable_value\":214.59,\"tax_rate\":18},{\"description\":\"Toilet Brush 200g\",\"hsn_sac\":\"9603\",\"unit\":\"PCS\",\"quantity\":37,\"unit_price\":505.22,\"discount\":null,\"taxable_value\":5854.22,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"unit\":\"KGS\",\"quantity\":65.977,\"unit_price\":49,\"unit_price_original\":null,\"discount\":null,\"taxable_value\":4055.15,\"tax_rate\":18},{\"description\":\"Stainless Steel Cutlery Set\",\"hsn_sac\":\"8215\",\"unit\":\"SET\",\"quantity\":52,\"unit_price\":224.84,\"discount\":null,\"taxable_value\":2042.84,\"tax_rate\":18},{\"description\":\"Fries Machine 72cm\",\"hsn_sac\":\"8419\",\"unit\":\"NOS\",\"quantity\":10,\"unit_price\":574.84,\"discount\":null,\"taxable_value\":50059.25,\"tax_rate\":18}],\"total_taxable_value\":113407.89,\"cgst_amount\":113407.89,\"sgst_amount\":113407.89,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":-0.09,\"grand_total\":1462270.00,\"amount_in_words\":\"Rupees Nineteen Lakh Two Thousand Two Hundred and Ten Only\"}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2201,
+ "output_tokens": 1456,
+ "cached_input_tokens": 0,
+ "latency_s": 24.2538,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

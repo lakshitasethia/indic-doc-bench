@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00017__L3_harsh",
+ "doc_id": "lng00017",
+ "level": "L3_harsh",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "INVOICE Be ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "INVOICE Be ee\nPears at ny ie BEOET tage Rate\n5 F trans race \"a nog M229 a Bat =\nRens Seager 2s i OE RP meaty ERE SD rr\nent ed Pete 300 Pas \u2018 ANOS ree Metieha\nSint Mie iiretn Oa i cai na ae\nee NOR: Meee ay cee robe ay\nWES Te 10s ane ae Ee; PROT ae\n8 Pier tg OPCS args aa\ni Bae \u20183 a i\nnt a Py Mheditienis te\nmes ony sedi ade NOT og\ncre Pa UR ta Ser208\n\u2018 . ced 278 ie\n= MO 28 4, rae\nite \u00b0 2NOG ag ee\nOOS see ee \u2018 ee oy\n, i con\nee Cy PMT Sg oy ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.5388,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 443,
+  "gstins_found": 0
+ }
+}

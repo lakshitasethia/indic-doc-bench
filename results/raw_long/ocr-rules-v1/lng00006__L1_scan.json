@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00006__L1_scan",
+ "doc_id": "lng00006",
+ "level": "L1_scan",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Banerjee Infratech No.5",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Banerjee Infratech No.5\nSe Meiers ene pear\n\u201c+ [Synthetic Enamel Paint 4 [3208 10.1o2|LTR| 684.25| __-|_6974.90|18| 627.74] 627.74] 8230.38\n5613.46\n\u201c3 lOfice Workstation Table __(9403| ___t|Nos [0886.96] -|_10886.96] 18] 979.74| 979.74] 12845.44\n4 [elucose Biscuits 200g | 1905 3|BOx| 24741] | _742.23|18] 66.80| 66.80] 875.83\n2010.87\n\u201c\u00e9|Racial Tyre 195/65 R15 (4011 _\u2014_9|NOS| 5491.26] _-|_49421.34|28| 18.09 6918.99] 63259.32\n-7 [Basmati Rice (Broken 5%) _|1006| 45.304|KGS|_106.95| _-| 4845.26) 5 | 124.18] 121.13 5087.52\n-g [TMT Steel Bar Fe-500 12mm _|7214| 0.100] TON|56995.31| _-| _6690.53|18| 612.96] 512.96 6725.45\n\u201c9 [Detergent Powder tkg (3402 189|PCS| 152.80| | 28879.20|18|2590.13|2599.13 34077.46\nrol Toilet Soap 100g (3401 tao|pcs| _40.19|__-|_7234.20/18| 651.08] 661.08 8536.36\n\u201cit |Leather Formal Shoes _\u2014_(6403| __16|PRS| 1629.86] -| 24477.76|18|2208.00|2208.00 28883.76\n-12| Monoblock Water Pump HP _[@413| __4|NOS| 4305.58] -|_17222.32|18| 1860.01] 1560.01 20322.34\n-13| Corrugated Carton Box Ply |4819| _168|NOS| 47.85] -|_6612.30|18| 595.11] 96.11 7802.52\n2627.85\nrislinstant Dink Prem [2108] __3|pcs| i77.ta|__-|_satso|1el_ 47.83] 47:83 627.05\n-16|Paracetamol IP 650mg Tablets [3004] 1751|BOX| _53.11| ___-| 9209561] 12|5579.74)6579.74 104155.09\n10159.66\nnpeeerto=\u2014lan] oi wes) ese a\nOlMS Hex Bott with Nutwi2 [7318] _4324|NOS| 15.68) -|_67800:32/ 18]6102.08 610203 80004.38\n20|Cotton Round Neck T-Shi _(6409| _450/PCS| _336.02| _-|181200.00] \u00a7 |3760.23|3780.23 158769.46\n2I|HDPE Packing Bags ____(3923|_@e71|KGs| e485] -|_127010[te| 114.31| 11434 1498.72\n'22|Smartphone 6GB/28GB__\u2014_(8517| __1|NOS|30703.07| _-| 30703.07|18|2763.28|2763.28 36229.63\n23|AssamCTC Tea Leaf _\u2014_(0902[165862|KGS| 354.61] _-|_86266.68] 6 |1961.67/1384.67 58030.02\n586422.86\n\n38818.23\n\n38818.23\n\n0.32\n\n664059.00\n\nRs, in words: Rupees Six Lakh Sixty Four Thousand Fifty Nine Only\nFor Banerjee Infratech\nAuth. Sign.\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.5472,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1911,
+  "gstins_found": 0
+ }
+}

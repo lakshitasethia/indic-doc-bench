@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00004__L0_clean",
+ "doc_id": "lng00004",
+ "level": "L0_clean",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/7057",
+  "invoice_date": null,
+  "seller_name": "Chowdhury Steel & Alloys LORIGINAL FOR RECIPIENT _",
+  "seller_gstin": "23ICZPC9993X8ZI",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chowdhury Steel & Alloys LORIGINAL FOR RECIPIENT _\nGala No. 198, MIDC Phase II, Bhopal, Madhya Pradesh - 458050 Invoice No 2025-26/7057\nGSTIN 23ICZPC9993X8ZI State Code 23 Invoice O Forme 45 Dave\nBilled To Shipped To\n\nBhatt Overseas Pvt. Ltd. Bhatt Overseas Pvt. Ltd.\n\nPlot No. 464, GIDC Estate, Indore, Madhya Pradesh - 455549 Plot No. 464, GIDC Estate, Indore\n\nGSTIN 23UJKPB6746W6ZQ_ Place of Supply Madhya Pradesh (23) Reverse Charge: No\n\n/1 [Information Technology Consulting Services | 998313] 2/NOS| 110620.90| __| 221241.80| 18 | 19911.76| 19911.76| 261065.32\n2 [Rental Services of Commercial Property ___|997212| 4|NOS| 129349.77/ __| 129349.77| 18 | 1641.48) 11641 .48| 15263273\n(3 [Road Transport Services of Goods =| 996511| 4/NOS| 1517461 __\u2014'|_15174.61| 5 | 379.37| 379.37| 15933.35\n4 [Other Professional and Technical Services 998399 1|NOS| 4365583| __\u2014\u00ab|_43655.83/ 18 | 3929.02| 3920.02| 51513.87\n(5 [Repair Services of Computers and Peripherals _|998721| 2/NOS| 4017.89| ___\u2014'| _8036.78| 18| 723.22| 723.22| 9482.22\n6 [Commercial Training and Coaching Services |999203| 1|NOS| 1986730| 993.37| 18874.02| 18| 1698.66) 1698.66] 2271.34\n(7 [Road Transport Services of Goods _\u2014=\u2014=\u2014=\u00ab( 996511 | 4/NOS| 2561079 __\u2014| 402443.16| 5 | 2561.08) 2561.08) 107565.32\n(8 [Information Technology Consulting Services _|998313| 1/NOS| 51404.50| ___\u2014\u2018|_51404.60| 18 | 4626.41| 4626.41| 6065732\n9 [Information Technology Consulting Services 998313) 1|NOS| 63189.95| ___\u2014+|_63189.95| 18 | 6687.10| 5687.10| 74564.15\n10 [Information Technology Consulting Services 998313) 1|NOS| 2173123] __\u2014(|_21731.23| 18 | 1955.81| 1955.81| 25642.85\n11 /Rental Services of Commercial Property __|997212| 1|NOS/ 129654.06| __| 420654.06| 18 | 1168.87 11668.87| 152991 80\n12 [Rental Services of Commercial Property ___|997212| 1/NOS| 66116.96| \u2018| _66116.96| 18 | 5950.53| 5950.53| 78018.02\n13 | Other Professional and Technical Services 998399 1|NOS| 29719.90| ___\u2014_|_29719.90| 18 | 2674.79| 2674.79| 35060.48\n14 | Other Professional and Technical Services __|998309| 1/NOS| 5053891! __\u2014_\u2014*|_50598.91| 18 | 4548.50| 4548.50| 59635.91\n15 [Information Technology Consulting Services | 998313) 4|NOS| 55393.67| 11078.73| 210495.95) 18 | 18944.64| 18944.64| 248985.23\n16 [Commercial Training and Coaching Services 999293) 1|NOS| 22490.05| __\u2014*|-_22490.05| 18 | 2024.10| 2024.10] 2658.25\n3184.62\n18 | Repair Services of Computers and Peripherals |998721/ 1|NOS| 5919.88] =| 5919.88, 18 \u00a73279| 632.79| 6985.46\n19 | Rental Services of Commercial Property __|997212| 1|NOS| 10039621] __| 100396.21/ 18 | 9035.66| 9036.66| 118467.53\n20 | Other Professional and Technical Services __|998399| 3|NOS| 84710.02| _| 254130.06| 18 | 2871.71) 22871.71| 299873.48\n21 | Rental Services of Commercial Property ___|997212| 2|NOS| 68224.23| __| 136448.46| 18 | 12280.36) 12280.36| 161009.18\n22 Commercial Training and Coaching Services _|999203| 1|NOS| 8630.42/___\u2014\u00ab|_\u20148630.42| 18| 776.74) 776.74) 10183.90\n23 Information Technology Consulting Services __|998313| 1|NOS| 17224786] __| 472247.86| 18 | 15502.31) 15502.31| 203252.48\n38750.59\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.9829,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 3097,
+  "gstins_found": 1
+ }
+}

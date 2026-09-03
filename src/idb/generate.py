@@ -57,7 +57,15 @@ def _line_count(rng: random.Random) -> int:
 
 
 def generate_invoice(seed: int, template_id: str = "t01",
-                     force_interstate: Optional[bool] = None) -> Tuple[Dict, Dict]:
+                     force_interstate: Optional[bool] = None,
+                     force_line_count: Optional[int] = None) -> Tuple[Dict, Dict]:
+    """`force_line_count` overrides the natural length distribution.
+
+    Used to build a targeted long-table probe. The natural distribution puts
+    only ~5% of documents above 16 line items, which is realistic but leaves
+    the regime that breaks header totals (METHODOLOGY 8b) too thinly sampled
+    to measure. Everything else about generation is unchanged, so a forced
+    document differs from a natural one in exactly one respect."""
     rng = random.Random(seed)
 
     seller_state = rng.choice(BUSY_STATES)
@@ -86,6 +94,10 @@ def generate_invoice(seed: int, template_id: str = "t01",
     is_service = rng.random() < 0.18
     catalogue = SERVICES if is_service else GOODS
     n_lines = 1 if is_service and rng.random() < 0.6 else _line_count(rng)
+    if force_line_count is not None:
+        # Drawn from the same rng either way, so the override changes the
+        # table length without shifting every later random draw.
+        n_lines = force_line_count
 
     items: List[Dict[str, Any]] = []
     chosen = rng.sample(catalogue, min(n_lines, len(catalogue)))

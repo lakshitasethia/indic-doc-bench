@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00021__L3_harsh",
+ "doc_id": "lng00021",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "we ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "we ee\nato seu Seino ays fh)\nNar Some Pot. Lad z tee en |\nDove Mos 1. Pac Post : ie ne e\nGIDL eepetened gree resect\n* erste on VCS! onan eg ae ene\n, attend ap i pe ae a\nSeer een 5 OS mane.s,nen aeN\nSerta . erin 3S ata pete. RE\n5 Cement lai EN aia (9 NOR sete Ie ee a\npo ness CMO yy NOS: SRG MRT Ae NET\n, Ae encom gig 8 maaan\nAeyon Serves of Cogs and Psa = Ss.\n\u2014\u2014 ptr a, Sah, eter,\nRewtial Serene of camer NS \" 1\n+\" wee S linhaneiinnenaiintel tenis\ni, Rema ein CNN: gt Cee = oe\nGane Poel a tte ps 8) Ser tia ak: ie\ner kr ati, \u00ab8 es oi a aoe\n* Stee Soames \u201ca weit :NOe Soseet SRT - ee\n\u2014 ' I\n9, Reed Berens Coenen gece 20k Gore easier a See)\n\u00ab Seapets Sorvioen oC rdsu on Oe tet \u2014 ee\npeared :\nva Ree Seed Cone at sen sh ene ee\nComat Ting iC gags OR? Sega\u2019 seen, RC) maa\n2 Read Trmmpert vein Goes ooapet SAM, SEEN ree\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.1139,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 813,
+  "gstins_found": 0
+ }
+}

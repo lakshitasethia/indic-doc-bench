@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00010__L0_clean",
+ "doc_id": "lng00010",
+ "level": "L0_clean",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "INVOICE",
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE\n\nSUPPLIER NAME INVOICE NUMBER INVOICE DATE\n\nSUPPLIER ADDRESS SUPPLIER GSTIN STATE / CODE\n\n708044\n\nRECIPIENT NAME RECIPIENT GSTIN PLACE OF SUPPLY\n\nRECIPIENT ADDRESS REVERSE CHARGE PAYMENT TERMS\n\n726364\n\n[a | Description arsuppiy |Hswvsac| atv | uae | uniterice | Taxabievalue | \u00a3555] cast Amount | sos amount\nMS Hex Bolt\n\n1 |MS Nut M12 7318 13.89 9256.30] 18| 833.07 833.07\nMonoblock\n\n2 |Water Pump | 8413 17|NOS| 6021.79/102370.43|18} 9213.34] 9213.34\n1HP\n\n3 |Imstant Drink | 5106 | 900] Pcs: 141.41 127269.00| 18] 11454.21 11454.21\nPremix\nFoam\n\n4 |Mattress 9404 1)NOS|10213.43} 10213.43|18 919.21 919.21\n72X36\nDetergent\n\n5 /Detera ikg 3402 1207] Pcs, 95.78 109826.14| 18 9884.35| 9884.35\nCotton\nWoven Fabric | 5208] 668.259|MTR 116.71} 77992.51]| 5 1949.81] 1949.81\n44 inch\n\n7 [HDPE 3923| 173.555|KGS| 112.12] 19458.99|18] 1751.31] 1751.31\nPacking Bags , , , , ,\nAssam CTC\n\n3 |Assam CTC | 0902 205.315|KGS 218.67 4896.23] 5 | 1122.41] 1122.41\nMS\nFabricated 7308] 981.087|KGS 117.87/115640.72] 18 | 10407.66|10407.66\nStructure\n\n10| Refined 1701 |3651.446|KGS|  38.16/139339.18] 5 | 3483.48] 3483.48\nSugar S-30 ; ; ; ; ;\nHard Bound\n\n11]Register 200 | 4820 48|NOS 51.55 2474.40] 18 222.70 222.70\nPages\nStainless\n\n12| Steel Cutlery | 8215 57| SET 640.59] 36513.63/18] 3286.23] 3286.23\nSet\nLaptop\n\n13|]Computer i5 | 8471 1|NOS|84178.28| 82494.71|18] 7424.52) 7424.52\n16GB\nMultifunction\n\n8443 28395.30 28395.30| 18 2555.58| 2555.58\nSmartphone\n\n15) Smartphons 8517 32663.24 3263.24] 18 2939.69| 2939.69\n\n16| Synthetic 3208] 142.232] LTR 645.77| 91849.16/18| 8266.42} 8266.42\nEnamel Paint\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.3083,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1594,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00003__L2_photo",
+ "doc_id": "lng00003",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-20",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE",
+  "seller_gstin": "09HOZFA2730M8ZO",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Uttar Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE\nRN rea\nNOT GENERATED Beh atatat et\nAck No. / Ack Date atte\n10000712733757 / 2025-05-20 a\nnace\n\u201cinna x\nAhluwalia Distributors peony INV/25-2\nPlot No. 69, Peenya 2nd Stage, Noida, Uttar Se Tye, Industrial Estate, Agra, Utt a ee\nPradesh 241846 Pradesh 262149 Jeep es)\nGSTIN GsTIN 2025-05-20\n09HOZFA2730M8ZO O9AMDCGE104E4Z6 09 - Uttar Pradesh\n(si | Ttem:Description | HSN | tv TRE am price | Dincount | Tanstie ame [nate] COST Ame | sestame |\n1 [Refined on a PS [este] cast ame] sesrame 4 =\nSugar S-30 1701,834.516| KGS sn 741.72) 36344.17) 5 908.60} 908.60 38161.37\nAssam CTC ee eel sa al T |\naes Leaf 9902; 1.571\\KGS 374.81| a 588.83] 5 14.72) 14.72 618.27\nTMT Steel eee |. fas 1 See aaa\n3. oes 7214|  0.184|\\ TON 58080.47| ce 10686.81| 18) 961.81, 961.81 12610.43\nCotton | | | | =e | |\nWoven | | | j\nFabric 44 39.928|MTR| 192.59) -| 7689.73) 5] 192.24] 192.24 8074.21\ninch | | | |\nee |\nLeather | | |\nFormal 19| PRS 1941.13| af 36881.47| 18 3319.33| 3319.33 43520.13)\nShoes (conten Siaceees eae ies\nBasmati | | | ise soar | |\nRice (Broken 1006) 200.005 Kas| 111.87) -| 22374.56) 5 | 559.36, 559.36 23493.28\nHard Bound | | | |\n7 \\Register 200 4820 221\\NOS 75.36| | 16654.56| 18) 1498.91, 1498.91 19652.38\nPages |\nToilet Soap pcs| 59.67 | 1014.39|18| 91.30]. 91.30) \"1196.99\n1009 ee Ne aaa\nSynthetic | eee |\nEnamel 3208| 6.326) LTR 453.75) <I 2870.42) 18) 258.34| 258.34 3387.10\nPaint 4L ee | |\nHDPE | \u2018| fe\nPacking 3923| 88.325 KGS| 151.90 nan 12074.91) 18) 1086.74, 1086.74 14248.39\nBags | |\nSe eS ae ee |\nSmartphone | hoot\n6GB/128GB 8517 1|NOS 37328.81|3732.88) \u201ceda ua 3023.63] (3023.63) cake\nOffice | Bic |\nWorkstation 1 16354.87| \u2018| 16354.87|18| 1471.94) 1471.94, 19298.75\nTable eee Ie oes Gs Eee ae ee: 4\nFoam | ae |\nMattress 9404 1 9236.99 :- 9236.99) 18 831.33) 831.33 10899.65\n72x36 a \u2014 fee Bea eas SS) banal ee sal\n} +\nMS Hex Bolt | leat | |\nwith Nut 7318 1151 26.18) 602.66 29530.52| 18) 2657.75| 2657.75 34846.02\nM12 4} \u2014\u2014}\u2014 Seni: eee aeLeae\nOPC 53 tes | |\nGrade 10| BAG 378.78 = 3787.80) 28} 530.29} 530.29 4848.38\nCement | es |\n50kg as \u2014 o pesesl\nLapto| | | |\nGorter is cen] lnos see -|'53486.82| 18) 4813.81; 4813.81) 63114.44\n16GB _| | ___- Sil ieee\n17\\MS 7308) 316.200 KGS| 139.58 882.70 43252.50 18| 3892.73) 3892.73 51037.96\nFabricated | | | | |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.8022,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2286,
+  "gstins_found": 1
+ }
+}

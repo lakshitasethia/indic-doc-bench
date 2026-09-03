@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00011__L0_clean",
+ "doc_id": "lng00011",
+ "level": "L0_clean",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/5141",
+  "invoice_date": "2025-09-01",
+  "seller_name": "Document Type TAX INVOICE Invoice No 2025-26/5141",
+  "seller_gstin": "23EGQPS8363N2ZB",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": "23ITIPM0293C7ZN",
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type TAX INVOICE Invoice No 2025-26/5141\nSupplier Sethi Solutions Invoice Date 01-09-2025\nSupplier GSTIN 23EGQPS8363N2ZB Terms Cash\nSupplier Address Plot No. 86, Kalbadevi Road, Jabalpur, Madhya Pradesh - 480845\nRecipient Mahajan Technologies Limited Recipient GSTIN 23ITIPM0293C7ZN\nRecipient Address | Unit No. 378, GIDC Estate, Jabalpur, Madhya Pradesh - 486916 Place of Supply Madhya Pradesh\nReverse Charge No Currency INR\nLine eae eos HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate CGST_Amt SGST_Amt Line_Total\nCotton\n1 Round Neck 6109 323 PCS 221.36 0.00 71499.28 5 1787.48 1787.48 75074.24\nT-Shirt\nLaptop\n2 Computeri5 8471 2 NOS) 55776.25 0.00 111552.50 18 10039.73 10039.73 131631.96\n16GB\nMS Hex Bolt\n3 with Nut 7318 157| NOS 32.26 0.00 5064.82 18 455.83 455.83 5976.48\nM12\nOPC 53\n4 crade 2523 405 BAG 445.60 0.00 180468.00 28 25265.52 25265.52 230999.04\n50kg\nOffice\n5 (Workstation 9403 8 NOS 10788.92 0.00 86311.36 18 7768.02 7768.02 101847.40\nTable\nLeather\n6 Formal 6403 1 PRS 1558.68 0.00 1558.68 18 140.28 140.28 1839.24\nShoes\nParacetamol\n7 (IP 650mg 3004 4629 BOX 54.40 25181.76 226635.84 12, 13598.15  13598.15 253832.14\nTablets\ng Detergent \u2014 3409 27 PCS 150.57 0.00 4065.39 18 365.89 365.89 4797.17\nPowder 1kg\nFoam\n9 Mattress 9404 1 NOS 7999.87 0.00 7999.87 18 719.99 719.99 9439.85\n72x36\n10 stant Drink 2106 139 PCS 111.75 0.00 15533.25 18 1397.99 1397.99 18329.23\nSynthetic\n11. Enamel 3208 49.028 LTR 625.23 0.00 30653.78 18 2758.84 2758.84 36171.46\nPaint 4L\nCotton\nWoven\n12 Fabric 44 5208 239.381 MTR 108.96 0.00 26082.95 5 652.07 652.07. 27387.09\ninch\n13 1009 Soap 3401 35 PCS 32.26 0.00 1129.10 18 101.62 101.62 1332.34\nPVC\nInsulated\n14 Copper 8544 8.204 MTR 66.89 0.00 548.77 18 49.39 49.39 647.55\nCable\n2.5sqmm\nStainless\n15 Steel 8215 4 SET 580.33 0.00 2321.32 18 208.92 208.92 2739.16\nCutlery Set\nHDPE\n16 Packing 3923 54.973 |KGS 156.93 0.00 8626.91 18 776.42 776.42) 10179.75\nBags\nHard Bound\n17 Register 4820 108 NOS 56.11 302.99 5756.89 18 518.12 518.12 6793.13\n200 Pages\nRefined\n18 1701 246.873 KGS 38.17 0.00 9423.14 5 235.58 235.58 9894.30\nSugar S-30\nGlucose\n19 Biscuits 1905 5 BOX 416.07 0.00 2080.35 18 187.23 187.23 2454.81\n200g\n20 assam CTC 0902 124.835 KGS 295.48 3688.63 33197.62 5 829.94 829.94 34857.50\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.2311,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2259,
+  "gstins_found": 2
+ }
+}

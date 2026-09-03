@@ -1,0 +1,279 @@
+{
+ "variant_id": "lng00009__L3_harsh",
+ "doc_id": "lng00009",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "9940",
+  "invoice_date": "2026-02-20",
+  "seller_name": "Agarwal Electricals",
+  "seller_gstin": null,
+  "seller_address": "Shop No. 201, Cheshire Chowk, Mangalore, Karnataka - 575001",
+  "buyer_name": "Verma Solutions",
+  "buyer_gstin": "29VKFGPV2007W6Z5",
+  "buyer_address": "Shop No. 203, Pratima 2nd Stage, Bengaluru, Karnataka - 583004",
+  "place_of_supply": "Karnataka",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Cotton Woven Fabric 44 inch Hand Bonded Register 200 Pages",
+    "hsn_sac": "5208",
+    "quantity": 9.206,
+    "unit": "MTK",
+    "unit_price": 107.63,
+    "discount": 1270.36,
+    "taxable_value": 38.54,
+    "tax_rate": 5
+   },
+   {
+    "description": "GPC 33 Grade Cement 50kg Foam Mattress 72x36",
+    "hsn_sac": "4821",
+    "quantity": 249,
+    "unit": "NOS",
+    "unit_price": 54.06,
+    "discount": 13465.94,
+    "taxable_value": 2423.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "MS Fabricated Structure",
+    "hsn_sac": "2523",
+    "quantity": 75,
+    "unit": "BAG",
+    "unit_price": 436.74,
+    "discount": 20285.97,
+    "taxable_value": 8280.83,
+    "tax_rate": 28
+   },
+   {
+    "description": "Instant Drink Premix",
+    "hsn_sac": "7308",
+    "quantity": 5,
+    "unit": "NOS",
+    "unit_price": 577.46,
+    "discount": 2887.3,
+    "taxable_value": 1385.94,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "7308",
+    "quantity": 294.475,
+    "unit": "KGS",
+    "unit_price": 132.98,
+    "discount": 2026.99,
+    "taxable_value": 2667.89,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195 R15",
+    "hsn_sac": "6109",
+    "quantity": 204,
+    "unit": "PCS",
+    "unit_price": 388.56,
+    "discount": 66722.24,
+    "taxable_value": 3486.36,
+    "tax_rate": 5
+   },
+   {
+    "description": "Multifunction Laser Printer",
+    "hsn_sac": "4011",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 8923.36,
+    "discount": 22464.44,
+    "taxable_value": 9070.59,
+    "tax_rate": 18
+   },
+   {
+    "description": "Mitsubishi Water Pump 1HP",
+    "hsn_sac": "8443",
+    "quantity": 7,
+    "unit": "NOS",
+    "unit_price": 5764.36,
+    "discount": 1754.39,
+    "taxable_value": 5758.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Acacia CTC Tea Leaf",
+    "hsn_sac": "8413",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 6703.36,
+    "discount": 6703.36,
+    "taxable_value": 2030.61,
+    "tax_rate": 18
+   },
+   {
+    "description": "Chrome Sherrini 20cm",
+    "hsn_sac": "0902",
+    "quantity": 294.532,
+    "unit": "KGS",
+    "unit_price": 247.72,
+    "discount": 72960.24,
+    "taxable_value": 2669.53,
+    "tax_rate": 5
+   },
+   {
+    "description": "Smartphone 4GB/16GB",
+    "hsn_sac": "8517",
+    "quantity": 40,
+    "unit": "BOX",
+    "unit_price": 374.66,
+    "discount": 14986.4,
+    "taxable_value": 1074.65,
+    "tax_rate": 18
+   },
+   {
+    "description": "Eyelup Computer 15.6GB",
+    "hsn_sac": "8471",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 10266.55,
+    "discount": 20533.1,
+    "taxable_value": 2120.55,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar 5 kg",
+    "hsn_sac": "1701",
+    "quantity": 1,
+    "unit": "MTR",
+    "unit_price": 1194.342,
+    "discount": 43.36,
+    "taxable_value": 1309.43,
+    "tax_rate": 5
+   },
+   {
+    "description": "Glazed Cotton Box 5 kg",
+    "hsn_sac": "1701",
+    "quantity": 159.342,
+    "unit": "KGS",
+    "unit_price": 72.42,
+    "discount": 30403.94,
+    "taxable_value": 2784.36,
+    "tax_rate": 5
+   },
+   {
+    "description": "MS Hex Bolt with Nut M12",
+    "hsn_sac": "4819",
+    "quantity": 356.342,
+    "unit": "KGS",
+    "unit_price": 75.3,
+    "discount": 38383.56,
+    "taxable_value": 345.86,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 1.1m/m",
+    "hsn_sac": "7318",
+    "quantity": 33,
+    "unit": "NOS",
+    "unit_price": 20.56,
+    "discount": 4065.38,
+    "taxable_value": 375.86,
+    "tax_rate": 18
+   },
+   {
+    "description": "Dakine Steel Cable Set",
+    "hsn_sac": "8544",
+    "quantity": 22.522,
+    "unit": "MTR",
+    "unit_price": 160.36,
+    "discount": 3602.07,
+    "taxable_value": 1300.82,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Packed Shoes",
+    "hsn_sac": "8315",
+    "quantity": 13,
+    "unit": "SET",
+    "unit_price": 3024.04,
+    "discount": 3929.84,
+    "taxable_value": 1058.45,
+    "tax_rate": 18
+   },
+   {
+    "description": "Synthetic Enamel Paint 4L",
+    "hsn_sac": "3208",
+    "quantity": 3,
+    "unit": "PRS",
+    "unit_price": 345.75,
+    "discount": 3458.7,
+    "taxable_value": 5217.29,
+    "tax_rate": 18
+   },
+   {
+    "description": "Toilet Brush C/S 4 Pc",
+    "hsn_sac": "3406",
+    "quantity": 40,
+    "unit": "PCS",
+    "unit_price": 99.56,
+    "discount": 2047.83,
+    "taxable_value": 1737.82,
+    "tax_rate": 18
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 15,
+    "unit": "NOS",
+    "unit_price": 7041.3,
+    "discount": 19757.36,
+    "taxable_value": 418.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Russell Stoves Stoves 7x7",
+    "hsn_sac": "9404",
+    "quantity": 11.244,
+    "unit": "KGS",
+    "unit_price": 7041.3,
+    "discount": 19757.36,
+    "taxable_value": 1150.56,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Packing Bag",
+    "hsn_sac": "7323",
+    "quantity": 387.292,
+    "unit": "KGS",
+    "unit_price": 107.292,
+    "discount": 34056.4,
+    "taxable_value": 2822.86,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 52227.42,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\": \"9940\", \"invoice_date\": \"2026-02-20\", \"seller_name\": \"Agarwal Electricals\", \"seller_gstin\": null, \"seller_address\": \"Shop No. 201, Cheshire Chowk, Mangalore, Karnataka - 575001\", \"buyer_name\": \"Verma Solutions\", \"buyer_gstin\": \"29VKFGPV2007W6Z5\", \"buyer_address\": \"Shop No. 203, Pratima 2nd Stage, Bengaluru, Karnataka - 583004\", \"place_of_supply\": \"Karnataka\", \"reverse_charge\": false, \"irn\": null, \"line_items\": [{\"description\": \"Cotton Woven Fabric 44 inch Hand Bonded Register 200 Pages\", \"hsn_sac\": \"5208\", \"quantity\": 9.206, \"unit\": \"MTK\", \"unit_price\": 107.63, \"discount\": 1270.36, \"taxable_value\": 38.54, \"tax_rate\": 5}, {\"description\": \"GPC 33 Grade Cement 50kg Foam Mattress 72x36\", \"hsn_sac\": \"4821\", \"quantity\": 249, \"unit\": \"NOS\", \"unit_price\": 54.06, \"discount\": 13465.94, \"taxable_value\": 2423.96, \"tax_rate\": 18}, {\"description\": \"MS Fabricated Structure\", \"hsn_sac\": \"2523\", \"quantity\": 75, \"unit\": \"BAG\", \"unit_price\": 436.74, \"discount\": 20285.97, \"taxable_value\": 8280.83, \"tax_rate\": 28}, {\"description\": \"Instant Drink Premix\", \"hsn_sac\": \"7308\", \"quantity\": 5, \"unit\": \"NOS\", \"unit_price\": 577.46, \"discount\": 2887.3, \"taxable_value\": 1385.94, \"tax_rate\": 18}, {\"description\": \"Cotton Round Neck T-Shirt\", \"hsn_sac\": \"7308\", \"quantity\": 294.475, \"unit\": \"KGS\", \"unit_price\": 132.98, \"discount\": 2026.99, \"taxable_value\": 2667.89, \"tax_rate\": 18}, {\"description\": \"Radial Tyre 195 R15\", \"hsn_sac\": \"6109\", \"quantity\": 204, \"unit\": \"PCS\", \"unit_price\": 388.56, \"discount\": 66722.24, \"taxable_value\": 3486.36, \"tax_rate\": 5}, {\"description\": \"Multifunction Laser Printer\", \"hsn_sac\": \"4011\", \"quantity\": 4, \"unit\": \"NOS\", \"unit_price\": 8923.36, \"discount\": 22464.44, \"taxable_value\": 9070.59, \"tax_rate\": 18}, {\"description\": \"Mitsubishi Water Pump 1HP\", \"hsn_sac\": \"8443\", \"quantity\": 7, \"unit\": \"NOS\", \"unit_price\": 5764.36, \"discount\": 1754.39, \"taxable_value\": 5758.42, \"tax_rate\": 18}, {\"description\": \"Acacia CTC Tea Leaf\", \"hsn_sac\": \"8413\", \"quantity\": 1, \"unit\": \"NOS\", \"unit_price\": 6703.36, \"discount\": 6703.36, \"taxable_value\": 2030.61, \"tax_rate\": 18}, {\"description\": \"Chrome Sherrini 20cm\", \"hsn_sac\": \"0902\", \"quantity\": 294.532, \"unit\": \"KGS\", \"unit_price\": 247.72, \"discount\": 72960.24, \"taxable_value\": 2669.53, \"tax_rate\": 5}, {\"description\": \"Smartphone 4GB/16GB\", \"hsn_sac\": \"8517\", \"quantity\": 40, \"unit\": \"BOX\", \"unit_price\": 374.66, \"discount\": 14986.4, \"taxable_value\": 1074.65, \"tax_rate\": 18}, {\"description\": \"Eyelup Computer 15.6GB\", \"hsn_sac\": \"8471\", \"quantity\": 2, \"unit\": \"NOS\", \"unit_price\": 10266.55, \"discount\": 20533.1, \"taxable_value\": 2120.55, \"tax_rate\": 18}, {\"description\": \"Refined Sugar 5 kg\", \"hsn_sac\": \"1701\", \"quantity\": 1, \"unit\": \"MTR\", \"unit_price\": 1194.342, \"discount\": 43.36, \"taxable_value\": 1309.43, \"tax_rate\": 5}, {\"description\": \"Glazed Cotton Box 5 kg\", \"hsn_sac\": \"1701\", \"quantity\": 159.342, \"unit\": \"KGS\", \"unit_price\": 72.42, \"discount\": 30403.94, \"taxable_value\": 2784.36, \"tax_rate\": 5}, {\"description\": \"MS Hex Bolt with Nut M12\", \"hsn_sac\": \"4819\", \"quantity\": 356.342, \"unit\": \"KGS\", \"unit_price\": 75.3, \"discount\": 38383.56, \"taxable_value\": 345.86, \"tax_rate\": 18}, {\"description\": \"PVC Insulated Copper Cable 1.1m/m\", \"hsn_sac\": \"7318\", \"quantity\": 33, \"unit\": \"NOS\", \"unit_price\": 20.56, \"discount\": 4065.38, \"taxable_value\": 375.86, \"tax_rate\": 18}, {\"description\": \"Dakine Steel Cable Set\", \"hsn_sac\": \"8544\", \"quantity\": 22.522, \"unit\": \"MTR\", \"unit_price\": 160.36, \"discount\": 3602.07, \"taxable_value\": 1300.82, \"tax_rate\": 18}, {\"description\": \"Leather Packed Shoes\", \"hsn_sac\": \"8315\", \"quantity\": 13, \"unit\": \"SET\", \"unit_price\": 3024.04, \"discount\": 3929.84, \"taxable_value\": 1058.45, \"tax_rate\": 18}, {\"description\": \"Synthetic Enamel Paint 4L\", \"hsn_sac\": \"3208\", \"quantity\": 3, \"unit\": \"PRS\", \"unit_price\": 345.75, \"discount\": 3458.7, \"taxable_value\": 5217.29, \"tax_rate\": 18}, {\"description\": \"Toilet Brush C/S 4 Pc\", \"hsn_sac\": \"3406\", \"quantity\": 40, \"unit\": \"PCS\", \"unit_price\": 99.56, \"discount\": 2047.83, \"taxable_value\": 1737.82, \"tax_rate\": 18}, {\"description\": \"Office Workstation Table\", \"hsn_sac\": \"9403\", \"quantity\": 15, \"unit\": \"NOS\", \"unit_price\": 7041.3, \"discount\": 19757.36, \"taxable_value\": 418.78, \"tax_rate\": 18}, {\"description\": \"Russell Stoves Stoves 7x7\", \"hsn_sac\": \"9404\", \"quantity\": 11.244, \"unit\": \"KGS\", \"unit_price\": 7041.3, \"discount\": 19757.36, \"taxable_value\": 1150.56, \"tax_rate\": 18}, {\"description\": \"HDPE Packing Bag\", \"hsn_sac\": \"7323\", \"quantity\": 387.292, \"unit\": \"KGS\", \"unit_price\": 107.292, \"discount\": 34056.4, \"taxable_value\": 2822.86, \"tax_rate\": 18}], \"total_taxable_value\": 52227.42, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": null, \"amount_in_words\": null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2286,
+ "output_tokens": 1850,
+ "cached_input_tokens": 0,
+ "latency_s": 46.8392,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

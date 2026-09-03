@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00012__L3_harsh",
+ "doc_id": "lng00012",
+ "level": "L3_harsh",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Comme jenornseainags omere Chee Badia |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Comme jenornseainags omere Chee Badia |\nou Naoms_Mnsnnntins Cie east Oo \u00a2\nete TEED = 3) A\noa ae eo ther\n[siete fom Se [ne | ga est test\nJone Sian te ome nal Moy eal + sees ey pees ik\nRp a at\n+ hotel Sow tases ait fast | ee eee ted\nTutciiann Sunray 7 eas nos) ot bate Heme Sno\n| \u00a5 faves Sie ctmaes OA] ome TES PTT 4) Renmei, by Brieaal\ni yor 4 mee Evwiers: \u00a3t: 4\n| |e ieee tana af aT a aa al tea ck ae\n[i Meeeconn Lanwe Pome faa [eel Sit danart sive 4\nMei decd ances | Te) Galette iu) etal seta\n& geome te 19 Tati) postion eet pos ree\nbt eeatecehiendl fn oo eo ea ates Bless\nea a ae soa) sae! as\nPLS 8 tao swe My Tf Se ee a er)\n19 Ase 0 a a bond Genieadl bees ME NP) ea ae |\na - \"SS MST Maeee! wel ote q\ntal oct sel ere\n. rr \u201canit\n[ieanee \u2014 ene Oe \u00a5 ata)\nr= See Meta 1d Foe Eee Mentinet on tes tints 4\n: ; cs\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.9591,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 808,
+  "gstins_found": 0
+ }
+}

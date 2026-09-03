@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00002__L2_photo",
+ "doc_id": "lng00002",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-07-03",
+  "seller_name": "oe MAHAJAN & SONS",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1228156.20",
+  "cgst_amount": "94893.47",
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "oe MAHAJAN & SONS\n_ Plot No. 443, Udyog Vihar, Jodhpur - 311328 (Rajasthan)\n3 GSTIN : OBJIPGPM36922922 State Code : 08\nE \u2018TAX INVOICE\n\u201cM/s. Iyer Traders Limited Bill No. : KA9059\n* -Khasra No. 378, Okhla Phase I pate -: 03.07.2025\n- Udaipur. - 337628 R.C.M. + NO\nGSTIN : OSRWZPI8094R72ZD\nPlace of Supply : 08-Rajasthan\nca a\n| ; 3978.327\n1 | pvc Insulated Copper Cable 2.5sqmm MTR 42.37 168561.71|\n| 2 |roilet Soap 100g [zori ecs| 57-29 115210.19\n| 3 |office Workstation Table [8 Nos| @632.63| ~ 69061.04)\n| 4 [Laptop Computer i5 16GB | _1.Nos| $1413.19)  81413.19\n| 5 |Foam Mattress 72x36 [2 Nos| 6907.47 6907.47|\n|\n| \u00a2 |symenetic Enamel, Paint 4L os 585.75 3096.71|\n: | 7 [coreen Woven Fabric 44 inch seated 180.33 25137.04|\n; 9.904 |\nHDPE Packing, Bags KGS 164.11 1544.08)\n| 9 [Radial Tyre 195/65 R15 |_11 Nos| 5205.00 57255..00|\n| 10 [Hara Bound Register 200 Pages |__20 Nos| 93.48 1682.64 |\n| 11 [cotton Round Neck T-Shirt | 663 ecs| 372-70! 247100 .10|\n[12 [MS Hex Bolt with Nut M12 | 505 Nos| 40.85|  20216.66|\n| 13 [Detergent Powder 1kg fio19 pcs| 119-83] 122106.77|\n[14 |Leather Formal Shoes | _.1 Prs| 1288.06 1288.06|\n[15 [Monoblock Water Pump 1HP 33 NOS | 5352.27| 176624.91|\n| 16 |assan crc Tea Leaf 39 -7eg| > 2ii-t8 8394.83|\n| 17 |Paracetamol IP 650mg Tablets 29 Box]. _26-77| 776.33 |\n| 18 |Reeinea Sugar S-30 lone 42.55 1961.90)\n|\n| 19 |pesmats Rice (Broken 5%) ae 139.60 2343.47\\\n| 20 [Glucose Biscuits 200g 91 Box| _473-58| 43095.78|\n| 21 [Orc 53 Grade Cement 50kg 2: BAG 408.70 817.40|\n: | 22 |corrugated Carton Box 5-Ply | 769 Nos| 39-23 28659. 48)\n| 23 |r steel Bar Fe-500 12mm eat 60762.99| \u00a9 17742.79)\n| 24 |smartphone 6GB/128GB [1 nos| 26138.45 26138.45|\nAes |\n2 [ms Fabricated Structure eee |. 119.70 1020.20]\na Taxable Value 1228156.20\n=a el Add: CGST 94893.47\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3922,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1787,
+  "gstins_found": 0
+ }
+}

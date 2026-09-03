@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00001__L2_photo",
+ "doc_id": "lng00001",
+ "level": "L2_photo",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE Trivedi Polymers",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE Trivedi Polymers\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n45/11/2025 OBUFVPT9734P6ZA Rajasthan (08) \u2018No\nBILL TO sHiP TO\nAgarwal Engineering Works Agarwal Engineering Works\n: Unit No. 45, Ring Road, Udaipur, Rajasthan - 332695 Unit No. 45, Ring Road, Udaipur, Rajasthan - 332695\nGST NI\nOSEBECA346203Z1\n4 TMT St\u00e9el Bar Fe-500 12mm 7214 ee 53039.60 . 5303.96\n2 Office Workstation Table 9403 4NOS 8849.34 35397.36\n3. Cotton Round Neck T-Shirt 6109 42 PCS 291.75 412253.50\n4 Glucose Biscuits 2009 ie tebox sade 4080-88\n5 Hard Bound Register 200 Pages 4820 15NOS 404.70 4570.50\n6 Smartphone 6GB/128GB g517-11NOS 22404.39 246448.29\n7 Synthetic Enamel Paint 4L os 20467.96\n8 Radial Tyre 195/65 R15 4011. 13NOS 7233.29 94032.77\n9  HDPE:Packing Bags 3923 er 452.47 8064.90\n10 OPC 53 Grade Cement 50kg 2523 3 BAG 404.67 4214.01\n41. Cotton Woven Fabric 44 inch 5208 goes 177.53 4171.96\n4.460\n12 Assam CTC Tea Leaf 0902 KGS 384.03 504.61\n43 . Leather Formal Shoes e403. 7PRS 1719.70 42037.90\n44 Paracetamol IP 650mg Tablets 3004 ie 62.44 31469.76\n45 Detergent Powder 1kg 3402 .54PCS 165.56 940.24\n46 Laptop Computer i5 16GB 471: 1 NOS 76305.02 76305.02\n17 Stainless Steel Cutlery Set 8215 84 SET 242.32 20354.88\n48 Refined Sugar S-30 1701 we 51.94 7540.55\n49 PVC Insulated Copper Cable 2.5sqmm 544 ger 38.88  26682.45\n20 Multifunction Laser Printer 8443 43 NOS 20089.66 261165.58\n91 MS Hex Bolt with Nut M12 7318 42NOS\u00b0 33.68 1414.56\n22 Corrugated Carton Box 5-Ply 4819 36 NOS 75.60 2721.60\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.2306,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1501,
+  "gstins_found": 0
+ }
+}

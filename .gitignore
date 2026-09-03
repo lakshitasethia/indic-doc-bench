@@ -8,6 +8,13 @@ data/synthetic/pdf/
 data/synthetic/L*/
 data/real/
 !data/synthetic/manifest.json
+# Same rule for the long-table probe corpus: the manifest is the artifact,
+# the renders regenerate from its seeds via
+#   idb build --n 24 --out data/long_probe --prefix lng --seed0 90000 \
+#             --line-items 23 28 --corpus-version long-probe-v1
+data/long_probe/pdf/
+data/long_probe/L*/
+!data/long_probe/manifest.json
 # Raw model responses are NOT ignored -- they are the primary artifact and
 # re-running to recover them costs real money.
 .DS_Store

@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00015__L2_photo",
+ "doc_id": "lng00015",
+ "level": "L2_photo",
+ "template_id": "t04",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-01-08",
+  "seller_name": "e-Invoice \u2014 TAX INVOICE miners Se",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "e-Invoice \u2014 TAX INVOICE miners Se\nner enero ieee\n10000712828785 / 2026-01-08 eatet t\nno . Ltd. TAX-B-1\nDeore iy soneoe et ba Ome nino, 10, S008 conte hubaneswe, ecieeaek ba\n758648 Odisha 759832 \u20182026-01-08\n21HIXPCI965PBZA ure 21-- Odisha\nN\nSynthetic | |\n1 |Enamel 3208) 3.030/.LTR| 563.79 : von 18 153.75| 153.75] 2015.78\nPaint 4L | Bie ae\nape\nHDPE | ee\n2 |Packing \u2014_|3923/139.154|KGS| 132.53) ~| 18442.08/18/ 1659.79] 1659.79] 21761.66\n| Glucose | | | |\n3 Biscuits i905) 9)B0x) 227.31) ~| 2045.79/18) 184.12). 184.12/ 2414.03\n__|200g ees ee) ea [ee aie\n[Leather | 2a eae\n4 | Formal 16403) 3} PRS | peice \u201c| 5687.01/18) 511.83/ 511.83| 6710.67\nfs Shoes es lon ioe Merde ed\n| TMT Steel | BS | =\n5 /Bar Fe-500 |7214) 0.134/TON|52695.14/ -| 7061.15|18 635.50 8332.15\ndB ee Se ee LC ames\nCorrugated | } |\n6 |Carton Box |4819) 34/NOS| 32.48 - 99.39\npS ly fe ee \u2014\nHard Bound\n7 |Register 200 |4820 11)NOS| 116.18| \u201c| 1277.98/18] 115.02]. 115.02) 1508.02\n[Pages 2) ee\n|Cotton | | |\n| Woven | |\n8 | rabrieag . |5208| 11.334/MTR| 174.07 -| 1972.9115) 49.32 2071.55)\n| Paracetamol | | 1c\n|9|IP 650mg 3004, 9287}80x| 18,35 ~|170416.45/ 12/10224.99| 10224.99| 190866,43\n|Tablets |\n|. Muito ee\n10 ser Printer 6443 24]Nos|16012.54 7686.02 376614.94 18 |33895.34 33895.34|444405.62\n[24] oon ra (3401) id 45.05 J 27255.25| 18 2452.97 2452.97) 32161.19\n\u2014L_ Se pees a\n| |Cotton | | |\n12) Round Neck '6109! 21/PCs| \u201c194.33 -| 4080.93 102.02! 4284.97\nff eshit 2 ee\n|Monoblock | |\n|13|Water Pump (8413) 49/NOS| 7729.18 ~|378729.82| 18 34085.68) 34085.68) 446901. 18 i\n|1HP | |\nlS\n| |\n4 aes 1701) 75.735|KGs| 46.09 . 3490.63) 5 | 87.27; 87.27| 3665.17\nies a\" La \u2014\u2014_} |\n| Laptop | |\n|15|Computer is es 2/NOS/85272.39 170544.78| 18 15349.03/15349:03|201242.84\n[16GB\nee a \u2014\u2014\u2014\n| |Foam | i\n16/Mattress \\9404) 1/NOS'11408.25 11408.25/ 18) 1026.74) 1026.74] 13461.73\n\u2014172x36 |\n|17| Basmati |1006/594.038/KGS| 98.15 \"| $8304.83) 5 | 1457.62] 1457.62|-61220.07\n|Rice (Broken| :\n| | | |\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.8443,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1954,
+  "gstins_found": 0
+ }
+}

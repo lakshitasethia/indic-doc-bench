@@ -39,12 +39,22 @@ def sha256_file(p: pathlib.Path) -> str:
 
 
 def build_corpus(n: int, out_dir: pathlib.Path, levels: Optional[List[str]] = None,
-                 seed0: int = 10000, dpi_clean: int = 300) -> Dict:
+                 seed0: int = 10000, dpi_clean: int = 300,
+                 doc_prefix: str = "syn",
+                 line_count_range: Optional[tuple] = None,
+                 corpus_version: str = "v1") -> Dict:
     """Generate n invoices, render each, and produce every requested severity.
 
     Documents are assigned to templates round-robin so template is balanced by
     construction rather than by luck -- an unbalanced template mix would
     confound every per-template analysis downstream.
+
+    `doc_prefix`, `seed0` and `line_count_range` exist so a targeted probe can
+    be built as its OWN corpus rather than by editing an existing one. The
+    manifest is immutable by design (see the module docstring); a probe that
+    appended to it would silently invalidate every result already scored
+    against it. A distinct prefix also keeps `results/raw/` unambiguous, since
+    result files are keyed by document id alone.
     """
     levels = levels or LEVELS
     tids = template_ids()
@@ -56,8 +66,12 @@ def build_corpus(n: int, out_dir: pathlib.Path, levels: Optional[List[str]] = No
         for i in range(n):
             tid = tids[i % len(tids)]
             seed = seed0 + i
-            doc_id = "syn%05d" % i
-            record, ctx = generate_invoice(seed, tid)
+            doc_id = "%s%05d" % (doc_prefix, i)
+            forced = None
+            if line_count_range:
+                lo, hi = line_count_range
+                forced = lo + (i % (hi - lo + 1))   # even spread across the range
+            record, ctx = generate_invoice(seed, tid, force_line_count=forced)
             html = build_html(record, ctx, tid)
             pdf = out_dir / "pdf" / ("%s.pdf" % doc_id)
             R.render(html, pdf, None, dpi=dpi_clean)
@@ -86,7 +100,7 @@ def build_corpus(n: int, out_dir: pathlib.Path, levels: Optional[List[str]] = No
             })
 
     manifest = {
-        "corpus_version": "v1",
+        "corpus_version": corpus_version,
         "n_documents": len(docs),
         "levels": levels,
         "templates": tids,

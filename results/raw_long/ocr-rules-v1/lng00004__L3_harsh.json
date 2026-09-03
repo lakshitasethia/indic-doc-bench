@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00004__L3_harsh",
+ "doc_id": "lng00004",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Chowdhury Steet & Alloys ramen oe Seer",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Chowdhury Steet & Alloys ramen oe Seer\n\u2014 So \u20144\neter te Serees\nat Overvens Or Une en = =\nPog to, Bk OHO Laem ore Manpn Peasant bes Ferien 200 OC Cotte, hee\nOST MP BE AeA Pyeia of apety estes Pradeey fireman ange es\nae Sl ee ee eo od\n\u201cTica Sarina ob Commenaetaad Posiesety surze) tao) tases re igesda 77 th) Yonat ae stain\u201d eae Fa\n9 i Touran herve 9 Cues tnt Von\u201d verre\u2019 wrest) 6 Seat) weay) seakae\n| 4 [Ore retainers ant Seobeice: Rercies \u201ctome t wie alas ay smth 0S os | sasha Sore) Ssib a7\n# Rega Sercans of Ciseauien ant Penprerae wanrzi 3 mos soi? a an 4 fia i ee\n\u201c| 5 Comeneicns Srarang and Conniting tervcee woke) \u00a9 NOG 'ident Bi\u201d Wad SY\" teen \u201ce  Yemn ae\u201d Seni ob bei7s 30\ni) tt Tessses Wnoe soene Wineas se) 5.) phetoe! beatae Verses.ae\n[6 Teoma Yestortogy Covwtny Harctesouuiia | Mon\u201d Esau se\u201d CT Saot ie ie aaaeat\u201d anos\u201d sata? ae\n| |e lehman Tncirctgy Cremncnig Bewes \"[Weavia\u201d + NO\u201d e080 a6! \u2018Sie, ie tee? 10\" eat 0 Peres ig |\n{idl acalan ereingy Comecg bonnes \"| esis Visonrsn an?\" S purssgnt ta voskany Yash socre\n[91 Citar Peek wet Hetil Servants wepapy 1 Nc pertain i ee te ee)\n(Ser Paces wt Yow Sarenmn\u2019 one ihe essa! ton SES, SE SR\nMapa Serena ot Contents wnt Frye oiiis \"tis \"Sve ep [ease a! ee) a ems\nfi oie i ae eS a AE abt maha\n(Be Come : os pininh N eemat | eas PN) fete ee\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3667,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1295,
+  "gstins_found": 0
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00006__L3_harsh",
+ "doc_id": "lng00006",
+ "level": "L3_harsh",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "ee",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "ee\nSeton bores oe ugh \u201ca ae oe Pes\noP 89 Steamer Sng \u00aba Me oy id \u2018 sera 8\n2 Che Mreee ee be WOR tom we ase Me ee\n4 Seems Sey 25 ~ a 7% we eae\nic oo Fan a ae . ca '\nASS: Bet he Pet cae \u2018t3se \u00a2 ox soe gaan em * ie one\nloan ogy ty i wR) ay mS Me ime. mn\n* te Home ro ar eee aie ier Fe 8 2 non\n3 Meets Mew Pong oid gp NOS oom se BH 6 rset maar\u2019 Geese\nMonet maim ew\u201d ti cw ns ie sh WOM PH Teee! enna\nee an ence mi Oe OK Say\nBite Bia eae) sie tis 'ack\u201d sia etal er\nF: we Ratan tee ey ate ng ar WOH, 5 2. we ss nat\n7 aap. ae ob CTW. 4: He tain\n\u201c<page each Wms eine fe Manes\nJohan C7 No a PPG 36 Has wae SE, 51 6 0 Name\n2 \u2018wee ema\n* ro Ons ame\n: : tear neit\naot : ao 4\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7827,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 661,
+  "gstins_found": 0
+ }
+}

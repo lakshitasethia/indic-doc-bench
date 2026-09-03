@@ -24,7 +24,10 @@ DEFAULT_RAW = ROOT / "results" / "raw"
 
 
 def cmd_build(args):
-    m = C.build_corpus(args.n, pathlib.Path(args.out), levels=args.levels)
+    m = C.build_corpus(args.n, pathlib.Path(args.out), levels=args.levels,
+                       seed0=args.seed0, doc_prefix=args.prefix,
+                       line_count_range=tuple(args.line_items) if args.line_items else None,
+                       corpus_version=args.corpus_version)
     print("built %d documents x %d levels -> %s"
           % (m["n_documents"], len(m["levels"]), args.out))
     print("manifest sha256: %s" % m.get("manifest_sha256"))
@@ -244,6 +247,14 @@ def main(argv=None):
     b.add_argument("--n", type=int, default=30)
     b.add_argument("--out", default=str(DEFAULT_CORPUS))
     b.add_argument("--levels", nargs="*", default=LEVELS, choices=LEVELS)
+    b.add_argument("--prefix", default="syn",
+                   help="document id prefix; use a distinct one for a probe corpus "
+                        "so result files never collide with the main corpus")
+    b.add_argument("--seed0", type=int, default=10000)
+    b.add_argument("--line-items", nargs=2, type=int, metavar=("LO", "HI"),
+                   help="force line-item counts into [LO,HI] instead of the natural "
+                        "distribution, for probing the long-table regime (METHODOLOGY 8b)")
+    b.add_argument("--corpus-version", default="v1")
     b.set_defaults(func=cmd_build)
 
     v = sub.add_parser("verify", help="re-hash the corpus against its manifest")

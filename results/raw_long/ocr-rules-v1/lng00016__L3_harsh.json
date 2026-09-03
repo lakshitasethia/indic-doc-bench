@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00016__L3_harsh",
+ "doc_id": "lng00016",
+ "level": "L3_harsh",
+ "template_id": "t05",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "pao Agencies Listed . -",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "pao Agencies Listed . -\neens ci ee\nest Tn cont Hh tee, aeove eee\n1 ee Sole, a * . 7 \u201c\n5 Poecemenn \u00a9 wbiere See bs ae a 4\n+ Cee oe ae \u201c \u201c te * \u201c - ? F\no epescmn ee t \u201c a tune \u201c . or\nie rane wet at es o ine \u2122 .\n4 menee ee xy wae ao a a oe\nigsee mares tS sie aor\u201d \u2018a anne SE > weer\ney ieee Ove PO zee ee aK ye = we vues\n\u00e9 [fanewe come 25 = a ee ray, meee ee eee pet\nae aa eet ee \u201ce Gait, \u00a9 |e oe ae\niene Poe : wa nw we Qe seh weree wee\niain ere oo 8 soars or eee, pte wn ee\nsee ween oe a mn eee eS cae ee\nnme ere oer iia, Ces 3 gaa se eT wee\na Corio tote ter * aac ne os caaae 01 tee ae, oe\n= en on oN rt) ee. Beet wa 2S an 5\nAra Tatas ea i pa ee ce an ait\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.969,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 654,
+  "gstins_found": 0
+ }
+}

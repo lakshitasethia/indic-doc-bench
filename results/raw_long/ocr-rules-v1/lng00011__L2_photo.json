@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00011__L2_photo",
+ "doc_id": "lng00011",
+ "level": "L2_photo",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/5141",
+  "invoice_date": "2025-09-01",
+  "seller_name": "\u2018Document Type TAX INVOICE \u2018invoice No 2025-26/5141",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": "4.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "\u2018Document Type TAX INVOICE \u2018invoice No 2025-26/5141\nSupplier ___Sethi Solutions : : \u201cInvoice Date 01-09-2025\nSupplier GSTIN |_23EGOPSB363N2ZB i Terms Cash\nSupplier Address \u2018Pei No. 86, Kabadew Road, bau; Madhye Pradesh 42005\nRecipient \u201cMahajan Technologies Limited : Recipient GSTIN | 23ITIPM0293C72N\nRecipient Address rey No. 378, GIDC Estate, Jabalpur, Madhya Pradesh - 486910 Place of Supply Madhya Pradesh\n\u201cReverse Charge No Currency INR\n[Tine | peserizcion HEN -SAC _ Qty \u201cUQC. Unit_Price Discount Taxable_Value Tax Rate GST_Amt SGST_Amt Line_Totai_\nCotton\n4 Round Neck 6109 323'PCS \u00ab221.36 \u00ab(0.00 7149.28 5 . 1787.48 1787.48 75074.24\n4 TShirt\nLaptop\n2 Computer iS 8471 2.NOS 5576.25 0.00 111552.50 48 10039.73 1039.73 131631.96\n16GB\nMS Hex Bolt\n3 withNut 7318 157 NOS 32.26 0.00 5064.82 48; 455.83} 455.83) $976.48\nM12\nOPC 53\n4 peal 2523 405 BAG \u00a9 445.60 \u2014-0.00 180468.00 28 25265.52,  25265.52 230999.04\n50kg\nOffice\n5 Workstation. 9403 8 NOS 10788.92 0.00 86311.36 18 -7768.02 7768.02, 101847.40\nTable\nLeather\n6 Formal 6403 1 PRS 1568.68 (0.00 1558.68 48 140.28 \u00ab= 140.28, 1839.24\nShoes\nParacetamol\n7 \\P650mg- 3004 4629 BOX 54.40 25181.76 _ 226635.84 42. 13598.15  13598.15 253832.14\nTablets\nDetergent\n8 | poeddor akg (no 27 PCS. 150.57 0.00 4065.39 18 366.89 \u00ab365.89 4797.17\nFoam\n9 Mattress 9404 1:.NOS 7999.87 0.00 7999.87 48 -719.99- \u00ab719.99, 9439.85\n72x36\n10 plese 2106 439 PCS. 111.75 (0.00 15633.25 18 \u00a9 1397.99 1397.99 18329.23\nSynthetic\n41 Enamel 3208 49.028 LTR. 625.23 0.00 30653.78 48 2758.84 \u00ab2758.84 3671.46\nPaint 4L\nCotton\nae beni 5208 239.381 MTR 108.96 (0.00 26082.95 5 652.07, 652.07 27387.09\nFabric 44 : : 3 ts s : \u2018\ninch\nTE reba ad 3s PCS 3226 0.00 1129.10 4101.62, 101.62, 1332.34\npvc\nInsulated\n14 Copper 8544 8.204. MTR 66.89 0.00 548.77 18 49.39 49.39 647.55\nCable\n2.5sqmm\nStainless\n15 Steel 8215 4 SET 580.33, (0.00 2321.32 18... 20892 208.92, 2739.16\nCutlery Set\nHOPE\n16 Packing 3923 54.973 KGS 156.93 0.00 8626.91 18 77642 \u00ab\u00a9=\u2014-776.42-\u00ab10179.75\ngs\nHard Bound\n17 Register 4820 108 NOS 56.11 302.99 5756.89 18 518.12. $18.12 6793.13\n200 Pages\n4g Refined 4701 246873. KGS, 38.17 (0.00 9423.14 5 3558 235.5\nSugar S-30 5 ; 2 58 9894.30\nGlucose\n19 ecu 1905 5 BOX 416.07 _ 0.00 2080.35 ig \u00ab187.23, -\u2014\u00ab:*187.23,\u2014\u00ab 2454.81\n200g\n20 Rogie 0902 124.835 KGS 295.48 3688.63 33197.62 5 829.94 829.94 34857.50\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.7388,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2326,
+  "gstins_found": 0
+ }
+}

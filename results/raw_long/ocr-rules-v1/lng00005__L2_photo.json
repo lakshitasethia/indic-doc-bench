@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00005__L2_photo",
+ "doc_id": "lng00005",
+ "level": "L2_photo",
+ "template_id": "t06",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "INVOICE",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "INVOICE\nMenon Industries LLP Menon Marketing SAGs\nRajasthan Rajasthan a7 August 2025\nPLACE OF SUPPLY\nO8BVFPM5176W5ZA O8DGTFM7160H7Z7 Rajasthan\nt QT RATE GST AMOUNT\nMS Hex Bolt with Nut M12 7318 85 NOS 24.02 18% 2041.70\nHard Bound Register 200 Pages 4820 11 NOS 67.24 18% 739.64\nBasmati Rice (Broken 5%) 1006 28.744KGS 73.28 5% 2106.36\nCorrugated Carton Box 5-Ply 4819 17 NOS 31.54 18% 536.18\nFoam Mattress 72x36 9404 19NOS 9063.47 18% 172205.93\nAssam CTC Tea Leaf 0902 3.892KGS | 306.28 5% 1072.84\nMonoblock Water Pump 1HP 8413 1NOS. 5927.97 18% 5927.97\nGlucose Biscuits 200g 1905 55BOX 317.29 18%  17450.95\nOPC 53 Grade Cement 50kg 2523 5BAG 362.99 28% 1814.95\nMultifunction Laser Printer 8443 1NOS 26732.52 18% 26197.87\nInstant Drink Premix 2106 389 PCS 233.18 18% 90707.02\nParacetamol IP 650mg Tablets 3004 136 BOX 57.92 12% 7877.12\nStainless Steel Cutlery Set 8215 255SET 361.09 18%  92077.95\nLeather Formal Shoes 6403 1PRS 2035.00 18% 2035.00\nHDPE Packing Bags 3923 6.266 KGS 126.97 18% 795.59\nMS Fabricated Structure 7308 ~ 19.411 KGS 84.25 18% 1635.38\nTMT Steel Bar Fe-500 12mm 7214 0.100 TON -51365.31 18% 5136.53\nPVC Insulated Copper Cable 2.5sqmm 8544 11.278 MTR 57.94 18% 588.10\nSynthetic Enamel Paint 4L 3208 3.554 LTR 387.10 18% 1348.23\nRefined Sugar S-30 1701 550.413 KGS 38.94 . 5% 21433.08\nDetergent Powder 1kg 3402 130 PCS 152.54 18%  19830.20\nCotton Woven Fabric 44 inch 5208 24,649 MTR 195.07 5% 4808.28\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.0484,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1423,
+  "gstins_found": 0
+ }
+}

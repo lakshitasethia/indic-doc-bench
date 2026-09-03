@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00019__L0_clean",
+ "doc_id": "lng00019",
+ "level": "L0_clean",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "5269",
+  "invoice_date": "2025-08-02",
+  "seller_name": "Rao Distributors .",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Rao Distributors .\n\nGala No. 161, MIDC Phase II, Cuttack ase. / Invoice No. 5269\n\nOdisha - 763059 fexie / Date 02/08/2025\n\nxa / Buyer: Chowdhury Industries LLP\n\nKhasra No. 166, MG Road, Bengaluru, Karnataka - 585850\n)emetmon | || ae | sae fem]\nfe fTatetsoaptoog =i aon | estes] 9s6| aaa] 10 | Toei36\nPe lradiattreresismis (aon \u00a2nos)_sasaes| zor] 26 | sass30\nfe [assum cTCTeateat _\u2014_\u2014(os0a| asoep xcs) _asae] eoaazal 5 | _serte\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 0.7896,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 427,
+  "gstins_found": 0
+ }
+}

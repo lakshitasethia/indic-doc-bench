@@ -1,0 +1,199 @@
+{
+ "variant_id": "lng00022__L3_harsh",
+ "doc_id": "lng00022",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Chauhan Enterprises Private Limited",
+  "seller_gstin": null,
+  "seller_address": "Plot No.205, 60ft ROAD, Sector-58, Ballabhgarh-121004",
+  "buyer_name": "Nirmaan Polyservices Limited",
+  "buyer_gstin": null,
+  "buyer_address": "Plot No. 80, CDB, 60036, FARIDABAD-121003",
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Hand Bound Register 200 Pages",
+    "hsn_sac": "4820",
+    "quantity": 937,
+    "unit": "NOS",
+    "unit_price": 57.53,
+    "discount": null,
+    "taxable_value": 53889.61,
+    "tax_rate": 18
+   },
+   {
+    "description": "Leather Duster",
+    "hsn_sac": "6403",
+    "quantity": 3,
+    "unit": "PCS",
+    "unit_price": 1635.7,
+    "discount": null,
+    "taxable_value": 4907.1,
+    "tax_rate": 18
+   },
+   {
+    "description": "OPC 53 Grade Cement 50kg",
+    "hsn_sac": "2523",
+    "quantity": 3,
+    "unit": "BAG",
+    "unit_price": 384.93,
+    "discount": null,
+    "taxable_value": 1154.91,
+    "tax_rate": 28
+   },
+   {
+    "description": "Detergent Powder 1kg",
+    "hsn_sac": "3402",
+    "quantity": 33,
+    "unit": "PCS",
+    "unit_price": 121.96,
+    "discount": null,
+    "taxable_value": 2800.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Choline Biscuits 200g",
+    "hsn_sac": "1905",
+    "quantity": 13,
+    "unit": "BOX",
+    "unit_price": 358.55,
+    "discount": null,
+    "taxable_value": 4661.15,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Woven Fabric 44 inch",
+    "hsn_sac": "5208",
+    "quantity": 1108.065,
+    "unit": "MTR",
+    "unit_price": 152.36,
+    "discount": null,
+    "taxable_value": 168834.18,
+    "tax_rate": 5
+   },
+   {
+    "description": "Office Workstation Table",
+    "hsn_sac": "9403",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 12558.79,
+    "discount": null,
+    "taxable_value": 25117.58,
+    "tax_rate": 18
+   },
+   {
+    "description": "PVC Insulated Copper Cable 2.5sqmm",
+    "hsn_sac": "8544",
+    "quantity": 12.28,
+    "unit": "MTR",
+    "unit_price": 55.0,
+    "discount": null,
+    "taxable_value": 675.4,
+    "tax_rate": 18
+   },
+   {
+    "description": "Radial Tyre 195/65 R15",
+    "hsn_sac": "4011",
+    "quantity": 31,
+    "unit": "NOS",
+    "unit_price": 7757.66,
+    "discount": null,
+    "taxable_value": 216438.71,
+    "tax_rate": 28
+   },
+   {
+    "description": "Toilet Soap 100g",
+    "hsn_sac": "3401",
+    "quantity": 795,
+    "unit": "PCS",
+    "unit_price": 46.78,
+    "discount": null,
+    "taxable_value": 36722.3,
+    "tax_rate": 18
+   },
+   {
+    "description": "Cotton Round Neck T-Shirt",
+    "hsn_sac": "6109",
+    "quantity": 1046,
+    "unit": "PCS",
+    "unit_price": 340.9,
+    "discount": null,
+    "taxable_value": 356303.2,
+    "tax_rate": 5
+   },
+   {
+    "description": "Corrugated Cardon Box 5 Ply",
+    "hsn_sac": "4819",
+    "quantity": 112,
+    "unit": "NOS",
+    "unit_price": 48.78,
+    "discount": null,
+    "taxable_value": 5575.36,
+    "tax_rate": 18
+   },
+   {
+    "description": "HDPE Picking Bags",
+    "hsn_sac": "3923",
+    "quantity": 7140,
+    "unit": "KGS",
+    "unit_price": 132.47,
+    "discount": null,
+    "taxable_value": 945.86,
+    "tax_rate": 18
+   },
+   {
+    "description": "Refined Sugar S-30",
+    "hsn_sac": "1701",
+    "quantity": 39.326,
+    "unit": "KGS",
+    "unit_price": 40.1,
+    "discount": null,
+    "taxable_value": 1576.97,
+    "tax_rate": 5
+   },
+   {
+    "description": "Laptop Computer i5 15.6\"",
+    "hsn_sac": "8471",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 54857.12,
+    "discount": null,
+    "taxable_value": 548571.2,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":null,\"invoice_date\":null,\"seller_name\":\"Chauhan Enterprises Private Limited\",\"seller_gstin\":null,\"seller_address\":\"Plot No.205, 60ft ROAD, Sector-58, Ballabhgarh-121004\",\"buyer_name\":\"Nirmaan Polyservices Limited\",\"buyer_gstin\":null,\"buyer_address\":\"Plot No. 80, CDB, 60036, FARIDABAD-121003\",\"place_of_supply\":null,\"reverse_charge\":null,\"irn\":null,\"line_items\":[{\"description\":\"Hand Bound Register 200 Pages\",\"hsn_sac\":\"4820\",\"quantity\":937,\"unit\":\"NOS\",\"unit_price\":57.53,\"discount\":null,\"taxable_value\":53889.61,\"tax_rate\":18},{\"description\":\"Leather Duster\",\"hsn_sac\":\"6403\",\"quantity\":3,\"unit\":\"PCS\",\"unit_price\":1635.70,\"discount\":null,\"taxable_value\":4907.10,\"tax_rate\":18},{\"description\":\"OPC 53 Grade Cement 50kg\",\"hsn_sac\":\"2523\",\"quantity\":3,\"unit\":\"BAG\",\"unit_price\":384.93,\"discount\":null,\"taxable_value\":1154.91,\"tax_rate\":28},{\"description\":\"Detergent Powder 1kg\",\"hsn_sac\":\"3402\",\"quantity\":33,\"unit\":\"PCS\",\"unit_price\":121.96,\"discount\":null,\"taxable_value\":2800.06,\"tax_rate\":18},{\"description\":\"Choline Biscuits 200g\",\"hsn_sac\":\"1905\",\"quantity\":13,\"unit\":\"BOX\",\"unit_price\":358.55,\"discount\":null,\"taxable_value\":4661.15,\"tax_rate\":18},{\"description\":\"Cotton Woven Fabric 44 inch\",\"hsn_sac\":\"5208\",\"quantity\":1108.065,\"unit\":\"MTR\",\"unit_price\":152.36,\"discount\":null,\"taxable_value\":168834.18,\"tax_rate\":5},{\"description\":\"Office Workstation Table\",\"hsn_sac\":\"9403\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":12558.79,\"discount\":null,\"taxable_value\":25117.58,\"tax_rate\":18},{\"description\":\"PVC Insulated Copper Cable 2.5sqmm\",\"hsn_sac\":\"8544\",\"quantity\":12.280,\"unit\":\"MTR\",\"unit_price\":55.00,\"discount\":null,\"taxable_value\":675.40,\"tax_rate\":18},{\"description\":\"Radial Tyre 195/65 R15\",\"hsn_sac\":\"4011\",\"quantity\":31,\"unit\":\"NOS\",\"unit_price\":7757.66,\"discount\":null,\"taxable_value\":216438.71,\"tax_rate\":28},{\"description\":\"Toilet Soap 100g\",\"hsn_sac\":\"3401\",\"quantity\":795,\"unit\":\"PCS\",\"unit_price\":46.78,\"discount\":null,\"taxable_value\":36722.30,\"tax_rate\":18},{\"description\":\"Cotton Round Neck T-Shirt\",\"hsn_sac\":\"6109\",\"quantity\":1046,\"unit\":\"PCS\",\"unit_price\":340.90,\"discount\":null,\"taxable_value\":356303.20,\"tax_rate\":5},{\"description\":\"Corrugated Cardon Box 5 Ply\",\"hsn_sac\":\"4819\",\"quantity\":112,\"unit\":\"NOS\",\"unit_price\":48.78,\"discount\":null,\"taxable_value\":5575.36,\"tax_rate\":18},{\"description\":\"HDPE Picking Bags\",\"hsn_sac\":\"3923\",\"quantity\":7140,\"unit\":\"KGS\",\"unit_price\":132.47,\"discount\":null,\"taxable_value\":945.86,\"tax_rate\":18},{\"description\":\"Refined Sugar S-30\",\"hsn_sac\":\"1701\",\"quantity\":39.326,\"unit\":\"KGS\",\"unit_price\":40.10,\"discount\":null,\"taxable_value\":1576.97,\"tax_rate\":5},{\"description\":\"Laptop Computer i5 15.6\\\"\",\"hsn_sac\":\"8471\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":54857.12,\"discount\":null,\"taxable_value\":548571.2,\"tax_rate\":18}],\"total_taxable_value\":null,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":null,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2375,
+ "output_tokens": 960,
+ "cached_input_tokens": 0,
+ "latency_s": 16.0332,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "variant_id": "lng00014__L3_harsh",
+ "doc_id": "lng00014",
+ "level": "L3_harsh",
+ "template_id": "t03",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "BANERJEE INDUSTRIES",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "total_taxable_value": 1021063.95,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null,
+  "line_items": [
+   {
+    "description": "Plate M.S. (Cutting) Copper Cable 2.5sq.mm",
+    "hsn_sac": null,
+    "quantity": 715.65,
+    "unit": "KGS",
+    "unit_price": 33.06,
+    "discount": null,
+    "taxable_value": 23682.06,
+    "tax_rate": null
+   },
+   {
+    "description": "Galvanized Earth Flat 65",
+    "hsn_sac": null,
+    "quantity": 10.475,
+    "unit": "KGS",
+    "unit_price": 630.66,
+    "discount": null,
+    "taxable_value": 6605.66,
+    "tax_rate": null
+   },
+   {
+    "description": "Chequered Plate (Sizewise 6ft)",
+    "hsn_sac": null,
+    "quantity": 703.975,
+    "unit": "KGS",
+    "unit_price": 122.27,
+    "discount": null,
+    "taxable_value": 81524.65,
+    "tax_rate": null
+   },
+   {
+    "description": "M.S. Fabrication Structural",
+    "hsn_sac": null,
+    "quantity": 6.156,
+    "unit": "KGS",
+    "unit_price": 290.33,
+    "discount": null,
+    "taxable_value": 1782.06,
+    "tax_rate": null
+   },
+   {
+    "description": "Cattle Guard Steel 5x10ft",
+    "hsn_sac": null,
+    "quantity": 18.695,
+    "unit": "KGS",
+    "unit_price": 283.32,
+    "discount": null,
+    "taxable_value": 3769.95,
+    "tax_rate": null
+   },
+   {
+    "description": "HRC Steel Bar Fe-500 12mm",
+    "hsn_sac": null,
+    "quantity": 9.764,
+    "unit": "TONS",
+    "unit_price": 4264.26,
+    "discount": null,
+    "taxable_value": 41638.91,
+    "tax_rate": null
+   },
+   {
+    "description": "M.S. Chequered Plate (4x8) 2nd cutter",
+    "hsn_sac": null,
+    "quantity": 6.908,
+    "unit": "TONS",
+    "unit_price": 37272.72,
+    "discount": null,
+    "taxable_value": 121954.95,
+    "tax_rate": null
+   },
+   {
+    "description": "C.I. Manhole Cover 12.5ton",
+    "hsn_sac": null,
+    "quantity": 1.0,
+    "unit": "NOS",
+    "unit_price": 66672.0,
+    "discount": null,
+    "taxable_value": 66672.0,
+    "tax_rate": null
+   },
+   {
+    "description": "M.S. Hex Bolt with Nut M16",
+    "hsn_sac": null,
+    "quantity": 16.905,
+    "unit": "KGS",
+    "unit_price": 28.06,
+    "discount": null,
+    "taxable_value": 474.34,
+    "tax_rate": null
+   },
+   {
+    "description": "Perforated Section 250 - Fe460",
+    "hsn_sac": null,
+    "quantity": 12.908,
+    "unit": "KGS",
+    "unit_price": 90.0,
+    "discount": null,
+    "taxable_value": 1161.72,
+    "tax_rate": null
+   },
+   {
+    "description": "Perforated GI Siting Angle",
+    "hsn_sac": null,
+    "quantity": 416.908,
+    "unit": "KGS",
+    "unit_price": 65.06,
+    "discount": null,
+    "taxable_value": 60615.66,
+    "tax_rate": null
+   },
+   {
+    "description": "Stainless Steel Cutlery Set",
+    "hsn_sac": null,
+    "quantity": 227.005,
+    "unit": "PCS",
+    "unit_price": 288.9,
+    "discount": null,
+    "taxable_value": 30861.95,
+    "tax_rate": null
+   },
+   {
+    "description": "Ferrofixative Gutter Bolts",
+    "hsn_sac": null,
+    "quantity": 42.905,
+    "unit": "PCS",
+    "unit_price": 73.44,
+    "discount": null,
+    "taxable_value": 1069.28,
+    "tax_rate": null
+   },
+   {
+    "description": "Instant Gount Punch",
+    "hsn_sac": null,
+    "quantity": 10.908,
+    "unit": "PCS",
+    "unit_price": 220.01,
+    "discount": null,
+    "taxable_value": 2540.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Barium Sulphate",
+    "hsn_sac": null,
+    "quantity": 87.733,
+    "unit": "KGS",
+    "unit_price": 41.06,
+    "discount": null,
+    "taxable_value": 1797.58,
+    "tax_rate": null
+   },
+   {
+    "description": "Copper Sheet Plates 65 sq.mm",
+    "hsn_sac": null,
+    "quantity": 137.155,
+    "unit": "MTR",
+    "unit_price": 121.33,
+    "discount": null,
+    "taxable_value": 12205.2,
+    "tax_rate": null
+   },
+   {
+    "description": "Truck Wheel 13mtg",
+    "hsn_sac": null,
+    "quantity": 2.908,
+    "unit": "NOS",
+    "unit_price": 28.55,
+    "discount": null,
+    "taxable_value": 73.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Aluminium GDR/2.5MM",
+    "hsn_sac": null,
+    "quantity": 5.908,
+    "unit": "KGS",
+    "unit_price": 23142.66,
+    "discount": null,
+    "taxable_value": 12628.06,
+    "tax_rate": null
+   },
+   {
+    "description": "WPC Flooring Josses",
+    "hsn_sac": null,
+    "quantity": 1075.405,
+    "unit": "BOX",
+    "unit_price": 58.32,
+    "discount": null,
+    "taxable_value": 252600.9,
+    "tax_rate": null
+   },
+   {
+    "description": "Pum Washers 75x95",
+    "hsn_sac": null,
+    "quantity": 5.0,
+    "unit": "NOS",
+    "unit_price": 11278.2,
+    "discount": null,
+    "taxable_value": 56391.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Hose-Clip Water Pump BSP",
+    "hsn_sac": null,
+    "quantity": 3.908,
+    "unit": "PCS",
+    "unit_price": 3482.9,
+    "discount": null,
+    "taxable_value": 39000.34,
+    "tax_rate": null
+   },
+   {
+    "description": "Repair WDG-1.5 Towel",
+    "hsn_sac": null,
+    "quantity": 67.184,
+    "unit": "PCS",
+    "unit_price": 316.3,
+    "discount": null,
+    "taxable_value": 74987.03,
+    "tax_rate": null
+   },
+   {
+    "description": "Circular Sawing 2x04",
+    "hsn_sac": null,
+    "quantity": 9.0,
+    "unit": "PCS",
+    "unit_price": 390.45,
+    "discount": null,
+    "taxable_value": 90441.86,
+    "tax_rate": null
+   },
+   {
+    "description": "Leather Panel Shoes",
+    "hsn_sac": null,
+    "quantity": 474.786,
+    "unit": "PRS",
+    "unit_price": 444.73,
+    "discount": null,
+    "taxable_value": 58034.0,
+    "tax_rate": null
+   },
+   {
+    "description": "Aluminium Pouches",
+    "hsn_sac": null,
+    "quantity": 17.853,
+    "unit": "KGS",
+    "unit_price": 16.12,
+    "discount": null,
+    "taxable_value": 289.05,
+    "tax_rate": null
+   }
+  ]
+ },
+ "raw": "{\"invoice_number\": null, \"invoice_date\": null, \"seller_name\": \"BANERJEE INDUSTRIES\", \"seller_gstin\": null, \"seller_address\": null, \"buyer_name\": null, \"buyer_gstin\": null, \"buyer_address\": null, \"place_of_supply\": null, \"reverse_charge\": null, \"irn\": null, \"total_taxable_value\": 1021063.95, \"cgst_amount\": null, \"sgst_amount\": null, \"igst_amount\": null, \"cess_amount\": null, \"round_off\": null, \"grand_total\": null, \"amount_in_words\": null, \"line_items\": [{\"description\": \"Plate M.S. (Cutting) Copper Cable 2.5sq.mm\", \"hsn_sac\": null, \"quantity\": 715.65, \"unit\": \"KGS\", \"unit_price\": 33.06, \"discount\": null, \"taxable_value\": 23682.06, \"tax_rate\": null}, {\"description\": \"Galvanized Earth Flat 65\", \"hsn_sac\": null, \"quantity\": 10.475, \"unit\": \"KGS\", \"unit_price\": 630.66, \"discount\": null, \"taxable_value\": 6605.66, \"tax_rate\": null}, {\"description\": \"Chequered Plate (Sizewise 6ft)\", \"hsn_sac\": null, \"quantity\": 703.975, \"unit\": \"KGS\", \"unit_price\": 122.27, \"discount\": null, \"taxable_value\": 81524.65, \"tax_rate\": null}, {\"description\": \"M.S. Fabrication Structural\", \"hsn_sac\": null, \"quantity\": 6.156, \"unit\": \"KGS\", \"unit_price\": 290.33, \"discount\": null, \"taxable_value\": 1782.06, \"tax_rate\": null}, {\"description\": \"Cattle Guard Steel 5x10ft\", \"hsn_sac\": null, \"quantity\": 18.695, \"unit\": \"KGS\", \"unit_price\": 283.32, \"discount\": null, \"taxable_value\": 3769.95, \"tax_rate\": null}, {\"description\": \"HRC Steel Bar Fe-500 12mm\", \"hsn_sac\": null, \"quantity\": 9.764, \"unit\": \"TONS\", \"unit_price\": 4264.26, \"discount\": null, \"taxable_value\": 41638.91, \"tax_rate\": null}, {\"description\": \"M.S. Chequered Plate (4x8) 2nd cutter\", \"hsn_sac\": null, \"quantity\": 6.908, \"unit\": \"TONS\", \"unit_price\": 37272.72, \"discount\": null, \"taxable_value\": 121954.95, \"tax_rate\": null}, {\"description\": \"C.I. Manhole Cover 12.5ton\", \"hsn_sac\": null, \"quantity\": 1.000, \"unit\": \"NOS\", \"unit_price\": 66672.00, \"discount\": null, \"taxable_value\": 66672.00, \"tax_rate\": null}, {\"description\": \"M.S. Hex Bolt with Nut M16\", \"hsn_sac\": null, \"quantity\": 16.905, \"unit\": \"KGS\", \"unit_price\": 28.06, \"discount\": null, \"taxable_value\": 474.34, \"tax_rate\": null}, {\"description\": \"Perforated Section 250 - Fe460\", \"hsn_sac\": null, \"quantity\": 12.908, \"unit\": \"KGS\", \"unit_price\": 90.00, \"discount\": null, \"taxable_value\": 1161.72, \"tax_rate\": null}, {\"description\": \"Perforated GI Siting Angle\", \"hsn_sac\": null, \"quantity\": 416.908, \"unit\": \"KGS\", \"unit_price\": 65.06, \"discount\": null, \"taxable_value\": 60615.66, \"tax_rate\": null}, {\"description\": \"Stainless Steel Cutlery Set\", \"hsn_sac\": null, \"quantity\": 227.005, \"unit\": \"PCS\", \"unit_price\": 288.90, \"discount\": null, \"taxable_value\": 30861.95, \"tax_rate\": null}, {\"description\": \"Ferrofixative Gutter Bolts\", \"hsn_sac\": null, \"quantity\": 42.905, \"unit\": \"PCS\", \"unit_price\": 73.44, \"discount\": null, \"taxable_value\": 1069.28, \"tax_rate\": null}, {\"description\": \"Instant Gount Punch\", \"hsn_sac\": null, \"quantity\": 10.908, \"unit\": \"PCS\", \"unit_price\": 220.01, \"discount\": null, \"taxable_value\": 2540.00, \"tax_rate\": null}, {\"description\": \"Barium Sulphate\", \"hsn_sac\": null, \"quantity\": 87.733, \"unit\": \"KGS\", \"unit_price\": 41.06, \"discount\": null, \"taxable_value\": 1797.58, \"tax_rate\": null}, {\"description\": \"Copper Sheet Plates 65 sq.mm\", \"hsn_sac\": null, \"quantity\": 137.155, \"unit\": \"MTR\", \"unit_price\": 121.33, \"discount\": null, \"taxable_value\": 12205.20, \"tax_rate\": null}, {\"description\": \"Truck Wheel 13mtg\", \"hsn_sac\": null, \"quantity\": 2.908, \"unit\": \"NOS\", \"unit_price\": 28.55, \"discount\": null, \"taxable_value\": 73.00, \"tax_rate\": null}, {\"description\": \"Aluminium GDR/2.5MM\", \"hsn_sac\": null, \"quantity\": 5.908, \"unit\": \"KGS\", \"unit_price\": 23142.66, \"discount\": null, \"taxable_value\": 12628.06, \"tax_rate\": null}, {\"description\": \"WPC Flooring Josses\", \"hsn_sac\": null, \"quantity\": 1075.405, \"unit\": \"BOX\", \"unit_price\": 58.32, \"discount\": null, \"taxable_value\": 252600.90, \"tax_rate\": null}, {\"description\": \"Pum Washers 75x95\", \"hsn_sac\": null, \"quantity\": 5.000, \"unit\": \"NOS\", \"unit_price\": 11278.20, \"discount\": null, \"taxable_value\": 56391.00, \"tax_rate\": null}, {\"description\": \"Hose-Clip Water Pump BSP\", \"hsn_sac\": null, \"quantity\": 3.908, \"unit\": \"PCS\", \"unit_price\": 3482.90, \"discount\": null, \"taxable_value\": 39000.34, \"tax_rate\": null}, {\"description\": \"Repair WDG-1.5 Towel\", \"hsn_sac\": null, \"quantity\": 67.184, \"unit\": \"PCS\", \"unit_price\": 316.30, \"discount\": null, \"taxable_value\": 74987.03, \"tax_rate\": null}, {\"description\": \"Circular Sawing 2x04\", \"hsn_sac\": null, \"quantity\": 9.000, \"unit\": \"PCS\", \"unit_price\": 390.45, \"discount\": null, \"taxable_value\": 90441.86, \"tax_rate\": null}, {\"description\": \"Leather Panel Shoes\", \"hsn_sac\": null, \"quantity\": 474.786, \"unit\": \"PRS\", \"unit_price\": 444.73, \"discount\": null, \"taxable_value\": 58034.00, \"tax_rate\": null}, {\"description\": \"Aluminium Pouches\", \"hsn_sac\": null, \"quantity\": 17.853, \"unit\": \"KGS\", \"unit_price\": 16.12, \"discount\": null, \"taxable_value\": 289.05, \"tax_rate\": null}]}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 2286,
+ "output_tokens": 1810,
+ "cached_input_tokens": 0,
+ "latency_s": 40.7252,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

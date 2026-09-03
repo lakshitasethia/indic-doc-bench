@@ -61,6 +61,13 @@ brew install tesseract          # only for the OCR+rules baseline
 `results/review_queue.csv` — a stratified sample of the errors the classifier
 could not categorise on its own, ready for the manual taxonomy pass.
 
+A second corpus, `data/long_probe/` — 24 documents forced to 23–28 line items,
+built with `idb build --prefix lng --line-items 23 28` — exists because the
+residue review found that table length, not image quality, is what breaks
+header totals. On clean renders `minimax-m3` scores 95.5% on header fields at
+the natural median of 5 line items and **68.7%** at 23–28. See
+[`METHODOLOGY.md#8b`](docs/METHODOLOGY.md).
+
 `triage` then attacks that residue with signals the classifier does not use —
 whether the predicted value is verbatim some *other* field of the same
 document, whether a wrong amount is a right amount from elsewhere (a line

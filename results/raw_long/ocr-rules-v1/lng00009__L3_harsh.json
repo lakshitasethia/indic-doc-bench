@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00009__L3_harsh",
+ "doc_id": "lng00009",
+ "level": "L3_harsh",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "A | Agarwal Electricals :",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "A | Agarwal Electricals :\nTAX INVOREE : : Si\nBT\nSerie Sictertinmee boner Me \u201c_\u2014 0\nSee Ne ra Pern e sant Menger\u2019 \u2018aie oteeo\nRengerere,.karogtais VNjt24 Pavewas Tories : iw 3\nCATIN POW REY pris WHEN Brensthiag) 2m :\nPage od Seppe: Karmetaka, H\nOe ee EE LLL\nmo ageapaie ce Pee eee\nath = Ok on en A)\n4 Fomen, Mttoens cy one (Ss ere ee a\n+5 MS Padocwcstes Revie one a a ee ee\n6 tent ee Preemie a sn 208 ae em ER a\nCumcn Rowe Mech Tint tam ARON RL, UREN it\n8 Radial Tye annie Rs ee ow pt a\noe Moatinteenetinin Lae Pris oo, Oe eine ge! ace a,\n<a Semaine oer Pome Fak ehh eee See eS cm\nth Aethen CF Ts al we, ES ae \u2018eens Se SPR)\ncy arty SOR oA ser a Mog picna amge at LOM\na, kao Creare ee ign EE een, \u201cGeman WE ae : 4\nhet haat eet : eaeranet hose ai SS onet\nae Coenen Caren ton Oe Pr ia Merril) i pag oe\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.5313,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 796,
+  "gstins_found": 0
+ }
+}

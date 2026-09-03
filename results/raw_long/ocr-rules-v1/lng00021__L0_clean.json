@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00021__L0_clean",
+ "doc_id": "lng00021",
+ "level": "L0_clean",
+ "template_id": "t10",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "SALE-B-4665",
+  "invoice_date": "2025-07-01",
+  "seller_name": "M Mehra Traders",
+  "seller_gstin": "23EVDPM3439R3ZZ",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Madhya Pradesh",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "M Mehra Traders\nShop No. 283, Focal Point, Indore, Madhya Pradesh - 480067\nGSTIN: 23EVDPM3439R3ZZ \u00ab State Code: 23\nTAX INVOICE\nBill To\nNair & Sons Pvt. Ltd. Invoice No. SALE-B-4665\nDoor No. 333, Focal Point Date 01-Jul-2025\nBhopal, Madhya Pradesh - 467910 Payment Terms Cash\nGSTIN: Unregistered Reverse Charge No\nPlace of Supply: Madhya Pradesh\n1 cine Professional and Technical 998399 1NOS 7155.51 7155.51 18% 13888.00\nervices\n2 Road Transport Services of Goods 996511 1NOS 31400.01  31400.01. 5% 1570.00\nRental Services of Commercial \u00b0\n3 Property 997212 1NOS 112622.14 112622.14 18%  20271.98\nRepair Services of Computers and\n4 Peripherals 998721 2NOS = 4735.67 9471.34 18% 1704.84\nCommercial Training and Coachin\n5 Services 8 8 999293 3NOS) 21491.50 64474.50 18% | 11605.42\nInf ion T i\n6 m ormation echnology Consulting 998313 3NOS 67685.91 203057.73 18% 36550.40\nServices\n7 Property of Commercial 997212 1NOS 73566.42 73566.42 18% | 13241.96\nRepair Services of Computers and 27\n8 Peripherals 998721 NOS 4063.50 104228.77 18% 18761.18\nRental Services of Commercial 0\n9 Property 997212 1NOS 84728.67 84728.67 18% 15251.16\nRepair Services of Computers and\n10 Peripherals 998721 6NOS 6137.50 36825.00 18% 6628.50\nh . .\n11 ot cr Professional and Technical 998399 1NOS_ 88711.67  88711.67 18% 15968.10\nServices\n1 cine Professional and Technical 998399 1NOS 7888754 78887.54 18%  14199.76\nervices\nRental Services of Commercial 0\n13 Property 997212 1NOS 33325.37 33325.37 18% 5998.56\nRental Services of Commercial\n14 997212 2NOS 137777.08 275554.16 18% 49599.74\nProperty\nRepair Services of Computers and\n15 Peripherals P 998721 1NOS 4082.98 4082.98 18% 734.94\nRepair Services of Computers and\n16 Peripherals 998721 1NOS = 4929.18 4929.18 18% 887.26\n17 com ercial Training and Coaching 999293. 1NOS 6057.06 6057.06 18% | 1090.28\nervices\n18 Road Transport Services of Goods 996511 2NOS 23575.12 47150.24 5% 2357.52\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.6806,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1909,
+  "gstins_found": 1
+ }
+}

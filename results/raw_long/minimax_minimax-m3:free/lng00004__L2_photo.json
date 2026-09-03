@@ -1,0 +1,289 @@
+{
+ "variant_id": "lng00004__L2_photo",
+ "doc_id": "lng00004",
+ "level": "L2_photo",
+ "template_id": "t05",
+ "model": "minimax/minimax-m3:free",
+ "architecture": "native_vision",
+ "record": {
+  "invoice_number": "2025-26/7057",
+  "invoice_date": "2025-07-09",
+  "seller_name": "Chowdhury Steel & Alloys",
+  "seller_gstin": "23ICZPC9993X8ZI",
+  "seller_address": "Gala No. 198, MIDC Phase II, Bhopal, Madhya Pradesh - 458050",
+  "buyer_name": "Bhatt Overseas Pvt. Ltd.",
+  "buyer_gstin": "23UJKPB6746W6ZQ",
+  "buyer_address": "Plot No. 464, GIDC Estate, Indore, Madhya Pradesh - 455549",
+  "place_of_supply": "Madhya Pradesh (23)",
+  "reverse_charge": false,
+  "irn": null,
+  "line_items": [
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 110620.9,
+    "discount": 0,
+    "taxable_value": 221241.8,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 129349.77,
+    "discount": 0,
+    "taxable_value": 129349.77,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 15174.61,
+    "discount": 0,
+    "taxable_value": 15174.61,
+    "tax_rate": 5
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 43655.83,
+    "discount": 0,
+    "taxable_value": 43655.83,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 4017.89,
+    "discount": 0,
+    "taxable_value": 8035.78,
+    "tax_rate": 18
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 19867.39,
+    "discount": 993.37,
+    "taxable_value": 18874.02,
+    "tax_rate": 18
+   },
+   {
+    "description": "Road Transport Services of Goods",
+    "hsn_sac": "996511",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 25610.79,
+    "discount": 0,
+    "taxable_value": 102443.16,
+    "tax_rate": 5
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 51404.5,
+    "discount": 0,
+    "taxable_value": 51404.5,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 63189.95,
+    "discount": 0,
+    "taxable_value": 63189.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 21731.23,
+    "discount": 0,
+    "taxable_value": 21731.23,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 129654.06,
+    "discount": 0,
+    "taxable_value": 129654.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 66116.96,
+    "discount": 0,
+    "taxable_value": 66116.96,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 29719.9,
+    "discount": 0,
+    "taxable_value": 29719.9,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 50538.91,
+    "discount": 0,
+    "taxable_value": 50538.91,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 4,
+    "unit": "NOS",
+    "unit_price": 55393.67,
+    "discount": 11078.73,
+    "taxable_value": 210495.95,
+    "tax_rate": 18
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 22490.05,
+    "discount": 0,
+    "taxable_value": 22490.05,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 21831.0,
+    "discount": 2183.1,
+    "taxable_value": 19647.9,
+    "tax_rate": 18
+   },
+   {
+    "description": "Repair Services of Computers and Peripherals",
+    "hsn_sac": "998721",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 5919.88,
+    "discount": 0,
+    "taxable_value": 5919.88,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 100396.21,
+    "discount": 0,
+    "taxable_value": 100396.21,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 3,
+    "unit": "NOS",
+    "unit_price": 84710.02,
+    "discount": 0,
+    "taxable_value": 254130.06,
+    "tax_rate": 18
+   },
+   {
+    "description": "Rental Services of Commercial Property",
+    "hsn_sac": "997212",
+    "quantity": 2,
+    "unit": "NOS",
+    "unit_price": 68224.23,
+    "discount": 0,
+    "taxable_value": 136448.46,
+    "tax_rate": 18
+   },
+   {
+    "description": "Commercial Training and Coaching Services",
+    "hsn_sac": "999293",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 8630.42,
+    "discount": 0,
+    "taxable_value": 8630.42,
+    "tax_rate": 18
+   },
+   {
+    "description": "Information Technology Consulting Services",
+    "hsn_sac": "998313",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 172247.86,
+    "discount": 0,
+    "taxable_value": 172247.86,
+    "tax_rate": 18
+   },
+   {
+    "description": "Other Professional and Technical Services",
+    "hsn_sac": "998399",
+    "quantity": 1,
+    "unit": "NOS",
+    "unit_price": 33509.68,
+    "discount": 670.19,
+    "taxable_value": 32839.49,
+    "tax_rate": 18
+   }
+  ],
+  "total_taxable_value": 1988675.99,
+  "cgst_amount": 154086.2,
+  "sgst_amount": 154086.2,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": 2296848.39,
+  "amount_in_words": null
+ },
+ "raw": "{\"invoice_number\":\"2025-26/7057\",\"invoice_date\":\"2025-07-09\",\"seller_name\":\"Chowdhury Steel & Alloys\",\"seller_gstin\":\"23ICZPC9993X8ZI\",\"seller_address\":\"Gala No. 198, MIDC Phase II, Bhopal, Madhya Pradesh - 458050\",\"buyer_name\":\"Bhatt Overseas Pvt. Ltd.\",\"buyer_gstin\":\"23UJKPB6746W6ZQ\",\"buyer_address\":\"Plot No. 464, GIDC Estate, Indore, Madhya Pradesh - 455549\",\"place_of_supply\":\"Madhya Pradesh (23)\",\"reverse_charge\":false,\"irn\":null,\"line_items\":[{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":110620.90,\"discount\":0,\"taxable_value\":221241.80,\"tax_rate\":18},{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":129349.77,\"discount\":0,\"taxable_value\":129349.77,\"tax_rate\":18},{\"description\":\"Road Transport Services of Goods\",\"hsn_sac\":\"996511\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":15174.61,\"discount\":0,\"taxable_value\":15174.61,\"tax_rate\":5},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":43655.83,\"discount\":0,\"taxable_value\":43655.83,\"tax_rate\":18},{\"description\":\"Repair Services of Computers and Peripherals\",\"hsn_sac\":\"998721\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":4017.89,\"discount\":0,\"taxable_value\":8035.78,\"tax_rate\":18},{\"description\":\"Commercial Training and Coaching Services\",\"hsn_sac\":\"999293\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":19867.39,\"discount\":993.37,\"taxable_value\":18874.02,\"tax_rate\":18},{\"description\":\"Road Transport Services of Goods\",\"hsn_sac\":\"996511\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":25610.79,\"discount\":0,\"taxable_value\":102443.16,\"tax_rate\":5},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":51404.50,\"discount\":0,\"taxable_value\":51404.50,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":63189.95,\"discount\":0,\"taxable_value\":63189.95,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":21731.23,\"discount\":0,\"taxable_value\":21731.23,\"tax_rate\":18},{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":129654.06,\"discount\":0,\"taxable_value\":129654.06,\"tax_rate\":18},{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":66116.96,\"discount\":0,\"taxable_value\":66116.96,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":29719.90,\"discount\":0,\"taxable_value\":29719.90,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":50538.91,\"discount\":0,\"taxable_value\":50538.91,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":4,\"unit\":\"NOS\",\"unit_price\":55393.67,\"discount\":11078.73,\"taxable_value\":210495.95,\"tax_rate\":18},{\"description\":\"Commercial Training and Coaching Services\",\"hsn_sac\":\"999293\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":22490.05,\"discount\":0,\"taxable_value\":22490.05,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":21831.00,\"discount\":2183.10,\"taxable_value\":19647.90,\"tax_rate\":18},{\"description\":\"Repair Services of Computers and Peripherals\",\"hsn_sac\":\"998721\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":5919.88,\"discount\":0,\"taxable_value\":5919.88,\"tax_rate\":18},{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":100396.21,\"discount\":0,\"taxable_value\":100396.21,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":3,\"unit\":\"NOS\",\"unit_price\":84710.02,\"discount\":0,\"taxable_value\":254130.06,\"tax_rate\":18},{\"description\":\"Rental Services of Commercial Property\",\"hsn_sac\":\"997212\",\"quantity\":2,\"unit\":\"NOS\",\"unit_price\":68224.23,\"discount\":0,\"taxable_value\":136448.46,\"tax_rate\":18},{\"description\":\"Commercial Training and Coaching Services\",\"hsn_sac\":\"999293\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":8630.42,\"discount\":0,\"taxable_value\":8630.42,\"tax_rate\":18},{\"description\":\"Information Technology Consulting Services\",\"hsn_sac\":\"998313\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":172247.86,\"discount\":0,\"taxable_value\":172247.86,\"tax_rate\":18},{\"description\":\"Other Professional and Technical Services\",\"hsn_sac\":\"998399\",\"quantity\":1,\"unit\":\"NOS\",\"unit_price\":33509.68,\"discount\":670.19,\"taxable_value\":32839.49,\"tax_rate\":18}],\"total_taxable_value\":1988675.99,\"cgst_amount\":154086.20,\"sgst_amount\":154086.20,\"igst_amount\":null,\"cess_amount\":null,\"round_off\":null,\"grand_total\":2296848.39,\"amount_in_words\":null}",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 4366,
+ "output_tokens": 1442,
+ "cached_input_tokens": 0,
+ "latency_s": 18.4436,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "finish_reason": "stop"
+ }
+}

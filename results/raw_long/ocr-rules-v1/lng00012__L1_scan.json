@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00012__L1_scan",
+ "doc_id": "lng00012",
+ "level": "L1_scan",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/1072",
+  "invoice_date": null,
+  "seller_name": "TAX INVOICE |",
+  "seller_gstin": "27MQICM1643H3Z6",
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": "Maharashtra",
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.05",
+  "grand_total": "1602210.00",
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOICE |\nKulkarni Logistics Invoice No. 2025-26/1072\nDoor No. 326, Sector 63 Dated 20-Mar-2026\nThane, Maharashtra - 419143 Mode/Terms of Payment 15 Days\nState Name : Maharashtra, Code : 27\nBuyer (Bill to) IRN: 96c7695139daed3 1 19947efd90269578efb50255cadfl 2b93a82efd94\nMehra Overseas LLP hee \u2018\nPlot No. 58, MG Road ee\nPune, Maharashtra - 404837\nGSTIN/UIN: 27MQICM1643H3Z6\nPlace of Supply : Maharashtra\nTMT Steel Bar Fe-500 12mm | 7214 | 0.164 56839.72| _ 9321.71| 838.95] 838.95\nOffice Workstation Table 9403 15444.60| _15444.60| 1390.01] 1390.01\nSmartphone 6GB/128GB 8517 |___6[ Nos| 16147.89| 9688734] 8719.86 8719.86\nRadial Tyre 195/65 R15 4011 5481.27| . 5481.27| 767.38 | Fares\n5 |Monoblock Water Pump IHP | 8413 1} NOS} 4072.28] 3665.05] 329.85| 329.85\nLess: Discount 407.23\n| 6 [Instant Drink Premix 2106 222.45] 99435.15] 8949.16] 949.16\nBasmati Rice (Broken 5%) 1006 | 1582.179 68.74] 103321.03] 2583.03] 2583.03\nLess: Discount 5437.95\n| 8 [Synthetic Enamel Paint4L | 3208 | 4.233 345.41| \u2014 1462.12] 131.59] 1856\n| 9 [Cotton Round Neck TShirt | 6109 | _ 9] pcs | 33022) 2071s) aaea an)\nMultifunction Laser Printer | 8443 24412.27| 24412.27| 2197.10] 2197.10\nMS Fabricated Structure 7308 | 604.095 129.33] _78127.61] 7031.48] 7031.48\n12 | Corrugated Carton Box 5-Ply | 4819 9999| NOS 30.39] 288676.13} 25980.85] 25980.85\nLess: Discount 15193.48\nToilet Soap 100g 3401 2229 52.64] 117334.56] 10560.11| 10560.11\n14 |PVC Insulated Copper Cable | 8544 | 23.232]MTR| 77.18] 1793.05] 16137] 161.37\n2.5sqmm\nHDPE Packing Bags 3923 38077 153.47| 9043.53] 813,.92| 813193\nCotton Woven Fabric 44 inch | 5208 | 25.308 135.94| 344037) Soon eaten\nOPC 53 Grade Cement 50kg | 2523 351.50| 4921.00] 688.94] 688.94\n18 | Assam CTC Tea Leaf 0902 | 265.357)KGS| 214.94! 55895.11] 1397.38] 1397.38\nLess: Discount 1140.72\nLaptop Computer i5 16GB | 8471 88644.22| 88644.22} 7977.98] 7977.98\n20 | Glucose Biscuits 200g 1905 77) BOX} 365.29] 25314.60] 2278.31| 2278.31\nLess: Discount 2812.73\nRefined Sugar $-30 1701 | 41.977 48.66] 2042.60] 51.07] 51.07\nStainless Steel Cutlery Set 8215 314.04] 3768.48] 339.16] 339.16\nFoam Mattress 72x36 9404 5859.51] 333992.07] 30059.29] 30059.29\nRound Off -0.05\nGrand Total = 1602210.00.\nAmount Chargeable (in words): Rupees Sixteen Lakh Two Thousand Two Hundred and Ten Only\nBank Name : Bank of Baroda\nA/c No. : 449788 1363418731\nBranch & IFSC : Pune & SNNA0826187 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.8359,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2412,
+  "gstins_found": 1
+ }
+}

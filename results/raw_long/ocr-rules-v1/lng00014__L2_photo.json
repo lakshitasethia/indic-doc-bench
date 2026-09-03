@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00014__L2_photo",
+ "doc_id": "lng00014",
+ "level": "L2_photo",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-31",
+  "seller_name": "A BANERJEE INDUSTRIES",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1221023.95",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "199579.56",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "A BANERJEE INDUSTRIES\n+ Door No. 367, Naraina Vihar, Faridabad - 136878 (Haryana)\n; GSTIN : O061ZWFB8169U8Z8 State Code : 06\nTAX_INVOICE\nM/s. Menon Logistics Bill No. : MH9560\n* Poor No. 414, Industrial Estate Date : 31.05.2025\nKochi - 684459 R.C.M. : NO\nGSTIN : 32GHBFM335117Z2x\nPlace of Supply : 32-Kerala\n: 211:457\n1 |PvC Insulated. Copper Cable 2.5sqmm MTR 52.18 10482.14)\n| 2 |svntneric Enamel Paint 4L sae 630.68 14802.69|\n| 2 [pesnacs Rice (Broken 5%) 682-191) 320.97] 82524..65|\n: 8.801\nMS Fabricated Structure KGS 107.36 944.88)\n| 5 [Cotton Round Neck T-Shirt 10 PCS 283.32 2549.88 |\n| \u00a2 [mer Steel Bar Fe-500 12mm sie 55064.26| .41738.71\n| 7 [Multifunction Laser Printer g NoS| 17210.77| . 137686.16|\n| 8 [Laptop Computer i5 16GB 1 nos| 84472.00 84472.00|\n| 9 [MS Hex Bolt with Nut M12 26 NOS 28.28 735.28\n| 10 |Hard Bound Register 200 Pages 12 NOS 73.39 880.68 |\n| 11 [Paracetamol IP 650mg Tablets 675 BOX 60.20 40635.00\nIRE MS Scene ela\n[12 |Stainless Steel Cutlery Set 127 SET 408.50] 50841.91|\n| 13 [Corrugated Carton Box 5-Ply 62 NOS 31.44 1949.28\nInstant Drink Premix 109.21 2140.52\n15 |Refined Sugar S-30 US, 41.58 1767.10\nKGS\n| 16 |cotton Woven Fabric 44. inch een 111.11 15239.29\n| 17 |Toilet Soap 100g 28.55 770.85\nSmartphone 6GB/128GB 27142.02 81426.06\n[19 [noes Packing Bags ee 160.32] 252600.99\n| 20 [Foam Mattress 72x36 11278 <26 22556.52\n| 21 |Monoblock Water Pump, 1HP 5687.08 39809.56\n| 23 [Glucose Biscuits 200g 97 BOX 398.37 38641.89\n[ 25 [Detergent Powder 1kg 140.38 2386.46\nTaxable Value 1221023.95\n[ow famable [mate | taxant | Add: IGST 199579.56\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.3972,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1579,
+  "gstins_found": 0
+ }
+}

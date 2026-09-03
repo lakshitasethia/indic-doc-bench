@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00023__L2_photo",
+ "doc_id": "lng00023",
+ "level": "L2_photo",
+ "template_id": "t12",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2026-03-22",
+  "seller_name": "Document Type _ TAX INVOICE TwoiceNo | INV-7404__ a",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": "1.00",
+  "sgst_amount": "1.00",
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Document Type _ TAX INVOICE TwoiceNo | INV-7404__ a\nSupplier Gupta Logistics Invoice Date | 22-03-2026 as\nSupplier GSTIN 06OKFFG708001ZV Terms Advance\n\u2018Supplier Address Unit No. 308, industrial Estate, Gurugram, Haryana - 127972\nRecipient Deshmukh Electricals. pees ert o@MPXCD4448i5ZS\nRecipient Address Khasra No. 99, GIDC Estate, Panipat; Haryana - 128723 Place of Supply Haryana\nReverse Charge No Currency INR\nLine oe scn HSN_SAC Qty UQC Unit_Price Discount Taxable_Value Tax_Rate cGST_Amt SGST. Amt Line_Total,\nRental\nServices of\n1 Commercial 997212 4 NOS 42461.98 0.00 42461.98 18 3821.58 3821.58 50105.14\nProperty 2\nCommercial\nTraining\n2 and 999293 4 NOS 18989.07 0.00 18989.07 18 1709.02 4709.02 22407.11\nCoaching\nServices\nInformation\nTechnology\n3\u00b0 Consulting 998313 4 NOS, 32570.88 651.42 31919.46 18 2872.75 2872.75 37664.96\nServices\nRoad\nTransport u\n4 services of 996511 4.NOS 24239.44 0.00 24239.44 5 605.99 605.99 25451.42\nGoods\nRepair\nServices of\n5 .Computers 998721 4.NOS 2842.85 0.00 41371.40 18 1023.43 1023.43 13418.26\nand\nPeripherals\nOther\nProfessional\n6 and 998399 4 NOS 66091.83 1321.84 64769.99 18 5829.30 5829.30 76428.59\nTechnical\nServices\nRoad\nTransport\n7\u00b0 Services of 996511 4 NOS 16345.47 0.00 16345.47 5 408.64 408.64 \u00a9 17162.75\nGoods\nRental\nServices of\n8 Commercial 997212 4 NOS 65990.91 1319.82 64671,09 18 6820.40 5820.40 76311.89\nProperty\nCommercial\nTraining\n9 \u2018and 999293 4 NOS 30561.53 3056.15 27505.38 18 2475.48 2475.48 $2456.34\nCoaching\nServices a\nRental\nServices of\n10 Commercial 997212 4 NOS .58715.95 1174.32 \u00a77541.63 18 5178.75 \u00a7178.75 67899.13\nProperty\nInformation\n11 LL blaeeth 998313 2.NOS 16126377, 0.00 322527.54 48. 29027.48 29027.48 380582.50\nServices\nRental\nServices of\n12 Commercial 997212 2. NOS 36521.89 0.00 73043.78 18 6573.94 6573.94 6191.66\nProperty\nOther\nProfessional\n413 and 998399 4 NOS .56410.14 0.00 56410.14 18 5076.91 5076.91 66563.96\nTechnical\nServices\n14 Rental 997212 2 NOS. 134594.10 0.00 269188.20 18 24226.94 24226.94 317642.08\nServices of\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.9064,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2008,
+  "gstins_found": 0
+ }
+}

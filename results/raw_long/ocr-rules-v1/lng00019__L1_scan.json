@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00019__L1_scan",
+ "doc_id": "lng00019",
+ "level": "L1_scan",
+ "template_id": "t08",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-08-02",
+  "seller_name": "Rao Distributors :",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Rao Distributors :\n\nGala No. 161, MIDC Phase II, Cuttack a oe Ne ae\n\nOdisha - 763059 feats / Date 02/08/2025\n\nxa / Buyer: Chowdhury Industries LLP\n\nKhasra No. 166, MG Road, Bengaluru, Karnataka - 585850\n\nGSTIN: 29DZ0CC4475S1Z0 | sarge / Place of Supply: Karnataka\ness | = lel\nre fTatet soap 00g \u00ab(saan _asres| 2989] aenacn| ve | Towiae\nra [Radiat tyre roses is [aor] __4Nos| 525095] ono] 28 | ssss:0\nro [assamcTe Tea teat \u2014\u2014_\u2018ovo2| asoep cs] _zeeaal omenaa| | sern0\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.2508,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 466,
+  "gstins_found": 0
+ }
+}

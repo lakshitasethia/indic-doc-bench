@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00013__L0_clean",
+ "doc_id": "lng00013",
+ "level": "L0_clean",
+ "template_id": "t02",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-08-28",
+  "seller_name": "TAX INVOIC E Mehra Marketing",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "TAX INVOIC E Mehra Marketing\nDoor No. 439, GIDC Estate\nSALE-C-4712 Jodhpur - Rajasthan 302026\nINVOICE DATE GST NO. PLACE OF SUPPLY REVERSE CHARGE\n28/08/2025 O8CCDFM9883N6Z2 _ Rajasthan (08) No\nBILL TO SHIP TO\nlyer Overseas Limited lyer Overseas Limited\nUnit No. 401, Peenya 2nd Stage, Jaipur, Rajasthan - Unit No. 401, Peenya 2nd Stage, Jaipur, Rajasthan -\n333020 333020\nGST NO.\nO8WIACI8031Z7ZF\n# Item & Description HSN/SAC Qty Rate Amount\n1. Stainless Steel Cutlery Set 8215 547 SET 472.25 258320.75\n2 OPC 53 Grade Cement 50kg 2523 11 BAG 420.17 4621.87\n3 MS Hex Bolt with Nut M12 7318 34 NOS 15.32 520.88\n4 Smartphone 6GB/128GB 8517 5 NOS 38438.82 192194.10\n5 Toilet Soap 100g 3401 vee 82.98 194857.26\n6 Foam Mattress 72x36 9404 2NOS 5045.93 9587.27\n7 MS Fabricated Structure 7308 eas 121.10 18965.96\n8 Synthetic Enamel Paint 4L 3208 09 552.49 16546.52\n9 \u2018Instant Drink Premix 2106 43 PCS 109.74 4718.82\n10 Laptop Computer i5 16GB 8471 1NOS 52960.86 51901.64\n11 Office Workstation Table 9403 2NOS_ 14485.37 28970.74\n12 Hard Bound Register 200 Pages 4820 16 NOS 59.14 946.24\n13 Cotton Woven Fabric 44 inch 5208 (OSU 77\" 207.01 213380.53\n14 Glucose Biscuits 200g 1905 2 BOX 456.33 912.66\n15 Corrugated Carton Box 5-Ply 4819 39 NOS 29.40 1146.60\n16 Leather Formal Shoes 6403 7PRS 1188.21 7901.60\n17 Refined Sugar S-30 1701 G8 47.95 884.20\n18 Multifunction Laser Printer 8443 1NOS = 28111.37 28111.37\n19 Radial Tyre 195/65 R15 4011 27NOS 5530.69 149328.63\n20 TMT Steel Bar Fe-500 12mm 7214 ON 53113.83  19705.23\n21 PVC Insulated Copper Cable 2.5sqmm 8544 maven 37.31 9673.14\n22 Monoblock Water Pump 1HP 8413 7NOS 7361.27 51528.89\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.5808,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1628,
+  "gstins_found": 0
+ }
+}

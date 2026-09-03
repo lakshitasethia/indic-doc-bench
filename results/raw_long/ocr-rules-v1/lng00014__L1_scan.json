@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00014__L1_scan",
+ "doc_id": "lng00014",
+ "level": "L1_scan",
+ "template_id": "t03",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": "2025-05-31",
+  "seller_name": "BANERJEE INDUSTRIES",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": "1221023.00",
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": "199579.56",
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "BANERJEE INDUSTRIES\nDoor No. 367, Naraina Vihar, Faridabad - 136878 (Haryana)\nGSTIN.: O6I1ZWFB8169U8Z8 State Code : 06\nTAX INVOICE\nM/s. Menon Logistics Bill No. : MH9560\nDoor No. 414, Industrial Estate Date : 31.05.2025\nKochi - 684459 ReCoM ts NO\nGSTIN : 32GHBFM335117ZX\nPlace of Supply : 32-Kerala\nZA 4 5 7,\n1 |PVC Insulated Copper Cable 2.5sqmm MTR BA a dLe 10482.14 |\n\u2018 2347 1:\n2 |Synthetic Enamel Paint 4L LTR 630.68 14802.69\n[3 |pasmacs Race. (Bueken 5%) . 120297) 8252465\n8 GOH\nMS Fabricated Structure KGS 1 O7536 944.88\n| 5 [Cotton Round Neck T-Shirt LO wes 288 32 2549.88\njs |v Steel Bar Fe-500 12mm oN 55064.26 A1738 571\n| 8 [Laptop Computer i5 16GB 84472.00 84472.00\n| 9 |MS Hex Bolt with Nut M12 26 NOS 28.28 735.28\n| 10 [Hard Bound Register 200 Pages 12, NOS 13539 880.68\n| 11 | Paracetamol IP 650mg Tablets 675 BOX 60.20 40635.00\n| 12 |Stainless Steel Cutlery Set 127 cet 408.50 50841.91\n| 13 | Corrugated Carton Box 5-Ply 62 NOS 31.44 1949.28\n[15 [Refined Sugar S\u201430 oe al o8 TG. 0\n[16 [cotton Woven Fabric 44 inch aes Tiel \u00a3523:9%29\n| 17 | Toilet Soap 100g De sens 28.55 770.85\nSmartphone 6GB/128GB Pe Oe 81426.06\nFoam Mattress 72x36 (De 26 22556.52\n| 21 |Monoblock Water Pump 1HP 5687.08 39809.56\n| 23 [Glucose Biscuits 200g 398.37 38641.89\n| 24 | Leather Formal Shoes 274 PRS 944.73 298856.02\n| 25 |Detergent Powder 1kg \u2018pee 140.38 2386.46\nTOTAL} 1221023.95\nTaxable Value 1221023..95\n| usw | taxabie | Rate | taxamt | Add: IGST 199579.56\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.4177,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 1455,
+  "gstins_found": 0
+ }
+}

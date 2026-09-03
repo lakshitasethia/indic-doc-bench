@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00000__L0_clean",
+ "doc_id": "lng00000",
+ "level": "L0_clean",
+ "template_id": "t01",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": "2025-26/7204",
+  "invoice_date": "2025-11-20",
+  "seller_name": "Ahluwalia Enterprises Invoice No. 2025-26/7204",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": "0.04",
+  "grand_total": "1685215.00",
+  "amount_in_words": null
+ },
+ "raw": "Ahluwalia Enterprises Invoice No. 2025-26/7204\nGala No. 466, Peenya 2nd Stage Dated 20-Nov-2025\nMadurai, Tamil Nadu - 631320 Mode/Terms of Payment 30 Days\nState Name : Tamil Nadu, Code : 33\nBuyer (Bill to) Destination: Coimbatore\nRao Industries\nDoor No. 252, Ambattur Industrial Estate\nCoimbatore, Tamil Nadu - 642803\nGSTIN/UIN: 33XBNCR376117Z9\nPlace of Supply : Tamil Nadu\n| Si | __ Description of Goods_\u2014[HSN/SAC| Quantity | Unit | Rate | Amount [| cost scst__|\nLeather Formal Shoes 6403 1986.54| 3973.08] 357.58] 357.58\nCotton Woven Fabric 44 inch | 5208 | 221.315 97.22| 21516.24] 537.91] 537.91\nMonoblock Water Pump 1HP | 8413 5058.96| 20235.84] 1821.23] 1821.23\nRadial Tyre 195/65 R15 4011 8294.86] 24884.58] 3483.84] 3483.84\nGlucose Biscuits 200g 1905 300.10] 11103.70] 999.33] 999.33\n| 6 | Toilet Soap 100g 3401 2036 30.70| 62505.20| 5625.47| 5625.47\nMS Hex Bolt with NutM12__| 7318 3493 31.91] 111461.63| 10031.55| 10031.55\n| 8 |Multifunction Laser Printer | 8443 26551.71| 132758.55] 11948.27] 11948.27\n| 9 |Basmati Rice (Broken 5%) | 1006 | 22.462 123.16]  2766.42| 69.16] 69.16\nStainless Steel Cutlery Set 8215 509.22| 65689.38] 5912.04] 5912.04\nOPC 53 Grade Cement 50kg_| 2523 377.35| 8679.05] 1215.07] 1215.07\nCorrugated Carton Box 5-Ply | 4819 3052 39.54| 120676.08| 10860.85| 10860.85\nMS Fabricated Structure 7308 | 305.233 108.81] 33212.40| 2989.12] 2989.12\nAssam CTC Tea Leaf 0902 | 13.896 375.85| 5222.81] 130.57| 130.57\nHDPE Packing Bags 3923 | 1170.582 142.51] 166819.64| 15013.77] 15013.77\nLaptop Computer iS 16GB | 8471 86650.26] 86650.26| 7798.52] 7798.52\nCotton Round Neck T-Shirt | 6109 276.30| 34537.50| _ 863.44| 863.44\nSynthetic Enamel Paint 4L 3208 | 223.133 417.88] 3918.54] 7552.67] 7552.67\nLess: Discount 9324.28\nTMT Steel Bar Fe-500 12mm | 7214 | 5.934 61231.61| 363348.37| 32701.35] 32701.35\nInstant Drink Premix 2106 256.68| 39785.40| 3580.69| 3580.69\nParacetamol IP 650mg Tablets | 3004 22.70] 13438.40| 806.30] 806.30\n22 |PVC Insulated Copper Cable | 8544 | 405.796|MTR| 41.11] 16682.27] 1501.40] 1501.40\n2.5sqmm\nRefined Sugar S-30 1701 | 83.706 42.66] 3570.90] 89.27] 89.27\nRound Off -0.04\nGrand Total & 1685215.00\nAmount Chargeable (in words): Rupees Sixteen Lakh Eighty Five Thousand Two Hundred and Fifteen\nOnly\nBank Name : State Bank of India\nA/c No. : 9259276959406725\nBranch & IFSC : Coimbatore & VAUR0010416 Authorised Signatory\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 2.3076,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2375,
+  "gstins_found": 0
+ }
+}

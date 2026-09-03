@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00010__L3_harsh",
+ "doc_id": "lng00010",
+ "level": "L3_harsh",
+ "template_id": "t11",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "i St bis as ee ear =",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "i St bis as ee ear =\nath. eal dos | dens.79] snate.ad)| 63) 9253.26) 9242.94)\n\u00b0 thee Foes) san-at|xzrave.o0| s8/ss4pe.2r) 11484257\nolen = - sinc! yo21243) yoaapag) a] siti, 999-22)\nHh Ln x I aT ue Pm Ee See Mata |\nFleet Tine! vs] velo in| ven, ome\nPoets. Big eS ttt\n(\u00abeen sae geuzseleerih) 15672) .7rHma.st| S| WOen) TORE EL\n13 3 Tpens | srh.sssmcs) 162.12) roese.ee)v8) 1798-32 2781.31\nSIAOeS\u2122\u2122 lpnna| sos.aunimcs, 21867) semmezs) $ | 11024}) 112241)\n16 | fatrcated fea) seveeteas: 147.47 195640.72' 18 | 10407 66) 50407 66\n(Inc See aaa}\nian) Regatee 200 | 4820 secs) F485) BePeed) ee) 222,90) 22-70)\n12 feet Camery 8215 $7) S87) S00 98) OSs TOD ve) Res 23) 370623\nans\n13igamguier 6 8478 times _ecnri.ze| apepe71 ic) 7anesa] 7100682\nsitieemae Tissat aadaay Ga) Gsi.77) Wieen ie ae). Wankad) Wase-ad\nframes Pee i\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.139,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 813,
+  "gstins_found": 0
+ }
+}

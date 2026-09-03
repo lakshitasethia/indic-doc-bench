@@ -1,0 +1,49 @@
+{
+ "variant_id": "lng00018__L2_photo",
+ "doc_id": "lng00018",
+ "level": "L2_photo",
+ "template_id": "t07",
+ "model": "ocr-rules-v1",
+ "architecture": "rules",
+ "record": {
+  "invoice_number": null,
+  "invoice_date": null,
+  "seller_name": "Patel Industries LLP eee |",
+  "seller_gstin": null,
+  "seller_address": null,
+  "buyer_name": null,
+  "buyer_gstin": null,
+  "buyer_address": null,
+  "place_of_supply": null,
+  "reverse_charge": null,
+  "irn": null,
+  "line_items": [],
+  "total_taxable_value": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "igst_amount": null,
+  "cess_amount": null,
+  "round_off": null,
+  "grand_total": null,
+  "amount_in_words": null
+ },
+ "raw": "Patel Industries LLP eee |\nSta canciones err |\nTo: tyer Solutions, Shop No. 91 Ring Road, Jodhpur, Rajasthan-316198 GSTIN: O801RCI3526KAZC | POS. 08-Rajastnan\nOther Professional and lalkinal | | |\nlca Services |998399) 1/Nos| 74677 42] \u2018| 74677 42/18 72087 672097) $8119.36\n| \u00bb |Rental Services of lal | | |\n[2 [Commercial Property /997212| 1/Nos 137491.01) -|137491.01| 18 12374.19) 12374.19) 162299,39\n| 3 [Road Transport Services of [996511) 1) NOS} 3785432) | s7a54.30] 5 | 946.36) 946.36) 39747.04\n'-4 | Repair Services of Computers | | | laa] |\n[4 land Peripherals \"(998721) \"/Nos 6257.33 \u2018| 6267-3318) 563.16) 863.16) 7383.65\n| ~ |Commercial Training and | P| | | | | | |\n| | Information Technology | Fat | | | bel |\n|S |consutng Servces | SAIS] NOS tt701 50)\" lla a bac hints late\n| z | Information Technology | Haltessl | | PAL | |\nL! IConsuting Services Te tne romeo | esse, AEM] 9035 84) 26066.16\n| 5 | | ] | ec |\n| 8 | Goad Transport Services of [996511/ 1]NOs} 1985620] | 19856.29/ 5 | 496.41] 496.41). 20849, 14\n/9| Gisieoee 1998313) 1]NOs/ 17457248), 174872.48 18] 18711.52| 15711.52| 205905 59\n[;7]Ro Sed Transport Sendaas aif eesti snoal ssiearal tomes ot\n|10| Roa PmSPOn Services 0 |996511/ 1/NOS) 1383.72 | 13383.72/5| 334.59| 334.59 14052.90\nimme oe ay ee See\n| Information Technology | Palauan ut |\ni conmity Sees |998313 1) NOS |155939.96 185909.96 114034 60 14034,60/184009.16\nRental Services of | | | e laa]\nMeme pen /997212| 1/NOs| 0238.94 80238.94/18| 7221.50) 7221.50| 94681,94\n13 Goad Transport Services of /996511| 4 NOS) 5490.00 -|- 5490.00 [5] 137.25 137.25| - 5764.50\nInformation Technology\n'S conmitig Santces 998313 1/Nos| 50546 12 | -ftsess.1 18 | 14089.06) 14089,06| 184723.04\nCommercial Training and\n15| Commerc Tin #88203 1|Nos| 435075) 43547.95 18 3919.32} 3919.32) 51386,59\nOther Professional and\nRental Services of\nees \u00a387212 1|nos| 33574.21]| 3357.42 20216,79| 18 2719.51) 2719.51| 3565.81\nRental Services of\nRei Ser Press 997212) 1|nos sorzes| | stazas a 8381.96) 8381.96 109896.7,\nRental Services of 1.58) 1\n[Ren ial Prooerh 997212) 1] 12380640) 123906.40 | 18 | 11151.58) 11151.58 inte!\nCommercial Training and 18)\naoe raters 999299) 1 | 150051 780.26) 14824.87/18| 1334.24 1749335,\nRental Services of 8 12609675.\nCy (irate srzia| Ns oases) ross 9617.55) 9617.55] 126096.75,\nOther Professional and i 8 1.11] 49181.05)\n22] er Pre 998399 41679.03 41679.03/18) 3751.11] 3751.11| 49181. 4\n=e 7)\n23) Ps alah 998313 3867.73 $3867.73) 18) 3048.10/ 3048.10! 39963 |\n1791490.09\neesti 156256.14\nS@stas = =] 156256.14\n",
+ "schema_violation": null,
+ "error": null,
+ "refusal": false,
+ "finish_reason": "stop",
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "cached_input_tokens": 0,
+ "latency_s": 1.844,
+ "cost_usd": 0.0,
+ "prompt": {
+  "prompt_version": "p1",
+  "schema_version": "gst-invoice-v1",
+  "sha256": "8e44f5f01fe53b7e"
+ },
+ "extra": {
+  "ocr_chars": 2552,
+  "gstins_found": 0
+ }
+}
