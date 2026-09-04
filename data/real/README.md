@@ -80,6 +80,12 @@ Good sources: marketplace invoices (Amazon, Flipkart, Meesho), postpaid
 mobile and broadband bills, insurance premium receipts, hotel and
 restaurant GST invoices, service and repair invoices.
 
+A **B2C** document that names no buyer is fine — leave `buyer_name` null.
+GST requires the recipient's name only above ₹50,000 for B2C, so a café or
+grocery bill naming nobody is a valid tax invoice, not a defective one.
+Those documents are useful precisely because a model that *invents* a buyer
+name there scores as a hallucination.
+
 Not usable: **electricity bills** — supply of electricity is GST-exempt, so
 they carry no GSTIN and no tax breakdown. Nor are payment receipts that call
 themselves invoices: one tested here had no number, no date, no GSTIN and no

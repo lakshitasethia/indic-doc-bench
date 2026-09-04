@@ -54,8 +54,16 @@ HEADER_FIELDS: List[Field] = [
           description="15-character GSTIN of the supplier."),
     Field("seller_address", FieldType.FUZZY, nullable=True,
           description="Full supplier address as printed."),
-    Field("buyer_name", FieldType.FUZZY, critical=True,
-          description="Legal name of the recipient."),
+    Field("buyer_name", FieldType.FUZZY, nullable=True, critical=True,
+          description="Legal name of the recipient; null on B2C documents that "
+                      "do not name the buyer (a restaurant or retail bill). "
+                      "GST requires the recipient's name and address only above "
+                      "Rs 50,000 for B2C, so a small retail tax invoice that "
+                      "names nobody is valid, not defective. Nullable governs "
+                      "label validation only -- it does not affect scoring: a "
+                      "model omitting a name the document DOES carry is still "
+                      "MISSING, and one inventing a name where there is none is "
+                      "still SPURIOUS."),
     Field("buyer_gstin", FieldType.EXACT_UPPER, nullable=True, critical=True,
           description="GSTIN of the recipient; null for B2C/unregistered."),
     Field("buyer_address", FieldType.FUZZY, nullable=True,

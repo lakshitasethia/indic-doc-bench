@@ -220,3 +220,29 @@ def test_diagnostics_reach_the_labeller_through_validate_label():
     errors, warnings = validate_label(rec)
     assert errors == []
     assert any("tax-INCLUSIVE" in w for w in warnings)
+
+
+# --- B2C documents that name no buyer ---------------------------------------
+
+def test_b2c_receipt_with_no_buyer_name_is_valid():
+    """GST requires the recipient's name only above Rs 50,000 for B2C, so a
+    small retail or restaurant bill naming nobody is a valid tax invoice."""
+    rec = _good_label()
+    rec["buyer_name"] = None
+    rec["buyer_gstin"] = None
+    rec["buyer_address"] = None
+    errors, _ = validate_label(rec)
+    assert errors == []
+
+
+def test_making_buyer_name_nullable_did_not_weaken_scoring():
+    """`nullable` governs label validation only. A model that omits a name the
+    document does carry is still MISSING; one that invents a name where there
+    is none is still SPURIOUS -- which makes B2C documents a hallucination
+    test rather than a free pass."""
+    from idb.schema import FIELD_BY_NAME
+    from idb.score import MISSING, SPURIOUS, score_field
+    f = FIELD_BY_NAME["buyer_name"]
+    assert f.nullable is True
+    assert score_field(f, "Verma Steels", None).outcome == MISSING
+    assert score_field(f, None, "Verma Steels").outcome == SPURIOUS
