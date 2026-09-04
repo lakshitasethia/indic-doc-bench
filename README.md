@@ -24,7 +24,7 @@ worse, and whether the gap between two models is real or is noise.
 ![SciPy](https://img.shields.io/badge/SciPy-bootstrap_·_McNemar_·_power-1f1f1f?style=flat-square)
 ![Chromium](https://img.shields.io/badge/Jinja_·_Chromium-12_layouts-1f1f1f?style=flat-square)
 ![Corpus](https://img.shields.io/badge/Corpus-384_variants_·_hash_locked-1f1f1f?style=flat-square)
-![Tests](https://img.shields.io/badge/Tests-171_passing-1f1f1f?style=flat-square)
+[![Tests](https://github.com/lakshitasethia/indic-doc-bench/actions/workflows/tests.yml/badge.svg)](https://github.com/lakshitasethia/indic-doc-bench/actions/workflows/tests.yml)
 ![Licence](https://img.shields.io/badge/licence-MIT-1f1f1f?style=flat-square)
 ![Status](https://img.shields.io/badge/ground_truth-exact,_generated-7C63D9?style=flat-square)
 
@@ -493,7 +493,7 @@ Claims on this page are drawn from the implementation. Where something is incomp
 
 | Check | Result |
 | --- | --- |
-| Test suite | **171 passed** (`pytest tests -q`), no network required |
+| Test suite | **171 passed** (`pytest tests -q`), no network required — and green in CI on every push, not asserted by a badge that cannot fail |
 | Corpus integrity | `idb verify` re-hashes 408 images against the manifest |
 | Full sweeps | 2 arms at 384/384 with zero failed calls — `minimax-m3` and `ocr-rules-v1` |
 | Partial sweeps | `qwen3-vl-32b-instruct` 247/384 · `gemini-2.5-flash-lite` 24/384 — exhausted API balance, reported in the `Calls failed` column |
