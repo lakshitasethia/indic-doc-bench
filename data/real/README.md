@@ -35,6 +35,12 @@ catch a labelling mistake before it is scored as a model failure forever.
    Emit `null` for a field the document does not show. **Never delete the key** —
    an omitted key cannot be distinguished from "this document has no such field".
 
+   **A code printed once is not a line-item value.** Many bills print a single
+   `SAC:` or `HSN Code:` in the header or footer. Leave line `hsn_sac` null
+   rather than copying it onto every row — copying is inference, and the
+   benchmark scores inference as a hallucination. Only fill it when the code
+   appears in the line-item table itself.
+
    **Line prices are tax-EXCLUSIVE.** Marketplaces usually print the opposite.
    A real Meesho invoice shows `Gross 544.00`, `Discount 29.00`,
    `Taxable 490.48` — because 544 − 29 = 515 is the tax-*inclusive* total and

@@ -453,6 +453,62 @@ that genuinely sit at L3 (taken at arm's length, in poor light, slightly out of
 focus) is now a specific and answerable collection task rather than a vague
 call for "more real documents".
 
+### 8c.5 A matched pair, a ground-truth error, and a reversed expectation
+
+The same invoice (SOML25-45204) exists in the corpus twice: as the born-digital
+PDF the restaurant emailed, and as a handheld photograph of the printed thermal
+receipt -- creased paper, patterned floor behind it, one line-item amount partly
+eaten by a fold. Identical ground truth, identical labels, one variable.
+
+This is the paired design the synthetic corpus uses for severity levels,
+applied to capture instead, and it did what a paired design is for: it exposed
+an error in the ground truth rather than in the model.
+
+**First reading (wrong).** The photograph scored 87.8% against the PDF's 95.9%,
+missing `hsn_sac` on all six line items -- a tidy 8-point capture gap.
+
+**The label was wrong, not the model.** The receipt prints `SAC: 996331` once,
+in the footer, as a document-level field. It is not repeated per line. Copying
+it onto each line item is inference, and section 4 of this document forbids
+exactly that: normalisation removes representation and never repairs. The
+photograph-reading model reported no per-line code, which is what the document
+shows. The label asserted six codes the document does not print.
+
+Corrected, with `hsn_sac` null on lines for every document that prints a single
+document-level code (Taco Bell, Social, PVR; Meesho keeps 6208, which is
+genuinely inside its line-item table):
+
+| Capture | Score |
+|---|---|
+| born-digital PDF | 95.3% (59/67) |
+| **photograph** | **100.0% (67/67)** |
+
+The photograph is now perfect and the PDF is not -- and the PDF's errors have
+changed category. They are `spurious`, not `missing`: reading the clean PDF,
+the model back-filled the footer SAC onto all six lines. Reading the
+photograph, it did not. Both photographs in the corpus score 100%.
+
+**This runs against the hypothesis this project was built on.** The README
+proposes that models scoring ~91% on synthetic documents might score ~64% on
+real photographs, and that the gap would be the headline. At n=2 photographs
+there is no gap at all in that direction.
+
+The caveats are large and belong in the same breath. Two photographs, both
+close-up, in focus, under ordinary indoor light, both of short thermal receipts
+(two and six line items). Section 8c.4 measured such a capture at roughly 177
+effective DPI, between L1 and L2 on the severity ladder rather than at L3. What
+these two documents show is that the easy photograph -- the one a person takes
+deliberately, of a bill they intend to read -- is not a hard case for a current
+vision model. The hard photograph remains uncollected.
+
+**The finding that does not depend on capture** is the back-filling itself.
+A model that copies a document-level code into every line item produces a
+hallucination on each one, and this is the failure mode that arithmetic
+self-consistency (section 6) cannot catch, because the fabricated values are
+internally consistent. It is the first hallucination pattern in this repository
+found on a real document, and it was invisible until a matched pair made the
+model disagree with itself.
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a
