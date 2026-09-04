@@ -32,6 +32,7 @@ from __future__ import annotations
 
 import json
 import pathlib
+from decimal import Decimal
 from typing import Dict, List, Optional, Tuple
 
 from .consistency import check_record, consistency_score
@@ -121,7 +122,77 @@ def validate_label(record: Optional[Dict], strict_arithmetic: bool = False
             if check.passed is False:
                 (errors if strict_arithmetic else warnings).append(
                     "arithmetic check %r failed: %s" % (check.name, check.detail))
+                if check.name == "line_arithmetic":
+                    warnings.extend("  -> %s" % h
+                                    for h in diagnose_line_arithmetic(record))
     return errors, warnings
+
+
+def diagnose_line_arithmetic(record: Dict) -> List[str]:
+    """Explain *why* a line fails `qty x unit_price - discount == taxable_value`.
+
+    The bare check reports "0 ok / 1 bad", which tells a labeller nothing. Most
+    failures are one of a few recurring conventions, and naming the convention
+    turns a mystery into an instruction.
+
+    The common one, found on the first real invoice ingested: marketplaces
+    print a tax-INCLUSIVE line price. Meesho shows Gross 544.00, Discount
+    29.00, Taxable 490.48 -- because 544 - 29 = 515 is the tax-inclusive total
+    and 515 / 1.05 = 490.48. Copy "Gross" into `unit_price` and the line is off
+    by 24.52, which is exactly the tax. The schema defines `unit_price` as
+    tax-exclusive, so the fix is to label the exclusive figure.
+
+    That give-away -- off by precisely the tax -- is invisible unless something
+    checks for it, and the resulting label would otherwise be scored as a model
+    error on every model forever.
+    """
+    from .normalize import norm_money, norm_percent, norm_quantity
+
+    hints: List[str] = []
+    items = record.get("line_items")
+    if not isinstance(items, list):
+        return hints
+
+    for idx, item in enumerate(items):
+        if not isinstance(item, dict):
+            continue
+        qty = norm_quantity(item.get("quantity"))[0]
+        price = norm_money(item.get("unit_price"))[0]
+        disc = norm_money(item.get("discount"))[0] or Decimal("0")
+        taxable = norm_money(item.get("taxable_value"))[0]
+        rate = norm_percent(item.get("tax_rate"))[0]
+        if qty is None or price is None or taxable is None:
+            continue
+
+        computed = qty * price - disc
+        if abs(computed - taxable) <= Decimal("1.00"):
+            continue
+
+        gap = computed - taxable
+        if rate and rate > 0:
+            tax = (taxable * rate / Decimal("100"))
+            if abs(gap - tax) <= Decimal("1.00"):
+                hints.append(
+                    "line %d: off by %.2f, which is exactly the tax at %s%%. This "
+                    "invoice prints tax-INCLUSIVE line prices; the schema wants "
+                    "unit_price tax-exclusive. Label unit_price=%.2f (and move any "
+                    "discount into that figure rather than repeating it)."
+                    % (idx + 1, gap, rate.normalize(), taxable / qty))
+                continue
+        if qty > 1 and abs(price - taxable) <= Decimal("1.00"):
+            hints.append(
+                "line %d: unit_price equals the line total. It is the price of ONE "
+                "unit; label %.2f, not %.2f." % (idx + 1, taxable / qty, price))
+            continue
+        if disc and abs((qty * price) - taxable) <= Decimal("1.00"):
+            hints.append(
+                "line %d: reconciles only if the discount is dropped -- it is "
+                "probably already reflected in the printed taxable value, so "
+                "labelling it again subtracts it twice." % (idx + 1))
+            continue
+        hints.append("line %d: qty x unit_price - discount = %.2f but taxable_value "
+                     "is %.2f (off by %.2f)." % (idx + 1, computed, taxable, gap))
+    return hints
 
 
 def _sha256(path: pathlib.Path) -> str:

@@ -303,6 +303,31 @@ came off the same layout, so `_meta.layout_group` declares it. The default --
 one cluster per document -- assumes independence, which is the right default and
 is still an assumption.
 
+### 8c.1 What the first real invoice already showed
+
+One genuine marketplace invoice, ingested as a test, surfaced a divergence the
+synthetic corpus cannot contain.
+
+**Real invoices price tax-inclusive; the generator prices tax-exclusive.** The
+schema defines `unit_price` so that `qty x unit_price - discount ==
+taxable_value`, and all 96 synthetic documents are built that way. The real
+invoice printed `Gross 544.00`, `Discount 29.00`, `Taxable 490.48` -- because
+544 - 29 = 515 is the tax-inclusive total and 515 / 1.05 = 490.48. A labeller
+copying the printed "Gross" into `unit_price` produces a line that misses by
+24.52, which is precisely the tax.
+
+That is a labelling trap with a diagnostic signature -- off by exactly the tax
+-- and `ingest.diagnose_line_arithmetic` now names it and states the figure to
+write instead. Uncaught, it would have entered the corpus as ground truth and
+been scored as a model error against every model, permanently.
+
+It is also a genuine limitation of Layers 1 and 2. Models that only ever see
+tax-exclusive line pricing in the synthetic corpus are not being tested on the
+convention most Indian marketplace invoices actually use, and no amount of
+degradation severity exposes that. Whether models handle inclusive pricing is
+now an open question this benchmark cannot answer until Layer 3 has documents
+in it -- which is the argument for Layer 3 in miniature, from a sample of one.
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a

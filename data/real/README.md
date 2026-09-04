@@ -35,6 +35,13 @@ catch a labelling mistake before it is scored as a model failure forever.
    Emit `null` for a field the document does not show. **Never delete the key** —
    an omitted key cannot be distinguished from "this document has no such field".
 
+   **Line prices are tax-EXCLUSIVE.** Marketplaces usually print the opposite.
+   A real Meesho invoice shows `Gross 544.00`, `Discount 29.00`,
+   `Taxable 490.48` — because 544 − 29 = 515 is the tax-*inclusive* total and
+   515 ÷ 1.05 = 490.48. Copying `Gross` into `unit_price` makes the line miss
+   by 24.52, which is exactly the tax. Label the exclusive figure. `idb ingest`
+   detects this specific case and tells you the number to write.
+
    If several bills share a layout (common when they come from one supplier),
    say so — they are not independent draws and the statistics need to know:
 
@@ -59,6 +66,25 @@ catch a labelling mistake before it is scored as a model failure forever.
    idb run    --models <model> --manifest data/real/manifest.json --out results/raw_real
    idb report --models <model> --manifest data/real/manifest.json --raw results/raw_real
    ```
+
+## What a usable document must have
+
+All four, or it will not ingest:
+
+1. an invoice/bill **number**
+2. a **date**
+3. the seller's **GSTIN** (15 characters)
+4. a **tax line** — CGST + SGST, or IGST
+
+Good sources: marketplace invoices (Amazon, Flipkart, Meesho), postpaid
+mobile and broadband bills, insurance premium receipts, hotel and
+restaurant GST invoices, service and repair invoices.
+
+Not usable: **electricity bills** — supply of electricity is GST-exempt, so
+they carry no GSTIN and no tax breakdown. Nor are payment receipts that call
+themselves invoices: one tested here had no number, no date, no GSTIN and no
+tax line, because it was an acknowledgement of money received rather than a
+tax invoice.
 
 ## Two things that differ from the synthetic corpus
 

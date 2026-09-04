@@ -155,3 +155,68 @@ def test_redaction_checklist_names_the_out_of_scope_documents():
     text = redaction_checklist()
     for term in ("Aadhaar", "PAN", "voter", "passport"):
         assert term.lower() in text.lower()
+
+
+# --- line-arithmetic diagnostics -------------------------------------------
+# Every case here came from, or was found while labelling, a real invoice.
+
+def _line(**kw):
+    item = {"description": "X", "hsn_sac": "6208", "quantity": 1, "unit": None,
+            "unit_price": None, "discount": None, "taxable_value": None,
+            "tax_rate": 5}
+    item.update(kw)
+    rec = _good_label()
+    rec["line_items"] = [item]
+    return rec
+
+
+def test_tax_inclusive_line_price_is_named_not_just_flagged():
+    """The Meesho case: Gross 544 - discount 29 = 515 tax-inclusive, taxable
+    490.48. Copying Gross into unit_price is off by exactly the tax, and that
+    give-away is invisible unless something looks for it."""
+    from idb.ingest import diagnose_line_arithmetic
+    hints = diagnose_line_arithmetic(
+        _line(quantity=1, unit_price=544, discount=29,
+              taxable_value="490.48", tax_rate=5))
+    assert len(hints) == 1
+    assert "tax-INCLUSIVE" in hints[0]
+    assert "490.48" in hints[0], "must name the figure to write"
+
+
+def test_unit_price_given_as_the_line_total_is_named():
+    from idb.ingest import diagnose_line_arithmetic
+    hints = diagnose_line_arithmetic(
+        _line(quantity=4, unit_price="400.00", taxable_value="400.00", tax_rate=None))
+    assert hints and "price of ONE unit" in hints[0]
+    assert "100.00" in hints[0]
+
+
+def test_double_counted_discount_is_named():
+    from idb.ingest import diagnose_line_arithmetic
+    hints = diagnose_line_arithmetic(
+        _line(quantity=1, unit_price="100.00", discount="10.00",
+              taxable_value="100.00", tax_rate=None))
+    assert hints and "twice" in hints[0]
+
+
+def test_a_clean_line_produces_no_hints():
+    from idb.ingest import diagnose_line_arithmetic
+    assert diagnose_line_arithmetic(
+        _line(quantity=2, unit_price="50.00", taxable_value="100.00")) == []
+
+
+def test_incomplete_lines_are_not_second_guessed():
+    """Nullable fields are legitimately absent on real receipts; a missing
+    unit_price is not an arithmetic error."""
+    from idb.ingest import diagnose_line_arithmetic
+    assert diagnose_line_arithmetic(_line(unit_price=None, taxable_value="100")) == []
+    assert diagnose_line_arithmetic({"line_items": "not a list"}) == []
+
+
+def test_diagnostics_reach_the_labeller_through_validate_label():
+    rec = _line(quantity=1, unit_price=544, discount=29,
+                taxable_value="490.48", tax_rate=5)
+    rec["total_taxable_value"] = "490.48"
+    errors, warnings = validate_label(rec)
+    assert errors == []
+    assert any("tax-INCLUSIVE" in w for w in warnings)
