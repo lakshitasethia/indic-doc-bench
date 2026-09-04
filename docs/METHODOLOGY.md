@@ -328,6 +328,54 @@ degradation severity exposes that. Whether models handle inclusive pricing is
 now an open question this benchmark cannot answer until Layer 3 has documents
 in it -- which is the argument for Layer 3 in miniature, from a sample of one.
 
+### 8c.2 First real documents: what four invoices showed
+
+Four real GST invoices were collected, hand-labelled and swept: a Meesho
+marketplace invoice (interstate, IGST), two restaurant bills (Taco Bell and
+Social, intra-state CGST/SGST), and a PVR INOX cinema ticket. All four ingested
+with no validation errors.
+
+| Model | Corpus | n | All fields | Header | Line items |
+|---|---|---:|---:|---:|---:|
+| minimax-m3 | synthetic, clean | 96 | 94.7% | 94.4% | 94.8% |
+| minimax-m3 | **real** | 4 | **95.1%** | 95.9% | 94.4% |
+
+**This is not the transfer result the project is looking for, and it must not
+be reported as one.** Every one of these four is a born-digital PDF rendered at
+200 DPI. The synthetic clean level is also a clean digital render. The
+comparison therefore holds image capture constant and varies only document
+realism -- and on that axis, at n=4, performance transfers.
+
+The question the README poses is about *photographs*: a printed bill shot at an
+angle under a ceiling light. None of these are photographs, so that question
+remains completely open. What these four do establish is narrower and still
+useful: the synthetic layouts are not so unrepresentative that a model tuned by
+them collapses on genuine ones. The gap, if there is one, is likely to live in
+capture rather than in document design.
+
+**The most interesting result is a single field.** On the Meesho invoice the
+model returned `unit_price = 544.00` and `discount = 29.00` -- the figures
+printed on the document -- where ground truth is `unit_price = 490.48`,
+`discount = null`. That is precisely the tax-inclusive trap of 8c.1, and the
+model fell into it exactly as a human labeller does.
+
+It is worth being honest about who is wrong there. The model read what the page
+says. The schema defines `unit_price` as tax-exclusive, so the printed figure is
+the wrong answer *by the schema's convention* rather than by any reading error.
+For invoices priced tax-inclusive, `unit_price` is genuinely ambiguous, and
+scoring a faithful transcription as an error is a defensible choice but not an
+obvious one. A future schema version should either say which figure it wants
+when both are printed, or stop scoring `unit_price` on tax-inclusive documents
+at all. Flagged here rather than quietly fixed, because it changes what a number
+means.
+
+Remaining errors were omissions on fields the documents genuinely show
+(`quantity`, `unit_price` on a cinema line; `buyer_name` on a restaurant bill),
+and the Taco Bell invoice was extracted perfectly at 27 of 27 fields.
+
+n=4 supports none of this as an established effect. It is recorded because the
+direction is informative and because the labelling trap it exposed is real.
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a

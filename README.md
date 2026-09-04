@@ -128,12 +128,19 @@ Because it is the same document at every level, per-document degradation deltas
 and paired significance tests are available — an unpaired design would need far
 more documents for the same power.
 
-**Layer 3 — real (~50 docs — HARNESS READY, DOCUMENTS NOT YET COLLECTED).**
+**Layer 3 — real (4 docs collected, ~50 target).**
 Genuine invoices collected with explicit permission, personal details redacted,
 hand-labelled. The ingestion path exists and is tested — `idb label-template`,
 `idb redaction-checklist`, `idb ingest` — so documents can be added one at a
 time and swept with the same commands as the synthetic corpus. See
-[`data/real/README.md`](data/real/README.md). What is missing is the documents. Small, but it answers the
+[`data/real/README.md`](data/real/README.md).
+
+The first four — a marketplace invoice, two restaurant bills and a cinema
+ticket — are in and swept. On them `minimax-m3` scores 95.1% against 94.7% on
+synthetic clean renders, but all four are born-digital PDFs, so that compares
+clean-digital to clean-digital and leaves the photograph question untouched.
+The documents themselves are not in this repository: they carry real names and
+addresses. See [`METHODOLOGY.md`](docs/METHODOLOGY.md) section 8c.2. Small, but it answers the
 question that decides the project's credibility: *does synthetic performance
 transfer?* If models score 91% on synthetic and 64% on real photographs, that
 gap is the headline.

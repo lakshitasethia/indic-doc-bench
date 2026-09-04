@@ -28,3 +28,7 @@ htmlcov/
 # does not descend into an excluded directory to find a negation.
 data/real/inbox/
 data/real/manifest.json
+# Model output on real documents echoes the document back -- names, addresses,
+# phone numbers. The raw-responses-are-the-artifact rule that keeps
+# results/raw/ in the repo must NOT extend to these.
+results/raw_real/

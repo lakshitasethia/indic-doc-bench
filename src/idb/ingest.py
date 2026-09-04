@@ -212,6 +212,32 @@ def _rel(p: pathlib.Path, root: pathlib.Path) -> str:
         return str(p)
 
 
+def render_pdf(pdf: pathlib.Path, out_dir: pathlib.Path, dpi: int = 200) -> List[pathlib.Path]:
+    """Rasterise a PDF so a vision model can actually be sent it.
+
+    Real documents arrive as PDFs far more often than as photographs -- a
+    marketplace invoice, a restaurant bill emailed by the POS. But the image
+    APIs take image/*, and `mimetypes.guess_type` on a .pdf yields
+    application/pdf, which they reject. Left unrendered the sweep would fail
+    every real document with a transport error and, thanks to the infrastructure
+    -failure rule, score nothing at all.
+
+    Rendered at 200 DPI: high enough that the smallest printed tax line stays
+    legible, low enough to stay well inside per-image size limits. Every page is
+    kept, because a two-page bill really does carry the tax summary on page two.
+    """
+    import pymupdf
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    pages: List[pathlib.Path] = []
+    with pymupdf.open(pdf) as doc:
+        for i, page in enumerate(doc):
+            dest = out_dir / ("%s_p%d.png" % (pdf.stem, i + 1))
+            page.get_pixmap(dpi=dpi).save(dest)
+            pages.append(dest)
+    return pages
+
+
 def discover(inbox: pathlib.Path) -> List[Tuple[pathlib.Path, pathlib.Path]]:
     """Find (image, label) pairs in an inbox directory, matched by stem.
 
@@ -279,6 +305,18 @@ def build_real_manifest(inbox: pathlib.Path, root: pathlib.Path,
         # old ids -- and a real corpus grows one document at a time, so that
         # would happen constantly.
         doc_id = _doc_id_for(img, doc_prefix)
+        # A PDF is rendered to page images; anything already an image is used
+        # as it is. `source_file` keeps the pointer back to what was collected.
+        if img.suffix.lower() == ".pdf":
+            try:
+                files = render_pdf(img, inbox / "rendered")
+            except Exception as e:
+                problems.append("%s: could not render PDF (%s: %s)"
+                                % (img.name, type(e).__name__, e))
+                rejected.append(img.name)
+                continue
+        else:
+            files = [img]
         if doc_id in seen_ids:
             problems.append("%s: document id %r already taken by %s -- rename one"
                             % (img.name, doc_id, seen_ids[doc_id]))
@@ -305,9 +343,11 @@ def build_real_manifest(inbox: pathlib.Path, root: pathlib.Path,
             "consistency_score": consistency_score(record),
             "ground_truth": record,
             "variants": {REAL_LEVEL: {
-                "files": [_rel(img, root)],
-                "sha256": [_sha256(img)],
-                "params": {"note": "as collected; no synthetic degradation applied"},
+                "files": [_rel(f, root) for f in files],
+                "sha256": [_sha256(f) for f in files],
+                "params": {"note": "as collected; no synthetic degradation applied",
+                           "rendered_from_pdf": img.suffix.lower() == ".pdf",
+                           "n_pages": len(files)},
             }},
         })
 
