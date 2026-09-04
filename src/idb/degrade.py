@@ -147,15 +147,38 @@ def _jpeg(img: np.ndarray, quality: int) -> np.ndarray:
     return cv2.imdecode(buf, cv2.IMREAD_COLOR)
 
 
-def degrade_image(img: np.ndarray, level: str, seed: int) -> Tuple[np.ndarray, Dict]:
+def degrade_image(img: np.ndarray, level: str, seed: int,
+                  source_dpi: Optional[int] = None) -> Tuple[np.ndarray, Dict]:
     """Apply one severity recipe. Order matters and mirrors physical reality:
     geometry (the camera pose) happens before optics (lighting), which happens
-    before the sensor (noise), which happens before the codec (JPEG)."""
+    before the sensor (noise), which happens before the codec (JPEG).
+
+    **Resolution is part of the recipe and this function does not supply it by
+    itself.** `degrade_pdf` rasterises at the level's DPI before calling here,
+    which is why the synthetic corpus is correct. Anyone starting from an image
+    instead must pass `source_dpi` so the drop can be applied, or the output
+    carries L3's geometry and noise at full resolution while its metadata
+    claims 72 DPI.
+
+    That is not hypothetical: the first attempt to degrade real documents fed
+    200 DPI renders straight in, and the resulting "L3_harsh" scored 78.9%
+    against 20.4% for synthetic documents of the same table length -- a 58-point
+    gap that was entirely an artefact of the resolution drop never happening.
+    A downstream comparison looked like a finding.
+    """
     if level not in PRESETS:
         raise ValueError("unknown level %r" % level)
     p = PRESETS[level]
     rng = random.Random(seed)
     applied: Dict[str, Any] = {"level": level, "seed": seed}
+
+    if source_dpi:
+        scale = p["dpi"] / float(source_dpi)
+        if abs(scale - 1.0) > 1e-6:
+            interp = cv2.INTER_AREA if scale < 1 else cv2.INTER_CUBIC
+            img = cv2.resize(img, None, fx=scale, fy=scale, interpolation=interp)
+        applied["resampled_from_dpi"] = source_dpi
+    applied["dpi_applied"] = bool(source_dpi)
 
     img = autocrop(img)
     applied["cropped_size"] = [int(img.shape[1]), int(img.shape[0])]

@@ -32,3 +32,7 @@ data/real/manifest.json
 # phone numbers. The raw-responses-are-the-artifact rule that keeps
 # results/raw/ in the repo must NOT extend to these.
 results/raw_real/
+
+# Degraded real documents: same personal data, four times over.
+data/real_degraded/
+results/raw_real_degraded/

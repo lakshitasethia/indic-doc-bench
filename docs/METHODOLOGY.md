@@ -376,6 +376,45 @@ and the Taco Bell invoice was extracted perfectly at 27 of 27 fields.
 n=4 supports none of this as an established effect. It is recorded because the
 direction is informative and because the labelling trap it exposed is real.
 
+### 8c.3 Real content through the synthetic degradation pipeline
+
+The four real documents are born-digital PDFs, so they say nothing about
+photography on their own. Running them through the *same* degradation pipeline
+as the synthetic corpus isolates the remaining variable: real document content,
+simulated capture.
+
+minimax-m3, matched on table length (synthetic documents with <= 6 line items,
+since the real four average 2.5):
+
+| Level | Synthetic (n=60) | Real (n=4) | Delta |
+|---|---:|---:|---:|
+| L0_clean | 97.1% | 97.9% | +0.8 |
+| L1_scan | 96.9% | 89.9% | -6.9 |
+| L2_photo | 95.3% | 89.8% | -5.5 |
+| L3_harsh | 20.4% | 22.2% | +1.8 |
+
+Real content degrades essentially as synthetic content does, including the
+collapse at L3. The L1/L2 deficits of 5-7 points are the only hint of a gap and
+are not separable from noise at n=4.
+
+**This result exists only because the first version of it was wrong, and the
+error is worth recording because it is easy to repeat.** `degrade_pdf`
+rasterises at the level's DPI and *then* degrades; `degrade_image` never
+resizes, it only records the DPI as metadata. Degrading the real documents from
+200 DPI renders therefore applied L3's rotation, shadow, noise and JPEG at full
+resolution while labelling the output 72 DPI.
+
+Those documents scored 78.9% at L3 against 20.4% for matched synthetic ones --
+a 58-point gap that reads like a headline finding about real documents being
+robust, and was entirely an artefact of a resample that never happened. It
+survived the obvious control (matching on line-item count) because complexity
+was not the cause. Only checking the pixel dimensions exposed it.
+
+`degrade_image` now takes `source_dpi` and records `dpi_applied`, so an image
+whose metadata claims 72 DPI has actually been resampled to it. The general
+lesson is narrower than "be careful": a metadata field that names a parameter
+the function does not apply will eventually be read as evidence that it did.
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a

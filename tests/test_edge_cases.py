@@ -90,3 +90,37 @@ def test_empty_inputs_do_not_break_the_report_layer():
     # Every call failed: no cost or latency can be reported, and inventing a
     # zero would put a 0.00s latency row in the table.
     assert cost_summary([{"error": "402", "latency_s": 0.2}]) == {}
+
+
+# --- degradation resolution ------------------------------------------------
+
+def test_degrade_image_does_not_silently_skip_the_resolution_drop():
+    """L3 drops to 72 DPI, and that drop is the most destructive part of the
+    recipe. Starting from an image rather than a PDF, the caller must say what
+    resolution it is at -- otherwise the output carries L3 geometry and noise
+    at full size while its metadata claims 72 DPI, and a comparison against
+    the synthetic corpus measures the missing resample rather than the model.
+    """
+    import numpy as np
+
+    from idb.degrade import degrade_image
+
+    img = np.full((2000, 1400, 3), 255, np.uint8)
+    _, without = degrade_image(img.copy(), "L3_harsh", seed=1)
+    small, with_dpi = degrade_image(img.copy(), "L3_harsh", seed=1, source_dpi=200)
+
+    assert without["dpi_applied"] is False
+    assert with_dpi["dpi_applied"] is True
+    assert with_dpi["resampled_from_dpi"] == 200
+    # 72/200 of the original, before rotation padding: must be much smaller.
+    assert small.shape[1] < 1400 * 0.6
+
+
+def test_source_dpi_upsamples_when_the_level_asks_for_more():
+    import numpy as np
+
+    from idb.degrade import degrade_image
+    img = np.full((500, 400, 3), 255, np.uint8)
+    big, meta = degrade_image(img, "L0_clean", seed=1, source_dpi=72)
+    assert meta["dpi_applied"] is True
+    assert big.shape[1] > 400
