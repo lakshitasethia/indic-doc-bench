@@ -128,7 +128,7 @@ Because it is the same document at every level, per-document degradation deltas
 and paired significance tests are available — an unpaired design would need far
 more documents for the same power.
 
-**Layer 3 — real (4 docs collected, ~50 target).**
+**Layer 3 — real (5 docs collected, 1 a photograph, ~50 target).**
 Genuine invoices collected with explicit permission, personal details redacted,
 hand-labelled. The ingestion path exists and is tested — `idb label-template`,
 `idb redaction-checklist`, `idb ingest` — so documents can be added one at a

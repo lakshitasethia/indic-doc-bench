@@ -415,6 +415,44 @@ whose metadata claims 72 DPI has actually been resampled to it. The general
 lesson is narrower than "be careful": a metadata field that names a parameter
 the function does not apply will eventually be read as evidence that it did.
 
+### 8c.4 The first real photograph, and what it says about the severity ladder
+
+A handheld phone photograph of a printed thermal receipt -- fingers in frame,
+curved paper, a ceiling-light specular highlight across the top -- was ingested
+and swept. It is the first document in this repository that is a photograph
+rather than a render.
+
+`minimax-m3` scored it **34 of 35 fields**, better than three of the four
+born-digital PDFs. The single miss is `reverse_charge`: the model returned
+`False` where the receipt does not print the field at all, which is scored
+SPURIOUS and is arguably the model asserting a reasonable default rather than
+reading something wrong.
+
+This does not support the gap the README hypothesises ("91% on synthetic and
+64% on real photographs"), and it is one document, so it does not refute it
+either. What it does do is raise a calibration question about the severity
+ladder that no amount of synthetic data could have raised.
+
+**The photograph is not as degraded as L3_harsh, and probably not even as
+degraded as L2_photo.** The receipt spans roughly 1050 px for about 5.9 inches
+of paper, an effective resolution near 177 DPI. The ladder puts L2_photo at 150
+DPI and L3_harsh at 72. So a real phone photograph, taken close, in focus,
+under ordinary indoor light, lands between L1 and L2.
+
+That reframes what the L3 collapse means. minimax-m3 falls to 20.6% at L3, and
+that is a real property of the model under that input -- but L3 represents a
+capture considerably worse than a person photographing a bill they intend to
+read. It is closer to a distant, dim, or motion-blurred shot than to the
+ordinary case. The degradation ladder is a stress test, and the L3 rung should
+be described as one rather than as "what a phone upload looks like".
+
+Nothing here is established at n=1. Two things follow that do not need more
+data: the ladder's rungs should be documented in effective DPI against real
+captures rather than in nominal render DPI alone, and collecting photographs
+that genuinely sit at L3 (taken at arm's length, in poor light, slightly out of
+focus) is now a specific and answerable collection task rather than a vague
+call for "more real documents".
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a
