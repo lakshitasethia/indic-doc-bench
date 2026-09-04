@@ -415,7 +415,7 @@ whose metadata claims 72 DPI has actually been resampled to it. The general
 lesson is narrower than "be careful": a metadata field that names a parameter
 the function does not apply will eventually be read as evidence that it did.
 
-### 8c.4 The first real photograph, and what it says about the severity ladder
+### 8c.4 The first real photographs, and what they say about the severity ladder
 
 A handheld phone photograph of a printed thermal receipt -- fingers in frame,
 curved paper, a ceiling-light specular highlight across the top -- was ingested
@@ -428,30 +428,60 @@ born-digital PDFs. The single miss is `reverse_charge`: the model returned
 SPURIOUS and is arguably the model asserting a reasonable default rather than
 reading something wrong.
 
-This does not support the gap the README hypothesises ("91% on synthetic and
-64% on real photographs"), and it is one document, so it does not refute it
-either. What it does do is raise a calibration question about the severity
+This does not support the gap the README hypothesised at the time ("91% on
+synthetic and 64% on real photographs"), and it is one document, so it does not
+refute it either. What it does do is raise a calibration question about the severity
 ladder that no amount of synthetic data could have raised.
 
 **The photograph is not as degraded as L3_harsh, and probably not even as
-degraded as L2_photo.** The receipt spans roughly 1050 px for about 5.9 inches
-of paper, an effective resolution near 177 DPI. The ladder puts L2_photo at 150
-DPI and L3_harsh at 72. So a real phone photograph, taken close, in focus,
-under ordinary indoor light, lands between L1 and L2.
+degraded as L2_photo.** The ladder's rungs are *nominal render DPI* -- the
+resolution a synthetic page is rasterised at before the recipe runs. A
+photograph has no render step, so the comparison needs the same quantity
+measured off the image: pixels per inch of paper.
 
-That reframes what the L3 collapse means. minimax-m3 falls to 20.6% at L3, and
-that is a real property of the model under that input -- but L3 represents a
-capture considerably worse than a person photographing a bill they intend to
-read. It is closer to a distant, dim, or motion-blurred shot than to the
-ordinary case. The degradation ladder is a stress test, and the L3 rung should
-be described as one rather than as "what a phone upload looks like".
+`idb capture-dpi` (see `src/idb/capture.py`) does that. It measures the span of
+the high-detail region and divides by a physical width the caller supplies,
+because no pixel measurement can recover it -- an 80mm thermal roll and a 58mm
+one photographed to fill the same frame are the same image. Both photographs in
+the corpus are on the common 3-inch (80mm) restaurant roll:
 
-Nothing here is established at n=1. Two things follow that do not need more
-data: the ladder's rungs should be documented in effective DPI against real
-captures rather than in nominal render DPI alone, and collecting photographs
-that genuinely sit at L3 (taken at arm's length, in poor light, slightly out of
-focus) is now a specific and answerable collection task rather than a vague
-call for "more real documents".
+| Capture | Frame | Document span | Effective DPI | Ladder position |
+|---|---|---|---|---|
+| Sadakchaap thermal receipt | 960 x 1280 | 548 px | **174** | between L2_photo (150) and L1_scan (300) |
+| Social thermal receipt | 2250 x 4000 | 1359 px | **432** | at or above L0_clean (300) |
+
+The first agrees with the estimate this section originally carried (~177 DPI,
+taken along the receipt's length against a guessed 5.9 inches) from a different
+direction and a different assumption, which is the only reason to trust either.
+The measurement is deliberately conservative: trimming the outermost 1% of
+detail mass lands a few percent inside the true paper edge, so effective DPI is
+under-stated rather than flattered.
+
+The assumption is doing visible work and is reported alongside the answer: at
+58mm those figures become 240 and 595 DPI. Every reading is above L2_photo, and
+the lowest is 2.4x L3_harsh.
+
+**Effective DPI is an upper bound on quality, not a measure of it.** A capture
+at 432 DPI still carries the fold, the perspective, the specular highlight and
+whatever focus error the phone made. What the measurement supports is one
+direction only: a capture at 174 DPI cannot be *as low-resolution as* a 72 DPI
+render, whatever else is wrong with it.
+
+That is enough to reframe what the L3 collapse means. minimax-m3 falls to 20.6%
+at L3, and that is a real property of the model under that input -- but L3
+represents a capture considerably worse than a person photographing a bill they
+intend to read. It is closer to a distant, dim, or motion-blurred shot than to
+the ordinary case. The degradation ladder is a stress test, and the L3 rung is
+now described as one throughout -- in `degrade.py`, in the README's ladder
+table, and here -- rather than as "what a phone upload looks like".
+
+Nothing about the model results is established at n=2. What is settled is the
+vocabulary: the rungs now carry measured real captures beside their nominal
+DPI, and collecting photographs that genuinely sit at L3 (taken at arm's
+length, in poor light, slightly out of focus) is a specific and answerable
+collection task rather than a vague call for "more real documents". `idb
+capture-dpi` is how such a candidate gets checked before it is labelled: a
+photograph a collector believes is harsh, measuring 300 DPI, is not.
 
 ### 8c.5 A matched pair, a ground-truth error, and a reversed expectation
 
@@ -489,17 +519,20 @@ the model back-filled the footer SAC onto all six lines. Reading the
 photograph, it did not. Both photographs in the corpus score 100%.
 
 **This runs against the hypothesis this project was built on.** The README
-proposes that models scoring ~91% on synthetic documents might score ~64% on
+proposed that models scoring ~91% on synthetic documents might score ~64% on
 real photographs, and that the gap would be the headline. At n=2 photographs
-there is no gap at all in that direction.
+there is no gap at all in that direction, and the README no longer states it as
+an expectation.
 
 The caveats are large and belong in the same breath. Two photographs, both
 close-up, in focus, under ordinary indoor light, both of short thermal receipts
-(two and six line items). Section 8c.4 measured such a capture at roughly 177
-effective DPI, between L1 and L2 on the severity ladder rather than at L3. What
-these two documents show is that the easy photograph -- the one a person takes
-deliberately, of a bill they intend to read -- is not a hard case for a current
-vision model. The hard photograph remains uncollected.
+(two and six line items). Section 8c.4 measures them at 174 and 432 effective
+DPI -- one between L2 and L1 on the severity ladder, the other above L0, and
+neither anywhere near L3. What these two documents show is that the easy
+photograph -- the one a person takes deliberately, of a bill they intend to
+read -- is not a hard case for a current vision model. The hard photograph
+remains uncollected, and `idb capture-dpi` now gives collection a target to aim
+at rather than a feeling.
 
 **The finding that does not depend on capture** is the back-filling itself.
 A model that copies a document-level code into every line item produces a
@@ -563,9 +596,15 @@ camera.
 
 Read this before citing any number here.
 
-1. **Synthetic documents are not real documents.** Layer 3 exists precisely to
-   measure that gap, and until it is collected the synthetic numbers are an
-   upper bound. Expect real photographed invoices to score materially worse.
+1. **Synthetic documents are not real documents,** and Layer 3 exists to
+   measure that gap. It now holds 6 documents -- 4 born-digital PDFs and 2
+   photographs -- which is far too few to measure anything. What those 6 did
+   was contradict the expected direction: both photographs scored 100%, one
+   after exposing an error in the ground truth rather than in the model
+   (§8c.5). Read that as *unmeasured*, not as *disproved*. Both photographs are
+   easy captures (174 and 432 effective DPI, §8c.4) of short thermal receipts.
+   The hard photograph -- arm's length, poor light, slightly out of focus, a
+   dense A4 invoice -- is the specific document this corpus is missing.
 2. **The main corpus under-samples long tables.** Median 5 line items, and only
    4 documents of 96 carry 23 or more — yet those four absorb every unexplained
    numeric error on clean renders. `data/long_probe/` (24 documents, 23–28
@@ -579,9 +618,13 @@ Read this before citing any number here.
    with IRN, wide landscape grids, minimal whitespace layouts, dense multi-page
    tables, bilingual forms, thermal receipts, watermarked letterheads, boxed
    government-style forms, and raw spreadsheet exports.
-4. **The degradation model is synthetic.** Real phone photographs bring motion
-   blur, rolling shutter, focus falloff, fingers, staples and folds. The
-   pipeline covers geometry, lighting, noise and compression.
+4. **The degradation model is synthetic, and the ladder is a stress ladder.**
+   Real phone photographs bring motion blur, rolling shutter, focus falloff,
+   fingers, staples and folds; the pipeline covers geometry, lighting, noise
+   and compression. Separately, the rungs are not calibrated to the *typical*
+   capture: measured against the two real photographs here, L3_harsh at 72 DPI
+   is 2.4x below the lower of them (§8c.4). The L0-to-L3 drop is a stress
+   response, not an estimate of what production traffic costs you.
 5. **Document-level exact match cannot rank models at n=400** (§5). Treat that
    column as a difficulty gauge, not a leaderboard.
 6. **Determinism is not guaranteed** (§7). Variance is measured, not eliminated.

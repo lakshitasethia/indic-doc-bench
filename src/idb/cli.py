@@ -10,6 +10,7 @@ from typing import Dict, List
 from . import corpus as C
 from . import models
 from .adapters.mock import MockAdapter
+from .capture import PAPER_WIDTHS_MM
 from .degrade import LEVELS
 from .report import (degradation_curve, error_mix, infra_failure_count, leaderboard,
                      markdown_cost, markdown_degradation, markdown_leaderboard,
@@ -310,6 +311,17 @@ def cmd_ingest(args):
     print("Sweep them with:  idb run --models <model> --manifest %s" % out)
 
 
+def cmd_capture_dpi(args):
+    """Place a real capture on the severity ladder, in the ladder's own units."""
+    from . import capture as CAP
+
+    width = args.paper_width_mm
+    if args.media:
+        width = CAP.PAPER_WIDTHS_MM[args.media]
+    rows = [CAP.measure_file(pathlib.Path(f), width) for f in args.images]
+    print(CAP.format_report(rows, width))
+
+
 def cmd_pricing(args):
     from . import pricing
     if args.refresh:
@@ -381,6 +393,17 @@ def main(argv=None):
                      help="treat a failed arithmetic check as an error rather than "
                           "a warning; real invoices do sometimes fail to reconcile")
     ing.set_defaults(func=cmd_ingest)
+
+    cd = sub.add_parser("capture-dpi",
+                        help="measure a real photograph's effective DPI over the "
+                             "paper and place it on the severity ladder")
+    cd.add_argument("images", nargs="+")
+    cd.add_argument("--paper-width-mm", type=float, default=80.0,
+                    help="physical width of the medium; no pixel measurement can "
+                         "recover it (default: 80, the common 3-inch thermal roll)")
+    cd.add_argument("--media", choices=sorted(PAPER_WIDTHS_MM),
+                    help="named medium instead of --paper-width-mm")
+    cd.set_defaults(func=cmd_capture_dpi)
 
     pr = sub.add_parser("pricing", help="show/refresh the OpenRouter rate card")
     pr.add_argument("--refresh", action="store_true")

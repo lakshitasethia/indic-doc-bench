@@ -1,10 +1,23 @@
-"""Degradation pipeline: turn a clean render into something a real user uploads.
+"""Degradation pipeline: a stress ladder, calibrated against real captures.
 
-Nobody in production uploads a 300-dpi PDF. They photograph a printed bill on a
-desk under a ceiling fan. Accuracy on clean documents is therefore the least
-interesting number in the benchmark; accuracy *as a function of degradation* is
-the interesting one, because models that tie when the input is clean separate
-sharply when it is not.
+Nobody in production uploads a 300-dpi PDF. Accuracy on clean documents is
+therefore the least interesting number in the benchmark; accuracy *as a
+function of degradation* is the interesting one, because models that tie when
+the input is clean separate sharply when it is not.
+
+**The rungs are a stress ladder, not a sample of real captures.** The DPI
+figures below are nominal render resolution, and until Layer 3 had photographs
+in it there was nothing to check them against. Measured with `idb capture-dpi`,
+the two real photographs in the corpus come out at roughly 174 and 432 DPI over
+the paper -- one between L2_photo and L1_scan, the other above L0_clean. Both
+are close, in-focus, ordinary-light captures of thermal receipts, which is what
+a person takes of a bill they intend to read.
+
+L3_harsh at 72 DPI is therefore considerably worse than that ordinary case: it
+stands in for a distant, dim or motion-blurred shot, and should be described as
+a stress test rather than as "what a phone upload looks like". Nothing about
+the recipes changes on that account -- what changes is what the L3 column
+licenses you to say. See `capture.py` and METHODOLOGY 8c.4.
 
 Three severity levels, each a fixed recipe rather than a random draw, so the
 same document at L1/L2/L3 differs only in degradation. That paired structure is
@@ -29,6 +42,12 @@ LEVELS = ["L0_clean", "L1_scan", "L2_photo", "L3_harsh"]
 
 # Fixed recipes. Ranges are sampled per document from a seeded RNG so documents
 # vary, but the *distribution* at each level is pinned and published.
+#
+# `dpi` is the rasterisation resolution of the source page, which is the same
+# quantity `idb capture-dpi` measures over a photograph -- pixels per inch of
+# paper. Measured real captures for comparison: 174 DPI (a 1.2MP phone frame of
+# an 80mm receipt) and 432 DPI (a 9MP one). L2_photo is at the low end of what
+# a deliberate photograph looks like; L3_harsh is below all of it.
 PRESETS: Dict[str, Dict[str, Any]] = {
     "L0_clean": dict(dpi=300, rotate=(0.0, 0.0), perspective=0.0, jpeg=None,
                      shadow=0.0, gauss=0.0, sp=0.0, blur=0),
