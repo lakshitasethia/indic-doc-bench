@@ -36,9 +36,31 @@ def cmd_build(args):
 def cmd_verify(args):
     m = C.load_manifest(pathlib.Path(args.manifest))
     problems = C.verify_manifest(m)
-    print("OK: %d documents verified" % m["n_documents"] if not problems
-          else "\n".join(problems[:50]))
-    return 1 if problems else 0
+    if not problems:
+        print("OK: %d documents verified" % m["n_documents"])
+        return 0
+
+    # A fresh clone has the manifest but none of the renders -- they are
+    # gitignored and regenerate from seeds. Printing 400 "missing" lines tells
+    # that user nothing; the actionable fact is the one build command.
+    missing = [p for p in problems if p.startswith("missing:")]
+    if len(missing) == len(problems):
+        out = pathlib.Path(args.manifest).parent
+        print("corpus not built: all %d files are missing.\n" % len(missing))
+        print("The renders are not version-controlled -- they regenerate from the\n"
+              "manifest seeds. Build them with:\n")
+        print("  idb build --n %d --out %s\n" % (m["n_documents"], out))
+        print("(add --prefix/--seed0/--line-items to match a probe corpus; see\n"
+              " the command recorded in .gitignore)")
+        return 1
+
+    print("%d problem(s); first %d:" % (len(problems), min(50, len(problems))))
+    print("\n".join(problems[:50]))
+    if len(missing) and len(missing) < len(problems):
+        print("\n%d missing, %d hash mismatches. A hash mismatch is the serious "
+              "one:\nthe corpus changed under results already scored against it."
+              % (len(missing), len(problems) - len(missing)))
+    return 1
 
 
 def _adapters(names: List[str], manifest: Dict):

@@ -203,6 +203,13 @@ def _detect_merges_splits(gt_items, pred_items, pairs, missing_gt, spurious_pred
 
 
 def align(gt_items: List[Dict], pred_items: List[Dict]) -> Alignment:
+    # `score_document` already drops non-dict entries, so this is belt and
+    # braces -- but a model returning "line_items": [null] is a real thing,
+    # and align() is public enough to be called without that filter in front
+    # of it. Dropping here rather than raising keeps a malformed row scored as
+    # a missing line instead of taking down the whole report run.
+    gt_items = [x for x in gt_items if isinstance(x, dict)]
+    pred_items = [x for x in pred_items if isinstance(x, dict)]
     n, m = len(gt_items), len(pred_items)
     if n == 0 or m == 0:
         return Alignment([], list(range(n)), list(range(m)), [], [],

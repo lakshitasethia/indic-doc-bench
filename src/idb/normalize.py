@@ -84,7 +84,13 @@ def _parse_decimal(v: Any) -> Tuple[Optional[Decimal], bool]:
     if isinstance(v, bool):
         return None, False
     if isinstance(v, (int, float)):
-        return Decimal(str(v)), True
+        d = Decimal(str(v))
+        # NaN and +/-Infinity parse happily into Decimal and then explode in
+        # quantize(). They reach us for real: json.loads accepts the bare
+        # tokens NaN, Infinity and -Infinity by default, so a model emitting
+        # one produces a record that parses cleanly and crashes scoring. An
+        # invoice total is never non-finite, so treat it as unparseable.
+        return (d, True) if d.is_finite() else (None, False)
     s = _clean_text(v)
     s = _CURRENCY.sub("", s).strip()
     # A stripped symbol can leave stray punctuation ("Rs. 2,950" -> ". 2,950").
@@ -103,9 +109,26 @@ def _parse_decimal(v: Any) -> Tuple[Optional[Decimal], bool]:
         d = Decimal(s)
     except InvalidOperation:
         return None, False
+    if not d.is_finite():          # the strings "NaN", "Infinity", "-inf"
+        return None, False
     if neg:
         d = -d
     return d, True
+
+
+def _quantize(d: Decimal, places: str) -> Tuple[Optional[Decimal], bool]:
+    """Quantise, or report the value as unusable.
+
+    `Decimal("1e400")` is perfectly finite, so the is_finite() guard in
+    `_parse_decimal` lets it through -- and then quantize() raises, because the
+    expanded result exceeds the context precision. An invoice amount with 400
+    digits is not a number anyone can use, so it is rejected here rather than
+    allowed to abort the run.
+    """
+    try:
+        return d.quantize(Decimal(places), rounding=ROUND_HALF_UP), True
+    except InvalidOperation:
+        return None, False
 
 
 def norm_money(v: Any) -> Tuple[Optional[Decimal], bool]:
@@ -114,14 +137,16 @@ def norm_money(v: Any) -> Tuple[Optional[Decimal], bool]:
     d, ok = _parse_decimal(v)
     if d is None:
         return None, ok
-    return d.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP), ok
+    q, qok = _quantize(d, "0.01")
+    return q, (ok and qok)
 
 
 def norm_quantity(v: Any) -> Tuple[Optional[Decimal], bool]:
     d, ok = _parse_decimal(v)
     if d is None:
         return None, ok
-    return d.quantize(Decimal("0.001"), rounding=ROUND_HALF_UP), ok
+    q, qok = _quantize(d, "0.001")
+    return q, (ok and qok)
 
 
 def norm_percent(v: Any) -> Tuple[Optional[Decimal], bool]:
@@ -139,7 +164,8 @@ def norm_percent(v: Any) -> Tuple[Optional[Decimal], bool]:
         return None, ok
     if Decimal("0") < d < Decimal("1"):
         d = d * 100
-    return d.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP), True
+    q, qok = _quantize(d, "0.01")
+    return q, qok
 
 
 _DATE_FORMATS = [
