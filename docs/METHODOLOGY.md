@@ -266,6 +266,43 @@ the right default for a realistic cost-per-1000-documents claim. Reporting both
 is the honest arrangement: natural distribution for what a pipeline will
 actually see, and the probe for the regime that breaks it.
 
+## 8c. Layer 3 inverts where the error comes from
+
+Layers 1 and 2 have no annotator, so they have no annotator error. Layer 3 has
+both, and the whole design of `ingest.py` follows from that one inversion.
+
+A mistyped label is not a small problem. It is scored as a model error on every
+model, forever, and no amount of model improvement can fix it -- the benchmark
+simply reports a failure that never happened. So every hand-label is run through
+the schema *and* through the same ground-truth-free arithmetic checks used on
+model output before it is allowed into the corpus. A label whose CGST and SGST
+do not reconcile against the taxable value is far more likely to be a typing
+slip than a genuine oddity.
+
+Those arithmetic failures are warnings rather than errors, because real invoices
+sometimes genuinely do not reconcile -- rounding conventions vary and some
+suppliers really do print totals that do not add up. `--strict-arithmetic`
+promotes them once that has been ruled out for a given corpus.
+
+Three further consequences:
+
+**Document ids come from filenames, never from a counter.** A real corpus grows
+one document at a time, and a positional counter renumbers every later document
+the moment one is added earlier in the sort -- silently invalidating every
+result already keyed by the old ids.
+
+**Real documents have no severity levels.** A photograph arrives at whatever
+quality it was taken at. Assigning it an `L0_clean` would invent a comparison,
+so real documents carry a single `real` level and are excluded from the
+degradation curve rather than plotted as a point on it.
+
+**Layout is declared, not inferred.** Several bills from one supplier share a
+template and are not independent draws, exactly as with the synthetic corpus
+where template is the resampling unit. Only the labeller knows which documents
+came off the same layout, so `_meta.layout_group` declares it. The default --
+one cluster per document -- assumes independence, which is the right default and
+is still an assumption.
+
 ## 9. The taxonomy is mostly automatic
 
 Three categories fall out with no judgement required, and they are the ones a

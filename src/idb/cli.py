@@ -64,7 +64,16 @@ def cmd_verify(args):
 
 
 def _adapters(names: List[str], manifest: Dict):
-    gt = {d["doc_id"]: d["ground_truth"] for d in manifest["documents"]}
+    # The mock resolves ground truth from the image filename, which matches the
+    # document id for synthetic renders (syn00000__L0_clean.png) but not for a
+    # real document keeping its collected name (bill000.jpg). Key it by both so
+    # the harness can be exercised against a real-document manifest too.
+    gt = {}
+    for d in manifest["documents"]:
+        gt[d["doc_id"]] = d["ground_truth"]
+        for variant in d.get("variants", {}).values():
+            for f in variant.get("files", []):
+                gt.setdefault(pathlib.Path(f).stem.split("__")[0], d["ground_truth"])
     out = []
     for n in names:
         if n.startswith("mock"):
@@ -96,7 +105,10 @@ def _level(dr):
 def cmd_report(args):
     manifest = C.load_manifest(pathlib.Path(args.manifest))
     gt_by_doc = {d["doc_id"]: d["ground_truth"] for d in manifest["documents"]}
-    tpl_by_doc = {d["doc_id"]: d["template_id"] for d in manifest["documents"]}
+    # Real documents have no template; each clusters on its own layout_group
+    # (default: itself), so the clustered bootstrap stays well defined.
+    tpl_by_doc = {d["doc_id"]: (d.get("template_id") or d["doc_id"])
+                  for d in manifest["documents"]}
 
     scored, costs, excluded = {}, {}, {}
     for model in args.models:
@@ -246,6 +258,58 @@ def cmd_triage(args):
           "and\nnothing marked AMBIGUOUS has been guessed at.")
 
 
+def cmd_label_template(args):
+    from . import ingest as ING
+    print(json.dumps(ING.label_template(args.line_items), indent=1))
+
+
+def cmd_redaction_checklist(args):
+    from . import ingest as ING
+    print(ING.redaction_checklist())
+
+
+def cmd_ingest(args):
+    """Validate and register hand-labelled real documents (Layer 3)."""
+    from . import ingest as ING
+
+    inbox = pathlib.Path(args.inbox)
+    if not inbox.exists():
+        raise SystemExit(
+            "no inbox at %s\n"
+            "  put each document beside its label, matched by filename:\n"
+            "    %s/bill001.jpg\n"
+            "    %s/bill001.json   <- from `idb label-template`"
+            % (inbox, inbox, inbox))
+
+    manifest, report = ING.build_real_manifest(
+        inbox, ROOT, strict_arithmetic=args.strict_arithmetic)
+
+    for line in report["errors"]:
+        print("  ERROR   %s" % line, file=sys.stderr)
+    for line in report["warnings"]:
+        print("  warning %s" % line, file=sys.stderr)
+
+    n_found = len(ING.discover(inbox))
+    n_rejected = len(report["rejected"])
+    if not manifest["documents"]:
+        raise SystemExit("\nno documents ingested (%d found, %d rejected)"
+                         % (n_found, n_rejected))
+
+    out = pathlib.Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(manifest, indent=1))
+    print("\ningested %d of %d documents -> %s"
+          % (len(manifest["documents"]), n_found, out))
+    if n_rejected:
+        print("%d rejected (%s); fix the labels and re-run."
+              % (n_rejected, ", ".join(report["rejected"][:5])))
+    if report["warnings"]:
+        print("%d warning(s) above: ingested, but worth a second look."
+              % len(report["warnings"]))
+    print("\nThe images are the artifact and cannot be regenerated. Back them up.")
+    print("Sweep them with:  idb run --models <model> --manifest %s" % out)
+
+
 def cmd_pricing(args):
     from . import pricing
     if args.refresh:
@@ -302,6 +366,21 @@ def main(argv=None):
     t.add_argument("--raw", default=str(DEFAULT_RAW))
     t.add_argument("--out", default=str(ROOT / "results" / "review_queue_triaged.csv"))
     t.set_defaults(func=cmd_triage)
+
+    lt = sub.add_parser("label-template", help="print a blank label for hand-labelling")
+    lt.add_argument("--line-items", type=int, default=1)
+    lt.set_defaults(func=cmd_label_template)
+
+    rc = sub.add_parser("redaction-checklist", help="print the redaction checklist")
+    rc.set_defaults(func=cmd_redaction_checklist)
+
+    ing = sub.add_parser("ingest", help="validate and register real documents (Layer 3)")
+    ing.add_argument("--inbox", default=str(ROOT / "data" / "real" / "inbox"))
+    ing.add_argument("--out", default=str(ROOT / "data" / "real" / "manifest.json"))
+    ing.add_argument("--strict-arithmetic", action="store_true",
+                     help="treat a failed arithmetic check as an error rather than "
+                          "a warning; real invoices do sometimes fail to reconcile")
+    ing.set_defaults(func=cmd_ingest)
 
     pr = sub.add_parser("pricing", help="show/refresh the OpenRouter rate card")
     pr.add_argument("--refresh", action="store_true")

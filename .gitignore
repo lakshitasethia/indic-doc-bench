@@ -6,7 +6,6 @@ __pycache__/
 # ground truth are what must be version-controlled.
 data/synthetic/pdf/
 data/synthetic/L*/
-data/real/
 !data/synthetic/manifest.json
 # Same rule for the long-table probe corpus: the manifest is the artifact,
 # the renders regenerate from its seeds via
@@ -22,3 +21,10 @@ data/long_probe/L*/
 .env.*
 .coverage
 htmlcov/
+
+# Layer 3. Real documents are personal data and cannot be regenerated from a
+# seed, so they are never pushed by accident -- but the workflow doc must be
+# readable in the repo, and a blanket `data/real/` would hide it, because git
+# does not descend into an excluded directory to find a negation.
+data/real/inbox/
+data/real/manifest.json

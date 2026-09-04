@@ -128,8 +128,12 @@ Because it is the same document at every level, per-document degradation deltas
 and paired significance tests are available — an unpaired design would need far
 more documents for the same power.
 
-**Layer 3 — real (~50 docs — NOT YET COLLECTED).** Genuine invoices collected
-with explicit permission, personal details redacted, hand-labelled. Small, but it answers the
+**Layer 3 — real (~50 docs — HARNESS READY, DOCUMENTS NOT YET COLLECTED).**
+Genuine invoices collected with explicit permission, personal details redacted,
+hand-labelled. The ingestion path exists and is tested — `idb label-template`,
+`idb redaction-checklist`, `idb ingest` — so documents can be added one at a
+time and swept with the same commands as the synthetic corpus. See
+[`data/real/README.md`](data/real/README.md). What is missing is the documents. Small, but it answers the
 question that decides the project's credibility: *does synthetic performance
 transfer?* If models score 91% on synthetic and 64% on real photographs, that
 gap is the headline.
@@ -155,6 +159,7 @@ src/idb/
   report.py       leaderboard, degradation curves, cost tables
   taxonomy.py     auto-classifies errors; queues the ambiguous residue
   triage.py       narrows that residue; refuses to guess at what is left
+  ingest.py       Layer 3: validates hand-labels, registers real documents
   figures.py      degradation curve, error-mix bars, cost/accuracy scatter
   models.py       pinned Anthropic IDs; everything else priced live
   pricing.py      OpenRouter rate card, fetched and timestamped

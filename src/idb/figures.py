@@ -57,7 +57,14 @@ def degradation_curve(curves: Dict[str, Dict], out: pathlib.Path,
 
     This is a curve rather than a number on purpose: models that sit within
     noise of each other on clean input routinely separate by double digits at
-    the harsh end, and that separation is the finding."""
+    the harsh end, and that separation is the finding.
+
+    Returns None for a corpus with no synthetic severity levels. Real documents
+    (Layer 3) arrive at whatever quality they were collected at, so there is no
+    severity axis to plot and drawing one would invent a comparison."""
+    has_levels = any(any(lv in c["levels"] for lv in LEVELS) for c in curves.values())
+    if not curves or not has_levels:
+        return None
     fig, ax = plt.subplots(figsize=(9.5, 5.6), dpi=170)
     xs = list(range(len(LEVELS)))
 

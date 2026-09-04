@@ -141,8 +141,11 @@ def iter_tasks(manifest: Dict, levels: Optional[List[str]] = None) -> Iterable[D
                 "doc_id": d["doc_id"],
                 "variant_id": "%s__%s" % (d["doc_id"], lv),
                 "level": lv,
-                "template_id": d["template_id"],
+                # Real documents have no template. They carry a layout_group
+                # instead (see ingest.py), defaulting to the document id so
+                # each is its own resampling cluster.
+                "template_id": d.get("template_id") or d["doc_id"],
                 "files": [str(ROOT / f) for f in v["files"]],
                 "ground_truth": d["ground_truth"],
-                "meta": d["meta"],
+                "meta": d.get("meta", {}),
             }
