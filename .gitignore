@@ -20,3 +20,5 @@ data/long_probe/L*/
 .DS_Store
 .env
 .env.*
+.coverage
+htmlcov/
