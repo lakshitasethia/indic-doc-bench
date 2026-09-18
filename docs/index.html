@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The label was wrong, not the model</title>
+<meta name="description" content="A matched pair of the same invoice exposed an error in my ground truth, and then a hallucination that arithmetic self-consistency cannot see.">
+<meta property="og:title" content="The label was wrong, not the model">
+<meta property="og:description" content="A matched pair of the same invoice exposed an error in my ground truth, and then a hallucination that arithmetic self-consistency cannot see.">
+<meta property="og:type" content="article">
+<style>
+  :root {
+    --bg: #fdfdfb;
+    --ink: #16161a;
+    --muted: #5c5c66;
+    --rule: #dcdcd4;
+    --link: #1a4f8b;
+    --mark: #f3f1e9;
+    --code-bg: #f1efe8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14141a;
+      --ink: #e8e8e6;
+      --muted: #9b9ba6;
+      --rule: #32323c;
+      --link: #86b5e8;
+      --mark: #1e1e26;
+      --code-bg: #22222c;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #14141a;
+    --ink: #e8e8e6;
+    --muted: #9b9ba6;
+    --rule: #32323c;
+    --link: #86b5e8;
+    --mark: #1e1e26;
+    --code-bg: #22222c;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Charter, "Bitstream Charter", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 19px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 16px 96px;
+  }
+
+  a { color: var(--link); text-decoration: none; border-bottom: 1px solid rgba(128,128,128,0.35); }
+  a:hover { border-bottom-color: currentColor; }
+
+  .eyebrow {
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 20px;
+    font-family: ui-sans-serif, -apple-system, system-ui, sans-serif;
+  }
+  .eyebrow a { border-bottom: none; }
+
+  h1 {
+    font-size: 40px;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin: 0 0 18px;
+    font-weight: 600;
+  }
+
+  .standfirst {
+    font-size: 21px;
+    line-height: 1.5;
+    color: var(--muted);
+    font-style: italic;
+    margin: 0 0 28px;
+  }
+
+  .byline {
+    font-size: 15px;
+    color: var(--muted);
+    font-family: ui-sans-serif, -apple-system, system-ui, sans-serif;
+    padding-bottom: 26px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 34px;
+  }
+
+  h2 {
+    font-size: 25px;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 46px 0 14px;
+    font-weight: 600;
+  }
+
+  p { margin: 0 0 20px; }
+
+  strong { font-weight: 600; }
+
+  code {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85em;
+    background: var(--code-bg);
+    padding: 0.12em 0.36em;
+    border-radius: 3px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 26px 0;
+    font-size: 17px;
+    font-family: ui-sans-serif, -apple-system, system-ui, sans-serif;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  th {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1.5px solid var(--rule);
+  }
+
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  tr.highlight td { background: var(--mark); font-weight: 600; }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 44px 0;
+  }
+
+  footer {
+    margin-top: 52px;
+    padding-top: 26px;
+    border-top: 1px solid var(--rule);
+    font-size: 16px;
+    color: var(--muted);
+  }
+
+  @media (max-width: 620px) {
+    body { font-size: 18px; }
+    .wrap { padding: 40px 16px 72px; }
+    h1 { font-size: 31px; }
+    .standfirst { font-size: 19px; }
+    h2 { font-size: 22px; }
+    table { font-size: 15px; }
+    th, td { padding: 8px 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow"><a href="https://github.com/lakshitasethia/indic-doc-bench">IndicDocBench</a></div>
+
+  <h1>The label was wrong, not the model</h1>
+
+  <p class="standfirst">A matched pair of the same invoice exposed an error in my ground truth, and then a hallucination that arithmetic self-consistency cannot see.</p>
+
+  <div class="byline">Lakshita Sethia</div>
+
+  <p>I have been building <a href="https://github.com/lakshitasethia/indic-doc-bench">IndicDocBench</a>, a benchmark for extracting structured data from Indian GST invoices. Most of it is synthetic: 384 document-variants generated from seeds across 12 layouts and four degradation levels, built that way so that no ground-truth answer could have been memorised from a pretraining corpus. A handful of real documents sit alongside it, hand-labelled, to measure the gap between generated invoices and the kind people actually receive.</p>
+
+  <p>One of those real documents turned up twice. I ate at a restaurant, photographed the printed thermal receipt on the table (creased paper, a patterned floor behind it, one line-item amount partly eaten by a fold), and was separately sent the born-digital PDF of the same bill over WhatsApp. Same invoice, same ground truth, same labels. One variable: how the document was captured.</p>
+
+  <p>That pair was supposed to tell me something about photographs. It told me something about my labelling instead.</p>
+
+  <h2>The eight-point gap</h2>
+
+  <p>The first reading looked clean and unsurprising. Running <code>minimax/minimax-m3</code>, the photograph scored 87.8% and the PDF 95.9%. The entire difference sat in one field: the photograph run was missing <code>hsn_sac</code> on all six line items.</p>
+
+  <p>This is exactly the shape of result the project was built to find. My README had, at the time, proposed that models scoring around 91% on synthetic documents might score around 64% on real photographs, and that this gap would be the headline. An eight-point capture penalty concentrated in one hard-to-read field is a smaller version of that story, and it would have been very easy to write it up as a confirmation.</p>
+
+  <h2>The label was wrong</h2>
+
+  <p>The receipt prints <code>SAC: 996331</code> exactly once, in the footer, as a document-level field. It does not repeat it per line, because it does not need to: every line on the bill is the same service.</p>
+
+  <p>My ground truth had six per-line SAC codes on that invoice. Nothing on the document says that. Somebody, which is to say me, had copied the footer code onto each line during labelling, because that is the obvious thing to do and because the benchmark's schema has a slot for it.</p>
+
+  <p>The benchmark's own methodology forbids exactly this. One of the rules I had written down months earlier says that normalisation removes representation and never repairs: <code>15/01/26</code> and <code>2026-01-15</code> are the same answer, but turning an <code>O</code> into a <code>0</code> inside a GSTIN scores a wrong answer as right and degrades the benchmark. Inferring six line-level codes from one footer code is the same category of move. It asserts something the document does not say.</p>
+
+  <p>So the model that reported no per-line SAC was reading the document correctly. My labels were asserting six values that are not printed anywhere on it.</p>
+
+  <p>I corrected the labels, setting <code>hsn_sac</code> to null on lines for every document that prints a single document-level code, and re-ran:</p>
+
+  <table>
+    <thead>
+      <tr><th>Capture</th><th>Score</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>born-digital PDF</td><td class="num">95.3% (59/67)</td></tr>
+      <tr class="highlight"><td>photograph</td><td class="num">100.0% (67/67)</td></tr>
+    </tbody>
+  </table>
+
+  <p>The photograph is now perfect. The eight-point capture gap does not exist. The other photograph in my corpus also scores 100%.</p>
+
+  <h2>What the correction revealed</h2>
+
+  <p>The interesting part is not that the gap vanished. It is what happened to the PDF's remaining errors.</p>
+
+  <p>They did not just persist, they changed category. My scoring distinguishes four outcomes rather than two: <code>correct</code>, <code>wrong</code>, <code>missing</code>, and <code>spurious</code>. A missing field and a fabricated field are different failures. An omission is detectable downstream, because the field is empty and a pipeline can route it to a human. A fabrication is not, because the field is populated, plausible, and it enters the ledger.</p>
+
+  <p>Before the correction, the photograph's six nulls were scored <code>missing</code>. After it, those nulls were right, and the PDF's six values became <code>spurious</code>.</p>
+
+  <p>Reading the clean, born-digital PDF, the model had back-filled the footer SAC onto all six line items. Reading the creased photograph, it had not.</p>
+
+  <p><strong>The hallucination was on the easy input.</strong></p>
+
+  <h2>Why arithmetic cannot catch this</h2>
+
+  <p>IndicDocBench runs ten consistency checks that need no ground truth at all, on model output alone: line items sum to the declared subtotal; subtotal plus taxes plus round-off equals the grand total; CGST equals SGST, which is true by construction on every intra-state invoice; CGST/SGST and IGST are mutually exclusive, because a supply is either intra-state or inter-state; quantity times unit price minus discount equals the taxable value; tax at the stated rate matches the stated amount; the GSTIN check digits validate; place of supply agrees with the seller's state code; round-off lies within a rupee; the date parses.</p>
+
+  <p>These are good checks. The GSTIN checksum in particular is unusually sharp: a single misread character in a 15-character GSTIN fails the check digit with probability 35/36, so character-level damage to the most business-critical field on the document is detectable with no reference data at all.</p>
+
+  <p>Every one of them passes on the back-filled output.</p>
+
+  <p><code>996331</code> is a real SAC code. It appears on the document. It is correctly formatted. It is not an addend in any total, so no sum changes. Copying it into six slots produces an output that is internally coherent in every way the checker knows how to test. The arithmetic is untouched, the schema is satisfied, and the value is one a human reviewer skimming the extraction would accept without hesitation.</p>
+
+  <p>This is the failure mode that worries me most in document extraction, and it is not the dramatic one. It is not a model inventing a company that does not exist. It is a model taking something true about the document and asserting it in a place the document does not assert it. The output stays plausible, so every check that examines a single output in isolation stays quiet.</p>
+
+  <h2>The matched pair is the detector</h2>
+
+  <p>Here is the part I think generalises.</p>
+
+  <p>Because the two captures are the same invoice, any difference between the two outputs is a property of the model rather than of the document. The document is held constant by construction. So disagreement between the two runs is a signal, and computing it <strong>requires no ground truth at all</strong>.</p>
+
+  <p>That matters more than it first sounds. Ground truth tells you a model is wrong, but ground truth is expensive: it is hand-labelling, and as this whole episode demonstrates, hand-labelling is itself error-prone in ways that are invisible until something contradicts it. Cross-modal disagreement tells you that something is wrong without telling you what the right answer is, and it costs only a second rendering of a document you already have.</p>
+
+  <p>For a benchmark that generates its own corpus, that second rendering is nearly free. The same seed produces a clean render and a degraded one. The pair comes out of the pipeline whether you ask for it or not.</p>
+
+  <p>I want to be precise about what this check does and does not catch.</p>
+
+  <p><strong>It catches</strong> failures that depend on how the document was presented. Back-filling is one, because whatever made the model reach for the footer on a crisp render did not fire on a creased photograph. Anything where visual quality changes which region the model attends to will surface here.</p>
+
+  <p><strong>It misses</strong> failures that are stable across renderings. If the model had back-filled the footer SAC on both the PDF and the photograph, the two outputs would agree perfectly and the check would say nothing. A consistent hallucination is invisible to a consistency check. This is a real limitation and not a small one.</p>
+
+  <h2>What this does not establish</h2>
+
+  <p>Two photographs is not a sample.</p>
+
+  <p>Both are close-up, in focus, under ordinary indoor light, and both are short thermal receipts of two and six line items. I measured their effective resolution, pixels per inch of actual paper, at 174 and 432 DPI. My synthetic degradation ladder's harshest rung renders at 72 DPI, so the lower of the two real photographs sits about 2.4 times above it. These are easy captures: the photograph a person takes deliberately, of a bill they intend to read.</p>
+
+  <p>The hard photograph, taken at arm's length in poor light and slightly out of focus, of a dense A4 invoice rather than a short receipt, remains uncollected. That is the document this corpus is missing, and I now have a tool that checks whether a candidate qualifies before it is labelled, rather than a feeling about it.</p>
+
+  <p>I also want to be clear that the direction of this result contradicts the hypothesis the project was built on. I expected real photographs to be much harder than synthetic renders. At n=2 there is no gap in that direction at all. Read that as unmeasured, not as disproved. But I am not going to keep stating the original expectation as though these two documents had not happened.</p>
+
+  <p>The back-filling finding itself does not depend on the photograph question. It is the first hallucination pattern in the repository found on a real document, and it was invisible until a matched pair made the model contradict itself.</p>
+
+  <h2>What I would take from this</h2>
+
+  <p>Three things, in increasing order of confidence.</p>
+
+  <p><strong>Least confident:</strong> that back-filling document-level fields onto line items is a common failure mode in document extraction. I have one document. It is a suggestive one, because the mechanism is obvious once seen, but it is one document.</p>
+
+  <p><strong>More confident:</strong> that separating <code>missing</code> from <code>spurious</code> is worth the extra machinery. The entire finding here is a category change from one to the other. Under a two-outcome scoring system, correcting the labels would have moved six errors from one model run to the other and revealed nothing about what kind of error they were.</p>
+
+  <p><strong>Most confident:</strong> that a paired design earns its place before it tells you anything about a model, because the first thing it is likely to catch is an error in your own ground truth. Mine had one. The pair found it, and it found it by producing a result that looked plausible and publishable, which is the kind of error that otherwise survives.</p>
+
+  <footer>
+    IndicDocBench is open source: <a href="https://github.com/lakshitasethia/indic-doc-bench">github.com/lakshitasethia/indic-doc-bench</a>. The full methodology, including the statistical choices and a longer limitations section, is in <a href="https://github.com/lakshitasethia/indic-doc-bench/blob/main/docs/METHODOLOGY.md">docs/METHODOLOGY.md</a>.
+  </footer>
+
+</div>
+</body>
+</html>
